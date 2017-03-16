@@ -19,7 +19,7 @@ Note that debugging and running plugins requires a license, so you'll need to re
 
 Links:
 
-- [Code reference](http://iiko.github.io/front.api.sdk/).
-- [Help topics](http://iiko.github.io/front.api.doc/) (available only in russian at the moment).
+- [Code reference](https://iiko.github.io/front.api.sdk/).
+- [Help topics](https://iiko.github.io/front.api.doc/) (available only in russian at the moment).
 - [Official site of iiko APIs](http://api.iiko.ru/).
 
