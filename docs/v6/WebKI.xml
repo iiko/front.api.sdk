@@ -1247,6 +1247,7 @@
     <HelpKINode Title="IOrderCompoundItem.CommonModifiers Property " Url="html/P_Resto_Front_Api_V6_Data_Orders_IOrderCompoundItem_CommonModifiers.htm" />
   </HelpKINode>
   <HelpKINode Title="CompanyName property" Url="html/P_Resto_Front_Api_V6_Data_Organization_IRestaurant_CompanyName.htm" />
+  <HelpKINode Title="CompoundItemComponents property" Url="html/P_Resto_Front_Api_V6_Data_Orders_ISelectiveDiscountItemSettings_CompoundItemComponents.htm" />
   <HelpKINode Title="CompoundItemTemplateChanged property" Url="html/P_Resto_Front_Api_V6_INotificationService_CompoundItemTemplateChanged.htm" />
   <HelpKINode Title="CompoundItemTemplateExtensions class">
     <HelpKINode Title="CompoundItemTemplateExtensions Class" Url="html/T_Resto_Front_Api_V6_Data_Assortment_CompoundItemTemplateExtensions.htm" />
@@ -1704,8 +1705,8 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
@@ -1714,8 +1715,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_Document_Lines.htm" />
@@ -2191,6 +2192,7 @@
   <HelpKINode Title="GetTables method" Url="html/M_Resto_Front_Api_V6_IOperationService_GetTables.htm" />
   <HelpKINode Title="GetTemplatedModifiersParams method" Url="html/M_Resto_Front_Api_V6_Data_Assortment_ProductExtensions_GetTemplatedModifiersParams.htm" />
   <HelpKINode Title="GetTemplatedModifiersParamsByProduct method" Url="html/M_Resto_Front_Api_V6_IOperationService_GetTemplatedModifiersParamsByProduct.htm" />
+  <HelpKINode Title="GetTransportSettings method" Url="html/M_Resto_Front_Api_V6_IOperationService_GetTransportSettings.htm" />
   <HelpKINode Title="GetUpdatedDeliveryOrders method" Url="html/M_Resto_Front_Api_V6_IOperationService_GetUpdatedDeliveryOrders.htm" />
   <HelpKINode Title="GetUser method" Url="html/M_Resto_Front_Api_V6_IOperationService_GetUser.htm" />
   <HelpKINode Title="GetUserById method" Url="html/M_Resto_Front_Api_V6_IOperationService_GetUserById.htm" />
@@ -3135,6 +3137,7 @@
   <HelpKINode Title="IOperationService.GetTableById method" Url="html/M_Resto_Front_Api_V6_IOperationService_GetTableById.htm" />
   <HelpKINode Title="IOperationService.GetTables method" Url="html/M_Resto_Front_Api_V6_IOperationService_GetTables.htm" />
   <HelpKINode Title="IOperationService.GetTemplatedModifiersParamsByProduct method" Url="html/M_Resto_Front_Api_V6_IOperationService_GetTemplatedModifiersParamsByProduct.htm" />
+  <HelpKINode Title="IOperationService.GetTransportSettings method" Url="html/M_Resto_Front_Api_V6_IOperationService_GetTransportSettings.htm" />
   <HelpKINode Title="IOperationService.GetUpdatedDeliveryOrders method" Url="html/M_Resto_Front_Api_V6_IOperationService_GetUpdatedDeliveryOrders.htm" />
   <HelpKINode Title="IOperationService.GetUser method" Url="html/M_Resto_Front_Api_V6_IOperationService_GetUser.htm" />
   <HelpKINode Title="IOperationService.GetUserById method" Url="html/M_Resto_Front_Api_V6_IOperationService_GetUserById.htm" />
@@ -3738,6 +3741,7 @@
     <HelpKINode Title="ISelectiveDiscountItemSettings Interface" Url="html/T_Resto_Front_Api_V6_Data_Orders_ISelectiveDiscountItemSettings.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Orders_ISelectiveDiscountItemSettings.htm" />
   </HelpKINode>
+  <HelpKINode Title="ISelectiveDiscountItemSettings.CompoundItemComponents property" Url="html/P_Resto_Front_Api_V6_Data_Orders_ISelectiveDiscountItemSettings_CompoundItemComponents.htm" />
   <HelpKINode Title="ISelectiveDiscountItemSettings.Modifiers property" Url="html/P_Resto_Front_Api_V6_Data_Orders_ISelectiveDiscountItemSettings_Modifiers.htm" />
   <HelpKINode Title="ISelectiveDiscountItemSettings.Products property" Url="html/P_Resto_Front_Api_V6_Data_Orders_ISelectiveDiscountItemSettings_Products.htm" />
   <HelpKINode Title="IsEnabled property">
@@ -3880,6 +3884,12 @@
   <HelpKINode Title="ITerminalsGroup.Name property" Url="html/P_Resto_Front_Api_V6_Data_Organization_ITerminalsGroup_Name.htm" />
   <HelpKINode Title="ITerminalsGroup.PriceCategory property" Url="html/P_Resto_Front_Api_V6_Data_Organization_ITerminalsGroup_PriceCategory.htm" />
   <HelpKINode Title="ITerminalsGroup.ServicePrintOnOrderExit property" Url="html/P_Resto_Front_Api_V6_Data_Organization_ITerminalsGroup_ServicePrintOnOrderExit.htm" />
+  <HelpKINode Title="ITransportSettings interface">
+    <HelpKINode Title="ITransportSettings Interface" Url="html/T_Resto_Front_Api_V6_Data_Organization_ITransportSettings.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Organization_ITransportSettings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Organization_ITransportSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITransportSettings.ServerUri property" Url="html/P_Resto_Front_Api_V6_Data_Organization_ITransportSettings_ServerUri.htm" />
   <HelpKINode Title="Itself enumeration member" Url="html/T_Resto_Front_Api_V6_Attributes_JetBrains_ImplicitUseTargetFlags.htm" />
   <HelpKINode Title="IUnknownScreen interface">
     <HelpKINode Title="IUnknownScreen Interface" Url="html/T_Resto_Front_Api_V6_Data_Screens_IUnknownScreen.htm" />
@@ -5497,6 +5507,7 @@
   <HelpKINode Title="Resto.Front.Api.V6.Data.Organization.IPointOfSale interface" Url="html/T_Resto_Front_Api_V6_Data_Organization_IPointOfSale.htm" />
   <HelpKINode Title="Resto.Front.Api.V6.Data.Organization.IRestaurant interface" Url="html/T_Resto_Front_Api_V6_Data_Organization_IRestaurant.htm" />
   <HelpKINode Title="Resto.Front.Api.V6.Data.Organization.ITerminalsGroup interface" Url="html/T_Resto_Front_Api_V6_Data_Organization_ITerminalsGroup.htm" />
+  <HelpKINode Title="Resto.Front.Api.V6.Data.Organization.ITransportSettings interface" Url="html/T_Resto_Front_Api_V6_Data_Organization_ITransportSettings.htm" />
   <HelpKINode Title="Resto.Front.Api.V6.Data.Organization.OrderServiceType enumeration" Url="html/T_Resto_Front_Api_V6_Data_Organization_OrderServiceType.htm" />
   <HelpKINode Title="Resto.Front.Api.V6.Data.Organization.OrderTypeFillRequirements enumeration" Url="html/T_Resto_Front_Api_V6_Data_Organization_OrderTypeFillRequirements.htm" />
   <HelpKINode Title="Resto.Front.Api.V6.Data.Organization.Sections namespace" Url="html/N_Resto_Front_Api_V6_Data_Organization_Sections.htm" />
@@ -5772,6 +5783,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Exceptions_ServerConnectionException.htm" />
   </HelpKINode>
   <HelpKINode Title="ServerConnectionException.ServerConnectionException constructor" Url="html/Overload_Resto_Front_Api_V6_Exceptions_ServerConnectionException__ctor.htm" />
+  <HelpKINode Title="ServerUri property" Url="html/P_Resto_Front_Api_V6_Data_Organization_ITransportSettings_ServerUri.htm" />
   <HelpKINode Title="ServeTime property">
     <HelpKINode Title="IKitchenOrderCookingItem.ServeTime Property " Url="html/P_Resto_Front_Api_V6_Data_Kitchen_IKitchenOrderCookingItem_ServeTime.htm" />
     <HelpKINode Title="IKitchenOrderItemModifier.ServeTime Property " Url="html/P_Resto_Front_Api_V6_Data_Kitchen_IKitchenOrderItemModifier_ServeTime.htm" />
