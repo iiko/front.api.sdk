@@ -45,7 +45,7 @@ namespace Resto.Front.Api.SamplePlugin
             using (var process = new Process
             {
                 EnableRaisingEvents = false,
-                StartInfo = { FileName = @"http://api.iiko.ru/" }
+                StartInfo = { FileName = @"https://iiko.github.io/front.api.doc/" }
             })
             {
                 process.Start();
