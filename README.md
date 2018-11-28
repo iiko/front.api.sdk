@@ -22,5 +22,5 @@ Links:
 - [Code reference](https://iiko.github.io/front.api.sdk/v5/).
 - [Help topics](https://iiko.github.io/front.api.doc/) (available only in russian at the moment).
 - [Official site of iiko APIs](http://help.iiko.ru/articles/api-documentations/getting-started).
-- [Sample](https://iiko.github.io/front.api.sdk/sample/).
+- [Sample](https://github.com/iiko/front.api.sdk/tree/master/sample).
 
