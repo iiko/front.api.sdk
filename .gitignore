@@ -1,3 +1,14 @@
 .vs
 obj
 bin
+
+# temporary file created by buildserver
+/*.tmp
+
+# unrelated files created by shfb
+docs/*/Web.Config
+docs/*/*.php
+docs/*/*.aspx
+docs/*/*.log
+docs/*/*.chm
+docs/.nojekyll
