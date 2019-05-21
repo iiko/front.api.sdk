@@ -19,7 +19,9 @@ Note that debugging and running plugins requires a license, so you'll need to re
 
 Links:
 
-- [Code reference](https://iiko.github.io/front.api.sdk/v5/).
+- [Code reference API V4](https://iiko.github.io/front.api.sdk/v4/) (obsolete).
+- [Code reference API V5](https://iiko.github.io/front.api.sdk/v5/) (current).
+- [Code reference API V6](https://iiko.github.io/front.api.sdk/v6/) (preview).
 - [Help topics](https://iiko.github.io/front.api.doc/) (available only in russian at the moment).
 - [Official site of iiko APIs](http://help.iiko.ru/articles/api-documentations/getting-started).
 - [Sample](https://github.com/iiko/front.api.sdk/tree/master/sample).
