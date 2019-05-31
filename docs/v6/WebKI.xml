@@ -1084,6 +1084,10 @@
     <HelpKINode Title="IEditSession.ChangeOrderPricingTime Method " Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_ChangeOrderPricingTime.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeOrderPricingTime Method " Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_ChangeOrderPricingTime.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChangeOrderTables method">
+    <HelpKINode Title="IEditSession.ChangeOrderTables Method " Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_ChangeOrderTables.htm" />
+    <HelpKINode Title="OperationServiceExtensions.ChangeOrderTables Method " Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_ChangeOrderTables.htm" />
+  </HelpKINode>
   <HelpKINode Title="ChangeOrderWaiter method">
     <HelpKINode Title="IEditSession.ChangeOrderWaiter Method " Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_ChangeOrderWaiter.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeOrderWaiter Method " Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_ChangeOrderWaiter.htm" />
@@ -1846,14 +1850,14 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_V6_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_V6_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_DirectIoResult_Document.htm" />
@@ -2848,6 +2852,7 @@
   <HelpKINode Title="IEditSession.ChangeOrderModifierItemAmount method" Url="html/Overload_Resto_Front_Api_V6_Editors_IEditSession_ChangeOrderModifierItemAmount.htm" />
   <HelpKINode Title="IEditSession.ChangeOrderOriginName method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_ChangeOrderOriginName.htm" />
   <HelpKINode Title="IEditSession.ChangeOrderPricingTime method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_ChangeOrderPricingTime.htm" />
+  <HelpKINode Title="IEditSession.ChangeOrderTables method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_ChangeOrderTables.htm" />
   <HelpKINode Title="IEditSession.ChangeOrderWaiter method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_ChangeOrderWaiter.htm" />
   <HelpKINode Title="IEditSession.ChangePaymentItemCustomData method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_ChangePaymentItemCustomData.htm" />
   <HelpKINode Title="IEditSession.ChangePaymentItemSum method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_ChangePaymentItemSum.htm" />
@@ -4820,6 +4825,7 @@
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderModifierItemAmount method" Url="html/Overload_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_ChangeOrderModifierItemAmount.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderOriginName method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_ChangeOrderOriginName.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderPricingTime method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_ChangeOrderPricingTime.htm" />
+  <HelpKINode Title="OperationServiceExtensions.ChangeOrderTables method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_ChangeOrderTables.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderWaiter method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_ChangeOrderWaiter.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangePaymentItemCustomData method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_ChangePaymentItemCustomData.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangePaymentItemSum method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_ChangePaymentItemSum.htm" />
