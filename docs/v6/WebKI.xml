@@ -1851,12 +1851,12 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_V6_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_V6_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
@@ -3571,6 +3571,7 @@
   <HelpKINode Title="IOrderCombo.Name property" Url="html/P_Resto_Front_Api_V6_Data_Orders_IOrderCombo_Name.htm" />
   <HelpKINode Title="IOrderCombo.OrderRootItemsByGroups property" Url="html/P_Resto_Front_Api_V6_Data_Orders_IOrderCombo_OrderRootItemsByGroups.htm" />
   <HelpKINode Title="IOrderCombo.Price property" Url="html/P_Resto_Front_Api_V6_Data_Orders_IOrderCombo_Price.htm" />
+  <HelpKINode Title="IOrderCombo.ProgramId property" Url="html/P_Resto_Front_Api_V6_Data_Orders_IOrderCombo_ProgramId.htm" />
   <HelpKINode Title="IOrderCombo.SourceActionId property" Url="html/P_Resto_Front_Api_V6_Data_Orders_IOrderCombo_SourceActionId.htm" />
   <HelpKINode Title="IOrderComboStub interface" Url="html/T_Resto_Front_Api_V6_Editors_Stubs_IOrderComboStub.htm" />
   <HelpKINode Title="IOrderCompoundItem interface">
@@ -5028,7 +5029,6 @@
   <HelpKINode Title="PaymentTypeId property" Url="html/P_Resto_Front_Api_V6_Exceptions_PaymentTypeConfigurationException_PaymentTypeId.htm" />
   <HelpKINode Title="PaymentTypeKind enumeration" Url="html/T_Resto_Front_Api_V6_Data_Payments_PaymentTypeKind.htm" />
   <HelpKINode Title="PaymentTypes property" Url="html/P_Resto_Front_Api_V6_Data_Payments_IDonationType_PaymentTypes.htm" />
-  <HelpKINode Title="PaymentTypesInfo property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_QueryInfoResult_PaymentTypesInfo.htm" />
   <HelpKINode Title="PayOrder method" Url="html/M_Resto_Front_Api_V6_IOperationService_PayOrder.htm" />
   <HelpKINode Title="PayOrderAndPayOutOnUser method" Url="html/M_Resto_Front_Api_V6_IOperationService_PayOrderAndPayOutOnUser.htm" />
   <HelpKINode Title="PaySilently method" Url="html/M_Resto_Front_Api_V6_IExternalPaymentProcessor_PaySilently.htm" />
@@ -5365,6 +5365,7 @@
   <HelpKINode Title="ProductsSellingRestrictions.ProductsSellingRestrictions constructor" Url="html/M_Resto_Front_Api_V6_Data_Orders_ProductsSellingRestrictions__ctor.htm" />
   <HelpKINode Title="ProductStocksListChanged property" Url="html/P_Resto_Front_Api_V6_INotificationService_ProductStocksListChanged.htm" />
   <HelpKINode Title="ProductType enumeration" Url="html/T_Resto_Front_Api_V6_Data_Assortment_ProductType.htm" />
+  <HelpKINode Title="ProgramId property" Url="html/P_Resto_Front_Api_V6_Data_Orders_IOrderCombo_ProgramId.htm" />
   <HelpKINode Title="ProvidesContextAttribute class">
     <HelpKINode Title="ProvidesContextAttribute Class" Url="html/T_Resto_Front_Api_V6_Attributes_JetBrains_ProvidesContextAttribute.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_V6_Attributes_JetBrains_ProvidesContextAttribute__ctor.htm" />
@@ -5394,10 +5395,8 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_Results_QueryInfoResult.htm" />
   </HelpKINode>
   <HelpKINode Title="QueryInfoResult.CapQueryElectronicJournalByLastSession property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_QueryInfoResult_CapQueryElectronicJournalByLastSession.htm" />
-  <HelpKINode Title="QueryInfoResult.PaymentTypesInfo property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_QueryInfoResult_PaymentTypesInfo.htm" />
   <HelpKINode Title="QueryInfoResult.QueryInfoResult constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_QueryInfoResult__ctor.htm" />
   <HelpKINode Title="QueryInfoResult.SupportedCommands property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_QueryInfoResult_SupportedCommands.htm" />
-  <HelpKINode Title="QueryInfoResult.TaxesInfo property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_QueryInfoResult_TaxesInfo.htm" />
   <HelpKINode Title="QueryInfoResult.ToString method" Url="html/M_Resto_Front_Api_V6_Data_Device_Results_QueryInfoResult_ToString.htm" />
   <HelpKINode Title="Question property" Url="html/P_Resto_Front_Api_V6_Data_Brd_ISurveyItem_Question.htm" />
   <HelpKINode Title="QuickMenuUpdated property" Url="html/P_Resto_Front_Api_V6_INotificationService_QuickMenuUpdated.htm" />
@@ -6616,7 +6615,6 @@
     <HelpKINode Title="ChequeTask.TaxationSystem Property " Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeTask_TaxationSystem.htm" />
     <HelpKINode Title="CorrectionTask.TaxationSystem Property " Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_CorrectionTask_TaxationSystem.htm" />
   </HelpKINode>
-  <HelpKINode Title="TaxesInfo property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_QueryInfoResult_TaxesInfo.htm" />
   <HelpKINode Title="TaxId property">
     <HelpKINode Title="ChequeSale.TaxId Property " Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeSale_TaxId.htm" />
     <HelpKINode Title="FiscalRegisterTaxItem.TaxId Property " Url="html/P_Resto_Front_Api_V6_Data_Device_Results_FiscalRegisterTaxItem_TaxId.htm" />
