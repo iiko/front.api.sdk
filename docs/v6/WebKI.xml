@@ -687,6 +687,7 @@
   <HelpKINode Title="CannotUseInactiveEntityException.CannotUseInactiveEntityException constructor" Url="html/M_Resto_Front_Api_V6_Exceptions_CannotUseInactiveEntityException__ctor.htm" />
   <HelpKINode Title="CanPaySilently method" Url="html/M_Resto_Front_Api_V6_IExternalPaymentProcessor_CanPaySilently.htm" />
   <HelpKINode Title="CanPrintBarcode property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_CanPrintBarcode.htm" />
+  <HelpKINode Title="CanPrintLogo property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_CanPrintLogo.htm" />
   <HelpKINode Title="CanPrintQRCode property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_CanPrintQRCode.htm" />
   <HelpKINode Title="CanPrintText property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_CanPrintText.htm" />
   <HelpKINode Title="CanProductBePaidWithPaymentType method" Url="html/M_Resto_Front_Api_V6_IOperationService_CanProductBePaidWithPaymentType.htm" />
@@ -776,6 +777,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters.htm" />
   </HelpKINode>
   <HelpKINode Title="CashRegisterDriverParameters.CanPrintBarcode property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_CanPrintBarcode.htm" />
+  <HelpKINode Title="CashRegisterDriverParameters.CanPrintLogo property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_CanPrintLogo.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.CanPrintQRCode property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_CanPrintQRCode.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.CanPrintText property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_CanPrintText.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.CanUseFontSizes property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_CanUseFontSizes.htm" />
@@ -1871,17 +1873,17 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_Document_Lines.htm" />
