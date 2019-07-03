@@ -1736,6 +1736,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Exceptions_DeviceException.htm" />
   </HelpKINode>
   <HelpKINode Title="DeviceException.DeviceException constructor" Url="html/Overload_Resto_Front_Api_V6_Exceptions_DeviceException__ctor.htm" />
+  <HelpKINode Title="DeviceException.InternalErrorCode property" Url="html/P_Resto_Front_Api_V6_Exceptions_DeviceException_InternalErrorCode.htm" />
   <HelpKINode Title="DeviceId property">
     <HelpKINode Title="DeviceSettings.DeviceId Property " Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_DeviceSettings_DeviceId.htm" />
     <HelpKINode Title="IDevice.DeviceId Property " Url="html/P_Resto_Front_Api_V6_Devices_IDevice_DeviceId.htm" />
@@ -1871,8 +1872,8 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
@@ -1882,8 +1883,8 @@
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_Document_Lines.htm" />
@@ -2111,6 +2112,7 @@
   <HelpKINode Title="ExternalPaymentItemAdditionalData.Equals method" Url="html/Overload_Resto_Front_Api_V6_Data_Payments_ExternalPaymentItemAdditionalData_Equals.htm" />
   <HelpKINode Title="ExternalPaymentItemAdditionalData.ExternalPaymentItemAdditionalData constructor" Url="html/M_Resto_Front_Api_V6_Data_Payments_ExternalPaymentItemAdditionalData__ctor.htm" />
   <HelpKINode Title="ExternalPaymentItemAdditionalData.GetHashCode method" Url="html/M_Resto_Front_Api_V6_Data_Payments_ExternalPaymentItemAdditionalData_GetHashCode.htm" />
+  <HelpKINode Title="FastCode property" Url="html/P_Resto_Front_Api_V6_Data_Assortment_IProduct_FastCode.htm" />
   <HelpKINode Title="Female enumeration member" Url="html/T_Resto_Front_Api_V6_Data_Brd_Gender.htm" />
   <HelpKINode Title="FieldName property" Url="html/P_Resto_Front_Api_V6_Attributes_JetBrains_RazorInjectionAttribute_FieldName.htm" />
   <HelpKINode Title="Fifth enumeration member" Url="html/T_Resto_Front_Api_V6_Data_Orders_OrderItemCourse.htm" />
@@ -3305,6 +3307,7 @@
   <HelpKINode Title="InternalCustomerDisplaySettings.IsEnabled property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_InternalCustomerDisplaySettings_IsEnabled.htm" />
   <HelpKINode Title="InternalCustomerDisplaySettings.Rows property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_InternalCustomerDisplaySettings_Rows.htm" />
   <HelpKINode Title="InternalCustomerDisplaySettings.ToString method" Url="html/M_Resto_Front_Api_V6_Data_Device_Settings_InternalCustomerDisplaySettings_ToString.htm" />
+  <HelpKINode Title="InternalErrorCode property" Url="html/P_Resto_Front_Api_V6_Exceptions_DeviceException_InternalErrorCode.htm" />
   <HelpKINode Title="Intervals property" Url="html/P_Resto_Front_Api_V6_Data_Orders_RateScheduleItem_Intervals.htm" />
   <HelpKINode Title="Invoke method">
     <HelpKINode Title="RemotableAction(T).Invoke Method " Url="html/M_Resto_Front_Api_V6_RemotingHelpers_RemotableAction_1_Invoke.htm" />
@@ -3882,6 +3885,7 @@
   <HelpKINode Title="IProduct.Description property" Url="html/P_Resto_Front_Api_V6_Data_Assortment_IProduct_Description.htm" />
   <HelpKINode Title="IProduct.DescriptionForeign property" Url="html/P_Resto_Front_Api_V6_Data_Assortment_IProduct_DescriptionForeign.htm" />
   <HelpKINode Title="IProduct.ExpirationTime property" Url="html/P_Resto_Front_Api_V6_Data_Assortment_IProduct_ExpirationTime.htm" />
+  <HelpKINode Title="IProduct.FastCode property" Url="html/P_Resto_Front_Api_V6_Data_Assortment_IProduct_FastCode.htm" />
   <HelpKINode Title="IProduct.FontColor property" Url="html/P_Resto_Front_Api_V6_Data_Assortment_IProduct_FontColor.htm" />
   <HelpKINode Title="IProduct.FoodValueCaloricity property" Url="html/P_Resto_Front_Api_V6_Data_Assortment_IProduct_FoodValueCaloricity.htm" />
   <HelpKINode Title="IProduct.FoodValueCarbohydrate property" Url="html/P_Resto_Front_Api_V6_Data_Assortment_IProduct_FoodValueCarbohydrate.htm" />
