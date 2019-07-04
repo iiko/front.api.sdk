@@ -1502,17 +1502,20 @@
     <HelpKINode Title="IEditSession.CreateBanquet Method " Url="html/Overload_Resto_Front_Api_V6_Editors_IEditSession_CreateBanquet.htm" />
     <HelpKINode Title="OperationServiceExtensions.CreateBanquet Method " Url="html/Overload_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_CreateBanquet.htm" />
   </HelpKINode>
-  <HelpKINode Title="CreateClient method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_CreateClient.htm" />
+  <HelpKINode Title="CreateClient method">
+    <HelpKINode Title="IEditSession.CreateClient Method " Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_CreateClient.htm" />
+    <HelpKINode Title="OperationServiceExtensions.CreateClient Method " Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_CreateClient.htm" />
+  </HelpKINode>
   <HelpKINode Title="CreateConstructorReferences property" Url="html/P_Resto_Front_Api_V6_Attributes_JetBrains_AspTypePropertyAttribute_CreateConstructorReferences.htm" />
   <HelpKINode Title="Created enumeration member" Url="html/T_Resto_Front_Api_V6_Data_Common_EntityEventType.htm" />
   <HelpKINode Title="CreateDeliveryOrder method" Url="html/Overload_Resto_Front_Api_V6_Editors_IEditSession_CreateDeliveryOrder.htm" />
+  <HelpKINode Title="CreateDiscountCard method" Url="html/M_Resto_Front_Api_V6_IOperationService_CreateDiscountCard.htm" />
   <HelpKINode Title="CreateEditSession method" Url="html/M_Resto_Front_Api_V6_IOperationService_CreateEditSession.htm" />
   <HelpKINode Title="CreateJournalEvent method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_CreateJournalEvent.htm" />
   <HelpKINode Title="CreateOrder method">
     <HelpKINode Title="EditSessionExtensions.CreateOrder Method " Url="html/M_Resto_Front_Api_V6_Extensions_EditSessionExtensions_CreateOrder.htm" />
     <HelpKINode Title="IEditSession.CreateOrder Method " Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_CreateOrder.htm" />
   </HelpKINode>
-  <HelpKINode Title="CreateOrUpdateDiscountCard method" Url="html/M_Resto_Front_Api_V6_IOperationService_CreateOrUpdateDiscountCard.htm" />
   <HelpKINode Title="CreatePreliminaryOrder method" Url="html/M_Resto_Front_Api_V6_IOperationService_CreatePreliminaryOrder.htm" />
   <HelpKINode Title="CreateReserve method">
     <HelpKINode Title="EditSessionExtensions.CreateReserve Method " Url="html/M_Resto_Front_Api_V6_Extensions_EditSessionExtensions_CreateReserve.htm" />
@@ -1874,17 +1877,17 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_Document_Lines.htm" />
@@ -2775,6 +2778,7 @@
   </HelpKINode>
   <HelpKINode Title="IDiscountCard.CardNumber property" Url="html/P_Resto_Front_Api_V6_Data_Orders_IDiscountCard_CardNumber.htm" />
   <HelpKINode Title="IDiscountCard.DiscountType property" Url="html/P_Resto_Front_Api_V6_Data_Orders_IDiscountCard_DiscountType.htm" />
+  <HelpKINode Title="IDiscountCard.OwnerName property" Url="html/P_Resto_Front_Api_V6_Data_Orders_IDiscountCard_OwnerName.htm" />
   <HelpKINode Title="IDiscountCard.PriceCategory property" Url="html/P_Resto_Front_Api_V6_Data_Orders_IDiscountCard_PriceCategory.htm" />
   <HelpKINode Title="IDiscountItem interface">
     <HelpKINode Title="IDiscountItem Interface" Url="html/T_Resto_Front_Api_V6_Data_Orders_IDiscountItem.htm" />
@@ -3349,8 +3353,8 @@
   <HelpKINode Title="IOperationService.CheckCanEditOrder method" Url="html/M_Resto_Front_Api_V6_IOperationService_CheckCanEditOrder.htm" />
   <HelpKINode Title="IOperationService.CheckProductsSellingRestrictions method" Url="html/M_Resto_Front_Api_V6_IOperationService_CheckProductsSellingRestrictions.htm" />
   <HelpKINode Title="IOperationService.CloseCafeSession method" Url="html/M_Resto_Front_Api_V6_IOperationService_CloseCafeSession.htm" />
+  <HelpKINode Title="IOperationService.CreateDiscountCard method" Url="html/M_Resto_Front_Api_V6_IOperationService_CreateDiscountCard.htm" />
   <HelpKINode Title="IOperationService.CreateEditSession method" Url="html/M_Resto_Front_Api_V6_IOperationService_CreateEditSession.htm" />
-  <HelpKINode Title="IOperationService.CreateOrUpdateDiscountCard method" Url="html/M_Resto_Front_Api_V6_IOperationService_CreateOrUpdateDiscountCard.htm" />
   <HelpKINode Title="IOperationService.CreatePreliminaryOrder method" Url="html/M_Resto_Front_Api_V6_IOperationService_CreatePreliminaryOrder.htm" />
   <HelpKINode Title="IOperationService.DeleteOrder method" Url="html/M_Resto_Front_Api_V6_IOperationService_DeleteOrder.htm" />
   <HelpKINode Title="IOperationService.DeleteOrderAndHideItemsFromOlap method" Url="html/M_Resto_Front_Api_V6_IOperationService_DeleteOrderAndHideItemsFromOlap.htm" />
@@ -3554,6 +3558,7 @@
   <HelpKINode Title="IOperationService.TryGetTableById method" Url="html/M_Resto_Front_Api_V6_IOperationService_TryGetTableById.htm" />
   <HelpKINode Title="IOperationService.TryGetTemplatedModifiersParamsByProduct method" Url="html/M_Resto_Front_Api_V6_IOperationService_TryGetTemplatedModifiersParamsByProduct.htm" />
   <HelpKINode Title="IOperationService.TryGetUserById method" Url="html/M_Resto_Front_Api_V6_IOperationService_TryGetUserById.htm" />
+  <HelpKINode Title="IOperationService.UpdateDiscountCard method" Url="html/M_Resto_Front_Api_V6_IOperationService_UpdateDiscountCard.htm" />
   <HelpKINode Title="IOrder interface">
     <HelpKINode Title="IOrder Interface" Url="html/T_Resto_Front_Api_V6_Data_Orders_IOrder.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Orders_IOrder.htm" />
@@ -4905,6 +4910,7 @@
   <HelpKINode Title="OperationServiceExtensions.ChangeSelectiveDiscount method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_ChangeSelectiveDiscount.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeStreetName method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_ChangeStreetName.htm" />
   <HelpKINode Title="OperationServiceExtensions.CreateBanquet method" Url="html/Overload_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_CreateBanquet.htm" />
+  <HelpKINode Title="OperationServiceExtensions.CreateClient method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_CreateClient.htm" />
   <HelpKINode Title="OperationServiceExtensions.CreateReserve method" Url="html/Overload_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_CreateReserve.htm" />
   <HelpKINode Title="OperationServiceExtensions.CreateStreet method" Url="html/Overload_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_CreateStreet.htm" />
   <HelpKINode Title="OperationServiceExtensions.DeleteDiscount method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_DeleteDiscount.htm" />
@@ -4984,6 +4990,7 @@
     <HelpKINode Title="IPreliminaryOrder.OriginName Property " Url="html/P_Resto_Front_Api_V6_Data_PreliminaryOrders_IPreliminaryOrder_OriginName.htm" />
   </HelpKINode>
   <HelpKINode Title="Other enumeration member" Url="html/T_Resto_Front_Api_V6_Data_Brd_ReserveCancelReason.htm" />
+  <HelpKINode Title="OwnerName property" Url="html/P_Resto_Front_Api_V6_Data_Orders_IDiscountCard_OwnerName.htm" />
   <HelpKINode Title="OwnInitiative enumeration member" Url="html/T_Resto_Front_Api_V6_Data_Device_Tasks_CorrectionReasonEnum.htm" />
   <HelpKINode Title="Pagecut field" Url="html/F_Resto_Front_Api_V6_Data_Cheques_Tags_Pagecut.htm" />
   <HelpKINode Title="PageName property" Url="html/P_Resto_Front_Api_V6_Attributes_JetBrains_RazorPageBaseTypeAttribute_PageName.htm" />
@@ -6884,6 +6891,7 @@
   </HelpKINode>
   <HelpKINode Title="Updated enumeration member" Url="html/T_Resto_Front_Api_V6_Data_Common_EntityEventType.htm" />
   <HelpKINode Title="UpdatedContent enumeration member" Url="html/T_Resto_Front_Api_V6_Attributes_JetBrains_CollectionAccessType.htm" />
+  <HelpKINode Title="UpdateDiscountCard method" Url="html/M_Resto_Front_Api_V6_IOperationService_UpdateDiscountCard.htm" />
   <HelpKINode Title="UpdateOrderComboItems method">
     <HelpKINode Title="IEditSession.UpdateOrderComboItems Method " Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_UpdateOrderComboItems.htm" />
     <HelpKINode Title="OperationServiceExtensions.UpdateOrderComboItems Method " Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_UpdateOrderComboItems.htm" />
