@@ -1233,6 +1233,7 @@
   <HelpKINode Title="ChequeSale.Amount property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeSale_Amount.htm" />
   <HelpKINode Title="ChequeSale.ChequeSale constructor" Url="html/M_Resto_Front_Api_V6_Data_Device_Tasks_ChequeSale__ctor.htm" />
   <HelpKINode Title="ChequeSale.Code property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeSale_Code.htm" />
+  <HelpKINode Title="ChequeSale.Comment property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeSale_Comment.htm" />
   <HelpKINode Title="ChequeSale.CommodityCode property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeSale_CommodityCode.htm" />
   <HelpKINode Title="ChequeSale.Contractor property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeSale_Contractor.htm" />
   <HelpKINode Title="ChequeSale.Discount property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeSale_Discount.htm" />
@@ -1350,6 +1351,7 @@
   <HelpKINode Title="Comment enumeration member" Url="html/T_Resto_Front_Api_V6_Data_Search_ClientFields.htm" />
   <HelpKINode Title="Comment property">
     <HelpKINode Title="ChequeCardPayment.Comment Property " Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeCardPayment_Comment.htm" />
+    <HelpKINode Title="ChequeSale.Comment Property " Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeSale_Comment.htm" />
     <HelpKINode Title="DeviceInfo.Comment Property " Url="html/P_Resto_Front_Api_V6_Data_Device_Results_DeviceInfo_Comment.htm" />
     <HelpKINode Title="EmailDto.Comment Property " Url="html/P_Resto_Front_Api_V6_Data_Brd_EmailDto_Comment.htm" />
     <HelpKINode Title="IClient.Comment Property " Url="html/P_Resto_Front_Api_V6_Data_Brd_IClient_Comment.htm" />
@@ -1622,6 +1624,10 @@
     <HelpKINode Title="IEditSession.DeleteOrderCombo Method " Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_DeleteOrderCombo.htm" />
     <HelpKINode Title="OperationServiceExtensions.DeleteOrderCombo Method " Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_DeleteOrderCombo.htm" />
   </HelpKINode>
+  <HelpKINode Title="DeleteOrderExternalData method">
+    <HelpKINode Title="IEditSession.DeleteOrderExternalData Method " Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_DeleteOrderExternalData.htm" />
+    <HelpKINode Title="OperationServiceExtensions.DeleteOrderExternalData Method " Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_DeleteOrderExternalData.htm" />
+  </HelpKINode>
   <HelpKINode Title="DeleteOrderGuest method">
     <HelpKINode Title="IEditSession.DeleteOrderGuest Method " Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_DeleteOrderGuest.htm" />
     <HelpKINode Title="OperationServiceExtensions.DeleteOrderGuest Method " Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_DeleteOrderGuest.htm" />
@@ -1875,8 +1881,8 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
@@ -1886,8 +1892,8 @@
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_Document_Lines.htm" />
@@ -2919,6 +2925,7 @@
   <HelpKINode Title="IEditSession.DeleteDiscount method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_DeleteDiscount.htm" />
   <HelpKINode Title="IEditSession.DeleteExternalPaymentItem method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_DeleteExternalPaymentItem.htm" />
   <HelpKINode Title="IEditSession.DeleteOrderCombo method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_DeleteOrderCombo.htm" />
+  <HelpKINode Title="IEditSession.DeleteOrderExternalData method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_DeleteOrderExternalData.htm" />
   <HelpKINode Title="IEditSession.DeleteOrderGuest method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_DeleteOrderGuest.htm" />
   <HelpKINode Title="IEditSession.DeleteOrderItem method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_DeleteOrderItem.htm" />
   <HelpKINode Title="IEditSession.DeleteOrderItemComment method" Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_DeleteOrderItemComment.htm" />
@@ -4916,6 +4923,7 @@
   <HelpKINode Title="OperationServiceExtensions.DeleteDiscount method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_DeleteDiscount.htm" />
   <HelpKINode Title="OperationServiceExtensions.DeleteExternalPaymentItem method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_DeleteExternalPaymentItem.htm" />
   <HelpKINode Title="OperationServiceExtensions.DeleteOrderCombo method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_DeleteOrderCombo.htm" />
+  <HelpKINode Title="OperationServiceExtensions.DeleteOrderExternalData method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_DeleteOrderExternalData.htm" />
   <HelpKINode Title="OperationServiceExtensions.DeleteOrderGuest method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_DeleteOrderGuest.htm" />
   <HelpKINode Title="OperationServiceExtensions.DeleteOrderItem method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_DeleteOrderItem.htm" />
   <HelpKINode Title="OperationServiceExtensions.DeleteOrderItemComment method" Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_DeleteOrderItemComment.htm" />
