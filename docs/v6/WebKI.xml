@@ -1614,6 +1614,7 @@
     <HelpKINode Title="IEditSession.DeleteDiscount Method " Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_DeleteDiscount.htm" />
     <HelpKINode Title="OperationServiceExtensions.DeleteDiscount Method " Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_DeleteDiscount.htm" />
   </HelpKINode>
+  <HelpKINode Title="DeleteDonation method" Url="html/M_Resto_Front_Api_V6_IOperationService_DeleteDonation.htm" />
   <HelpKINode Title="DeleteExternalPaymentItem method">
     <HelpKINode Title="IEditSession.DeleteExternalPaymentItem Method " Url="html/M_Resto_Front_Api_V6_Editors_IEditSession_DeleteExternalPaymentItem.htm" />
     <HelpKINode Title="OperationServiceExtensions.DeleteExternalPaymentItem Method " Url="html/M_Resto_Front_Api_V6_Extensions_OperationServiceExtensions_DeleteExternalPaymentItem.htm" />
@@ -1879,10 +1880,10 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_V6_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_V6_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
@@ -3363,6 +3364,7 @@
   <HelpKINode Title="IOperationService.CreateDiscountCard method" Url="html/M_Resto_Front_Api_V6_IOperationService_CreateDiscountCard.htm" />
   <HelpKINode Title="IOperationService.CreateEditSession method" Url="html/M_Resto_Front_Api_V6_IOperationService_CreateEditSession.htm" />
   <HelpKINode Title="IOperationService.CreatePreliminaryOrder method" Url="html/M_Resto_Front_Api_V6_IOperationService_CreatePreliminaryOrder.htm" />
+  <HelpKINode Title="IOperationService.DeleteDonation method" Url="html/M_Resto_Front_Api_V6_IOperationService_DeleteDonation.htm" />
   <HelpKINode Title="IOperationService.DeleteOrder method" Url="html/M_Resto_Front_Api_V6_IOperationService_DeleteOrder.htm" />
   <HelpKINode Title="IOperationService.DeleteOrderAndHideItemsFromOlap method" Url="html/M_Resto_Front_Api_V6_IOperationService_DeleteOrderAndHideItemsFromOlap.htm" />
   <HelpKINode Title="IOperationService.DeletePreliminaryOrder method" Url="html/M_Resto_Front_Api_V6_IOperationService_DeletePreliminaryOrder.htm" />
