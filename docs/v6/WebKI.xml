@@ -1265,6 +1265,8 @@
   <HelpKINode Title="ChequeTask.ChequeTask constructor" Url="html/M_Resto_Front_Api_V6_Data_Device_Tasks_ChequeTask__ctor.htm" />
   <HelpKINode Title="ChequeTask.ConsiderationSum property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeTask_ConsiderationSum.htm" />
   <HelpKINode Title="ChequeTask.CreditSum property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeTask_CreditSum.htm" />
+  <HelpKINode Title="ChequeTask.CustomerName property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeTask_CustomerName.htm" />
+  <HelpKINode Title="ChequeTask.CustomerTin property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeTask_CustomerTin.htm" />
   <HelpKINode Title="ChequeTask.IsOfdElectronicChequeOnly property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeTask_IsOfdElectronicChequeOnly.htm" />
   <HelpKINode Title="ChequeTask.IsPrepay property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeTask_IsPrepay.htm" />
   <HelpKINode Title="ChequeTask.OfdEmail property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeTask_OfdEmail.htm" />
@@ -1572,6 +1574,8 @@
   <HelpKINode Title="CustomerDisplayTextTask.TopRight property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_CustomerDisplayTextTask_TopRight.htm" />
   <HelpKINode Title="CustomerDisplayTextTask.ToString method" Url="html/M_Resto_Front_Api_V6_Data_Device_Tasks_CustomerDisplayTextTask_ToString.htm" />
   <HelpKINode Title="CustomerIds property" Url="html/P_Resto_Front_Api_V6_Data_Orders_IOrder_CustomerIds.htm" />
+  <HelpKINode Title="CustomerName property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeTask_CustomerName.htm" />
+  <HelpKINode Title="CustomerTin property" Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_ChequeTask_CustomerTin.htm" />
   <HelpKINode Title="CutText field">
     <HelpKINode Title="AttributeValues.CutText Field" Url="html/F_Resto_Front_Api_V6_Data_Cheques_AttributeValues_CutText.htm" />
     <HelpKINode Title="Tags.CutText Field" Url="html/F_Resto_Front_Api_V6_Data_Cheques_Tags_CutText.htm" />
@@ -1886,15 +1890,15 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_Document_Lines.htm" />
