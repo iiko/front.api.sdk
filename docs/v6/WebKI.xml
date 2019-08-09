@@ -420,7 +420,7 @@
   <HelpKINode Title="AuthenticationException.AuthenticationException constructor" Url="html/Overload_Resto_Front_Api_V6_Exceptions_AuthenticationException__ctor.htm" />
   <HelpKINode Title="Auto enumeration member" Url="html/T_Resto_Front_Api_V6_Data_Orders_WriteoffOptions_Type.htm" />
   <HelpKINode Title="Auto method" Url="html/M_Resto_Front_Api_V6_Data_Orders_WriteoffOptions_Auto.htm" />
-  <HelpKINode Title="AutoIncassation property" Url="html/P_Resto_Front_Api_V6_Data_Device_ICashRegisterInfo_AutoIncassation.htm" />
+  <HelpKINode Title="AutoAndPayIn enumeration member" Url="html/T_Resto_Front_Api_V6_Data_Device_CashRegisterCloseEncashmentSetup.htm" />
   <HelpKINode Title="Autorun property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_DeviceSettings_Autorun.htm" />
   <HelpKINode Title="AutoWidth field" Url="html/F_Resto_Front_Api_V6_Data_Cheques_Attributes_AutoWidth.htm" />
   <HelpKINode Title="AvailableCommonGroupModifiers property" Url="html/P_Resto_Front_Api_V6_Data_Orders_IOrderCompoundItem_AvailableCommonGroupModifiers.htm" />
@@ -770,6 +770,7 @@
   <HelpKINode Title="CashRegisterChequeExtensions.CashRegisterChequeExtensions constructor" Url="html/M_Resto_Front_Api_V6_Data_Device_CashRegisterChequeExtensions__ctor.htm" />
   <HelpKINode Title="CashRegisterChequeExtensions.PastOrderId property" Url="html/P_Resto_Front_Api_V6_Data_Device_CashRegisterChequeExtensions_PastOrderId.htm" />
   <HelpKINode Title="CashRegisterChequeExtensions.PastOrderNumber property" Url="html/P_Resto_Front_Api_V6_Data_Device_CashRegisterChequeExtensions_PastOrderNumber.htm" />
+  <HelpKINode Title="CashRegisterCloseEncashmentSetup enumeration" Url="html/T_Resto_Front_Api_V6_Data_Device_CashRegisterCloseEncashmentSetup.htm" />
   <HelpKINode Title="CashRegisterDriverParameters class">
     <HelpKINode Title="CashRegisterDriverParameters Class" Url="html/T_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters__ctor.htm" />
@@ -788,7 +789,6 @@
   <HelpKINode Title="CashRegisterDriverParameters.IsBillTaskSupported property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_IsBillTaskSupported.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.IsCancellationSupported property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_IsCancellationSupported.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.IsRegisterStatusSupported property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_IsRegisterStatusSupported.htm" />
-  <HelpKINode Title="CashRegisterDriverParameters.SupportsPayInAfterSessionClose property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_SupportsPayInAfterSessionClose.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.ToString method" Url="html/M_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_ToString.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.ZeroCashOnClose property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_ZeroCashOnClose.htm" />
   <HelpKINode Title="CashRegisterResult class">
@@ -1309,6 +1309,7 @@
     <HelpKINode Title="OrderStatus Enumeration" Url="html/T_Resto_Front_Api_V6_Data_Orders_OrderStatus.htm" />
     <HelpKINode Title="ReserveStatus Enumeration" Url="html/T_Resto_Front_Api_V6_Data_Brd_ReserveStatus.htm" />
   </HelpKINode>
+  <HelpKINode Title="CloseEncashmentSetup property" Url="html/P_Resto_Front_Api_V6_Data_Device_ICashRegisterInfo_CloseEncashmentSetup.htm" />
   <HelpKINode Title="CloseTime property">
     <HelpKINode Title="IDeliveryOrder.CloseTime Property " Url="html/P_Resto_Front_Api_V6_Data_Orders_IDeliveryOrder_CloseTime.htm" />
     <HelpKINode Title="IOrder.CloseTime Property " Url="html/P_Resto_Front_Api_V6_Data_Orders_IOrder_CloseTime.htm" />
@@ -1884,10 +1885,10 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_V6_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_V6_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
@@ -1897,8 +1898,8 @@
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_Document_Lines.htm" />
@@ -2237,6 +2238,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Exceptions_FrontApiException.htm" />
   </HelpKINode>
   <HelpKINode Title="FrontApiException.FrontApiException constructor" Url="html/Overload_Resto_Front_Api_V6_Exceptions_FrontApiException__ctor.htm" />
+  <HelpKINode Title="FullAndPayIn enumeration member" Url="html/T_Resto_Front_Api_V6_Data_Device_CashRegisterCloseEncashmentSetup.htm" />
   <HelpKINode Title="FullCardTrack property" Url="html/P_Resto_Front_Api_V6_Data_View_CardInputDialogResult_FullCardTrack.htm" />
   <HelpKINode Title="FullCheque property" Url="html/P_Resto_Front_Api_V6_Data_Device_ICashRegisterInfo_FullCheque.htm" />
   <HelpKINode Title="FullName property" Url="html/P_Resto_Front_Api_V6_Data_Assortment_IProduct_FullName.htm" />
@@ -2555,8 +2557,8 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Device_ICashRegisterInfo.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_ICashRegisterInfo.htm" />
   </HelpKINode>
-  <HelpKINode Title="ICashRegisterInfo.AutoIncassation property" Url="html/P_Resto_Front_Api_V6_Data_Device_ICashRegisterInfo_AutoIncassation.htm" />
   <HelpKINode Title="ICashRegisterInfo.CheckCashDrawer property" Url="html/P_Resto_Front_Api_V6_Data_Device_ICashRegisterInfo_CheckCashDrawer.htm" />
+  <HelpKINode Title="ICashRegisterInfo.CloseEncashmentSetup property" Url="html/P_Resto_Front_Api_V6_Data_Device_ICashRegisterInfo_CloseEncashmentSetup.htm" />
   <HelpKINode Title="ICashRegisterInfo.EmulateDayShift property" Url="html/P_Resto_Front_Api_V6_Data_Device_ICashRegisterInfo_EmulateDayShift.htm" />
   <HelpKINode Title="ICashRegisterInfo.EmulateFiscalCheques property" Url="html/P_Resto_Front_Api_V6_Data_Device_ICashRegisterInfo_EmulateFiscalCheques.htm" />
   <HelpKINode Title="ICashRegisterInfo.EmulateFiscalReports property" Url="html/P_Resto_Front_Api_V6_Data_Device_ICashRegisterInfo_EmulateFiscalReports.htm" />
@@ -5024,6 +5026,7 @@
     <HelpKINode Title="CommandExecute.Parameters Property " Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_CommandExecute_Parameters.htm" />
     <HelpKINode Title="SupportedCommand.Parameters Property " Url="html/P_Resto_Front_Api_V6_Data_Device_Tasks_SupportedCommand_Parameters.htm" />
   </HelpKINode>
+  <HelpKINode Title="Partial enumeration member" Url="html/T_Resto_Front_Api_V6_Data_Device_CashRegisterCloseEncashmentSetup.htm" />
   <HelpKINode Title="PartialCredit enumeration member" Url="html/T_Resto_Front_Api_V6_Data_Device_Tasks_ChequeTransferType.htm" />
   <HelpKINode Title="PartialPrepayment enumeration member" Url="html/T_Resto_Front_Api_V6_Data_Device_Tasks_ChequeTransferType.htm" />
   <HelpKINode Title="PastOrderId property" Url="html/P_Resto_Front_Api_V6_Data_Device_CashRegisterChequeExtensions_PastOrderId.htm" />
@@ -5987,6 +5990,7 @@
   <HelpKINode Title="Resto.Front.Api.V6.Data.DataTransferObjects.SmsSendingResultDto class" Url="html/T_Resto_Front_Api_V6_Data_DataTransferObjects_SmsSendingResultDto.htm" />
   <HelpKINode Title="Resto.Front.Api.V6.Data.Device namespace" Url="html/N_Resto_Front_Api_V6_Data_Device.htm" />
   <HelpKINode Title="Resto.Front.Api.V6.Data.Device.CashRegisterChequeExtensions class" Url="html/T_Resto_Front_Api_V6_Data_Device_CashRegisterChequeExtensions.htm" />
+  <HelpKINode Title="Resto.Front.Api.V6.Data.Device.CashRegisterCloseEncashmentSetup enumeration" Url="html/T_Resto_Front_Api_V6_Data_Device_CashRegisterCloseEncashmentSetup.htm" />
   <HelpKINode Title="Resto.Front.Api.V6.Data.Device.DeviceType enumeration" Url="html/T_Resto_Front_Api_V6_Data_Device_DeviceType.htm" />
   <HelpKINode Title="Resto.Front.Api.V6.Data.Device.ICafeSession interface" Url="html/T_Resto_Front_Api_V6_Data_Device_ICafeSession.htm" />
   <HelpKINode Title="Resto.Front.Api.V6.Data.Device.ICashRegisterInfo interface" Url="html/T_Resto_Front_Api_V6_Data_Device_ICashRegisterInfo.htm" />
@@ -6642,7 +6646,6 @@
   <HelpKINode Title="SupportedCommand.SupportedCommand constructor" Url="html/M_Resto_Front_Api_V6_Data_Device_Tasks_SupportedCommand__ctor.htm" />
   <HelpKINode Title="SupportedCommand.ToString method" Url="html/M_Resto_Front_Api_V6_Data_Device_Tasks_SupportedCommand_ToString.htm" />
   <HelpKINode Title="SupportedCommands property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_QueryInfoResult_SupportedCommands.htm" />
-  <HelpKINode Title="SupportsPayInAfterSessionClose property" Url="html/P_Resto_Front_Api_V6_Data_Device_Settings_CashRegisterDriverParameters_SupportsPayInAfterSessionClose.htm" />
   <HelpKINode Title="Surname property" Url="html/P_Resto_Front_Api_V6_Data_Brd_IClient_Surname.htm" />
   <HelpKINode Title="SurveyType enumeration" Url="html/T_Resto_Front_Api_V6_Data_Brd_SurveyType.htm" />
   <HelpKINode Title="Symbols field" Url="html/F_Resto_Front_Api_V6_Data_Cheques_Attributes_Symbols.htm" />
