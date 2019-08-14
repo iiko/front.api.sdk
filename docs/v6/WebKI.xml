@@ -716,6 +716,7 @@
     <HelpKINode Title="InputDialogTypes Enumeration" Url="html/T_Resto_Front_Api_V6_Data_View_InputDialogTypes.htm" />
     <HelpKINode Title="PaymentTypeKind Enumeration" Url="html/T_Resto_Front_Api_V6_Data_Payments_PaymentTypeKind.htm" />
   </HelpKINode>
+  <HelpKINode Title="Card property" Url="html/P_Resto_Front_Api_V6_Data_Security_IUser_Card.htm" />
   <HelpKINode Title="CardExternalId property" Url="html/P_Resto_Front_Api_V6_Data_Payments_IikoNetPaymentItemAdditionalData_CardExternalId.htm" />
   <HelpKINode Title="CardExternalIdType property" Url="html/P_Resto_Front_Api_V6_Data_Payments_IikoNetPaymentItemAdditionalData_CardExternalIdType.htm" />
   <HelpKINode Title="CardInputDialogResult class">
@@ -1901,21 +1902,21 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_V6_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_V6_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_V6_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_V6_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_V6_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_V6_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_V6_Data_Device_Results_Document_Lines.htm" />
@@ -4321,6 +4322,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_V6_Data_Security_IUser.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_V6_Data_Security_IUser.htm" />
   </HelpKINode>
+  <HelpKINode Title="IUser.Card property" Url="html/P_Resto_Front_Api_V6_Data_Security_IUser_Card.htm" />
   <HelpKINode Title="IUser.CellPhone property" Url="html/P_Resto_Front_Api_V6_Data_Security_IUser_CellPhone.htm" />
   <HelpKINode Title="IUser.IsSessionOpen property" Url="html/P_Resto_Front_Api_V6_Data_Security_IUser_IsSessionOpen.htm" />
   <HelpKINode Title="IUser.Name property" Url="html/P_Resto_Front_Api_V6_Data_Security_IUser_Name.htm" />
