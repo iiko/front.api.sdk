@@ -1903,8 +1903,8 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -1916,8 +1916,8 @@
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2366,6 +2366,7 @@
   <HelpKINode Title="GetOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetOrders.htm" />
   <HelpKINode Title="GetOrderTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypeById.htm" />
   <HelpKINode Title="GetOrderTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypes.htm" />
+  <HelpKINode Title="GetOrganizationFingerprint method" Url="html/M_Resto_Front_Api_IOperationService_GetOrganizationFingerprint.htm" />
   <HelpKINode Title="GetParent method">
     <HelpKINode Title="ProductExtensions.GetParent Method " Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetParent.htm" />
     <HelpKINode Title="ProductGroupExtensions.GetParent Method " Url="html/M_Resto_Front_Api_Data_Assortment_ProductGroupExtensions_GetParent.htm" />
@@ -3450,6 +3451,7 @@
   <HelpKINode Title="IOperationService.GetOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetOrders.htm" />
   <HelpKINode Title="IOperationService.GetOrderTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypeById.htm" />
   <HelpKINode Title="IOperationService.GetOrderTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypes.htm" />
+  <HelpKINode Title="IOperationService.GetOrganizationFingerprint method" Url="html/M_Resto_Front_Api_IOperationService_GetOrganizationFingerprint.htm" />
   <HelpKINode Title="IOperationService.GetParentByProduct method" Url="html/M_Resto_Front_Api_IOperationService_GetParentByProduct.htm" />
   <HelpKINode Title="IOperationService.GetParentByProductGroup method" Url="html/M_Resto_Front_Api_IOperationService_GetParentByProductGroup.htm" />
   <HelpKINode Title="IOperationService.GetPaymentTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentTypeById.htm" />
