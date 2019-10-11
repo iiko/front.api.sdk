@@ -554,7 +554,6 @@
   <HelpKINode Title="BillTask.IncreaseSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IncreaseSum.htm" />
   <HelpKINode Title="BillTask.IsCancellation property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IsCancellation.htm" />
   <HelpKINode Title="BillTask.IsRefund property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IsRefund.htm" />
-  <HelpKINode Title="BillTask.OrderId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_OrderId.htm" />
   <HelpKINode Title="BillTask.OrderNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_OrderNumber.htm" />
   <HelpKINode Title="BillTask.PrintArticle property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_PrintArticle.htm" />
   <HelpKINode Title="BillTask.PrintVat property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_PrintVat.htm" />
@@ -936,10 +935,6 @@
     <HelpKINode Title="IEditSession.ChangeClientComment Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientComment.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeClientComment Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientComment.htm" />
   </HelpKINode>
-  <HelpKINode Title="ChangeClientConsentDates method">
-    <HelpKINode Title="IEditSession.ChangeClientConsentDates Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientConsentDates.htm" />
-    <HelpKINode Title="OperationServiceExtensions.ChangeClientConsentDates Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientConsentDates.htm" />
-  </HelpKINode>
   <HelpKINode Title="ChangeClientEmails method">
     <HelpKINode Title="IEditSession.ChangeClientEmails Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientEmails.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeClientEmails Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientEmails.htm" />
@@ -984,25 +979,13 @@
     <HelpKINode Title="IEditSession.ChangeClientPersonalDataConsent Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientPersonalDataConsent.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeClientPersonalDataConsent Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientPersonalDataConsent.htm" />
   </HelpKINode>
-  <HelpKINode Title="ChangeClientPersonalDataProcessingDates method">
-    <HelpKINode Title="IEditSession.ChangeClientPersonalDataProcessingDates Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientPersonalDataProcessingDates.htm" />
-    <HelpKINode Title="OperationServiceExtensions.ChangeClientPersonalDataProcessingDates Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientPersonalDataProcessingDates.htm" />
-  </HelpKINode>
   <HelpKINode Title="ChangeClientPhones method">
     <HelpKINode Title="IEditSession.ChangeClientPhones Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientPhones.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeClientPhones Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientPhones.htm" />
   </HelpKINode>
-  <HelpKINode Title="ChangeClientReceivesLoyaltySystemNotifications method">
-    <HelpKINode Title="IEditSession.ChangeClientReceivesLoyaltySystemNotifications Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientReceivesLoyaltySystemNotifications.htm" />
-    <HelpKINode Title="OperationServiceExtensions.ChangeClientReceivesLoyaltySystemNotifications Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientReceivesLoyaltySystemNotifications.htm" />
-  </HelpKINode>
-  <HelpKINode Title="ChangeClientReceivesOrderStatusNotifications method">
-    <HelpKINode Title="IEditSession.ChangeClientReceivesOrderStatusNotifications Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientReceivesOrderStatusNotifications.htm" />
-    <HelpKINode Title="OperationServiceExtensions.ChangeClientReceivesOrderStatusNotifications Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientReceivesOrderStatusNotifications.htm" />
-  </HelpKINode>
-  <HelpKINode Title="ChangeClientReceivesPromotionalNotifications method">
-    <HelpKINode Title="IEditSession.ChangeClientReceivesPromotionalNotifications Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientReceivesPromotionalNotifications.htm" />
-    <HelpKINode Title="OperationServiceExtensions.ChangeClientReceivesPromotionalNotifications Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientReceivesPromotionalNotifications.htm" />
+  <HelpKINode Title="ChangeClientReceivesNotifications method">
+    <HelpKINode Title="IEditSession.ChangeClientReceivesNotifications Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientReceivesNotifications.htm" />
+    <HelpKINode Title="OperationServiceExtensions.ChangeClientReceivesNotifications Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientReceivesNotifications.htm" />
   </HelpKINode>
   <HelpKINode Title="ChangeClientSurname method">
     <HelpKINode Title="IEditSession.ChangeClientSurname Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientSurname.htm" />
@@ -1056,7 +1039,10 @@
     <HelpKINode Title="IEditSession.ChangeDeliveryExpectedDeliverTime Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryExpectedDeliverTime.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryExpectedDeliverTime Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryExpectedDeliverTime.htm" />
   </HelpKINode>
-  <HelpKINode Title="ChangeDeliveryLastDefaultTerminalDeliveryDurationInMinutes method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryLastDefaultTerminalDeliveryDurationInMinutes.htm" />
+  <HelpKINode Title="ChangeDeliveryLastDefaultTerminalDeliveryDurationInMinutes method">
+    <HelpKINode Title="IEditSession.ChangeDeliveryLastDefaultTerminalDeliveryDurationInMinutes Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryLastDefaultTerminalDeliveryDurationInMinutes.htm" />
+    <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryLastDefaultTerminalDeliveryDurationInMinutes Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryLastDefaultTerminalDeliveryDurationInMinutes.htm" />
+  </HelpKINode>
   <HelpKINode Title="ChangeDeliveryLastVerifiedRestrictionsHash method">
     <HelpKINode Title="IEditSession.ChangeDeliveryLastVerifiedRestrictionsHash Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryLastVerifiedRestrictionsHash.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryLastVerifiedRestrictionsHash Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryLastVerifiedRestrictionsHash.htm" />
@@ -1319,6 +1305,7 @@
   <HelpKINode Title="ChequeTask.OfdEmail property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OfdEmail.htm" />
   <HelpKINode Title="ChequeTask.OfdPhoneNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OfdPhoneNumber.htm" />
   <HelpKINode Title="ChequeTask.OperationTime property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OperationTime.htm" />
+  <HelpKINode Title="ChequeTask.OrderId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OrderId.htm" />
   <HelpKINode Title="ChequeTask.PrepaymentSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentSum.htm" />
   <HelpKINode Title="ChequeTask.RoundSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_RoundSum.htm" />
   <HelpKINode Title="ChequeTask.SettlementAddress property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_SettlementAddress.htm" />
@@ -1445,8 +1432,6 @@
   <HelpKINode Title="ConceptionChanged property" Url="html/P_Resto_Front_Api_INotificationService_ConceptionChanged.htm" />
   <HelpKINode Title="ConditionType property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_AssertionConditionAttribute_ConditionType.htm" />
   <HelpKINode Title="ConfirmTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ConfirmTime.htm" />
-  <HelpKINode Title="ConsentDateFrom property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ConsentDateFrom.htm" />
-  <HelpKINode Title="ConsentDateTo property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ConsentDateTo.htm" />
   <HelpKINode Title="ConsiderationSum property">
     <HelpKINode Title="ChequeTask.ConsiderationSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_ConsiderationSum.htm" />
     <HelpKINode Title="CorrectionTask.ConsiderationSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_CorrectionTask_ConsiderationSum.htm" />
@@ -1942,21 +1927,21 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2691,8 +2676,6 @@
   <HelpKINode Title="IClient.BlacklistReason property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_BlacklistReason.htm" />
   <HelpKINode Title="IClient.CardNumber property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_CardNumber.htm" />
   <HelpKINode Title="IClient.Comment property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Comment.htm" />
-  <HelpKINode Title="IClient.ConsentDateFrom property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ConsentDateFrom.htm" />
-  <HelpKINode Title="IClient.ConsentDateTo property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ConsentDateTo.htm" />
   <HelpKINode Title="IClient.DateCreated property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_DateCreated.htm" />
   <HelpKINode Title="IClient.Emails property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Emails.htm" />
   <HelpKINode Title="IClient.Gender property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Gender.htm" />
@@ -2707,11 +2690,7 @@
   <HelpKINode Title="IClient.Nick property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Nick.htm" />
   <HelpKINode Title="IClient.PersonalDataConsent property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_PersonalDataConsent.htm" />
   <HelpKINode Title="IClient.Phones property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Phones.htm" />
-  <HelpKINode Title="IClient.ProcessingDateFrom property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ProcessingDateFrom.htm" />
-  <HelpKINode Title="IClient.ProcessingDateTo property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ProcessingDateTo.htm" />
-  <HelpKINode Title="IClient.ReceivesLoyaltySystemNotifications property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ReceivesLoyaltySystemNotifications.htm" />
-  <HelpKINode Title="IClient.ReceivesOrderStatusNotifications property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ReceivesOrderStatusNotifications.htm" />
-  <HelpKINode Title="IClient.ReceivesPromotionalNotifications property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ReceivesPromotionalNotifications.htm" />
+  <HelpKINode Title="IClient.ReceivesNotifications property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ReceivesNotifications.htm" />
   <HelpKINode Title="IClient.Revision property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Revision.htm" />
   <HelpKINode Title="IClient.Surname property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Surname.htm" />
   <HelpKINode Title="IClientStub interface" Url="html/T_Resto_Front_Api_Editors_Stubs_IClientStub.htm" />
@@ -2936,7 +2915,6 @@
   <HelpKINode Title="IEditSession.ChangeClientBlacklistInfo method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientBlacklistInfo.htm" />
   <HelpKINode Title="IEditSession.ChangeClientCardNumber method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientCardNumber.htm" />
   <HelpKINode Title="IEditSession.ChangeClientComment method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientComment.htm" />
-  <HelpKINode Title="IEditSession.ChangeClientConsentDates method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientConsentDates.htm" />
   <HelpKINode Title="IEditSession.ChangeClientEmails method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientEmails.htm" />
   <HelpKINode Title="IEditSession.ChangeClientGender method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientGender.htm" />
   <HelpKINode Title="IEditSession.ChangeClientIikoBizId method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientIikoBizId.htm" />
@@ -2948,11 +2926,8 @@
   <HelpKINode Title="IEditSession.ChangeClientName method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientName.htm" />
   <HelpKINode Title="IEditSession.ChangeClientNick method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientNick.htm" />
   <HelpKINode Title="IEditSession.ChangeClientPersonalDataConsent method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientPersonalDataConsent.htm" />
-  <HelpKINode Title="IEditSession.ChangeClientPersonalDataProcessingDates method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientPersonalDataProcessingDates.htm" />
   <HelpKINode Title="IEditSession.ChangeClientPhones method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientPhones.htm" />
-  <HelpKINode Title="IEditSession.ChangeClientReceivesLoyaltySystemNotifications method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientReceivesLoyaltySystemNotifications.htm" />
-  <HelpKINode Title="IEditSession.ChangeClientReceivesOrderStatusNotifications method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientReceivesOrderStatusNotifications.htm" />
-  <HelpKINode Title="IEditSession.ChangeClientReceivesPromotionalNotifications method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientReceivesPromotionalNotifications.htm" />
+  <HelpKINode Title="IEditSession.ChangeClientReceivesNotifications method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientReceivesNotifications.htm" />
   <HelpKINode Title="IEditSession.ChangeClientSurname method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientSurname.htm" />
   <HelpKINode Title="IEditSession.ChangeComboAmount method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeComboAmount.htm" />
   <HelpKINode Title="IEditSession.ChangeComboPrice method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeComboPrice.htm" />
@@ -5025,7 +5000,6 @@
   <HelpKINode Title="OperationServiceExtensions.ChangeClientBlacklistInfo method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientBlacklistInfo.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeClientCardNumber method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientCardNumber.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeClientComment method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientComment.htm" />
-  <HelpKINode Title="OperationServiceExtensions.ChangeClientConsentDates method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientConsentDates.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeClientEmails method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientEmails.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeClientGender method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientGender.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeClientIikoBizId method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientIikoBizId.htm" />
@@ -5037,11 +5011,8 @@
   <HelpKINode Title="OperationServiceExtensions.ChangeClientName method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientName.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeClientNick method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientNick.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeClientPersonalDataConsent method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientPersonalDataConsent.htm" />
-  <HelpKINode Title="OperationServiceExtensions.ChangeClientPersonalDataProcessingDates method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientPersonalDataProcessingDates.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeClientPhones method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientPhones.htm" />
-  <HelpKINode Title="OperationServiceExtensions.ChangeClientReceivesLoyaltySystemNotifications method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientReceivesLoyaltySystemNotifications.htm" />
-  <HelpKINode Title="OperationServiceExtensions.ChangeClientReceivesOrderStatusNotifications method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientReceivesOrderStatusNotifications.htm" />
-  <HelpKINode Title="OperationServiceExtensions.ChangeClientReceivesPromotionalNotifications method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientReceivesPromotionalNotifications.htm" />
+  <HelpKINode Title="OperationServiceExtensions.ChangeClientReceivesNotifications method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientReceivesNotifications.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeClientSurname method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientSurname.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeComboAmount method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeComboAmount.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeComboPrice method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeComboPrice.htm" />
@@ -5055,6 +5026,7 @@
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryDuration method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryDuration.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryEmail method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryEmail.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryExpectedDeliverTime method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryExpectedDeliverTime.htm" />
+  <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryLastDefaultTerminalDeliveryDurationInMinutes method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryLastDefaultTerminalDeliveryDurationInMinutes.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryLastVerifiedRestrictionsHash method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryLastVerifiedRestrictionsHash.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryLocation method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryLocation.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryMarketingSource method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryMarketingSource.htm" />
@@ -5146,7 +5118,7 @@
   </HelpKINode>
   <HelpKINode Title="OrderBillCancelled property" Url="html/P_Resto_Front_Api_INotificationService_OrderBillCancelled.htm" />
   <HelpKINode Title="OrderChanged property" Url="html/P_Resto_Front_Api_INotificationService_OrderChanged.htm" />
-  <HelpKINode Title="OrderId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_OrderId.htm" />
+  <HelpKINode Title="OrderId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OrderId.htm" />
   <HelpKINode Title="OrderItemCommentsEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_OrderItemCommentsEnabled.htm" />
   <HelpKINode Title="OrderItemCourse enumeration" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="OrderItemsGroupingEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_OrderItemsGroupingEnabled.htm" />
@@ -5524,8 +5496,6 @@
     <HelpKINode Title="IKitchenOrderCookingItem.ProcessingCompleteTime Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCookingItem_ProcessingCompleteTime.htm" />
     <HelpKINode Title="IKitchenOrderItemModifier.ProcessingCompleteTime Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderItemModifier_ProcessingCompleteTime.htm" />
   </HelpKINode>
-  <HelpKINode Title="ProcessingDateFrom property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ProcessingDateFrom.htm" />
-  <HelpKINode Title="ProcessingDateTo property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ProcessingDateTo.htm" />
   <HelpKINode Title="ProcessingStatus property">
     <HelpKINode Title="IKitchenOrderCookingItem.ProcessingStatus Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCookingItem_ProcessingStatus.htm" />
     <HelpKINode Title="IKitchenOrderItemModifier.ProcessingStatus Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderItemModifier_ProcessingStatus.htm" />
@@ -5775,9 +5745,7 @@
   <HelpKINode Title="ReceiptSlip.Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="ReceiptSlip.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Cheques_ReceiptSlip_GetObjectData.htm" />
   <HelpKINode Title="ReceiptSlip.ReceiptSlip constructor" Url="html/Overload_Resto_Front_Api_Data_Cheques_ReceiptSlip__ctor.htm" />
-  <HelpKINode Title="ReceivesLoyaltySystemNotifications property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ReceivesLoyaltySystemNotifications.htm" />
-  <HelpKINode Title="ReceivesOrderStatusNotifications property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ReceivesOrderStatusNotifications.htm" />
-  <HelpKINode Title="ReceivesPromotionalNotifications property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ReceivesPromotionalNotifications.htm" />
+  <HelpKINode Title="ReceivesNotifications property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ReceivesNotifications.htm" />
   <HelpKINode Title="RecoverCorruptedReserve method" Url="html/M_Resto_Front_Api_Editors_IEditSession_RecoverCorruptedReserve.htm" />
   <HelpKINode Title="RectangleElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_RectangleElements.htm" />
   <HelpKINode Title="RegexPatternAttribute class">
