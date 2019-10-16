@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel;
 using System.Diagnostics;
 
-using Resto.Front.Api.V5.Attributes.JetBrains;
-using Resto.Front.Api.V5.Data.Assortment;
-using Resto.Front.Api.V5.Data.DataTransferObjects;
-using Resto.Front.Api.V5.Data.PreliminaryOrders;
+using Resto.Front.Api.Attributes.JetBrains;
+using Resto.Front.Api.Data.Assortment;
+using Resto.Front.Api.Data.DataTransferObjects;
+using Resto.Front.Api.Data.PreliminaryOrders;
 
 namespace Resto.Front.Api.SamplePlugin.PreliminaryOrders
 {

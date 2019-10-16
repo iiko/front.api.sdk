@@ -4,9 +4,9 @@ using System.Linq;
 using System.Reactive.Linq;
 using System.Windows;
 
-using Resto.Front.Api.V5;
-using Resto.Front.Api.V5.Data.PreliminaryOrders;
-using Resto.Front.Api.V5.Exceptions;
+using Resto.Front.Api.Data.Common;
+using Resto.Front.Api.Data.PreliminaryOrders;
+using Resto.Front.Api.Exceptions;
 
 namespace Resto.Front.Api.SamplePlugin.PreliminaryOrders
 {
@@ -44,11 +44,12 @@ namespace Resto.Front.Api.SamplePlugin.PreliminaryOrders
         #endregion
 
         #region Methods
-        private void UpdateOrder(IPreliminaryOrder order)
+        private void UpdateOrder(EntityChangedEventArgs<IPreliminaryOrder> args)
         {
+            var order = args.Entity;
             var model = orderModels.FirstOrDefault(om => om.Id == order.Id);
 
-            if (PluginContext.Operations.TryGetPreliminaryOrderById(order.Id) == null)
+            if (args.EventType == EntityEventType.Removed)
             {
                 orderModels.Remove(model);
             }

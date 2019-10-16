@@ -4,9 +4,8 @@ using System.Linq;
 using System.Reactive.Linq;
 using System.Text;
 using System.Windows;
-using Resto.Front.Api.V5;
-using Resto.Front.Api.V5.Attributes.JetBrains;
-using Resto.Front.Api.V5.Data.Orders;
+using Resto.Front.Api.Attributes.JetBrains;
+using Resto.Front.Api.Data.Orders;
 
 namespace Resto.Front.Api.SamplePlugin.DiagnosticMessagesTester
 {
@@ -23,6 +22,7 @@ namespace Resto.Front.Api.SamplePlugin.DiagnosticMessagesTester
 
             subscription = PluginContext.Notifications
                 .OrderChanged
+                .Select(e => e.Entity)
                 .Where(o => o.Status == OrderStatus.New)
                 .Select(o => new
                     {
@@ -72,7 +72,7 @@ namespace Resto.Front.Api.SamplePlugin.DiagnosticMessagesTester
         private string GetCookingItemName([NotNull] IOrderCookingItem item)
         {
             if (item == null)
-                throw new ArgumentNullException("item");
+                throw new ArgumentNullException(nameof(item));
 
             var productItem = item as IOrderProductItem;
             if (productItem != null)

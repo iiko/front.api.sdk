@@ -4,8 +4,8 @@ using System.Globalization;
 using System.Linq;
 using System.Windows;
 using System.Windows.Data;
-using Resto.Front.Api.V5.Attributes.JetBrains;
-using Resto.Front.Api.V5.Data.Brd;
+using Resto.Front.Api.Attributes.JetBrains;
+using Resto.Front.Api.Data.Brd;
 
 namespace Resto.Front.Api.SamplePlugin.WpfHelpers
 {
@@ -28,7 +28,7 @@ namespace Resto.Front.Api.SamplePlugin.WpfHelpers
         private static string ConvertAddressToText([NotNull] IAddress address)
         {
             if (address == null)
-                throw new ArgumentNullException("address");
+                throw new ArgumentNullException(nameof(address));
 
             return string.Format("{0}, {1}, {2}", address.Street.Name, address.House, address.Flat);
         }

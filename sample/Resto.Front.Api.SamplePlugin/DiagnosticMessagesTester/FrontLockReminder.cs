@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Reactive.Linq;
-using Resto.Front.Api.V5.Data.Screens;
-using Resto.Front.Api.V5;
+using Resto.Front.Api.Data.Screens;
 
 
 namespace Resto.Front.Api.SamplePlugin.DiagnosticMessagesTester

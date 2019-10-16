@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Resto.Front.Api.V5.Data.Organization.Sections;
+using Resto.Front.Api.Data.Organization.Sections;
 
 namespace Resto.Front.Api.SamplePlugin.Kitchen
 {

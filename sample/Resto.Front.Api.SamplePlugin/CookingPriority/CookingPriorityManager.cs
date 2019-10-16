@@ -3,20 +3,20 @@ using System.Reactive.Disposables;
 using System.Threading;
 using System.Windows;
 
-namespace Resto.Front.Api.SamplePlugin.Restaurant
+namespace Resto.Front.Api.SamplePlugin.CookingPriority
 {
-    internal sealed class SchemaViewer : IDisposable
+    internal sealed class CookingPriorityManager : IDisposable
     {
         private readonly object syncObject = new object();
         private readonly CompositeDisposable resources = new CompositeDisposable();
         private bool disposed;
 
-        public SchemaViewer()
+        public CookingPriorityManager()
         {
             var windowThread = new Thread(EntryPoint);
             windowThread.SetApartmentState(ApartmentState.STA);
             windowThread.Start();
-            PluginContext.Log.Info("SchemaViewer started");
+            PluginContext.Log.Info("CookingPriorityManager started");
         }
 
         private void EntryPoint()
@@ -27,14 +27,15 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
                 if (disposed)
                     return;
 
+                var cookingPriorityView = new CookingPriorityView();
+
                 window = new Window
                              {
                                  SizeToContent = SizeToContent.WidthAndHeight,
-                                 ResizeMode = ResizeMode.NoResize,
-                                 Content = new SchemaView(),
+                                 ResizeMode = ResizeMode.CanResize,
+                                 Content = cookingPriorityView,
                                  Title = GetType().Name,
                                  Topmost = true
-
                              };
 
                 resources.Add(Disposable.Create(() =>
@@ -42,11 +43,15 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
                     window.Dispatcher.InvokeShutdown();
                     window.Dispatcher.Thread.Join();
                 }));
+                // NOTE: performance warning
+                // Do not reload all orders every time in a real production code, only replace single changed order.
+                resources.Add(PluginContext.Notifications.OrderChanged
+                    .Subscribe(_ => window.Dispatcher.BeginInvoke((Action)(cookingPriorityView.ReloadOrders))));
             }
 
-            PluginContext.Log.Info("Show SchemaView dialog...");
+            PluginContext.Log.Info("Show CookingPriorityView dialog...");
             window.ShowDialog();
-            PluginContext.Log.Info("Close SchemaView dialog...");
+            PluginContext.Log.Info("Close CookingPriorityView dialog...");
         }
 
         public void Dispose()
@@ -56,7 +61,7 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
             lock (syncObject)
             {
                 resources.Dispose();
-                PluginContext.Log.Info("SchemaViewer stopped");
+                PluginContext.Log.Info("CookingPriorityView stopped");
                 disposed = true;
             }
         }

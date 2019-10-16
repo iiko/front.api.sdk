@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using Resto.Front.Api.V5.Attributes.JetBrains;
+using Resto.Front.Api.Attributes.JetBrains;
 
 namespace Resto.Front.Api.SamplePlugin.Restaurant
 {

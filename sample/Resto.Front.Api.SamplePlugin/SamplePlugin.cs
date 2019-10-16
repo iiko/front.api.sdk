@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Remoting;
 using Resto.Front.Api.SamplePlugin.Properties;
-using Resto.Front.Api.V5;
-using Resto.Front.Api.V5.Attributes;
-using Resto.Front.Api.V5.Attributes.JetBrains;
+using Resto.Front.Api.Attributes;
+using Resto.Front.Api.Attributes.JetBrains;
 
 namespace Resto.Front.Api.SamplePlugin
 {
     /// <summary>
     /// Тестовый плагин для демонстрации возможностей Api.
-    /// Автоматически не публикуется, для использования скопировать Resto.Front.Api.SamplePlugin.dll в Resto.Front.Main\bin\Debug\Plugins\
+    /// Автоматически не публикуется, для использования скопировать Resto.Front.Api.SamplePlugin.dll в Resto.Front.Main\bin\Debug\Plugins\Resto.Front.Api.SamplePlugin\
     /// </summary>
     [UsedImplicitly]
     [PluginLicenseModuleId(21005108)]
@@ -30,6 +29,8 @@ namespace Resto.Front.Api.SamplePlugin
 
 
             subscriptions.Push(new EditorTester());
+            //ExternalOperationsTester.TestCalculator();
+            //subscriptions.Push(new CookingPriority.CookingPriorityManager());
             //subscriptions.Push(new DiagnosticMessagesTester.MessagesTester());
             //subscriptions.Push(new Restaurant.RestaurantViewer());
             //subscriptions.Push(new Restaurant.MenuViewer());
@@ -44,6 +45,9 @@ namespace Resto.Front.Api.SamplePlugin
             //subscriptions.Push(new Restaurant.BanquetAndReserveTester());
             //subscriptions.Push(new PreliminaryOrders.OrdersEditor());
             //subscriptions.Push(new Restaurant.SchemaViewer());
+            //subscriptions.Push(new OrderStatusChangeNotifier());
+            //subscriptions.Push(ChequeTaskProcessor.Register());
+            //subscriptions.Push(new BeforeOrderBillHandler());
             // добавляйте сюда другие подписчики
 
             PluginContext.Log.Info("SamplePlugin started");

@@ -1,5 +1,5 @@
 ﻿using System;
-using Resto.Front.Api.V5.Attributes.JetBrains;
+using Resto.Front.Api.Attributes.JetBrains;
 
 namespace Resto.Front.Api.SamplePlugin.Kitchen
 {
@@ -8,7 +8,7 @@ namespace Resto.Front.Api.SamplePlugin.Kitchen
         public CookingProductModel([NotNull] string name, decimal amount)
         {
             if (name == null)
-                throw new ArgumentNullException("name");
+                throw new ArgumentNullException(nameof(name));
 
             this.name = name;
             this.amount = amount;

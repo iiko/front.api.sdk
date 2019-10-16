@@ -1,7 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 using System.Linq;
-using Resto.Front.Api.V5;
-using Resto.Front.Api.V5.Data.Brd;
+using Resto.Front.Api.Data.Brd;
 
 namespace Resto.Front.Api.SamplePlugin.Restaurant
 {

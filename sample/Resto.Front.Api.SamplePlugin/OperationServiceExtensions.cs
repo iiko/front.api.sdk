@@ -1,8 +1,7 @@
 ﻿using System;
-using Resto.Front.Api.V5.Data.Security;
-using Resto.Front.Api.V5;
-using Resto.Front.Api.V5.Attributes.JetBrains;
-using Resto.Front.Api.V5.Exceptions;
+using Resto.Front.Api.Data.Security;
+using Resto.Front.Api.Attributes.JetBrains;
+using Resto.Front.Api.Exceptions;
 
 namespace Resto.Front.Api.SamplePlugin
 {
@@ -14,7 +13,7 @@ namespace Resto.Front.Api.SamplePlugin
         public static ICredentials GetCredentials([NotNull] this IOperationService operationService)
         {
             if (operationService == null)
-                throw new ArgumentNullException("operationService");
+                throw new ArgumentNullException(nameof(operationService));
 
             try
             {

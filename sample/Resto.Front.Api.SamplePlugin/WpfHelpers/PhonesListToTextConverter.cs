@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Windows;
 using System.Windows.Data;
-using Resto.Front.Api.V5.Data.Brd;
+using Resto.Front.Api.Data.Brd;
 
 namespace Resto.Front.Api.SamplePlugin.WpfHelpers
 {

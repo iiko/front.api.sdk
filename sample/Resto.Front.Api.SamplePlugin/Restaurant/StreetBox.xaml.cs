@@ -1,7 +1,6 @@
 ﻿using System.Windows;
-using Resto.Front.Api.V5.Data.Brd;
-using Resto.Front.Api.V5;
-using Resto.Front.Api.V5.Attributes.JetBrains;
+using Resto.Front.Api.Data.Brd;
+using Resto.Front.Api.Attributes.JetBrains;
 
 namespace Resto.Front.Api.SamplePlugin.Restaurant
 {

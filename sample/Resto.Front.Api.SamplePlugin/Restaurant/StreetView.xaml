@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:Brd="clr-namespace:Resto.Front.Api.V5.Data.Brd;assembly=Resto.Front.Api.V5"
+             xmlns:Brd="clr-namespace:Resto.Front.Api.Data.Brd;assembly=Resto.Front.Api.V6"
              xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"
              xmlns:System="clr-namespace:System;assembly=mscorlib" mc:Ignorable="d" 
              xmlns:wpfHelpers="clr-namespace:Resto.Front.Api.SamplePlugin.WpfHelpers"
-             HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MaxHeight="300" MinHeight="300">    
+             HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MaxHeight="300" MinHeight="300">
     <UserControl.Resources>
         <ResourceDictionary>
             <wpfHelpers:NotNullConverter x:Key="NotNullConverter" />
@@ -45,8 +45,26 @@
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <Button Grid.Row="2" Grid.Column="0" Content="Add" Width="100" Click="BtnAddClick"/>
-        <Button Grid.Row="2" Grid.Column="1" Content="Rename" Width="100" RenderTransformOrigin="0.49,0.48" Click="BtnRenameClick">
+
+        <ListBox Grid.Row="0" Grid.ColumnSpan="3" x:Name="listBoxStreet" ItemsSource="{Binding Source={StaticResource SortedStreets}}" ItemTemplate="{StaticResource StreetTemplate}"
+                 SelectionMode="Single" SelectionChanged="ListBoxStreetSelectionChanged" />
+
+        <TextBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="txtSearch" Text="" x:FieldModifier="private" />
+        <Button Grid.Row="1" Grid.Column="2" Content="Search" Click="BtnSearchClick"/>
+
+        <TextBox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Name="txtBox" Text="" x:FieldModifier="private"
+                 IsEnabled="{Binding ElementName=listBoxStreet, Path=SelectedItem, Converter={StaticResource NotNullConverter}}">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Style.Triggers>
+                        <Trigger Property="Text" Value="{x:Static System:String.Empty}">
+                            <Setter Property="Background" Value="Salmon" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+        <Button Grid.Row="2" Grid.Column="2" Content="Rename" Width="100" RenderTransformOrigin="0.49,0.48" Click="BtnRenameClick">
             <Button.Style>
                 <Style TargetType="Button">
                     <Style.Triggers>
@@ -57,7 +75,9 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Grid.Row="2" Grid.Column="2" Content="Delete" Width="100" Click="BtnDeleteClick"
+
+        <Button Grid.Row="3" Grid.Column="0" Content="Add" Width="100" Click="BtnAddClick"/>
+        <Button Grid.Row="3" Grid.Column="1" Content="Delete" Width="100" Click="BtnDeleteClick"
                 IsEnabled="{Binding ElementName=listBoxStreet, Path=SelectedItem, Converter={StaticResource NotNullConverter}}"
                 d:DataContext="{d:DesignInstance Brd:IStreet, IsDesignTimeCreatable=False}">
             <Button.Style>
@@ -70,22 +90,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button  Grid.Row="3" Grid.ColumnSpan="3"  Content="Refresh" Width="300" Click="BtnRefreshClick"/>
-        <ListBox Grid.Row="0" Grid.ColumnSpan="3" x:Name="listBoxStreet" ItemsSource="{Binding Source={StaticResource SortedStreets}}" ItemTemplate="{StaticResource StreetTemplate}"
-                 SelectionMode="Single" SelectionChanged="ListBoxStreetSelectionChanged" />
-        <TextBox Grid.Row="1" Grid.ColumnSpan="3" Name="txtBox" Text="" x:FieldModifier="private"
-                 IsEnabled="{Binding ElementName=listBoxStreet, Path=SelectedItem, Converter={StaticResource NotNullConverter}}">
-            <TextBox.Style>
-                <Style TargetType="TextBox">
-                    <Style.Triggers>
-                        <Trigger Property="Text" Value="{x:Static System:String.Empty}">
-                            <Setter Property="Background" Value="Salmon" />
-                        </Trigger>
-                    </Style.Triggers>
-                </Style>
-            </TextBox.Style>
-        </TextBox>
-        <Button Grid.Row="2" Grid.Column="3" Width="100" Content="Undelete"
+        <Button Grid.Row="3" Grid.Column="1" Width="100" Content="Undelete"
                 IsEnabled="{Binding ElementName=listBoxStreet, Path=SelectedItem, Converter={StaticResource NotNullConverter}}"
                 d:DataContext="{d:DesignInstance Brd:IStreet, IsDesignTimeCreatable=False}" Click="BtnUndeleteClick">
             <Button.Style>

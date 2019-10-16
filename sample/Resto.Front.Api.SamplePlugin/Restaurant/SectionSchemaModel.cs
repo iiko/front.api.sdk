@@ -1,9 +1,9 @@
 using System;
 using System.Collections.ObjectModel;
 using System.Linq;
-using Resto.Front.Api.V5.Attributes.JetBrains;
-using Resto.Front.Api.V5.Data.Organization.Sections;
-using Resto.Front.Api.V5.Data.View;
+using Resto.Front.Api.Attributes.JetBrains;
+using Resto.Front.Api.Data.Organization.Sections;
+using Resto.Front.Api.Data.View;
 
 namespace Resto.Front.Api.SamplePlugin.Restaurant
 {
@@ -12,7 +12,7 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
         public SectionSchemaModel([NotNull] ISectionSchema sectionSchema)
         {
             if (sectionSchema == null)
-                throw new ArgumentNullException("sectionSchema");
+                throw new ArgumentNullException(nameof(sectionSchema));
 
             var items = sectionSchema.ImageElements
                 .Cast<RestaurantSectionObject>()

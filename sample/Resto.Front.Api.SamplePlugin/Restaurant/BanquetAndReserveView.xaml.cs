@@ -3,23 +3,17 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
-using Resto.Front.Api.V5;
-using Resto.Front.Api.V5.Attributes.JetBrains;
-using Resto.Front.Api.V5.Data.Brd;
-using Resto.Front.Api.V5.Data.DataTransferObjects;
-using Resto.Front.Api.V5.Data.Payments;
-using Resto.Front.Api.V5.Editors;
-using Resto.Front.Api.V5.Extensions;
+using Resto.Front.Api.Attributes.JetBrains;
+using Resto.Front.Api.Data.Brd;
+using Resto.Front.Api.Data.Payments;
+using Resto.Front.Api.Editors;
+using Resto.Front.Api.Extensions;
 
 namespace Resto.Front.Api.SamplePlugin.Restaurant
 {
     public sealed partial class BanquetAndReserveView
     {
-        private readonly ObservableCollection<IPaymentItem> paymentItems = new ObservableCollection<IPaymentItem>();
-        public ObservableCollection<IPaymentItem> PaymentItems
-        {
-            get { return paymentItems; }
-        }
+        public ObservableCollection<IPaymentItem> PaymentItems { get; } = new ObservableCollection<IPaymentItem>();
 
         private readonly PhoneDto primaryPhone = new PhoneDto
         {
@@ -42,11 +36,11 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
         {
             var editSession = PluginContext.Operations.CreateEditSession();
 
-            var client = editSession.CreateClient(Guid.NewGuid(), "Jonathan", new List<PhoneDto> { primaryPhone, secondaryPhone }, null, DateTime.Now, null, null);
+            var client = editSession.CreateClient(Guid.NewGuid(), "Jonathan", new List<PhoneDto> { primaryPhone, secondaryPhone }, null, DateTime.Now);
             var table = PluginContext.Operations.GetTables().FirstOrDefault();
             var order = editSession.CreateOrder(table);
             var guest = editSession.AddOrderGuest("Jonathan", order);
-            var orderItemProduct = PluginContext.Operations.GetHierarchicalMenu().Products.FirstOrDefault();
+            var orderItemProduct = PluginContext.Operations.GetHierarchicalMenu().Products.First();
             editSession.AddOrderProductItem(1m, orderItemProduct, order, guest, null);
             editSession.ChangeEstimatedOrderGuestsCount(2, order);
 
@@ -54,10 +48,9 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
             SubmitChanges(editSession);
         }
 
-        [NotNull]
-        ISubmittedEntities SubmitChanges([NotNull] IEditSession editSession)
+        private static void SubmitChanges([NotNull] IEditSession editSession)
         {
-            return PluginContext.Operations.SubmitChanges(PluginContext.Operations.GetCredentials(), editSession);
+            PluginContext.Operations.SubmitChanges(PluginContext.Operations.GetCredentials(), editSession);
         }
 
         private void btnStartBanquet_Click(object sender, RoutedEventArgs e)
@@ -88,8 +81,8 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
                 if (createdBanquet.Order != null)
                 {
                     var order = PluginContext.Operations.GetOrderById(createdBanquet.Order.Id);
-                    paymentItems.Clear();
-                    order.Payments.ForEach(paymentItems.Add);
+                    PaymentItems.Clear();
+                    order.Payments.ForEach(PaymentItems.Add);
                 }
                 else
                 {
@@ -149,8 +142,8 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
         {
             var editSession = PluginContext.Operations.CreateEditSession();
 
-            var client = editSession.CreateClient(Guid.NewGuid(), "Elizabeth", new List<PhoneDto> { primaryPhone }, null, DateTime.Now, null, null);
-            var table = PluginContext.Operations.GetTables().FirstOrDefault();
+            var client = editSession.CreateClient(Guid.NewGuid(), "Elizabeth", new List<PhoneDto> { primaryPhone }, null, DateTime.Now);
+            var table = PluginContext.Operations.GetTables().First();
 
             editSession.CreateReserve(DateTime.Now + TimeSpan.FromMinutes(30), client, table);
             SubmitChanges(editSession);
@@ -160,8 +153,8 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
         {
             var editSession = PluginContext.Operations.CreateEditSession();
 
-            var client = editSession.CreateClient(Guid.NewGuid(), "Elizabeth", new List<PhoneDto> { primaryPhone }, null, DateTime.Now, null, null);
-            var table = PluginContext.Operations.GetTables().FirstOrDefault();
+            var client = editSession.CreateClient(Guid.NewGuid(), "Elizabeth", new List<PhoneDto> { primaryPhone }, null, DateTime.Now);
+            var table = PluginContext.Operations.GetTables().First();
             var order = editSession.CreateOrder(table);
             var guest = editSession.AddOrderGuest("Elizabeth", order);
             var orderItemProduct = PluginContext.Operations.GetHierarchicalMenu().Products.Last();

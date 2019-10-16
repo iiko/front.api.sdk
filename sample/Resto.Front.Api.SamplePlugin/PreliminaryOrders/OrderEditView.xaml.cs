@@ -3,9 +3,8 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 
-using Resto.Front.Api.V5;
-using Resto.Front.Api.V5.Attributes.JetBrains;
-using Resto.Front.Api.V5.Data.Assortment;
+using Resto.Front.Api.Attributes.JetBrains;
+using Resto.Front.Api.Data.Assortment;
 
 namespace Resto.Front.Api.SamplePlugin.PreliminaryOrders
 {

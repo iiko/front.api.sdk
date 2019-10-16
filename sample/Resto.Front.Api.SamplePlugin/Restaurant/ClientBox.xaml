@@ -1,7 +1,7 @@
 ﻿<Window x:Class="Resto.Front.Api.SamplePlugin.Restaurant.ClientBox"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:Brd="clr-namespace:Resto.Front.Api.V5.Data.Brd;assembly=Resto.Front.Api.V5" 
+    xmlns:Brd="clr-namespace:Resto.Front.Api.Data.Brd;assembly=Resto.Front.Api.V6" 
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:wpfHelpers="clr-namespace:Resto.Front.Api.SamplePlugin.WpfHelpers"

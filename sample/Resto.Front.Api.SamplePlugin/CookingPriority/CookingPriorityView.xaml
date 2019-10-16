@@ -1,0 +1,85 @@
+﻿<UserControl x:Class="Resto.Front.Api.SamplePlugin.CookingPriority.CookingPriorityView" x:Name="Self"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"
+             xmlns:orders="clr-namespace:Resto.Front.Api.Data.Orders;assembly=Resto.Front.Api.V6"
+             mc:Ignorable="d"
+             HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MinHeight="300" MinWidth="550">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <Style x:Key="OrderTextStyle" TargetType="TextBlock">
+                <Setter Property="Margin" Value="5"/>
+                <Setter Property="TextWrapping" Value ="Wrap"/>
+                <Setter Property="TextTrimming" Value ="CharacterEllipsis"/>
+                <Setter Property="TextAlignment" Value ="Center"/>
+                <Setter Property="VerticalAlignment" Value ="Center"/>
+            </Style>
+
+            <Style x:Key="TitleGridStyle" TargetType="Grid">
+                <Setter Property="Background" Value ="Gainsboro"/>
+            </Style>
+
+            <Style x:Key="TitleTextStyle" TargetType="TextBlock">
+                <Setter Property="FontWeight" Value ="Bold"/>
+                <Setter Property="TextAlignment" Value ="Center"/>
+            </Style>
+
+
+            <DataTemplate x:Key="OrderTemplate" >
+                <Grid d:DataContext="{d:DesignInstance orders:IOrder, IsDesignTimeCreatable=False}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"  />
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="100" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Text="{Binding Path = Number}" Style ="{StaticResource OrderTextStyle}"/>
+                    <CheckBox Grid.Column="1" IsChecked="{Binding Path = IsTopCookingPriority, Mode=OneWay}" HorizontalAlignment="Center" VerticalAlignment="Center" Click="SwitchTopCookingPriority"/>
+                    <Grid Grid.Column="2" HorizontalAlignment="Stretch">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"  />
+                            <ColumnDefinition Width="20"  />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="18" />
+                            <RowDefinition Height="18" />
+                        </Grid.RowDefinitions>
+                        <Border BorderThickness="1" BorderBrush="DarkGray" Grid.Column="0" Grid.RowSpan="2">
+                            <TextBlock Text="{Binding Path = CookingPriority}" Style ="{StaticResource OrderTextStyle}" TextAlignment="Right" />
+                        </Border>
+                        <Button Grid.Column="1" Grid.Row="0" Content="˄" Click="RaiseCookingPriority" />
+                        <Button Grid.Column="1" Grid.Row="1" Content="˅" Click="ReduceCookingPriority" />
+                    </Grid>
+                </Grid>
+            </DataTemplate>
+
+            <CollectionViewSource x:Key="SortedOrders" Source="{Binding ElementName=Self, Path=Orders}">
+                <CollectionViewSource.SortDescriptions>
+                    <scm:SortDescription PropertyName="Number" Direction="Ascending" />
+                </CollectionViewSource.SortDescriptions>
+            </CollectionViewSource>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid Style ="{StaticResource TitleGridStyle}">
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="2*"  />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text ="Номер заказа" Style ="{StaticResource TitleTextStyle}"/>
+            <TextBlock Grid.Column="1" Text ="Готовить вне очереди" Style ="{StaticResource TitleTextStyle}"/>
+            <TextBlock Grid.Column="2" Text ="Приоритет" Style ="{StaticResource TitleTextStyle}"/>
+        </Grid>
+
+        <ListBox Grid.Row="1" ItemsSource="{Binding Source={StaticResource SortedOrders}}" ItemTemplate="{StaticResource OrderTemplate}"
+               SelectionMode="Single" HorizontalContentAlignment="Stretch" />
+    </Grid>
+</UserControl>

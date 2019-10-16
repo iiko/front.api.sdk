@@ -2,7 +2,6 @@
 using System.Reactive.Disposables;
 using System.Threading;
 using System.Windows;
-using Resto.Front.Api.V5;
 
 namespace Resto.Front.Api.SamplePlugin.Restaurant
 {

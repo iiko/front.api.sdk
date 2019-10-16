@@ -1,6 +1,6 @@
 ﻿using System;
-using Resto.Front.Api.V5.Attributes.JetBrains;
-using Resto.Front.Api.V5.Data.Kitchen;
+using Resto.Front.Api.Attributes.JetBrains;
+using Resto.Front.Api.Data.Kitchen;
 
 namespace Resto.Front.Api.SamplePlugin.Kitchen
 {
@@ -9,7 +9,7 @@ namespace Resto.Front.Api.SamplePlugin.Kitchen
         public static string GetCookingItemName([NotNull] this IKitchenOrderCookingItem item)
         {
             if (item == null)
-                throw new ArgumentNullException("item");
+                throw new ArgumentNullException(nameof(item));
             var sizeName = item.Size != null ? item.Size.Name : string.Empty;
 
             var product = item as IKitchenOrderItemProduct;
@@ -30,7 +30,7 @@ namespace Resto.Front.Api.SamplePlugin.Kitchen
         public static decimal GetCookingItemAmount([NotNull] this IKitchenOrderCookingItem item)
         {
             if (item == null)
-                throw new ArgumentNullException("item");
+                throw new ArgumentNullException(nameof(item));
             var product = item as IKitchenOrderItemProduct;
             if (product != null)
                 return product.Amount;

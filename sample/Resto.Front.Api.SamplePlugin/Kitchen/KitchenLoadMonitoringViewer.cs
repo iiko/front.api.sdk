@@ -6,8 +6,7 @@ using System.Reactive.Disposables;
 using System.Reactive.Linq;
 using System.Threading;
 using System.Windows;
-using Resto.Front.Api.V5;
-using Resto.Front.Api.V5.Data.Kitchen;
+using Resto.Front.Api.Data.Kitchen;
 
 namespace Resto.Front.Api.SamplePlugin.Kitchen
 {

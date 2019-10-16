@@ -2,25 +2,28 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
-using Resto.Front.Api.V5.Data.Brd;
-using Resto.Front.Api.V5.Data.DataTransferObjects;
-using Resto.Front.Api.V5.Data.Orders;
-using Resto.Front.Api.V5.Data.Organization;
-using Resto.Front.Api.V5.Editors;
-using Resto.Front.Api.V5.Extensions;
-using Resto.Front.Api.V5;
+using Resto.Front.Api.Data.Brd;
+using Resto.Front.Api.Data.Orders;
+using Resto.Front.Api.Data.Organization;
+using Resto.Front.Api.Editors;
+using Resto.Front.Api.Extensions;
 using System.Windows.Controls;
 using System.Threading;
-using Resto.Front.Api.V5.Attributes.JetBrains;
-using Resto.Front.Api.V5.Data.Assortment;
-using Resto.Front.Api.V5.Editors.Stubs;
+using System.Xml.Linq;
+using Resto.Front.Api.SamplePlugin.WpfHelpers;
+using Resto.Front.Api.Attributes.JetBrains;
+using Resto.Front.Api.Data.Assortment;
+using Resto.Front.Api.Data.Cheques;
+using Resto.Front.Api.Data.JournalEvents;
+using Resto.Front.Api.Data.Print;
+using Resto.Front.Api.Editors.Stubs;
 
 namespace Resto.Front.Api.SamplePlugin
 {
     internal sealed class EditorTester : IDisposable
     {
         private Window window;
-        private ListBox buttons;
+        private ItemsControl buttons;
         private const string PluginName = "Resto.Front.Api.SamplePlugin";
 
         public EditorTester()
@@ -32,10 +35,14 @@ namespace Resto.Front.Api.SamplePlugin
 
         private void EntryPoint()
         {
-            buttons = new ListBox();
+            buttons = new ItemsControl();
             window = new Window
             {
-                Content = buttons,
+                Title = "Sample plugin",
+                Content = new ScrollViewer
+                {
+                    Content = buttons
+                },
                 Width = 200,
                 Height = 500,
                 Topmost = true,
@@ -45,8 +52,10 @@ namespace Resto.Front.Api.SamplePlugin
                 VerticalContentAlignment = VerticalAlignment.Center,
                 WindowStartupLocation = WindowStartupLocation.CenterScreen,
                 WindowStyle = WindowStyle.SingleBorderWindow,
+                SizeToContent = SizeToContent.Width
             };
             AddButton("Create order", CreateOrder);
+            AddButton("Create order to another waiter", CreateOrderToWaiter);
             AddButton("Add guest", AddGuest);
             AddButton("Add product", AddProduct);
             AddButton("Add modifier", AddModifier);
@@ -55,9 +64,13 @@ namespace Resto.Front.Api.SamplePlugin
             AddButton("Decrease amount", DecreaseAmount);
             AddButton("Set amount", SetAmount);
             AddButton("Move product", MoveProductToNewGuest);
+            AddButton("Split product", SplitProduct);
+            AddButton("Move to another waiter", MoveToAnotherWaiter);
             AddButton("Print product", PrintProduct);
             AddButton("Print order", PrintOrder);
             AddButton("Print bill cheque", PrintBillCheque);
+            AddButton("Bill order", BillOrder);
+            AddButton("Cancel Bill", CancelBill);
             AddButton("Delete guest", DeleteGuest);
             AddButton("Delete product", DeleteProduct);
             AddButton("Delete printed product", DeletePrintedProduct);
@@ -67,6 +80,8 @@ namespace Resto.Front.Api.SamplePlugin
             AddButton("Delete product comment", DeleteProductComment);
             AddButton("Create delivery", CreateDelivery);
             AddButton("Create delivery with source key", CreateDeliveryWithOriginName);
+            AddButton("Change self-service delivery on courier", ChangeDeliveryOrderTypeOnCourier);
+            AddButton("Change delivery by courier on self-service", ChangeDeliveryOrderTypeOnSelfService);
             AddButton("Change delivery comment", ChangeDeliveryComment);
             AddButton("Show deliveries with not empty source key", ShowDeliveriesWithNotEmptyOriginName);
             AddButton("Split order", SplitOrder);
@@ -82,14 +97,34 @@ namespace Resto.Front.Api.SamplePlugin
             AddButton("Add compound item", AddCompoundItem);
             AddButton("Add splitted compound item", AddSplittedCompoundItem);
             AddButton("Add combo in order", AddComboInOrder);
-            AddButton("Add external data in order", AddExternalDataInOrder);
+            AddButton("Add external data in order", AddExternalDataToOrder);
+            AddButton("Delete external data from order", DeleteExternalDataFromOrder);
+            AddButton("Cancel new delivery", CancelNewDelivery);
+            AddButton("Delete order and hide items", DeleteOrderAndHideItemsFromOlap);
+            AddButton("Cancel new delivery and and hide items", CancelNewDeliveryAndHideItemsFromOlap);
+            AddButton("Print check", PrintCheck);
+            AddButton("Add journal events", CreateJournalEvents);
+            AddButton("Add product and change open price", AddProductAndSetOpenPrice);
+            AddButton("Change price category", ChangePriceCategory);
+            AddButton("Reset price category", ResetPriceCategory);
+            AddButton("Start service", StartService);
+            AddButton("Stop service", StopService);
+            AddButton("Change order tables", ChangeOrderTables);
 
             window.ShowDialog();
         }
 
+
         private void AddButton(string text, Action action)
         {
-            var button = new Button { Content = text, Margin = new Thickness(2) };
+            var button = new Button
+            {
+                Content = text,
+                Margin = new Thickness(2),
+                Padding = new Thickness(4),
+                HorizontalAlignment = HorizontalAlignment.Stretch,
+                HorizontalContentAlignment = HorizontalAlignment.Left
+            };
             button.Click += (s, e) =>
             {
                 try
@@ -106,7 +141,7 @@ namespace Resto.Front.Api.SamplePlugin
         }
 
         [NotNull]
-        ISubmittedEntities SubmitChanges([NotNull] IEditSession editSession)
+        private static ISubmittedEntities SubmitChanges([NotNull] IEditSession editSession)
         {
             return PluginContext.Operations.SubmitChanges(PluginContext.Operations.GetCredentials(), editSession);
         }
@@ -117,14 +152,40 @@ namespace Resto.Front.Api.SamplePlugin
         private void CreateOrder()
         {
             var credentials = PluginContext.Operations.GetCredentials();
+            var activeProducts = PluginContext.Operations.GetActiveProducts();
 
+            // создаём заказ, добавляем в него пару гостей, одному из гостей добавляем блюдо, и всё это атомарно в одной сессии
             var editSession = PluginContext.Operations.CreateEditSession();
             var newOrder = editSession.CreateOrder(null);
             editSession.ChangeOrderOriginName("Sample Plugin", newOrder);
-            var guest1 = editSession.AddOrderGuest(null, newOrder);
+            var guest1 = editSession.AddOrderGuest(null, newOrder); // настоящего гостя ещё нет (он будет после SubmitChanges), ссылаемся на будущего гостя через INewOrderGuestItemStub
             var guest2 = editSession.AddOrderGuest("Alex", newOrder);
-            var result = PluginContext.Operations.SubmitChanges(credentials, editSession);
+            editSession.AddOrderProductItem(2m, activeProducts.First(), newOrder, guest1, null);
+            var result = SubmitChanges(editSession);
 
+
+            var previouslyCreatedOrder = result.Get(newOrder);
+            var previouslyAddedGuest = result.Get(guest2); // настоящие гости уже есть, можно ссылаться напрямую на нужного гостя через IOrderGuestItem
+
+            PluginContext.Operations.AddOrderProductItem(17.3m, activeProducts.Last(),
+                previouslyCreatedOrder, previouslyAddedGuest, null, credentials);
+        }
+
+        /// <summary>
+        /// Создание заказа на конкретного официанта с добавлением гостя Alex и продукта номенклатуры.
+        /// </summary>   
+        private void CreateOrderToWaiter()
+        {
+            var credentials = PluginContext.Operations.GetCredentials();
+            var editSession = PluginContext.Operations.CreateEditSession();
+            if (!ChooseItemDialogHelper.ShowDialog(PluginContext.Operations.GetUsers(), user => user.Name, out var selectedUser, "Select waiter", window))
+                return;
+
+            var newOrder = editSession.CreateOrder(null, selectedUser);
+            editSession.ChangeOrderOriginName("Sample Plugin", newOrder);
+            editSession.AddOrderGuest(null, newOrder);
+            var guest2 = editSession.AddOrderGuest("Alex", newOrder);
+            var result = SubmitChanges(editSession);
 
             var previouslyCreatedOrder = result.Get(newOrder);
             var previouslyAddedGuest = result.Get(guest2);
@@ -147,14 +208,19 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void AddClientToOrder()
         {
-            var editSession = PluginContext.Operations.CreateEditSession();
-            var now = DateTime.Now;
-            var cardDiscountType = PluginContext.Operations.GetDiscountTypes().LastOrDefault(d => d.CanApplyByDiscountCard);
-            editSession.CreateClient(Guid.NewGuid(), "Semen", null, "0123456789", now, null, cardDiscountType);
-            SubmitChanges(editSession);
+            var discountType = PluginContext.Operations.GetDiscountTypes().LastOrDefault(d => d.CanApplyByDiscountCard);
+            const string cardNumber = "0123456789";
+            const string clientName = "Semen";
+
+            var client = PluginContext.Operations.CreateClient(Guid.NewGuid(), clientName, null, cardNumber, DateTime.Now, PluginContext.Operations.GetCredentials());
+
+            var card = PluginContext.Operations.SearchDiscountCardByNumber(cardNumber);
+            if (card == null)
+                PluginContext.Operations.CreateDiscountCard(cardNumber, clientName, null, discountType);
+            else
+                PluginContext.Operations.UpdateDiscountCard(card.Id, cardNumber, clientName, null, discountType);
 
             var order = PluginContext.Operations.GetOrders().Last(o => o.Status == OrderStatus.New);
-            var client = PluginContext.Operations.SearchClients("Semen").Last();
             PluginContext.Operations.AddClientToOrder(PluginContext.Operations.GetCredentials(), order, client);
         }
 
@@ -188,6 +254,7 @@ namespace Resto.Front.Api.SamplePlugin
             var guest = order.Guests.Last();
             var product = PluginContext.Operations.GetActiveProducts().Last(p => p.Template != null);
             var template = product.Template;
+            // ReSharper disable once PossibleNullReferenceException
             var size = template.Scale != null ? PluginContext.Operations.GetProductScaleSizes(template.Scale).First() : null;
             var editSession = PluginContext.Operations.CreateEditSession();
             var compoundItem = editSession.AddOrderCompoundItem(product, order, guest, size);
@@ -196,7 +263,7 @@ namespace Resto.Front.Api.SamplePlugin
             var modifierDefaultAmounts = PluginContext.Operations.GetTemplatedModifiersParamsByProduct(product);
             AddDefaultCompoundItemModifiers(compoundItem, template, modifierDefaultAmounts, order, editSession);
             AddDefaultCompoundItemComponentModifiers(primaryComponent, template, modifierDefaultAmounts, order, editSession);
-            PluginContext.Operations.SubmitChanges(PluginContext.Operations.GetCredentials(), editSession);
+            SubmitChanges(editSession);
         }
 
         /// <summary>
@@ -206,7 +273,7 @@ namespace Resto.Front.Api.SamplePlugin
         {
             var editSession = PluginContext.Operations.CreateEditSession();
             AddSplittedCompoundItemInternal(editSession);
-            PluginContext.Operations.SubmitChanges(PluginContext.Operations.GetCredentials(), editSession);
+            SubmitChanges(editSession);
         }
 
         private INewOrderCompoundItemStub AddSplittedCompoundItemInternal([NotNull] IEditSession editSession)
@@ -218,9 +285,9 @@ namespace Resto.Front.Api.SamplePlugin
                 .Last(group => group.Key != null && group.Count() >= 2);
             var template = templateProducts.Key;
             var size = template.Scale != null ? PluginContext.Operations.GetProductScaleSizes(template.Scale).First() : null;
-            var compoundItem = editSession.AddOrderCompoundItem(templateProducts.First(), order, guest, size: size);
-            var primaryComponent = editSession.AddPrimaryComponent(templateProducts.First(), order, compoundItem);
-            var secondaryComponent = editSession.AddSecondaryComponent(templateProducts.Skip(1).First(), order, compoundItem);
+            var compoundItem = editSession.AddOrderCompoundItem(templateProducts.First(), order, guest, size);
+            editSession.AddPrimaryComponent(templateProducts.First(), order, compoundItem);
+            editSession.AddSecondaryComponent(templateProducts.Skip(1).First(), order, compoundItem);
             return compoundItem;
         }
 
@@ -267,9 +334,7 @@ namespace Resto.Front.Api.SamplePlugin
         private static int GetDefaultModifierAmount(IReadOnlyList<ITemplatedModifierParams> modifierParams, IProductGroup modifierGroup, IProduct modifier, int generalDefaultAmount)
         {
             var specificAmount = modifierParams.SingleOrDefault(x => Equals(x.ProductGroup, modifierGroup) && Equals(x.Product, modifier));
-            return specificAmount != null
-                ? specificAmount.DefaultAmount
-                : generalDefaultAmount;
+            return specificAmount?.DefaultAmount ?? generalDefaultAmount;
         }
 
         /// <summary>
@@ -339,14 +404,41 @@ namespace Resto.Front.Api.SamplePlugin
             SubmitChanges(editSession);
         }
 
+        private void MoveToAnotherWaiter()
+        {
+            if (!ChooseItemDialogHelper.ShowDialog(PluginContext.Operations.GetUsers(), user => user.Name, out var selectedUser, "Select new waiter", window))
+                return;
+
+            var order = PluginContext.Operations.GetOrders().Last();
+            var editSession = PluginContext.Operations.CreateEditSession();
+            editSession.ChangeOrderWaiter(order, selectedUser);
+
+            SubmitChanges(editSession);
+        }
+
+        /// <summary>
+        /// Разделение последнего блюда на две части и назначение получившегося блюда на другого гостя (если есть)
+        /// </summary>
+        private void SplitProduct()
+        {
+            var order = PluginContext.Operations.GetOrders().Last();
+            var orderItem = order.Items.OfType<IOrderCookingItem>().Last();
+            var amountToSplit = 0.25m;
+            var editSession = PluginContext.Operations.CreateEditSession();
+            var item = editSession.SplitOrderCookingItem(amountToSplit, order, orderItem);
+            var guest = order.Guests.FirstOrDefault(p => p != orderItem.Guest);
+            if (guest != null)
+                editSession.MoveOrderItemToAnotherGuest(item, guest, order);
+            SubmitChanges(editSession);
+        }
+
         /// <summary>
         /// Сервисная печать последнего блюда заказа.
         /// </summary>
         private void PrintProduct()
         {
             var order = PluginContext.Operations.GetOrders().Last();
-            PluginContext.Operations.PrintOrderItems(PluginContext.Operations.GetCredentials(), order,
-                new List<IOrderRootItem> { order.Items.Last() });
+            PluginContext.Operations.PrintOrderItems(PluginContext.Operations.GetCredentials(), order, new[] { order.Items.OfType<IOrderCookingItem>().Last() });
         }
 
         /// <summary>
@@ -355,8 +447,7 @@ namespace Resto.Front.Api.SamplePlugin
         private void PrintOrder()
         {
             var order = PluginContext.Operations.GetOrders().Last();
-            PluginContext.Operations.PrintOrderItems(PluginContext.Operations.GetCredentials(), order,
-                order.Items);
+            PluginContext.Operations.PrintOrderItems(PluginContext.Operations.GetCredentials(), order, order.Items.OfType<IOrderCookingItem>().ToList());
         }
 
         /// <summary>
@@ -366,6 +457,24 @@ namespace Resto.Front.Api.SamplePlugin
         {
             var order = PluginContext.Operations.GetOrders().Last();
             PluginContext.Operations.PrintBillCheque(PluginContext.Operations.GetCredentials(), order);
+        }
+
+        /// <summary>
+        /// Печать пречека
+        /// </summary>
+        private void BillOrder()
+        {
+            var order = PluginContext.Operations.GetOrders().Last();
+            PluginContext.Operations.BillOrder(PluginContext.Operations.GetCredentials(), order, 32);
+        }
+
+        /// <summary>
+        /// Отмена пречека
+        /// </summary>
+        private void CancelBill()
+        {
+            var order = PluginContext.Operations.GetOrders().Last();
+            PluginContext.Operations.CancelBill(PluginContext.Operations.GetCredentials(), order);
         }
 
         /// <summary>
@@ -419,7 +528,7 @@ namespace Resto.Front.Api.SamplePlugin
                     orderItem, PluginContext.Operations.GetCredentials());
                 return;
             }
-            throw new NotSupportedException(string.Format("Write-off type '{0}' is not supported.", removalType.WriteoffType));
+            throw new NotSupportedException($"Write-off type '{removalType.WriteoffType}' is not supported.");
         }
 
         /// <summary>
@@ -469,7 +578,7 @@ namespace Resto.Front.Api.SamplePlugin
                     PluginContext.Operations.GetCredentials());
                 return;
             }
-            throw new NotSupportedException(string.Format("Write-off type '{0}' is not supported.", removalType.WriteoffType));
+            throw new NotSupportedException($"Write-off type '{removalType.WriteoffType}' is not supported.");
         }
 
         /// <summary>
@@ -511,67 +620,67 @@ namespace Resto.Front.Api.SamplePlugin
             CreateDelivery(true);
         }
 
-        private const string deliveryOriginName = "deliveryClub";
+        private const string DeliveryOriginName = "deliveryClub";
 
         private void CreateDelivery(bool withOriginName)
         {
             var editSession = PluginContext.Operations.CreateEditSession();
-            var street = PluginContext.Operations.GetActiveStreets().Last();
+            var street = PluginContext.Operations.SearchStreets(string.Empty).Last();
             var region = PluginContext.Operations.GetRegions().LastOrDefault();
             var deliveryOperator = PluginContext.Operations.GetUsers().Last();
             var address = new AddressDto
-                              {
-                                  StreetId = street.Id,
-                                  RegionId = region == null ? Guid.Empty : region.Id,
-                                  House = "428-с",
-                                  Building = "29-m",
-                                  Flat = "37",
-                              };
+            {
+                StreetId = street.Id,
+                RegionId = region?.Id ?? Guid.Empty,
+                House = "428-с",
+                Building = "29-m",
+                Flat = "37",
+            };
 
-            var orderType = PluginContext.Operations.GetOrderTypes().Last(type => type.OrderServiceType == OrderServiceType.DeliveryByCourier);
+            var orderType = PluginContext.Operations.GetOrderTypes().Last(type => type.OrderServiceType == OrderServiceTypes.DeliveryByCourier);
             // Создание заказа доставки можно использовать только в паре с CreateDelivery
             // в рамках одной EditSession.
 
             var primaryPhone = new PhoneDto
-                               {
-                                   PhoneValue = "+79991112233",
-                                   IsMain = true
-                               };
+            {
+                PhoneValue = "+79991112233",
+                IsMain = true
+            };
 
             var secondaryPhone = new PhoneDto
-                               {
-                                   PhoneValue = "+79991112244",
-                                   IsMain = false
-                               };
+            {
+                PhoneValue = "+79991112244",
+                IsMain = false
+            };
 
             var primaryEmail = new EmailDto
-                              {
-                                  EmailValue = "MyMail@iiko.ru",
-                                  IsMain = true
-                              };
+            {
+                EmailValue = "MyMail@iiko.ru",
+                IsMain = true
+            };
 
             var secondaryEmail = new EmailDto
-                              {
-                                  EmailValue = "MySecondMail@iiko.ru",
-                                  IsMain = false
-                              };
+            {
+                EmailValue = "MySecondMail@iiko.ru",
+                IsMain = false
+            };
 
             var now = DateTime.Now;
-            var client = editSession.CreateClient(Guid.NewGuid(), "Semen",
-                                                  new List<PhoneDto> { primaryPhone, secondaryPhone }, null, now, null, null);
-
-            var expectedDeliverTime = now.AddHours(1);
+            var client = editSession.CreateClient(Guid.NewGuid(), "Semen", new List<PhoneDto> { primaryPhone, secondaryPhone }, null, now);
+            var duration = PluginContext.Operations.GetTerminalDeliveryDuration();
+            var durationTime = duration.CourierDeliveryTime ?? 60;
+            var expectedDeliverTime = now.AddMinutes(durationTime);
             var deliveryOrder = editSession.CreateDeliveryOrder(1149, now, primaryPhone.PhoneValue,
-                address, expectedDeliverTime, orderType, client, deliveryOperator, TimeSpan.FromMinutes(60));
+                address, expectedDeliverTime, orderType, client, deliveryOperator, TimeSpan.FromMinutes(durationTime));
             if (withOriginName)
-                editSession.ChangeOrderOriginName(deliveryOriginName, deliveryOrder);
-            var guest = editSession.AddOrderGuest("Alex", deliveryOrder);
+                editSession.ChangeOrderOriginName(DeliveryOriginName, deliveryOrder);
+            editSession.AddOrderGuest("Alex", deliveryOrder);
             editSession.ChangeClientSurname("Petrov", client);
             editSession.ChangeClientNick("Batman", client);
             editSession.ChangeClientEmails(new List<EmailDto> { primaryEmail, secondaryEmail }, client);
             editSession.ChangeClientComment("Customer's Comment", client);
             editSession.ChangeClientAddresses(new List<AddressDto> { address }, 0, client);
-            editSession.ChangeClientCardNumber("123456798", client, null, null);
+            editSession.ChangeClientCardNumber("123456798", client);
             editSession.ChangeDeliveryComment("Delivery comment", deliveryOrder);
             editSession.ChangeDeliveryEmail(primaryEmail.EmailValue, deliveryOrder);
 
@@ -583,11 +692,67 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void ShowDeliveriesWithNotEmptyOriginName()
         {
-            var deliveriesWithKey = PluginContext.Operations.GetDeliveryOrders().Where(d => d.OriginName != null)
-                                                                    .Select(d => string.Format("{0}: {1}", d.Number, d.OriginName));
+            var deliveriesWithKey = PluginContext.Operations.GetDeliveryOrders()
+                .Where(d => d.OriginName != null)
+                .Select(d => $"{d.Number}: {d.OriginName}");
 
             var message = string.Join(",", deliveriesWithKey);
             MessageBox.Show(message);
+        }
+
+        /// <summary>
+        /// Изменение типа созданной доставки с курьерской на самовывозную.
+        /// </summary>
+        private void ChangeDeliveryOrderTypeOnSelfService()
+        {
+            var createdDeliveryByPlugin = PluginContext.Operations.GetDeliveryOrders().LastOrDefault(d => d.DeliveryStatus == DeliveryStatus.New && d.OrderType.OrderServiceType == OrderServiceTypes.DeliveryByCourier);
+            if (createdDeliveryByPlugin == null)
+            {
+                MessageBox.Show("Please, first call Create Delivery");
+                return;
+            }
+
+            var orderType = PluginContext.Operations.GetOrderTypes().First(t => t.OrderServiceType == OrderServiceTypes.DeliveryByClient);
+            var editSession = PluginContext.Operations.CreateEditSession();
+
+            editSession.SetOrderType(orderType, createdDeliveryByPlugin);
+            editSession.ChangeDeliveryCourier(false, createdDeliveryByPlugin, null);
+            editSession.ChangeDeliveryAddress(null, createdDeliveryByPlugin);
+
+            SubmitChanges(editSession);
+        }
+
+        /// <summary>
+        /// Изменение типа созданной доставки с самовывозной на курьерскую.
+        /// </summary>
+        private void ChangeDeliveryOrderTypeOnCourier()
+        {
+            var createdDeliveryByPlugin = PluginContext.Operations.GetDeliveryOrders().LastOrDefault(d => d.DeliveryStatus == DeliveryStatus.New && d.OrderType.OrderServiceType == OrderServiceTypes.DeliveryByClient);
+            if (createdDeliveryByPlugin == null)
+            {
+                MessageBox.Show("Please, first call Create Delivery");
+                return;
+            }
+
+            var orderType = PluginContext.Operations.GetOrderTypes().First(t => t.OrderServiceType == OrderServiceTypes.DeliveryByCourier);
+            var editSession = PluginContext.Operations.CreateEditSession();
+
+            editSession.SetOrderType(orderType, createdDeliveryByPlugin);
+            editSession.ChangeDeliveryCourier(false, createdDeliveryByPlugin, null);
+
+            var street = PluginContext.Operations.SearchStreets(string.Empty).Last();
+            var region = PluginContext.Operations.GetRegions().LastOrDefault();
+            var address = new AddressDto
+            {
+                StreetId = street.Id,
+                RegionId = region?.Id ?? Guid.Empty,
+                House = "428-с",
+                Building = "29-m",
+                Flat = "37",
+            };
+
+            editSession.ChangeDeliveryAddress(address, createdDeliveryByPlugin);
+            SubmitChanges(editSession);
         }
 
         /// <summary>
@@ -611,7 +776,7 @@ namespace Resto.Front.Api.SamplePlugin
         private void SplitOrder()
         {
             var order = PluginContext.Operations.GetOrders().Last(o => o.Status == OrderStatus.New || o.Status == OrderStatus.Bill);
-            var result = PluginContext.Operations.NeedToSplitOrderBeforePayment(order);
+            var result = PluginContext.Operations.NeedToSplitOrderBeforePayment(order).CheckSplitRequiredResult;
             if (result == CheckSplitRequiredResult.Disabled)
                 return;
             if (result == CheckSplitRequiredResult.Allowed && MessageBox.Show("Split Order by cooking place types?", "Split Orders", MessageBoxButton.YesNo) != MessageBoxResult.Yes)
@@ -646,7 +811,7 @@ namespace Resto.Front.Api.SamplePlugin
         private void CreateDiscountCard()
         {
             var cardDiscountType = PluginContext.Operations.GetDiscountTypes().Last(x => !x.Deleted && x.IsActive && x.CanApplyByDiscountCard);
-            PluginContext.Operations.CreateOrUpdateDiscountCard("0123456789", "Semen", null, cardDiscountType);
+            PluginContext.Operations.CreateDiscountCard("0123456789", "Semen", null, cardDiscountType);
         }
 
         /// <summary>
@@ -655,7 +820,16 @@ namespace Resto.Front.Api.SamplePlugin
         private void UpdateDiscountCard()
         {
             var priceCategory = PluginContext.Operations.GetPriceCategories().Last(x => !x.Deleted);
-            PluginContext.Operations.CreateOrUpdateDiscountCard("0123456789", "Semen", priceCategory, null);
+            const string cardNumber = "0123456789";
+            var existingCard = PluginContext.Operations.SearchDiscountCardByNumber(cardNumber);
+            if (existingCard == null)
+            {
+                PluginContext.Log.Warn($"Discount card with number {cardNumber} doesn't exist.");
+                return;
+            }
+
+            var updatedCard = PluginContext.Operations.UpdateDiscountCard(existingCard.Id, cardNumber, "Mike", priceCategory, null);
+            PluginContext.Log.Info($"Updated card owner from {existingCard.OwnerName} to {updatedCard.OwnerName}");
         }
 
         /// <summary>
@@ -689,8 +863,8 @@ namespace Resto.Front.Api.SamplePlugin
 
             var editSession = PluginContext.Operations.CreateEditSession();
             editSession.AddDiscount(discountType, order);
-            editSession.ChangeSelectiveDiscount(order, discountType, selectedDish, null);
-            PluginContext.Operations.SubmitChanges(PluginContext.Operations.GetCredentials(), editSession);
+            editSession.ChangeSelectiveDiscount(order, discountType, selectedDish, null, null);
+            SubmitChanges(editSession);
         }
 
         /// <summary>
@@ -717,20 +891,220 @@ namespace Resto.Front.Api.SamplePlugin
                 { firstComboGroupId, productItem },
                 { secondComboGroupId, compoundItem}
             };
-            editSession.AddOrderCombo(Guid.NewGuid(), "Случайное комбо", 1, 500, Guid.NewGuid(), comboItems, order, guest);
-            PluginContext.Operations.SubmitChanges(PluginContext.Operations.GetCredentials(), editSession);
+
+            // идентификаторы связанных с комбо акции и программы лояльности, полученные из внешней системы лояльности (iikocard)
+            // здесь заглушки в виде Guid.Empty, поскольку интеграция с внешней системой лояльности выходит за рамки данного примера
+            var (sourceActionId, programId) = (Guid.Empty, Guid.Empty);
+
+            editSession.AddOrderCombo(Guid.NewGuid(), "Случайное комбо", 1, 500, sourceActionId, programId, comboItems, order, guest);
+            SubmitChanges(editSession);
         }
 
         /// <summary>
         /// Добавление дополнительной информации в заказ.
         /// </summary>
-        private void AddExternalDataInOrder()
+        private static void AddExternalDataToOrder()
         {
             var order = PluginContext.Operations.GetOrders().Last();
             PluginContext.Operations.AddOrderExternalData(PluginName, "Sample plugin external data", order, PluginContext.Operations.GetCredentials());
 
             var value = PluginContext.Operations.TryGetOrderExternalDataByKey(order.Id, PluginName);
-            MessageBox.Show(string.Format("Sample plugin external data value: {0}", value));
+            MessageBox.Show($"Sample plugin external data value: {value}");
+        }
+
+        /// <summary>
+        /// Удаление дополнительной информации из заказа.
+        /// </summary>
+        private static void DeleteExternalDataFromOrder()
+        {
+            var order = PluginContext.Operations.GetOrders().Last();
+            PluginContext.Operations.DeleteOrderExternalData(PluginName, order, PluginContext.Operations.GetCredentials());
+        }
+
+        /// <summary>
+        /// Отменить новую доставку.
+        /// </summary>
+        private void CancelNewDelivery()
+        {
+            var order = PluginContext.Operations.GetDeliveryOrders().Last(o => o.Status == OrderStatus.New);
+            var cancelCause = PluginContext.Operations.GetDeliveryCancelCauses().First();
+            PluginContext.Operations.CancelNewDelivery(PluginContext.Operations.GetCredentials(), order, cancelCause);
+        }
+
+        /// <summary>
+        /// Удалить заказ и не сохранить его элементы в OLAP как удаленные.
+        /// </summary>
+        private void DeleteOrderAndHideItemsFromOlap()
+        {
+            var order = PluginContext.Operations.GetOrders().Last(o => !(o is IDeliveryOrder) && o.Status == OrderStatus.New);
+            var printedItems = order.Items.Where(i => i.PrintTime.HasValue && !i.Deleted).ToList();
+
+            if (printedItems.Count > 0)
+            {
+                var editSession = PluginContext.Operations.CreateEditSession();
+
+                var removalType = PluginContext.Operations.GetActiveRemovalTypes().Last(rt => rt.WriteoffType.Equals(WriteoffType.None));
+                const string comment = "Test API DeleteOrderAndHideItemsFromOlap";
+                foreach (var item in printedItems)
+                {
+                    editSession.DeletePrintedOrderItem(comment, WriteoffOptions.WithoutWriteoff(removalType), order, item);
+                }
+                SubmitChanges(editSession);
+                order = PluginContext.Operations.GetOrderById(order.Id);
+            }
+            PluginContext.Operations.DeleteOrderAndHideItemsFromOlap(PluginContext.Operations.GetCredentials(), order);
+        }
+
+        /// <summary>
+        /// Бесследно удалить доставку.
+        /// </summary>
+        private void CancelNewDeliveryAndHideItemsFromOlap()
+        {
+            var order = PluginContext.Operations.GetDeliveryOrders().Last(o => o.Status == OrderStatus.New);
+            var printedItems = order.Items.Where(i => i.PrintTime.HasValue && !i.Deleted).ToList();
+
+            if (printedItems.Count > 0)
+            {
+                var editSession = PluginContext.Operations.CreateEditSession();
+
+                var removalType = PluginContext.Operations.GetActiveRemovalTypes().Last(rt => rt.WriteoffType.Equals(WriteoffType.None));
+                const string comment = "Test API PermanentRemoveDelivery";
+                foreach (var item in printedItems)
+                {
+                    editSession.DeletePrintedOrderItem(comment, WriteoffOptions.WithoutWriteoff(removalType), order, item);
+                }
+                SubmitChanges(editSession);
+                order = PluginContext.Operations.GetDeliveryOrderById(order.Id);
+            }
+            var cancelCause = PluginContext.Operations.GetDeliveryCancelCauses().First();
+            PluginContext.Operations.CancelNewDeliveryAndHideItemsFromOlap(PluginContext.Operations.GetCredentials(), order, cancelCause);
+        }
+
+        /// <summary>
+        /// Распечатать произвольный текст на одном из принтеров
+        /// </summary>
+        private void PrintCheck()
+        {
+            var listView = new ItemsControl();
+
+            var printerSelectionWindow = new Window
+            {
+                Title = "Select printer",
+                Content = listView,
+                SizeToContent = SizeToContent.WidthAndHeight,
+                WindowStyle = WindowStyle.ToolWindow,
+                WindowStartupLocation = WindowStartupLocation.CenterScreen,
+                Owner = window
+            };
+
+            var clickHandler = new RoutedEventHandler((sender, args) =>
+            {
+                var button = (Button)sender;
+                var selectedPrinter = (IPrinterRef)button.DataContext;
+
+                var doc = new Document
+                {
+                    Markup = new XElement(Tags.Doc, new XElement(Tags.Center, $"{button.Content} test"))
+                };
+
+                if (PluginContext.Operations.Print(selectedPrinter, doc))
+                    MessageBox.Show("Document successfully printed", string.Empty, MessageBoxButton.OK, MessageBoxImage.None);
+                else
+                    MessageBox.Show("Print error", string.Empty, MessageBoxButton.OK, MessageBoxImage.Error);
+                printerSelectionWindow.Close();
+            });
+
+            var printers = new Dictionary<string, IPrinterRef>
+            {
+                { "Bill printer", PluginContext.Operations.TryGetBillPrinter(checkIsConfigured: true) },
+                { "Document printer", PluginContext.Operations.TryGetDocumentPrinter(checkIsConfigured: true) },
+                { "Sticker printer", PluginContext.Operations.TryGetStickerPrinter(checkIsConfigured: true) },
+                { "Receipt printer", PluginContext.Operations.TryGetReceiptChequePrinter() },
+                { "Report printer", PluginContext.Operations.GetReportPrinter() }
+            };
+
+            foreach (var p in printers.Where(p => p.Value != null))
+            {
+                var button = new Button
+                {
+                    DataContext = p.Value,
+                    Content = p.Key,
+                    Margin = new Thickness(4),
+                    Padding = new Thickness(4),
+                    HorizontalAlignment = HorizontalAlignment.Stretch
+                };
+                button.Click += clickHandler;
+                listView.Items.Add(button);
+            }
+
+            printerSelectionWindow.ShowDialog();
+        }
+
+        private void CreateJournalEvents()
+        {
+            var editSession = PluginContext.Operations.CreateEditSession();
+            var deliveryOrder = PluginContext.Operations.GetDeliveryOrders().Last();
+            var journalEventHigh = editSession.CreateJournalEvent("SamplePlugin", Severity.High, "Sample of high severity journal event", DateTime.Now);
+            editSession.AttachToJournalEvent(deliveryOrder, journalEventHigh);
+            editSession.SetJournalEventAttribute("comment", $"This is an example of journal event with high severity for delivery {deliveryOrder.Number}", journalEventHigh);
+
+            var journalEventMiddle = editSession.CreateJournalEvent("SamplePlugin", Severity.Middle, "Sample of  middle severity journal event", DateTime.Now);
+            editSession.AttachToJournalEvent(deliveryOrder, journalEventMiddle);
+            editSession.SetJournalEventAttribute("comment", $"This is an example of journal event with middle severity for delivery {deliveryOrder.Number}", journalEventMiddle);
+
+            var journalEventLow = editSession.CreateJournalEvent("SamplePlugin", Severity.Low, "Sample of low severity journal event", DateTime.Now);
+            editSession.AttachToJournalEvent(deliveryOrder, journalEventLow);
+            editSession.SetJournalEventAttribute("comment", $"This is an example of journal event with low severity for delivery {deliveryOrder.Number}", journalEventLow);
+            SubmitChanges(editSession);
+        }
+
+        private void AddProductAndSetOpenPrice()
+        {
+            var order = PluginContext.Operations.GetOrders().Last();
+            var openPriceDish = PluginContext.Operations.GetActiveProducts().Last(i => i.Type != ProductType.ForPurchase && i.CanSetOpenPrice);
+
+            var editSession = PluginContext.Operations.CreateEditSession();
+            var guest = editSession.AddOrderGuest("Alex", order);
+            var product = editSession.AddOrderProductItem(1, openPriceDish, order, guest, null);
+            editSession.SetOpenPrice(1000m, product, order);
+
+            SubmitChanges(editSession);
+        }
+
+        private void ChangePriceCategory()
+        {
+            var order = PluginContext.Operations.GetOrders().Last(i => i.Status == OrderStatus.New);
+            var priceCategory = PluginContext.Operations.GetPriceCategories().Last(i => i.CanApplyManually && !i.Deleted);
+            PluginContext.Operations.ChangePriceCategory(priceCategory, order, PluginContext.Operations.GetCredentials());
+        }
+
+        private void ResetPriceCategory()
+        {
+            var order = PluginContext.Operations.GetOrders().Last(i => i.Status == OrderStatus.New);
+            PluginContext.Operations.ResetPriceCategory(order, PluginContext.Operations.GetCredentials());
+        }
+
+        private static void StartService()
+        {
+            var order = PluginContext.Operations.GetOrders().Last(x => x.Status == OrderStatus.New);
+            var serviceProduct = PluginContext.Operations.GetActiveProducts().Last(x => x.Type == ProductType.Service && x.RateSchedule != null);
+            var credentials = PluginContext.Operations.GetCredentials();
+            var service = PluginContext.Operations.AddOrderServiceItem(serviceProduct, order, order.Guests.Last(), credentials, TimeSpan.FromHours(2));
+            PluginContext.Operations.StartService(credentials, order, service);
+        }
+
+        private static void StopService()
+        {
+            var order = PluginContext.Operations.GetOrders().Last(x => x.Status == OrderStatus.New);
+            var service = order.Items.OfType<IOrderServiceItem>().Last(x => x.IsStarted);
+            PluginContext.Operations.StopService(PluginContext.Operations.GetCredentials(), order, service);
+        }
+
+        private static void ChangeOrderTables()
+        {
+            var tables = PluginContext.Operations.GetRestaurantSections().First().Tables;
+            var order = PluginContext.Operations.GetOrders().Last(x => x.Status == OrderStatus.New);
+            PluginContext.Operations.ChangeOrderTables(order, new[] { tables.First() }, PluginContext.Operations.GetCredentials());
         }
 
         public void Dispose()

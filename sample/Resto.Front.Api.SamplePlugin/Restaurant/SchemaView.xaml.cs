@@ -1,6 +1,5 @@
 ﻿using System.Collections.ObjectModel;
 using System.Windows.Controls;
-using Resto.Front.Api.V5;
 
 namespace Resto.Front.Api.SamplePlugin.Restaurant
 {

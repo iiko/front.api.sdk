@@ -4,20 +4,20 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:Restaurant="clr-namespace:Resto.Front.Api.SamplePlugin.Restaurant"
-             xmlns:View="clr-namespace:Resto.Front.Api.V5.Data.View;assembly=Resto.Front.Api.V5"
+             xmlns:View="clr-namespace:Resto.Front.Api.Data.View;assembly=Resto.Front.Api.V6"
              xmlns:wpfHelpers="clr-namespace:Resto.Front.Api.SamplePlugin.WpfHelpers"
              mc:Ignorable="d"
-             d:DesignHeight="300" d:DesignWidth="300">
+             Height="480" Width="640">
 
     <UserControl.Resources>
         <ResourceDictionary>
-            <wpfHelpers:ApiColorToBrushConverter x:Key="ApiColorToBrushConverter" />
-            <wpfHelpers:Base64StringToBitmapConverter x:Key="Base64StringToBitmapConverter" />
+            <wpfHelpers:SystemColorToBrushConverter x:Key="SystemColorToBrushConverter" />
+            <wpfHelpers:ImageBytesToBitmapConverter x:Key="ImageBytesToBitmapConverter" />
 
             <DataTemplate x:Key="SectionSchemaImageTemplate" DataType="{x:Type View:RestaurantSectionImage}">
                 <Image Width="{Binding Path=Width}"
                        Height="{Binding Path=Height}" Stretch="Fill"
-                       Source="{Binding Path=ImageBodyBase64Coded, Converter={StaticResource Base64StringToBitmapConverter}}">
+                       Source="{Binding Path=Image, Converter={StaticResource ImageBytesToBitmapConverter}}">
                     <Image.LayoutTransform>
                         <RotateTransform Angle="{Binding Angle}" />
                     </Image.LayoutTransform>
@@ -39,7 +39,7 @@
             <DataTemplate x:Key="SectionSchemaRectangleTemplate" DataType="{x:Type View:RestaurantSectionRectangle}">
                 <Rectangle Width="{Binding Path=Width}" Height="{Binding Path=Height}"
                            StrokeThickness="1" Stroke="Black"
-                           Fill="{Binding Path=Color, Mode=OneTime, Converter={StaticResource ApiColorToBrushConverter}}">
+                           Fill="{Binding Path=Color, Mode=OneTime, Converter={StaticResource SystemColorToBrushConverter}}">
                     <Rectangle.LayoutTransform>
                         <RotateTransform Angle="{Binding Angle}"/>
                     </Rectangle.LayoutTransform>
@@ -49,7 +49,7 @@
             <DataTemplate x:Key="SectionSchemaEllipseTemplate" DataType="{x:Type View:RestaurantSectionEllipse}">
                 <Ellipse Width="{Binding Path=Width}" Height="{Binding Path=Height}"
                          StrokeThickness="1" Stroke="Black"
-                         Fill="{Binding Path=Color, Mode=OneTime, Converter={StaticResource ApiColorToBrushConverter}}">
+                         Fill="{Binding Path=Color, Mode=OneTime, Converter={StaticResource SystemColorToBrushConverter}}">
                     <Ellipse.LayoutTransform>
                         <RotateTransform Angle="{Binding Angle}" />
                     </Ellipse.LayoutTransform>

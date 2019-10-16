@@ -1,51 +1,45 @@
 ﻿using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
-using Resto.Front.Api.V5.Data.Brd;
-using Resto.Front.Api.V5.Extensions;
-using Resto.Front.Api.V5;
+using Resto.Front.Api.Data.Brd;
+using Resto.Front.Api.Extensions;
 using MessageBox = System.Windows.MessageBox;
 
 namespace Resto.Front.Api.SamplePlugin.Restaurant
 {
     public sealed partial class StreetView
     {
-        private readonly ObservableCollection<IStreet> streets = new ObservableCollection<IStreet>();
-
-        public ObservableCollection<IStreet> Streets
-        {
-            get { return streets; }
-        }
+        public ObservableCollection<IStreet> Streets { get; } = new ObservableCollection<IStreet>();
 
         public StreetView()
         {
             InitializeComponent();
 
-            ReloadStreet();
+            SearchStreets();
         }
 
-        private void ReloadStreet()
+        private void SearchStreets()
         {
-            streets.Clear();
-            PluginContext.Operations.GetAllStreets().ForEach(streets.Add);
+            Streets.Clear();
+            PluginContext.Operations.SearchStreets(txtSearch.Text).ForEach(Streets.Add);
         }
 
-        private void BtnRefreshClick(object sender, RoutedEventArgs e)
+        private void BtnSearchClick(object sender, RoutedEventArgs e)
         {
-            ReloadStreet();
+            SearchStreets();
         }
 
         private void BtnAddClick(object sender, RoutedEventArgs e)
         {
-            var windowAdd = new StreetBox()
-                                   {
-                                       Title = GetType().Name
-                                   };
+            var windowAdd = new StreetBox
+            {
+                Title = GetType().Name
+            };
             windowAdd.ShowDialog();
             var createdStreet = windowAdd.CreatedStreet;
             if (createdStreet == null)
                 return;
-            streets.Add(createdStreet);
+            Streets.Add(createdStreet);
         }
 
         private void BtnRenameClick(object sender, RoutedEventArgs e)
@@ -61,8 +55,8 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
             PluginContext.Operations.ChangeStreetName(txtBox.Text, street, PluginContext.Operations.GetCredentials());
 
             var changedStreet = PluginContext.Operations.GetStreetById(street.Id);
-            streets.Remove(street);
-            streets.Add(changedStreet);
+            Streets.Remove(street);
+            Streets.Add(changedStreet);
 
             listBoxStreet.SelectedItem = changedStreet;
             txtBox.Clear();
@@ -76,9 +70,9 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
             editSession.DeleteOrRestoreStreet(true, street);
             PluginContext.Operations.SubmitChanges(PluginContext.Operations.GetCredentials(), editSession);
 
-            streets.Remove(street);
+            Streets.Remove(street);
             var updatedStreet = PluginContext.Operations.GetStreetById(street.Id);
-            streets.Add(updatedStreet);
+            Streets.Add(updatedStreet);
 
             listBoxStreet.SelectedItem = updatedStreet;
         }
@@ -94,9 +88,9 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
 
             PluginContext.Operations.DeleteOrRestoreStreet(false, street, PluginContext.Operations.GetCredentials());
 
-            streets.Remove(street);
+            Streets.Remove(street);
             var updatedStreet = PluginContext.Operations.GetStreetById(street.Id);
-            streets.Add(updatedStreet);
+            Streets.Add(updatedStreet);
 
             listBoxStreet.SelectedItem = updatedStreet;
         }

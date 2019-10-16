@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-using Resto.Front.Api.V5.Data.View;
+using Resto.Front.Api.Data.View;
 
 namespace Resto.Front.Api.SamplePlugin.Restaurant
 {

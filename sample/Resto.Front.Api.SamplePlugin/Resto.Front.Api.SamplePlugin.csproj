@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Resto.Front.Api.SamplePlugin</RootNamespace>
     <AssemblyName>Resto.Front.Api.SamplePlugin</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -46,6 +46,7 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -58,6 +59,11 @@
   <ItemGroup>
     <Compile Include="BillChequeExtender.cs" />
     <Compile Include="ButtonsTester.cs" />
+    <Compile Include="ChequeTaskProcessor.cs" />
+    <Compile Include="CookingPriority\CookingPriorityManager.cs" />
+    <Compile Include="CookingPriority\CookingPriorityView.xaml.cs">
+      <DependentUpon>CookingPriorityView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DiagnosticMessagesTester\FrontLockReminder.cs" />
     <Compile Include="DiagnosticMessagesTester\MessagesTester.cs" />
     <Compile Include="DiagnosticMessagesTester\MessageSender.xaml.cs">
@@ -65,6 +71,7 @@
     </Compile>
     <Compile Include="DiagnosticMessagesTester\OrderItemReadyChangeNotifier.cs" />
     <Compile Include="DiagnosticMessagesTester\StopListChangeNotifier.cs" />
+    <Compile Include="ExternalOperationsTester.cs" />
     <Compile Include="Kitchen\CookingProductModel.cs" />
     <Compile Include="Kitchen\KitchenLoadMonitoringModel.cs" />
     <Compile Include="Kitchen\KitchenLoadMonitoringViewer.cs" />
@@ -74,6 +81,8 @@
     <Compile Include="Kitchen\KitchenOrderCookingItemExtensions.cs" />
     <Compile Include="LicensingTester.cs" />
     <Compile Include="OperationServiceExtensions.cs" />
+    <Compile Include="BeforeOrderBillHandler.cs" />
+    <Compile Include="OrderStatusChangeNotifier.cs" />
     <Compile Include="PreliminaryOrders\ModifierItemModel.cs" />
     <Compile Include="PreliminaryOrders\OrderEditView.xaml.cs">
       <DependentUpon>OrderEditView.xaml</DependentUpon>
@@ -137,8 +146,10 @@
     <Compile Include="SamplePlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WpfHelpers\AddressesListToTextConverter.cs" />
-    <Compile Include="WpfHelpers\ApiColorToColorConverter.cs" />
-    <Compile Include="WpfHelpers\Base64StringToBitmapConverter.cs" />
+    <Compile Include="WpfHelpers\ProductToBitmapConverter.cs" />
+    <Compile Include="WpfHelpers\SystemColorToBrushConverter.cs" />
+    <Compile Include="WpfHelpers\ImageBytesToBitmapConverter.cs" />
+    <Compile Include="WpfHelpers\ChooseItemDialog.cs" />
     <Compile Include="WpfHelpers\EmailsListToTextConverter.cs" />
     <Compile Include="WpfHelpers\NotNullConverter.cs" />
     <Compile Include="WpfHelpers\PhonesListToTextConverter.cs" />
@@ -153,6 +164,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Page Include="CookingPriority\CookingPriorityView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="DiagnosticMessagesTester\MessageSender.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -220,8 +235,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Resto.Front.Api.V5">
-      <Version>5.4.1160</Version>
+    <PackageReference Include="Resto.Front.Api.V6">
+      <Version>7.0.6022</Version>
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
     <PackageReference Include="System.Interactive">
@@ -242,6 +257,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="README.txt" />
+    <None Include="Manifest.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

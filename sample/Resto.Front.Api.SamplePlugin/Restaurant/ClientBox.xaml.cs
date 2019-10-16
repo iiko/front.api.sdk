@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Windows;
-using Resto.Front.Api.V5.Data.Brd;
-using Resto.Front.Api.V5.Data.DataTransferObjects;
-using Resto.Front.Api.V5.Exceptions;
-using Resto.Front.Api.V5;
-using Resto.Front.Api.V5.Attributes.JetBrains;
+using Resto.Front.Api.Data.Brd;
+using Resto.Front.Api.Exceptions;
+using Resto.Front.Api.Attributes.JetBrains;
 
 namespace Resto.Front.Api.SamplePlugin.Restaurant
 {
@@ -43,10 +41,10 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
         private void BtnOkClick(object sender, RoutedEventArgs e)
         {
             var editSession = PluginContext.Operations.CreateEditSession();
-            var clientStub = editSession.CreateClient(Guid.NewGuid(), txtName.Text, ConvertTextToPhonesList(txtPhone.Text), null, DateTime.Now, null, null);
+            var clientStub = editSession.CreateClient(Guid.NewGuid(), txtName.Text, ConvertTextToPhonesList(txtPhone.Text), null, DateTime.Now);
             editSession.ChangeClientSurname(txtSurname.Text, clientStub);
             editSession.ChangeClientNick(txtNick.Text, clientStub);
-            editSession.ChangeClientCardNumber(txtCard.Text, clientStub,null,null);
+            editSession.ChangeClientCardNumber(txtCard.Text, clientStub);
             // editSession.ChangeClientAddresses(ConvertTextToAddressesList(txtAddress.Text), 0, clientStub);
             editSession.ChangeClientEmails(ConvertTextToEmailsList(txtEmail.Text), clientStub);
             editSession.ChangeClientComment(txtComment.Text, clientStub);
@@ -62,10 +60,10 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
             return emailsText.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries)
                 .Select((emailText, emailIndex) =>
                     new EmailDto
-                        {
-                            EmailValue = emailText,
-                            IsMain = emailIndex == 0
-                        })
+                    {
+                        EmailValue = emailText,
+                        IsMain = emailIndex == 0
+                    })
                 .ToList();
         }
 
@@ -75,10 +73,10 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
             return phonesText.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries)
                 .Select((phoneText, phoneIndex) =>
                     new PhoneDto
-                        {
-                            PhoneValue = phoneText,
-                            IsMain = phoneIndex == 0
-                        })
+                    {
+                        PhoneValue = phoneText,
+                        IsMain = phoneIndex == 0
+                    })
                 .ToList();
         }
 
@@ -90,7 +88,7 @@ namespace Resto.Front.Api.SamplePlugin.Restaurant
             editSession.ChangeClientName(txtName.Text, existingClient);
             editSession.ChangeClientSurname(txtSurname.Text, existingClient);
             editSession.ChangeClientNick(txtNick.Text, existingClient);
-            editSession.ChangeClientCardNumber(txtCard.Text, existingClient,null,null);
+            editSession.ChangeClientCardNumber(txtCard.Text, existingClient);
             editSession.ChangeClientPhones(ConvertTextToPhonesList(txtPhone.Text), existingClient);
             // editSession.ChangeClientAddresses(ConvertTextToAddressesList(txtAddress.Text), 0, existingClient);
             editSession.ChangeClientEmails(ConvertTextToEmailsList(txtEmail.Text), existingClient);

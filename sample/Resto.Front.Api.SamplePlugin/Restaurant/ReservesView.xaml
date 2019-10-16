@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:Brd="clr-namespace:Resto.Front.Api.V5.Data.Brd;assembly=Resto.Front.Api.V5"
+             xmlns:Brd="clr-namespace:Resto.Front.Api.Data.Brd;assembly=Resto.Front.Api.V6"
              xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase" mc:Ignorable="d"
              HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MinHeight="300" MinWidth="550">
   <UserControl.Resources>

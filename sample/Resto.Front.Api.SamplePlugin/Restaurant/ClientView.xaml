@@ -3,7 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:Brd="clr-namespace:Resto.Front.Api.V5.Data.Brd;assembly=Resto.Front.Api.V5"
+    xmlns:Brd="clr-namespace:Resto.Front.Api.Data.Brd;assembly=Resto.Front.Api.V6"
     xmlns:wpfHelpers="clr-namespace:Resto.Front.Api.SamplePlugin.WpfHelpers"
     mc:Ignorable="d"
     Height="350" Width="700" MaxHeight="350" MaxWidth="700" MinHeight="350" MinWidth="700">    

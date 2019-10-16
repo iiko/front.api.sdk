@@ -1,7 +1,7 @@
 ﻿<UserControl x:Class="Resto.Front.Api.SamplePlugin.Restaurant.MenuView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"    
-    xmlns:Assortment="clr-namespace:Resto.Front.Api.V5.Data.Assortment;assembly=Resto.Front.Api.V5"
+    xmlns:Assortment="clr-namespace:Resto.Front.Api.Data.Assortment;assembly=Resto.Front.Api.V6"
     xmlns:Restaurant="clr-namespace:Resto.Front.Api.SamplePlugin.Restaurant"
     xmlns:System="clr-namespace:System;assembly=mscorlib" 
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -13,6 +13,8 @@
     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
         <Grid.Resources>
             <ResourceDictionary>
+                <wpfHelpers:SystemColorToBrushConverter x:Key="SystemColorToBrushConverter" />
+                <wpfHelpers:ProductToBitmapConverter x:Key="ProductToBitmapConverter" />
                 <wpfHelpers:TypeMatchingConverter x:Key="TypeMatchingConverter" />
 
                 <Style x:Key="MenuItemStyle" TargetType="TreeViewItem">
@@ -85,6 +87,13 @@
                             </TextBlock.Style>
                         </TextBlock>
                         <TextBlock Text="{Binding Path=Product.MenuIndex, StringFormat=Menu index: {0}}" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Menu button: " VerticalAlignment="Center" />
+                            <Button Content="{Binding Path=Product.Name}"
+                                    Background="{Binding Path=Background, Converter={StaticResource SystemColorToBrushConverter}}"
+                                    Foreground="{Binding Path=Foreground, Converter={StaticResource SystemColorToBrushConverter}}"/>
+                        </StackPanel>
+                        <Image Source="{Binding Converter={StaticResource ProductToBitmapConverter}}" Stretch="Uniform" StretchDirection="DownOnly" />
                     </StackPanel>
                 </DataTemplate>
                 <DataTemplate x:Key="ProductGroupDetailsTemplate">

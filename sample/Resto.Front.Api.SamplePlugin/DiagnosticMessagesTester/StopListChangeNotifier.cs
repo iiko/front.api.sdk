@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reactive.Linq;
 using System.Text;
-using Resto.Front.Api.V5.Data.Assortment;
-using Resto.Front.Api.V5;
+using Resto.Front.Api.Data.Assortment;
 
 namespace Resto.Front.Api.SamplePlugin.DiagnosticMessagesTester
 {

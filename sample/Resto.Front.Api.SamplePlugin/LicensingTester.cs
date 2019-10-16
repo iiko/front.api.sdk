@@ -4,8 +4,7 @@ using System.Linq;
 using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
-using Resto.Front.Api.V5;
-using Resto.Front.Api.V5.Exceptions;
+using Resto.Front.Api.Exceptions;
 
 namespace Resto.Front.Api.SamplePlugin
 {
