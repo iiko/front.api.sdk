@@ -1318,10 +1318,10 @@
   <HelpKINode Title="ChequeTask.CustomerName property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CustomerName.htm" />
   <HelpKINode Title="ChequeTask.CustomerTin property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CustomerTin.htm" />
   <HelpKINode Title="ChequeTask.IsOfdElectronicChequeOnly property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_IsOfdElectronicChequeOnly.htm" />
-  <HelpKINode Title="ChequeTask.IsPrepay property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_IsPrepay.htm" />
   <HelpKINode Title="ChequeTask.OfdEmail property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OfdEmail.htm" />
   <HelpKINode Title="ChequeTask.OfdPhoneNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OfdPhoneNumber.htm" />
   <HelpKINode Title="ChequeTask.OperationTime property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OperationTime.htm" />
+  <HelpKINode Title="ChequeTask.PrepaymentId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentId.htm" />
   <HelpKINode Title="ChequeTask.PrepaymentSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentSum.htm" />
   <HelpKINode Title="ChequeTask.RoundSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_RoundSum.htm" />
   <HelpKINode Title="ChequeTask.SettlementAddress property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_SettlementAddress.htm" />
@@ -1369,6 +1369,7 @@
     <HelpKINode Title="DeviceSettings.Code Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceSettings_Code.htm" />
     <HelpKINode Title="IConception.Code Property " Url="html/P_Resto_Front_Api_Data_Organization_IConception_Code.htm" />
     <HelpKINode Title="IPriceCategory.Code Property " Url="html/P_Resto_Front_Api_Data_Orders_IPriceCategory_Code.htm" />
+    <HelpKINode Title="IUser.Code Property " Url="html/P_Resto_Front_Api_Data_Security_IUser_Code.htm" />
   </HelpKINode>
   <HelpKINode Title="CodeName property" Url="html/P_Resto_Front_Api_Devices_IDeviceFactory_CodeName.htm" />
   <HelpKINode Title="CollectData method" Url="html/M_Resto_Front_Api_IExternalPaymentProcessor_CollectData.htm" />
@@ -1949,10 +1950,10 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
@@ -4325,7 +4326,6 @@
   <HelpKINode Title="IsOfdVersionHigher10 property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_IsOfdVersionHigher10.htm" />
   <HelpKINode Title="IsPreliminary property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsPreliminary.htm" />
   <HelpKINode Title="IsPrepay property">
-    <HelpKINode Title="ChequeTask.IsPrepay Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_IsPrepay.htm" />
     <HelpKINode Title="IPastOrderPayment.IsPrepay Property " Url="html/P_Resto_Front_Api_Data_Orders_IPastOrderPayment_IsPrepay.htm" />
     <HelpKINode Title="IPaymentItem.IsPrepay Property " Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsPrepay.htm" />
   </HelpKINode>
@@ -4467,6 +4467,7 @@
   </HelpKINode>
   <HelpKINode Title="IUser.Card property" Url="html/P_Resto_Front_Api_Data_Security_IUser_Card.htm" />
   <HelpKINode Title="IUser.CellPhone property" Url="html/P_Resto_Front_Api_Data_Security_IUser_CellPhone.htm" />
+  <HelpKINode Title="IUser.Code property" Url="html/P_Resto_Front_Api_Data_Security_IUser_Code.htm" />
   <HelpKINode Title="IUser.IsSessionOpen property" Url="html/P_Resto_Front_Api_Data_Security_IUser_IsSessionOpen.htm" />
   <HelpKINode Title="IUser.Name property" Url="html/P_Resto_Front_Api_Data_Security_IUser_Name.htm" />
   <HelpKINode Title="IVersionedEntity interface">
@@ -5443,6 +5444,7 @@
   <HelpKINode Title="PreliminaryOrderItemProduct.Modifiers property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemProduct_Modifiers.htm" />
   <HelpKINode Title="PreliminaryOrderItemProduct.PreliminaryOrderItemProduct constructor" Url="html/Overload_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemProduct__ctor.htm" />
   <HelpKINode Title="PreliminaryOrderItemProduct.ProductSize property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemProduct_ProductSize.htm" />
+  <HelpKINode Title="PrepaymentId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentId.htm" />
   <HelpKINode Title="PrepaymentSum property">
     <HelpKINode Title="ChequeTask.PrepaymentSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentSum.htm" />
     <HelpKINode Title="CorrectionTask.PrepaymentSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_CorrectionTask_PrepaymentSum.htm" />
