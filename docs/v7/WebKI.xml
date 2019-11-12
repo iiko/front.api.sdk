@@ -1948,12 +1948,12 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
@@ -2475,9 +2475,7 @@
   <HelpKINode Title="GetRollbackData(Of T) method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_GetRollbackData__1.htm" />
   <HelpKINode Title="GetRollbackData&lt;T&gt; method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_GetRollbackData__1.htm" />
   <HelpKINode Title="GetSectionSchema method" Url="html/M_Resto_Front_Api_Data_Organization_Sections_RestaurantSectionExtensions_GetSectionSchema.htm" />
-  <HelpKINode Title="GetSectionSchemaById method" Url="html/M_Resto_Front_Api_IOperationService_GetSectionSchemaById.htm" />
   <HelpKINode Title="GetSectionSchemaByRestaurantSection method" Url="html/M_Resto_Front_Api_IOperationService_GetSectionSchemaByRestaurantSection.htm" />
-  <HelpKINode Title="GetSectionSchemas method" Url="html/M_Resto_Front_Api_IOperationService_GetSectionSchemas.htm" />
   <HelpKINode Title="GetSelectiveDiscountItemSettings method" Url="html/M_Resto_Front_Api_IOperationService_GetSelectiveDiscountItemSettings.htm" />
   <HelpKINode Title="GetServerUrl method" Url="html/M_Resto_Front_Api_IInternalOperationService_GetServerUrl.htm" />
   <HelpKINode Title="GetSettings method">
@@ -3372,6 +3370,7 @@
   <HelpKINode Title="INotificationService.RemovalTypeChanged property" Url="html/P_Resto_Front_Api_INotificationService_RemovalTypeChanged.htm" />
   <HelpKINode Title="INotificationService.ReserveChanged property" Url="html/P_Resto_Front_Api_INotificationService_ReserveChanged.htm" />
   <HelpKINode Title="INotificationService.RestaurantChanged property" Url="html/P_Resto_Front_Api_INotificationService_RestaurantChanged.htm" />
+  <HelpKINode Title="INotificationService.RestaurantSectionChanged property" Url="html/P_Resto_Front_Api_INotificationService_RestaurantSectionChanged.htm" />
   <HelpKINode Title="INotificationService.ScreenChanged property" Url="html/P_Resto_Front_Api_INotificationService_ScreenChanged.htm" />
   <HelpKINode Title="INotificationService.StreetChanged property" Url="html/P_Resto_Front_Api_INotificationService_StreetChanged.htm" />
   <HelpKINode Title="INotificationService.SubscribeOnBeforeDeleteOrder method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnBeforeDeleteOrder.htm" />
@@ -3568,9 +3567,7 @@
   <HelpKINode Title="IOperationService.GetReserveById method" Url="html/M_Resto_Front_Api_IOperationService_GetReserveById.htm" />
   <HelpKINode Title="IOperationService.GetReserves method" Url="html/M_Resto_Front_Api_IOperationService_GetReserves.htm" />
   <HelpKINode Title="IOperationService.GetRestaurantSections method" Url="html/M_Resto_Front_Api_IOperationService_GetRestaurantSections.htm" />
-  <HelpKINode Title="IOperationService.GetSectionSchemaById method" Url="html/M_Resto_Front_Api_IOperationService_GetSectionSchemaById.htm" />
   <HelpKINode Title="IOperationService.GetSectionSchemaByRestaurantSection method" Url="html/M_Resto_Front_Api_IOperationService_GetSectionSchemaByRestaurantSection.htm" />
-  <HelpKINode Title="IOperationService.GetSectionSchemas method" Url="html/M_Resto_Front_Api_IOperationService_GetSectionSchemas.htm" />
   <HelpKINode Title="IOperationService.GetSelectiveDiscountItemSettings method" Url="html/M_Resto_Front_Api_IOperationService_GetSelectiveDiscountItemSettings.htm" />
   <HelpKINode Title="IOperationService.GetSimpleModifiersByProduct method" Url="html/M_Resto_Front_Api_IOperationService_GetSimpleModifiersByProduct.htm" />
   <HelpKINode Title="IOperationService.GetSplittableGroupModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_GetSplittableGroupModifiersByCompoundItemTemplate.htm" />
@@ -3664,7 +3661,6 @@
   <HelpKINode Title="IOperationService.TryGetRegionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetRegionById.htm" />
   <HelpKINode Title="IOperationService.TryGetRemovalTypeById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetRemovalTypeById.htm" />
   <HelpKINode Title="IOperationService.TryGetReserveById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetReserveById.htm" />
-  <HelpKINode Title="IOperationService.TryGetSectionSchemaById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSectionSchemaById.htm" />
   <HelpKINode Title="IOperationService.TryGetSectionSchemaByRestaurantSection method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSectionSchemaByRestaurantSection.htm" />
   <HelpKINode Title="IOperationService.TryGetSimpleModifiersByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSimpleModifiersByProduct.htm" />
   <HelpKINode Title="IOperationService.TryGetSplittableGroupModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSplittableGroupModifiersByCompoundItemTemplate.htm" />
@@ -4281,6 +4277,7 @@
   <HelpKINode Title="ISectionSchema.MarkElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_MarkElements.htm" />
   <HelpKINode Title="ISectionSchema.RectangleElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_RectangleElements.htm" />
   <HelpKINode Title="ISectionSchema.TableElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_TableElements.htm" />
+  <HelpKINode Title="ISectionSchema.Version property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_Version.htm" />
   <HelpKINode Title="ISectionSchema.Width property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_Width.htm" />
   <HelpKINode Title="ISelectiveDiscountItemSettings interface">
     <HelpKINode Title="ISelectiveDiscountItemSettings Interface" Url="html/T_Resto_Front_Api_Data_Orders_ISelectiveDiscountItemSettings.htm" />
@@ -5977,6 +5974,7 @@
   <HelpKINode Title="RestaurantMode enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="RestaurantMode property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_RestaurantMode.htm" />
   <HelpKINode Title="RestaurantSection property" Url="html/P_Resto_Front_Api_Data_Orders_IPastOrder_RestaurantSection.htm" />
+  <HelpKINode Title="RestaurantSectionChanged property" Url="html/P_Resto_Front_Api_INotificationService_RestaurantSectionChanged.htm" />
   <HelpKINode Title="RestaurantSectionEllipse class">
     <HelpKINode Title="RestaurantSectionEllipse Class" Url="html/T_Resto_Front_Api_Data_View_RestaurantSectionEllipse.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_View_RestaurantSectionEllipse__ctor.htm" />
@@ -7063,7 +7061,6 @@
   <HelpKINode Title="TryGetRemovalTypeById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetRemovalTypeById.htm" />
   <HelpKINode Title="TryGetReserveById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetReserveById.htm" />
   <HelpKINode Title="TryGetSectionSchema method" Url="html/M_Resto_Front_Api_Data_Organization_Sections_RestaurantSectionExtensions_TryGetSectionSchema.htm" />
-  <HelpKINode Title="TryGetSectionSchemaById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSectionSchemaById.htm" />
   <HelpKINode Title="TryGetSectionSchemaByRestaurantSection method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSectionSchemaByRestaurantSection.htm" />
   <HelpKINode Title="TryGetSetting(Of TSetting) method">
     <HelpKINode Title="IPluginSettings.TryGetSetting(TSetting) Method " Url="html/M_Resto_Front_Api_Data_Settings_IPluginSettings_TryGetSetting__1.htm" />
@@ -7183,6 +7180,7 @@
   <HelpKINode Title="VatSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_CorrectionTask_VatSum.htm" />
   <HelpKINode Title="Version property">
     <HelpKINode Title="IPluginSettings.Version Property " Url="html/P_Resto_Front_Api_Data_Settings_IPluginSettings_Version.htm" />
+    <HelpKINode Title="ISectionSchema.Version Property " Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_Version.htm" />
     <HelpKINode Title="PluginSettings.Version Property " Url="html/P_Resto_Front_Api_Data_Settings_PluginSettings_Version.htm" />
   </HelpKINode>
   <HelpKINode Title="VerticalAlign field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_VerticalAlign.htm" />
