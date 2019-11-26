@@ -1256,6 +1256,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChequeAdditionalInfo property" Url="html/P_Resto_Front_Api_OperationContexts_INavigatingToPaymentScreenOperationContext_ChequeAdditionalInfo.htm" />
   <HelpKINode Title="ChequeAdditionalInfo.ChequeAdditionalInfo constructor" Url="html/M_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo__ctor.htm" />
   <HelpKINode Title="ChequeAdditionalInfo.Email property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_Email.htm" />
   <HelpKINode Title="ChequeAdditionalInfo.NeedReceipt property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_NeedReceipt.htm" />
@@ -1946,10 +1947,10 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2415,12 +2416,6 @@
   <HelpKINode Title="GetOrderTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypeById.htm" />
   <HelpKINode Title="GetOrderTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypes.htm" />
   <HelpKINode Title="GetOrganizationFingerprint method" Url="html/M_Resto_Front_Api_IOperationService_GetOrganizationFingerprint.htm" />
-  <HelpKINode Title="GetParent method">
-    <HelpKINode Title="ProductExtensions.GetParent Method " Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetParent.htm" />
-    <HelpKINode Title="ProductGroupExtensions.GetParent Method " Url="html/M_Resto_Front_Api_Data_Assortment_ProductGroupExtensions_GetParent.htm" />
-  </HelpKINode>
-  <HelpKINode Title="GetParentByProduct method" Url="html/M_Resto_Front_Api_IOperationService_GetParentByProduct.htm" />
-  <HelpKINode Title="GetParentByProductGroup method" Url="html/M_Resto_Front_Api_IOperationService_GetParentByProductGroup.htm" />
   <HelpKINode Title="GetPastOrder method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrder.htm" />
   <HelpKINode Title="GetPaymentProcessorSettingsKey method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetPaymentProcessorSettingsKey.htm" />
   <HelpKINode Title="GetPaymentSystemName method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentSystemName.htm" />
@@ -2474,8 +2469,6 @@
   <HelpKINode Title="GetRollbackData method" Url="html/M_Resto_Front_Api_IPaymentDataContext_GetRollbackData.htm" />
   <HelpKINode Title="GetRollbackData(Of T) method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_GetRollbackData__1.htm" />
   <HelpKINode Title="GetRollbackData&lt;T&gt; method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_GetRollbackData__1.htm" />
-  <HelpKINode Title="GetSectionSchema method" Url="html/M_Resto_Front_Api_Data_Organization_Sections_RestaurantSectionExtensions_GetSectionSchema.htm" />
-  <HelpKINode Title="GetSectionSchemaByRestaurantSection method" Url="html/M_Resto_Front_Api_IOperationService_GetSectionSchemaByRestaurantSection.htm" />
   <HelpKINode Title="GetSelectiveDiscountItemSettings method" Url="html/M_Resto_Front_Api_IOperationService_GetSelectiveDiscountItemSettings.htm" />
   <HelpKINode Title="GetServerUrl method" Url="html/M_Resto_Front_Api_IInternalOperationService_GetServerUrl.htm" />
   <HelpKINode Title="GetSettings method">
@@ -3294,6 +3287,11 @@
   <HelpKINode Title="IMarketingSource.Name property" Url="html/P_Resto_Front_Api_Data_Brd_IMarketingSource_Name.htm" />
   <HelpKINode Title="ImplicitUseKindFlags enumeration" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ImplicitUseKindFlags.htm" />
   <HelpKINode Title="ImplicitUseTargetFlags enumeration" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ImplicitUseTargetFlags.htm" />
+  <HelpKINode Title="INavigatingToPaymentScreenOperationContext interface">
+    <HelpKINode Title="INavigatingToPaymentScreenOperationContext Interface" Url="html/T_Resto_Front_Api_OperationContexts_INavigatingToPaymentScreenOperationContext.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_OperationContexts_INavigatingToPaymentScreenOperationContext.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INavigatingToPaymentScreenOperationContext.ChequeAdditionalInfo property" Url="html/P_Resto_Front_Api_OperationContexts_INavigatingToPaymentScreenOperationContext_ChequeAdditionalInfo.htm" />
   <HelpKINode Title="InBlacklist property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_InBlacklist.htm" />
   <HelpKINode Title="Increase property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Increase.htm" />
   <HelpKINode Title="IncreasePercent property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IncreasePercent.htm" />
@@ -3528,8 +3526,6 @@
   <HelpKINode Title="IOperationService.GetOrderTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypeById.htm" />
   <HelpKINode Title="IOperationService.GetOrderTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypes.htm" />
   <HelpKINode Title="IOperationService.GetOrganizationFingerprint method" Url="html/M_Resto_Front_Api_IOperationService_GetOrganizationFingerprint.htm" />
-  <HelpKINode Title="IOperationService.GetParentByProduct method" Url="html/M_Resto_Front_Api_IOperationService_GetParentByProduct.htm" />
-  <HelpKINode Title="IOperationService.GetParentByProductGroup method" Url="html/M_Resto_Front_Api_IOperationService_GetParentByProductGroup.htm" />
   <HelpKINode Title="IOperationService.GetPastOrder method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrder.htm" />
   <HelpKINode Title="IOperationService.GetPaymentSystemName method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentSystemName.htm" />
   <HelpKINode Title="IOperationService.GetPaymentTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentTypeById.htm" />
@@ -3567,7 +3563,6 @@
   <HelpKINode Title="IOperationService.GetReserveById method" Url="html/M_Resto_Front_Api_IOperationService_GetReserveById.htm" />
   <HelpKINode Title="IOperationService.GetReserves method" Url="html/M_Resto_Front_Api_IOperationService_GetReserves.htm" />
   <HelpKINode Title="IOperationService.GetRestaurantSections method" Url="html/M_Resto_Front_Api_IOperationService_GetRestaurantSections.htm" />
-  <HelpKINode Title="IOperationService.GetSectionSchemaByRestaurantSection method" Url="html/M_Resto_Front_Api_IOperationService_GetSectionSchemaByRestaurantSection.htm" />
   <HelpKINode Title="IOperationService.GetSelectiveDiscountItemSettings method" Url="html/M_Resto_Front_Api_IOperationService_GetSelectiveDiscountItemSettings.htm" />
   <HelpKINode Title="IOperationService.GetSimpleModifiersByProduct method" Url="html/M_Resto_Front_Api_IOperationService_GetSimpleModifiersByProduct.htm" />
   <HelpKINode Title="IOperationService.GetSplittableGroupModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_GetSplittableGroupModifiersByCompoundItemTemplate.htm" />
@@ -5558,7 +5553,6 @@
   <HelpKINode Title="ProductExtensions.GetDisabledSizes method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetDisabledSizes.htm" />
   <HelpKINode Title="ProductExtensions.GetGroupModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetGroupModifiers.htm" />
   <HelpKINode Title="ProductExtensions.GetIncludedInMenuSections method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetIncludedInMenuSections.htm" />
-  <HelpKINode Title="ProductExtensions.GetParent method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetParent.htm" />
   <HelpKINode Title="ProductExtensions.GetSimpleModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetSimpleModifiers.htm" />
   <HelpKINode Title="ProductExtensions.GetTemplatedModifiersParams method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetTemplatedModifiersParams.htm" />
   <HelpKINode Title="ProductExtensions.TryGetDisabledSizes method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetDisabledSizes.htm" />
@@ -5581,7 +5575,6 @@
   </HelpKINode>
   <HelpKINode Title="ProductGroupExtensions.GetChildGroups method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductGroupExtensions_GetChildGroups.htm" />
   <HelpKINode Title="ProductGroupExtensions.GetChildProducts method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductGroupExtensions_GetChildProducts.htm" />
-  <HelpKINode Title="ProductGroupExtensions.GetParent method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductGroupExtensions_GetParent.htm" />
   <HelpKINode Title="ProductGroupExtensions.TryGetChildGroups method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductGroupExtensions_TryGetChildGroups.htm" />
   <HelpKINode Title="ProductGroupExtensions.TryGetChildProducts method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductGroupExtensions_TryGetChildProducts.htm" />
   <HelpKINode Title="ProductGroupExtensions.TryGetParent method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductGroupExtensions_TryGetParent.htm" />
@@ -5987,7 +5980,6 @@
     <HelpKINode Title="RestaurantSectionExtensions Class" Url="html/T_Resto_Front_Api_Data_Organization_Sections_RestaurantSectionExtensions.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Organization_Sections_RestaurantSectionExtensions.htm" />
   </HelpKINode>
-  <HelpKINode Title="RestaurantSectionExtensions.GetSectionSchema method" Url="html/M_Resto_Front_Api_Data_Organization_Sections_RestaurantSectionExtensions_GetSectionSchema.htm" />
   <HelpKINode Title="RestaurantSectionExtensions.TryGetSectionSchema method" Url="html/M_Resto_Front_Api_Data_Organization_Sections_RestaurantSectionExtensions_TryGetSectionSchema.htm" />
   <HelpKINode Title="RestaurantSectionImage class">
     <HelpKINode Title="RestaurantSectionImage Class" Url="html/T_Resto_Front_Api_Data_View_RestaurantSectionImage.htm" />
@@ -6495,6 +6487,8 @@
   <HelpKINode Title="Resto.Front.Api.IPaymentDataContext interface" Url="html/T_Resto_Front_Api_IPaymentDataContext.htm" />
   <HelpKINode Title="Resto.Front.Api.IPluginIntegrationService interface" Url="html/T_Resto_Front_Api_IPluginIntegrationService.htm" />
   <HelpKINode Title="Resto.Front.Api.IReceiptPrinter interface" Url="html/T_Resto_Front_Api_IReceiptPrinter.htm" />
+  <HelpKINode Title="Resto.Front.Api.OperationContexts namespace" Url="html/N_Resto_Front_Api_OperationContexts.htm" />
+  <HelpKINode Title="Resto.Front.Api.OperationContexts.INavigatingToPaymentScreenOperationContext interface" Url="html/T_Resto_Front_Api_OperationContexts_INavigatingToPaymentScreenOperationContext.htm" />
   <HelpKINode Title="Resto.Front.Api.PluginContext class" Url="html/T_Resto_Front_Api_PluginContext.htm" />
   <HelpKINode Title="Resto.Front.Api.RemotingHelpers namespace" Url="html/N_Resto_Front_Api_RemotingHelpers.htm" />
   <HelpKINode Title="Resto.Front.Api.RemotingHelpers.DisconnectableMarshalByRefObject class" Url="html/T_Resto_Front_Api_RemotingHelpers_DisconnectableMarshalByRefObject.htm" />
