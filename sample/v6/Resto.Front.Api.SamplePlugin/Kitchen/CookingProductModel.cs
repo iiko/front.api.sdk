@@ -10,21 +10,12 @@ namespace Resto.Front.Api.SamplePlugin.Kitchen
             if (name == null)
                 throw new ArgumentNullException(nameof(name));
 
-            this.name = name;
-            this.amount = amount;
+            Name = name;
+            Amount = amount;
         }
 
-        private readonly string name;
-        private readonly decimal amount;
+        public string Name { get; }
 
-        public string Name
-        {
-            get { return name; }
-        }
-
-        public decimal Amount
-        {
-            get { return amount; }
-        }
+        public decimal Amount { get; }
     }
 }

@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Windows;
 using System.Runtime.Remoting;
+using System.Windows;
 using Resto.Front.Api.Attributes.JetBrains;
 using Resto.Front.Api.Data.Orders;
-using Resto.Front.Api.UI;
 using Resto.Front.Api.Extensions;
+using Resto.Front.Api.UI;
 
-namespace Resto.Front.Api.SamplePlugin
+namespace Resto.Front.Api.SamplePlugin.NotificationHandlers
 {
     public class BeforeOrderBillHandler : IDisposable
     {

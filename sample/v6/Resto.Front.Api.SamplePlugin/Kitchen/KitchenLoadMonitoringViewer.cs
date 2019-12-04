@@ -68,7 +68,7 @@ namespace Resto.Front.Api.SamplePlugin.Kitchen
             }
         }
 
-        private KitchenLoadMonitoringModel CalculateStatistics()
+        private static KitchenLoadMonitoringModel CalculateStatistics()
         {
             var now = DateTime.Now;
             var kitchenOrders = PluginContext.Operations.GetKitchenOrders();

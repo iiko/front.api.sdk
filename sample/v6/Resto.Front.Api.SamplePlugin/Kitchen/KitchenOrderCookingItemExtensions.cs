@@ -10,40 +10,37 @@ namespace Resto.Front.Api.SamplePlugin.Kitchen
         {
             if (item == null)
                 throw new ArgumentNullException(nameof(item));
+
             var sizeName = item.Size != null ? item.Size.Name : string.Empty;
-
-            var product = item as IKitchenOrderItemProduct;
-            if (product != null)
-                return string.Format("{0} {1}", product.Product.Name, sizeName);
-
-            var compound = item as IKitchenOrderCompoundItem;
-            if (compound != null)
+            switch (item)
             {
-                return compound.SecondaryComponent == null
-                    ? string.Format("{0} {1}", compound.PrimaryComponent.Product.Name, sizeName)
-                    : string.Format("{0} {1}", compound.Template.Name, sizeName);
+                case IKitchenOrderItemProduct product:
+                    return $"{product.Product.Name} {sizeName}";
+                case IKitchenOrderCompoundItem compound:
+                    return compound.SecondaryComponent == null
+                        ? $"{compound.PrimaryComponent.Product.Name} {sizeName}"
+                        : $"{compound.Template.Name} {sizeName}";
+                default:
+                    throw new NotSupportedException();
             }
-
-            throw new NotSupportedException();
         }
 
         public static decimal GetCookingItemAmount([NotNull] this IKitchenOrderCookingItem item)
         {
             if (item == null)
                 throw new ArgumentNullException(nameof(item));
-            var product = item as IKitchenOrderItemProduct;
-            if (product != null)
-                return product.Amount;
 
-            var compound = item as IKitchenOrderCompoundItem;
-            if (compound != null)
+            switch (item)
             {
-                return compound.SecondaryComponent == null
-                    ? compound.PrimaryComponent.Amount
-                    : compound.PrimaryComponent.Amount + compound.PrimaryComponent.Amount;
+                case IKitchenOrderItemProduct product:
+                    return product.Amount;
+                case IKitchenOrderCompoundItem compound:
+                    return compound.SecondaryComponent == null
+                        ? compound.PrimaryComponent.Amount
+                        : compound.PrimaryComponent.Amount + compound.PrimaryComponent.Amount;
+                default:
+                    throw new NotSupportedException();
             }
-
-            throw new NotSupportedException();
         }
     }
 }

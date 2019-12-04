@@ -1,12 +1,11 @@
 ﻿using System.Collections.ObjectModel;
-using System.Windows.Controls;
 
 namespace Resto.Front.Api.SamplePlugin.Restaurant
 {
     /// <summary>
     /// Interaction logic for SchemaView.xaml
     /// </summary>
-    public partial class SchemaView : UserControl
+    public partial class SchemaView
     {
         public SchemaView()
         {

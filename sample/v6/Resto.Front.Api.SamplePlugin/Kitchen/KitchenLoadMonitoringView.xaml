@@ -19,7 +19,7 @@
                     <TextBlock Grid.Column="1" Text="{Binding Path=Value}" />
                 </Grid>
             </DataTemplate>
-            <DataTemplate x:Key="CookingProductTemplate" >
+            <DataTemplate x:Key="CookingProductTemplate" DataType="kitchen:CookingProductModel">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="4*"  />

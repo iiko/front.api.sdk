@@ -25,6 +25,7 @@ namespace Resto.Front.Api.SamplePlugin
         private Window window;
         private ItemsControl buttons;
         private const string PluginName = "Resto.Front.Api.SamplePlugin";
+        private readonly Random rnd = new Random();
 
         public EditorTester()
         {
@@ -54,6 +55,7 @@ namespace Resto.Front.Api.SamplePlugin
                 WindowStyle = WindowStyle.SingleBorderWindow,
                 SizeToContent = SizeToContent.Width
             };
+
             AddButton("Create order", CreateOrder);
             AddButton("Create order to another waiter", CreateOrderToWaiter);
             AddButton("Add guest", AddGuest);
@@ -114,7 +116,6 @@ namespace Resto.Front.Api.SamplePlugin
             window.ShowDialog();
         }
 
-
         private void AddButton(string text, Action action)
         {
             var button = new Button
@@ -143,32 +144,32 @@ namespace Resto.Front.Api.SamplePlugin
         [NotNull]
         private static ISubmittedEntities SubmitChanges([NotNull] IEditSession editSession)
         {
-            return PluginContext.Operations.SubmitChanges(PluginContext.Operations.GetCredentials(), editSession);
+            var credentials = PluginContext.Operations.GetCredentials();
+            return PluginContext.Operations.SubmitChanges(credentials, editSession);
         }
 
         /// <summary>
-        /// Создание заказа с добавлением  гостя Alex и продукта номенклатуры.
+        /// Создание заказа с добавлением гостя Alex и продукта номенклатуры.
         /// </summary>   
         private void CreateOrder()
         {
             var credentials = PluginContext.Operations.GetCredentials();
-            var activeProducts = PluginContext.Operations.GetActiveProducts();
+            var product1 = GetProduct();
+            var product2 = GetProduct();
 
             // создаём заказ, добавляем в него пару гостей, одному из гостей добавляем блюдо, и всё это атомарно в одной сессии
             var editSession = PluginContext.Operations.CreateEditSession();
-            var newOrder = editSession.CreateOrder(null);
+            var newOrder = editSession.CreateOrder(null); // заказ будет создан на столе по умолчанию
             editSession.ChangeOrderOriginName("Sample Plugin", newOrder);
             var guest1 = editSession.AddOrderGuest(null, newOrder); // настоящего гостя ещё нет (он будет после SubmitChanges), ссылаемся на будущего гостя через INewOrderGuestItemStub
             var guest2 = editSession.AddOrderGuest("Alex", newOrder);
-            editSession.AddOrderProductItem(2m, activeProducts.First(), newOrder, guest1, null);
+            editSession.AddOrderProductItem(2m, product1, newOrder, guest1, null);
             var result = SubmitChanges(editSession);
-
 
             var previouslyCreatedOrder = result.Get(newOrder);
             var previouslyAddedGuest = result.Get(guest2); // настоящие гости уже есть, можно ссылаться напрямую на нужного гостя через IOrderGuestItem
 
-            PluginContext.Operations.AddOrderProductItem(17.3m, activeProducts.Last(),
-                previouslyCreatedOrder, previouslyAddedGuest, null, credentials);
+            PluginContext.Operations.AddOrderProductItem(17.3m, product2, previouslyCreatedOrder, previouslyAddedGuest, null, credentials);
         }
 
         /// <summary>
@@ -177,11 +178,12 @@ namespace Resto.Front.Api.SamplePlugin
         private void CreateOrderToWaiter()
         {
             var credentials = PluginContext.Operations.GetCredentials();
+            var product = GetProduct();
+
             var editSession = PluginContext.Operations.CreateEditSession();
             if (!ChooseItemDialogHelper.ShowDialog(PluginContext.Operations.GetUsers(), user => user.Name, out var selectedUser, "Select waiter", window))
                 return;
-
-            var newOrder = editSession.CreateOrder(null, selectedUser);
+            var newOrder = editSession.CreateOrder(null, selectedUser); // заказ будет создан на столе по умолчанию
             editSession.ChangeOrderOriginName("Sample Plugin", newOrder);
             editSession.AddOrderGuest(null, newOrder);
             var guest2 = editSession.AddOrderGuest("Alex", newOrder);
@@ -190,8 +192,7 @@ namespace Resto.Front.Api.SamplePlugin
             var previouslyCreatedOrder = result.Get(newOrder);
             var previouslyAddedGuest = result.Get(guest2);
 
-            PluginContext.Operations.AddOrderProductItem(17.3m, PluginContext.Operations.GetActiveProducts().Last(),
-                previouslyCreatedOrder, previouslyAddedGuest, null, credentials);
+            PluginContext.Operations.AddOrderProductItem(17.3m, product, previouslyCreatedOrder, previouslyAddedGuest, null, credentials);
         }
 
         /// <summary>
@@ -199,8 +200,9 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void AddGuest()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
-            PluginContext.Operations.AddOrderGuest("John Doe", order, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.AddOrderGuest("John Doe", order, credentials);
         }
 
         /// <summary>
@@ -208,11 +210,12 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void AddClientToOrder()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var discountType = PluginContext.Operations.GetDiscountTypes().LastOrDefault(d => d.CanApplyByDiscountCard);
             const string cardNumber = "0123456789";
             const string clientName = "Semen";
 
-            var client = PluginContext.Operations.CreateClient(Guid.NewGuid(), clientName, null, cardNumber, DateTime.Now, PluginContext.Operations.GetCredentials());
+            var client = PluginContext.Operations.CreateClient(Guid.NewGuid(), clientName, null, cardNumber, DateTime.Now, credentials);
 
             var card = PluginContext.Operations.SearchDiscountCardByNumber(cardNumber);
             if (card == null)
@@ -221,7 +224,7 @@ namespace Resto.Front.Api.SamplePlugin
                 PluginContext.Operations.UpdateDiscountCard(card.Id, cardNumber, clientName, null, discountType);
 
             var order = PluginContext.Operations.GetOrders().Last(o => o.Status == OrderStatus.New);
-            PluginContext.Operations.AddClientToOrder(PluginContext.Operations.GetCredentials(), order, client);
+            PluginContext.Operations.AddClientToOrder(credentials, order, client);
         }
 
         /// <summary>
@@ -229,9 +232,10 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void RemoveOrderClient()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last(o => o.Status == OrderStatus.New);
             var client = PluginContext.Operations.SearchClients("Semen").Last();
-            PluginContext.Operations.RemoveOrderClient(PluginContext.Operations.GetCredentials(), order, client);
+            PluginContext.Operations.RemoveOrderClient(credentials, order, client);
         }
 
         /// <summary>
@@ -239,10 +243,25 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void AddProduct()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
+            var product = GetProduct();
             var order = PluginContext.Operations.GetOrders().Last();
             var guest = order.Guests.Last();
-            var product = PluginContext.Operations.GetActiveProducts().Last();
-            PluginContext.Operations.AddOrderProductItem(42m, product, order, guest, null, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.AddOrderProductItem(42m, product, order, guest, null, credentials);
+        }
+
+        private IProduct GetProduct(bool isCompound = false)
+        {
+            var activeProducts = PluginContext.Operations.GetActiveProducts()
+                .Where(product =>
+                    isCompound
+                        ? product.Template != null
+                        : product.Template == null
+                        && product.Type == ProductType.Dish)
+                .ToList();
+
+            var index = rnd.Next(activeProducts.Count);
+            return activeProducts[index];
         }
 
         /// <summary>
@@ -252,7 +271,7 @@ namespace Resto.Front.Api.SamplePlugin
         {
             var order = PluginContext.Operations.GetOrders().Last();
             var guest = order.Guests.Last();
-            var product = PluginContext.Operations.GetActiveProducts().Last(p => p.Template != null);
+            var product = GetProduct(true);
             var template = product.Template;
             // ReSharper disable once PossibleNullReferenceException
             var size = template.Scale != null ? PluginContext.Operations.GetProductScaleSizes(template.Scale).First() : null;
@@ -263,6 +282,7 @@ namespace Resto.Front.Api.SamplePlugin
             var modifierDefaultAmounts = PluginContext.Operations.GetTemplatedModifiersParamsByProduct(product);
             AddDefaultCompoundItemModifiers(compoundItem, template, modifierDefaultAmounts, order, editSession);
             AddDefaultCompoundItemComponentModifiers(primaryComponent, template, modifierDefaultAmounts, order, editSession);
+
             SubmitChanges(editSession);
         }
 
@@ -273,6 +293,7 @@ namespace Resto.Front.Api.SamplePlugin
         {
             var editSession = PluginContext.Operations.CreateEditSession();
             AddSplittedCompoundItemInternal(editSession);
+
             SubmitChanges(editSession);
         }
 
@@ -342,11 +363,11 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void AddModifier()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
             var orderItem = order.Items.OfType<IOrderProductItem>().Last();
             var modifier = orderItem.AvailableSimpleModifiers.First();
-            PluginContext.Operations.AddOrderModifierItem(1, modifier.Product, null, order, orderItem,
-                PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.AddOrderModifierItem(1, modifier.Product, null, order, orderItem, credentials);
         }
 
         /// <summary>
@@ -354,11 +375,11 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void AddGroupModifier()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
             var orderItem = order.Items.OfType<IOrderProductItem>().Last();
             var groupModifier = orderItem.AvailableGroupModifiers.Last();
-            PluginContext.Operations.AddOrderModifierItem(1, groupModifier.Items.Last().Product,
-                groupModifier.ProductGroup, order, orderItem, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.AddOrderModifierItem(1, groupModifier.Items.Last().Product, groupModifier.ProductGroup, order, orderItem, credentials);
         }
 
         /// <summary>
@@ -366,9 +387,10 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void IncreaseAmount()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
             var orderItem = order.Items.OfType<IOrderCookingItem>().Last();
-            PluginContext.Operations.ChangeOrderCookingItemAmount(orderItem.Amount + 1, orderItem, order, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.ChangeOrderCookingItemAmount(orderItem.Amount + 1, orderItem, order, credentials);
         }
 
         /// <summary>
@@ -376,9 +398,10 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void DecreaseAmount()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
             var orderItem = order.Items.OfType<IOrderCookingItem>().Last();
-            PluginContext.Operations.ChangeOrderCookingItemAmount(orderItem.Amount - 1, orderItem, order, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.ChangeOrderCookingItemAmount(orderItem.Amount - 1, orderItem, order, credentials);
         }
 
         /// <summary>
@@ -386,11 +409,13 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void SetAmount()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
             var orderItem = order.Items.OfType<IOrderCookingItem>().Last();
             var amount = 1.1m;
-            PluginContext.Operations.ChangeOrderCookingItemAmount(amount, orderItem, order, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.ChangeOrderCookingItemAmount(amount, orderItem, order, credentials);
         }
+
         /// <summary>
         /// Создание нового гостя и перенос ему последнего блюда заказа.
         /// </summary>
@@ -401,6 +426,7 @@ namespace Resto.Front.Api.SamplePlugin
             var editSession = PluginContext.Operations.CreateEditSession();
             var guest = editSession.AddOrderGuest("New guest", order);
             editSession.MoveOrderItemToAnotherGuest(orderItem, guest, order);
+
             SubmitChanges(editSession);
         }
 
@@ -429,6 +455,7 @@ namespace Resto.Front.Api.SamplePlugin
             var guest = order.Guests.FirstOrDefault(p => p != orderItem.Guest);
             if (guest != null)
                 editSession.MoveOrderItemToAnotherGuest(item, guest, order);
+
             SubmitChanges(editSession);
         }
 
@@ -437,8 +464,10 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void PrintProduct()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
-            PluginContext.Operations.PrintOrderItems(PluginContext.Operations.GetCredentials(), order, new[] { order.Items.OfType<IOrderCookingItem>().Last() });
+            var itemsToPrint = new[] { order.Items.OfType<IOrderCookingItem>().Last() };
+            PluginContext.Operations.PrintOrderItems(credentials, order, itemsToPrint);
         }
 
         /// <summary>
@@ -446,8 +475,10 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void PrintOrder()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
-            PluginContext.Operations.PrintOrderItems(PluginContext.Operations.GetCredentials(), order, order.Items.OfType<IOrderCookingItem>().ToList());
+            var itemsToPrint = order.Items.OfType<IOrderCookingItem>().ToList();
+            PluginContext.Operations.PrintOrderItems(credentials, order, itemsToPrint);
         }
 
         /// <summary>
@@ -455,26 +486,29 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void PrintBillCheque()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
-            PluginContext.Operations.PrintBillCheque(PluginContext.Operations.GetCredentials(), order);
+            PluginContext.Operations.PrintBillCheque(credentials, order);
         }
 
         /// <summary>
-        /// Печать пречека
+        /// Печать пречека.
         /// </summary>
         private void BillOrder()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
-            PluginContext.Operations.BillOrder(PluginContext.Operations.GetCredentials(), order, 32);
+            PluginContext.Operations.BillOrder(credentials, order, 32);
         }
 
         /// <summary>
-        /// Отмена пречека
+        /// Отмена пречека.
         /// </summary>
         private void CancelBill()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
-            PluginContext.Operations.CancelBill(PluginContext.Operations.GetCredentials(), order);
+            PluginContext.Operations.CancelBill(credentials, order);
         }
 
         /// <summary>
@@ -482,9 +516,10 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void DeleteGuest()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
             var guest = order.Guests.Last();
-            PluginContext.Operations.DeleteOrderGuest(order, guest, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.DeleteOrderGuest(order, guest, credentials);
         }
 
         /// <summary>
@@ -492,9 +527,10 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void DeleteProduct()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
             var orderItem = order.Items.Last();
-            PluginContext.Operations.DeleteOrderItem(order, orderItem, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.DeleteOrderItem(order, orderItem, credentials);
         }
 
         /// <summary>
@@ -502,6 +538,7 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void DeletePrintedProduct()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last(x => x.Status == OrderStatus.New);
             var orderItem = order.Items.Last();
             var removalType = PluginContext.Operations.GetActiveRemovalTypes().Last();
@@ -509,23 +546,23 @@ namespace Resto.Front.Api.SamplePlugin
 
             if (removalType.WriteoffType.Equals(WriteoffType.None))
             {
-                PluginContext.Operations.DeletePrintedOrderItem(comment, WriteoffOptions.WithoutWriteoff(removalType), order, orderItem, PluginContext.Operations.GetCredentials());
+                PluginContext.Operations.DeletePrintedOrderItem(comment, WriteoffOptions.WithoutWriteoff(removalType), order, orderItem, credentials);
                 return;
             }
             if (removalType.WriteoffType.HasFlag(WriteoffType.Cafe))
             {
-                PluginContext.Operations.DeletePrintedOrderItem(comment, WriteoffOptions.WriteoffToCafe(removalType), order, orderItem, PluginContext.Operations.GetCredentials());
+                PluginContext.Operations.DeletePrintedOrderItem(comment, WriteoffOptions.WriteoffToCafe(removalType), order, orderItem, credentials);
                 return;
             }
             if (removalType.WriteoffType.HasFlag(WriteoffType.Waiter))
             {
-                PluginContext.Operations.DeletePrintedOrderItem(comment, WriteoffOptions.WriteoffToWaiter(removalType), order, orderItem, PluginContext.Operations.GetCredentials());
+                PluginContext.Operations.DeletePrintedOrderItem(comment, WriteoffOptions.WriteoffToWaiter(removalType), order, orderItem, credentials);
                 return;
             }
             if (removalType.WriteoffType.HasFlag(WriteoffType.User))
             {
-                PluginContext.Operations.DeletePrintedOrderItem(comment, WriteoffOptions.WriteoffToUser(removalType, PluginContext.Operations.GetUsers().First(u => u.IsSessionOpen)), order,
-                    orderItem, PluginContext.Operations.GetCredentials());
+                var user = PluginContext.Operations.GetUsers().First(u => u.IsSessionOpen);
+                PluginContext.Operations.DeletePrintedOrderItem(comment, WriteoffOptions.WriteoffToUser(removalType, user), order, orderItem, credentials);
                 return;
             }
             throw new NotSupportedException($"Write-off type '{removalType.WriteoffType}' is not supported.");
@@ -536,11 +573,11 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void DeleteModifier()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
             var orderItem = order.Items.OfType<IOrderProductItem>().Last();
             var orderItemModifier = orderItem.AssignedModifiers.Last();
-            PluginContext.Operations.DeleteOrderModifierItem(order, orderItem, orderItemModifier,
-                PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.DeleteOrderModifierItem(order, orderItem, orderItemModifier, credentials);
         }
 
         /// <summary>
@@ -548,6 +585,7 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void DeletePrintedModifier()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
             var orderItem = order.Items.OfType<IOrderProductItem>().Last();
             var orderItemModifier = orderItem.AssignedModifiers.Last();
@@ -556,26 +594,23 @@ namespace Resto.Front.Api.SamplePlugin
 
             if (removalType.WriteoffType.Equals(WriteoffType.None))
             {
-                PluginContext.Operations.DeletePrintedOrderModifierItem(comment, WriteoffOptions.WithoutWriteoff(removalType), order, orderItem, orderItemModifier,
-                    PluginContext.Operations.GetCredentials());
+                PluginContext.Operations.DeletePrintedOrderModifierItem(comment, WriteoffOptions.WithoutWriteoff(removalType), order, orderItem, orderItemModifier, credentials);
                 return;
             }
             if (removalType.WriteoffType.HasFlag(WriteoffType.Cafe))
             {
-                PluginContext.Operations.DeletePrintedOrderModifierItem(comment, WriteoffOptions.WriteoffToCafe(removalType), order, orderItem, orderItemModifier,
-                    PluginContext.Operations.GetCredentials());
+                PluginContext.Operations.DeletePrintedOrderModifierItem(comment, WriteoffOptions.WriteoffToCafe(removalType), order, orderItem, orderItemModifier, credentials);
                 return;
             }
             if (removalType.WriteoffType.HasFlag(WriteoffType.Waiter))
             {
-                PluginContext.Operations.DeletePrintedOrderModifierItem(comment, WriteoffOptions.WriteoffToWaiter(removalType), order, orderItem, orderItemModifier,
-                    PluginContext.Operations.GetCredentials());
+                PluginContext.Operations.DeletePrintedOrderModifierItem(comment, WriteoffOptions.WriteoffToWaiter(removalType), order, orderItem, orderItemModifier, credentials);
                 return;
             }
             if (removalType.WriteoffType.HasFlag(WriteoffType.User))
             {
-                PluginContext.Operations.DeletePrintedOrderModifierItem(comment, WriteoffOptions.WriteoffToUser(removalType, PluginContext.Operations.GetUsers().First(u => u.IsSessionOpen)), order, orderItem, orderItemModifier,
-                    PluginContext.Operations.GetCredentials());
+                var user = PluginContext.Operations.GetUsers().First(u => u.IsSessionOpen);
+                PluginContext.Operations.DeletePrintedOrderModifierItem(comment, WriteoffOptions.WriteoffToUser(removalType, user), order, orderItem, orderItemModifier, credentials);
                 return;
             }
             throw new NotSupportedException($"Write-off type '{removalType.WriteoffType}' is not supported.");
@@ -586,10 +621,10 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void AddProductComment()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
             var orderItem = order.Items.OfType<IOrderCookingItem>().Last(product => product.Status == OrderItemStatus.Added);
-            PluginContext.Operations.ChangeOrderItemComment("Приготовить без соли.", order, orderItem,
-                PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.ChangeOrderItemComment("Приготовить без соли.", order, orderItem, credentials);
         }
 
         /// <summary>
@@ -597,12 +632,11 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void DeleteProductComment()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
             var orderItem = order.Items.OfType<IOrderCookingItem>().Last(product => product.Status == OrderItemStatus.Added);
-            PluginContext.Operations.DeleteOrderItemComment(order, orderItem,
-                PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.DeleteOrderItemComment(order, orderItem, credentials);
         }
-
 
         /// <summary>
         /// Создание доставки. 
@@ -667,11 +701,10 @@ namespace Resto.Front.Api.SamplePlugin
 
             var now = DateTime.Now;
             var client = editSession.CreateClient(Guid.NewGuid(), "Semen", new List<PhoneDto> { primaryPhone, secondaryPhone }, null, now);
-            var duration = PluginContext.Operations.GetTerminalDeliveryDuration();
-            var durationTime = duration.CourierDeliveryTime ?? 60;
-            var expectedDeliverTime = now.AddMinutes(durationTime);
-            var deliveryOrder = editSession.CreateDeliveryOrder(1149, now, primaryPhone.PhoneValue,
-                address, expectedDeliverTime, orderType, client, deliveryOperator, TimeSpan.FromMinutes(durationTime));
+            var frontDeliverySettings = PluginContext.Operations.GetTerminalDeliveryDuration();
+            var duration = frontDeliverySettings.CourierDeliveryTime ?? 60;
+            var expectedDeliverTime = now.AddMinutes(duration);
+            var deliveryOrder = editSession.CreateDeliveryOrder(1149, now, primaryPhone.PhoneValue, address, expectedDeliverTime, orderType, client, deliveryOperator, TimeSpan.FromMinutes(duration));
             if (withOriginName)
                 editSession.ChangeOrderOriginName(DeliveryOriginName, deliveryOrder);
             editSession.AddOrderGuest("Alex", deliveryOrder);
@@ -708,13 +741,13 @@ namespace Resto.Front.Api.SamplePlugin
             var createdDeliveryByPlugin = PluginContext.Operations.GetDeliveryOrders().LastOrDefault(d => d.DeliveryStatus == DeliveryStatus.New && d.OrderType.OrderServiceType == OrderServiceTypes.DeliveryByCourier);
             if (createdDeliveryByPlugin == null)
             {
-                MessageBox.Show("Please, first call Create Delivery");
+                MessageBox.Show("Please, first call Create Delivery.");
                 return;
             }
 
             var orderType = PluginContext.Operations.GetOrderTypes().First(t => t.OrderServiceType == OrderServiceTypes.DeliveryByClient);
-            var editSession = PluginContext.Operations.CreateEditSession();
 
+            var editSession = PluginContext.Operations.CreateEditSession();
             editSession.SetOrderType(orderType, createdDeliveryByPlugin);
             editSession.ChangeDeliveryCourier(false, createdDeliveryByPlugin, null);
             editSession.ChangeDeliveryAddress(null, createdDeliveryByPlugin);
@@ -730,13 +763,13 @@ namespace Resto.Front.Api.SamplePlugin
             var createdDeliveryByPlugin = PluginContext.Operations.GetDeliveryOrders().LastOrDefault(d => d.DeliveryStatus == DeliveryStatus.New && d.OrderType.OrderServiceType == OrderServiceTypes.DeliveryByClient);
             if (createdDeliveryByPlugin == null)
             {
-                MessageBox.Show("Please, first call Create Delivery");
+                MessageBox.Show("Please, first call Create Delivery.");
                 return;
             }
 
             var orderType = PluginContext.Operations.GetOrderTypes().First(t => t.OrderServiceType == OrderServiceTypes.DeliveryByCourier);
-            var editSession = PluginContext.Operations.CreateEditSession();
 
+            var editSession = PluginContext.Operations.CreateEditSession();
             editSession.SetOrderType(orderType, createdDeliveryByPlugin);
             editSession.ChangeDeliveryCourier(false, createdDeliveryByPlugin, null);
 
@@ -763,7 +796,7 @@ namespace Resto.Front.Api.SamplePlugin
             var createdDeliveryByPlugin = PluginContext.Operations.GetDeliveryOrders().FirstOrDefault(d => d.Number == 1149 && d.DeliveryStatus == DeliveryStatus.New);
             if (createdDeliveryByPlugin == null)
             {
-                MessageBox.Show("Please, first call Create Delivery");
+                MessageBox.Show("Please, first call Create Delivery.");
                 return;
             }
 
@@ -775,24 +808,26 @@ namespace Resto.Front.Api.SamplePlugin
 
         private void SplitOrder()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last(o => o.Status == OrderStatus.New || o.Status == OrderStatus.Bill);
             var result = PluginContext.Operations.NeedToSplitOrderBeforePayment(order).CheckSplitRequiredResult;
             if (result == CheckSplitRequiredResult.Disabled)
                 return;
             if (result == CheckSplitRequiredResult.Allowed && MessageBox.Show("Split Order by cooking place types?", "Split Orders", MessageBoxButton.YesNo) != MessageBoxResult.Yes)
                 return;
-            PluginContext.Operations.SplitOrderBetweenCashRegisters(PluginContext.Operations.GetCredentials(), order);
-        }
 
+            PluginContext.Operations.SplitOrderBetweenCashRegisters(credentials, order);
+        }
 
         /// <summary>
         /// Добавление скидки.
         /// </summary>
         private void AddDiscount()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last(o => o.Status == OrderStatus.New);
             var discountType = PluginContext.Operations.GetDiscountTypes().Last(x => !x.Deleted && x.IsActive && !x.DiscountByFlexibleSum);
-            PluginContext.Operations.AddDiscount(discountType, order, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.AddDiscount(discountType, order, credentials);
         }
 
         /// <summary>
@@ -800,9 +835,10 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void AddFlexibleSumDiscount()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last(o => o.Status == OrderStatus.New);
             var discountType = PluginContext.Operations.GetDiscountTypes().Last(x => !x.Deleted && x.IsActive && x.DiscountByFlexibleSum);
-            PluginContext.Operations.AddFlexibleSumDiscount(50, discountType, order, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.AddFlexibleSumDiscount(50, discountType, order, credentials);
         }
 
         /// <summary>
@@ -829,7 +865,7 @@ namespace Resto.Front.Api.SamplePlugin
             }
 
             var updatedCard = PluginContext.Operations.UpdateDiscountCard(existingCard.Id, cardNumber, "Mike", priceCategory, null);
-            PluginContext.Log.Info($"Updated card owner from {existingCard.OwnerName} to {updatedCard.OwnerName}");
+            PluginContext.Log.Info($"Updated card owner from {existingCard.OwnerName} to {updatedCard.OwnerName}.");
         }
 
         /// <summary>
@@ -837,9 +873,10 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void AddDiscountByCardNumber()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last(o => o.Status == OrderStatus.New);
             var discountCard = PluginContext.Operations.GetDiscountCards().Last(x => x.DiscountType != null);
-            PluginContext.Operations.AddDiscountByCardNumber(discountCard.CardNumber, order, discountCard, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.AddDiscountByCardNumber(discountCard.CardNumber, order, discountCard, credentials);
         }
 
         /// <summary>
@@ -847,9 +884,10 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void DeleteDiscount()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last(o => o.Status == OrderStatus.New);
             var cardDiscountItem = order.Discounts.Last(discount => discount.DiscountType.CanApplyByDiscountCard);
-            PluginContext.Operations.DeleteDiscount(cardDiscountItem, order, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.DeleteDiscount(cardDiscountItem, order, credentials);
         }
 
         /// <summary>
@@ -877,13 +915,12 @@ namespace Resto.Front.Api.SamplePlugin
             var order = PluginContext.Operations.GetOrders().Last();
             var guest = order.Guests.Last();
             var compoundItem = AddSplittedCompoundItemInternal(editSession);
-            var product = PluginContext.Operations.GetActiveProducts().Last();
+            var product = GetProduct();
             IProductSize size = null;
             if (product.Scale != null)
-            {
                 size = product.Scale.DefaultSize;
-            }
-            var productItem = editSession.AddOrderProductItem(1, PluginContext.Operations.GetActiveProducts().Last(), order, guest, size);
+
+            var productItem = editSession.AddOrderProductItem(1, product, order, guest, size);
             var firstComboGroupId = Guid.NewGuid();
             var secondComboGroupId = Guid.NewGuid();
             var comboItems = new Dictionary<Guid, IOrderCookingItemStub>
@@ -905,8 +942,9 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private static void AddExternalDataToOrder()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
-            PluginContext.Operations.AddOrderExternalData(PluginName, "Sample plugin external data", order, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.AddOrderExternalData(PluginName, "Sample plugin external data", order, credentials);
 
             var value = PluginContext.Operations.TryGetOrderExternalDataByKey(order.Id, PluginName);
             MessageBox.Show($"Sample plugin external data value: {value}");
@@ -917,8 +955,9 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private static void DeleteExternalDataFromOrder()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last();
-            PluginContext.Operations.DeleteOrderExternalData(PluginName, order, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.DeleteOrderExternalData(PluginName, order, credentials);
         }
 
         /// <summary>
@@ -926,9 +965,10 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void CancelNewDelivery()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetDeliveryOrders().Last(o => o.Status == OrderStatus.New);
             var cancelCause = PluginContext.Operations.GetDeliveryCancelCauses().First();
-            PluginContext.Operations.CancelNewDelivery(PluginContext.Operations.GetCredentials(), order, cancelCause);
+            PluginContext.Operations.CancelNewDelivery(credentials, order, cancelCause);
         }
 
         /// <summary>
@@ -936,23 +976,23 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void DeleteOrderAndHideItemsFromOlap()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last(o => !(o is IDeliveryOrder) && o.Status == OrderStatus.New);
             var printedItems = order.Items.Where(i => i.PrintTime.HasValue && !i.Deleted).ToList();
 
             if (printedItems.Count > 0)
             {
                 var editSession = PluginContext.Operations.CreateEditSession();
-
                 var removalType = PluginContext.Operations.GetActiveRemovalTypes().Last(rt => rt.WriteoffType.Equals(WriteoffType.None));
                 const string comment = "Test API DeleteOrderAndHideItemsFromOlap";
+
                 foreach (var item in printedItems)
-                {
                     editSession.DeletePrintedOrderItem(comment, WriteoffOptions.WithoutWriteoff(removalType), order, item);
-                }
+
                 SubmitChanges(editSession);
                 order = PluginContext.Operations.GetOrderById(order.Id);
             }
-            PluginContext.Operations.DeleteOrderAndHideItemsFromOlap(PluginContext.Operations.GetCredentials(), order);
+            PluginContext.Operations.DeleteOrderAndHideItemsFromOlap(credentials, order);
         }
 
         /// <summary>
@@ -960,24 +1000,24 @@ namespace Resto.Front.Api.SamplePlugin
         /// </summary>
         private void CancelNewDeliveryAndHideItemsFromOlap()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetDeliveryOrders().Last(o => o.Status == OrderStatus.New);
             var printedItems = order.Items.Where(i => i.PrintTime.HasValue && !i.Deleted).ToList();
 
             if (printedItems.Count > 0)
             {
                 var editSession = PluginContext.Operations.CreateEditSession();
-
                 var removalType = PluginContext.Operations.GetActiveRemovalTypes().Last(rt => rt.WriteoffType.Equals(WriteoffType.None));
                 const string comment = "Test API PermanentRemoveDelivery";
+
                 foreach (var item in printedItems)
-                {
                     editSession.DeletePrintedOrderItem(comment, WriteoffOptions.WithoutWriteoff(removalType), order, item);
-                }
+
                 SubmitChanges(editSession);
                 order = PluginContext.Operations.GetDeliveryOrderById(order.Id);
             }
             var cancelCause = PluginContext.Operations.GetDeliveryCancelCauses().First();
-            PluginContext.Operations.CancelNewDeliveryAndHideItemsFromOlap(PluginContext.Operations.GetCredentials(), order, cancelCause);
+            PluginContext.Operations.CancelNewDeliveryAndHideItemsFromOlap(credentials, order, cancelCause);
         }
 
         /// <summary>
@@ -1011,6 +1051,7 @@ namespace Resto.Front.Api.SamplePlugin
                     MessageBox.Show("Document successfully printed", string.Empty, MessageBoxButton.OK, MessageBoxImage.None);
                 else
                     MessageBox.Show("Print error", string.Empty, MessageBoxButton.OK, MessageBoxImage.Error);
+
                 printerSelectionWindow.Close();
             });
 
@@ -1073,38 +1114,42 @@ namespace Resto.Front.Api.SamplePlugin
 
         private void ChangePriceCategory()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last(i => i.Status == OrderStatus.New);
             var priceCategory = PluginContext.Operations.GetPriceCategories().Last(i => i.CanApplyManually && !i.Deleted);
-            PluginContext.Operations.ChangePriceCategory(priceCategory, order, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.ChangePriceCategory(priceCategory, order, credentials);
         }
 
         private void ResetPriceCategory()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last(i => i.Status == OrderStatus.New);
-            PluginContext.Operations.ResetPriceCategory(order, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.ResetPriceCategory(order, credentials);
         }
 
         private static void StartService()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last(x => x.Status == OrderStatus.New);
             var serviceProduct = PluginContext.Operations.GetActiveProducts().Last(x => x.Type == ProductType.Service && x.RateSchedule != null);
-            var credentials = PluginContext.Operations.GetCredentials();
             var service = PluginContext.Operations.AddOrderServiceItem(serviceProduct, order, order.Guests.Last(), credentials, TimeSpan.FromHours(2));
             PluginContext.Operations.StartService(credentials, order, service);
         }
 
         private static void StopService()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var order = PluginContext.Operations.GetOrders().Last(x => x.Status == OrderStatus.New);
             var service = order.Items.OfType<IOrderServiceItem>().Last(x => x.IsStarted);
-            PluginContext.Operations.StopService(PluginContext.Operations.GetCredentials(), order, service);
+            PluginContext.Operations.StopService(credentials, order, service);
         }
 
         private static void ChangeOrderTables()
         {
+            var credentials = PluginContext.Operations.GetCredentials();
             var tables = PluginContext.Operations.GetRestaurantSections().First().Tables;
             var order = PluginContext.Operations.GetOrders().Last(x => x.Status == OrderStatus.New);
-            PluginContext.Operations.ChangeOrderTables(order, new[] { tables.First() }, PluginContext.Operations.GetCredentials());
+            PluginContext.Operations.ChangeOrderTables(order, new[] { tables.First() }, credentials);
         }
 
         public void Dispose()
