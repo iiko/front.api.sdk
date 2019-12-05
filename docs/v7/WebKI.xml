@@ -1436,18 +1436,6 @@
   <HelpKINode Title="CompanyName property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_CompanyName.htm" />
   <HelpKINode Title="CompoundItemComponents property" Url="html/P_Resto_Front_Api_Data_Orders_ISelectiveDiscountItemSettings_CompoundItemComponents.htm" />
   <HelpKINode Title="CompoundItemTemplateChanged property" Url="html/P_Resto_Front_Api_INotificationService_CompoundItemTemplateChanged.htm" />
-  <HelpKINode Title="CompoundItemTemplateExtensions class">
-    <HelpKINode Title="CompoundItemTemplateExtensions Class" Url="html/T_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions.htm" />
-  </HelpKINode>
-  <HelpKINode Title="CompoundItemTemplateExtensions.GetCommonGroupModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_GetCommonGroupModifiers.htm" />
-  <HelpKINode Title="CompoundItemTemplateExtensions.GetCommonSimpleModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_GetCommonSimpleModifiers.htm" />
-  <HelpKINode Title="CompoundItemTemplateExtensions.GetSplittableGroupModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_GetSplittableGroupModifiers.htm" />
-  <HelpKINode Title="CompoundItemTemplateExtensions.GetSplittableSimpleModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_GetSplittableSimpleModifiers.htm" />
-  <HelpKINode Title="CompoundItemTemplateExtensions.TryGetCommonGroupModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_TryGetCommonGroupModifiers.htm" />
-  <HelpKINode Title="CompoundItemTemplateExtensions.TryGetCommonSimpleModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_TryGetCommonSimpleModifiers.htm" />
-  <HelpKINode Title="CompoundItemTemplateExtensions.TryGetSplittableGroupModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_TryGetSplittableGroupModifiers.htm" />
-  <HelpKINode Title="CompoundItemTemplateExtensions.TryGetSplittableSimpleModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_TryGetSplittableSimpleModifiers.htm" />
   <HelpKINode Title="Conception property" Url="html/P_Resto_Front_Api_Data_Organization_IPointOfSale_Conception.htm" />
   <HelpKINode Title="ConceptionChanged property" Url="html/P_Resto_Front_Api_INotificationService_ConceptionChanged.htm" />
   <HelpKINode Title="ConditionType property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_AssertionConditionAttribute_ConditionType.htm" />
@@ -1659,6 +1647,7 @@
   <HelpKINode Title="DefaultDeliveryDuration property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_DefaultDeliveryDuration.htm" />
   <HelpKINode Title="DefaultDeviceSettings property" Url="html/P_Resto_Front_Api_Devices_IDeviceFactory_DefaultDeviceSettings.htm" />
   <HelpKINode Title="DefaultOrderType property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_DefaultOrderType.htm" />
+  <HelpKINode Title="DefaultPriceCategory property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_DefaultPriceCategory.htm" />
   <HelpKINode Title="DefaultSelfServiceDeliveryDuration property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_DefaultSelfServiceDeliveryDuration.htm" />
   <HelpKINode Title="DefaultSize property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductScale_DefaultSize.htm" />
   <HelpKINode Title="Deleted enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderStatus.htm" />
@@ -1951,8 +1940,8 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
@@ -2163,7 +2152,10 @@
   </HelpKINode>
   <HelpKINode Title="ExternalGoods enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
   <HelpKINode Title="ExternalId enumeration member" Url="html/T_Resto_Front_Api_Data_Search_StreetFields.htm" />
-  <HelpKINode Title="ExternalId property" Url="html/P_Resto_Front_Api_Data_Brd_IStreet_ExternalId.htm" />
+  <HelpKINode Title="ExternalId property">
+    <HelpKINode Title="IReserve.ExternalId Property " Url="html/P_Resto_Front_Api_Data_Brd_IReserve_ExternalId.htm" />
+    <HelpKINode Title="IStreet.ExternalId Property " Url="html/P_Resto_Front_Api_Data_Brd_IStreet_ExternalId.htm" />
+  </HelpKINode>
   <HelpKINode Title="ExternalOperationChanged property" Url="html/P_Resto_Front_Api_INotificationService_ExternalOperationChanged.htm" />
   <HelpKINode Title="ExternalOperationChangedEventArgs class">
     <HelpKINode Title="ExternalOperationChangedEventArgs Class" Url="html/T_Resto_Front_Api_Data_Common_ExternalOperationChangedEventArgs.htm" />
@@ -2337,9 +2329,9 @@
   <HelpKINode Title="GetCities method" Url="html/M_Resto_Front_Api_IOperationService_GetCities.htm" />
   <HelpKINode Title="GetCityById method" Url="html/M_Resto_Front_Api_IOperationService_GetCityById.htm" />
   <HelpKINode Title="GetClientById method" Url="html/M_Resto_Front_Api_IOperationService_GetClientById.htm" />
-  <HelpKINode Title="GetCommonGroupModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_GetCommonGroupModifiers.htm" />
+  <HelpKINode Title="GetCommonGroupModifiers method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetCommonGroupModifiers.htm" />
   <HelpKINode Title="GetCommonGroupModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_GetCommonGroupModifiersByCompoundItemTemplate.htm" />
-  <HelpKINode Title="GetCommonSimpleModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_GetCommonSimpleModifiers.htm" />
+  <HelpKINode Title="GetCommonSimpleModifiers method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetCommonSimpleModifiers.htm" />
   <HelpKINode Title="GetCommonSimpleModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_GetCommonSimpleModifiersByCompoundItemTemplate.htm" />
   <HelpKINode Title="GetCompoundItemTemplateById method" Url="html/M_Resto_Front_Api_IOperationService_GetCompoundItemTemplateById.htm" />
   <HelpKINode Title="GetCompoundItemTemplates method" Url="html/M_Resto_Front_Api_IOperationService_GetCompoundItemTemplates.htm" />
@@ -2366,7 +2358,7 @@
   <HelpKINode Title="GetDonationTypesCompatibleWith method" Url="html/M_Resto_Front_Api_IOperationService_GetDonationTypesCompatibleWith.htm" />
   <HelpKINode Title="GetExternalOperations method" Url="html/M_Resto_Front_Api_IOperationService_GetExternalOperations.htm" />
   <HelpKINode Title="GetFrontDeliverySettings method" Url="html/M_Resto_Front_Api_IOperationService_GetFrontDeliverySettings.htm" />
-  <HelpKINode Title="GetGroupModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetGroupModifiers.htm" />
+  <HelpKINode Title="GetGroupModifiers method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetGroupModifiers.htm" />
   <HelpKINode Title="GetGroupModifiersByProduct method" Url="html/M_Resto_Front_Api_IOperationService_GetGroupModifiersByProduct.htm" />
   <HelpKINode Title="GetHashCode method">
     <HelpKINode Title="CardPaymentItemAdditionalData.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData_GetHashCode.htm" />
@@ -2477,11 +2469,11 @@
     <HelpKINode Title="IPluginSettings.GetSettings Method " Url="html/M_Resto_Front_Api_Data_Settings_IPluginSettings_GetSettings.htm" />
     <HelpKINode Title="PluginSettings.GetSettings Method " Url="html/M_Resto_Front_Api_Data_Settings_PluginSettings_GetSettings.htm" />
   </HelpKINode>
-  <HelpKINode Title="GetSimpleModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetSimpleModifiers.htm" />
+  <HelpKINode Title="GetSimpleModifiers method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetSimpleModifiers.htm" />
   <HelpKINode Title="GetSimpleModifiersByProduct method" Url="html/M_Resto_Front_Api_IOperationService_GetSimpleModifiersByProduct.htm" />
-  <HelpKINode Title="GetSplittableGroupModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_GetSplittableGroupModifiers.htm" />
+  <HelpKINode Title="GetSplittableGroupModifiers method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetSplittableGroupModifiers.htm" />
   <HelpKINode Title="GetSplittableGroupModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_GetSplittableGroupModifiersByCompoundItemTemplate.htm" />
-  <HelpKINode Title="GetSplittableSimpleModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_GetSplittableSimpleModifiers.htm" />
+  <HelpKINode Title="GetSplittableSimpleModifiers method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetSplittableSimpleModifiers.htm" />
   <HelpKINode Title="GetSplittableSimpleModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_GetSplittableSimpleModifiersByCompoundItemTemplate.htm" />
   <HelpKINode Title="GetStreetById method" Url="html/M_Resto_Front_Api_IOperationService_GetStreetById.htm" />
   <HelpKINode Title="GetSurveyItemById method" Url="html/M_Resto_Front_Api_IOperationService_GetSurveyItemById.htm" />
@@ -3627,8 +3619,6 @@
   <HelpKINode Title="IOperationService.TryGetCityById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCityById.htm" />
   <HelpKINode Title="IOperationService.TryGetClientById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetClientById.htm" />
   <HelpKINode Title="IOperationService.TryGetClientByPhone method" Url="html/M_Resto_Front_Api_IOperationService_TryGetClientByPhone.htm" />
-  <HelpKINode Title="IOperationService.TryGetCommonGroupModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCommonGroupModifiersByCompoundItemTemplate.htm" />
-  <HelpKINode Title="IOperationService.TryGetCommonSimpleModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCommonSimpleModifiersByCompoundItemTemplate.htm" />
   <HelpKINode Title="IOperationService.TryGetCompoundItemTemplateById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCompoundItemTemplateById.htm" />
   <HelpKINode Title="IOperationService.TryGetConceptionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetConceptionById.htm" />
   <HelpKINode Title="IOperationService.TryGetDeliveryCancelCauseById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDeliveryCancelCauseById.htm" />
@@ -3637,7 +3627,6 @@
   <HelpKINode Title="IOperationService.TryGetDiscountCardById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDiscountCardById.htm" />
   <HelpKINode Title="IOperationService.TryGetDiscountTypeById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDiscountTypeById.htm" />
   <HelpKINode Title="IOperationService.TryGetDocumentPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDocumentPrinter.htm" />
-  <HelpKINode Title="IOperationService.TryGetGroupModifiersByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetGroupModifiersByProduct.htm" />
   <HelpKINode Title="IOperationService.TryGetIncludedInMenuSectionsByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetIncludedInMenuSectionsByProduct.htm" />
   <HelpKINode Title="IOperationService.TryGetKitchenOrderById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderById.htm" />
   <HelpKINode Title="IOperationService.TryGetMarketingSourceById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetMarketingSourceById.htm" />
@@ -3659,11 +3648,9 @@
   <HelpKINode Title="IOperationService.TryGetReceiptChequePrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetReceiptChequePrinter.htm" />
   <HelpKINode Title="IOperationService.TryGetRegionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetRegionById.htm" />
   <HelpKINode Title="IOperationService.TryGetRemovalTypeById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetRemovalTypeById.htm" />
+  <HelpKINode Title="IOperationService.TryGetReserveByExternalId method" Url="html/M_Resto_Front_Api_IOperationService_TryGetReserveByExternalId.htm" />
   <HelpKINode Title="IOperationService.TryGetReserveById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetReserveById.htm" />
   <HelpKINode Title="IOperationService.TryGetSectionSchemaByRestaurantSection method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSectionSchemaByRestaurantSection.htm" />
-  <HelpKINode Title="IOperationService.TryGetSimpleModifiersByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSimpleModifiersByProduct.htm" />
-  <HelpKINode Title="IOperationService.TryGetSplittableGroupModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSplittableGroupModifiersByCompoundItemTemplate.htm" />
-  <HelpKINode Title="IOperationService.TryGetSplittableSimpleModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSplittableSimpleModifiersByCompoundItemTemplate.htm" />
   <HelpKINode Title="IOperationService.TryGetStickerPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetStickerPrinter.htm" />
   <HelpKINode Title="IOperationService.TryGetStreetById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetStreetById.htm" />
   <HelpKINode Title="IOperationService.TryGetSurveyItemById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSurveyItemById.htm" />
@@ -4183,6 +4170,7 @@
   <HelpKINode Title="IReserve.Comment property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_Comment.htm" />
   <HelpKINode Title="IReserve.Duration property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_Duration.htm" />
   <HelpKINode Title="IReserve.EstimatedStartTime property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_EstimatedStartTime.htm" />
+  <HelpKINode Title="IReserve.ExternalId property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_ExternalId.htm" />
   <HelpKINode Title="IReserve.GuestsComingTime property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_GuestsComingTime.htm" />
   <HelpKINode Title="IReserve.GuestsCount property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_GuestsCount.htm" />
   <HelpKINode Title="IReserve.Order property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_Order.htm" />
@@ -4208,6 +4196,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection.htm" />
   </HelpKINode>
   <HelpKINode Title="IRestaurantSection.DefaultOrderType property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_DefaultOrderType.htm" />
+  <HelpKINode Title="IRestaurantSection.DefaultPriceCategory property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_DefaultPriceCategory.htm" />
   <HelpKINode Title="IRestaurantSection.KitchenCoursesEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_KitchenCoursesEnabled.htm" />
   <HelpKINode Title="IRestaurantSection.Name property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_Name.htm" />
   <HelpKINode Title="IRestaurantSection.OrderItemCommentsEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_OrderItemCommentsEnabled.htm" />
@@ -4998,6 +4987,16 @@
     <HelpKINode Title="IOrder.OpenTime Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_OpenTime.htm" />
     <HelpKINode Title="IPastOrder.OpenTime Property " Url="html/P_Resto_Front_Api_Data_Orders_IPastOrder_OpenTime.htm" />
   </HelpKINode>
+  <HelpKINode Title="OperationArgumentExtensions class">
+    <HelpKINode Title="OperationArgumentExtensions Class" Url="html/T_Resto_Front_Api_OperationArgumentExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_OperationArgumentExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OperationArgumentExtensions.GetCommonGroupModifiers method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetCommonGroupModifiers.htm" />
+  <HelpKINode Title="OperationArgumentExtensions.GetCommonSimpleModifiers method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetCommonSimpleModifiers.htm" />
+  <HelpKINode Title="OperationArgumentExtensions.GetGroupModifiers method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetGroupModifiers.htm" />
+  <HelpKINode Title="OperationArgumentExtensions.GetSimpleModifiers method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetSimpleModifiers.htm" />
+  <HelpKINode Title="OperationArgumentExtensions.GetSplittableGroupModifiers method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetSplittableGroupModifiers.htm" />
+  <HelpKINode Title="OperationArgumentExtensions.GetSplittableSimpleModifiers method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetSplittableSimpleModifiers.htm" />
   <HelpKINode Title="OperationName property" Url="html/P_Resto_Front_Api_Data_Common_ExternalOperationChangedEventArgs_OperationName.htm" />
   <HelpKINode Title="Operations property" Url="html/P_Resto_Front_Api_PluginContext_Operations.htm" />
   <HelpKINode Title="OperationServiceExtensions class">
@@ -5555,15 +5554,11 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Assortment_ProductExtensions.htm" />
   </HelpKINode>
   <HelpKINode Title="ProductExtensions.GetDisabledSizes method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetDisabledSizes.htm" />
-  <HelpKINode Title="ProductExtensions.GetGroupModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetGroupModifiers.htm" />
   <HelpKINode Title="ProductExtensions.GetIncludedInMenuSections method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetIncludedInMenuSections.htm" />
-  <HelpKINode Title="ProductExtensions.GetSimpleModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetSimpleModifiers.htm" />
   <HelpKINode Title="ProductExtensions.GetTemplatedModifiersParams method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetTemplatedModifiersParams.htm" />
   <HelpKINode Title="ProductExtensions.TryGetDisabledSizes method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetDisabledSizes.htm" />
-  <HelpKINode Title="ProductExtensions.TryGetGroupModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetGroupModifiers.htm" />
   <HelpKINode Title="ProductExtensions.TryGetIncludedInMenuSections method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetIncludedInMenuSections.htm" />
   <HelpKINode Title="ProductExtensions.TryGetParent method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetParent.htm" />
-  <HelpKINode Title="ProductExtensions.TryGetSimpleModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetSimpleModifiers.htm" />
   <HelpKINode Title="ProductExtensions.TryGetTemplatedModifiersParams method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetTemplatedModifiersParams.htm" />
   <HelpKINode Title="ProductGroup property">
     <HelpKINode Title="IFixedGroupModifier.ProductGroup Property " Url="html/P_Resto_Front_Api_Data_Orders_IFixedGroupModifier_ProductGroup.htm" />
@@ -6111,7 +6106,6 @@
   <HelpKINode Title="Resto.Front.Api.Attributes.JetBrains.XamlItemsControlAttribute class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_XamlItemsControlAttribute.htm" />
   <HelpKINode Title="Resto.Front.Api.Attributes.PluginLicenseModuleIdAttribute class" Url="html/T_Resto_Front_Api_Attributes_PluginLicenseModuleIdAttribute.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment namespace" Url="html/N_Resto_Front_Api_Data_Assortment.htm" />
-  <HelpKINode Title="Resto.Front.Api.Data.Assortment.CompoundItemTemplateExtensions class" Url="html/T_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IChildModifier interface" Url="html/T_Resto_Front_Api_Data_Assortment_IChildModifier.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IChildModifierBase interface" Url="html/T_Resto_Front_Api_Data_Assortment_IChildModifierBase.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.ICompoundItemTemplate interface" Url="html/T_Resto_Front_Api_Data_Assortment_ICompoundItemTemplate.htm" />
@@ -6491,6 +6485,7 @@
   <HelpKINode Title="Resto.Front.Api.IPaymentDataContext interface" Url="html/T_Resto_Front_Api_IPaymentDataContext.htm" />
   <HelpKINode Title="Resto.Front.Api.IPluginIntegrationService interface" Url="html/T_Resto_Front_Api_IPluginIntegrationService.htm" />
   <HelpKINode Title="Resto.Front.Api.IReceiptPrinter interface" Url="html/T_Resto_Front_Api_IReceiptPrinter.htm" />
+  <HelpKINode Title="Resto.Front.Api.OperationArgumentExtensions class" Url="html/T_Resto_Front_Api_OperationArgumentExtensions.htm" />
   <HelpKINode Title="Resto.Front.Api.OperationContexts namespace" Url="html/N_Resto_Front_Api_OperationContexts.htm" />
   <HelpKINode Title="Resto.Front.Api.OperationContexts.INavigatingToPaymentScreenOperationContext interface" Url="html/T_Resto_Front_Api_OperationContexts_INavigatingToPaymentScreenOperationContext.htm" />
   <HelpKINode Title="Resto.Front.Api.PluginContext class" Url="html/T_Resto_Front_Api_PluginContext.htm" />
@@ -7016,10 +7011,6 @@
   <HelpKINode Title="TryGetCityById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCityById.htm" />
   <HelpKINode Title="TryGetClientById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetClientById.htm" />
   <HelpKINode Title="TryGetClientByPhone method" Url="html/M_Resto_Front_Api_IOperationService_TryGetClientByPhone.htm" />
-  <HelpKINode Title="TryGetCommonGroupModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_TryGetCommonGroupModifiers.htm" />
-  <HelpKINode Title="TryGetCommonGroupModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCommonGroupModifiersByCompoundItemTemplate.htm" />
-  <HelpKINode Title="TryGetCommonSimpleModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_TryGetCommonSimpleModifiers.htm" />
-  <HelpKINode Title="TryGetCommonSimpleModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCommonSimpleModifiersByCompoundItemTemplate.htm" />
   <HelpKINode Title="TryGetCompoundItemTemplateById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCompoundItemTemplateById.htm" />
   <HelpKINode Title="TryGetConceptionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetConceptionById.htm" />
   <HelpKINode Title="TryGetDeliveryCancelCauseById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDeliveryCancelCauseById.htm" />
@@ -7029,8 +7020,6 @@
   <HelpKINode Title="TryGetDiscountCardById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDiscountCardById.htm" />
   <HelpKINode Title="TryGetDiscountTypeById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDiscountTypeById.htm" />
   <HelpKINode Title="TryGetDocumentPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDocumentPrinter.htm" />
-  <HelpKINode Title="TryGetGroupModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetGroupModifiers.htm" />
-  <HelpKINode Title="TryGetGroupModifiersByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetGroupModifiersByProduct.htm" />
   <HelpKINode Title="TryGetIncludedInMenuSections method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetIncludedInMenuSections.htm" />
   <HelpKINode Title="TryGetIncludedInMenuSectionsByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetIncludedInMenuSectionsByProduct.htm" />
   <HelpKINode Title="TryGetKitchenOrderById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderById.htm" />
@@ -7057,6 +7046,7 @@
   <HelpKINode Title="TryGetReceiptChequePrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetReceiptChequePrinter.htm" />
   <HelpKINode Title="TryGetRegionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetRegionById.htm" />
   <HelpKINode Title="TryGetRemovalTypeById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetRemovalTypeById.htm" />
+  <HelpKINode Title="TryGetReserveByExternalId method" Url="html/M_Resto_Front_Api_IOperationService_TryGetReserveByExternalId.htm" />
   <HelpKINode Title="TryGetReserveById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetReserveById.htm" />
   <HelpKINode Title="TryGetSectionSchema method" Url="html/M_Resto_Front_Api_Data_Organization_Sections_RestaurantSectionExtensions_TryGetSectionSchema.htm" />
   <HelpKINode Title="TryGetSectionSchemaByRestaurantSection method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSectionSchemaByRestaurantSection.htm" />
@@ -7068,12 +7058,6 @@
     <HelpKINode Title="IPluginSettings.TryGetSetting(TSetting) Method " Url="html/M_Resto_Front_Api_Data_Settings_IPluginSettings_TryGetSetting__1.htm" />
     <HelpKINode Title="PluginSettings.TryGetSetting(TSetting) Method " Url="html/M_Resto_Front_Api_Data_Settings_PluginSettings_TryGetSetting__1.htm" />
   </HelpKINode>
-  <HelpKINode Title="TryGetSimpleModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetSimpleModifiers.htm" />
-  <HelpKINode Title="TryGetSimpleModifiersByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSimpleModifiersByProduct.htm" />
-  <HelpKINode Title="TryGetSplittableGroupModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_TryGetSplittableGroupModifiers.htm" />
-  <HelpKINode Title="TryGetSplittableGroupModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSplittableGroupModifiersByCompoundItemTemplate.htm" />
-  <HelpKINode Title="TryGetSplittableSimpleModifiers method" Url="html/M_Resto_Front_Api_Data_Assortment_CompoundItemTemplateExtensions_TryGetSplittableSimpleModifiers.htm" />
-  <HelpKINode Title="TryGetSplittableSimpleModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSplittableSimpleModifiersByCompoundItemTemplate.htm" />
   <HelpKINode Title="TryGetStickerPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetStickerPrinter.htm" />
   <HelpKINode Title="TryGetStreetById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetStreetById.htm" />
   <HelpKINode Title="TryGetSurveyItemById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetSurveyItemById.htm" />
