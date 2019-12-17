@@ -1940,10 +1940,10 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -3015,6 +3015,7 @@
   <HelpKINode Title="IEditSession.DeletePrintedOrderItems method" Url="html/M_Resto_Front_Api_Editors_IEditSession_DeletePrintedOrderItems.htm" />
   <HelpKINode Title="IEditSession.DeletePrintedOrderModifierItem method" Url="html/M_Resto_Front_Api_Editors_IEditSession_DeletePrintedOrderModifierItem.htm" />
   <HelpKINode Title="IEditSession.GroupOrderCookingItems method" Url="html/M_Resto_Front_Api_Editors_IEditSession_GroupOrderCookingItems.htm" />
+  <HelpKINode Title="IEditSession.MarkOrderAsTab method" Url="html/M_Resto_Front_Api_Editors_IEditSession_MarkOrderAsTab.htm" />
   <HelpKINode Title="IEditSession.MoveOrderItemToAnotherGuest method" Url="html/M_Resto_Front_Api_Editors_IEditSession_MoveOrderItemToAnotherGuest.htm" />
   <HelpKINode Title="IEditSession.MoveOrderItemToAnotherOrder method" Url="html/M_Resto_Front_Api_Editors_IEditSession_MoveOrderItemToAnotherOrder.htm" />
   <HelpKINode Title="IEditSession.RecoverCorruptedReserve method" Url="html/M_Resto_Front_Api_Editors_IEditSession_RecoverCorruptedReserve.htm" />
@@ -3692,6 +3693,7 @@
   <HelpKINode Title="IOrder.ResultSum property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_ResultSum.htm" />
   <HelpKINode Title="IOrder.Status property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Status.htm" />
   <HelpKINode Title="IOrder.Tables property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Tables.htm" />
+  <HelpKINode Title="IOrder.TabName property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_TabName.htm" />
   <HelpKINode Title="IOrder.Waiter property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Waiter.htm" />
   <HelpKINode Title="IOrder.WasPrepaid property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_WasPrepaid.htm" />
   <HelpKINode Title="IOrderCombo interface">
@@ -4340,6 +4342,7 @@
   </HelpKINode>
   <HelpKINode Title="IsSessionOpen property" Url="html/P_Resto_Front_Api_Data_Security_IUser_IsSessionOpen.htm" />
   <HelpKINode Title="IsStarted property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_IsStarted.htm" />
+  <HelpKINode Title="IsTabMode property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_IsTabMode.htm" />
   <HelpKINode Title="IsTaxable property">
     <HelpKINode Title="ChequeSale.IsTaxable Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_IsTaxable.htm" />
     <HelpKINode Title="FiscalRegisterTaxItem.IsTaxable Property " Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalRegisterTaxItem_IsTaxable.htm" />
@@ -4437,6 +4440,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Organization_ITerminalsGroup.htm" />
   </HelpKINode>
   <HelpKINode Title="ITerminalsGroup.AskCashierForMultiCashRegisterPayment property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_AskCashierForMultiCashRegisterPayment.htm" />
+  <HelpKINode Title="ITerminalsGroup.IsTabMode property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_IsTabMode.htm" />
   <HelpKINode Title="ITerminalsGroup.MaxCourseNumber property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_MaxCourseNumber.htm" />
   <HelpKINode Title="ITerminalsGroup.Name property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_Name.htm" />
   <HelpKINode Title="ITerminalsGroup.PriceCategory property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_PriceCategory.htm" />
@@ -4574,6 +4578,10 @@
   </HelpKINode>
   <HelpKINode Title="MarketingSourceChanged property" Url="html/P_Resto_Front_Api_INotificationService_MarketingSourceChanged.htm" />
   <HelpKINode Title="MarketingSourceRequired property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_MarketingSourceRequired.htm" />
+  <HelpKINode Title="MarkOrderAsTab method">
+    <HelpKINode Title="IEditSession.MarkOrderAsTab Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_MarkOrderAsTab.htm" />
+    <HelpKINode Title="OperationServiceExtensions.MarkOrderAsTab Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MarkOrderAsTab.htm" />
+  </HelpKINode>
   <HelpKINode Title="Markup property" Url="html/P_Resto_Front_Api_Data_Print_Document_Markup.htm" />
   <HelpKINode Title="MaxCourseNumber property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_MaxCourseNumber.htm" />
   <HelpKINode Title="MaxExternalPaymentItemDataLength field" Url="html/F_Resto_Front_Api_Extensions_PaymentDataContextExtensions_MaxExternalPaymentItemDataLength.htm" />
@@ -5123,6 +5131,7 @@
   <HelpKINode Title="OperationServiceExtensions.GetProductMenuBitmap method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_GetProductMenuBitmap.htm" />
   <HelpKINode Title="OperationServiceExtensions.GetProductMenuImage method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_GetProductMenuImage.htm" />
   <HelpKINode Title="OperationServiceExtensions.GroupOrderCookingItems method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_GroupOrderCookingItems.htm" />
+  <HelpKINode Title="OperationServiceExtensions.MarkOrderAsTab method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MarkOrderAsTab.htm" />
   <HelpKINode Title="OperationServiceExtensions.MoveOrderItemToAnotherGuest method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MoveOrderItemToAnotherGuest.htm" />
   <HelpKINode Title="OperationServiceExtensions.MoveOrderItemToAnotherOrder method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MoveOrderItemToAnotherOrder.htm" />
   <HelpKINode Title="OperationServiceExtensions.RegisterBillChequeTaskResolver method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_RegisterBillChequeTaskResolver.htm" />
@@ -6872,6 +6881,7 @@
     <HelpKINode Title="IReserve.Tables Property " Url="html/P_Resto_Front_Api_Data_Brd_IReserve_Tables.htm" />
     <HelpKINode Title="IRestaurantSection.Tables Property " Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_Tables.htm" />
   </HelpKINode>
+  <HelpKINode Title="TabName property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_TabName.htm" />
   <HelpKINode Title="TabTitleBarcode property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_TabTitleBarcode.htm" />
   <HelpKINode Title="TabTitleNumericString property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_TabTitleNumericString.htm" />
   <HelpKINode Title="TabTitlePhone property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_TabTitlePhone.htm" />
