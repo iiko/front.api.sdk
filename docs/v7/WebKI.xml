@@ -1948,8 +1948,8 @@
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2312,6 +2312,7 @@
   <HelpKINode Title="GetAgentId method" Url="html/M_Resto_Front_Api_IOperationService_GetAgentId.htm" />
   <HelpKINode Title="GetAllProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetAllProducts.htm" />
   <HelpKINode Title="GetAllStreets method" Url="html/M_Resto_Front_Api_IOperationService_GetAllStreets.htm" />
+  <HelpKINode Title="GetApplicationVersion method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetApplicationVersion.htm" />
   <HelpKINode Title="GetCafeSessionByCashRegister method" Url="html/M_Resto_Front_Api_IOperationService_GetCafeSessionByCashRegister.htm" />
   <HelpKINode Title="GetCafeSessionById method" Url="html/M_Resto_Front_Api_IOperationService_GetCafeSessionById.htm" />
   <HelpKINode Title="GetCashRegisterData method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_GetCashRegisterData.htm" />
@@ -2464,6 +2465,8 @@
   <HelpKINode Title="GetRollbackData&lt;T&gt; method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_GetRollbackData__1.htm" />
   <HelpKINode Title="GetSelectiveDiscountItemSettings method" Url="html/M_Resto_Front_Api_IOperationService_GetSelectiveDiscountItemSettings.htm" />
   <HelpKINode Title="GetServerUrl method" Url="html/M_Resto_Front_Api_IInternalOperationService_GetServerUrl.htm" />
+  <HelpKINode Title="GetService(Of T) method" Url="html/M_Resto_Front_Api_Extensions_ServiceProviderExtensions_GetService__1.htm" />
+  <HelpKINode Title="GetService&lt;T&gt; method" Url="html/M_Resto_Front_Api_Extensions_ServiceProviderExtensions_GetService__1.htm" />
   <HelpKINode Title="GetSettings method">
     <HelpKINode Title="IPluginSettings.GetSettings Method " Url="html/M_Resto_Front_Api_Data_Settings_IPluginSettings_GetSettings.htm" />
     <HelpKINode Title="PluginSettings.GetSettings Method " Url="html/M_Resto_Front_Api_Data_Settings_PluginSettings_GetSettings.htm" />
@@ -2475,6 +2478,7 @@
   <HelpKINode Title="GetSplittableSimpleModifiers method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetSplittableSimpleModifiers.htm" />
   <HelpKINode Title="GetSplittableSimpleModifiersByCompoundItemTemplate method" Url="html/M_Resto_Front_Api_IOperationService_GetSplittableSimpleModifiersByCompoundItemTemplate.htm" />
   <HelpKINode Title="GetStreetById method" Url="html/M_Resto_Front_Api_IOperationService_GetStreetById.htm" />
+  <HelpKINode Title="GetSupportedApiVersions method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetSupportedApiVersions.htm" />
   <HelpKINode Title="GetSurveyItemById method" Url="html/M_Resto_Front_Api_IOperationService_GetSurveyItemById.htm" />
   <HelpKINode Title="GetSurveyItems method" Url="html/M_Resto_Front_Api_IOperationService_GetSurveyItems.htm" />
   <HelpKINode Title="GetTableById method" Url="html/M_Resto_Front_Api_IOperationService_GetTableById.htm" />
@@ -3159,7 +3163,6 @@
   <HelpKINode Title="IInternalOperationService.GetServerUrl method" Url="html/M_Resto_Front_Api_IInternalOperationService_GetServerUrl.htm" />
   <HelpKINode Title="IInternalOperationService.RegisterDeliveryTerminal method" Url="html/M_Resto_Front_Api_IInternalOperationService_RegisterDeliveryTerminal.htm" />
   <HelpKINode Title="IInternalOperationService.SendDeliverySms method" Url="html/M_Resto_Front_Api_IInternalOperationService_SendDeliverySms.htm" />
-  <HelpKINode Title="IJournalEventStub interface" Url="html/T_Resto_Front_Api_Editors_Stubs_IJournalEventStub.htm" />
   <HelpKINode Title="IKitchenOrder interface">
     <HelpKINode Title="IKitchenOrder Interface" Url="html/T_Resto_Front_Api_Data_Kitchen_IKitchenOrder.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Kitchen_IKitchenOrder.htm" />
@@ -3968,10 +3971,12 @@
   <HelpKINode Title="IPluginIntegrationService.AddButton method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_AddButton.htm" />
   <HelpKINode Title="IPluginIntegrationService.AddButtonOnClosedOrderView method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_AddButtonOnClosedOrderView.htm" />
   <HelpKINode Title="IPluginIntegrationService.AddButtonOnPastOrderView method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_AddButtonOnPastOrderView.htm" />
+  <HelpKINode Title="IPluginIntegrationService.GetApplicationVersion method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetApplicationVersion.htm" />
   <HelpKINode Title="IPluginIntegrationService.GetConfigsDirectoryPath method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetConfigsDirectoryPath.htm" />
   <HelpKINode Title="IPluginIntegrationService.GetDataStorageDirectoryPath method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetDataStorageDirectoryPath.htm" />
   <HelpKINode Title="IPluginIntegrationService.GetPaymentProcessorSettingsKey method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetPaymentProcessorSettingsKey.htm" />
   <HelpKINode Title="IPluginIntegrationService.GetPluginSettings method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetPluginSettings.htm" />
+  <HelpKINode Title="IPluginIntegrationService.GetSupportedApiVersions method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetSupportedApiVersions.htm" />
   <HelpKINode Title="IPluginIntegrationService.UpdatePluginSettings method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_UpdatePluginSettings.htm" />
   <HelpKINode Title="IPluginSettings interface">
     <HelpKINode Title="IPluginSettings Interface" Url="html/T_Resto_Front_Api_Data_Settings_IPluginSettings.htm" />
@@ -6413,7 +6418,6 @@
   <HelpKINode Title="Resto.Front.Api.Editors.Stubs namespace" Url="html/N_Resto_Front_Api_Editors_Stubs.htm" />
   <HelpKINode Title="Resto.Front.Api.Editors.Stubs.IClientStub interface" Url="html/T_Resto_Front_Api_Editors_Stubs_IClientStub.htm" />
   <HelpKINode Title="Resto.Front.Api.Editors.Stubs.IDeliveryOrderStub interface" Url="html/T_Resto_Front_Api_Editors_Stubs_IDeliveryOrderStub.htm" />
-  <HelpKINode Title="Resto.Front.Api.Editors.Stubs.IJournalEventStub interface" Url="html/T_Resto_Front_Api_Editors_Stubs_IJournalEventStub.htm" />
   <HelpKINode Title="Resto.Front.Api.Editors.Stubs.INewClientStub interface" Url="html/T_Resto_Front_Api_Editors_Stubs_INewClientStub.htm" />
   <HelpKINode Title="Resto.Front.Api.Editors.Stubs.INewDeliveryOrderStub interface" Url="html/T_Resto_Front_Api_Editors_Stubs_INewDeliveryOrderStub.htm" />
   <HelpKINode Title="Resto.Front.Api.Editors.Stubs.INewEntityStub interface" Url="html/T_Resto_Front_Api_Editors_Stubs_INewEntityStub.htm" />
@@ -6503,6 +6507,7 @@
   <HelpKINode Title="Resto.Front.Api.Extensions.OperationServiceExtensions class" Url="html/T_Resto_Front_Api_Extensions_OperationServiceExtensions.htm" />
   <HelpKINode Title="Resto.Front.Api.Extensions.PaymentDataContextExtensions class" Url="html/T_Resto_Front_Api_Extensions_PaymentDataContextExtensions.htm" />
   <HelpKINode Title="Resto.Front.Api.Extensions.PluginIntegrationServiceExtensions class" Url="html/T_Resto_Front_Api_Extensions_PluginIntegrationServiceExtensions.htm" />
+  <HelpKINode Title="Resto.Front.Api.Extensions.ServiceProviderExtensions class" Url="html/T_Resto_Front_Api_Extensions_ServiceProviderExtensions.htm" />
   <HelpKINode Title="Resto.Front.Api.Extensions.ViewManagerExtensions class" Url="html/T_Resto_Front_Api_Extensions_ViewManagerExtensions.htm" />
   <HelpKINode Title="Resto.Front.Api.IExternalPaymentProcessor interface" Url="html/T_Resto_Front_Api_IExternalPaymentProcessor.htm" />
   <HelpKINode Title="Resto.Front.Api.IFrontPlugin interface" Url="html/T_Resto_Front_Api_IFrontPlugin.htm" />
@@ -6643,6 +6648,12 @@
   </HelpKINode>
   <HelpKINode Title="ServiceName property" Url="html/P_Resto_Front_Api_Data_Common_ExternalOperationChangedEventArgs_ServiceName.htm" />
   <HelpKINode Title="ServicePrintOnOrderExit property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_ServicePrintOnOrderExit.htm" />
+  <HelpKINode Title="ServiceProviderExtensions class">
+    <HelpKINode Title="ServiceProviderExtensions Class" Url="html/T_Resto_Front_Api_Extensions_ServiceProviderExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Extensions_ServiceProviderExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ServiceProviderExtensions.GetService(Of T) method" Url="html/M_Resto_Front_Api_Extensions_ServiceProviderExtensions_GetService__1.htm" />
+  <HelpKINode Title="ServiceProviderExtensions.GetService&lt;T&gt; method" Url="html/M_Resto_Front_Api_Extensions_ServiceProviderExtensions_GetService__1.htm" />
   <HelpKINode Title="Services property" Url="html/P_Resto_Front_Api_PluginContext_Services.htm" />
   <HelpKINode Title="ServiceTime enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_ServiceTimingMode.htm" />
   <HelpKINode Title="ServiceTimingMode enumeration" Url="html/T_Resto_Front_Api_Data_Orders_ServiceTimingMode.htm" />
