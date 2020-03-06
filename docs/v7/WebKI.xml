@@ -1288,6 +1288,7 @@
   <HelpKINode Title="ChequeSale.Code property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Code.htm" />
   <HelpKINode Title="ChequeSale.Comment property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Comment.htm" />
   <HelpKINode Title="ChequeSale.CommodityCode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_CommodityCode.htm" />
+  <HelpKINode Title="ChequeSale.CommodityMark property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_CommodityMark.htm" />
   <HelpKINode Title="ChequeSale.Contractor property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Contractor.htm" />
   <HelpKINode Title="ChequeSale.Discount property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Discount.htm" />
   <HelpKINode Title="ChequeSale.DiscountSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_DiscountSum.htm" />
@@ -1426,6 +1427,7 @@
   </HelpKINode>
   <HelpKINode Title="CommentRequired property" Url="html/P_Resto_Front_Api_Data_Orders_IRemovalType_CommentRequired.htm" />
   <HelpKINode Title="CommodityCode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_CommodityCode.htm" />
+  <HelpKINode Title="CommodityMark property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_CommodityMark.htm" />
   <HelpKINode Title="Common enumeration member">
     <HelpKINode Title="OrderServiceTypes Enumeration" Url="html/T_Resto_Front_Api_Data_Organization_OrderServiceTypes.htm" />
     <HelpKINode Title="SurveyType Enumeration" Url="html/T_Resto_Front_Api_Data_Brd_SurveyType.htm" />
@@ -1940,14 +1942,14 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
