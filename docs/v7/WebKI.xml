@@ -1373,6 +1373,7 @@
   <HelpKINode Title="Code property">
     <HelpKINode Title="ChequeSale.Code Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Code.htm" />
     <HelpKINode Title="DeviceSettings.Code Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceSettings_Code.htm" />
+    <HelpKINode Title="IAllergenGroup.Code Property " Url="html/P_Resto_Front_Api_Data_Orders_IAllergenGroup_Code.htm" />
     <HelpKINode Title="IConception.Code Property " Url="html/P_Resto_Front_Api_Data_Organization_IConception_Code.htm" />
     <HelpKINode Title="IPriceCategory.Code Property " Url="html/P_Resto_Front_Api_Data_Orders_IPriceCategory_Code.htm" />
     <HelpKINode Title="IUser.Code Property " Url="html/P_Resto_Front_Api_Data_Security_IUser_Code.htm" />
@@ -1948,15 +1949,15 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2317,6 +2318,8 @@
   <HelpKINode Title="GetActiveRemovalTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveRemovalTypes.htm" />
   <HelpKINode Title="GetActiveStreets method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveStreets.htm" />
   <HelpKINode Title="GetAgentId method" Url="html/M_Resto_Front_Api_IOperationService_GetAgentId.htm" />
+  <HelpKINode Title="GetAllergenGroupsByOrderRootItem method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByOrderRootItem.htm" />
+  <HelpKINode Title="GetAllergenGroupsByProductIds method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByProductIds.htm" />
   <HelpKINode Title="GetAllProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetAllProducts.htm" />
   <HelpKINode Title="GetAllStreets method" Url="html/M_Resto_Front_Api_IOperationService_GetAllStreets.htm" />
   <HelpKINode Title="GetApplicationVersion method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetApplicationVersion.htm" />
@@ -2582,6 +2585,13 @@
   <HelpKINode Title="IAddress.Index property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Index.htm" />
   <HelpKINode Title="IAddress.Region property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Region.htm" />
   <HelpKINode Title="IAddress.Street property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Street.htm" />
+  <HelpKINode Title="IAllergenGroup interface">
+    <HelpKINode Title="IAllergenGroup Interface" Url="html/T_Resto_Front_Api_Data_Orders_IAllergenGroup.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IAllergenGroup.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Orders_IAllergenGroup.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAllergenGroup.Code property" Url="html/P_Resto_Front_Api_Data_Orders_IAllergenGroup_Code.htm" />
+  <HelpKINode Title="IAllergenGroup.Name property" Url="html/P_Resto_Front_Api_Data_Orders_IAllergenGroup_Name.htm" />
   <HelpKINode Title="IAppliedDiscountItem interface">
     <HelpKINode Title="IAppliedDiscountItem Interface" Url="html/T_Resto_Front_Api_Data_Orders_IAppliedDiscountItem.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IAppliedDiscountItem.htm" />
@@ -3484,6 +3494,8 @@
   <HelpKINode Title="IOperationService.GetActiveRemovalTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveRemovalTypes.htm" />
   <HelpKINode Title="IOperationService.GetActiveStreets method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveStreets.htm" />
   <HelpKINode Title="IOperationService.GetAgentId method" Url="html/M_Resto_Front_Api_IOperationService_GetAgentId.htm" />
+  <HelpKINode Title="IOperationService.GetAllergenGroupsByOrderRootItem method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByOrderRootItem.htm" />
+  <HelpKINode Title="IOperationService.GetAllergenGroupsByProductIds method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByProductIds.htm" />
   <HelpKINode Title="IOperationService.GetAllProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetAllProducts.htm" />
   <HelpKINode Title="IOperationService.GetAllStreets method" Url="html/M_Resto_Front_Api_IOperationService_GetAllStreets.htm" />
   <HelpKINode Title="IOperationService.GetCafeSessionByCashRegister method" Url="html/M_Resto_Front_Api_IOperationService_GetCafeSessionByCashRegister.htm" />
@@ -4709,6 +4721,7 @@
     <HelpKINode Title="FiscalRegisterPaymentType.Name Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_FiscalRegisterPaymentType_Name.htm" />
     <HelpKINode Title="HtmlAttributeValueAttribute.Name Property " Url="html/P_Resto_Front_Api_Attributes_JetBrains_HtmlAttributeValueAttribute_Name.htm" />
     <HelpKINode Title="HtmlElementAttributesAttribute.Name Property " Url="html/P_Resto_Front_Api_Attributes_JetBrains_HtmlElementAttributesAttribute_Name.htm" />
+    <HelpKINode Title="IAllergenGroup.Name Property " Url="html/P_Resto_Front_Api_Data_Orders_IAllergenGroup_Name.htm" />
     <HelpKINode Title="ICashRegisterInfo.Name Property " Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_Name.htm" />
     <HelpKINode Title="ICity.Name Property " Url="html/P_Resto_Front_Api_Data_Brd_ICity_Name.htm" />
     <HelpKINode Title="IClient.Name Property " Url="html/P_Resto_Front_Api_Data_Brd_IClient_Name.htm" />
@@ -6278,6 +6291,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Kitchen.KitchenOrderItemProcessingStatus enumeration" Url="html/T_Resto_Front_Api_Data_Kitchen_KitchenOrderItemProcessingStatus.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders namespace" Url="html/N_Resto_Front_Api_Data_Orders.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.CheckSplitRequiredResult enumeration" Url="html/T_Resto_Front_Api_Data_Orders_CheckSplitRequiredResult.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Orders.IAllergenGroup interface" Url="html/T_Resto_Front_Api_Data_Orders_IAllergenGroup.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IAppliedDiscountItem interface" Url="html/T_Resto_Front_Api_Data_Orders_IAppliedDiscountItem.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.ICookingPlaceType interface" Url="html/T_Resto_Front_Api_Data_Orders_ICookingPlaceType.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.ICourierWorkload interface" Url="html/T_Resto_Front_Api_Data_Orders_ICourierWorkload.htm" />
