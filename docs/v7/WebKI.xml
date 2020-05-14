@@ -688,6 +688,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_CannotAddInactiveProductException.htm" />
   </HelpKINode>
   <HelpKINode Title="CannotAddInactiveProductException.CannotAddInactiveProductException constructor" Url="html/M_Resto_Front_Api_Exceptions_CannotAddInactiveProductException__ctor.htm" />
+  <HelpKINode Title="CannotAddInactiveProductException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_CannotAddInactiveProductException_GetObjectData.htm" />
   <HelpKINode Title="CannotAddInactiveProductException.Product property" Url="html/P_Resto_Front_Api_Exceptions_CannotAddInactiveProductException_Product.htm" />
   <HelpKINode Title="CannotApplyEqualityOperatorAttribute class">
     <HelpKINode Title="CannotApplyEqualityOperatorAttribute Class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_CannotApplyEqualityOperatorAttribute.htm" />
@@ -1841,6 +1842,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_DeviceException.htm" />
   </HelpKINode>
   <HelpKINode Title="DeviceException.DeviceException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_DeviceException__ctor.htm" />
+  <HelpKINode Title="DeviceException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_DeviceException_GetObjectData.htm" />
   <HelpKINode Title="DeviceException.InternalErrorCode property" Url="html/P_Resto_Front_Api_Exceptions_DeviceException_InternalErrorCode.htm" />
   <HelpKINode Title="DeviceId property">
     <HelpKINode Title="DeviceSettings.DeviceId Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceSettings_DeviceId.htm" />
@@ -1982,12 +1984,12 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -1995,8 +1997,8 @@
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2126,6 +2128,7 @@
   </HelpKINode>
   <HelpKINode Title="EntityUsingException.EntityId property" Url="html/P_Resto_Front_Api_Exceptions_EntityUsingException_EntityId.htm" />
   <HelpKINode Title="EntityUsingException.EntityUsingException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_EntityUsingException__ctor.htm" />
+  <HelpKINode Title="EntityUsingException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_EntityUsingException_GetObjectData.htm" />
   <HelpKINode Title="Entrance property">
     <HelpKINode Title="AddressDto.Entrance Property " Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Entrance.htm" />
     <HelpKINode Title="IAddress.Entrance Property " Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Entrance.htm" />
@@ -2437,13 +2440,17 @@
   <HelpKINode Title="GetObjectData method">
     <HelpKINode Title="AddressDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_AddressDto_GetObjectData.htm" />
     <HelpKINode Title="BillCheque.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Cheques_BillCheque_GetObjectData.htm" />
+    <HelpKINode Title="CannotAddInactiveProductException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_CannotAddInactiveProductException_GetObjectData.htm" />
     <HelpKINode Title="CashCheque.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Cheques_CashCheque_GetObjectData.htm" />
     <HelpKINode Title="CheckSplitResultDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_CheckSplitResultDto_GetObjectData.htm" />
     <HelpKINode Title="DeliverySmsNotificationTemplates.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_DeliverySmsNotificationTemplates_GetObjectData.htm" />
+    <HelpKINode Title="DeviceException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_DeviceException_GetObjectData.htm" />
     <HelpKINode Title="Document.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
     <HelpKINode Title="EmailDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_EmailDto_GetObjectData.htm" />
+    <HelpKINode Title="EntityUsingException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_EntityUsingException_GetObjectData.htm" />
     <HelpKINode Title="ExtendedInputDialogSettings.GetObjectData Method " Url="html/M_Resto_Front_Api_UI_ExtendedInputDialogSettings_GetObjectData.htm" />
     <HelpKINode Title="HierarchicalMenu.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_HierarchicalMenu_GetObjectData.htm" />
+    <HelpKINode Title="PaymentTypeConfigurationException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_PaymentTypeConfigurationException_GetObjectData.htm" />
     <HelpKINode Title="PhoneDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_PhoneDto_GetObjectData.htm" />
     <HelpKINode Title="PreliminaryOrderItemModifier.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemModifier_GetObjectData.htm" />
     <HelpKINode Title="PreliminaryOrderItemProduct.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemProduct_GetObjectData.htm" />
@@ -5502,6 +5509,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Exceptions_PaymentTypeConfigurationException.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_PaymentTypeConfigurationException.htm" />
   </HelpKINode>
+  <HelpKINode Title="PaymentTypeConfigurationException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_PaymentTypeConfigurationException_GetObjectData.htm" />
   <HelpKINode Title="PaymentTypeConfigurationException.PaymentTypeConfigurationException constructor" Url="html/M_Resto_Front_Api_Exceptions_PaymentTypeConfigurationException__ctor.htm" />
   <HelpKINode Title="PaymentTypeConfigurationException.PaymentTypeId property" Url="html/P_Resto_Front_Api_Exceptions_PaymentTypeConfigurationException_PaymentTypeId.htm" />
   <HelpKINode Title="PaymentTypeId property" Url="html/P_Resto_Front_Api_Exceptions_PaymentTypeConfigurationException_PaymentTypeId.htm" />
