@@ -635,6 +635,7 @@
   <HelpKINode Title="BySection enumeration member" Url="html/T_Resto_Front_Api_Data_Print_PrinterSelectionMode.htm" />
   <HelpKINode Title="ByTerminal enumeration member" Url="html/T_Resto_Front_Api_Data_Print_PrinterSelectionMode.htm" />
   <HelpKINode Title="Cafe enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_WriteoffType.htm" />
+  <HelpKINode Title="CafeAddress property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_CafeAddress.htm" />
   <HelpKINode Title="CafeSessionException class">
     <HelpKINode Title="CafeSessionException Class" Url="html/T_Resto_Front_Api_Exceptions_CafeSessionException.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Exceptions_CafeSessionException__ctor.htm" />
@@ -1984,8 +1985,8 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2848,6 +2849,7 @@
   </HelpKINode>
   <HelpKINode Title="IDeliveryOrder.ActualDeliverTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ActualDeliverTime.htm" />
   <HelpKINode Title="IDeliveryOrder.Address property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_Address.htm" />
+  <HelpKINode Title="IDeliveryOrder.CafeAddress property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_CafeAddress.htm" />
   <HelpKINode Title="IDeliveryOrder.CancelCause property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_CancelCause.htm" />
   <HelpKINode Title="IDeliveryOrder.CancelComment property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_CancelComment.htm" />
   <HelpKINode Title="IDeliveryOrder.CancelTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_CancelTime.htm" />
