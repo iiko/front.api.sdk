@@ -1320,6 +1320,7 @@
   <HelpKINode Title="ChequeSale.ProductId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_ProductId.htm" />
   <HelpKINode Title="ChequeSale.Section property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Section.htm" />
   <HelpKINode Title="ChequeSale.Sum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Sum.htm" />
+  <HelpKINode Title="ChequeSale.TaricCode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_TaricCode.htm" />
   <HelpKINode Title="ChequeSale.TaxId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_TaxId.htm" />
   <HelpKINode Title="ChequeSale.ToString method" Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequeSale_ToString.htm" />
   <HelpKINode Title="ChequeSale.TransferType property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_TransferType.htm" />
@@ -7183,6 +7184,7 @@
     <HelpKINode Title="MeansImplicitUseAttribute.TargetFlags Property " Url="html/P_Resto_Front_Api_Attributes_JetBrains_MeansImplicitUseAttribute_TargetFlags.htm" />
     <HelpKINode Title="UsedImplicitlyAttribute.TargetFlags Property " Url="html/P_Resto_Front_Api_Attributes_JetBrains_UsedImplicitlyAttribute_TargetFlags.htm" />
   </HelpKINode>
+  <HelpKINode Title="TaricCode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_TaricCode.htm" />
   <HelpKINode Title="TaxableSum property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterVatData_TaxableSum.htm" />
   <HelpKINode Title="TaxAmount property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterVatData_TaxAmount.htm" />
   <HelpKINode Title="TaxationSystem enumeration" Url="html/T_Resto_Front_Api_Data_Device_Tasks_TaxationSystem.htm" />
