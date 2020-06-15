@@ -429,6 +429,10 @@
   <HelpKINode Title="Auto enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_WriteoffOptions_Type.htm" />
   <HelpKINode Title="Auto method" Url="html/M_Resto_Front_Api_Data_Orders_WriteoffOptions_Auto.htm" />
   <HelpKINode Title="AutoAndPayIn enumeration member" Url="html/T_Resto_Front_Api_Data_Device_CashRegisterCloseEncashmentSetup.htm" />
+  <HelpKINode Title="AutomaticallyOnCookingCompleted enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryBillPrintTimeOption.htm" />
+  <HelpKINode Title="AutomaticallyOnCookingStarted enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryBillPrintTimeOption.htm" />
+  <HelpKINode Title="AutomaticallyOnPayment enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryBillPrintTimeOption.htm" />
+  <HelpKINode Title="AutomaticallyOnSending enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryBillPrintTimeOption.htm" />
   <HelpKINode Title="Autorun property" Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceSettings_Autorun.htm" />
   <HelpKINode Title="AutoWidth field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_AutoWidth.htm" />
   <HelpKINode Title="AvailableCommonGroupModifiers property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderCompoundItem_AvailableCommonGroupModifiers.htm" />
@@ -504,6 +508,7 @@
     <HelpKINode Title="CashCheque.BeforeCheque Property " Url="html/P_Resto_Front_Api_Data_Cheques_CashCheque_BeforeCheque.htm" />
     <HelpKINode Title="CashRegisterChequeExtensions.BeforeCheque Property " Url="html/P_Resto_Front_Api_Data_Device_CashRegisterChequeExtensions_BeforeCheque.htm" />
   </HelpKINode>
+  <HelpKINode Title="BeforeClosing enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryPaymentTimeOption.htm" />
   <HelpKINode Title="BeforeDoCheckAction method" Url="html/M_Resto_Front_Api_Devices_ChequeTaskProcessor_IChequeTaskProcessor_BeforeDoCheckAction.htm" />
   <HelpKINode Title="BeforeDoCheckActionResult class">
     <HelpKINode Title="BeforeDoCheckActionResult Class" Url="html/T_Resto_Front_Api_Data_Device_BeforeDoCheckActionResult.htm" />
@@ -527,6 +532,7 @@
     <HelpKINode Title="IReadonlyChequeTaskProcessor.BeforePayOut Method " Url="html/M_Resto_Front_Api_Devices_ChequeTaskProcessor_IReadonlyChequeTaskProcessor_BeforePayOut.htm" />
   </HelpKINode>
   <HelpKINode Title="BeforePayOutSessionClosed method" Url="html/M_Resto_Front_Api_Devices_ChequeTaskProcessor_IEditableChequeTaskProcessor_BeforePayOutSessionClosed.htm" />
+  <HelpKINode Title="BeforeSending enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryPaymentTimeOption.htm" />
   <HelpKINode Title="BeforeXReport method" Url="html/M_Resto_Front_Api_Devices_ChequeTaskProcessor_IChequeTaskProcessor_BeforeXReport.htm" />
   <HelpKINode Title="BeforeZReport method" Url="html/M_Resto_Front_Api_Devices_ChequeTaskProcessor_IChequeTaskProcessor_BeforeZReport.htm" />
   <HelpKINode Title="Bell field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_Bell.htm" />
@@ -1774,6 +1780,8 @@
   </HelpKINode>
   <HelpKINode Title="Delivered enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
   <HelpKINode Title="DeliveriesCount property" Url="html/P_Resto_Front_Api_Data_Orders_ICourierWorkload_DeliveriesCount.htm" />
+  <HelpKINode Title="DeliveryBillPrintTimeOption enumeration" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryBillPrintTimeOption.htm" />
+  <HelpKINode Title="DeliveryBillPrintTimeOption property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_DeliveryBillPrintTimeOption.htm" />
   <HelpKINode Title="DeliveryByClient enumeration member" Url="html/T_Resto_Front_Api_Data_Organization_OrderServiceTypes.htm" />
   <HelpKINode Title="DeliveryByCourier enumeration member" Url="html/T_Resto_Front_Api_Data_Organization_OrderServiceTypes.htm" />
   <HelpKINode Title="DeliveryCancelCauseChanged property" Url="html/P_Resto_Front_Api_INotificationService_DeliveryCancelCauseChanged.htm" />
@@ -1782,6 +1790,8 @@
   <HelpKINode Title="DeliveryOperator enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_SurveyType.htm" />
   <HelpKINode Title="DeliveryOperator property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_DeliveryOperator.htm" />
   <HelpKINode Title="DeliveryOrderChanged property" Url="html/P_Resto_Front_Api_INotificationService_DeliveryOrderChanged.htm" />
+  <HelpKINode Title="DeliveryPaymentTimeOption enumeration" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryPaymentTimeOption.htm" />
+  <HelpKINode Title="DeliveryPaymentTimeOption property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_DeliveryPaymentTimeOption.htm" />
   <HelpKINode Title="DeliverySettingsChanged property" Url="html/P_Resto_Front_Api_INotificationService_DeliverySettingsChanged.htm" />
   <HelpKINode Title="DeliverySettingsServiceType enumeration" Url="html/T_Resto_Front_Api_Data_Organization_DeliverySettingsServiceType.htm" />
   <HelpKINode Title="DeliverySmsNotificationTemplates class">
@@ -1990,8 +2000,8 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2003,8 +2013,8 @@
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2106,11 +2116,11 @@
   <HelpKINode Title="EntityId property" Url="html/P_Resto_Front_Api_Exceptions_EntityUsingException_EntityId.htm" />
   <HelpKINode Title="EntityModifiedException class">
     <HelpKINode Title="EntityModifiedException Class" Url="html/T_Resto_Front_Api_Exceptions_EntityModifiedException.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Exceptions_EntityModifiedException__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Exceptions_EntityModifiedException__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Exceptions_EntityModifiedException.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_EntityModifiedException.htm" />
   </HelpKINode>
-  <HelpKINode Title="EntityModifiedException.EntityModifiedException constructor" Url="html/M_Resto_Front_Api_Exceptions_EntityModifiedException__ctor.htm" />
+  <HelpKINode Title="EntityModifiedException.EntityModifiedException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_EntityModifiedException__ctor.htm" />
   <HelpKINode Title="EntityNotFoundException class">
     <HelpKINode Title="EntityNotFoundException Class" Url="html/T_Resto_Front_Api_Exceptions_EntityNotFoundException.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Exceptions_EntityNotFoundException__ctor.htm" />
@@ -2901,6 +2911,8 @@
   <HelpKINode Title="IDeliverySettings.BeepOnDeliveriesUpdate property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_BeepOnDeliveriesUpdate.htm" />
   <HelpKINode Title="IDeliverySettings.DefaultDeliveryDuration property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_DefaultDeliveryDuration.htm" />
   <HelpKINode Title="IDeliverySettings.DefaultSelfServiceDeliveryDuration property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_DefaultSelfServiceDeliveryDuration.htm" />
+  <HelpKINode Title="IDeliverySettings.DeliveryBillPrintTimeOption property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_DeliveryBillPrintTimeOption.htm" />
+  <HelpKINode Title="IDeliverySettings.DeliveryPaymentTimeOption property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_DeliveryPaymentTimeOption.htm" />
   <HelpKINode Title="IDeliverySettings.MarketingSourceRequired property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_MarketingSourceRequired.htm" />
   <HelpKINode Title="IDeliverySettings.ProcessExternalPrepayOnAddition property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_ProcessExternalPrepayOnAddition.htm" />
   <HelpKINode Title="IDeliverySettings.ServiceType property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_ServiceType.htm" />
@@ -3105,10 +3117,8 @@
   <HelpKINode Title="IEditSession.ResetIsPrintedDeliveryBillActual method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ResetIsPrintedDeliveryBillActual.htm" />
   <HelpKINode Title="IEditSession.ResetPriceCategory method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ResetPriceCategory.htm" />
   <HelpKINode Title="IEditSession.ServeOrderCookingItem method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ServeOrderCookingItem.htm" />
-  <HelpKINode Title="IEditSession.SetDeliveryConfirmed method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetDeliveryConfirmed.htm" />
   <HelpKINode Title="IEditSession.SetDeliveryCustomerAuthorizedInIikoBiz method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetDeliveryCustomerAuthorizedInIikoBiz.htm" />
   <HelpKINode Title="IEditSession.SetDeliveryDelivered method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetDeliveryDelivered.htm" />
-  <HelpKINode Title="IEditSession.SetDeliveryUnconfirmed method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetDeliveryUnconfirmed.htm" />
   <HelpKINode Title="IEditSession.SetDeliveryUndelivered method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetDeliveryUndelivered.htm" />
   <HelpKINode Title="IEditSession.SetJournalEventAttribute method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetJournalEventAttribute.htm" />
   <HelpKINode Title="IEditSession.SetOpenPrice method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetOpenPrice.htm" />
@@ -3694,9 +3704,11 @@
   <HelpKINode Title="IOperationService.OpenPersonalSession method" Url="html/M_Resto_Front_Api_IOperationService_OpenPersonalSession.htm" />
   <HelpKINode Title="IOperationService.PayOrder method" Url="html/M_Resto_Front_Api_IOperationService_PayOrder.htm" />
   <HelpKINode Title="IOperationService.PayOrderAndPayOutOnUser method" Url="html/M_Resto_Front_Api_IOperationService_PayOrderAndPayOutOnUser.htm" />
+  <HelpKINode Title="IOperationService.PrepareDeliveryForSending method" Url="html/M_Resto_Front_Api_IOperationService_PrepareDeliveryForSending.htm" />
   <HelpKINode Title="IOperationService.Print method" Url="html/M_Resto_Front_Api_IOperationService_Print.htm" />
   <HelpKINode Title="IOperationService.PrintBanquet method" Url="html/M_Resto_Front_Api_IOperationService_PrintBanquet.htm" />
   <HelpKINode Title="IOperationService.PrintBillCheque method" Url="html/M_Resto_Front_Api_IOperationService_PrintBillCheque.htm" />
+  <HelpKINode Title="IOperationService.PrintDeliveryBill method" Url="html/M_Resto_Front_Api_IOperationService_PrintDeliveryBill.htm" />
   <HelpKINode Title="IOperationService.PrintOrderItems method" Url="html/M_Resto_Front_Api_IOperationService_PrintOrderItems.htm" />
   <HelpKINode Title="IOperationService.PrintReceiptCheque method" Url="html/M_Resto_Front_Api_IOperationService_PrintReceiptCheque.htm" />
   <HelpKINode Title="IOperationService.PrintTableReservedCheque method" Url="html/M_Resto_Front_Api_IOperationService_PrintTableReservedCheque.htm" />
@@ -3711,6 +3723,7 @@
   <HelpKINode Title="IOperationService.SearchClients method" Url="html/M_Resto_Front_Api_IOperationService_SearchClients.htm" />
   <HelpKINode Title="IOperationService.SearchDiscountCardByNumber method" Url="html/M_Resto_Front_Api_IOperationService_SearchDiscountCardByNumber.htm" />
   <HelpKINode Title="IOperationService.SearchStreets method" Url="html/M_Resto_Front_Api_IOperationService_SearchStreets.htm" />
+  <HelpKINode Title="IOperationService.SendDelivery method" Url="html/M_Resto_Front_Api_IOperationService_SendDelivery.htm" />
   <HelpKINode Title="IOperationService.SendHrsCardTransactionToServer method" Url="html/M_Resto_Front_Api_IOperationService_SendHrsCardTransactionToServer.htm" />
   <HelpKINode Title="IOperationService.SplitOrderBetweenCashRegisters method" Url="html/M_Resto_Front_Api_IOperationService_SplitOrderBetweenCashRegisters.htm" />
   <HelpKINode Title="IOperationService.StartCourseCooking method" Url="html/M_Resto_Front_Api_IOperationService_StartCourseCooking.htm" />
@@ -4793,6 +4806,7 @@
   <HelpKINode Title="MagnetCard enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_IikoNetCardExternalIdType.htm" />
   <HelpKINode Title="MainAddressIndex property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_MainAddressIndex.htm" />
   <HelpKINode Title="Male enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_Gender.htm" />
+  <HelpKINode Title="Manually enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryBillPrintTimeOption.htm" />
   <HelpKINode Title="MarkElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_MarkElements.htm" />
   <HelpKINode Title="MarketingSource property">
     <HelpKINode Title="IClient.MarketingSource Property " Url="html/P_Resto_Front_Api_Data_Brd_IClient_MarketingSource.htm" />
@@ -5374,10 +5388,8 @@
   <HelpKINode Title="OperationServiceExtensions.ResetIsPrintedDeliveryBillActual method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ResetIsPrintedDeliveryBillActual.htm" />
   <HelpKINode Title="OperationServiceExtensions.ResetPriceCategory method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ResetPriceCategory.htm" />
   <HelpKINode Title="OperationServiceExtensions.ServeOrderCookingItem method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ServeOrderCookingItem.htm" />
-  <HelpKINode Title="OperationServiceExtensions.SetDeliveryConfirmed method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetDeliveryConfirmed.htm" />
   <HelpKINode Title="OperationServiceExtensions.SetDeliveryCustomerAuthorizedInIikoBiz method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetDeliveryCustomerAuthorizedInIikoBiz.htm" />
   <HelpKINode Title="OperationServiceExtensions.SetDeliveryDelivered method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetDeliveryDelivered.htm" />
-  <HelpKINode Title="OperationServiceExtensions.SetDeliveryUnconfirmed method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetDeliveryUnconfirmed.htm" />
   <HelpKINode Title="OperationServiceExtensions.SetDeliveryUndelivered method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetDeliveryUndelivered.htm" />
   <HelpKINode Title="OperationServiceExtensions.SetOpenPrice method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetOpenPrice.htm" />
   <HelpKINode Title="OperationServiceExtensions.SetOrderType method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetOrderType.htm" />
@@ -5695,6 +5707,7 @@
   <HelpKINode Title="PreliminaryOrderItemProduct.Modifiers property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemProduct_Modifiers.htm" />
   <HelpKINode Title="PreliminaryOrderItemProduct.PreliminaryOrderItemProduct constructor" Url="html/Overload_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemProduct__ctor.htm" />
   <HelpKINode Title="PreliminaryOrderItemProduct.ProductSize property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemProduct_ProductSize.htm" />
+  <HelpKINode Title="PrepareDeliveryForSending method" Url="html/M_Resto_Front_Api_IOperationService_PrepareDeliveryForSending.htm" />
   <HelpKINode Title="PrepaymentId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentId.htm" />
   <HelpKINode Title="PrepaymentSum property">
     <HelpKINode Title="ChequeTask.PrepaymentSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentSum.htm" />
@@ -5736,6 +5749,7 @@
   <HelpKINode Title="PrintBanquet method" Url="html/M_Resto_Front_Api_IOperationService_PrintBanquet.htm" />
   <HelpKINode Title="PrintBillCheque method" Url="html/M_Resto_Front_Api_IOperationService_PrintBillCheque.htm" />
   <HelpKINode Title="PrintChange property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_PrintChange.htm" />
+  <HelpKINode Title="PrintDeliveryBill method" Url="html/M_Resto_Front_Api_IOperationService_PrintDeliveryBill.htm" />
   <HelpKINode Title="PrintedNotCooking enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemStatus.htm" />
   <HelpKINode Title="PrinterDevice enumeration member" Url="html/T_Resto_Front_Api_Data_Device_DeviceType.htm" />
   <HelpKINode Title="PrinterSelectionMode enumeration" Url="html/T_Resto_Front_Api_Data_Print_PrinterSelectionMode.htm" />
@@ -6397,6 +6411,8 @@
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.ProductType enumeration" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Brd namespace" Url="html/N_Resto_Front_Api_Data_Brd.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Brd.AddressDto class" Url="html/T_Resto_Front_Api_Data_Brd_AddressDto.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Brd.DeliveryBillPrintTimeOption enumeration" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryBillPrintTimeOption.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Brd.DeliveryPaymentTimeOption enumeration" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryPaymentTimeOption.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Brd.DeliverySmsNotificationTemplates class" Url="html/T_Resto_Front_Api_Data_Brd_DeliverySmsNotificationTemplates.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Brd.DeliverySmsSendingEventType enumeration" Url="html/T_Resto_Front_Api_Data_Brd_DeliverySmsSendingEventType.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Brd.DeliveryStatus enumeration" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
@@ -6856,6 +6872,7 @@
   <HelpKINode Title="Section property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Section.htm" />
   <HelpKINode Title="SelfServiceDeliveryDuration property" Url="html/P_Resto_Front_Api_Data_Orders_IFrontDeliverySettings_SelfServiceDeliveryDuration.htm" />
   <HelpKINode Title="SelfServiceOnly enumeration member" Url="html/T_Resto_Front_Api_Data_Organization_DeliverySettingsServiceType.htm" />
+  <HelpKINode Title="SendDelivery method" Url="html/M_Resto_Front_Api_IOperationService_SendDelivery.htm" />
   <HelpKINode Title="SendDeliverySms method" Url="html/M_Resto_Front_Api_IInternalOperationService_SendDeliverySms.htm" />
   <HelpKINode Title="SendHrsCardTransactionToServer method" Url="html/M_Resto_Front_Api_IOperationService_SendHrsCardTransactionToServer.htm" />
   <HelpKINode Title="SendTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_SendTime.htm" />
@@ -6916,10 +6933,6 @@
   <HelpKINode Title="SetCustomData method" Url="html/M_Resto_Front_Api_IPaymentDataContext_SetCustomData.htm" />
   <HelpKINode Title="SetCustomData(Of T) method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_SetCustomData__1.htm" />
   <HelpKINode Title="SetCustomData&lt;T&gt; method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_SetCustomData__1.htm" />
-  <HelpKINode Title="SetDeliveryConfirmed method">
-    <HelpKINode Title="IEditSession.SetDeliveryConfirmed Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_SetDeliveryConfirmed.htm" />
-    <HelpKINode Title="OperationServiceExtensions.SetDeliveryConfirmed Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetDeliveryConfirmed.htm" />
-  </HelpKINode>
   <HelpKINode Title="SetDeliveryCustomerAuthorizedInIikoBiz method">
     <HelpKINode Title="IEditSession.SetDeliveryCustomerAuthorizedInIikoBiz Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_SetDeliveryCustomerAuthorizedInIikoBiz.htm" />
     <HelpKINode Title="OperationServiceExtensions.SetDeliveryCustomerAuthorizedInIikoBiz Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetDeliveryCustomerAuthorizedInIikoBiz.htm" />
@@ -6927,10 +6940,6 @@
   <HelpKINode Title="SetDeliveryDelivered method">
     <HelpKINode Title="IEditSession.SetDeliveryDelivered Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_SetDeliveryDelivered.htm" />
     <HelpKINode Title="OperationServiceExtensions.SetDeliveryDelivered Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetDeliveryDelivered.htm" />
-  </HelpKINode>
-  <HelpKINode Title="SetDeliveryUnconfirmed method">
-    <HelpKINode Title="IEditSession.SetDeliveryUnconfirmed Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_SetDeliveryUnconfirmed.htm" />
-    <HelpKINode Title="OperationServiceExtensions.SetDeliveryUnconfirmed Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetDeliveryUnconfirmed.htm" />
   </HelpKINode>
   <HelpKINode Title="SetDeliveryUndelivered method">
     <HelpKINode Title="IEditSession.SetDeliveryUndelivered Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_SetDeliveryUndelivered.htm" />
