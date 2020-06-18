@@ -2002,12 +2002,12 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
@@ -4616,11 +4616,16 @@
   </HelpKINode>
   <HelpKINode Title="IViewManager.ChangeProgressBarMessage method" Url="html/M_Resto_Front_Api_UI_IViewManager_ChangeProgressBarMessage.htm" />
   <HelpKINode Title="IViewManager.ShowChooserPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowChooserPopup.htm" />
+  <HelpKINode Title="IViewManager.ShowClosePopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowClosePopup.htm" />
   <HelpKINode Title="IViewManager.ShowErrorPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowErrorPopup.htm" />
   <HelpKINode Title="IViewManager.ShowExtendedInputDialog method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowExtendedInputDialog.htm" />
   <HelpKINode Title="IViewManager.ShowInputDialog method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowInputDialog.htm" />
   <HelpKINode Title="IViewManager.ShowKeyboard method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowKeyboard.htm" />
+  <HelpKINode Title="IViewManager.ShowOkCancelPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowOkCancelPopup.htm" />
   <HelpKINode Title="IViewManager.ShowOkPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowOkPopup.htm" />
+  <HelpKINode Title="IViewManager.ShowRetryCancelPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowRetryCancelPopup.htm" />
+  <HelpKINode Title="IViewManager.ShowRetryIgnoreCancelPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowRetryIgnoreCancelPopup.htm" />
+  <HelpKINode Title="IViewManager.ShowYesNoCancelPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowYesNoCancelPopup.htm" />
   <HelpKINode Title="IViewManager.ShowYesNoPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowYesNoPopup.htm" />
   <HelpKINode Title="Justification property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_MustUseReturnValueAttribute_Justification.htm" />
   <HelpKINode Title="Justify field">
@@ -6975,12 +6980,17 @@
   <HelpKINode Title="ShowChooserPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowChooserPopup.htm" />
   <HelpKINode Title="ShowChooserPopup(Of T) method" Url="html/M_Resto_Front_Api_Extensions_ViewManagerExtensions_ShowChooserPopup__1.htm" />
   <HelpKINode Title="ShowChooserPopup&lt;T&gt; method" Url="html/M_Resto_Front_Api_Extensions_ViewManagerExtensions_ShowChooserPopup__1.htm" />
+  <HelpKINode Title="ShowClosePopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowClosePopup.htm" />
   <HelpKINode Title="ShowErrorPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowErrorPopup.htm" />
   <HelpKINode Title="ShowExtendedInputDialog method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowExtendedInputDialog.htm" />
   <HelpKINode Title="ShowFractionalPart property" Url="html/P_Resto_Front_Api_Data_Organization_ICurrencySettings_ShowFractionalPart.htm" />
   <HelpKINode Title="ShowInputDialog method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowInputDialog.htm" />
   <HelpKINode Title="ShowKeyboard method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowKeyboard.htm" />
+  <HelpKINode Title="ShowOkCancelPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowOkCancelPopup.htm" />
   <HelpKINode Title="ShowOkPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowOkPopup.htm" />
+  <HelpKINode Title="ShowRetryCancelPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowRetryCancelPopup.htm" />
+  <HelpKINode Title="ShowRetryIgnoreCancelPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowRetryIgnoreCancelPopup.htm" />
+  <HelpKINode Title="ShowYesNoCancelPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowYesNoCancelPopup.htm" />
   <HelpKINode Title="ShowYesNoPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowYesNoPopup.htm" />
   <HelpKINode Title="Shutdown enumeration member" Url="html/T_Resto_Front_Api_Data_Device_State.htm" />
   <HelpKINode Title="Shutdown method" Url="html/M_Resto_Front_Api_PluginContext_Shutdown.htm" />
