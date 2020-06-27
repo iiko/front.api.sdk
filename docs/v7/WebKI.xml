@@ -461,11 +461,13 @@
     <HelpKINode Title="KitchenOrderDto.BaseOrderId Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderDto_BaseOrderId.htm" />
   </HelpKINode>
   <HelpKINode Title="BaseOrderItemId property">
+    <HelpKINode Title="IKitchenOrderCookingItem.BaseOrderItemId Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCookingItem_BaseOrderItemId.htm" />
     <HelpKINode Title="IKitchenOrderCookingItemDto.BaseOrderItemId Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCookingItemDto_BaseOrderItemId.htm" />
     <HelpKINode Title="KitchenOrderCompoundItemDto.BaseOrderItemId Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderCompoundItemDto_BaseOrderItemId.htm" />
     <HelpKINode Title="KitchenOrderModifierItemDto.BaseOrderItemId Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderModifierItemDto_BaseOrderItemId.htm" />
     <HelpKINode Title="KitchenOrderProductItemDto.BaseOrderItemId Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderProductItemDto_BaseOrderItemId.htm" />
   </HelpKINode>
+  <HelpKINode Title="BaseOrderModifierId property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderModifierItem_BaseOrderModifierId.htm" />
   <HelpKINode Title="BasePath property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_PathReferenceAttribute_BasePath.htm" />
   <HelpKINode Title="BaseSetting(Of T) class">
     <HelpKINode Title="BaseSetting(T) Class" Url="html/T_Resto_Front_Api_Data_Settings_BaseSetting_1.htm" />
@@ -2000,21 +2002,21 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -3287,6 +3289,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Kitchen_IKitchenOrderCookingItem.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Kitchen_IKitchenOrderCookingItem.htm" />
   </HelpKINode>
+  <HelpKINode Title="IKitchenOrderCookingItem.BaseOrderItemId property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCookingItem_BaseOrderItemId.htm" />
   <HelpKINode Title="IKitchenOrderCookingItem.Comment property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCookingItem_Comment.htm" />
   <HelpKINode Title="IKitchenOrderCookingItem.CookingTime property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCookingItem_CookingTime.htm" />
   <HelpKINode Title="IKitchenOrderCookingItem.Course property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCookingItem_Course.htm" />
@@ -3332,6 +3335,7 @@
   </HelpKINode>
   <HelpKINode Title="IKitchenOrderModifierItem.Amount property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderModifierItem_Amount.htm" />
   <HelpKINode Title="IKitchenOrderModifierItem.AmountIndependentOfParentAmount property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderModifierItem_AmountIndependentOfParentAmount.htm" />
+  <HelpKINode Title="IKitchenOrderModifierItem.BaseOrderModifierId property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderModifierItem_BaseOrderModifierId.htm" />
   <HelpKINode Title="IKitchenOrderModifierItem.CookingTime property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderModifierItem_CookingTime.htm" />
   <HelpKINode Title="IKitchenOrderModifierItem.Deleted property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderModifierItem_Deleted.htm" />
   <HelpKINode Title="IKitchenOrderModifierItem.EstimatedCookingBeginTime property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderModifierItem_EstimatedCookingBeginTime.htm" />
