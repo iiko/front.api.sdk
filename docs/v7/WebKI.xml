@@ -812,6 +812,7 @@
   </HelpKINode>
   <HelpKINode Title="CashierTaxpayerId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_CashRegisterTask_CashierTaxpayerId.htm" />
   <HelpKINode Title="CashPayment property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CashPayment.htm" />
+  <HelpKINode Title="CashPayments property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CashPayments.htm" />
   <HelpKINode Title="CashRegister enumeration member" Url="html/T_Resto_Front_Api_Data_Device_DeviceType.htm" />
   <HelpKINode Title="CashRegister property">
     <HelpKINode Title="IPastOrder.CashRegister Property " Url="html/P_Resto_Front_Api_Data_Orders_IPastOrder_CashRegister.htm" />
@@ -1302,19 +1303,19 @@
   <HelpKINode Title="ChequeAdditionalInfo.NeedReceipt property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_NeedReceipt.htm" />
   <HelpKINode Title="ChequeAdditionalInfo.Phone property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_Phone.htm" />
   <HelpKINode Title="ChequeAdditionalInfo.SettlementPlace property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_SettlementPlace.htm" />
-  <HelpKINode Title="ChequeCardPayment class">
-    <HelpKINode Title="ChequeCardPayment Class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment.htm" />
+  <HelpKINode Title="ChequePayment class">
+    <HelpKINode Title="ChequePayment Class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequePayment.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequePayment__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Tasks_ChequePayment.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Tasks_ChequePayment.htm" />
   </HelpKINode>
-  <HelpKINode Title="ChequeCardPayment.ChequeCardPayment constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment__ctor.htm" />
-  <HelpKINode Title="ChequeCardPayment.Comment property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment_Comment.htm" />
-  <HelpKINode Title="ChequeCardPayment.IsDefaultNonCash property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment_IsDefaultNonCash.htm" />
-  <HelpKINode Title="ChequeCardPayment.Name property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment_Name.htm" />
-  <HelpKINode Title="ChequeCardPayment.PaymentRegisterId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment_PaymentRegisterId.htm" />
-  <HelpKINode Title="ChequeCardPayment.Sum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment_Sum.htm" />
-  <HelpKINode Title="ChequeCardPayment.ToString method" Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment_ToString.htm" />
+  <HelpKINode Title="ChequePayment.ChequePayment constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequePayment__ctor.htm" />
+  <HelpKINode Title="ChequePayment.Comment property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_Comment.htm" />
+  <HelpKINode Title="ChequePayment.IsDefaultNonCash property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_IsDefaultNonCash.htm" />
+  <HelpKINode Title="ChequePayment.Name property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_Name.htm" />
+  <HelpKINode Title="ChequePayment.PaymentRegisterId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_PaymentRegisterId.htm" />
+  <HelpKINode Title="ChequePayment.Sum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_Sum.htm" />
+  <HelpKINode Title="ChequePayment.ToString method" Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequePayment_ToString.htm" />
   <HelpKINode Title="ChequeSale class">
     <HelpKINode Title="ChequeSale Class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeSale.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequeSale__ctor.htm" />
@@ -1355,6 +1356,7 @@
   <HelpKINode Title="ChequeTask.BillNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_BillNumber.htm" />
   <HelpKINode Title="ChequeTask.CardPayments property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CardPayments.htm" />
   <HelpKINode Title="ChequeTask.CashPayment property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CashPayment.htm" />
+  <HelpKINode Title="ChequeTask.CashPayments property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CashPayments.htm" />
   <HelpKINode Title="ChequeTask.ChequeTask constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequeTask__ctor.htm" />
   <HelpKINode Title="ChequeTask.ConsiderationSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_ConsiderationSum.htm" />
   <HelpKINode Title="ChequeTask.CreditSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CreditSum.htm" />
@@ -1451,7 +1453,7 @@
   <HelpKINode Title="CommandExecute.ToString method" Url="html/M_Resto_Front_Api_Data_Device_Tasks_CommandExecute_ToString.htm" />
   <HelpKINode Title="Comment enumeration member" Url="html/T_Resto_Front_Api_Data_Search_ClientFields.htm" />
   <HelpKINode Title="Comment property">
-    <HelpKINode Title="ChequeCardPayment.Comment Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment_Comment.htm" />
+    <HelpKINode Title="ChequePayment.Comment Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_Comment.htm" />
     <HelpKINode Title="ChequeSale.Comment Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Comment.htm" />
     <HelpKINode Title="DeviceInfo.Comment Property " Url="html/P_Resto_Front_Api_Data_Device_Results_DeviceInfo_Comment.htm" />
     <HelpKINode Title="EmailDto.Comment Property " Url="html/P_Resto_Front_Api_Data_Brd_EmailDto_Comment.htm" />
@@ -2021,8 +2023,8 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
@@ -4414,7 +4416,7 @@
   <HelpKINode Title="IsCustomerAuthorizedInIikoBiz property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_IsCustomerAuthorizedInIikoBiz.htm" />
   <HelpKINode Title="IsDefault property" Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceCustomEnumSettingValue_IsDefault.htm" />
   <HelpKINode Title="IsDefaultForServiceType property" Url="html/P_Resto_Front_Api_Data_Organization_IOrderType_IsDefaultForServiceType.htm" />
-  <HelpKINode Title="IsDefaultNonCash property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment_IsDefaultNonCash.htm" />
+  <HelpKINode Title="IsDefaultNonCash property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_IsDefaultNonCash.htm" />
   <HelpKINode Title="IsDeliveryActive method" Url="html/M_Resto_Front_Api_IOperationService_IsDeliveryActive.htm" />
   <HelpKINode Title="IsDeliveryConfirmationActive method" Url="html/M_Resto_Front_Api_IOperationService_IsDeliveryConfirmationActive.htm" />
   <HelpKINode Title="IsDrawerOpened method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_IsDrawerOpened.htm" />
@@ -4950,7 +4952,7 @@
     <HelpKINode Title="StreetFields Enumeration" Url="html/T_Resto_Front_Api_Data_Search_StreetFields.htm" />
   </HelpKINode>
   <HelpKINode Title="Name property">
-    <HelpKINode Title="ChequeCardPayment.Name Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment_Name.htm" />
+    <HelpKINode Title="ChequePayment.Name Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_Name.htm" />
     <HelpKINode Title="ChequeSale.Name Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Name.htm" />
     <HelpKINode Title="ChequeTaskDiscountIncreaseItem.Name Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTaskDiscountIncreaseItem_Name.htm" />
     <HelpKINode Title="CommandExecute.Name Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_CommandExecute_Name.htm" />
@@ -5563,7 +5565,7 @@
   <HelpKINode Title="PaymentDataContextExtensions.SetCustomData&lt;T&gt; method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_SetCustomData__1.htm" />
   <HelpKINode Title="PaymentDataContextExtensions.SetRollbackData(Of T) method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_SetRollbackData__1.htm" />
   <HelpKINode Title="PaymentDataContextExtensions.SetRollbackData&lt;T&gt; method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_SetRollbackData__1.htm" />
-  <HelpKINode Title="PaymentRegisterId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment_PaymentRegisterId.htm" />
+  <HelpKINode Title="PaymentRegisterId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_PaymentRegisterId.htm" />
   <HelpKINode Title="Payments property">
     <HelpKINode Title="IOrder.Payments Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Payments.htm" />
     <HelpKINode Title="IPastOrder.Payments Property " Url="html/P_Resto_Front_Api_Data_Orders_IPastOrder_Payments.htm" />
@@ -6547,7 +6549,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.BillTask class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_BillTask.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.CashRegisterStatusField enumeration" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.CashRegisterTask class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterTask.htm" />
-  <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.ChequeCardPayment class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.ChequePayment class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequePayment.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.ChequeSale class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeSale.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.ChequeTask class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeTask.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.ChequeTaskDiscountIncreaseItem class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeTaskDiscountIncreaseItem.htm" />
@@ -7182,7 +7184,7 @@
   </HelpKINode>
   <HelpKINode Title="Success property" Url="html/P_Resto_Front_Api_Data_Device_Results_PostResult_Success.htm" />
   <HelpKINode Title="Sum property">
-    <HelpKINode Title="ChequeCardPayment.Sum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment_Sum.htm" />
+    <HelpKINode Title="ChequePayment.Sum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_Sum.htm" />
     <HelpKINode Title="ChequeSale.Sum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Sum.htm" />
     <HelpKINode Title="ChequeTaskDiscountIncreaseItem.Sum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTaskDiscountIncreaseItem_Sum.htm" />
     <HelpKINode Title="IPastOrderPayment.Sum Property " Url="html/P_Resto_Front_Api_Data_Orders_IPastOrderPayment_Sum.htm" />
@@ -7330,7 +7332,7 @@
     <HelpKINode Title="CashRegisterStatus.ToString Method " Url="html/M_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_ToString.htm" />
     <HelpKINode Title="CashRegisterTask.ToString Method " Url="html/M_Resto_Front_Api_Data_Device_Tasks_CashRegisterTask_ToString.htm" />
     <HelpKINode Title="CashRegisterVatData.ToString Method " Url="html/M_Resto_Front_Api_Data_Device_Results_CashRegisterVatData_ToString.htm" />
-    <HelpKINode Title="ChequeCardPayment.ToString Method " Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequeCardPayment_ToString.htm" />
+    <HelpKINode Title="ChequePayment.ToString Method " Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequePayment_ToString.htm" />
     <HelpKINode Title="ChequeSale.ToString Method " Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequeSale_ToString.htm" />
     <HelpKINode Title="ChequeTask.ToString Method " Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequeTask_ToString.htm" />
     <HelpKINode Title="ChequeTaskDiscountIncreaseItem.ToString Method " Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequeTaskDiscountIncreaseItem_ToString.htm" />
