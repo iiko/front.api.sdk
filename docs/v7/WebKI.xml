@@ -2023,21 +2023,21 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -3516,6 +3516,7 @@
   <HelpKINode Title="INotificationService.SubscribeOnCafeSessionOpening method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnCafeSessionOpening.htm" />
   <HelpKINode Title="INotificationService.SubscribeOnCashChequePrinting method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnCashChequePrinting.htm" />
   <HelpKINode Title="INotificationService.SubscribeOnNavigatingToPaymentScreen method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnNavigatingToPaymentScreen.htm" />
+  <HelpKINode Title="INotificationService.SubscribeOnOrderEditBarcodeScanned method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderEditBarcodeScanned.htm" />
   <HelpKINode Title="INotificationService.SubscribeOnOrderSplitByCashRegisters method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderSplitByCashRegisters.htm" />
   <HelpKINode Title="INotificationService.SubscribeOnOrderStorning method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderStorning.htm" />
   <HelpKINode Title="INotificationService.SubscribeOnServiceChequePrinted method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnServiceChequePrinted.htm" />
@@ -3563,6 +3564,8 @@
     <HelpKINode Title="RemotableAction(T1, T2, T3, T4).Invoke Method " Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableAction_4_Invoke.htm" />
     <HelpKINode Title="RemotableAction(T1, T2, T3, T4, T5).Invoke Method " Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableAction_5_Invoke.htm" />
     <HelpKINode Title="RemotableFunc(T, TResult).Invoke Method " Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_2_Invoke.htm" />
+    <HelpKINode Title="RemotableFunc(T1, T2, T3, T4, TResult).Invoke Method " Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_5_Invoke.htm" />
+    <HelpKINode Title="RemotableFunc(T1, T2, T3, TResult).Invoke Method " Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_4_Invoke.htm" />
     <HelpKINode Title="RemotableFunc(T1, T2, TResult).Invoke Method " Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_3_Invoke.htm" />
     <HelpKINode Title="RemotableFunc(TResult).Invoke Method " Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_1_Invoke.htm" />
   </HelpKINode>
@@ -5181,6 +5184,7 @@
   <HelpKINode Title="NotificationServiceExtensions.SubscribeOnCafeSessionOpening method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnCafeSessionOpening.htm" />
   <HelpKINode Title="NotificationServiceExtensions.SubscribeOnCashChequePrinting method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnCashChequePrinting.htm" />
   <HelpKINode Title="NotificationServiceExtensions.SubscribeOnNavigatingToPaymentScreen method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnNavigatingToPaymentScreen.htm" />
+  <HelpKINode Title="NotificationServiceExtensions.SubscribeOnOrderEditBarcodeScanned method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnOrderEditBarcodeScanned.htm" />
   <HelpKINode Title="NotificationServiceExtensions.SubscribeOnOrderSplitByCashRegisters method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnOrderSplitByCashRegisters.htm" />
   <HelpKINode Title="NotificationServiceExtensions.SubscribeOnOrderStorning method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnOrderStorning.htm" />
   <HelpKINode Title="NotificationServiceExtensions.SubscribeOnServiceChequePrinted method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnServiceChequePrinted.htm" />
@@ -6221,6 +6225,20 @@
   </HelpKINode>
   <HelpKINode Title="RemotableFunc(Of T, TResult).Invoke method" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_2_Invoke.htm" />
   <HelpKINode Title="RemotableFunc(Of T, TResult).RemotableFunc constructor" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_2__ctor.htm" />
+  <HelpKINode Title="RemotableFunc(Of T1, T2, T3, T4, TResult) class">
+    <HelpKINode Title="RemotableFunc(T1, T2, T3, T4, TResult) Class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_5.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_5__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_RemotingHelpers_RemotableFunc_5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemotableFunc(Of T1, T2, T3, T4, TResult).Invoke method" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_5_Invoke.htm" />
+  <HelpKINode Title="RemotableFunc(Of T1, T2, T3, T4, TResult).RemotableFunc constructor" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_5__ctor.htm" />
+  <HelpKINode Title="RemotableFunc(Of T1, T2, T3, TResult) class">
+    <HelpKINode Title="RemotableFunc(T1, T2, T3, TResult) Class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_4.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_4__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_RemotingHelpers_RemotableFunc_4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemotableFunc(Of T1, T2, T3, TResult).Invoke method" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_4_Invoke.htm" />
+  <HelpKINode Title="RemotableFunc(Of T1, T2, T3, TResult).RemotableFunc constructor" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_4__ctor.htm" />
   <HelpKINode Title="RemotableFunc(Of T1, T2, TResult) class">
     <HelpKINode Title="RemotableFunc(T1, T2, TResult) Class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_3.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_3__ctor.htm" />
@@ -6242,6 +6260,20 @@
   </HelpKINode>
   <HelpKINode Title="RemotableFunc&lt;T, TResult&gt;.Invoke method" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_2_Invoke.htm" />
   <HelpKINode Title="RemotableFunc&lt;T, TResult&gt;.RemotableFunc constructor" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_2__ctor.htm" />
+  <HelpKINode Title="RemotableFunc&lt;T1, T2, T3, T4, TResult&gt; class">
+    <HelpKINode Title="RemotableFunc(T1, T2, T3, T4, TResult) Class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_5.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_5__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_RemotingHelpers_RemotableFunc_5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemotableFunc&lt;T1, T2, T3, T4, TResult&gt;.Invoke method" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_5_Invoke.htm" />
+  <HelpKINode Title="RemotableFunc&lt;T1, T2, T3, T4, TResult&gt;.RemotableFunc constructor" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_5__ctor.htm" />
+  <HelpKINode Title="RemotableFunc&lt;T1, T2, T3, TResult&gt; class">
+    <HelpKINode Title="RemotableFunc(T1, T2, T3, TResult) Class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_4.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_4__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_RemotingHelpers_RemotableFunc_4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemotableFunc&lt;T1, T2, T3, TResult&gt;.Invoke method" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_4_Invoke.htm" />
+  <HelpKINode Title="RemotableFunc&lt;T1, T2, T3, TResult&gt;.RemotableFunc constructor" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_4__ctor.htm" />
   <HelpKINode Title="RemotableFunc&lt;T1, T2, TResult&gt; class">
     <HelpKINode Title="RemotableFunc(T1, T2, TResult) Class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_3.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_RemotingHelpers_RemotableFunc_3__ctor.htm" />
@@ -6857,9 +6889,13 @@
   <HelpKINode Title="Resto.Front.Api.RemotingHelpers.RemotableAction&lt;T1, T2&gt; class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableAction_2.htm" />
   <HelpKINode Title="Resto.Front.Api.RemotingHelpers.RemotableAction&lt;T&gt; class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableAction_1.htm" />
   <HelpKINode Title="Resto.Front.Api.RemotingHelpers.RemotableFunc(Of T, TResult) class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_2.htm" />
+  <HelpKINode Title="Resto.Front.Api.RemotingHelpers.RemotableFunc(Of T1, T2, T3, T4, TResult) class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_5.htm" />
+  <HelpKINode Title="Resto.Front.Api.RemotingHelpers.RemotableFunc(Of T1, T2, T3, TResult) class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_4.htm" />
   <HelpKINode Title="Resto.Front.Api.RemotingHelpers.RemotableFunc(Of T1, T2, TResult) class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_3.htm" />
   <HelpKINode Title="Resto.Front.Api.RemotingHelpers.RemotableFunc(Of TResult) class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_1.htm" />
   <HelpKINode Title="Resto.Front.Api.RemotingHelpers.RemotableFunc&lt;T, TResult&gt; class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_2.htm" />
+  <HelpKINode Title="Resto.Front.Api.RemotingHelpers.RemotableFunc&lt;T1, T2, T3, T4, TResult&gt; class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_5.htm" />
+  <HelpKINode Title="Resto.Front.Api.RemotingHelpers.RemotableFunc&lt;T1, T2, T3, TResult&gt; class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_4.htm" />
   <HelpKINode Title="Resto.Front.Api.RemotingHelpers.RemotableFunc&lt;T1, T2, TResult&gt; class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_3.htm" />
   <HelpKINode Title="Resto.Front.Api.RemotingHelpers.RemotableFunc&lt;TResult&gt; class" Url="html/T_Resto_Front_Api_RemotingHelpers_RemotableFunc_1.htm" />
   <HelpKINode Title="Resto.Front.Api.UI namespace" Url="html/N_Resto_Front_Api_UI.htm" />
@@ -7169,6 +7205,10 @@
   <HelpKINode Title="SubscribeOnNavigatingToPaymentScreen method">
     <HelpKINode Title="INotificationService.SubscribeOnNavigatingToPaymentScreen Method " Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnNavigatingToPaymentScreen.htm" />
     <HelpKINode Title="NotificationServiceExtensions.SubscribeOnNavigatingToPaymentScreen Method " Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnNavigatingToPaymentScreen.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SubscribeOnOrderEditBarcodeScanned method">
+    <HelpKINode Title="INotificationService.SubscribeOnOrderEditBarcodeScanned Method " Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderEditBarcodeScanned.htm" />
+    <HelpKINode Title="NotificationServiceExtensions.SubscribeOnOrderEditBarcodeScanned Method " Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnOrderEditBarcodeScanned.htm" />
   </HelpKINode>
   <HelpKINode Title="SubscribeOnOrderSplitByCashRegisters method">
     <HelpKINode Title="INotificationService.SubscribeOnOrderSplitByCashRegisters Method " Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderSplitByCashRegisters.htm" />
