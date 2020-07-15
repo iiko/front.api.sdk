@@ -751,8 +751,8 @@
     <HelpKINode Title="PaymentTypeKind Enumeration" Url="html/T_Resto_Front_Api_Data_Payments_PaymentTypeKind.htm" />
   </HelpKINode>
   <HelpKINode Title="Card property" Url="html/P_Resto_Front_Api_Data_Security_IUser_Card.htm" />
-  <HelpKINode Title="CardExternalId property" Url="html/P_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData_CardExternalId.htm" />
-  <HelpKINode Title="CardExternalIdType property" Url="html/P_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData_CardExternalIdType.htm" />
+  <HelpKINode Title="CardExternalId property" Url="html/P_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_CardExternalId.htm" />
+  <HelpKINode Title="CardExternalIdType property" Url="html/P_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_CardExternalIdType.htm" />
   <HelpKINode Title="CardInputDialogResult class">
     <HelpKINode Title="CardInputDialogResult Class" Url="html/T_Resto_Front_Api_Data_View_CardInputDialogResult.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_View_CardInputDialogResult__ctor.htm" />
@@ -774,7 +774,7 @@
     <HelpKINode Title="IClient.CardNumber Property " Url="html/P_Resto_Front_Api_Data_Brd_IClient_CardNumber.htm" />
     <HelpKINode Title="IDiscountCard.CardNumber Property " Url="html/P_Resto_Front_Api_Data_Orders_IDiscountCard_CardNumber.htm" />
   </HelpKINode>
-  <HelpKINode Title="CardNumberOrBarcode property" Url="html/P_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData_CardNumberOrBarcode.htm" />
+  <HelpKINode Title="CardNumberOrBarcode property" Url="html/P_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_CardNumberOrBarcode.htm" />
   <HelpKINode Title="CardPaymentItemAdditionalData class">
     <HelpKINode Title="CardPaymentItemAdditionalData Class" Url="html/T_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData__ctor.htm" />
@@ -1997,9 +1997,10 @@
     <HelpKINode Title="BillTask.DiscountSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_DiscountSum.htm" />
     <HelpKINode Title="ChequeSale.DiscountSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_DiscountSum.htm" />
     <HelpKINode Title="IAppliedDiscountItem.DiscountSum Property " Url="html/P_Resto_Front_Api_Data_Orders_IAppliedDiscountItem_DiscountSum.htm" />
-    <HelpKINode Title="IikoNetPaymentItemAdditionalData.DiscountSum Property " Url="html/P_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData_DiscountSum.htm" />
+    <HelpKINode Title="PlaziusPaymentItemAdditionalData.DiscountSum Property " Url="html/P_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_DiscountSum.htm" />
   </HelpKINode>
   <HelpKINode Title="DiscountSumByOrderItemId property" Url="html/P_Resto_Front_Api_Data_Orders_IAppliedDiscountItem_DiscountSumByOrderItemId.htm" />
+  <HelpKINode Title="DiscountSums property" Url="html/P_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_DiscountSums.htm" />
   <HelpKINode Title="DiscountType property">
     <HelpKINode Title="IDiscountCard.DiscountType Property " Url="html/P_Resto_Front_Api_Data_Orders_IDiscountCard_DiscountType.htm" />
     <HelpKINode Title="IDiscountItem.DiscountType Property " Url="html/P_Resto_Front_Api_Data_Orders_IDiscountItem_DiscountType.htm" />
@@ -2024,14 +2025,14 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
@@ -2181,8 +2182,8 @@
     <HelpKINode Title="CreditPaymentItemAdditionalData.Equals Method " Url="html/Overload_Resto_Front_Api_Data_Payments_CreditPaymentItemAdditionalData_Equals.htm" />
     <HelpKINode Title="ExternalPaymentItemAdditionalData.Equals Method " Url="html/Overload_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData_Equals.htm" />
     <HelpKINode Title="IikoCard51PaymentItemAdditionalData.Equals Method " Url="html/Overload_Resto_Front_Api_Data_Payments_IikoCard51PaymentItemAdditionalData_Equals.htm" />
-    <HelpKINode Title="IikoNetPaymentItemAdditionalData.Equals Method " Url="html/Overload_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData_Equals.htm" />
     <HelpKINode Title="PlastekPaymentItemAdditionalData.Equals Method " Url="html/Overload_Resto_Front_Api_Data_Payments_PlastekPaymentItemAdditionalData_Equals.htm" />
+    <HelpKINode Title="PlaziusPaymentItemAdditionalData.Equals Method " Url="html/Overload_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_Equals.htm" />
     <HelpKINode Title="VoidValue.Equals Method " Url="html/Overload_Resto_Front_Api_VoidValue_Equals.htm" />
     <HelpKINode Title="VoucherPaymentItemAdditionalData.Equals Method " Url="html/Overload_Resto_Front_Api_Data_Payments_VoucherPaymentItemAdditionalData_Equals.htm" />
     <HelpKINode Title="WriteoffPaymentItemAdditionalData.Equals Method " Url="html/Overload_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData_Equals.htm" />
@@ -2456,8 +2457,8 @@
     <HelpKINode Title="CreditPaymentItemAdditionalData.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Payments_CreditPaymentItemAdditionalData_GetHashCode.htm" />
     <HelpKINode Title="ExternalPaymentItemAdditionalData.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData_GetHashCode.htm" />
     <HelpKINode Title="IikoCard51PaymentItemAdditionalData.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Payments_IikoCard51PaymentItemAdditionalData_GetHashCode.htm" />
-    <HelpKINode Title="IikoNetPaymentItemAdditionalData.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData_GetHashCode.htm" />
     <HelpKINode Title="PlastekPaymentItemAdditionalData.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Payments_PlastekPaymentItemAdditionalData_GetHashCode.htm" />
+    <HelpKINode Title="PlaziusPaymentItemAdditionalData.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_GetHashCode.htm" />
     <HelpKINode Title="VoidValue.GetHashCode Method " Url="html/M_Resto_Front_Api_VoidValue_GetHashCode.htm" />
     <HelpKINode Title="VoucherPaymentItemAdditionalData.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Payments_VoucherPaymentItemAdditionalData_GetHashCode.htm" />
     <HelpKINode Title="WriteoffPaymentItemAdditionalData.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData_GetHashCode.htm" />
@@ -3260,19 +3261,6 @@
   <HelpKINode Title="IikoCard51PaymentItemAdditionalData.SearchScope property" Url="html/P_Resto_Front_Api_Data_Payments_IikoCard51PaymentItemAdditionalData_SearchScope.htm" />
   <HelpKINode Title="IikoCard51SearchScope enumeration" Url="html/T_Resto_Front_Api_Data_Payments_IikoCard51SearchScope.htm" />
   <HelpKINode Title="IikoNetCardExternalIdType enumeration" Url="html/T_Resto_Front_Api_Data_Payments_IikoNetCardExternalIdType.htm" />
-  <HelpKINode Title="IikoNetPaymentItemAdditionalData class">
-    <HelpKINode Title="IikoNetPaymentItemAdditionalData Class" Url="html/T_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IikoNetPaymentItemAdditionalData.CardExternalId property" Url="html/P_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData_CardExternalId.htm" />
-  <HelpKINode Title="IikoNetPaymentItemAdditionalData.CardExternalIdType property" Url="html/P_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData_CardExternalIdType.htm" />
-  <HelpKINode Title="IikoNetPaymentItemAdditionalData.CardNumberOrBarcode property" Url="html/P_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData_CardNumberOrBarcode.htm" />
-  <HelpKINode Title="IikoNetPaymentItemAdditionalData.DiscountSum property" Url="html/P_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData_DiscountSum.htm" />
-  <HelpKINode Title="IikoNetPaymentItemAdditionalData.Equals method" Url="html/Overload_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData_Equals.htm" />
-  <HelpKINode Title="IikoNetPaymentItemAdditionalData.GetHashCode method" Url="html/M_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData_GetHashCode.htm" />
-  <HelpKINode Title="IikoNetPaymentItemAdditionalData.IikoNetPaymentItemAdditionalData constructor" Url="html/M_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData__ctor.htm" />
   <HelpKINode Title="IInputDialogResult interface" Url="html/T_Resto_Front_Api_Data_View_IInputDialogResult.htm" />
   <HelpKINode Title="IInternalOperationService interface">
     <HelpKINode Title="IInternalOperationService Interface" Url="html/T_Resto_Front_Api_IInternalOperationService.htm" />
@@ -3519,8 +3507,8 @@
   <HelpKINode Title="INotificationService.SubscribeOnCashChequePrinting method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnCashChequePrinting.htm" />
   <HelpKINode Title="INotificationService.SubscribeOnNavigatingToPaymentScreen method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnNavigatingToPaymentScreen.htm" />
   <HelpKINode Title="INotificationService.SubscribeOnOrderEditBarcodeScanned method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderEditBarcodeScanned.htm" />
-  <HelpKINode Title="INotificationService.SubscribeOnOrderSplitByCashRegisters method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderSplitByCashRegisters.htm" />
-  <HelpKINode Title="INotificationService.SubscribeOnOrderStorning method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderStorning.htm" />
+  <HelpKINode Title="INotificationService.SubscribeOnOrderSplittedByCashRegisters method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderSplittedByCashRegisters.htm" />
+  <HelpKINode Title="INotificationService.SubscribeOnOrderStorned method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderStorned.htm" />
   <HelpKINode Title="INotificationService.SubscribeOnServiceChequePrinted method" Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnServiceChequePrinted.htm" />
   <HelpKINode Title="INotificationService.TableChanged property" Url="html/P_Resto_Front_Api_INotificationService_TableChanged.htm" />
   <HelpKINode Title="INotificationService.TaxCategoryChanged property" Url="html/P_Resto_Front_Api_INotificationService_TaxCategoryChanged.htm" />
@@ -3849,6 +3837,7 @@
   <HelpKINode Title="IOrder.ProcessedPaymentsSum property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_ProcessedPaymentsSum.htm" />
   <HelpKINode Title="IOrder.ResultSum property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_ResultSum.htm" />
   <HelpKINode Title="IOrder.Status property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Status.htm" />
+  <HelpKINode Title="IOrder.StornedOrderId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_StornedOrderId.htm" />
   <HelpKINode Title="IOrder.Tables property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Tables.htm" />
   <HelpKINode Title="IOrder.TabName property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_TabName.htm" />
   <HelpKINode Title="IOrder.Waiter property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Waiter.htm" />
@@ -5187,8 +5176,8 @@
   <HelpKINode Title="NotificationServiceExtensions.SubscribeOnCashChequePrinting method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnCashChequePrinting.htm" />
   <HelpKINode Title="NotificationServiceExtensions.SubscribeOnNavigatingToPaymentScreen method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnNavigatingToPaymentScreen.htm" />
   <HelpKINode Title="NotificationServiceExtensions.SubscribeOnOrderEditBarcodeScanned method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnOrderEditBarcodeScanned.htm" />
-  <HelpKINode Title="NotificationServiceExtensions.SubscribeOnOrderSplitByCashRegisters method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnOrderSplitByCashRegisters.htm" />
-  <HelpKINode Title="NotificationServiceExtensions.SubscribeOnOrderStorning method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnOrderStorning.htm" />
+  <HelpKINode Title="NotificationServiceExtensions.SubscribeOnOrderSplittedByCashRegisters method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnOrderSplittedByCashRegisters.htm" />
+  <HelpKINode Title="NotificationServiceExtensions.SubscribeOnOrderStorned method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnOrderStorned.htm" />
   <HelpKINode Title="NotificationServiceExtensions.SubscribeOnServiceChequePrinted method" Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnServiceChequePrinted.htm" />
   <HelpKINode Title="NotifyPropertyChangedInvocatorAttribute class">
     <HelpKINode Title="NotifyPropertyChangedInvocatorAttribute Class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_NotifyPropertyChangedInvocatorAttribute.htm" />
@@ -5666,6 +5655,20 @@
   <HelpKINode Title="PlastekPaymentItemAdditionalData.GetHashCode method" Url="html/M_Resto_Front_Api_Data_Payments_PlastekPaymentItemAdditionalData_GetHashCode.htm" />
   <HelpKINode Title="PlastekPaymentItemAdditionalData.PlastekCardNumber property" Url="html/P_Resto_Front_Api_Data_Payments_PlastekPaymentItemAdditionalData_PlastekCardNumber.htm" />
   <HelpKINode Title="PlastekPaymentItemAdditionalData.PlastekPaymentItemAdditionalData constructor" Url="html/M_Resto_Front_Api_Data_Payments_PlastekPaymentItemAdditionalData__ctor.htm" />
+  <HelpKINode Title="PlaziusPaymentItemAdditionalData class">
+    <HelpKINode Title="PlaziusPaymentItemAdditionalData Class" Url="html/T_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PlaziusPaymentItemAdditionalData.CardExternalId property" Url="html/P_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_CardExternalId.htm" />
+  <HelpKINode Title="PlaziusPaymentItemAdditionalData.CardExternalIdType property" Url="html/P_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_CardExternalIdType.htm" />
+  <HelpKINode Title="PlaziusPaymentItemAdditionalData.CardNumberOrBarcode property" Url="html/P_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_CardNumberOrBarcode.htm" />
+  <HelpKINode Title="PlaziusPaymentItemAdditionalData.DiscountSum property" Url="html/P_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_DiscountSum.htm" />
+  <HelpKINode Title="PlaziusPaymentItemAdditionalData.DiscountSums property" Url="html/P_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_DiscountSums.htm" />
+  <HelpKINode Title="PlaziusPaymentItemAdditionalData.Equals method" Url="html/Overload_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_Equals.htm" />
+  <HelpKINode Title="PlaziusPaymentItemAdditionalData.GetHashCode method" Url="html/M_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_GetHashCode.htm" />
+  <HelpKINode Title="PlaziusPaymentItemAdditionalData.PlaziusPaymentItemAdditionalData constructor" Url="html/M_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData__ctor.htm" />
   <HelpKINode Title="PluginContext class">
     <HelpKINode Title="PluginContext Class" Url="html/T_Resto_Front_Api_PluginContext.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_PluginContext.htm" />
@@ -6694,13 +6697,13 @@
   <HelpKINode Title="Resto.Front.Api.Data.Payments.IikoCard51PaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_IikoCard51PaymentItemAdditionalData.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.IikoCard51SearchScope enumeration" Url="html/T_Resto_Front_Api_Data_Payments_IikoCard51SearchScope.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.IikoNetCardExternalIdType enumeration" Url="html/T_Resto_Front_Api_Data_Payments_IikoNetCardExternalIdType.htm" />
-  <HelpKINode Title="Resto.Front.Api.Data.Payments.IikoNetPaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_IikoNetPaymentItemAdditionalData.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.IPaymentItem interface" Url="html/T_Resto_Front_Api_Data_Payments_IPaymentItem.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.IPaymentItemAdditionalData interface" Url="html/T_Resto_Front_Api_Data_Payments_IPaymentItemAdditionalData.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.IPaymentType interface" Url="html/T_Resto_Front_Api_Data_Payments_IPaymentType.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.OrganizationDetailsInfo class" Url="html/T_Resto_Front_Api_Data_Payments_OrganizationDetailsInfo.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.PaymentTypeKind enumeration" Url="html/T_Resto_Front_Api_Data_Payments_PaymentTypeKind.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.PlastekPaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_PlastekPaymentItemAdditionalData.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.PlaziusPaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.VoucherPaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_VoucherPaymentItemAdditionalData.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.WriteoffPaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.PreliminaryOrders namespace" Url="html/N_Resto_Front_Api_Data_PreliminaryOrders.htm" />
@@ -7158,6 +7161,7 @@
   <HelpKINode Title="Stopping enumeration member" Url="html/T_Resto_Front_Api_Data_Device_State.htm" />
   <HelpKINode Title="StopService method" Url="html/M_Resto_Front_Api_IOperationService_StopService.htm" />
   <HelpKINode Title="Storned enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_PaymentStatus.htm" />
+  <HelpKINode Title="StornedOrderId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_StornedOrderId.htm" />
   <HelpKINode Title="Street property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Street.htm" />
   <HelpKINode Title="StreetChanged property" Url="html/P_Resto_Front_Api_INotificationService_StreetChanged.htm" />
   <HelpKINode Title="StreetFields enumeration" Url="html/T_Resto_Front_Api_Data_Search_StreetFields.htm" />
@@ -7212,13 +7216,13 @@
     <HelpKINode Title="INotificationService.SubscribeOnOrderEditBarcodeScanned Method " Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderEditBarcodeScanned.htm" />
     <HelpKINode Title="NotificationServiceExtensions.SubscribeOnOrderEditBarcodeScanned Method " Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnOrderEditBarcodeScanned.htm" />
   </HelpKINode>
-  <HelpKINode Title="SubscribeOnOrderSplitByCashRegisters method">
-    <HelpKINode Title="INotificationService.SubscribeOnOrderSplitByCashRegisters Method " Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderSplitByCashRegisters.htm" />
-    <HelpKINode Title="NotificationServiceExtensions.SubscribeOnOrderSplitByCashRegisters Method " Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnOrderSplitByCashRegisters.htm" />
+  <HelpKINode Title="SubscribeOnOrderSplittedByCashRegisters method">
+    <HelpKINode Title="INotificationService.SubscribeOnOrderSplittedByCashRegisters Method " Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderSplittedByCashRegisters.htm" />
+    <HelpKINode Title="NotificationServiceExtensions.SubscribeOnOrderSplittedByCashRegisters Method " Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnOrderSplittedByCashRegisters.htm" />
   </HelpKINode>
-  <HelpKINode Title="SubscribeOnOrderStorning method">
-    <HelpKINode Title="INotificationService.SubscribeOnOrderStorning Method " Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderStorning.htm" />
-    <HelpKINode Title="NotificationServiceExtensions.SubscribeOnOrderStorning Method " Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnOrderStorning.htm" />
+  <HelpKINode Title="SubscribeOnOrderStorned method">
+    <HelpKINode Title="INotificationService.SubscribeOnOrderStorned Method " Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnOrderStorned.htm" />
+    <HelpKINode Title="NotificationServiceExtensions.SubscribeOnOrderStorned Method " Url="html/M_Resto_Front_Api_Extensions_NotificationServiceExtensions_SubscribeOnOrderStorned.htm" />
   </HelpKINode>
   <HelpKINode Title="SubscribeOnServiceChequePrinted method">
     <HelpKINode Title="INotificationService.SubscribeOnServiceChequePrinted Method " Url="html/M_Resto_Front_Api_INotificationService_SubscribeOnServiceChequePrinted.htm" />
