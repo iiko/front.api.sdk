@@ -1730,6 +1730,7 @@
   <HelpKINode Title="DefaultPriceCategory property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_DefaultPriceCategory.htm" />
   <HelpKINode Title="DefaultSelfServiceDeliveryDuration property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_DefaultSelfServiceDeliveryDuration.htm" />
   <HelpKINode Title="DefaultSize property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductScale_DefaultSize.htm" />
+  <HelpKINode Title="DefaultTable property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_DefaultTable.htm" />
   <HelpKINode Title="Deleted enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderStatus.htm" />
   <HelpKINode Title="Deleted property">
     <HelpKINode Title="IDiscountType.Deleted Property " Url="html/P_Resto_Front_Api_Data_Orders_IDiscountType_Deleted.htm" />
@@ -2026,14 +2027,14 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
@@ -4629,6 +4630,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Organization_ITerminalsGroup.htm" />
   </HelpKINode>
   <HelpKINode Title="ITerminalsGroup.AskCashierForMultiCashRegisterPayment property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_AskCashierForMultiCashRegisterPayment.htm" />
+  <HelpKINode Title="ITerminalsGroup.DefaultTable property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_DefaultTable.htm" />
   <HelpKINode Title="ITerminalsGroup.IsTabMode property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_IsTabMode.htm" />
   <HelpKINode Title="ITerminalsGroup.MaxCourseNumber property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_MaxCourseNumber.htm" />
   <HelpKINode Title="ITerminalsGroup.Name property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_Name.htm" />
