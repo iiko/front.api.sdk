@@ -1724,6 +1724,7 @@
     <HelpKINode Title="ISimpleModifierBase.DefaultAmount Property " Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_DefaultAmount.htm" />
     <HelpKINode Title="ITemplatedModifierParams.DefaultAmount Property " Url="html/P_Resto_Front_Api_Data_Assortment_ITemplatedModifierParams_DefaultAmount.htm" />
   </HelpKINode>
+  <HelpKINode Title="DefaultCourse property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_DefaultCourse.htm" />
   <HelpKINode Title="DefaultDeliveryDuration property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_DefaultDeliveryDuration.htm" />
   <HelpKINode Title="DefaultDeviceSettings property" Url="html/P_Resto_Front_Api_Devices_IDeviceFactory_DefaultDeviceSettings.htm" />
   <HelpKINode Title="DefaultOrderType property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_DefaultOrderType.htm" />
@@ -2033,8 +2034,8 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
@@ -4212,6 +4213,7 @@
   <HelpKINode Title="IProduct.BackgroundColor property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_BackgroundColor.htm" />
   <HelpKINode Title="IProduct.CanSetOpenPrice property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_CanSetOpenPrice.htm" />
   <HelpKINode Title="IProduct.Category property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Category.htm" />
+  <HelpKINode Title="IProduct.DefaultCourse property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_DefaultCourse.htm" />
   <HelpKINode Title="IProduct.Description property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Description.htm" />
   <HelpKINode Title="IProduct.DescriptionForeign property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_DescriptionForeign.htm" />
   <HelpKINode Title="IProduct.ExpirationTime property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_ExpirationTime.htm" />
