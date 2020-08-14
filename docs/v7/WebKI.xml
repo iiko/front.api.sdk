@@ -43,6 +43,10 @@
     <HelpKINode Title="IEditSession.AddFlexibleSumDiscountByCardNumber Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_AddFlexibleSumDiscountByCardNumber.htm" />
     <HelpKINode Title="OperationServiceExtensions.AddFlexibleSumDiscountByCardNumber Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddFlexibleSumDiscountByCardNumber.htm" />
   </HelpKINode>
+  <HelpKINode Title="AddIikoCardDiscounts method">
+    <HelpKINode Title="IEditSession.AddIikoCardDiscounts Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_AddIikoCardDiscounts.htm" />
+    <HelpKINode Title="OperationServiceExtensions.AddIikoCardDiscounts Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddIikoCardDiscounts.htm" />
+  </HelpKINode>
   <HelpKINode Title="AddIikoCardReferrerToOrder method" Url="html/M_Resto_Front_Api_IOperationService_AddIikoCardReferrerToOrder.htm" />
   <HelpKINode Title="AdditionalData property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_AdditionalData.htm" />
   <HelpKINode Title="AdditionalInfo property">
@@ -140,6 +144,7 @@
   <HelpKINode Title="Amount enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Settings_DeviceNumberSettingKind.htm" />
   <HelpKINode Title="Amount property">
     <HelpKINode Title="ChequeSale.Amount Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Amount.htm" />
+    <HelpKINode Title="DiscountForOrderItem.Amount Property " Url="html/P_Resto_Front_Api_Data_Orders_DiscountForOrderItem_Amount.htm" />
     <HelpKINode Title="IKitchenOrderCompoundItemComponent.Amount Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCompoundItemComponent_Amount.htm" />
     <HelpKINode Title="IKitchenOrderModifierItem.Amount Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderModifierItem_Amount.htm" />
     <HelpKINode Title="IKitchenOrderProductItem.Amount Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderProductItem_Amount.htm" />
@@ -1994,8 +1999,21 @@
   </HelpKINode>
   <HelpKINode Title="DiscountByFlexibleSum property" Url="html/P_Resto_Front_Api_Data_Orders_IDiscountType_DiscountByFlexibleSum.htm" />
   <HelpKINode Title="DiscountCardChanged property" Url="html/P_Resto_Front_Api_INotificationService_DiscountCardChanged.htm" />
+  <HelpKINode Title="DiscountForOrderItem class">
+    <HelpKINode Title="DiscountForOrderItem Class" Url="html/T_Resto_Front_Api_Data_Orders_DiscountForOrderItem.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Orders_DiscountForOrderItem__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_DiscountForOrderItem.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Orders_DiscountForOrderItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DiscountForOrderItem.Amount property" Url="html/P_Resto_Front_Api_Data_Orders_DiscountForOrderItem_Amount.htm" />
+  <HelpKINode Title="DiscountForOrderItem.DiscountForOrderItem constructor" Url="html/M_Resto_Front_Api_Data_Orders_DiscountForOrderItem__ctor.htm" />
+  <HelpKINode Title="DiscountForOrderItem.OrderItemId property" Url="html/P_Resto_Front_Api_Data_Orders_DiscountForOrderItem_OrderItemId.htm" />
+  <HelpKINode Title="DiscountForOrderItem.Sum property" Url="html/P_Resto_Front_Api_Data_Orders_DiscountForOrderItem_Sum.htm" />
   <HelpKINode Title="DiscountPercent property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_DiscountPercent.htm" />
-  <HelpKINode Title="Discounts property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Discounts.htm" />
+  <HelpKINode Title="Discounts property">
+    <HelpKINode Title="IikoCardDiscount.Discounts Property " Url="html/P_Resto_Front_Api_Data_Orders_IikoCardDiscount_Discounts.htm" />
+    <HelpKINode Title="IOrder.Discounts Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Discounts.htm" />
+  </HelpKINode>
   <HelpKINode Title="DiscountSum property">
     <HelpKINode Title="BillTask.DiscountSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_DiscountSum.htm" />
     <HelpKINode Title="ChequeSale.DiscountSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_DiscountSum.htm" />
@@ -2030,10 +2048,10 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2620,6 +2638,7 @@
   <HelpKINode Title="GuestsCount property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_GuestsCount.htm" />
   <HelpKINode Title="HalfFinishedGoods enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
   <HelpKINode Title="HasDriver property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_HasDriver.htm" />
+  <HelpKINode Title="HasFixedDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_HasFixedDiscounts.htm" />
   <HelpKINode Title="HasMenuImage property">
     <HelpKINode Title="IProduct.HasMenuImage Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_HasMenuImage.htm" />
     <HelpKINode Title="IProductGroup.HasMenuImage Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_HasMenuImage.htm" />
@@ -3034,6 +3053,7 @@
   <HelpKINode Title="IEditSession.AddExternalPaymentItem method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_AddExternalPaymentItem.htm" />
   <HelpKINode Title="IEditSession.AddFlexibleSumDiscount method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddFlexibleSumDiscount.htm" />
   <HelpKINode Title="IEditSession.AddFlexibleSumDiscountByCardNumber method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddFlexibleSumDiscountByCardNumber.htm" />
+  <HelpKINode Title="IEditSession.AddIikoCardDiscounts method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddIikoCardDiscounts.htm" />
   <HelpKINode Title="IEditSession.AddOrderCombo method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddOrderCombo.htm" />
   <HelpKINode Title="IEditSession.AddOrderCompoundItem method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_AddOrderCompoundItem.htm" />
   <HelpKINode Title="IEditSession.AddOrderExternalData method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddOrderExternalData.htm" />
@@ -3254,6 +3274,7 @@
   </HelpKINode>
   <HelpKINode Title="IIikoCard51OrderInfo.AppliedManualConditions property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_AppliedManualConditions.htm" />
   <HelpKINode Title="IIikoCard51OrderInfo.Coupon property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_Coupon.htm" />
+  <HelpKINode Title="IIikoCard51OrderInfo.HasFixedDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_HasFixedDiscounts.htm" />
   <HelpKINode Title="IikoBizId property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_IikoBizId.htm" />
   <HelpKINode Title="IikoCard51Info property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_IikoCard51Info.htm" />
   <HelpKINode Title="IikoCard51PaymentItemAdditionalData class">
@@ -3268,6 +3289,16 @@
   <HelpKINode Title="IikoCard51PaymentItemAdditionalData.IikoCard51PaymentItemAdditionalData constructor" Url="html/M_Resto_Front_Api_Data_Payments_IikoCard51PaymentItemAdditionalData__ctor.htm" />
   <HelpKINode Title="IikoCard51PaymentItemAdditionalData.SearchScope property" Url="html/P_Resto_Front_Api_Data_Payments_IikoCard51PaymentItemAdditionalData_SearchScope.htm" />
   <HelpKINode Title="IikoCard51SearchScope enumeration" Url="html/T_Resto_Front_Api_Data_Payments_IikoCard51SearchScope.htm" />
+  <HelpKINode Title="IikoCardDiscount class">
+    <HelpKINode Title="IikoCardDiscount Class" Url="html/T_Resto_Front_Api_Data_Orders_IikoCardDiscount.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Orders_IikoCardDiscount__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IikoCardDiscount.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Orders_IikoCardDiscount.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IikoCardDiscount.Discounts property" Url="html/P_Resto_Front_Api_Data_Orders_IikoCardDiscount_Discounts.htm" />
+  <HelpKINode Title="IikoCardDiscount.IikoCardDiscount constructor" Url="html/M_Resto_Front_Api_Data_Orders_IikoCardDiscount__ctor.htm" />
+  <HelpKINode Title="IikoCardDiscount.MarketingCampaignId property" Url="html/P_Resto_Front_Api_Data_Orders_IikoCardDiscount_MarketingCampaignId.htm" />
+  <HelpKINode Title="IikoCardDiscount.MarketingCampaignName property" Url="html/P_Resto_Front_Api_Data_Orders_IikoCardDiscount_MarketingCampaignName.htm" />
   <HelpKINode Title="IikoNetCardExternalIdType enumeration" Url="html/T_Resto_Front_Api_Data_Payments_IikoNetCardExternalIdType.htm" />
   <HelpKINode Title="IInputDialogResult interface" Url="html/T_Resto_Front_Api_Data_View_IInputDialogResult.htm" />
   <HelpKINode Title="IInternalOperationService interface">
@@ -4869,6 +4900,8 @@
   <HelpKINode Title="Male enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_Gender.htm" />
   <HelpKINode Title="Manually enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryBillPrintTimeOption.htm" />
   <HelpKINode Title="MarkElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_MarkElements.htm" />
+  <HelpKINode Title="MarketingCampaignId property" Url="html/P_Resto_Front_Api_Data_Orders_IikoCardDiscount_MarketingCampaignId.htm" />
+  <HelpKINode Title="MarketingCampaignName property" Url="html/P_Resto_Front_Api_Data_Orders_IikoCardDiscount_MarketingCampaignName.htm" />
   <HelpKINode Title="MarketingSource property">
     <HelpKINode Title="IClient.MarketingSource Property " Url="html/P_Resto_Front_Api_Data_Brd_IClient_MarketingSource.htm" />
     <HelpKINode Title="IDeliveryOrder.MarketingSource Property " Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_MarketingSource.htm" />
@@ -5317,6 +5350,7 @@
   <HelpKINode Title="OperationServiceExtensions.AddExternalPaymentItem method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_AddExternalPaymentItem.htm" />
   <HelpKINode Title="OperationServiceExtensions.AddFlexibleSumDiscount method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddFlexibleSumDiscount.htm" />
   <HelpKINode Title="OperationServiceExtensions.AddFlexibleSumDiscountByCardNumber method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddFlexibleSumDiscountByCardNumber.htm" />
+  <HelpKINode Title="OperationServiceExtensions.AddIikoCardDiscounts method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddIikoCardDiscounts.htm" />
   <HelpKINode Title="OperationServiceExtensions.AddOrderCombo method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddOrderCombo.htm" />
   <HelpKINode Title="OperationServiceExtensions.AddOrderExternalData method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddOrderExternalData.htm" />
   <HelpKINode Title="OperationServiceExtensions.AddOrderGuest method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_AddOrderGuest.htm" />
@@ -5465,6 +5499,7 @@
   <HelpKINode Title="OrderId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_OrderId.htm" />
   <HelpKINode Title="OrderItemCommentsEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_OrderItemCommentsEnabled.htm" />
   <HelpKINode Title="OrderItemCourse enumeration" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
+  <HelpKINode Title="OrderItemId property" Url="html/P_Resto_Front_Api_Data_Orders_DiscountForOrderItem_OrderItemId.htm" />
   <HelpKINode Title="OrderItemsGroupingEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_OrderItemsGroupingEnabled.htm" />
   <HelpKINode Title="OrderItemStatus enumeration" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemStatus.htm" />
   <HelpKINode Title="OrderNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_OrderNumber.htm" />
@@ -6529,6 +6564,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Kitchen.KitchenOrderProductItemDto class" Url="html/T_Resto_Front_Api_Data_Kitchen_KitchenOrderProductItemDto.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders namespace" Url="html/N_Resto_Front_Api_Data_Orders.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.CheckSplitRequiredResult enumeration" Url="html/T_Resto_Front_Api_Data_Orders_CheckSplitRequiredResult.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Orders.DiscountForOrderItem class" Url="html/T_Resto_Front_Api_Data_Orders_DiscountForOrderItem.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IAllergenGroup interface" Url="html/T_Resto_Front_Api_Data_Orders_IAllergenGroup.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IAppliedDiscountItem interface" Url="html/T_Resto_Front_Api_Data_Orders_IAppliedDiscountItem.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.ICookingPlaceType interface" Url="html/T_Resto_Front_Api_Data_Orders_ICookingPlaceType.htm" />
@@ -6544,6 +6580,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IFixedSimpleModifier interface" Url="html/T_Resto_Front_Api_Data_Orders_IFixedSimpleModifier.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IFrontDeliverySettings interface" Url="html/T_Resto_Front_Api_Data_Orders_IFrontDeliverySettings.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IIikoCard51OrderInfo interface" Url="html/T_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Orders.IikoCardDiscount class" Url="html/T_Resto_Front_Api_Data_Orders_IikoCardDiscount.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IKitchenWorkload interface" Url="html/T_Resto_Front_Api_Data_Orders_IKitchenWorkload.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IOrder interface" Url="html/T_Resto_Front_Api_Data_Orders_IOrder.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IOrderCombo interface" Url="html/T_Resto_Front_Api_Data_Orders_IOrderCombo.htm" />
@@ -7104,6 +7141,7 @@
     <HelpKINode Title="ChequePayment.Sum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_Sum.htm" />
     <HelpKINode Title="ChequeSale.Sum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Sum.htm" />
     <HelpKINode Title="ChequeTaskDiscountIncreaseItem.Sum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTaskDiscountIncreaseItem_Sum.htm" />
+    <HelpKINode Title="DiscountForOrderItem.Sum Property " Url="html/P_Resto_Front_Api_Data_Orders_DiscountForOrderItem_Sum.htm" />
     <HelpKINode Title="IPastOrderPayment.Sum Property " Url="html/P_Resto_Front_Api_Data_Orders_IPastOrderPayment_Sum.htm" />
     <HelpKINode Title="IPaymentItem.Sum Property " Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_Sum.htm" />
   </HelpKINode>
