@@ -31,6 +31,10 @@
   <HelpKINode Title="AddDonation method" Url="html/M_Resto_Front_Api_IOperationService_AddDonation.htm" />
   <HelpKINode Title="Added enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemStatus.htm" />
   <HelpKINode Title="AddErrorMessage method" Url="html/M_Resto_Front_Api_IOperationService_AddErrorMessage.htm" />
+  <HelpKINode Title="AddExternalFiscalizedPaymentItem method">
+    <HelpKINode Title="IEditSession.AddExternalFiscalizedPaymentItem Method " Url="html/Overload_Resto_Front_Api_Editors_IEditSession_AddExternalFiscalizedPaymentItem.htm" />
+    <HelpKINode Title="OperationServiceExtensions.AddExternalFiscalizedPaymentItem Method " Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_AddExternalFiscalizedPaymentItem.htm" />
+  </HelpKINode>
   <HelpKINode Title="AddExternalPaymentItem method">
     <HelpKINode Title="IEditSession.AddExternalPaymentItem Method " Url="html/Overload_Resto_Front_Api_Editors_IEditSession_AddExternalPaymentItem.htm" />
     <HelpKINode Title="OperationServiceExtensions.AddExternalPaymentItem Method " Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_AddExternalPaymentItem.htm" />
@@ -1753,6 +1757,10 @@
     <HelpKINode Title="OperationServiceExtensions.DeleteDiscount Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DeleteDiscount.htm" />
   </HelpKINode>
   <HelpKINode Title="DeleteDonation method" Url="html/M_Resto_Front_Api_IOperationService_DeleteDonation.htm" />
+  <HelpKINode Title="DeleteExternalFiscalizedPaymentItem method">
+    <HelpKINode Title="IEditSession.DeleteExternalFiscalizedPaymentItem Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_DeleteExternalFiscalizedPaymentItem.htm" />
+    <HelpKINode Title="OperationServiceExtensions.DeleteExternalFiscalizedPaymentItem Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DeleteExternalFiscalizedPaymentItem.htm" />
+  </HelpKINode>
   <HelpKINode Title="DeleteExternalPaymentItem method">
     <HelpKINode Title="IEditSession.DeleteExternalPaymentItem Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_DeleteExternalPaymentItem.htm" />
     <HelpKINode Title="OperationServiceExtensions.DeleteExternalPaymentItem Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DeleteExternalPaymentItem.htm" />
@@ -2045,21 +2053,21 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -3085,6 +3093,7 @@
   <HelpKINode Title="IEditSession.ActivateReserve method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ActivateReserve.htm" />
   <HelpKINode Title="IEditSession.AddDiscount method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddDiscount.htm" />
   <HelpKINode Title="IEditSession.AddDiscountByCardNumber method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddDiscountByCardNumber.htm" />
+  <HelpKINode Title="IEditSession.AddExternalFiscalizedPaymentItem method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_AddExternalFiscalizedPaymentItem.htm" />
   <HelpKINode Title="IEditSession.AddExternalPaymentItem method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_AddExternalPaymentItem.htm" />
   <HelpKINode Title="IEditSession.AddFlexibleSumDiscount method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddFlexibleSumDiscount.htm" />
   <HelpKINode Title="IEditSession.AddFlexibleSumDiscountByCardNumber method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddFlexibleSumDiscountByCardNumber.htm" />
@@ -3188,6 +3197,7 @@
   <HelpKINode Title="IEditSession.CreateReserve method" Url="html/M_Resto_Front_Api_Editors_IEditSession_CreateReserve.htm" />
   <HelpKINode Title="IEditSession.CreateStreet method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_CreateStreet.htm" />
   <HelpKINode Title="IEditSession.DeleteDiscount method" Url="html/M_Resto_Front_Api_Editors_IEditSession_DeleteDiscount.htm" />
+  <HelpKINode Title="IEditSession.DeleteExternalFiscalizedPaymentItem method" Url="html/M_Resto_Front_Api_Editors_IEditSession_DeleteExternalFiscalizedPaymentItem.htm" />
   <HelpKINode Title="IEditSession.DeleteExternalPaymentItem method" Url="html/M_Resto_Front_Api_Editors_IEditSession_DeleteExternalPaymentItem.htm" />
   <HelpKINode Title="IEditSession.DeleteOrderCombo method" Url="html/M_Resto_Front_Api_Editors_IEditSession_DeleteOrderCombo.htm" />
   <HelpKINode Title="IEditSession.DeleteOrderExternalData method" Url="html/M_Resto_Front_Api_Editors_IEditSession_DeleteOrderExternalData.htm" />
@@ -4192,6 +4202,7 @@
   <HelpKINode Title="IPaymentItem.AdditionalData property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_AdditionalData.htm" />
   <HelpKINode Title="IPaymentItem.DonationType property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_DonationType.htm" />
   <HelpKINode Title="IPaymentItem.IsExternal property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsExternal.htm" />
+  <HelpKINode Title="IPaymentItem.IsFiscalizedExternally property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedExternally.htm" />
   <HelpKINode Title="IPaymentItem.IsPreliminary property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsPreliminary.htm" />
   <HelpKINode Title="IPaymentItem.IsPrepay property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsPrepay.htm" />
   <HelpKINode Title="IPaymentItem.IsProcessedExternally property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsProcessedExternally.htm" />
@@ -4582,6 +4593,7 @@
   </HelpKINode>
   <HelpKINode Title="ISetting.Key property" Url="html/P_Resto_Front_Api_Data_Settings_ISetting_Key.htm" />
   <HelpKINode Title="IsExternal property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsExternal.htm" />
+  <HelpKINode Title="IsFiscalizedExternally property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedExternally.htm" />
   <HelpKINode Title="IsHidden property">
     <HelpKINode Title="IPaymentType.IsHidden Property " Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_IsHidden.htm" />
     <HelpKINode Title="KitchenOrderModifierItemDto.IsHidden Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderModifierItemDto_IsHidden.htm" />
@@ -5433,6 +5445,7 @@
   </HelpKINode>
   <HelpKINode Title="OperationServiceExtensions.AddDiscount method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddDiscount.htm" />
   <HelpKINode Title="OperationServiceExtensions.AddDiscountByCardNumber method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddDiscountByCardNumber.htm" />
+  <HelpKINode Title="OperationServiceExtensions.AddExternalFiscalizedPaymentItem method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_AddExternalFiscalizedPaymentItem.htm" />
   <HelpKINode Title="OperationServiceExtensions.AddExternalPaymentItem method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_AddExternalPaymentItem.htm" />
   <HelpKINode Title="OperationServiceExtensions.AddFlexibleSumDiscount method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddFlexibleSumDiscount.htm" />
   <HelpKINode Title="OperationServiceExtensions.AddFlexibleSumDiscountByCardNumber method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddFlexibleSumDiscountByCardNumber.htm" />
@@ -5532,6 +5545,7 @@
   <HelpKINode Title="OperationServiceExtensions.CreateReserve method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_CreateReserve.htm" />
   <HelpKINode Title="OperationServiceExtensions.CreateStreet method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_CreateStreet.htm" />
   <HelpKINode Title="OperationServiceExtensions.DeleteDiscount method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DeleteDiscount.htm" />
+  <HelpKINode Title="OperationServiceExtensions.DeleteExternalFiscalizedPaymentItem method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DeleteExternalFiscalizedPaymentItem.htm" />
   <HelpKINode Title="OperationServiceExtensions.DeleteExternalPaymentItem method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DeleteExternalPaymentItem.htm" />
   <HelpKINode Title="OperationServiceExtensions.DeleteOrderCombo method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DeleteOrderCombo.htm" />
   <HelpKINode Title="OperationServiceExtensions.DeleteOrderExternalData method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DeleteOrderExternalData.htm" />
