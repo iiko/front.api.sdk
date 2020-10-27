@@ -2047,10 +2047,10 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
@@ -3369,6 +3369,7 @@
   <HelpKINode Title="IikoCardDiscount.MarketingCampaignId property" Url="html/P_Resto_Front_Api_Data_Orders_IikoCardDiscount_MarketingCampaignId.htm" />
   <HelpKINode Title="IikoCardDiscount.MarketingCampaignName property" Url="html/P_Resto_Front_Api_Data_Orders_IikoCardDiscount_MarketingCampaignName.htm" />
   <HelpKINode Title="IikoNetCardExternalIdType enumeration" Url="html/T_Resto_Front_Api_Data_Payments_IikoNetCardExternalIdType.htm" />
+  <HelpKINode Title="IikoUid property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_IikoUid.htm" />
   <HelpKINode Title="IInputDialogResult interface" Url="html/T_Resto_Front_Api_Data_View_IInputDialogResult.htm" />
   <HelpKINode Title="IKitchenOrder interface">
     <HelpKINode Title="IKitchenOrder Interface" Url="html/T_Resto_Front_Api_Data_Kitchen_IKitchenOrder.htm" />
@@ -4476,11 +4477,11 @@
   <HelpKINode Title="IRestaurant.CrmId property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_CrmId.htm" />
   <HelpKINode Title="IRestaurant.Currency property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_Currency.htm" />
   <HelpKINode Title="IRestaurant.DepartmentId property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_DepartmentId.htm" />
+  <HelpKINode Title="IRestaurant.IikoUid property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_IikoUid.htm" />
   <HelpKINode Title="IRestaurant.IsRoundingDownOrderSum property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_IsRoundingDownOrderSum.htm" />
   <HelpKINode Title="IRestaurant.IsRoundingPricePerUnit property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_IsRoundingPricePerUnit.htm" />
   <HelpKINode Title="IRestaurant.Name property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_Name.htm" />
   <HelpKINode Title="IRestaurant.OrderTypeFillRequirements property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_OrderTypeFillRequirements.htm" />
-  <HelpKINode Title="IRestaurant.SerialNumber property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_SerialNumber.htm" />
   <HelpKINode Title="IRestaurant.UsePersonalRoles property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_UsePersonalRoles.htm" />
   <HelpKINode Title="IRestaurantSection interface">
     <HelpKINode Title="IRestaurantSection Interface" Url="html/T_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection.htm" />
@@ -7021,7 +7022,6 @@
   <HelpKINode Title="SerialNumber property">
     <HelpKINode Title="CashRegisterResult.SerialNumber Property " Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_SerialNumber.htm" />
     <HelpKINode Title="ICashRegisterInfo.SerialNumber Property " Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_SerialNumber.htm" />
-    <HelpKINode Title="IRestaurant.SerialNumber Property " Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_SerialNumber.htm" />
   </HelpKINode>
   <HelpKINode Title="Served enumeration member">
     <HelpKINode Title="KitchenOrderItemProcessingStatus Enumeration" Url="html/T_Resto_Front_Api_Data_Kitchen_KitchenOrderItemProcessingStatus.htm" />
