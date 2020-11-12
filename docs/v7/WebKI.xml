@@ -8,6 +8,7 @@
   <HelpKINode Title="ActualDeliverTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ActualDeliverTime.htm" />
   <HelpKINode Title="ActualGuestsCount property" Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderDto_ActualGuestsCount.htm" />
   <HelpKINode Title="AddButtonToClosedOrderScreen method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToClosedOrderScreen.htm" />
+  <HelpKINode Title="AddButtonToOrderEditScreen method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToOrderEditScreen.htm" />
   <HelpKINode Title="AddButtonToPluginsMenu method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToPluginsMenu.htm" />
   <HelpKINode Title="AddButtonToProductsReturnScreen method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToProductsReturnScreen.htm" />
   <HelpKINode Title="AddClientToOrder method" Url="html/M_Resto_Front_Api_IOperationService_AddClientToOrder.htm" />
@@ -528,6 +529,7 @@
   <HelpKINode Title="BeforeDoCheckActionResult.BeforeCheque property" Url="html/P_Resto_Front_Api_Data_Device_BeforeDoCheckActionResult_BeforeCheque.htm" />
   <HelpKINode Title="BeforeDoCheckActionResult.BeforeDoCheckActionResult constructor" Url="html/M_Resto_Front_Api_Data_Device_BeforeDoCheckActionResult__ctor.htm" />
   <HelpKINode Title="BeforeDoCheckActionResult.CashierName property" Url="html/P_Resto_Front_Api_Data_Device_BeforeDoCheckActionResult_CashierName.htm" />
+  <HelpKINode Title="BeforeDoCheque property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDoCheque.htm" />
   <HelpKINode Title="BeforeFooter property" Url="html/P_Resto_Front_Api_Data_Cheques_BillCheque_BeforeFooter.htm" />
   <HelpKINode Title="BeforeHeader property" Url="html/P_Resto_Front_Api_Data_Cheques_BillCheque_BeforeHeader.htm" />
   <HelpKINode Title="BeforeOrderBill property" Url="html/P_Resto_Front_Api_INotificationService_BeforeOrderBill.htm" />
@@ -1991,8 +1993,8 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2582,6 +2584,7 @@
   <HelpKINode Title="GuestsComingTime property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_GuestsComingTime.htm" />
   <HelpKINode Title="GuestsCount property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_GuestsCount.htm" />
   <HelpKINode Title="HalfFinishedGoods enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
+  <HelpKINode Title="HasChanges property" Url="html/P_Resto_Front_Api_Editors_IEditSession_HasChanges.htm" />
   <HelpKINode Title="HasDriver property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_HasDriver.htm" />
   <HelpKINode Title="HasFixedDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_HasFixedDiscounts.htm" />
   <HelpKINode Title="HasMenuImage property">
@@ -3009,6 +3012,7 @@
   <HelpKINode Title="IEditSession interface">
     <HelpKINode Title="IEditSession Interface" Url="html/T_Resto_Front_Api_Editors_IEditSession.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Editors_IEditSession.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Editors_IEditSession.htm" />
   </HelpKINode>
   <HelpKINode Title="IEditSession.ActivateReserve method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ActivateReserve.htm" />
   <HelpKINode Title="IEditSession.AddDiscount method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddDiscount.htm" />
@@ -3131,6 +3135,7 @@
   <HelpKINode Title="IEditSession.DeletePrintedOrderItems method" Url="html/M_Resto_Front_Api_Editors_IEditSession_DeletePrintedOrderItems.htm" />
   <HelpKINode Title="IEditSession.DeletePrintedOrderModifierItem method" Url="html/M_Resto_Front_Api_Editors_IEditSession_DeletePrintedOrderModifierItem.htm" />
   <HelpKINode Title="IEditSession.GroupOrderCookingItems method" Url="html/M_Resto_Front_Api_Editors_IEditSession_GroupOrderCookingItems.htm" />
+  <HelpKINode Title="IEditSession.HasChanges property" Url="html/P_Resto_Front_Api_Editors_IEditSession_HasChanges.htm" />
   <HelpKINode Title="IEditSession.MarkOrderAsTab method" Url="html/M_Resto_Front_Api_Editors_IEditSession_MarkOrderAsTab.htm" />
   <HelpKINode Title="IEditSession.MoveOrderItemToAnotherGuest method" Url="html/M_Resto_Front_Api_Editors_IEditSession_MoveOrderItemToAnotherGuest.htm" />
   <HelpKINode Title="IEditSession.MoveOrderItemToAnotherOrder method" Url="html/M_Resto_Front_Api_Editors_IEditSession_MoveOrderItemToAnotherOrder.htm" />
@@ -3484,6 +3489,7 @@
   </HelpKINode>
   <HelpKINode Title="INotificationService.BeforeDeleteOrder property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDeleteOrder.htm" />
   <HelpKINode Title="INotificationService.BeforeDeletePrintedItem property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDeletePrintedItem.htm" />
+  <HelpKINode Title="INotificationService.BeforeDoCheque property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDoCheque.htm" />
   <HelpKINode Title="INotificationService.BeforeOrderBill property" Url="html/P_Resto_Front_Api_INotificationService_BeforeOrderBill.htm" />
   <HelpKINode Title="INotificationService.BeforeServiceCheque property" Url="html/P_Resto_Front_Api_INotificationService_BeforeServiceCheque.htm" />
   <HelpKINode Title="INotificationService.BillChequePosResolving property" Url="html/P_Resto_Front_Api_INotificationService_BillChequePosResolving.htm" />
@@ -3587,6 +3593,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_IOperationService.htm" />
   </HelpKINode>
   <HelpKINode Title="IOperationService.AddButtonToClosedOrderScreen method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToClosedOrderScreen.htm" />
+  <HelpKINode Title="IOperationService.AddButtonToOrderEditScreen method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToOrderEditScreen.htm" />
   <HelpKINode Title="IOperationService.AddButtonToPluginsMenu method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToPluginsMenu.htm" />
   <HelpKINode Title="IOperationService.AddButtonToProductsReturnScreen method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToProductsReturnScreen.htm" />
   <HelpKINode Title="IOperationService.AddClientToOrder method" Url="html/M_Resto_Front_Api_IOperationService_AddClientToOrder.htm" />
