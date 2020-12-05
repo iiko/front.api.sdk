@@ -1989,21 +1989,21 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -4189,7 +4189,6 @@
   </HelpKINode>
   <HelpKINode Title="IPointOfSale.CashRegister property" Url="html/P_Resto_Front_Api_Data_Organization_IPointOfSale_CashRegister.htm" />
   <HelpKINode Title="IPointOfSale.Conception property" Url="html/P_Resto_Front_Api_Data_Organization_IPointOfSale_Conception.htm" />
-  <HelpKINode Title="IPointOfSale.IsMain property" Url="html/P_Resto_Front_Api_Data_Organization_IPointOfSale_IsMain.htm" />
   <HelpKINode Title="IPointOfSale.Name property" Url="html/P_Resto_Front_Api_Data_Organization_IPointOfSale_Name.htm" />
   <HelpKINode Title="IPreliminaryOrder interface">
     <HelpKINode Title="IPreliminaryOrder Interface" Url="html/T_Resto_Front_Api_Data_PreliminaryOrders_IPreliminaryOrder.htm" />
@@ -4536,7 +4535,6 @@
     <HelpKINode Title="EmailDto.IsMain Property " Url="html/P_Resto_Front_Api_Data_Brd_EmailDto_IsMain.htm" />
     <HelpKINode Title="IEmail.IsMain Property " Url="html/P_Resto_Front_Api_Data_Brd_IEmail_IsMain.htm" />
     <HelpKINode Title="IPhone.IsMain Property " Url="html/P_Resto_Front_Api_Data_Brd_IPhone_IsMain.htm" />
-    <HelpKINode Title="IPointOfSale.IsMain Property " Url="html/P_Resto_Front_Api_Data_Organization_IPointOfSale_IsMain.htm" />
     <HelpKINode Title="PhoneDto.IsMain Property " Url="html/P_Resto_Front_Api_Data_Brd_PhoneDto_IsMain.htm" />
   </HelpKINode>
   <HelpKINode Title="IsMainDish property" Url="html/P_Resto_Front_Api_Data_Orders_IPastOrderItem_IsMainDish.htm" />
@@ -4679,6 +4677,7 @@
   <HelpKINode Title="ITerminalsGroup.AskCashierForMultiCashRegisterPayment property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_AskCashierForMultiCashRegisterPayment.htm" />
   <HelpKINode Title="ITerminalsGroup.DefaultTable property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_DefaultTable.htm" />
   <HelpKINode Title="ITerminalsGroup.IsTabMode property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_IsTabMode.htm" />
+  <HelpKINode Title="ITerminalsGroup.MainTerminal property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_MainTerminal.htm" />
   <HelpKINode Title="ITerminalsGroup.MaxCourseNumber property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_MaxCourseNumber.htm" />
   <HelpKINode Title="ITerminalsGroup.Name property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_Name.htm" />
   <HelpKINode Title="ITerminalsGroup.PriceCategory property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_PriceCategory.htm" />
@@ -4917,6 +4916,7 @@
   <HelpKINode Title="MacroAttribute.Target property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_MacroAttribute_Target.htm" />
   <HelpKINode Title="MagnetCard enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_IikoNetCardExternalIdType.htm" />
   <HelpKINode Title="MainAddressIndex property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_MainAddressIndex.htm" />
+  <HelpKINode Title="MainTerminal property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_MainTerminal.htm" />
   <HelpKINode Title="Male enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_Gender.htm" />
   <HelpKINode Title="Manually enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryBillPrintTimeOption.htm" />
   <HelpKINode Title="MarkElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_MarkElements.htm" />
