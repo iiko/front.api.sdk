@@ -1989,21 +1989,21 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2372,7 +2372,6 @@
   <HelpKINode Title="GetActiveProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveProducts.htm" />
   <HelpKINode Title="GetActiveRemovalTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveRemovalTypes.htm" />
   <HelpKINode Title="GetActiveStreets method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveStreets.htm" />
-  <HelpKINode Title="GetAgentId method" Url="html/M_Resto_Front_Api_IOperationService_GetAgentId.htm" />
   <HelpKINode Title="GetAllergenGroupsByOrderRootItem method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByOrderRootItem.htm" />
   <HelpKINode Title="GetAllergenGroupsByProductIds method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByProductIds.htm" />
   <HelpKINode Title="GetAllProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetAllProducts.htm" />
@@ -2439,6 +2438,7 @@
     <HelpKINode Title="WriteoffPaymentItemAdditionalData.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData_GetHashCode.htm" />
   </HelpKINode>
   <HelpKINode Title="GetHierarchicalMenu method" Url="html/M_Resto_Front_Api_IOperationService_GetHierarchicalMenu.htm" />
+  <HelpKINode Title="GetHostAgentId method" Url="html/M_Resto_Front_Api_IOperationService_GetHostAgentId.htm" />
   <HelpKINode Title="GetHostDeliverySettings method" Url="html/M_Resto_Front_Api_IOperationService_GetHostDeliverySettings.htm" />
   <HelpKINode Title="GetHostRestaurant method" Url="html/M_Resto_Front_Api_IOperationService_GetHostRestaurant.htm" />
   <HelpKINode Title="GetHostTerminal method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminal.htm" />
@@ -2515,7 +2515,6 @@
   <HelpKINode Title="GetReportPrinter method" Url="html/M_Resto_Front_Api_IOperationService_GetReportPrinter.htm" />
   <HelpKINode Title="GetReserveById method" Url="html/M_Resto_Front_Api_IOperationService_GetReserveById.htm" />
   <HelpKINode Title="GetReserves method" Url="html/M_Resto_Front_Api_IOperationService_GetReserves.htm" />
-  <HelpKINode Title="GetRestaurantSectionsByTerminalsGroup method" Url="html/M_Resto_Front_Api_IOperationService_GetRestaurantSectionsByTerminalsGroup.htm" />
   <HelpKINode Title="GetRevision(Of T) method" Url="html/M_Resto_Front_Api_Editors_ISubmittedEntities_GetRevision__1.htm" />
   <HelpKINode Title="GetRevision&lt;T&gt; method" Url="html/M_Resto_Front_Api_Editors_ISubmittedEntities_GetRevision__1.htm" />
   <HelpKINode Title="GetRoleById method" Url="html/M_Resto_Front_Api_IOperationService_GetRoleById.htm" />
@@ -2554,7 +2553,9 @@
   <HelpKINode Title="GetTerminalById method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalById.htm" />
   <HelpKINode Title="GetTerminals method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminals.htm" />
   <HelpKINode Title="GetTerminalsGroupPointsOfSale method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalsGroupPointsOfSale.htm" />
+  <HelpKINode Title="GetTerminalsGroupRestaurantSections method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalsGroupRestaurantSections.htm" />
   <HelpKINode Title="GetTerminalsGroups method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalsGroups.htm" />
+  <HelpKINode Title="GetTerminalsGroupTerminals method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalsGroupTerminals.htm" />
   <HelpKINode Title="GetTransportSettings method" Url="html/M_Resto_Front_Api_IOperationService_GetTransportSettings.htm" />
   <HelpKINode Title="GetUpdatedDeliveryOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetUpdatedDeliveryOrders.htm" />
   <HelpKINode Title="GetUser method" Url="html/M_Resto_Front_Api_IOperationService_GetUser.htm" />
@@ -3245,7 +3246,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Organization_IHostTerminalSettings.htm" />
   </HelpKINode>
   <HelpKINode Title="IHostTerminalSettings.Culture property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_Culture.htm" />
-  <HelpKINode Title="IHostTerminalSettings.SingleInstancePluginsCompatible property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_SingleInstancePluginsCompatible.htm" />
+  <HelpKINode Title="IHostTerminalSettings.IsMainTerminal property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_IsMainTerminal.htm" />
   <HelpKINode Title="IIikoCard51OrderInfo interface">
     <HelpKINode Title="IIikoCard51OrderInfo Interface" Url="html/T_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo.htm" />
@@ -3633,7 +3634,6 @@
   <HelpKINode Title="IOperationService.GetActiveProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveProducts.htm" />
   <HelpKINode Title="IOperationService.GetActiveRemovalTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveRemovalTypes.htm" />
   <HelpKINode Title="IOperationService.GetActiveStreets method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveStreets.htm" />
-  <HelpKINode Title="IOperationService.GetAgentId method" Url="html/M_Resto_Front_Api_IOperationService_GetAgentId.htm" />
   <HelpKINode Title="IOperationService.GetAllergenGroupsByOrderRootItem method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByOrderRootItem.htm" />
   <HelpKINode Title="IOperationService.GetAllergenGroupsByProductIds method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByProductIds.htm" />
   <HelpKINode Title="IOperationService.GetAllProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetAllProducts.htm" />
@@ -3667,6 +3667,7 @@
   <HelpKINode Title="IOperationService.GetFrontDeliverySettings method" Url="html/M_Resto_Front_Api_IOperationService_GetFrontDeliverySettings.htm" />
   <HelpKINode Title="IOperationService.GetGroupModifiers method" Url="html/M_Resto_Front_Api_IOperationService_GetGroupModifiers.htm" />
   <HelpKINode Title="IOperationService.GetHierarchicalMenu method" Url="html/M_Resto_Front_Api_IOperationService_GetHierarchicalMenu.htm" />
+  <HelpKINode Title="IOperationService.GetHostAgentId method" Url="html/M_Resto_Front_Api_IOperationService_GetHostAgentId.htm" />
   <HelpKINode Title="IOperationService.GetHostDeliverySettings method" Url="html/M_Resto_Front_Api_IOperationService_GetHostDeliverySettings.htm" />
   <HelpKINode Title="IOperationService.GetHostRestaurant method" Url="html/M_Resto_Front_Api_IOperationService_GetHostRestaurant.htm" />
   <HelpKINode Title="IOperationService.GetHostTerminal method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminal.htm" />
@@ -3718,7 +3719,6 @@
   <HelpKINode Title="IOperationService.GetReportPrinter method" Url="html/M_Resto_Front_Api_IOperationService_GetReportPrinter.htm" />
   <HelpKINode Title="IOperationService.GetReserveById method" Url="html/M_Resto_Front_Api_IOperationService_GetReserveById.htm" />
   <HelpKINode Title="IOperationService.GetReserves method" Url="html/M_Resto_Front_Api_IOperationService_GetReserves.htm" />
-  <HelpKINode Title="IOperationService.GetRestaurantSectionsByTerminalsGroup method" Url="html/M_Resto_Front_Api_IOperationService_GetRestaurantSectionsByTerminalsGroup.htm" />
   <HelpKINode Title="IOperationService.GetRoleById method" Url="html/M_Resto_Front_Api_IOperationService_GetRoleById.htm" />
   <HelpKINode Title="IOperationService.GetRoles method" Url="html/M_Resto_Front_Api_IOperationService_GetRoles.htm" />
   <HelpKINode Title="IOperationService.GetSimpleModifiers method" Url="html/M_Resto_Front_Api_IOperationService_GetSimpleModifiers.htm" />
@@ -3735,7 +3735,9 @@
   <HelpKINode Title="IOperationService.GetTerminalById method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalById.htm" />
   <HelpKINode Title="IOperationService.GetTerminals method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminals.htm" />
   <HelpKINode Title="IOperationService.GetTerminalsGroupPointsOfSale method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalsGroupPointsOfSale.htm" />
+  <HelpKINode Title="IOperationService.GetTerminalsGroupRestaurantSections method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalsGroupRestaurantSections.htm" />
   <HelpKINode Title="IOperationService.GetTerminalsGroups method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalsGroups.htm" />
+  <HelpKINode Title="IOperationService.GetTerminalsGroupTerminals method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalsGroupTerminals.htm" />
   <HelpKINode Title="IOperationService.GetTransportSettings method" Url="html/M_Resto_Front_Api_IOperationService_GetTransportSettings.htm" />
   <HelpKINode Title="IOperationService.GetUpdatedDeliveryOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetUpdatedDeliveryOrders.htm" />
   <HelpKINode Title="IOperationService.GetUser method" Url="html/M_Resto_Front_Api_IOperationService_GetUser.htm" />
@@ -4538,6 +4540,7 @@
     <HelpKINode Title="PhoneDto.IsMain Property " Url="html/P_Resto_Front_Api_Data_Brd_PhoneDto_IsMain.htm" />
   </HelpKINode>
   <HelpKINode Title="IsMainDish property" Url="html/P_Resto_Front_Api_Data_Orders_IPastOrderItem_IsMainDish.htm" />
+  <HelpKINode Title="IsMainTerminal property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_IsMainTerminal.htm" />
   <HelpKINode Title="IsMultiCashRegisterConfiguration method" Url="html/M_Resto_Front_Api_IOperationService_IsMultiCashRegisterConfiguration.htm" />
   <HelpKINode Title="IsOfdConnected enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="IsOfdConnected property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_IsOfdConnected.htm" />
@@ -7034,7 +7037,6 @@
   <HelpKINode Title="SimplifiedIncomeMinusExpenses enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_TaxationSystem.htm" />
   <HelpKINode Title="SimplifiedIncomeOnly enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_TaxationSystem.htm" />
   <HelpKINode Title="Singleagriculturaltax enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_TaxationSystem.htm" />
-  <HelpKINode Title="SingleInstancePluginsCompatible property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_SingleInstancePluginsCompatible.htm" />
   <HelpKINode Title="Singletaxonimputedincome enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_TaxationSystem.htm" />
   <HelpKINode Title="Sixth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Size property">
