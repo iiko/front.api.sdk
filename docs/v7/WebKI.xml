@@ -1375,6 +1375,7 @@
     <HelpKINode Title="OrganizationDetailsInfo.Code Property " Url="html/P_Resto_Front_Api_Data_Payments_OrganizationDetailsInfo_Code.htm" />
   </HelpKINode>
   <HelpKINode Title="CodeName property" Url="html/P_Resto_Front_Api_Devices_IDeviceFactory_CodeName.htm" />
+  <HelpKINode Title="Codes property" Url="html/P_Resto_Front_Api_Exceptions_PermissionDeniedException_Codes.htm" />
   <HelpKINode Title="CollectData method" Url="html/M_Resto_Front_Api_IPaymentProcessor_CollectData.htm" />
   <HelpKINode Title="CollectionAccessAttribute class">
     <HelpKINode Title="CollectionAccessAttribute Class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_CollectionAccessAttribute.htm" />
@@ -1989,14 +1990,14 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
@@ -2466,6 +2467,7 @@
     <HelpKINode Title="ExternalCourierServiceDataDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto_GetObjectData.htm" />
     <HelpKINode Title="HierarchicalMenu.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_HierarchicalMenu_GetObjectData.htm" />
     <HelpKINode Title="PaymentTypeConfigurationException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_PaymentTypeConfigurationException_GetObjectData.htm" />
+    <HelpKINode Title="PermissionDeniedException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_PermissionDeniedException_GetObjectData.htm" />
     <HelpKINode Title="PhoneDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_PhoneDto_GetObjectData.htm" />
     <HelpKINode Title="PreliminaryOrderItemModifier.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemModifier_GetObjectData.htm" />
     <HelpKINode Title="PreliminaryOrderItemProduct.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemProduct_GetObjectData.htm" />
@@ -4905,6 +4907,7 @@
   </HelpKINode>
   <HelpKINode Title="LocalizationRequiredAttribute.LocalizationRequiredAttribute constructor" Url="html/Overload_Resto_Front_Api_Attributes_JetBrains_LocalizationRequiredAttribute__ctor.htm" />
   <HelpKINode Title="LocalizationRequiredAttribute.Required property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_LocalizationRequiredAttribute_Required.htm" />
+  <HelpKINode Title="LocalNames property" Url="html/P_Resto_Front_Api_Exceptions_PermissionDeniedException_LocalNames.htm" />
   <HelpKINode Title="LockedTerminalName property" Url="html/P_Resto_Front_Api_Exceptions_EntityAlreadyInUseException_LockedTerminalName.htm" />
   <HelpKINode Title="LockedUser property" Url="html/P_Resto_Front_Api_Exceptions_EntityAlreadyInUseException_LockedUser.htm" />
   <HelpKINode Title="Log property" Url="html/P_Resto_Front_Api_PluginContext_Log.htm" />
@@ -5687,6 +5690,9 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Exceptions_PermissionDeniedException.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_PermissionDeniedException.htm" />
   </HelpKINode>
+  <HelpKINode Title="PermissionDeniedException.Codes property" Url="html/P_Resto_Front_Api_Exceptions_PermissionDeniedException_Codes.htm" />
+  <HelpKINode Title="PermissionDeniedException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_PermissionDeniedException_GetObjectData.htm" />
+  <HelpKINode Title="PermissionDeniedException.LocalNames property" Url="html/P_Resto_Front_Api_Exceptions_PermissionDeniedException_LocalNames.htm" />
   <HelpKINode Title="PermissionDeniedException.PermissionDeniedException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_PermissionDeniedException__ctor.htm" />
   <HelpKINode Title="PersonalDataConsent property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_PersonalDataConsent.htm" />
   <HelpKINode Title="Petrol enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
