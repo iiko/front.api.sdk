@@ -114,6 +114,7 @@
   <HelpKINode Title="AddressDto.StreetId property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_StreetId.htm" />
   <HelpKINode Title="Addresses property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Addresses.htm" />
   <HelpKINode Title="AddSecondaryComponent method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_AddSecondaryComponent.htm" />
+  <HelpKINode Title="AddStatusBarInfo method" Url="html/M_Resto_Front_Api_IOperationService_AddStatusBarInfo.htm" />
   <HelpKINode Title="AddWarningMessage method" Url="html/M_Resto_Front_Api_IOperationService_AddWarningMessage.htm" />
   <HelpKINode Title="Advance enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeTransferType.htm" />
   <HelpKINode Title="AfterCheque property">
@@ -869,6 +870,7 @@
   <HelpKINode Title="CashRegisterStatus.RegisterDateTime property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_RegisterDateTime.htm" />
   <HelpKINode Title="CashRegisterStatus.RestaurantMode property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_RestaurantMode.htm" />
   <HelpKINode Title="CashRegisterStatus.SessionStatus property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_SessionStatus.htm" />
+  <HelpKINode Title="CashRegisterStatus.StatusBarInfo property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_StatusBarInfo.htm" />
   <HelpKINode Title="CashRegisterStatusField enumeration" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="CashRegisterTask class">
     <HelpKINode Title="CashRegisterTask Class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterTask.htm" />
@@ -1992,21 +1994,21 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -3627,6 +3629,7 @@
   <HelpKINode Title="IOperationService.AddErrorMessage method" Url="html/M_Resto_Front_Api_IOperationService_AddErrorMessage.htm" />
   <HelpKINode Title="IOperationService.AddIikoCardReferrerToOrder method" Url="html/M_Resto_Front_Api_IOperationService_AddIikoCardReferrerToOrder.htm" />
   <HelpKINode Title="IOperationService.AddNotificationMessage method" Url="html/M_Resto_Front_Api_IOperationService_AddNotificationMessage.htm" />
+  <HelpKINode Title="IOperationService.AddStatusBarInfo method" Url="html/M_Resto_Front_Api_IOperationService_AddStatusBarInfo.htm" />
   <HelpKINode Title="IOperationService.AddWarningMessage method" Url="html/M_Resto_Front_Api_IOperationService_AddWarningMessage.htm" />
   <HelpKINode Title="IOperationService.AuthenticateByPin method" Url="html/M_Resto_Front_Api_IOperationService_AuthenticateByPin.htm" />
   <HelpKINode Title="IOperationService.BillOrder method" Url="html/M_Resto_Front_Api_IOperationService_BillOrder.htm" />
@@ -7131,6 +7134,8 @@
     <HelpKINode Title="IPaymentItem.Status Property " Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_Status.htm" />
     <HelpKINode Title="IReserve.Status Property " Url="html/P_Resto_Front_Api_Data_Brd_IReserve_Status.htm" />
   </HelpKINode>
+  <HelpKINode Title="StatusBarInfo enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
+  <HelpKINode Title="StatusBarInfo property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_StatusBarInfo.htm" />
   <HelpKINode Title="Stocks property" Url="html/P_Resto_Front_Api_Data_ProductStocks_IProductStocksList_Stocks.htm" />
   <HelpKINode Title="Stop method" Url="html/M_Resto_Front_Api_Devices_IDevice_Stop.htm" />
   <HelpKINode Title="Stopped enumeration member" Url="html/T_Resto_Front_Api_Data_Device_State.htm" />
