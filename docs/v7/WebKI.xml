@@ -1995,10 +1995,10 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2682,6 +2682,7 @@
   <HelpKINode Title="IAppliedDiscountItem.Discount property" Url="html/P_Resto_Front_Api_Data_Orders_IAppliedDiscountItem_Discount.htm" />
   <HelpKINode Title="IAppliedDiscountItem.DiscountSum property" Url="html/P_Resto_Front_Api_Data_Orders_IAppliedDiscountItem_DiscountSum.htm" />
   <HelpKINode Title="IAppliedDiscountItem.DiscountSumByOrderItemId property" Url="html/P_Resto_Front_Api_Data_Orders_IAppliedDiscountItem_DiscountSumByOrderItemId.htm" />
+  <HelpKINode Title="IAppliedDiscountItem.IsRounding property" Url="html/P_Resto_Front_Api_Data_Orders_IAppliedDiscountItem_IsRounding.htm" />
   <HelpKINode Title="ICafeSession interface">
     <HelpKINode Title="ICafeSession Interface" Url="html/T_Resto_Front_Api_Data_Device_ICafeSession.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_ICafeSession.htm" />
@@ -4591,6 +4592,7 @@
   <HelpKINode Title="IsReadonly property" Url="html/P_Resto_Front_Api_Data_Settings_BaseSetting_1_IsReadonly.htm" />
   <HelpKINode Title="IsRefund property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IsRefund.htm" />
   <HelpKINode Title="IsRegisterStatusSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsRegisterStatusSupported.htm" />
+  <HelpKINode Title="IsRounding property" Url="html/P_Resto_Front_Api_Data_Orders_IAppliedDiscountItem_IsRounding.htm" />
   <HelpKINode Title="IsRoundingDownOrderSum property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_IsRoundingDownOrderSum.htm" />
   <HelpKINode Title="IsRoundingPricePerUnit property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_IsRoundingPricePerUnit.htm" />
   <HelpKINode Title="IsSelectivelyApplied property" Url="html/P_Resto_Front_Api_Data_Orders_IDiscountItem_IsSelectivelyApplied.htm" />
