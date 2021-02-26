@@ -2008,8 +2008,8 @@
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -4320,6 +4320,7 @@
   <HelpKINode Title="IProductGroup.HasMenuImage property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_HasMenuImage.htm" />
   <HelpKINode Title="IProductGroup.MenuIndex property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_MenuIndex.htm" />
   <HelpKINode Title="IProductGroup.Name property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_Name.htm" />
+  <HelpKINode Title="IProductGroup.Number property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_Number.htm" />
   <HelpKINode Title="IProductScale interface">
     <HelpKINode Title="IProductScale Interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductScale.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Assortment_IProductScale.htm" />
@@ -5313,6 +5314,7 @@
     <HelpKINode Title="IPastOrder.Number Property " Url="html/P_Resto_Front_Api_Data_Orders_IPastOrder_Number.htm" />
     <HelpKINode Title="IPreliminaryOrder.Number Property " Url="html/P_Resto_Front_Api_Data_PreliminaryOrders_IPreliminaryOrder_Number.htm" />
     <HelpKINode Title="IProduct.Number Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Number.htm" />
+    <HelpKINode Title="IProductGroup.Number Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_Number.htm" />
     <HelpKINode Title="ITable.Number Property " Url="html/P_Resto_Front_Api_Data_Organization_Sections_ITable_Number.htm" />
     <HelpKINode Title="KitchenOrderDto.Number Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderDto_Number.htm" />
     <HelpKINode Title="NumberInputDialogResult.Number Property " Url="html/P_Resto_Front_Api_Data_View_NumberInputDialogResult_Number.htm" />
