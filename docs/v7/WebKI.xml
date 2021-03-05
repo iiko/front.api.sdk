@@ -1997,10 +1997,10 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2008,8 +2008,8 @@
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -3265,6 +3265,7 @@
   <HelpKINode Title="IGroupModifier.FreeOfChargeAmount property" Url="html/P_Resto_Front_Api_Data_Assortment_IGroupModifier_FreeOfChargeAmount.htm" />
   <HelpKINode Title="IGroupModifier.Items property" Url="html/P_Resto_Front_Api_Data_Assortment_IGroupModifier_Items.htm" />
   <HelpKINode Title="IGroupModifier.MaximumAmount property" Url="html/P_Resto_Front_Api_Data_Assortment_IGroupModifier_MaximumAmount.htm" />
+  <HelpKINode Title="IGroupModifier.MenuIndex property" Url="html/P_Resto_Front_Api_Data_Assortment_IGroupModifier_MenuIndex.htm" />
   <HelpKINode Title="IGroupModifier.MinimumAmount property" Url="html/P_Resto_Front_Api_Data_Assortment_IGroupModifier_MinimumAmount.htm" />
   <HelpKINode Title="IGroupModifier.ProductGroup property" Url="html/P_Resto_Front_Api_Data_Assortment_IGroupModifier_ProductGroup.htm" />
   <HelpKINode Title="IHostTerminalSettings interface">
@@ -4563,6 +4564,7 @@
   <HelpKINode Title="ISimpleModifierBase.DefaultAmount property" Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_DefaultAmount.htm" />
   <HelpKINode Title="ISimpleModifierBase.FreeOfChargeAmount property" Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_FreeOfChargeAmount.htm" />
   <HelpKINode Title="ISimpleModifierBase.MaximumAmount property" Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_MaximumAmount.htm" />
+  <HelpKINode Title="ISimpleModifierBase.MenuIndex property" Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_MenuIndex.htm" />
   <HelpKINode Title="ISimpleModifierBase.MinimumAmount property" Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_MinimumAmount.htm" />
   <HelpKINode Title="ISimpleModifierBase.Product property" Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_Product.htm" />
   <HelpKINode Title="IsList property" Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceCustomEnumSetting_IsList.htm" />
@@ -5009,9 +5011,11 @@
   </HelpKINode>
   <HelpKINode Title="Members enumeration member" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ImplicitUseTargetFlags.htm" />
   <HelpKINode Title="MenuIndex property">
+    <HelpKINode Title="IGroupModifier.MenuIndex Property " Url="html/P_Resto_Front_Api_Data_Assortment_IGroupModifier_MenuIndex.htm" />
     <HelpKINode Title="IProduct.MenuIndex Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_MenuIndex.htm" />
     <HelpKINode Title="IProductGroup.MenuIndex Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_MenuIndex.htm" />
     <HelpKINode Title="IProductSize.MenuIndex Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductSize_MenuIndex.htm" />
+    <HelpKINode Title="ISimpleModifierBase.MenuIndex Property " Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_MenuIndex.htm" />
   </HelpKINode>
   <HelpKINode Title="Message property">
     <HelpKINode Title="DirectIoResult.Message Property " Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Message.htm" />
