@@ -1995,12 +1995,12 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2224,6 +2224,16 @@
     <HelpKINode Title="IReserve.ExternalId Property " Url="html/P_Resto_Front_Api_Data_Brd_IReserve_ExternalId.htm" />
     <HelpKINode Title="IStreet.ExternalId Property " Url="html/P_Resto_Front_Api_Data_Brd_IStreet_ExternalId.htm" />
   </HelpKINode>
+  <HelpKINode Title="ExternalOperationCallingException class">
+    <HelpKINode Title="ExternalOperationCallingException Class" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationCallingException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Exceptions_ExternalOperationCallingException__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Exceptions_ExternalOperationCallingException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_ExternalOperationCallingException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExternalOperationCallingException.ExternalOperationCallingException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_ExternalOperationCallingException__ctor.htm" />
+  <HelpKINode Title="ExternalOperationCallingException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_ExternalOperationCallingException_GetObjectData.htm" />
+  <HelpKINode Title="ExternalOperationCallingException.Reason property" Url="html/P_Resto_Front_Api_Exceptions_ExternalOperationCallingException_Reason.htm" />
+  <HelpKINode Title="ExternalOperationCallingExceptionReason enumeration" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationCallingExceptionReason.htm" />
   <HelpKINode Title="ExternalOperationChanged property" Url="html/P_Resto_Front_Api_INotificationService_ExternalOperationChanged.htm" />
   <HelpKINode Title="ExternalOperationChangedEventArgs class">
     <HelpKINode Title="ExternalOperationChangedEventArgs Class" Url="html/T_Resto_Front_Api_Data_Common_ExternalOperationChangedEventArgs.htm" />
@@ -2477,6 +2487,7 @@
     <HelpKINode Title="EntityUsingException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_EntityUsingException_GetObjectData.htm" />
     <HelpKINode Title="ExtendedInputDialogSettings.GetObjectData Method " Url="html/M_Resto_Front_Api_UI_ExtendedInputDialogSettings_GetObjectData.htm" />
     <HelpKINode Title="ExternalCourierServiceDataDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto_GetObjectData.htm" />
+    <HelpKINode Title="ExternalOperationCallingException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_ExternalOperationCallingException_GetObjectData.htm" />
     <HelpKINode Title="HierarchicalMenu.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_HierarchicalMenu_GetObjectData.htm" />
     <HelpKINode Title="PaymentTypeConfigurationException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_PaymentTypeConfigurationException_GetObjectData.htm" />
     <HelpKINode Title="PermissionDeniedException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_PermissionDeniedException_GetObjectData.htm" />
@@ -5131,6 +5142,7 @@
   <HelpKINode Title="NeedReceipt property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_NeedReceipt.htm" />
   <HelpKINode Title="NeedToCheckBillNumber property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_NeedToCheckBillNumber.htm" />
   <HelpKINode Title="NeedToSplitOrderBeforePayment method" Url="html/M_Resto_Front_Api_IOperationService_NeedToSplitOrderBeforePayment.htm" />
+  <HelpKINode Title="NetworkProblem enumeration member" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationCallingExceptionReason.htm" />
   <HelpKINode Title="New enumeration member">
     <HelpKINode Title="DeliveryStatus Enumeration" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
     <HelpKINode Title="OrderStatus Enumeration" Url="html/T_Resto_Front_Api_Data_Orders_OrderStatus.htm" />
@@ -5410,7 +5422,9 @@
   <HelpKINode Title="OperationArgumentExtensions.GetUserRoles method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetUserRoles.htm" />
   <HelpKINode Title="OperationArgumentExtensions.TryGetProductGroupMenuImage method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_TryGetProductGroupMenuImage.htm" />
   <HelpKINode Title="OperationArgumentExtensions.TryGetProductMenuImage method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_TryGetProductMenuImage.htm" />
+  <HelpKINode Title="OperationFailed enumeration member" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationCallingExceptionReason.htm" />
   <HelpKINode Title="OperationName property" Url="html/P_Resto_Front_Api_Data_Common_ExternalOperationChangedEventArgs_OperationName.htm" />
+  <HelpKINode Title="OperationNotRegistered enumeration member" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationCallingExceptionReason.htm" />
   <HelpKINode Title="Operations property" Url="html/P_Resto_Front_Api_PluginContext_Operations.htm" />
   <HelpKINode Title="OperationServiceExtensions class">
     <HelpKINode Title="OperationServiceExtensions Class" Url="html/T_Resto_Front_Api_Extensions_OperationServiceExtensions.htm" />
@@ -6234,7 +6248,10 @@
   </HelpKINode>
   <HelpKINode Title="RazorWriteMethodParameterAttribute.RazorWriteMethodParameterAttribute constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_RazorWriteMethodParameterAttribute__ctor.htm" />
   <HelpKINode Title="Read enumeration member" Url="html/T_Resto_Front_Api_Attributes_JetBrains_CollectionAccessType.htm" />
-  <HelpKINode Title="Reason property" Url="html/P_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData_Reason.htm" />
+  <HelpKINode Title="Reason property">
+    <HelpKINode Title="ExternalOperationCallingException.Reason Property " Url="html/P_Resto_Front_Api_Exceptions_ExternalOperationCallingException_Reason.htm" />
+    <HelpKINode Title="WriteoffPaymentItemAdditionalData.Reason Property " Url="html/P_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData_Reason.htm" />
+  </HelpKINode>
   <HelpKINode Title="ReceiptSlip class">
     <HelpKINode Title="ReceiptSlip Class" Url="html/T_Resto_Front_Api_Data_Cheques_ReceiptSlip.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Cheques_ReceiptSlip__ctor.htm" />
@@ -6833,6 +6850,8 @@
   <HelpKINode Title="Resto.Front.Api.Exceptions.EntityNotFoundException class" Url="html/T_Resto_Front_Api_Exceptions_EntityNotFoundException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.EntityStubUsingException class" Url="html/T_Resto_Front_Api_Exceptions_EntityStubUsingException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.EntityUsingException class" Url="html/T_Resto_Front_Api_Exceptions_EntityUsingException.htm" />
+  <HelpKINode Title="Resto.Front.Api.Exceptions.ExternalOperationCallingException class" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationCallingException.htm" />
+  <HelpKINode Title="Resto.Front.Api.Exceptions.ExternalOperationCallingExceptionReason enumeration" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationCallingExceptionReason.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.ExternalOperationFailedException class" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationFailedException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.FrontApiException class" Url="html/T_Resto_Front_Api_Exceptions_FrontApiException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.InsufficientLicenseException class" Url="html/T_Resto_Front_Api_Exceptions_InsufficientLicenseException.htm" />
