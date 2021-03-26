@@ -1999,8 +1999,8 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2226,11 +2226,11 @@
   </HelpKINode>
   <HelpKINode Title="ExternalOperationCallingException class">
     <HelpKINode Title="ExternalOperationCallingException Class" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationCallingException.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Exceptions_ExternalOperationCallingException__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Exceptions_ExternalOperationCallingException__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Exceptions_ExternalOperationCallingException.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_ExternalOperationCallingException.htm" />
   </HelpKINode>
-  <HelpKINode Title="ExternalOperationCallingException.ExternalOperationCallingException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_ExternalOperationCallingException__ctor.htm" />
+  <HelpKINode Title="ExternalOperationCallingException.ExternalOperationCallingException constructor" Url="html/M_Resto_Front_Api_Exceptions_ExternalOperationCallingException__ctor.htm" />
   <HelpKINode Title="ExternalOperationCallingException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_ExternalOperationCallingException_GetObjectData.htm" />
   <HelpKINode Title="ExternalOperationCallingException.Reason property" Url="html/P_Resto_Front_Api_Exceptions_ExternalOperationCallingException_Reason.htm" />
   <HelpKINode Title="ExternalOperationCallingExceptionReason enumeration" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationCallingExceptionReason.htm" />
@@ -2248,11 +2248,12 @@
   <HelpKINode Title="ExternalOperationChangedEventArgs.ServiceName property" Url="html/P_Resto_Front_Api_Data_Common_ExternalOperationChangedEventArgs_ServiceName.htm" />
   <HelpKINode Title="ExternalOperationFailedException class">
     <HelpKINode Title="ExternalOperationFailedException Class" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationFailedException.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Exceptions_ExternalOperationFailedException__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Exceptions_ExternalOperationFailedException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Resto_Front_Api_Exceptions_ExternalOperationFailedException.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Exceptions_ExternalOperationFailedException.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_ExternalOperationFailedException.htm" />
   </HelpKINode>
-  <HelpKINode Title="ExternalOperationFailedException.ExternalOperationFailedException constructor" Url="html/M_Resto_Front_Api_Exceptions_ExternalOperationFailedException__ctor.htm" />
+  <HelpKINode Title="ExternalOperationFailedException.ExternalOperationFailedException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_ExternalOperationFailedException__ctor.htm" />
   <HelpKINode Title="ExternalPaymentItemAdditionalData class">
     <HelpKINode Title="ExternalPaymentItemAdditionalData Class" Url="html/T_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData__ctor.htm" />
