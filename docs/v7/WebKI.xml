@@ -1997,10 +1997,10 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2008,8 +2008,8 @@
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -4779,6 +4779,7 @@
   <HelpKINode Title="IViewManager.ShowClosePopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowClosePopup.htm" />
   <HelpKINode Title="IViewManager.ShowErrorPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowErrorPopup.htm" />
   <HelpKINode Title="IViewManager.ShowExtendedInputDialog method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowExtendedInputDialog.htm" />
+  <HelpKINode Title="IViewManager.ShowExtendedKeyboardDialog method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowExtendedKeyboardDialog.htm" />
   <HelpKINode Title="IViewManager.ShowInputDialog method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowInputDialog.htm" />
   <HelpKINode Title="IViewManager.ShowKeyboard method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowKeyboard.htm" />
   <HelpKINode Title="IViewManager.ShowOkCancelPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowOkCancelPopup.htm" />
@@ -5345,15 +5346,6 @@
   </HelpKINode>
   <HelpKINode Title="NumberInputDialogResult.Number property" Url="html/P_Resto_Front_Api_Data_View_NumberInputDialogResult_Number.htm" />
   <HelpKINode Title="NumberInputDialogResult.NumberInputDialogResult constructor" Url="html/M_Resto_Front_Api_Data_View_NumberInputDialogResult__ctor.htm" />
-  <HelpKINode Title="NumericString property" Url="html/P_Resto_Front_Api_Data_View_NumericStringInputDialogResult_NumericString.htm" />
-  <HelpKINode Title="NumericStringInputDialogResult class">
-    <HelpKINode Title="NumericStringInputDialogResult Class" Url="html/T_Resto_Front_Api_Data_View_NumericStringInputDialogResult.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_View_NumericStringInputDialogResult__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_View_NumericStringInputDialogResult.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_View_NumericStringInputDialogResult.htm" />
-  </HelpKINode>
-  <HelpKINode Title="NumericStringInputDialogResult.NumericString property" Url="html/P_Resto_Front_Api_Data_View_NumericStringInputDialogResult_NumericString.htm" />
-  <HelpKINode Title="NumericStringInputDialogResult.NumericStringInputDialogResult constructor" Url="html/M_Resto_Front_Api_Data_View_NumericStringInputDialogResult__ctor.htm" />
   <HelpKINode Title="OfdBufferedDocuments enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="OfdBufferedDocuments property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdBufferedDocuments.htm" />
   <HelpKINode Title="OfdChequeDateTime enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
@@ -6765,7 +6757,6 @@
   <HelpKINode Title="Resto.Front.Api.Data.View.IInputDialogResult interface" Url="html/T_Resto_Front_Api_Data_View_IInputDialogResult.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.InputDialogTypes enumeration" Url="html/T_Resto_Front_Api_Data_View_InputDialogTypes.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.NumberInputDialogResult class" Url="html/T_Resto_Front_Api_Data_View_NumberInputDialogResult.htm" />
-  <HelpKINode Title="Resto.Front.Api.Data.View.NumericStringInputDialogResult class" Url="html/T_Resto_Front_Api_Data_View_NumericStringInputDialogResult.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.PhoneInputDialogResult class" Url="html/T_Resto_Front_Api_Data_View_PhoneInputDialogResult.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.RestaurantSectionEllipse class" Url="html/T_Resto_Front_Api_Data_View_RestaurantSectionEllipse.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.RestaurantSectionImage class" Url="html/T_Resto_Front_Api_Data_View_RestaurantSectionImage.htm" />
@@ -6773,6 +6764,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.View.RestaurantSectionObject class" Url="html/T_Resto_Front_Api_Data_View_RestaurantSectionObject.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.RestaurantSectionRectangle class" Url="html/T_Resto_Front_Api_Data_View_RestaurantSectionRectangle.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.RestaurantSectionTable class" Url="html/T_Resto_Front_Api_Data_View_RestaurantSectionTable.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.View.StringInputDialogResult class" Url="html/T_Resto_Front_Api_Data_View_StringInputDialogResult.htm" />
   <HelpKINode Title="Resto.Front.Api.Devices namespace" Url="html/N_Resto_Front_Api_Devices.htm" />
   <HelpKINode Title="Resto.Front.Api.Devices.ICashRegister interface" Url="html/T_Resto_Front_Api_Devices_ICashRegister.htm" />
   <HelpKINode Title="Resto.Front.Api.Devices.ICashRegisterFactory interface" Url="html/T_Resto_Front_Api_Devices_ICashRegisterFactory.htm" />
@@ -6902,6 +6894,7 @@
   <HelpKINode Title="Resto.Front.Api.UI.IViewManager interface" Url="html/T_Resto_Front_Api_UI_IViewManager.htm" />
   <HelpKINode Title="Resto.Front.Api.VoidValue structure" Url="html/T_Resto_Front_Api_VoidValue.htm" />
   <HelpKINode Title="Restricted enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_ProductsSellingPossibility.htm" />
+  <HelpKINode Title="Result property" Url="html/P_Resto_Front_Api_Data_View_StringInputDialogResult_Result.htm" />
   <HelpKINode Title="ResultSum property">
     <HelpKINode Title="BillTask.ResultSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_ResultSum.htm" />
     <HelpKINode Title="IOrder.ResultSum Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_ResultSum.htm" />
@@ -7093,6 +7086,7 @@
   <HelpKINode Title="ShowClosePopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowClosePopup.htm" />
   <HelpKINode Title="ShowErrorPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowErrorPopup.htm" />
   <HelpKINode Title="ShowExtendedInputDialog method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowExtendedInputDialog.htm" />
+  <HelpKINode Title="ShowExtendedKeyboardDialog method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowExtendedKeyboardDialog.htm" />
   <HelpKINode Title="ShowFractionalPart property" Url="html/P_Resto_Front_Api_Data_Organization_ICurrencySettings_ShowFractionalPart.htm" />
   <HelpKINode Title="ShowInputDialog method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowInputDialog.htm" />
   <HelpKINode Title="ShowKeyboard method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowKeyboard.htm" />
@@ -7191,6 +7185,14 @@
   </HelpKINode>
   <HelpKINode Title="StringFormatMethodAttribute.FormatParameterName property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_StringFormatMethodAttribute_FormatParameterName.htm" />
   <HelpKINode Title="StringFormatMethodAttribute.StringFormatMethodAttribute constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_StringFormatMethodAttribute__ctor.htm" />
+  <HelpKINode Title="StringInputDialogResult class">
+    <HelpKINode Title="StringInputDialogResult Class" Url="html/T_Resto_Front_Api_Data_View_StringInputDialogResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_View_StringInputDialogResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_View_StringInputDialogResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_View_StringInputDialogResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StringInputDialogResult.Result property" Url="html/P_Resto_Front_Api_Data_View_StringInputDialogResult_Result.htm" />
+  <HelpKINode Title="StringInputDialogResult.StringInputDialogResult constructor" Url="html/M_Resto_Front_Api_Data_View_StringInputDialogResult__ctor.htm" />
   <HelpKINode Title="SubmitChanges method" Url="html/M_Resto_Front_Api_IOperationService_SubmitChanges.htm" />
   <HelpKINode Title="Subscribe method">
     <HelpKINode Title="INotification(T).Subscribe Method " Url="html/M_Resto_Front_Api_INotification_1_Subscribe.htm" />
