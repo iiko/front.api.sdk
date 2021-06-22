@@ -1,6 +1,7 @@
 .vs
 obj
 bin
+*.csproj.user
 
 # temporary file created by buildserver
 /*.tmp
