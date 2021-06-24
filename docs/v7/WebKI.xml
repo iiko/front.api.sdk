@@ -2044,14 +2044,14 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
@@ -2597,6 +2597,7 @@
   <HelpKINode Title="GetRegions method" Url="html/M_Resto_Front_Api_IOperationService_GetRegions.htm" />
   <HelpKINode Title="GetRelatedDeliveryOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetRelatedDeliveryOrders.htm" />
   <HelpKINode Title="GetRemovalTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetRemovalTypeById.htm" />
+  <HelpKINode Title="GetReportMarkupById method" Url="html/M_Resto_Front_Api_IOperationService_GetReportMarkupById.htm" />
   <HelpKINode Title="GetReportPrinter method" Url="html/M_Resto_Front_Api_IOperationService_GetReportPrinter.htm" />
   <HelpKINode Title="GetReserveById method" Url="html/M_Resto_Front_Api_IOperationService_GetReserveById.htm" />
   <HelpKINode Title="GetReserves method" Url="html/M_Resto_Front_Api_IOperationService_GetReserves.htm" />
@@ -3829,6 +3830,7 @@
   <HelpKINode Title="IOperationService.GetRegions method" Url="html/M_Resto_Front_Api_IOperationService_GetRegions.htm" />
   <HelpKINode Title="IOperationService.GetRelatedDeliveryOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetRelatedDeliveryOrders.htm" />
   <HelpKINode Title="IOperationService.GetRemovalTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetRemovalTypeById.htm" />
+  <HelpKINode Title="IOperationService.GetReportMarkupById method" Url="html/M_Resto_Front_Api_IOperationService_GetReportMarkupById.htm" />
   <HelpKINode Title="IOperationService.GetReportPrinter method" Url="html/M_Resto_Front_Api_IOperationService_GetReportPrinter.htm" />
   <HelpKINode Title="IOperationService.GetReserveById method" Url="html/M_Resto_Front_Api_IOperationService_GetReserveById.htm" />
   <HelpKINode Title="IOperationService.GetReserves method" Url="html/M_Resto_Front_Api_IOperationService_GetReserves.htm" />
@@ -6406,6 +6408,14 @@
   </HelpKINode>
   <HelpKINode Title="RepaymentOfCredit enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeTransferType.htm" />
   <HelpKINode Title="RepeatBillNumber property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_RepeatBillNumber.htm" />
+  <HelpKINode Title="ReportBuildException class">
+    <HelpKINode Title="ReportBuildException Class" Url="html/T_Resto_Front_Api_Exceptions_ReportBuildException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Exceptions_ReportBuildException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Resto_Front_Api_Exceptions_ReportBuildException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Exceptions_ReportBuildException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_ReportBuildException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReportBuildException.ReportBuildException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_ReportBuildException__ctor.htm" />
   <HelpKINode Title="Required enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_CheckSplitRequiredResult.htm" />
   <HelpKINode Title="Required property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_LocalizationRequiredAttribute_Required.htm" />
   <HelpKINode Title="RequiredParameter class">
@@ -6972,6 +6982,7 @@
   <HelpKINode Title="Resto.Front.Api.Exceptions.PermissionDeniedException class" Url="html/T_Resto_Front_Api_Exceptions_PermissionDeniedException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.PluginSettingsException class" Url="html/T_Resto_Front_Api_Exceptions_PluginSettingsException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.PreliminaryOrderEditTemporaryUnavailableException class" Url="html/T_Resto_Front_Api_Exceptions_PreliminaryOrderEditTemporaryUnavailableException.htm" />
+  <HelpKINode Title="Resto.Front.Api.Exceptions.ReportBuildException class" Url="html/T_Resto_Front_Api_Exceptions_ReportBuildException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.ServerConnectionException class" Url="html/T_Resto_Front_Api_Exceptions_ServerConnectionException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.UnexpectedInternalException class" Url="html/T_Resto_Front_Api_Exceptions_UnexpectedInternalException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.UserPersonalSessionNotOpenedException class" Url="html/T_Resto_Front_Api_Exceptions_UserPersonalSessionNotOpenedException.htm" />
