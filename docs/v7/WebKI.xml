@@ -136,6 +136,7 @@
   <HelpKINode Title="All enumeration member">
     <HelpKINode Title="CanDeleteOrdersOutOfCafeSession Enumeration" Url="html/T_Resto_Front_Api_Data_Organization_CanDeleteOrdersOutOfCafeSession.htm" />
     <HelpKINode Title="ClientFields Enumeration" Url="html/T_Resto_Front_Api_Data_Search_ClientFields.htm" />
+    <HelpKINode Title="PermissionsCheckMode Enumeration" Url="html/T_Resto_Front_Api_PermissionsCheckMode.htm" />
     <HelpKINode Title="StreetFields Enumeration" Url="html/T_Resto_Front_Api_Data_Search_StreetFields.htm" />
   </HelpKINode>
   <HelpKINode Title="Allowed enumeration member">
@@ -178,6 +179,7 @@
     <HelpKINode Title="AspMvcAreaAttribute.AnonymousProperty Property " Url="html/P_Resto_Front_Api_Attributes_JetBrains_AspMvcAreaAttribute_AnonymousProperty.htm" />
     <HelpKINode Title="AspMvcControllerAttribute.AnonymousProperty Property " Url="html/P_Resto_Front_Api_Attributes_JetBrains_AspMvcControllerAttribute_AnonymousProperty.htm" />
   </HelpKINode>
+  <HelpKINode Title="Any enumeration member" Url="html/T_Resto_Front_Api_PermissionsCheckMode.htm" />
   <HelpKINode Title="AppliedManualConditions property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_AppliedManualConditions.htm" />
   <HelpKINode Title="AskCashierForMultiCashRegisterPayment property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_AskCashierForMultiCashRegisterPayment.htm" />
   <HelpKINode Title="AspChildControlTypeAttribute class">
@@ -1288,6 +1290,8 @@
   <HelpKINode Title="CheckCanEditOrder method" Url="html/M_Resto_Front_Api_IOperationService_CheckCanEditOrder.htm" />
   <HelpKINode Title="CheckCashDrawer property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_CheckCashDrawer.htm" />
   <HelpKINode Title="CheckIsConfigured property" Url="html/P_Resto_Front_Api_Data_Print_IPrinterRef_CheckIsConfigured.htm" />
+  <HelpKINode Title="CheckPermission method" Url="html/M_Resto_Front_Api_IOperationService_CheckPermission.htm" />
+  <HelpKINode Title="CheckPermissions method" Url="html/M_Resto_Front_Api_IOperationService_CheckPermissions.htm" />
   <HelpKINode Title="CheckProductsSellingRestrictions method" Url="html/M_Resto_Front_Api_IOperationService_CheckProductsSellingRestrictions.htm" />
   <HelpKINode Title="CheckResult property" Url="html/P_Resto_Front_Api_Data_Orders_ProductsSellingRestrictions_CheckResult.htm" />
   <HelpKINode Title="CheckSplitRequiredResult enumeration" Url="html/T_Resto_Front_Api_Data_Orders_CheckSplitRequiredResult.htm" />
@@ -2049,12 +2053,12 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
@@ -2487,6 +2491,7 @@
   <HelpKINode Title="GetCompoundItemTemplates method" Url="html/M_Resto_Front_Api_IOperationService_GetCompoundItemTemplates.htm" />
   <HelpKINode Title="GetConceptionById method" Url="html/M_Resto_Front_Api_IOperationService_GetConceptionById.htm" />
   <HelpKINode Title="GetConfigsDirectoryPath method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetConfigsDirectoryPath.htm" />
+  <HelpKINode Title="GetCurrentUser method" Url="html/M_Resto_Front_Api_IOperationService_GetCurrentUser.htm" />
   <HelpKINode Title="GetCustomData method" Url="html/M_Resto_Front_Api_IPaymentDataContext_GetCustomData.htm" />
   <HelpKINode Title="GetCustomData(Of T) method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_GetCustomData__1.htm" />
   <HelpKINode Title="GetCustomData&lt;T&gt; method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_GetCustomData__1.htm" />
@@ -2630,6 +2635,7 @@
     <HelpKINode Title="OperationArgumentExtensions.GetSplittableSimpleModifiers Method " Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetSplittableSimpleModifiers.htm" />
   </HelpKINode>
   <HelpKINode Title="GetStreetById method" Url="html/M_Resto_Front_Api_IOperationService_GetStreetById.htm" />
+  <HelpKINode Title="GetStrictAccordanceToScheduleUserRole method" Url="html/M_Resto_Front_Api_IOperationService_GetStrictAccordanceToScheduleUserRole.htm" />
   <HelpKINode Title="GetSupportedApiVersions method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetSupportedApiVersions.htm" />
   <HelpKINode Title="GetSurveyItemById method" Url="html/M_Resto_Front_Api_IOperationService_GetSurveyItemById.htm" />
   <HelpKINode Title="GetSurveyItems method" Url="html/M_Resto_Front_Api_IOperationService_GetSurveyItems.htm" />
@@ -3731,6 +3737,8 @@
   <HelpKINode Title="IOperationService.ChangeKitchenOrderItemsProcessingStatus method" Url="html/M_Resto_Front_Api_IOperationService_ChangeKitchenOrderItemsProcessingStatus.htm" />
   <HelpKINode Title="IOperationService.ChangePreliminaryOrder method" Url="html/M_Resto_Front_Api_IOperationService_ChangePreliminaryOrder.htm" />
   <HelpKINode Title="IOperationService.CheckCanEditOrder method" Url="html/M_Resto_Front_Api_IOperationService_CheckCanEditOrder.htm" />
+  <HelpKINode Title="IOperationService.CheckPermission method" Url="html/M_Resto_Front_Api_IOperationService_CheckPermission.htm" />
+  <HelpKINode Title="IOperationService.CheckPermissions method" Url="html/M_Resto_Front_Api_IOperationService_CheckPermissions.htm" />
   <HelpKINode Title="IOperationService.CheckProductsSellingRestrictions method" Url="html/M_Resto_Front_Api_IOperationService_CheckProductsSellingRestrictions.htm" />
   <HelpKINode Title="IOperationService.CloseCafeSession method" Url="html/M_Resto_Front_Api_IOperationService_CloseCafeSession.htm" />
   <HelpKINode Title="IOperationService.ClosePersonalSession method" Url="html/M_Resto_Front_Api_IOperationService_ClosePersonalSession.htm" />
@@ -3768,6 +3776,7 @@
   <HelpKINode Title="IOperationService.GetCompoundItemTemplateById method" Url="html/M_Resto_Front_Api_IOperationService_GetCompoundItemTemplateById.htm" />
   <HelpKINode Title="IOperationService.GetCompoundItemTemplates method" Url="html/M_Resto_Front_Api_IOperationService_GetCompoundItemTemplates.htm" />
   <HelpKINode Title="IOperationService.GetConceptionById method" Url="html/M_Resto_Front_Api_IOperationService_GetConceptionById.htm" />
+  <HelpKINode Title="IOperationService.GetCurrentUser method" Url="html/M_Resto_Front_Api_IOperationService_GetCurrentUser.htm" />
   <HelpKINode Title="IOperationService.GetDeletedOrderTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetDeletedOrderTypes.htm" />
   <HelpKINode Title="IOperationService.GetDeliveryCancelCauseById method" Url="html/M_Resto_Front_Api_IOperationService_GetDeliveryCancelCauseById.htm" />
   <HelpKINode Title="IOperationService.GetDeliveryCancelCauses method" Url="html/M_Resto_Front_Api_IOperationService_GetDeliveryCancelCauses.htm" />
@@ -3843,6 +3852,7 @@
   <HelpKINode Title="IOperationService.GetSplittableGroupModifiers method" Url="html/M_Resto_Front_Api_IOperationService_GetSplittableGroupModifiers.htm" />
   <HelpKINode Title="IOperationService.GetSplittableSimpleModifiers method" Url="html/M_Resto_Front_Api_IOperationService_GetSplittableSimpleModifiers.htm" />
   <HelpKINode Title="IOperationService.GetStreetById method" Url="html/M_Resto_Front_Api_IOperationService_GetStreetById.htm" />
+  <HelpKINode Title="IOperationService.GetStrictAccordanceToScheduleUserRole method" Url="html/M_Resto_Front_Api_IOperationService_GetStrictAccordanceToScheduleUserRole.htm" />
   <HelpKINode Title="IOperationService.GetSurveyItemById method" Url="html/M_Resto_Front_Api_IOperationService_GetSurveyItemById.htm" />
   <HelpKINode Title="IOperationService.GetSurveyItems method" Url="html/M_Resto_Front_Api_IOperationService_GetSurveyItems.htm" />
   <HelpKINode Title="IOperationService.GetTableById method" Url="html/M_Resto_Front_Api_IOperationService_GetTableById.htm" />
@@ -4870,6 +4880,8 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_UI_IViewManager.htm" />
   </HelpKINode>
   <HelpKINode Title="IViewManager.ChangeProgressBarMessage method" Url="html/M_Resto_Front_Api_UI_IViewManager_ChangeProgressBarMessage.htm" />
+  <HelpKINode Title="IViewManager.ShowCheckPermissionPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowCheckPermissionPopup.htm" />
+  <HelpKINode Title="IViewManager.ShowCheckPermissionsPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowCheckPermissionsPopup.htm" />
   <HelpKINode Title="IViewManager.ShowChooserPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowChooserPopup.htm" />
   <HelpKINode Title="IViewManager.ShowClosePopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowClosePopup.htm" />
   <HelpKINode Title="IViewManager.ShowErrorPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowErrorPopup.htm" />
@@ -5870,6 +5882,7 @@
   <HelpKINode Title="PermissionDeniedException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_PermissionDeniedException_GetObjectData.htm" />
   <HelpKINode Title="PermissionDeniedException.LocalNames property" Url="html/P_Resto_Front_Api_Exceptions_PermissionDeniedException_LocalNames.htm" />
   <HelpKINode Title="PermissionDeniedException.PermissionDeniedException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_PermissionDeniedException__ctor.htm" />
+  <HelpKINode Title="PermissionsCheckMode enumeration" Url="html/T_Resto_Front_Api_PermissionsCheckMode.htm" />
   <HelpKINode Title="PersonalDataConsent property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_PersonalDataConsent.htm" />
   <HelpKINode Title="Petrol enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
   <HelpKINode Title="Phone enumeration member">
@@ -7029,6 +7042,7 @@
   <HelpKINode Title="Resto.Front.Api.OperationContexts namespace" Url="html/N_Resto_Front_Api_OperationContexts.htm" />
   <HelpKINode Title="Resto.Front.Api.OperationContexts.INavigatingToPaymentScreenOperationContext interface" Url="html/T_Resto_Front_Api_OperationContexts_INavigatingToPaymentScreenOperationContext.htm" />
   <HelpKINode Title="Resto.Front.Api.OperationContexts.PaymentScreenUpdatedContext class" Url="html/T_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext.htm" />
+  <HelpKINode Title="Resto.Front.Api.PermissionsCheckMode enumeration" Url="html/T_Resto_Front_Api_PermissionsCheckMode.htm" />
   <HelpKINode Title="Resto.Front.Api.PluginContext class" Url="html/T_Resto_Front_Api_PluginContext.htm" />
   <HelpKINode Title="Resto.Front.Api.RemotingHelpers namespace" Url="html/N_Resto_Front_Api_RemotingHelpers.htm" />
   <HelpKINode Title="Resto.Front.Api.RemotingHelpers.DisconnectableMarshalByRefObject class" Url="html/T_Resto_Front_Api_RemotingHelpers_DisconnectableMarshalByRefObject.htm" />
@@ -7225,6 +7239,8 @@
   <HelpKINode Title="Seventh enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Severity enumeration" Url="html/T_Resto_Front_Api_Data_JournalEvents_Severity.htm" />
   <HelpKINode Title="ShouldRemind property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_ShouldRemind.htm" />
+  <HelpKINode Title="ShowCheckPermissionPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowCheckPermissionPopup.htm" />
+  <HelpKINode Title="ShowCheckPermissionsPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowCheckPermissionsPopup.htm" />
   <HelpKINode Title="ShowChooserPopup method" Url="html/M_Resto_Front_Api_UI_IViewManager_ShowChooserPopup.htm" />
   <HelpKINode Title="ShowChooserPopup(Of T) method" Url="html/M_Resto_Front_Api_Extensions_ViewManagerExtensions_ShowChooserPopup__1.htm" />
   <HelpKINode Title="ShowChooserPopup&lt;T&gt; method" Url="html/M_Resto_Front_Api_Extensions_ViewManagerExtensions_ShowChooserPopup__1.htm" />
