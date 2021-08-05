@@ -2054,12 +2054,12 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -3883,7 +3883,7 @@
   <HelpKINode Title="IOperationService.IsDeliveryActive method" Url="html/M_Resto_Front_Api_IOperationService_IsDeliveryActive.htm" />
   <HelpKINode Title="IOperationService.IsDeliveryConfirmationActive method" Url="html/M_Resto_Front_Api_IOperationService_IsDeliveryConfirmationActive.htm" />
   <HelpKINode Title="IOperationService.IsMultiCashRegisterConfiguration method" Url="html/M_Resto_Front_Api_IOperationService_IsMultiCashRegisterConfiguration.htm" />
-  <HelpKINode Title="IOperationService.IsOrderHasEInvoice method" Url="html/M_Resto_Front_Api_IOperationService_IsOrderHasEInvoice.htm" />
+  <HelpKINode Title="IOperationService.IsOrderHasVatInvoice method" Url="html/M_Resto_Front_Api_IOperationService_IsOrderHasVatInvoice.htm" />
   <HelpKINode Title="IOperationService.IsProductSellingRestricted method" Url="html/M_Resto_Front_Api_IOperationService_IsProductSellingRestricted.htm" />
   <HelpKINode Title="IOperationService.NeedToSplitOrderBeforePayment method" Url="html/M_Resto_Front_Api_IOperationService_NeedToSplitOrderBeforePayment.htm" />
   <HelpKINode Title="IOperationService.OpenCafeSession method" Url="html/M_Resto_Front_Api_IOperationService_OpenCafeSession.htm" />
@@ -4697,7 +4697,7 @@
   <HelpKINode Title="IsOfdElectronicChequeOnly property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_IsOfdElectronicChequeOnly.htm" />
   <HelpKINode Title="IsOfdSupported property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_IsOfdSupported.htm" />
   <HelpKINode Title="IsOfdVersionHigher10 property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_IsOfdVersionHigher10.htm" />
-  <HelpKINode Title="IsOrderHasEInvoice method" Url="html/M_Resto_Front_Api_IOperationService_IsOrderHasEInvoice.htm" />
+  <HelpKINode Title="IsOrderHasVatInvoice method" Url="html/M_Resto_Front_Api_IOperationService_IsOrderHasVatInvoice.htm" />
   <HelpKINode Title="IsPreliminary property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsPreliminary.htm" />
   <HelpKINode Title="IsPrepay property">
     <HelpKINode Title="IPastOrderPayment.IsPrepay Property " Url="html/P_Resto_Front_Api_Data_Orders_IPastOrderPayment_IsPrepay.htm" />
