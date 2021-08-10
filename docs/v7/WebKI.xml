@@ -2062,8 +2062,8 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -3266,6 +3266,7 @@
   <HelpKINode Title="IEditSession.RenameOrderGuest method" Url="html/M_Resto_Front_Api_Editors_IEditSession_RenameOrderGuest.htm" />
   <HelpKINode Title="IEditSession.ReopenReserve method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ReopenReserve.htm" />
   <HelpKINode Title="IEditSession.ResetIsPrintedDeliveryBillActual method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ResetIsPrintedDeliveryBillActual.htm" />
+  <HelpKINode Title="IEditSession.ResetOderLastChangeTimeByWaiter method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ResetOderLastChangeTimeByWaiter.htm" />
   <HelpKINode Title="IEditSession.ResetPriceCategory method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ResetPriceCategory.htm" />
   <HelpKINode Title="IEditSession.ServeOrderCookingItem method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ServeOrderCookingItem.htm" />
   <HelpKINode Title="IEditSession.SetCompoundItemComponentCustomName method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetCompoundItemComponentCustomName.htm" />
@@ -5699,6 +5700,7 @@
   <HelpKINode Title="OperationServiceExtensions.RenameOrderGuest method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_RenameOrderGuest.htm" />
   <HelpKINode Title="OperationServiceExtensions.ReopenReserve method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ReopenReserve.htm" />
   <HelpKINode Title="OperationServiceExtensions.ResetIsPrintedDeliveryBillActual method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ResetIsPrintedDeliveryBillActual.htm" />
+  <HelpKINode Title="OperationServiceExtensions.ResetOderLastChangeTimeByWaiter method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ResetOderLastChangeTimeByWaiter.htm" />
   <HelpKINode Title="OperationServiceExtensions.ResetPriceCategory method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ResetPriceCategory.htm" />
   <HelpKINode Title="OperationServiceExtensions.ServeOrderCookingItem method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ServeOrderCookingItem.htm" />
   <HelpKINode Title="OperationServiceExtensions.SetCompoundItemComponentCustomName method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetCompoundItemComponentCustomName.htm" />
@@ -6496,6 +6498,10 @@
   <HelpKINode Title="ResetIsPrintedDeliveryBillActual method">
     <HelpKINode Title="IEditSession.ResetIsPrintedDeliveryBillActual Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ResetIsPrintedDeliveryBillActual.htm" />
     <HelpKINode Title="OperationServiceExtensions.ResetIsPrintedDeliveryBillActual Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ResetIsPrintedDeliveryBillActual.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResetOderLastChangeTimeByWaiter method">
+    <HelpKINode Title="IEditSession.ResetOderLastChangeTimeByWaiter Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ResetOderLastChangeTimeByWaiter.htm" />
+    <HelpKINode Title="OperationServiceExtensions.ResetOderLastChangeTimeByWaiter Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ResetOderLastChangeTimeByWaiter.htm" />
   </HelpKINode>
   <HelpKINode Title="ResetPriceCategory method">
     <HelpKINode Title="IEditSession.ResetPriceCategory Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ResetPriceCategory.htm" />
