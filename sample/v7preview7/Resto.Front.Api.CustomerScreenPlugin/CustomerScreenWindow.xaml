@@ -1,0 +1,56 @@
+﻿<Window x:Class="Resto.Front.Api.TestPlugin.View.CustomerScreenWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:Resources="clr-namespace:Resto.Front.Localization.Resources" 
+        xmlns:Controls="clr-namespace:Resto.Front.Api.TestPlugin.View.Controls"
+        FontFamily="{DynamicResource default_FontFamily}"
+        FontSize="{DynamicResource FontSizeNormal}"
+        WindowStartupLocation="Manual"
+        Background="{DynamicResource defaultWindowBg}"
+        WindowStyle="None"
+        BorderThickness="0"
+        ShowActivated="False"
+        x:Name="customerScreenWindow"  
+         Title="{x:Static Resources:CustomerScreenLocalResources.WindowTitle}">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Resto.Front.Common;component/Resources/ResourceDictionaryDefaults.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Resto.Front.Common;component/Resources/ResourceDictionary_iikoFront.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Resto.Front.CustomerScreen;component/Resources/CustomerResourceDictionary.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Resto.Front.Common;component/Resources/LogoDictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <Style TargetType="Grid">
+                <Setter Property="VerticalAlignment" Value="Stretch" />
+                <Setter Property="HorizontalAlignment" Value="Stretch" />
+            </Style>
+        </ResourceDictionary>        
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="720" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="576"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <!-- Зона Верх-Лево -->
+        <Grid Grid.Row="0" Grid.Column="0"  Background="{StaticResource customerZoneLeftTopBackColor}">
+            <Controls:CustomerMediaControl HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" x:Name="mediaControl"/>
+        </Grid>
+        
+        <!-- Зона Верх-Право -->
+        <Grid  Grid.Row="0" Grid.Column="1" Background="{StaticResource customerZoneRightTopBackColor}" >
+            <Controls:CustomerOrderItemsControl HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="6"
+                Visibility="{Binding Path=Linear.Count, Converter={StaticResource ChainConverter}, ConverterParameter={StaticResource NotZeroToVisibilityConverters}, FallbackValue=Collapsed}" />
+        </Grid>
+
+        <!-- Зона Низ -->
+        <Grid  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Background="{StaticResource customerZoneBottomBackColor}" >
+            <Controls:CustomerResultSumControl />
+        </Grid>
+    </Grid>
+</Window>

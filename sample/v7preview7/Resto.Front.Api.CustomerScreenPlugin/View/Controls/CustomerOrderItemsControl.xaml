@@ -1,0 +1,230 @@
+﻿<UserControl x:Class="Resto.Front.Api.CustomerScreen.View.Controls.CustomerOrderItemsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:converters="clr-namespace:Resto.Front.Api.CustomerScreen.Converters" 
+             xmlns:viewModel="clr-namespace:Resto.Front.Api.CustomerScreen.ViewModel" 
+             xmlns:resources="clr-namespace:Resto.Front.Api.CustomerScreen.Resources"
+             xmlns:helpers="clr-namespace:Resto.Front.Api.CustomerScreen.Helpers">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\..\Resources\CustomerResourceDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <Style x:Key="ListItemTextBlockStyle" TargetType="{x:Type TextBlock}">
+                <Setter Property="FontFamily" Value="{DynamicResource customerFontFamily}" />
+                <Setter Property="Foreground" Value="{DynamicResource customerFontColorMenu}" />
+                <Setter Property="FontSize" Value="{DynamicResource customerOrderFontSize}" />
+                <Setter Property="LineHeight" Value="{DynamicResource FontSizeLargeM}" />
+                <Setter Property="LineStackingStrategy" Value="BlockLineHeight" />
+                <Setter Property="HorizontalAlignment" Value="Left" />
+                <Setter Property="VerticalAlignment" Value="Bottom" />
+            </Style>
+
+            <Style x:Key="ListHeaderTextBlockStyle" BasedOn="{StaticResource ListItemTextBlockStyle}" TargetType="{x:Type TextBlock}">
+                <Setter Property="FontSize" Value="{DynamicResource customerOrderHeaderFontSize}" />
+            </Style>
+
+            <Style x:Key="OrderItemStyle" TargetType="{x:Type ContentControl}">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="Foreground" Value="{StaticResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type ContentControl}">
+                            <ContentPresenter SnapsToDevicePixels="true" />
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <DataTemplate x:Key="OrderItemGuestTemplate">
+                <Border VerticalAlignment="Stretch" HorizontalAlignment="Stretch" CornerRadius="0,6,6,0">
+                    <Grid Margin="0,1,0,1" Background="Transparent" VerticalAlignment="Stretch">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Border Grid.Column="1" Background="Transparent" VerticalAlignment="Stretch">
+                            <Border VerticalAlignment="Center">
+                                <TextBlock Text="{Binding Path=Name, Mode=OneWay}" Margin="3,3,3,3"
+                                   Style="{StaticResource ListItemTextBlockStyle}" x:Name="txtName"
+                                   FontWeight="Bold" Foreground="{DynamicResource customerFontColorMenu}"
+                                   TextWrapping="Wrap" TextTrimming="CharacterEllipsis"
+                                   HorizontalAlignment="Left" />
+                            </Border>
+                        </Border>
+                    </Grid>
+                </Border>
+            </DataTemplate>
+
+
+            <DataTemplate x:Key="OrderItemProductTemplate">
+                <Border VerticalAlignment="Stretch" x:Name="pnlBack" HorizontalAlignment="Stretch" CornerRadius="0,6,6,0">
+                    <Grid Background="Transparent" VerticalAlignment="Stretch" x:Name="grdBack">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Border Grid.Column="0"  Background="Transparent" VerticalAlignment="Stretch">
+                            <Border VerticalAlignment="Center">
+                                <TextBlock x:Name="txtName" Text="{Binding Path=Name, Mode=OneWay}"
+                                    Style="{StaticResource ListItemTextBlockStyle}" LineStackingStrategy="BlockLineHeight"                              
+                                    TextWrapping="Wrap" TextTrimming="CharacterEllipsis" />
+                            </Border>
+                        </Border>
+
+                        <Border Grid.Column="1" Background="Transparent" VerticalAlignment="Center" HorizontalAlignment="Left" >
+                            <Grid HorizontalAlignment="Stretch" VerticalAlignment="Center" x:Name="countGrid" Margin="0,0,3,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="{Binding Path=IntegerAmountPart, Mode=OneWay}"
+                                       Style="{StaticResource ListItemTextBlockStyle}" x:Name="txtIntPart"
+                                       TextAlignment="Right" HorizontalAlignment="Right" />
+                                <TextBlock Text="{Binding Path=FractionalAmountPart, Mode=OneWay}"
+                                       Grid.Column="1" Style="{StaticResource ListItemTextBlockStyle}" x:Name="txtFractPart"
+                                       TextAlignment="Left" />
+                            </Grid>
+                        </Border>
+
+                        <Grid Grid.Column="2">
+                            <Border x:Name="brdPrice"
+                                Background="Transparent" SnapsToDevicePixels="True">
+                                <Border VerticalAlignment="Center">
+                                    <TextBlock x:Name="itemPrice"
+                                       Text="{Binding Path=Price, Converter={StaticResource DecimalToMoneyConverter},
+                                        ConverterParameter={x:Static converters:MoneyDisplayFormat.NumbersOnly}}"
+                                       Margin="3" HorizontalAlignment="Right"
+                                                Style="{StaticResource ListItemTextBlockStyle}" />
+                                </Border>
+                            </Border>
+                        </Grid>
+                        <Border Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Stretch" Height="1" x:Name="deleteItemStroke" Grid.ColumnSpan="3" 
+                            Visibility="Collapsed" SnapsToDevicePixels="True" Background ="{DynamicResource customerFontColorMenu}">
+                        </Border>
+                    </Grid>
+                </Border>
+            </DataTemplate>
+
+            <DataTemplate x:Key="OrderItemModifierTemplate">
+                <Border VerticalAlignment="Stretch" HorizontalAlignment="Stretch" x:Name="pnlBack" CornerRadius="0,6,6,0">
+                    <Grid Background="Transparent" VerticalAlignment="Stretch">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Border Grid.Column="0"  Background="Transparent" VerticalAlignment="Stretch">
+                            <Border VerticalAlignment="Center">
+                                <TextBlock x:Name="itemName" Text="{Binding Path=Name, Mode=OneWay}"
+                                   Style="{StaticResource ListItemTextBlockStyle}" Margin="23,3,3,3"
+                                   Background="Transparent"
+                                   TextWrapping="Wrap" TextTrimming="CharacterEllipsis" FontStyle="Italic"
+                                   HorizontalAlignment="Left" />
+                            </Border>
+                        </Border>
+
+                        <Border VerticalAlignment="Center" Grid.Column="1"  >
+                            <TextBlock Text="{Binding Path=Amount, Mode=OneWay}"
+                                   Style="{StaticResource ListItemTextBlockStyle}" FontStyle="Italic"
+                                   HorizontalAlignment="Left" />
+                        </Border>
+
+                        <Border Grid.Column="2" 
+                        Background="Transparent" Margin="0,-1,0,-1"  SnapsToDevicePixels="True">
+                            <Border VerticalAlignment="Center">
+                                <TextBlock x:Name="itemPrice"
+                                   Text="{Binding Path=Price, Converter={StaticResource DecimalToMoneyConverter},
+                                    ConverterParameter={x:Static converters:MoneyDisplayFormat.NumbersOnly}}"
+                                   Style="{StaticResource ListItemTextBlockStyle}" 
+                                   Margin="3" HorizontalAlignment="Right"/>
+                            </Border>
+                        </Border>
+                        <Border Grid.Column="0" x:Name="deleteStroke" VerticalAlignment="Center" 
+                                HorizontalAlignment="Stretch" Height="1" Grid.ColumnSpan="3" 
+                       Background ="{DynamicResource customerFontColorMenu}" Visibility="Collapsed" SnapsToDevicePixels="True">
+                        </Border>
+                    </Grid>
+                </Border>
+            </DataTemplate>
+
+            <helpers:DictionaryDataTemplateSelector x:Key="DataTemplateSelector">
+                <helpers:DictionaryDataTemplateSelector.Options>
+                    <ResourceDictionary>
+                        <!--DataTemplate для гостя-->
+                        <DataTemplate x:Key="{x:Type viewModel:OrderItemGuest}">
+                            <ContentPresenter ContentTemplate="{StaticResource OrderItemGuestTemplate}" />
+                        </DataTemplate>
+                        <!--DataTemplate для блюда-->
+                        <DataTemplate x:Key="{x:Type viewModel:OrderItemProduct}">
+                            <ContentPresenter ContentTemplate="{StaticResource OrderItemProductTemplate}" />
+                        </DataTemplate>
+                        <!--DataTemplate для модификатора блюда-->
+                        <DataTemplate x:Key="{x:Type viewModel:OrderItemModifier}">
+                            <ContentPresenter ContentTemplate="{StaticResource OrderItemModifierTemplate}" />
+                        </DataTemplate>
+                    </ResourceDictionary>
+                </helpers:DictionaryDataTemplateSelector.Options>
+            </helpers:DictionaryDataTemplateSelector>
+
+        </ResourceDictionary>
+
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="{x:Static resources:CustomerScreenLocalResources.OrderContent}" FontSize="{DynamicResource customerFontSize}" 
+                   VerticalAlignment="Center"  HorizontalAlignment="Left" Grid.Row="0" Foreground="{DynamicResource customerFontColorMenu}" />
+
+        <Border VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.Row="1" >
+            <Grid Background="Transparent" VerticalAlignment="Stretch">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="{x:Static resources:CustomerScreenLocalResources.ProductName}"
+                           Style="{StaticResource ListHeaderTextBlockStyle}"  Grid.Column="0" />
+
+                <TextBlock Text="{x:Static resources:CustomerScreenLocalResources.Amount}"
+                           Style="{StaticResource ListHeaderTextBlockStyle}" Grid.Column="1" />
+
+                <TextBlock Text="{x:Static resources:CustomerScreenLocalResources.Price}"
+                           Style="{StaticResource ListHeaderTextBlockStyle}" Grid.Column="2" />
+            </Grid>
+        </Border>
+
+        <ScrollViewer x:Name="svItems" VerticalScrollBarVisibility="Hidden"  Grid.Row="2"  >
+            <resources:CustomTypedContainerItemsControl ContainerType="{x:Type ContentControl}" x:Name="lstOrder" Margin="10"
+                                               ItemContainerStyle="{StaticResource OrderItemStyle}" ItemsSource="{Binding Path=Items}"
+                                               ItemTemplateSelector="{StaticResource DataTemplateSelector}" Background="Transparent">
+
+            </resources:CustomTypedContainerItemsControl>
+        </ScrollViewer>
+        <Border Grid.Row="3" VerticalAlignment="Top"  HorizontalAlignment="Stretch" BorderThickness="0,2,0,0"
+                       BorderBrush ="{DynamicResource customerFontColorMenu}" SnapsToDevicePixels="True" >
+
+            <Grid HorizontalAlignment="Stretch"  Grid.Row="3" VerticalAlignment="Bottom" Margin="3" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{x:Static resources:CustomerScreenLocalResources.OrderSum}"  VerticalAlignment="Center"  HorizontalAlignment="Left" Grid.Column="0"
+                       FontSize="{DynamicResource customerOrderFontSize}" Foreground="{DynamicResource customerFontColorMenu}" TextWrapping="Wrap" />
+                <TextBlock Text="{Binding Path=SumBeforeCorrections, Converter={StaticResource DecimalToMoneyConverter},
+                                    ConverterParameter={x:Static converters:MoneyDisplayFormat.NumberAndCurrency}}" VerticalAlignment="Bottom"  HorizontalAlignment="Right" Grid.Column="1"
+                        FontSize="{DynamicResource customerFontSize}" Foreground="{DynamicResource customerFontColorMenu}"/>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>
