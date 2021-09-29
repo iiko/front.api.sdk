@@ -182,6 +182,7 @@
     <HelpKINode Title="AspMvcControllerAttribute.AnonymousProperty Property " Url="html/P_Resto_Front_Api_Attributes_JetBrains_AspMvcControllerAttribute_AnonymousProperty.htm" />
   </HelpKINode>
   <HelpKINode Title="Any enumeration member" Url="html/T_Resto_Front_Api_PermissionsCheckMode.htm" />
+  <HelpKINode Title="AppliedDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_AppliedDiscounts.htm" />
   <HelpKINode Title="AppliedManualConditions property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_AppliedManualConditions.htm" />
   <HelpKINode Title="AskCashierForMultiCashRegisterPayment property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_AskCashierForMultiCashRegisterPayment.htm" />
   <HelpKINode Title="AspChildControlTypeAttribute class">
@@ -2021,14 +2022,6 @@
   <HelpKINode Title="DirectIoResult.Message property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Message.htm" />
   <HelpKINode Title="Directive property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_RazorDirectiveAttribute_Directive.htm" />
   <HelpKINode Title="Disabled enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_CheckSplitRequiredResult.htm" />
-  <HelpKINode Title="DisconnectableMarshalByRefObject class">
-    <HelpKINode Title="DisconnectableMarshalByRefObject Class" Url="html/T_Resto_Front_Api_RemotingHelpers_DisconnectableMarshalByRefObject.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_RemotingHelpers_DisconnectableMarshalByRefObject__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_RemotingHelpers_DisconnectableMarshalByRefObject.htm" />
-  </HelpKINode>
-  <HelpKINode Title="DisconnectableMarshalByRefObject.DisconnectableMarshalByRefObject constructor" Url="html/M_Resto_Front_Api_RemotingHelpers_DisconnectableMarshalByRefObject__ctor.htm" />
-  <HelpKINode Title="DisconnectableMarshalByRefObject.Dispose method" Url="html/M_Resto_Front_Api_RemotingHelpers_DisconnectableMarshalByRefObject_Dispose.htm" />
-  <HelpKINode Title="DisconnectableMarshalByRefObject.InitializeLifetimeService method" Url="html/M_Resto_Front_Api_RemotingHelpers_DisconnectableMarshalByRefObject_InitializeLifetimeService.htm" />
   <HelpKINode Title="Discount property">
     <HelpKINode Title="ChequeSale.Discount Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Discount.htm" />
     <HelpKINode Title="IAppliedDiscountItem.Discount Property " Url="html/P_Resto_Front_Api_Data_Orders_IAppliedDiscountItem_Discount.htm" />
@@ -2077,7 +2070,6 @@
   </HelpKINode>
   <HelpKINode Title="DisplayRelativeNumberOfModifiers property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_DisplayRelativeNumberOfModifiers.htm" />
   <HelpKINode Title="DisplayText property" Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenStatusInfo_DisplayText.htm" />
-  <HelpKINode Title="Dispose method" Url="html/M_Resto_Front_Api_RemotingHelpers_DisconnectableMarshalByRefObject_Dispose.htm" />
   <HelpKINode Title="DoBillCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoBillCheque.htm" />
   <HelpKINode Title="Doc field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Doc.htm" />
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
@@ -2086,19 +2078,19 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2600,7 +2592,6 @@
     <HelpKINode Title="ReceiptSlip.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Cheques_ReceiptSlip_GetObjectData.htm" />
     <HelpKINode Title="SmsSendingResultDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_SmsSendingResultDto_GetObjectData.htm" />
   </HelpKINode>
-  <HelpKINode Title="GetOrderAppliedDiscounts method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderAppliedDiscounts.htm" />
   <HelpKINode Title="GetOrderById method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderById.htm" />
   <HelpKINode Title="GetOrderItemProductGroups method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderItemProductGroups.htm" />
   <HelpKINode Title="GetOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetOrders.htm" />
@@ -3618,7 +3609,6 @@
   <HelpKINode Title="InfoFormat method" Url="html/Overload_Resto_Front_Api_ILog_InfoFormat.htm" />
   <HelpKINode Title="InitialGuestsCount property" Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderDto_InitialGuestsCount.htm" />
   <HelpKINode Title="Initialize method" Url="html/M_Resto_Front_Api_PluginContext_Initialize.htm" />
-  <HelpKINode Title="InitializeLifetimeService method" Url="html/M_Resto_Front_Api_RemotingHelpers_DisconnectableMarshalByRefObject_InitializeLifetimeService.htm" />
   <HelpKINode Title="INotification(Of T) interface">
     <HelpKINode Title="INotification(T) Interface" Url="html/T_Resto_Front_Api_INotification_1.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_INotification_1.htm" />
@@ -3848,7 +3838,6 @@
   <HelpKINode Title="IOperationService.GetMarketingSourceById method" Url="html/M_Resto_Front_Api_IOperationService_GetMarketingSourceById.htm" />
   <HelpKINode Title="IOperationService.GetMarketingSources method" Url="html/M_Resto_Front_Api_IOperationService_GetMarketingSources.htm" />
   <HelpKINode Title="IOperationService.GetModifierAmountString method" Url="html/M_Resto_Front_Api_IOperationService_GetModifierAmountString.htm" />
-  <HelpKINode Title="IOperationService.GetOrderAppliedDiscounts method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderAppliedDiscounts.htm" />
   <HelpKINode Title="IOperationService.GetOrderById method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderById.htm" />
   <HelpKINode Title="IOperationService.GetOrderItemProductGroups method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderItemProductGroups.htm" />
   <HelpKINode Title="IOperationService.GetOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetOrders.htm" />
@@ -4022,6 +4011,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IOrder.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Orders_IOrder.htm" />
   </HelpKINode>
+  <HelpKINode Title="IOrder.AppliedDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_AppliedDiscounts.htm" />
   <HelpKINode Title="IOrder.BillTime property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_BillTime.htm" />
   <HelpKINode Title="IOrder.Cashier property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Cashier.htm" />
   <HelpKINode Title="IOrder.CloseTime property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_CloseTime.htm" />
@@ -7136,8 +7126,6 @@
   <HelpKINode Title="Resto.Front.Api.OperationContexts.PaymentScreenUpdatedContext class" Url="html/T_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext.htm" />
   <HelpKINode Title="Resto.Front.Api.PermissionsCheckMode enumeration" Url="html/T_Resto_Front_Api_PermissionsCheckMode.htm" />
   <HelpKINode Title="Resto.Front.Api.PluginContext class" Url="html/T_Resto_Front_Api_PluginContext.htm" />
-  <HelpKINode Title="Resto.Front.Api.RemotingHelpers namespace" Url="html/N_Resto_Front_Api_RemotingHelpers.htm" />
-  <HelpKINode Title="Resto.Front.Api.RemotingHelpers.DisconnectableMarshalByRefObject class" Url="html/T_Resto_Front_Api_RemotingHelpers_DisconnectableMarshalByRefObject.htm" />
   <HelpKINode Title="Resto.Front.Api.UI namespace" Url="html/N_Resto_Front_Api_UI.htm" />
   <HelpKINode Title="Resto.Front.Api.UI.ButtonWidth enumeration" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
   <HelpKINode Title="Resto.Front.Api.UI.ExtendedInputDialogSettings class" Url="html/T_Resto_Front_Api_UI_ExtendedInputDialogSettings.htm" />
