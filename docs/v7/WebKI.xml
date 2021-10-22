@@ -1416,7 +1416,7 @@
   <HelpKINode Title="ChequeTask.OfdEmail property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OfdEmail.htm" />
   <HelpKINode Title="ChequeTask.OfdPhoneNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OfdPhoneNumber.htm" />
   <HelpKINode Title="ChequeTask.OperationTime property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OperationTime.htm" />
-  <HelpKINode Title="ChequeTask.PrepaymentId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentId.htm" />
+  <HelpKINode Title="ChequeTask.PrepaymentIds property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentIds.htm" />
   <HelpKINode Title="ChequeTask.PrepaymentSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentSum.htm" />
   <HelpKINode Title="ChequeTask.RoundSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_RoundSum.htm" />
   <HelpKINode Title="ChequeTask.SettlementAddress property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_SettlementAddress.htm" />
@@ -2089,8 +2089,8 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
@@ -4170,6 +4170,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Screens_IOrderPayScreen.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Screens_IOrderPayScreen.htm" />
   </HelpKINode>
+  <HelpKINode Title="IOrderPayScreen.PaymentSplitMode property" Url="html/P_Resto_Front_Api_Data_Screens_IOrderPayScreen_PaymentSplitMode.htm" />
   <HelpKINode Title="IOrderProductItem interface">
     <HelpKINode Title="IOrderProductItem Interface" Url="html/T_Resto_Front_Api_Data_Orders_IOrderProductItem.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IOrderProductItem.htm" />
@@ -5941,6 +5942,12 @@
   <HelpKINode Title="PaymentScreenUpdatedContext.IsEInvoice property" Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_IsEInvoice.htm" />
   <HelpKINode Title="PaymentScreenUpdatedContext.OrderId property" Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_OrderId.htm" />
   <HelpKINode Title="PaymentScreenUpdatedContext.Payments property" Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_Payments.htm" />
+  <HelpKINode Title="PaymentScreenUpdatedContext.PaymentSplitMode property" Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_PaymentSplitMode.htm" />
+  <HelpKINode Title="PaymentSplitMode enumeration" Url="html/T_Resto_Front_Api_Data_Payments_PaymentSplitMode.htm" />
+  <HelpKINode Title="PaymentSplitMode property">
+    <HelpKINode Title="IOrderPayScreen.PaymentSplitMode Property " Url="html/P_Resto_Front_Api_Data_Screens_IOrderPayScreen_PaymentSplitMode.htm" />
+    <HelpKINode Title="PaymentScreenUpdatedContext.PaymentSplitMode Property " Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_PaymentSplitMode.htm" />
+  </HelpKINode>
   <HelpKINode Title="PaymentStatus enumeration" Url="html/T_Resto_Front_Api_Data_Orders_PaymentStatus.htm" />
   <HelpKINode Title="PaymentSystemKey property" Url="html/P_Resto_Front_Api_IPaymentProcessor_PaymentSystemKey.htm" />
   <HelpKINode Title="PaymentSystemName property" Url="html/P_Resto_Front_Api_IPaymentProcessor_PaymentSystemName.htm" />
@@ -6144,7 +6151,7 @@
   <HelpKINode Title="PreliminaryOrderItemProduct.PreliminaryOrderItemProduct constructor" Url="html/Overload_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemProduct__ctor.htm" />
   <HelpKINode Title="PreliminaryOrderItemProduct.ProductSize property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemProduct_ProductSize.htm" />
   <HelpKINode Title="PrepareDeliveryForSending method" Url="html/M_Resto_Front_Api_IOperationService_PrepareDeliveryForSending.htm" />
-  <HelpKINode Title="PrepaymentId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentId.htm" />
+  <HelpKINode Title="PrepaymentIds property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentIds.htm" />
   <HelpKINode Title="PrepaymentSum property">
     <HelpKINode Title="ChequeTask.PrepaymentSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentSum.htm" />
     <HelpKINode Title="CorrectionTask.PrepaymentSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_CorrectionTask_PrepaymentSum.htm" />
@@ -6968,6 +6975,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Payments.IPaymentItemAdditionalData interface" Url="html/T_Resto_Front_Api_Data_Payments_IPaymentItemAdditionalData.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.IPaymentType interface" Url="html/T_Resto_Front_Api_Data_Payments_IPaymentType.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.OrganizationDetailsInfo class" Url="html/T_Resto_Front_Api_Data_Payments_OrganizationDetailsInfo.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.PaymentSplitMode enumeration" Url="html/T_Resto_Front_Api_Data_Payments_PaymentSplitMode.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.PaymentTypeKind enumeration" Url="html/T_Resto_Front_Api_Data_Payments_PaymentTypeKind.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.PlastekPaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_PlastekPaymentItemAdditionalData.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.PlaziusPaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData.htm" />
@@ -7415,6 +7423,8 @@
   </HelpKINode>
   <HelpKINode Title="SourceTemplateAttribute.SourceTemplateAttribute constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_SourceTemplateAttribute__ctor.htm" />
   <HelpKINode Title="SplitBetweenPersons property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_SplitBetweenPersons.htm" />
+  <HelpKINode Title="SplitByDish enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_PaymentSplitMode.htm" />
+  <HelpKINode Title="SplitByPrice enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_PaymentSplitMode.htm" />
   <HelpKINode Title="SplitOrderBetweenCashRegisters method" Url="html/M_Resto_Front_Api_IOperationService_SplitOrderBetweenCashRegisters.htm" />
   <HelpKINode Title="SplitOrderCookingItem method">
     <HelpKINode Title="IEditSession.SplitOrderCookingItem Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_SplitOrderCookingItem.htm" />
@@ -7883,6 +7893,7 @@
   <HelpKINode Title="Warnings property" Url="html/P_Resto_Front_Api_Data_Device_Results_OkResult_Warnings.htm" />
   <HelpKINode Title="WasPrepaid property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_WasPrepaid.htm" />
   <HelpKINode Title="Weight property" Url="html/P_Resto_Front_Api_Data_Device_Results_ScaleWeightResult_Weight.htm" />
+  <HelpKINode Title="WholeOrder enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_PaymentSplitMode.htm" />
   <HelpKINode Title="Wide enumeration member" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
   <HelpKINode Title="Wider enumeration member" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
   <HelpKINode Title="Width field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_Width.htm" />
