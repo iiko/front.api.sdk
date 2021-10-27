@@ -166,7 +166,7 @@
     <HelpKINode Title="PreliminaryOrderItemModifier.Amount Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemModifier_Amount.htm" />
     <HelpKINode Title="PreliminaryOrderItemProduct.Amount Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemProduct_Amount.htm" />
   </HelpKINode>
-  <HelpKINode Title="AmountDenominator property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12_AmountDenominator.htm" />
+  <HelpKINode Title="AmountDenominator property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_AmountDenominator.htm" />
   <HelpKINode Title="AmountIndependentOfParentAmount property">
     <HelpKINode Title="IChildModifierBase.AmountIndependentOfParentAmount Property " Url="html/P_Resto_Front_Api_Data_Assortment_IChildModifierBase_AmountIndependentOfParentAmount.htm" />
     <HelpKINode Title="IKitchenOrderModifierItem.AmountIndependentOfParentAmount Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderModifierItem_AmountIndependentOfParentAmount.htm" />
@@ -174,7 +174,7 @@
     <HelpKINode Title="ISimpleModifierBase.AmountIndependentOfParentAmount Property " Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_AmountIndependentOfParentAmount.htm" />
     <HelpKINode Title="KitchenOrderModifierItemDto.AmountIndependentOfParentAmount Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderModifierItemDto_AmountIndependentOfParentAmount.htm" />
   </HelpKINode>
-  <HelpKINode Title="AmountNumerator property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12_AmountNumerator.htm" />
+  <HelpKINode Title="AmountNumerator property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_AmountNumerator.htm" />
   <HelpKINode Title="Angle property" Url="html/P_Resto_Front_Api_Data_View_RestaurantSectionObject_Angle.htm" />
   <HelpKINode Title="AnonymousProperty property">
     <HelpKINode Title="AspMvcActionAttribute.AnonymousProperty Property " Url="html/P_Resto_Front_Api_Attributes_JetBrains_AspMvcActionAttribute_AnonymousProperty.htm" />
@@ -467,7 +467,6 @@
   <HelpKINode Title="Barcode property">
     <HelpKINode Title="BarcodeInputDialogResult.Barcode Property " Url="html/P_Resto_Front_Api_Data_View_BarcodeInputDialogResult_Barcode.htm" />
     <HelpKINode Title="IBarcodeContainer.Barcode Property " Url="html/P_Resto_Front_Api_Data_Assortment_IBarcodeContainer_Barcode.htm" />
-    <HelpKINode Title="MarkingFfd12.Barcode Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12_Barcode.htm" />
   </HelpKINode>
   <HelpKINode Title="BarcodeContainers property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_BarcodeContainers.htm" />
   <HelpKINode Title="BarcodeInputDialogResult class">
@@ -1380,13 +1379,13 @@
   <HelpKINode Title="ChequeSale.Contractor property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Contractor.htm" />
   <HelpKINode Title="ChequeSale.Discount property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Discount.htm" />
   <HelpKINode Title="ChequeSale.DiscountSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_DiscountSum.htm" />
+  <HelpKINode Title="ChequeSale.Ffd12 property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Ffd12.htm" />
   <HelpKINode Title="ChequeSale.GtinCode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_GtinCode.htm" />
   <HelpKINode Title="ChequeSale.GuestName property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_GuestName.htm" />
   <HelpKINode Title="ChequeSale.Increase property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Increase.htm" />
   <HelpKINode Title="ChequeSale.IncreaseSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_IncreaseSum.htm" />
   <HelpKINode Title="ChequeSale.IsTaxable property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_IsTaxable.htm" />
   <HelpKINode Title="ChequeSale.ItemCategory property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_ItemCategory.htm" />
-  <HelpKINode Title="ChequeSale.MarkingFfd12 property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_MarkingFfd12.htm" />
   <HelpKINode Title="ChequeSale.Name property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Name.htm" />
   <HelpKINode Title="ChequeSale.Price property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Price.htm" />
   <HelpKINode Title="ChequeSale.ProductId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_ProductId.htm" />
@@ -2083,14 +2082,14 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
@@ -2359,6 +2358,20 @@
   <HelpKINode Title="ExternalPaymentItemAdditionalData.GetHashCode method" Url="html/M_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData_GetHashCode.htm" />
   <HelpKINode Title="FastCode property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_FastCode.htm" />
   <HelpKINode Title="Female enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_Gender.htm" />
+  <HelpKINode Title="Ffd12 property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Ffd12.htm" />
+  <HelpKINode Title="Ffd12ChequeSaleData class">
+    <HelpKINode Title="Ffd12ChequeSaleData Class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Ffd12ChequeSaleData.AmountDenominator property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_AmountDenominator.htm" />
+  <HelpKINode Title="Ffd12ChequeSaleData.AmountNumerator property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_AmountNumerator.htm" />
+  <HelpKINode Title="Ffd12ChequeSaleData.Ffd12ChequeSaleData constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData__ctor.htm" />
+  <HelpKINode Title="Ffd12ChequeSaleData.IsFractionalAmount property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_IsFractionalAmount.htm" />
+  <HelpKINode Title="Ffd12ChequeSaleData.MarkingCode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_MarkingCode.htm" />
+  <HelpKINode Title="Ffd12ChequeSaleData.Status property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_Status.htm" />
+  <HelpKINode Title="Ffd12ChequeSaleData.Unit property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_Unit.htm" />
   <HelpKINode Title="FieldName property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_RazorInjectionAttribute_FieldName.htm" />
   <HelpKINode Title="Fifth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Fill field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Fill.htm" />
@@ -4718,7 +4731,7 @@
   <HelpKINode Title="ISetting.Key property" Url="html/P_Resto_Front_Api_Data_Settings_ISetting_Key.htm" />
   <HelpKINode Title="IsExternal property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsExternal.htm" />
   <HelpKINode Title="IsFiscalizedExternally property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedExternally.htm" />
-  <HelpKINode Title="IsFractionalAmount property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12_IsFractionalAmount.htm" />
+  <HelpKINode Title="IsFractionalAmount property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_IsFractionalAmount.htm" />
   <HelpKINode Title="IsHidden property">
     <HelpKINode Title="IPaymentType.IsHidden Property " Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_IsHidden.htm" />
     <HelpKINode Title="KitchenOrderModifierItemDto.IsHidden Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderModifierItemDto_IsHidden.htm" />
@@ -5192,22 +5205,9 @@
   </HelpKINode>
   <HelpKINode Title="MarketingSourceChanged property" Url="html/P_Resto_Front_Api_INotificationService_MarketingSourceChanged.htm" />
   <HelpKINode Title="MarketingSourceRequired property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_MarketingSourceRequired.htm" />
+  <HelpKINode Title="MarkingCode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_MarkingCode.htm" />
   <HelpKINode Title="MarkingCodes property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_UkraineChequeSaleData_MarkingCodes.htm" />
   <HelpKINode Title="MarkingCodeType property" Url="html/P_Resto_Front_Api_Data_Device_Results_CheckFfd12MarkingResult_MarkingCodeType.htm" />
-  <HelpKINode Title="MarkingFfd12 class">
-    <HelpKINode Title="MarkingFfd12 Class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12.htm" />
-  </HelpKINode>
-  <HelpKINode Title="MarkingFfd12 property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_MarkingFfd12.htm" />
-  <HelpKINode Title="MarkingFfd12.AmountDenominator property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12_AmountDenominator.htm" />
-  <HelpKINode Title="MarkingFfd12.AmountNumerator property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12_AmountNumerator.htm" />
-  <HelpKINode Title="MarkingFfd12.Barcode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12_Barcode.htm" />
-  <HelpKINode Title="MarkingFfd12.IsFractionalAmount property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12_IsFractionalAmount.htm" />
-  <HelpKINode Title="MarkingFfd12.MarkingFfd12 constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12__ctor.htm" />
-  <HelpKINode Title="MarkingFfd12.Status property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12_Status.htm" />
-  <HelpKINode Title="MarkingFfd12.Unit property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12_Unit.htm" />
   <HelpKINode Title="MarkingParseResult property" Url="html/P_Resto_Front_Api_Data_Device_Results_CheckFfd12MarkingResult_MarkingParseResult.htm" />
   <HelpKINode Title="MarkOrderAsTab method">
     <HelpKINode Title="IEditSession.MarkOrderAsTab Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_MarkOrderAsTab.htm" />
@@ -6865,7 +6865,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.CorrectionReasonEnum enumeration" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CorrectionReasonEnum.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.CorrectionTask class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CorrectionTask.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.CustomerDisplayTextTask class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CustomerDisplayTextTask.htm" />
-  <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.MarkingFfd12 class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.Ffd12ChequeSaleData class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.ParameterExecute class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ParameterExecute.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.RequiredParameter class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_RequiredParameter.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.SupportedCommand class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_SupportedCommand.htm" />
@@ -7448,12 +7448,12 @@
   <HelpKINode Title="State enumeration" Url="html/T_Resto_Front_Api_Data_Device_State.htm" />
   <HelpKINode Title="State property" Url="html/P_Resto_Front_Api_Data_Device_Results_DeviceInfo_State.htm" />
   <HelpKINode Title="Status property">
+    <HelpKINode Title="Ffd12ChequeSaleData.Status Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_Status.htm" />
     <HelpKINode Title="IOrder.Status Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Status.htm" />
     <HelpKINode Title="IOrderRootItem.Status Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderRootItem_Status.htm" />
     <HelpKINode Title="IPaymentItem.Status Property " Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_Status.htm" />
     <HelpKINode Title="IReserve.Status Property " Url="html/P_Resto_Front_Api_Data_Brd_IReserve_Status.htm" />
     <HelpKINode Title="KitchenStatusInfo.Status Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenStatusInfo_Status.htm" />
-    <HelpKINode Title="MarkingFfd12.Status Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12_Status.htm" />
   </HelpKINode>
   <HelpKINode Title="StatusBarInfo enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="StatusBarInfo property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_StatusBarInfo.htm" />
@@ -7769,7 +7769,7 @@
     <HelpKINode Title="OperationServiceExtensions.UngroupOrderCookingItems Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_UngroupOrderCookingItems.htm" />
   </HelpKINode>
   <HelpKINode Title="Uninitialize method" Url="html/M_Resto_Front_Api_PluginContext_Uninitialize.htm" />
-  <HelpKINode Title="Unit property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_MarkingFfd12_Unit.htm" />
+  <HelpKINode Title="Unit property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_Unit.htm" />
   <HelpKINode Title="Unknown enumeration member">
     <HelpKINode Title="PaymentTypeKind Enumeration" Url="html/T_Resto_Front_Api_Data_Payments_PaymentTypeKind.htm" />
     <HelpKINode Title="State Enumeration" Url="html/T_Resto_Front_Api_Data_Device_State.htm" />
