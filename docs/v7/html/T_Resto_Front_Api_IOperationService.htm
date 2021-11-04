@@ -88,6 +88,8 @@
             Executes the callback function as one continuous operation by providing temporary instance of <span class="selflink">IOperationService</span>,
             which holds internal locks taken on lockable entities (such as order) until the operation ends.
             It's strongly recommended to avoid potentially obstructive calls in the callback, i.e network calls, heavy I/O or CPU-bound calls, thread blocking and so on, because touched entities will remain locked for a long time.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_FormatDocumentOnPrintingDevice.htm">FormatDocumentOnPrintingDevice</a></td><td><div class="summary">
+            Format document markup on specified printer.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetActivePaymentTypes.htm">GetActivePaymentTypes</a></td><td><div class="summary">
             Returns active payment types bound to the specified processor.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetActiveProducts.htm">GetActiveProducts</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetActiveRemovalTypes.htm">GetActiveRemovalTypes</a></td><td><div class="summary">
@@ -310,6 +312,8 @@
             Prints short “Table reserved” document with estimated event date and time, guests count and client contacts. Can be used to place onto reserved table as a hint not to occupy it.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_ProcessPrepay.htm">ProcessPrepay</a></td><td><div class="summary">
             Processes existing payment item. Payment item should be processed externally or supports silent processing.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_RegisterBeforePrintDocumentHandler.htm">RegisterBeforePrintDocumentHandler</a></td><td><div class="summary">
+            Allows to add custom markup to the document header and footer. Refer to <a href="T_Resto_Front_Api_Data_Print_Document.htm">Document</a> for description of document extension.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_RegisterCashRegisterFactory.htm">RegisterCashRegisterFactory</a></td><td><div class="summary">
             Registers cash register factory.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_RegisterChequeTaskProcessor.htm">RegisterChequeTaskProcessor</a></td><td><div class="summary">
