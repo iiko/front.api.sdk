@@ -1735,6 +1735,7 @@
   <HelpKINode Title="CrmId property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_CrmId.htm" />
   <HelpKINode Title="Culture property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_Culture.htm" />
   <HelpKINode Title="Currency property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_Currency.htm" />
+  <HelpKINode Title="CurrentCultureChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentCultureChanged.htm" />
   <HelpKINode Title="CurrentUserChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentUserChanged.htm" />
   <HelpKINode Title="CustomApiData property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_CustomApiData.htm" />
   <HelpKINode Title="CustomData property" Url="html/P_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData_CustomData.htm" />
@@ -2086,12 +2087,12 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2099,8 +2100,8 @@
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -3431,6 +3432,7 @@
   </HelpKINode>
   <HelpKINode Title="IHostTerminalSettings.Culture property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_Culture.htm" />
   <HelpKINode Title="IHostTerminalSettings.IsMainTerminal property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_IsMainTerminal.htm" />
+  <HelpKINode Title="IHostTerminalSettings.UICulture property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_UICulture.htm" />
   <HelpKINode Title="IIikoCard51OrderInfo interface">
     <HelpKINode Title="IIikoCard51OrderInfo Interface" Url="html/T_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo.htm" />
@@ -3689,6 +3691,7 @@
   <HelpKINode Title="INotificationService.CityChanged property" Url="html/P_Resto_Front_Api_INotificationService_CityChanged.htm" />
   <HelpKINode Title="INotificationService.ClientChanged property" Url="html/P_Resto_Front_Api_INotificationService_ClientChanged.htm" />
   <HelpKINode Title="INotificationService.CompoundItemTemplateChanged property" Url="html/P_Resto_Front_Api_INotificationService_CompoundItemTemplateChanged.htm" />
+  <HelpKINode Title="INotificationService.CurrentCultureChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentCultureChanged.htm" />
   <HelpKINode Title="INotificationService.CurrentUserChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentUserChanged.htm" />
   <HelpKINode Title="INotificationService.DeliveryCancelCauseChanged property" Url="html/P_Resto_Front_Api_INotificationService_DeliveryCancelCauseChanged.htm" />
   <HelpKINode Title="INotificationService.DeliveryOrderChanged property" Url="html/P_Resto_Front_Api_INotificationService_DeliveryOrderChanged.htm" />
@@ -7771,6 +7774,7 @@
     <HelpKINode Title="RazorInjectionAttribute.Type Property " Url="html/P_Resto_Front_Api_Attributes_JetBrains_RazorInjectionAttribute_Type.htm" />
     <HelpKINode Title="RequiredParameter.Type Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_RequiredParameter_Type.htm" />
   </HelpKINode>
+  <HelpKINode Title="UICulture property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_UICulture.htm" />
   <HelpKINode Title="UkraineChequeSaleData class">
     <HelpKINode Title="UkraineChequeSaleData Class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_UkraineChequeSaleData.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_UkraineChequeSaleData__ctor.htm" />
