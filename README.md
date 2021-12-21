@@ -23,6 +23,7 @@ Links:
 - [Code reference API V5](https://iiko.github.io/front.api.sdk/v5/) (obsolete).
 - [Code reference API V6](https://iiko.github.io/front.api.sdk/v6/) (current).
 - [Code reference API V7](https://iiko.github.io/front.api.sdk/v7/) (preview).
+- [Code reference Web API](https://iiko.github.io/front.api.sdk/WebApiServer/).
 - [Help topics](https://iiko.github.io/front.api.doc/) (available only in russian at the moment).
 - [Official site of iiko APIs](http://help.iiko.ru/articles/api-documentations/getting-started).
 - [Sample](https://github.com/iiko/front.api.sdk/tree/master/sample).

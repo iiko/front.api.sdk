@@ -1,0 +1,1119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AccountingReasonCode property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_AccountingReasonCode.htm" />
+  <HelpKINode Title="AddErrorMessage method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_AddErrorMessage.htm" />
+  <HelpKINode Title="AddNotificationMessage method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_AddNotificationMessage.htm" />
+  <HelpKINode Title="Address property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_Address.htm" />
+  <HelpKINode Title="AddWarningMessage method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_AddWarningMessage.htm" />
+  <HelpKINode Title="All enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_CanDeleteOrdersOutOfCafeSession.htm" />
+  <HelpKINode Title="AllowProductsCombining property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_CompoundItemTemplate_AllowProductsCombining.htm" />
+  <HelpKINode Title="Amount property">
+    <HelpKINode Title="KitchenOrderCompoundItemComponent.Amount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItemComponent_Amount.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.Amount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Amount.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.Amount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Amount.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AmountIndependentOfParentAmount property">
+    <HelpKINode Title="ChildModifier.AmountIndependentOfParentAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier_AmountIndependentOfParentAmount.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.AmountIndependentOfParentAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_AmountIndependentOfParentAmount.htm" />
+    <HelpKINode Title="SimpleModifier.AmountIndependentOfParentAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier_AmountIndependentOfParentAmount.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AskCashierForMultiCashRegisterPayment property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_AskCashierForMultiCashRegisterPayment.htm" />
+  <HelpKINode Title="AuthenticateByPin method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_AuthenticateByPin.htm" />
+  <HelpKINode Title="BackgroundColor property">
+    <HelpKINode Title="Product.BackgroundColor Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_BackgroundColor.htm" />
+    <HelpKINode Title="ProductGroup.BackgroundColor Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_BackgroundColor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseOrderId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_BaseOrderId.htm" />
+  <HelpKINode Title="BaseOrderItemId property">
+    <HelpKINode Title="IKitchenOrderCookingItem.BaseOrderItemId Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_BaseOrderItemId.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.BaseOrderItemId Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_BaseOrderItemId.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.BaseOrderItemId Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_BaseOrderItemId.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseOrderModifierId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_BaseOrderModifierId.htm" />
+  <HelpKINode Title="Building property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress_Building.htm" />
+  <HelpKINode Title="CanApplyManually property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory_CanApplyManually.htm" />
+  <HelpKINode Title="CanDeleteOrdersOutOfCafeSession enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_CanDeleteOrdersOutOfCafeSession.htm" />
+  <HelpKINode Title="CanDeleteOrdersOutOfCafeSession property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_CanDeleteOrdersOutOfCafeSession.htm" />
+  <HelpKINode Title="CanSetOpenPrice property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_CanSetOpenPrice.htm" />
+  <HelpKINode Title="Card property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_Card.htm" />
+  <HelpKINode Title="CashRegister property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PointOfSale_CashRegister.htm" />
+  <HelpKINode Title="Category property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Category.htm" />
+  <HelpKINode Title="CellPhone property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_CellPhone.htm" />
+  <HelpKINode Title="ChangeKitchenOrderItemsProcessingStatus method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_ChangeKitchenOrderItemsProcessingStatus.htm" />
+  <HelpKINode Title="ChildGroups property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_ChildGroups.htm" />
+  <HelpKINode Title="ChildModifier class">
+    <HelpKINode Title="ChildModifier Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChildModifier.AmountIndependentOfParentAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier_AmountIndependentOfParentAmount.htm" />
+  <HelpKINode Title="ChildModifier.ChildModifier constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier__ctor.htm" />
+  <HelpKINode Title="ChildModifier.DefaultAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier_DefaultAmount.htm" />
+  <HelpKINode Title="ChildModifier.FreeOfChargeAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier_FreeOfChargeAmount.htm" />
+  <HelpKINode Title="ChildModifier.HideIfDefaultAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier_HideIfDefaultAmount.htm" />
+  <HelpKINode Title="ChildModifier.MaximumAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier_MaximumAmount.htm" />
+  <HelpKINode Title="ChildModifier.MinimumAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier_MinimumAmount.htm" />
+  <HelpKINode Title="ChildModifier.Product property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier_Product.htm" />
+  <HelpKINode Title="ChildProducts property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_ChildProducts.htm" />
+  <HelpKINode Title="City property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress_City.htm" />
+  <HelpKINode Title="CloseCafeSession method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_CloseCafeSession.htm" />
+  <HelpKINode Title="ClosePersonalSession method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_ClosePersonalSession.htm" />
+  <HelpKINode Title="Code property">
+    <HelpKINode Title="Conception.Code Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Conception_Code.htm" />
+    <HelpKINode Title="PriceCategory.Code Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory_Code.htm" />
+    <HelpKINode Title="User.Code Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_Code.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Comment property">
+    <HelpKINode Title="IKitchenOrderCookingItem.Comment Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Comment.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.Comment Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Comment.htm" />
+    <HelpKINode Title="KitchenOrderCookingItemComment.Comment Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCookingItemComment_Comment.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.Comment Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Comment.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Common enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderServiceTypes.htm" />
+  <HelpKINode Title="CommonModifiers property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_CommonModifiers.htm" />
+  <HelpKINode Title="CompanyName property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_CompanyName.htm" />
+  <HelpKINode Title="CompoundItemTemplate class">
+    <HelpKINode Title="CompoundItemTemplate Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_CompoundItemTemplate.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_CompoundItemTemplate__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_CompoundItemTemplate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CompoundItemTemplate.AllowProductsCombining property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_CompoundItemTemplate_AllowProductsCombining.htm" />
+  <HelpKINode Title="CompoundItemTemplate.CompoundItemTemplate constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_CompoundItemTemplate__ctor.htm" />
+  <HelpKINode Title="CompoundItemTemplate.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_CompoundItemTemplate_Id.htm" />
+  <HelpKINode Title="CompoundItemTemplate.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_CompoundItemTemplate_Name.htm" />
+  <HelpKINode Title="CompoundItemTemplate.Scale property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_CompoundItemTemplate_Scale.htm" />
+  <HelpKINode Title="Conception class">
+    <HelpKINode Title="Conception Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_Conception.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_Conception__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_Conception.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Conception property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PointOfSale_Conception.htm" />
+  <HelpKINode Title="Conception.Code property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Conception_Code.htm" />
+  <HelpKINode Title="Conception.Conception constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_Conception__ctor.htm" />
+  <HelpKINode Title="Conception.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Conception_Id.htm" />
+  <HelpKINode Title="Conception.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Conception_Name.htm" />
+  <HelpKINode Title="CookingPriority property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_CookingPriority.htm" />
+  <HelpKINode Title="CookingTime property">
+    <HelpKINode Title="IKitchenOrderCookingItem.CookingTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_CookingTime.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.CookingTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_CookingTime.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.CookingTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_CookingTime.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.CookingTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_CookingTime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Country property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress_Country.htm" />
+  <HelpKINode Title="Course property">
+    <HelpKINode Title="IKitchenOrderCookingItem.Course Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Course.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.Course Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Course.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.Course Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Course.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Created enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_EntityEventType.htm" />
+  <HelpKINode Title="Credentials class">
+    <HelpKINode Title="Credentials Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_Credentials.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_Credentials__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_Credentials.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Credentials.Credentials constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_Credentials__ctor.htm" />
+  <HelpKINode Title="Credentials.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Credentials_Id.htm" />
+  <HelpKINode Title="CrmId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_CrmId.htm" />
+  <HelpKINode Title="Culture property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_HostTerminalSettings_Culture.htm" />
+  <HelpKINode Title="Currency property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_Currency.htm" />
+  <HelpKINode Title="CurrencySettings class">
+    <HelpKINode Title="CurrencySettings Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_CurrencySettings.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_CurrencySettings__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_CurrencySettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CurrencySettings.CurrencySettings constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_CurrencySettings__ctor.htm" />
+  <HelpKINode Title="CurrencySettings.FormatInfo property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_CurrencySettings_FormatInfo.htm" />
+  <HelpKINode Title="CurrencySettings.MinimumDenomination property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_CurrencySettings_MinimumDenomination.htm" />
+  <HelpKINode Title="CurrencySettings.ShowFractionalPart property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_CurrencySettings_ShowFractionalPart.htm" />
+  <HelpKINode Title="Default enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderItemCourse.htm" />
+  <HelpKINode Title="DefaultAmount property">
+    <HelpKINode Title="ChildModifier.DefaultAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier_DefaultAmount.htm" />
+    <HelpKINode Title="SimpleModifier.DefaultAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier_DefaultAmount.htm" />
+    <HelpKINode Title="TemplatedModifierParams.DefaultAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams_DefaultAmount.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefaultCourse property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_DefaultCourse.htm" />
+  <HelpKINode Title="DefaultSize property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductScale_DefaultSize.htm" />
+  <HelpKINode Title="DefaultTable property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_DefaultTable.htm" />
+  <HelpKINode Title="Deleted property">
+    <HelpKINode Title="IKitchenOrderCookingItem.Deleted Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Deleted.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.Deleted Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Deleted.htm" />
+    <HelpKINode Title="KitchenOrderCookingItemComment.Deleted Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCookingItemComment_Deleted.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.Deleted Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Deleted.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.Deleted Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Deleted.htm" />
+    <HelpKINode Title="PriceCategory.Deleted Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory_Deleted.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeliveryByClient enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderServiceTypes.htm" />
+  <HelpKINode Title="DeliveryByCourier enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderServiceTypes.htm" />
+  <HelpKINode Title="DepartmentCode property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_DepartmentCode.htm" />
+  <HelpKINode Title="DepartmentId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_DepartmentId.htm" />
+  <HelpKINode Title="Description property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Description.htm" />
+  <HelpKINode Title="DescriptionForeign property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_DescriptionForeign.htm" />
+  <HelpKINode Title="DisabledSizes property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_DisabledSizes.htm" />
+  <HelpKINode Title="Dish enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductType.htm" />
+  <HelpKINode Title="DisplayRelativeNumberOfModifiers property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_DisplayRelativeNumberOfModifiers.htm" />
+  <HelpKINode Title="Dispose method" Url="html/M_Resto_Front_Api_WebApiServer_Services_NotificationsApi_Dispose.htm" />
+  <HelpKINode Title="Eighth enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderItemCourse.htm" />
+  <HelpKINode Title="Employee enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_UserType.htm" />
+  <HelpKINode Title="Entity property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1_Entity.htm" />
+  <HelpKINode Title="EntityChangedEventArgs(Of T) structure">
+    <HelpKINode Title="EntityChangedEventArgs(T) Structure" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EntityChangedEventArgs(Of T).Entity property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1_Entity.htm" />
+  <HelpKINode Title="EntityChangedEventArgs(Of T).EntityChangedEventArgs constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1__ctor.htm" />
+  <HelpKINode Title="EntityChangedEventArgs(Of T).EventType property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1_EventType.htm" />
+  <HelpKINode Title="EntityChangedEventArgs&lt;T&gt; structure">
+    <HelpKINode Title="EntityChangedEventArgs(T) Structure" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EntityChangedEventArgs&lt;T&gt;.Entity property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1_Entity.htm" />
+  <HelpKINode Title="EntityChangedEventArgs&lt;T&gt;.EntityChangedEventArgs constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1__ctor.htm" />
+  <HelpKINode Title="EntityChangedEventArgs&lt;T&gt;.EventType property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1_EventType.htm" />
+  <HelpKINode Title="EntityEventType enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_EntityEventType.htm" />
+  <HelpKINode Title="EstimatedCookingBeginTime property">
+    <HelpKINode Title="IKitchenOrderCookingItem.EstimatedCookingBeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_EstimatedCookingBeginTime.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.EstimatedCookingBeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_EstimatedCookingBeginTime.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.EstimatedCookingBeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_EstimatedCookingBeginTime.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.EstimatedCookingBeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_EstimatedCookingBeginTime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventType property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1_EventType.htm" />
+  <HelpKINode Title="ExpirationTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_ExpirationTime.htm" />
+  <HelpKINode Title="ExternalGoods enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductType.htm" />
+  <HelpKINode Title="FastCode property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_FastCode.htm" />
+  <HelpKINode Title="Fifth enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderItemCourse.htm" />
+  <HelpKINode Title="FillOnOrderBill enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderTypeFillRequirements.htm" />
+  <HelpKINode Title="FillOnOrderCreate enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderTypeFillRequirements.htm" />
+  <HelpKINode Title="FillOnServicePrint enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderTypeFillRequirements.htm" />
+  <HelpKINode Title="First enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderItemCourse.htm" />
+  <HelpKINode Title="FontColor property">
+    <HelpKINode Title="Product.FontColor Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_FontColor.htm" />
+    <HelpKINode Title="ProductGroup.FontColor Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_FontColor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FoodValueCaloricity property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_FoodValueCaloricity.htm" />
+  <HelpKINode Title="FoodValueCarbohydrate property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_FoodValueCarbohydrate.htm" />
+  <HelpKINode Title="FoodValueFat property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_FoodValueFat.htm" />
+  <HelpKINode Title="FoodValueProtein property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_FoodValueProtein.htm" />
+  <HelpKINode Title="ForeignName property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_ForeignName.htm" />
+  <HelpKINode Title="FormatInfo property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_CurrencySettings_FormatInfo.htm" />
+  <HelpKINode Title="ForPurchase enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductType.htm" />
+  <HelpKINode Title="Fourth enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderItemCourse.htm" />
+  <HelpKINode Title="FreeOfChargeAmount property">
+    <HelpKINode Title="ChildModifier.FreeOfChargeAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier_FreeOfChargeAmount.htm" />
+    <HelpKINode Title="GroupModifier.FreeOfChargeAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier_FreeOfChargeAmount.htm" />
+    <HelpKINode Title="SimpleModifier.FreeOfChargeAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier_FreeOfChargeAmount.htm" />
+    <HelpKINode Title="TemplatedModifierParams.FreeOfChargeAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams_FreeOfChargeAmount.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FullName property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_FullName.htm" />
+  <HelpKINode Title="GetActiveProducts method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetActiveProducts.htm" />
+  <HelpKINode Title="GetAllProducts method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetAllProducts.htm" />
+  <HelpKINode Title="GetCommonGroupModifiers method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetCommonGroupModifiers.htm" />
+  <HelpKINode Title="GetCommonSimpleModifiers method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetCommonSimpleModifiers.htm" />
+  <HelpKINode Title="GetCompoundItemTemplateById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetCompoundItemTemplateById.htm" />
+  <HelpKINode Title="GetCompoundItemTemplates method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetCompoundItemTemplates.htm" />
+  <HelpKINode Title="GetConceptionById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetConceptionById.htm" />
+  <HelpKINode Title="GetCurrentUser method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetCurrentUser.htm" />
+  <HelpKINode Title="GetDeletedOrderTypes method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetDeletedOrderTypes.htm" />
+  <HelpKINode Title="GetGroupModifiers method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetGroupModifiers.htm" />
+  <HelpKINode Title="GetHostAgentId method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetHostAgentId.htm" />
+  <HelpKINode Title="GetHostRestaurant method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetHostRestaurant.htm" />
+  <HelpKINode Title="GetHostTerminal method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetHostTerminal.htm" />
+  <HelpKINode Title="GetHostTerminalPointsOfSale method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetHostTerminalPointsOfSale.htm" />
+  <HelpKINode Title="GetHostTerminalSettings method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetHostTerminalSettings.htm" />
+  <HelpKINode Title="GetHostTerminalsGroup method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetHostTerminalsGroup.htm" />
+  <HelpKINode Title="GetIncludedInMenuSectionsByProduct method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetIncludedInMenuSectionsByProduct.htm" />
+  <HelpKINode Title="GetKitchenOrderById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetKitchenOrderById.htm" />
+  <HelpKINode Title="GetKitchenOrders method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetKitchenOrders.htm" />
+  <HelpKINode Title="GetModifierAmountString method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetModifierAmountString.htm" />
+  <HelpKINode Title="GetOrderTypeById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetOrderTypeById.htm" />
+  <HelpKINode Title="GetOrderTypes method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetOrderTypes.htm" />
+  <HelpKINode Title="GetOrganizationFingerprint method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetOrganizationFingerprint.htm" />
+  <HelpKINode Title="GetPointOfSaleById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetPointOfSaleById.htm" />
+  <HelpKINode Title="GetPrice method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetPrice.htm" />
+  <HelpKINode Title="GetPriceCategories method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetPriceCategories.htm" />
+  <HelpKINode Title="GetPriceCategoryById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetPriceCategoryById.htm" />
+  <HelpKINode Title="GetProductById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductById.htm" />
+  <HelpKINode Title="GetProductCategories method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductCategories.htm" />
+  <HelpKINode Title="GetProductCategoryById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductCategoryById.htm" />
+  <HelpKINode Title="GetProductGroupById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductGroupById.htm" />
+  <HelpKINode Title="GetProductGroups method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductGroups.htm" />
+  <HelpKINode Title="GetProductScaleById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductScaleById.htm" />
+  <HelpKINode Title="GetProductScales method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductScales.htm" />
+  <HelpKINode Title="GetProductScaleSizes method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductScaleSizes.htm" />
+  <HelpKINode Title="GetProductSizeById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductSizeById.htm" />
+  <HelpKINode Title="GetProductSizes method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductSizes.htm" />
+  <HelpKINode Title="GetProductsRemainingAmounts method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductsRemainingAmounts.htm" />
+  <HelpKINode Title="GetRestaurantSectionById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetRestaurantSectionById.htm" />
+  <HelpKINode Title="GetRestaurantSections method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetRestaurantSections.htm" />
+  <HelpKINode Title="GetRoleById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetRoleById.htm" />
+  <HelpKINode Title="GetRoles method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetRoles.htm" />
+  <HelpKINode Title="GetSimpleModifiers method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetSimpleModifiers.htm" />
+  <HelpKINode Title="GetSplittableGroupModifiers method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetSplittableGroupModifiers.htm" />
+  <HelpKINode Title="GetSplittableSimpleModifiers method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetSplittableSimpleModifiers.htm" />
+  <HelpKINode Title="GetStrictAccordanceToScheduleUserRole method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetStrictAccordanceToScheduleUserRole.htm" />
+  <HelpKINode Title="GetTableById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTableById.htm" />
+  <HelpKINode Title="GetTables method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTables.htm" />
+  <HelpKINode Title="GetTerminalById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTerminalById.htm" />
+  <HelpKINode Title="GetTerminals method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTerminals.htm" />
+  <HelpKINode Title="GetTerminalsGroupById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTerminalsGroupById.htm" />
+  <HelpKINode Title="GetTerminalsGroupPointsOfSale method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTerminalsGroupPointsOfSale.htm" />
+  <HelpKINode Title="GetTerminalsGroupRestaurantSections method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTerminalsGroupRestaurantSections.htm" />
+  <HelpKINode Title="GetTerminalsGroups method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTerminalsGroups.htm" />
+  <HelpKINode Title="GetTerminalsGroupTerminals method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTerminalsGroupTerminals.htm" />
+  <HelpKINode Title="GetUser method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetUser.htm" />
+  <HelpKINode Title="GetUserById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetUserById.htm" />
+  <HelpKINode Title="GetUserRoles method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetUserRoles.htm" />
+  <HelpKINode Title="GetUsers method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetUsers.htm" />
+  <HelpKINode Title="Goods enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductType.htm" />
+  <HelpKINode Title="GroupModifier class">
+    <HelpKINode Title="GroupModifier Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GroupModifier.FreeOfChargeAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier_FreeOfChargeAmount.htm" />
+  <HelpKINode Title="GroupModifier.GroupModifier constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier__ctor.htm" />
+  <HelpKINode Title="GroupModifier.Items property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier_Items.htm" />
+  <HelpKINode Title="GroupModifier.MaximumAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier_MaximumAmount.htm" />
+  <HelpKINode Title="GroupModifier.MenuIndex property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier_MenuIndex.htm" />
+  <HelpKINode Title="GroupModifier.MinimumAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier_MinimumAmount.htm" />
+  <HelpKINode Title="GroupModifier.ProductGroup property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier_ProductGroup.htm" />
+  <HelpKINode Title="Guest enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_UserType.htm" />
+  <HelpKINode Title="HalfFinishedGoods enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductType.htm" />
+  <HelpKINode Title="HasMenuImage property">
+    <HelpKINode Title="Product.HasMenuImage Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_HasMenuImage.htm" />
+    <HelpKINode Title="ProductGroup.HasMenuImage Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_HasMenuImage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HideIfDefaultAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier_HideIfDefaultAmount.htm" />
+  <HelpKINode Title="HostTerminalSettings class">
+    <HelpKINode Title="HostTerminalSettings Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_HostTerminalSettings.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_HostTerminalSettings__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_HostTerminalSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HostTerminalSettings.Culture property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_HostTerminalSettings_Culture.htm" />
+  <HelpKINode Title="HostTerminalSettings.HostTerminalSettings constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_HostTerminalSettings__ctor.htm" />
+  <HelpKINode Title="HostTerminalSettings.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_HostTerminalSettings_Id.htm" />
+  <HelpKINode Title="HostTerminalSettings.IsMainTerminal property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_HostTerminalSettings_IsMainTerminal.htm" />
+  <HelpKINode Title="House property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress_House.htm" />
+  <HelpKINode Title="Id property">
+    <HelpKINode Title="CompoundItemTemplate.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_CompoundItemTemplate_Id.htm" />
+    <HelpKINode Title="Conception.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Conception_Id.htm" />
+    <HelpKINode Title="Credentials.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Credentials_Id.htm" />
+    <HelpKINode Title="HostTerminalSettings.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_HostTerminalSettings_Id.htm" />
+    <HelpKINode Title="IKitchenOrderCookingItem.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Id.htm" />
+    <HelpKINode Title="KitchenOrder.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_Id.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Id.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Id.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Id.htm" />
+    <HelpKINode Title="OrderType.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType_Id.htm" />
+    <HelpKINode Title="PointOfSale.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PointOfSale_Id.htm" />
+    <HelpKINode Title="PriceCategory.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory_Id.htm" />
+    <HelpKINode Title="Product.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Id.htm" />
+    <HelpKINode Title="ProductCategory.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductCategory_Id.htm" />
+    <HelpKINode Title="ProductGroup.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_Id.htm" />
+    <HelpKINode Title="ProductScale.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductScale_Id.htm" />
+    <HelpKINode Title="ProductSize.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductSize_Id.htm" />
+    <HelpKINode Title="RestaurantSection.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_RestaurantSection_Id.htm" />
+    <HelpKINode Title="Role.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Role_Id.htm" />
+    <HelpKINode Title="Table.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Table_Id.htm" />
+    <HelpKINode Title="Terminal.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Terminal_Id.htm" />
+    <HelpKINode Title="TerminalsGroup.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_Id.htm" />
+    <HelpKINode Title="User.Id Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_Id.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Idle enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderItemProcessingStatus.htm" />
+  <HelpKINode Title="IikoUid property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_IikoUid.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem interface">
+    <HelpKINode Title="IKitchenOrderCookingItem Interface" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IKitchenOrderCookingItem.BaseOrderItemId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_BaseOrderItemId.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.Comment property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Comment.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.CookingTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_CookingTime.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.Course property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Course.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.Deleted property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Deleted.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.EstimatedCookingBeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_EstimatedCookingBeginTime.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Id.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.IsCookingStarted property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_IsCookingStarted.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.Kitchen property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Kitchen.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.PrintTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_PrintTime.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.Processing1BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Processing1BeginTime.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.Processing2BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Processing2BeginTime.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.Processing3BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Processing3BeginTime.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.Processing4BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Processing4BeginTime.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.ProcessingCompleteTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_ProcessingCompleteTime.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.ProcessingStatus property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_ProcessingStatus.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.ServeGroupNumber property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_ServeGroupNumber.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.ServeTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_ServeTime.htm" />
+  <HelpKINode Title="IKitchenOrderCookingItem.Size property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Size.htm" />
+  <HelpKINode Title="ImmediateCookingStart property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_ImmediateCookingStart.htm" />
+  <HelpKINode Title="IncludedInMenuSections property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_IncludedInMenuSections.htm" />
+  <HelpKINode Title="InsuranceNumber property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_InsuranceNumber.htm" />
+  <HelpKINode Title="IsActive property">
+    <HelpKINode Title="OrderType.IsActive Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType_IsActive.htm" />
+    <HelpKINode Title="Product.IsActive Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_IsActive.htm" />
+    <HelpKINode Title="Table.IsActive Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Table_IsActive.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsAllCafeSessionsClosed method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_IsAllCafeSessionsClosed.htm" />
+  <HelpKINode Title="IsAllCafeSessionsOpen method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_IsAllCafeSessionsOpen.htm" />
+  <HelpKINode Title="IsCookingStarted property">
+    <HelpKINode Title="IKitchenOrderCookingItem.IsCookingStarted Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_IsCookingStarted.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.IsCookingStarted Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_IsCookingStarted.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.IsCookingStarted Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_IsCookingStarted.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsDefaultForServiceType property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType_IsDefaultForServiceType.htm" />
+  <HelpKINode Title="IsDeliveryActive method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_IsDeliveryActive.htm" />
+  <HelpKINode Title="IsDeliveryConfirmationActive method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_IsDeliveryConfirmationActive.htm" />
+  <HelpKINode Title="IsMainTerminal property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_HostTerminalSettings_IsMainTerminal.htm" />
+  <HelpKINode Title="IsMultiCashRegisterConfiguration method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_IsMultiCashRegisterConfiguration.htm" />
+  <HelpKINode Title="IsProductSellingRestricted method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_IsProductSellingRestricted.htm" />
+  <HelpKINode Title="IsRoundingDownOrderSum property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_IsRoundingDownOrderSum.htm" />
+  <HelpKINode Title="IsRoundingPricePerUnit property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_IsRoundingPricePerUnit.htm" />
+  <HelpKINode Title="IsSeparate property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_IsSeparate.htm" />
+  <HelpKINode Title="IsSessionOpen property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_IsSessionOpen.htm" />
+  <HelpKINode Title="IsTabMode property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_IsTabMode.htm" />
+  <HelpKINode Title="IsTopCookingPriority property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_IsTopCookingPriority.htm" />
+  <HelpKINode Title="Items property">
+    <HelpKINode Title="GroupModifier.Items Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier_Items.htm" />
+    <HelpKINode Title="KitchenOrder.Items Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_Items.htm" />
+  </HelpKINode>
+  <HelpKINode Title="JsonRpc property" Url="html/P_Resto_Front_Api_WebApiServer_Services_JsonRpcNotification_JsonRpc.htm" />
+  <HelpKINode Title="JsonRpcNotification class">
+    <HelpKINode Title="JsonRpcNotification Class" Url="html/T_Resto_Front_Api_WebApiServer_Services_JsonRpcNotification.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_WebApiServer_Services_JsonRpcNotification__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Services_JsonRpcNotification.htm" />
+  </HelpKINode>
+  <HelpKINode Title="JsonRpcNotification.JsonRpc property" Url="html/P_Resto_Front_Api_WebApiServer_Services_JsonRpcNotification_JsonRpc.htm" />
+  <HelpKINode Title="JsonRpcNotification.JsonRpcNotification constructor" Url="html/Overload_Resto_Front_Api_WebApiServer_Services_JsonRpcNotification__ctor.htm" />
+  <HelpKINode Title="JsonRpcNotification.Method property" Url="html/P_Resto_Front_Api_WebApiServer_Services_JsonRpcNotification_Method.htm" />
+  <HelpKINode Title="JsonRpcNotification.Params property" Url="html/P_Resto_Front_Api_WebApiServer_Services_JsonRpcNotification_Params.htm" />
+  <HelpKINode Title="Kitchen property">
+    <HelpKINode Title="IKitchenOrderCookingItem.Kitchen Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Kitchen.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.Kitchen Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Kitchen.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.Kitchen Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Kitchen.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.Kitchen Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Kitchen.htm" />
+  </HelpKINode>
+  <HelpKINode Title="KitchenName property">
+    <HelpKINode Title="Product.KitchenName Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_KitchenName.htm" />
+    <HelpKINode Title="ProductSize.KitchenName Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductSize_KitchenName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="KitchenOrder class">
+    <HelpKINode Title="KitchenOrder Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder.htm" />
+  </HelpKINode>
+  <HelpKINode Title="KitchenOrder.BaseOrderId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_BaseOrderId.htm" />
+  <HelpKINode Title="KitchenOrder.CookingPriority property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_CookingPriority.htm" />
+  <HelpKINode Title="KitchenOrder.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_Id.htm" />
+  <HelpKINode Title="KitchenOrder.IsTopCookingPriority property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_IsTopCookingPriority.htm" />
+  <HelpKINode Title="KitchenOrder.Items property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_Items.htm" />
+  <HelpKINode Title="KitchenOrder.KitchenOrder constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder__ctor.htm" />
+  <HelpKINode Title="KitchenOrder.Number property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_Number.htm" />
+  <HelpKINode Title="KitchenOrder.OrderType property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_OrderType.htm" />
+  <HelpKINode Title="KitchenOrder.Table property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_Table.htm" />
+  <HelpKINode Title="KitchenOrder.Waiter property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_Waiter.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem class">
+    <HelpKINode Title="KitchenOrderCompoundItem Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="KitchenOrderCompoundItem.BaseOrderItemId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_BaseOrderItemId.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.Comment property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Comment.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.CommonModifiers property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_CommonModifiers.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.CookingTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_CookingTime.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.Course property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Course.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.Deleted property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Deleted.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.EstimatedCookingBeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_EstimatedCookingBeginTime.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Id.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.IsCookingStarted property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_IsCookingStarted.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.Kitchen property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Kitchen.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.KitchenOrderCompoundItem constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem__ctor.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.PrimaryComponent property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_PrimaryComponent.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.PrintTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_PrintTime.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.Processing1BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Processing1BeginTime.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.Processing2BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Processing2BeginTime.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.Processing3BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Processing3BeginTime.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.Processing4BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Processing4BeginTime.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.ProcessingCompleteTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_ProcessingCompleteTime.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.ProcessingStatus property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_ProcessingStatus.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.SecondaryComponent property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_SecondaryComponent.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.ServeGroupNumber property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_ServeGroupNumber.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.ServeTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_ServeTime.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.Size property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Size.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItem.Template property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Template.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItemComponent class">
+    <HelpKINode Title="KitchenOrderCompoundItemComponent Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItemComponent.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItemComponent__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItemComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="KitchenOrderCompoundItemComponent.Amount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItemComponent_Amount.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItemComponent.KitchenOrderCompoundItemComponent constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItemComponent__ctor.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItemComponent.Modifiers property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItemComponent_Modifiers.htm" />
+  <HelpKINode Title="KitchenOrderCompoundItemComponent.Product property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItemComponent_Product.htm" />
+  <HelpKINode Title="KitchenOrderCookingItemComment class">
+    <HelpKINode Title="KitchenOrderCookingItemComment Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCookingItemComment.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCookingItemComment__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCookingItemComment.htm" />
+  </HelpKINode>
+  <HelpKINode Title="KitchenOrderCookingItemComment.Comment property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCookingItemComment_Comment.htm" />
+  <HelpKINode Title="KitchenOrderCookingItemComment.Deleted property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCookingItemComment_Deleted.htm" />
+  <HelpKINode Title="KitchenOrderCookingItemComment.KitchenOrderCookingItemComment constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCookingItemComment__ctor.htm" />
+  <HelpKINode Title="KitchenOrderItemProcessingStatus enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderItemProcessingStatus.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem class">
+    <HelpKINode Title="KitchenOrderModifierItem Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="KitchenOrderModifierItem.Amount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Amount.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.AmountIndependentOfParentAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_AmountIndependentOfParentAmount.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.BaseOrderModifierId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_BaseOrderModifierId.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.CookingTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_CookingTime.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.Deleted property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Deleted.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.EstimatedCookingBeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_EstimatedCookingBeginTime.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Id.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.IsSeparate property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_IsSeparate.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.Kitchen property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Kitchen.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.KitchenOrderModifierItem constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem__ctor.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.Processing1BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Processing1BeginTime.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.Processing2BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Processing2BeginTime.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.Processing3BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Processing3BeginTime.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.Processing4BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Processing4BeginTime.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.ProcessingCompleteTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_ProcessingCompleteTime.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.ProcessingStatus property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_ProcessingStatus.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.Product property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Product.htm" />
+  <HelpKINode Title="KitchenOrderModifierItem.ServeTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_ServeTime.htm" />
+  <HelpKINode Title="KitchenOrderProductItem class">
+    <HelpKINode Title="KitchenOrderProductItem Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="KitchenOrderProductItem.Amount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Amount.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.BaseOrderItemId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_BaseOrderItemId.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.Comment property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Comment.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.CookingTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_CookingTime.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.Course property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Course.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.Deleted property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Deleted.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.EstimatedCookingBeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_EstimatedCookingBeginTime.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Id.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.IsCookingStarted property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_IsCookingStarted.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.Kitchen property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Kitchen.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.KitchenOrderProductItem constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem__ctor.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.Modifiers property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Modifiers.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.PrintTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_PrintTime.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.Processing1BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Processing1BeginTime.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.Processing2BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Processing2BeginTime.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.Processing3BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Processing3BeginTime.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.Processing4BeginTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Processing4BeginTime.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.ProcessingCompleteTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_ProcessingCompleteTime.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.ProcessingStatus property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_ProcessingStatus.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.Product property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Product.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.ServeGroupNumber property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_ServeGroupNumber.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.ServeTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_ServeTime.htm" />
+  <HelpKINode Title="KitchenOrderProductItem.Size property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Size.htm" />
+  <HelpKINode Title="LegalAddress class">
+    <HelpKINode Title="LegalAddress Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LegalAddress property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_LegalAddress.htm" />
+  <HelpKINode Title="LegalAddress.Building property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress_Building.htm" />
+  <HelpKINode Title="LegalAddress.City property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress_City.htm" />
+  <HelpKINode Title="LegalAddress.Country property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress_Country.htm" />
+  <HelpKINode Title="LegalAddress.House property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress_House.htm" />
+  <HelpKINode Title="LegalAddress.LegalAddress constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress__ctor.htm" />
+  <HelpKINode Title="LegalAddress.Street property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress_Street.htm" />
+  <HelpKINode Title="LegalAddress.ZipCode property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress_ZipCode.htm" />
+  <HelpKINode Title="LegalAddressDetailed property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_LegalAddressDetailed.htm" />
+  <HelpKINode Title="LegalName property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_LegalName.htm" />
+  <HelpKINode Title="MainTerminal property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_MainTerminal.htm" />
+  <HelpKINode Title="MaxCourseNumber property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_MaxCourseNumber.htm" />
+  <HelpKINode Title="MaximumAmount property">
+    <HelpKINode Title="ChildModifier.MaximumAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier_MaximumAmount.htm" />
+    <HelpKINode Title="GroupModifier.MaximumAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier_MaximumAmount.htm" />
+    <HelpKINode Title="SimpleModifier.MaximumAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier_MaximumAmount.htm" />
+    <HelpKINode Title="TemplatedModifierParams.MaximumAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams_MaximumAmount.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MeasuringUnitName property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_MeasuringUnitName.htm" />
+  <HelpKINode Title="MenuIndex property">
+    <HelpKINode Title="GroupModifier.MenuIndex Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier_MenuIndex.htm" />
+    <HelpKINode Title="Product.MenuIndex Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_MenuIndex.htm" />
+    <HelpKINode Title="ProductGroup.MenuIndex Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_MenuIndex.htm" />
+    <HelpKINode Title="ProductSize.MenuIndex Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductSize_MenuIndex.htm" />
+    <HelpKINode Title="SimpleModifier.MenuIndex Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier_MenuIndex.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Method property" Url="html/P_Resto_Front_Api_WebApiServer_Services_JsonRpcNotification_Method.htm" />
+  <HelpKINode Title="MinimumAmount property">
+    <HelpKINode Title="ChildModifier.MinimumAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier_MinimumAmount.htm" />
+    <HelpKINode Title="GroupModifier.MinimumAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier_MinimumAmount.htm" />
+    <HelpKINode Title="SimpleModifier.MinimumAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier_MinimumAmount.htm" />
+    <HelpKINode Title="TemplatedModifierParams.MinimumAmount Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams_MinimumAmount.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MinimumDenomination property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_CurrencySettings_MinimumDenomination.htm" />
+  <HelpKINode Title="Modifier enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductType.htm" />
+  <HelpKINode Title="Modifiers property">
+    <HelpKINode Title="KitchenOrderCompoundItemComponent.Modifiers Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItemComponent_Modifiers.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.Modifiers Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Modifiers.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="CompoundItemTemplate.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_CompoundItemTemplate_Name.htm" />
+    <HelpKINode Title="Conception.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Conception_Name.htm" />
+    <HelpKINode Title="OrderType.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType_Name.htm" />
+    <HelpKINode Title="PointOfSale.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PointOfSale_Name.htm" />
+    <HelpKINode Title="PriceCategory.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory_Name.htm" />
+    <HelpKINode Title="Product.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Name.htm" />
+    <HelpKINode Title="ProductCategory.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductCategory_Name.htm" />
+    <HelpKINode Title="ProductGroup.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_Name.htm" />
+    <HelpKINode Title="ProductScale.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductScale_Name.htm" />
+    <HelpKINode Title="ProductSize.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductSize_Name.htm" />
+    <HelpKINode Title="Restaurant.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_Name.htm" />
+    <HelpKINode Title="RestaurantSection.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_RestaurantSection_Name.htm" />
+    <HelpKINode Title="Role.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Role_Name.htm" />
+    <HelpKINode Title="Table.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Table_Name.htm" />
+    <HelpKINode Title="Terminal.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Terminal_Name.htm" />
+    <HelpKINode Title="TerminalsGroup.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_Name.htm" />
+    <HelpKINode Title="User.Name Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_Name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Ninth enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderItemCourse.htm" />
+  <HelpKINode Title="None enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_UserType.htm" />
+  <HelpKINode Title="NotAllowed enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_CanDeleteOrdersOutOfCafeSession.htm" />
+  <HelpKINode Title="NotificationsApi class">
+    <HelpKINode Title="NotificationsApi Class" Url="html/T_Resto_Front_Api_WebApiServer_Services_NotificationsApi.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Services_NotificationsApi__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_WebApiServer_Services_NotificationsApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NotificationsApi.Dispose method" Url="html/M_Resto_Front_Api_WebApiServer_Services_NotificationsApi_Dispose.htm" />
+  <HelpKINode Title="NotificationsApi.NotificationsApi constructor" Url="html/M_Resto_Front_Api_WebApiServer_Services_NotificationsApi__ctor.htm" />
+  <HelpKINode Title="NotRequired enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderTypeFillRequirements.htm" />
+  <HelpKINode Title="Number property">
+    <HelpKINode Title="KitchenOrder.Number Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_Number.htm" />
+    <HelpKINode Title="Product.Number Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Number.htm" />
+    <HelpKINode Title="ProductGroup.Number Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_Number.htm" />
+    <HelpKINode Title="Table.Number Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Table_Number.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnlyWithoutWriteoff enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_CanDeleteOrdersOutOfCafeSession.htm" />
+  <HelpKINode Title="OpenCafeSession method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_OpenCafeSession.htm" />
+  <HelpKINode Title="OpenPersonalSession method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_OpenPersonalSession.htm" />
+  <HelpKINode Title="OperationsApi class">
+    <HelpKINode Title="OperationsApi Class" Url="html/T_Resto_Front_Api_WebApiServer_Services_OperationsApi.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_WebApiServer_Services_OperationsApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OperationsApi.AddErrorMessage method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_AddErrorMessage.htm" />
+  <HelpKINode Title="OperationsApi.AddNotificationMessage method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_AddNotificationMessage.htm" />
+  <HelpKINode Title="OperationsApi.AddWarningMessage method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_AddWarningMessage.htm" />
+  <HelpKINode Title="OperationsApi.AuthenticateByPin method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_AuthenticateByPin.htm" />
+  <HelpKINode Title="OperationsApi.ChangeKitchenOrderItemsProcessingStatus method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_ChangeKitchenOrderItemsProcessingStatus.htm" />
+  <HelpKINode Title="OperationsApi.CloseCafeSession method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_CloseCafeSession.htm" />
+  <HelpKINode Title="OperationsApi.ClosePersonalSession method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_ClosePersonalSession.htm" />
+  <HelpKINode Title="OperationsApi.GetActiveProducts method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetActiveProducts.htm" />
+  <HelpKINode Title="OperationsApi.GetAllProducts method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetAllProducts.htm" />
+  <HelpKINode Title="OperationsApi.GetCommonGroupModifiers method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetCommonGroupModifiers.htm" />
+  <HelpKINode Title="OperationsApi.GetCommonSimpleModifiers method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetCommonSimpleModifiers.htm" />
+  <HelpKINode Title="OperationsApi.GetCompoundItemTemplateById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetCompoundItemTemplateById.htm" />
+  <HelpKINode Title="OperationsApi.GetCompoundItemTemplates method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetCompoundItemTemplates.htm" />
+  <HelpKINode Title="OperationsApi.GetConceptionById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetConceptionById.htm" />
+  <HelpKINode Title="OperationsApi.GetCurrentUser method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetCurrentUser.htm" />
+  <HelpKINode Title="OperationsApi.GetDeletedOrderTypes method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetDeletedOrderTypes.htm" />
+  <HelpKINode Title="OperationsApi.GetGroupModifiers method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetGroupModifiers.htm" />
+  <HelpKINode Title="OperationsApi.GetHostAgentId method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetHostAgentId.htm" />
+  <HelpKINode Title="OperationsApi.GetHostRestaurant method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetHostRestaurant.htm" />
+  <HelpKINode Title="OperationsApi.GetHostTerminal method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetHostTerminal.htm" />
+  <HelpKINode Title="OperationsApi.GetHostTerminalPointsOfSale method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetHostTerminalPointsOfSale.htm" />
+  <HelpKINode Title="OperationsApi.GetHostTerminalSettings method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetHostTerminalSettings.htm" />
+  <HelpKINode Title="OperationsApi.GetHostTerminalsGroup method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetHostTerminalsGroup.htm" />
+  <HelpKINode Title="OperationsApi.GetIncludedInMenuSectionsByProduct method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetIncludedInMenuSectionsByProduct.htm" />
+  <HelpKINode Title="OperationsApi.GetKitchenOrderById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetKitchenOrderById.htm" />
+  <HelpKINode Title="OperationsApi.GetKitchenOrders method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetKitchenOrders.htm" />
+  <HelpKINode Title="OperationsApi.GetModifierAmountString method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetModifierAmountString.htm" />
+  <HelpKINode Title="OperationsApi.GetOrderTypeById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetOrderTypeById.htm" />
+  <HelpKINode Title="OperationsApi.GetOrderTypes method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetOrderTypes.htm" />
+  <HelpKINode Title="OperationsApi.GetOrganizationFingerprint method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetOrganizationFingerprint.htm" />
+  <HelpKINode Title="OperationsApi.GetPointOfSaleById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetPointOfSaleById.htm" />
+  <HelpKINode Title="OperationsApi.GetPrice method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetPrice.htm" />
+  <HelpKINode Title="OperationsApi.GetPriceCategories method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetPriceCategories.htm" />
+  <HelpKINode Title="OperationsApi.GetPriceCategoryById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetPriceCategoryById.htm" />
+  <HelpKINode Title="OperationsApi.GetProductById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductById.htm" />
+  <HelpKINode Title="OperationsApi.GetProductCategories method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductCategories.htm" />
+  <HelpKINode Title="OperationsApi.GetProductCategoryById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductCategoryById.htm" />
+  <HelpKINode Title="OperationsApi.GetProductGroupById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductGroupById.htm" />
+  <HelpKINode Title="OperationsApi.GetProductGroups method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductGroups.htm" />
+  <HelpKINode Title="OperationsApi.GetProductScaleById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductScaleById.htm" />
+  <HelpKINode Title="OperationsApi.GetProductScales method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductScales.htm" />
+  <HelpKINode Title="OperationsApi.GetProductScaleSizes method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductScaleSizes.htm" />
+  <HelpKINode Title="OperationsApi.GetProductSizeById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductSizeById.htm" />
+  <HelpKINode Title="OperationsApi.GetProductSizes method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductSizes.htm" />
+  <HelpKINode Title="OperationsApi.GetProductsRemainingAmounts method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetProductsRemainingAmounts.htm" />
+  <HelpKINode Title="OperationsApi.GetRestaurantSectionById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetRestaurantSectionById.htm" />
+  <HelpKINode Title="OperationsApi.GetRestaurantSections method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetRestaurantSections.htm" />
+  <HelpKINode Title="OperationsApi.GetRoleById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetRoleById.htm" />
+  <HelpKINode Title="OperationsApi.GetRoles method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetRoles.htm" />
+  <HelpKINode Title="OperationsApi.GetSimpleModifiers method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetSimpleModifiers.htm" />
+  <HelpKINode Title="OperationsApi.GetSplittableGroupModifiers method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetSplittableGroupModifiers.htm" />
+  <HelpKINode Title="OperationsApi.GetSplittableSimpleModifiers method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetSplittableSimpleModifiers.htm" />
+  <HelpKINode Title="OperationsApi.GetStrictAccordanceToScheduleUserRole method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetStrictAccordanceToScheduleUserRole.htm" />
+  <HelpKINode Title="OperationsApi.GetTableById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTableById.htm" />
+  <HelpKINode Title="OperationsApi.GetTables method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTables.htm" />
+  <HelpKINode Title="OperationsApi.GetTerminalById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTerminalById.htm" />
+  <HelpKINode Title="OperationsApi.GetTerminals method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTerminals.htm" />
+  <HelpKINode Title="OperationsApi.GetTerminalsGroupById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTerminalsGroupById.htm" />
+  <HelpKINode Title="OperationsApi.GetTerminalsGroupPointsOfSale method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTerminalsGroupPointsOfSale.htm" />
+  <HelpKINode Title="OperationsApi.GetTerminalsGroupRestaurantSections method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTerminalsGroupRestaurantSections.htm" />
+  <HelpKINode Title="OperationsApi.GetTerminalsGroups method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTerminalsGroups.htm" />
+  <HelpKINode Title="OperationsApi.GetTerminalsGroupTerminals method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetTerminalsGroupTerminals.htm" />
+  <HelpKINode Title="OperationsApi.GetUser method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetUser.htm" />
+  <HelpKINode Title="OperationsApi.GetUserById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetUserById.htm" />
+  <HelpKINode Title="OperationsApi.GetUserRoles method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetUserRoles.htm" />
+  <HelpKINode Title="OperationsApi.GetUsers method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_GetUsers.htm" />
+  <HelpKINode Title="OperationsApi.IsAllCafeSessionsClosed method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_IsAllCafeSessionsClosed.htm" />
+  <HelpKINode Title="OperationsApi.IsAllCafeSessionsOpen method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_IsAllCafeSessionsOpen.htm" />
+  <HelpKINode Title="OperationsApi.IsDeliveryActive method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_IsDeliveryActive.htm" />
+  <HelpKINode Title="OperationsApi.IsDeliveryConfirmationActive method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_IsDeliveryConfirmationActive.htm" />
+  <HelpKINode Title="OperationsApi.IsMultiCashRegisterConfiguration method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_IsMultiCashRegisterConfiguration.htm" />
+  <HelpKINode Title="OperationsApi.IsProductSellingRestricted method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_IsProductSellingRestricted.htm" />
+  <HelpKINode Title="OperationsApi.OpenCafeSession method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_OpenCafeSession.htm" />
+  <HelpKINode Title="OperationsApi.OpenPersonalSession method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_OpenPersonalSession.htm" />
+  <HelpKINode Title="OperationsApi.OperationsApi constructor" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi__ctor.htm" />
+  <HelpKINode Title="OperationsApi.TryGetCompoundItemTemplateById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetCompoundItemTemplateById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetConceptionById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetConceptionById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetKitchenOrderById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetKitchenOrderById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetOrderTypeById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetOrderTypeById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetPointOfSaleById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetPointOfSaleById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetPriceCategoryById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetPriceCategoryById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetProductById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetProductById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetProductCategoryById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetProductCategoryById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetProductGroupById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetProductGroupById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetProductGroupMenuImage method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetProductGroupMenuImage.htm" />
+  <HelpKINode Title="OperationsApi.TryGetProductMenuImage method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetProductMenuImage.htm" />
+  <HelpKINode Title="OperationsApi.TryGetProductScaleById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetProductScaleById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetProductSizeById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetProductSizeById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetRestaurantSectionById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetRestaurantSectionById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetRoleById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetRoleById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetTableById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetTableById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetTerminalById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetTerminalById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetTerminalsGroupById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetTerminalsGroupById.htm" />
+  <HelpKINode Title="OperationsApi.TryGetUserById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetUserById.htm" />
+  <HelpKINode Title="OrderItemCourse enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderItemCourse.htm" />
+  <HelpKINode Title="OrderServiceType property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType_OrderServiceType.htm" />
+  <HelpKINode Title="OrderServiceTypes enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderServiceTypes.htm" />
+  <HelpKINode Title="OrderType class">
+    <HelpKINode Title="OrderType Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrderType property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_OrderType.htm" />
+  <HelpKINode Title="OrderType.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType_Id.htm" />
+  <HelpKINode Title="OrderType.IsActive property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType_IsActive.htm" />
+  <HelpKINode Title="OrderType.IsDefaultForServiceType property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType_IsDefaultForServiceType.htm" />
+  <HelpKINode Title="OrderType.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType_Name.htm" />
+  <HelpKINode Title="OrderType.OrderServiceType property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType_OrderServiceType.htm" />
+  <HelpKINode Title="OrderType.OrderType constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType__ctor.htm" />
+  <HelpKINode Title="OrderTypeFillRequirements enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderTypeFillRequirements.htm" />
+  <HelpKINode Title="OrderTypeFillRequirements property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_OrderTypeFillRequirements.htm" />
+  <HelpKINode Title="Params property" Url="html/P_Resto_Front_Api_WebApiServer_Services_JsonRpcNotification_Params.htm" />
+  <HelpKINode Title="Parent property">
+    <HelpKINode Title="Product.Parent Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Parent.htm" />
+    <HelpKINode Title="ProductGroup.Parent Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_Parent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Petrol enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductType.htm" />
+  <HelpKINode Title="PointOfSale class">
+    <HelpKINode Title="PointOfSale Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_PointOfSale.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_PointOfSale__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_PointOfSale.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PointOfSale.CashRegister property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PointOfSale_CashRegister.htm" />
+  <HelpKINode Title="PointOfSale.Conception property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PointOfSale_Conception.htm" />
+  <HelpKINode Title="PointOfSale.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PointOfSale_Id.htm" />
+  <HelpKINode Title="PointOfSale.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PointOfSale_Name.htm" />
+  <HelpKINode Title="PointOfSale.PointOfSale constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_PointOfSale__ctor.htm" />
+  <HelpKINode Title="Price property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Price.htm" />
+  <HelpKINode Title="PriceCategory class">
+    <HelpKINode Title="PriceCategory Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PriceCategory property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_PriceCategory.htm" />
+  <HelpKINode Title="PriceCategory.CanApplyManually property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory_CanApplyManually.htm" />
+  <HelpKINode Title="PriceCategory.Code property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory_Code.htm" />
+  <HelpKINode Title="PriceCategory.Deleted property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory_Deleted.htm" />
+  <HelpKINode Title="PriceCategory.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory_Id.htm" />
+  <HelpKINode Title="PriceCategory.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory_Name.htm" />
+  <HelpKINode Title="PriceCategory.PriceCategory constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory__ctor.htm" />
+  <HelpKINode Title="PrimaryComponent property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_PrimaryComponent.htm" />
+  <HelpKINode Title="PrintTime property">
+    <HelpKINode Title="IKitchenOrderCookingItem.PrintTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_PrintTime.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.PrintTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_PrintTime.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.PrintTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_PrintTime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Processed enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderItemProcessingStatus.htm" />
+  <HelpKINode Title="Processing1 enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderItemProcessingStatus.htm" />
+  <HelpKINode Title="Processing1BeginTime property">
+    <HelpKINode Title="IKitchenOrderCookingItem.Processing1BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Processing1BeginTime.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.Processing1BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Processing1BeginTime.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.Processing1BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Processing1BeginTime.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.Processing1BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Processing1BeginTime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Processing2 enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderItemProcessingStatus.htm" />
+  <HelpKINode Title="Processing2BeginTime property">
+    <HelpKINode Title="IKitchenOrderCookingItem.Processing2BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Processing2BeginTime.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.Processing2BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Processing2BeginTime.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.Processing2BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Processing2BeginTime.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.Processing2BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Processing2BeginTime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Processing3 enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderItemProcessingStatus.htm" />
+  <HelpKINode Title="Processing3BeginTime property">
+    <HelpKINode Title="IKitchenOrderCookingItem.Processing3BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Processing3BeginTime.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.Processing3BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Processing3BeginTime.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.Processing3BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Processing3BeginTime.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.Processing3BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Processing3BeginTime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Processing4 enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderItemProcessingStatus.htm" />
+  <HelpKINode Title="Processing4BeginTime property">
+    <HelpKINode Title="IKitchenOrderCookingItem.Processing4BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Processing4BeginTime.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.Processing4BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Processing4BeginTime.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.Processing4BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Processing4BeginTime.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.Processing4BeginTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Processing4BeginTime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProcessingCompleteTime property">
+    <HelpKINode Title="IKitchenOrderCookingItem.ProcessingCompleteTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_ProcessingCompleteTime.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.ProcessingCompleteTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_ProcessingCompleteTime.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.ProcessingCompleteTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_ProcessingCompleteTime.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.ProcessingCompleteTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_ProcessingCompleteTime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProcessingStatus property">
+    <HelpKINode Title="IKitchenOrderCookingItem.ProcessingStatus Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_ProcessingStatus.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.ProcessingStatus Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_ProcessingStatus.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.ProcessingStatus Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_ProcessingStatus.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.ProcessingStatus Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_ProcessingStatus.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Product class">
+    <HelpKINode Title="Product Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_Product.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_Product__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_Product.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Product property">
+    <HelpKINode Title="ChildModifier.Product Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier_Product.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItemComponent.Product Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItemComponent_Product.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.Product Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_Product.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.Product Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Product.htm" />
+    <HelpKINode Title="SimpleModifier.Product Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier_Product.htm" />
+    <HelpKINode Title="TemplatedModifierParams.Product Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams_Product.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Product.BackgroundColor property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_BackgroundColor.htm" />
+  <HelpKINode Title="Product.CanSetOpenPrice property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_CanSetOpenPrice.htm" />
+  <HelpKINode Title="Product.Category property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Category.htm" />
+  <HelpKINode Title="Product.DefaultCourse property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_DefaultCourse.htm" />
+  <HelpKINode Title="Product.Description property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Description.htm" />
+  <HelpKINode Title="Product.DescriptionForeign property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_DescriptionForeign.htm" />
+  <HelpKINode Title="Product.DisabledSizes property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_DisabledSizes.htm" />
+  <HelpKINode Title="Product.ExpirationTime property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_ExpirationTime.htm" />
+  <HelpKINode Title="Product.FastCode property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_FastCode.htm" />
+  <HelpKINode Title="Product.FontColor property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_FontColor.htm" />
+  <HelpKINode Title="Product.FoodValueCaloricity property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_FoodValueCaloricity.htm" />
+  <HelpKINode Title="Product.FoodValueCarbohydrate property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_FoodValueCarbohydrate.htm" />
+  <HelpKINode Title="Product.FoodValueFat property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_FoodValueFat.htm" />
+  <HelpKINode Title="Product.FoodValueProtein property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_FoodValueProtein.htm" />
+  <HelpKINode Title="Product.ForeignName property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_ForeignName.htm" />
+  <HelpKINode Title="Product.FullName property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_FullName.htm" />
+  <HelpKINode Title="Product.HasMenuImage property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_HasMenuImage.htm" />
+  <HelpKINode Title="Product.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Id.htm" />
+  <HelpKINode Title="Product.ImmediateCookingStart property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_ImmediateCookingStart.htm" />
+  <HelpKINode Title="Product.IncludedInMenuSections property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_IncludedInMenuSections.htm" />
+  <HelpKINode Title="Product.IsActive property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_IsActive.htm" />
+  <HelpKINode Title="Product.KitchenName property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_KitchenName.htm" />
+  <HelpKINode Title="Product.MeasuringUnitName property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_MeasuringUnitName.htm" />
+  <HelpKINode Title="Product.MenuIndex property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_MenuIndex.htm" />
+  <HelpKINode Title="Product.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Name.htm" />
+  <HelpKINode Title="Product.Number property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Number.htm" />
+  <HelpKINode Title="Product.Parent property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Parent.htm" />
+  <HelpKINode Title="Product.Price property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Price.htm" />
+  <HelpKINode Title="Product.Product constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_Product__ctor.htm" />
+  <HelpKINode Title="Product.Scale property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Scale.htm" />
+  <HelpKINode Title="Product.TaxPercent property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_TaxPercent.htm" />
+  <HelpKINode Title="Product.Template property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Template.htm" />
+  <HelpKINode Title="Product.Type property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Type.htm" />
+  <HelpKINode Title="ProductCategory class">
+    <HelpKINode Title="ProductCategory Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductCategory.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_ProductCategory__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductCategory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProductCategory.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductCategory_Id.htm" />
+  <HelpKINode Title="ProductCategory.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductCategory_Name.htm" />
+  <HelpKINode Title="ProductCategory.ProductCategory constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_ProductCategory__ctor.htm" />
+  <HelpKINode Title="ProductGroup class">
+    <HelpKINode Title="ProductGroup Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProductGroup property">
+    <HelpKINode Title="GroupModifier.ProductGroup Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier_ProductGroup.htm" />
+    <HelpKINode Title="TemplatedModifierParams.ProductGroup Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams_ProductGroup.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProductGroup.BackgroundColor property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_BackgroundColor.htm" />
+  <HelpKINode Title="ProductGroup.ChildGroups property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_ChildGroups.htm" />
+  <HelpKINode Title="ProductGroup.ChildProducts property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_ChildProducts.htm" />
+  <HelpKINode Title="ProductGroup.FontColor property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_FontColor.htm" />
+  <HelpKINode Title="ProductGroup.HasMenuImage property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_HasMenuImage.htm" />
+  <HelpKINode Title="ProductGroup.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_Id.htm" />
+  <HelpKINode Title="ProductGroup.MenuIndex property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_MenuIndex.htm" />
+  <HelpKINode Title="ProductGroup.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_Name.htm" />
+  <HelpKINode Title="ProductGroup.Number property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_Number.htm" />
+  <HelpKINode Title="ProductGroup.Parent property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup_Parent.htm" />
+  <HelpKINode Title="ProductGroup.ProductGroup constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup__ctor.htm" />
+  <HelpKINode Title="ProductScale class">
+    <HelpKINode Title="ProductScale Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductScale.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_ProductScale__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductScale.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProductScale.DefaultSize property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductScale_DefaultSize.htm" />
+  <HelpKINode Title="ProductScale.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductScale_Id.htm" />
+  <HelpKINode Title="ProductScale.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductScale_Name.htm" />
+  <HelpKINode Title="ProductScale.ProductScale constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_ProductScale__ctor.htm" />
+  <HelpKINode Title="ProductSize class">
+    <HelpKINode Title="ProductSize Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductSize.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_ProductSize__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductSize.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProductSize.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductSize_Id.htm" />
+  <HelpKINode Title="ProductSize.KitchenName property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductSize_KitchenName.htm" />
+  <HelpKINode Title="ProductSize.MenuIndex property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductSize_MenuIndex.htm" />
+  <HelpKINode Title="ProductSize.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_ProductSize_Name.htm" />
+  <HelpKINode Title="ProductSize.ProductSize constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_ProductSize__ctor.htm" />
+  <HelpKINode Title="ProductType enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductType.htm" />
+  <HelpKINode Title="Rate enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductType.htm" />
+  <HelpKINode Title="RegistrationNumber property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_RegistrationNumber.htm" />
+  <HelpKINode Title="Removed enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_EntityEventType.htm" />
+  <HelpKINode Title="Restaurant class">
+    <HelpKINode Title="Restaurant Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Restaurant.AccountingReasonCode property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_AccountingReasonCode.htm" />
+  <HelpKINode Title="Restaurant.Address property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_Address.htm" />
+  <HelpKINode Title="Restaurant.CanDeleteOrdersOutOfCafeSession property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_CanDeleteOrdersOutOfCafeSession.htm" />
+  <HelpKINode Title="Restaurant.CompanyName property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_CompanyName.htm" />
+  <HelpKINode Title="Restaurant.CrmId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_CrmId.htm" />
+  <HelpKINode Title="Restaurant.Currency property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_Currency.htm" />
+  <HelpKINode Title="Restaurant.DepartmentCode property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_DepartmentCode.htm" />
+  <HelpKINode Title="Restaurant.DepartmentId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_DepartmentId.htm" />
+  <HelpKINode Title="Restaurant.DisplayRelativeNumberOfModifiers property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_DisplayRelativeNumberOfModifiers.htm" />
+  <HelpKINode Title="Restaurant.IikoUid property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_IikoUid.htm" />
+  <HelpKINode Title="Restaurant.IsRoundingDownOrderSum property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_IsRoundingDownOrderSum.htm" />
+  <HelpKINode Title="Restaurant.IsRoundingPricePerUnit property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_IsRoundingPricePerUnit.htm" />
+  <HelpKINode Title="Restaurant.LegalAddress property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_LegalAddress.htm" />
+  <HelpKINode Title="Restaurant.LegalAddressDetailed property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_LegalAddressDetailed.htm" />
+  <HelpKINode Title="Restaurant.LegalName property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_LegalName.htm" />
+  <HelpKINode Title="Restaurant.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_Name.htm" />
+  <HelpKINode Title="Restaurant.OrderTypeFillRequirements property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_OrderTypeFillRequirements.htm" />
+  <HelpKINode Title="Restaurant.RegistrationNumber property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_RegistrationNumber.htm" />
+  <HelpKINode Title="Restaurant.Restaurant constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant__ctor.htm" />
+  <HelpKINode Title="Restaurant.TaxId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_TaxId.htm" />
+  <HelpKINode Title="Restaurant.UsePersonalRoles property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_UsePersonalRoles.htm" />
+  <HelpKINode Title="RestaurantSection class">
+    <HelpKINode Title="RestaurantSection Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_RestaurantSection.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_RestaurantSection__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_RestaurantSection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RestaurantSection.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_RestaurantSection_Id.htm" />
+  <HelpKINode Title="RestaurantSection.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_RestaurantSection_Name.htm" />
+  <HelpKINode Title="RestaurantSection.RestaurantSection constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_RestaurantSection__ctor.htm" />
+  <HelpKINode Title="RestaurantSection.Tables property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_RestaurantSection_Tables.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data namespace" Url="html/N_Resto_Front_Api_WebApiServer_Contracts_Data.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.CanDeleteOrdersOutOfCafeSession enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_CanDeleteOrdersOutOfCafeSession.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.ChildModifier class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ChildModifier.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.CompoundItemTemplate class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_CompoundItemTemplate.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.Conception class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_Conception.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.Credentials class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_Credentials.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.CurrencySettings class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_CurrencySettings.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.EntityChangedEventArgs(Of T) structure" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.EntityChangedEventArgs&lt;T&gt; structure" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_EntityChangedEventArgs_1.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.EntityEventType enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_EntityEventType.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.GroupModifier class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_GroupModifier.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.HostTerminalSettings class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_HostTerminalSettings.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.IKitchenOrderCookingItem interface" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.KitchenOrder class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.KitchenOrderCompoundItem class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.KitchenOrderCompoundItemComponent class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItemComponent.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.KitchenOrderCookingItemComment class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCookingItemComment.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.KitchenOrderItemProcessingStatus enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderItemProcessingStatus.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.KitchenOrderModifierItem class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.KitchenOrderProductItem class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.LegalAddress class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.OrderItemCourse enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderItemCourse.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.OrderServiceTypes enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderServiceTypes.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.OrderType class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderType.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.OrderTypeFillRequirements enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderTypeFillRequirements.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.PointOfSale class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_PointOfSale.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.PriceCategory class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_PriceCategory.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.Product class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_Product.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.ProductCategory class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductCategory.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.ProductGroup class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductGroup.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.ProductScale class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductScale.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.ProductSize class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductSize.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.ProductType enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductType.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.Restaurant class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.RestaurantSection class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_RestaurantSection.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.Role class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_Role.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.SimpleModifier class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.Table class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_Table.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.TemplatedModifierParams class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.Terminal class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_Terminal.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.TerminalsGroup class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.User class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_User.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Contracts.Data.UserType enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_UserType.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Services namespace" Url="html/N_Resto_Front_Api_WebApiServer_Services.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Services.JsonRpcNotification class" Url="html/T_Resto_Front_Api_WebApiServer_Services_JsonRpcNotification.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Services.NotificationsApi class" Url="html/T_Resto_Front_Api_WebApiServer_Services_NotificationsApi.htm" />
+  <HelpKINode Title="Resto.Front.Api.WebApiServer.Services.OperationsApi class" Url="html/T_Resto_Front_Api_WebApiServer_Services_OperationsApi.htm" />
+  <HelpKINode Title="Role class">
+    <HelpKINode Title="Role Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_Role.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_Role__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_Role.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Role.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Role_Id.htm" />
+  <HelpKINode Title="Role.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Role_Name.htm" />
+  <HelpKINode Title="Role.Role constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_Role__ctor.htm" />
+  <HelpKINode Title="Scale property">
+    <HelpKINode Title="CompoundItemTemplate.Scale Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_CompoundItemTemplate_Scale.htm" />
+    <HelpKINode Title="Product.Scale Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Scale.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SeatingCapacity property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Table_SeatingCapacity.htm" />
+  <HelpKINode Title="Second enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderItemCourse.htm" />
+  <HelpKINode Title="SecondaryComponent property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_SecondaryComponent.htm" />
+  <HelpKINode Title="Served enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderItemProcessingStatus.htm" />
+  <HelpKINode Title="ServeGroupNumber property">
+    <HelpKINode Title="IKitchenOrderCookingItem.ServeGroupNumber Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_ServeGroupNumber.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.ServeGroupNumber Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_ServeGroupNumber.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.ServeGroupNumber Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_ServeGroupNumber.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ServeTime property">
+    <HelpKINode Title="IKitchenOrderCookingItem.ServeTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_ServeTime.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.ServeTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_ServeTime.htm" />
+    <HelpKINode Title="KitchenOrderModifierItem.ServeTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderModifierItem_ServeTime.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.ServeTime Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_ServeTime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Service enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_ProductType.htm" />
+  <HelpKINode Title="ServicePrintOnOrderExit property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_ServicePrintOnOrderExit.htm" />
+  <HelpKINode Title="Seventh enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderItemCourse.htm" />
+  <HelpKINode Title="ShowFractionalPart property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_CurrencySettings_ShowFractionalPart.htm" />
+  <HelpKINode Title="SimpleModifier class">
+    <HelpKINode Title="SimpleModifier Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SimpleModifier.AmountIndependentOfParentAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier_AmountIndependentOfParentAmount.htm" />
+  <HelpKINode Title="SimpleModifier.DefaultAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier_DefaultAmount.htm" />
+  <HelpKINode Title="SimpleModifier.FreeOfChargeAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier_FreeOfChargeAmount.htm" />
+  <HelpKINode Title="SimpleModifier.MaximumAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier_MaximumAmount.htm" />
+  <HelpKINode Title="SimpleModifier.MenuIndex property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier_MenuIndex.htm" />
+  <HelpKINode Title="SimpleModifier.MinimumAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier_MinimumAmount.htm" />
+  <HelpKINode Title="SimpleModifier.Product property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier_Product.htm" />
+  <HelpKINode Title="SimpleModifier.SimpleModifier constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_SimpleModifier__ctor.htm" />
+  <HelpKINode Title="Sixth enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderItemCourse.htm" />
+  <HelpKINode Title="Size property">
+    <HelpKINode Title="IKitchenOrderCookingItem.Size Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_IKitchenOrderCookingItem_Size.htm" />
+    <HelpKINode Title="KitchenOrderCompoundItem.Size Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Size.htm" />
+    <HelpKINode Title="KitchenOrderProductItem.Size Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderProductItem_Size.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Street property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress_Street.htm" />
+  <HelpKINode Title="Supplier enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_UserType.htm" />
+  <HelpKINode Title="Table class">
+    <HelpKINode Title="Table Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_Table.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_Table__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_Table.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Table property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_Table.htm" />
+  <HelpKINode Title="Table.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Table_Id.htm" />
+  <HelpKINode Title="Table.IsActive property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Table_IsActive.htm" />
+  <HelpKINode Title="Table.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Table_Name.htm" />
+  <HelpKINode Title="Table.Number property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Table_Number.htm" />
+  <HelpKINode Title="Table.SeatingCapacity property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Table_SeatingCapacity.htm" />
+  <HelpKINode Title="Table.Table constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_Table__ctor.htm" />
+  <HelpKINode Title="Tables property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_RestaurantSection_Tables.htm" />
+  <HelpKINode Title="TaxId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_TaxId.htm" />
+  <HelpKINode Title="TaxpayerId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_TaxpayerId.htm" />
+  <HelpKINode Title="TaxPercent property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_TaxPercent.htm" />
+  <HelpKINode Title="Template property">
+    <HelpKINode Title="KitchenOrderCompoundItem.Template Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrderCompoundItem_Template.htm" />
+    <HelpKINode Title="Product.Template Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Template.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TemplatedModifierParams class">
+    <HelpKINode Title="TemplatedModifierParams Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TemplatedModifierParams.DefaultAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams_DefaultAmount.htm" />
+  <HelpKINode Title="TemplatedModifierParams.FreeOfChargeAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams_FreeOfChargeAmount.htm" />
+  <HelpKINode Title="TemplatedModifierParams.MaximumAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams_MaximumAmount.htm" />
+  <HelpKINode Title="TemplatedModifierParams.MinimumAmount property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams_MinimumAmount.htm" />
+  <HelpKINode Title="TemplatedModifierParams.Product property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams_Product.htm" />
+  <HelpKINode Title="TemplatedModifierParams.ProductGroup property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams_ProductGroup.htm" />
+  <HelpKINode Title="TemplatedModifierParams.TemplatedModifierParams constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_TemplatedModifierParams__ctor.htm" />
+  <HelpKINode Title="Tenth enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderItemCourse.htm" />
+  <HelpKINode Title="Terminal class">
+    <HelpKINode Title="Terminal Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_Terminal.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_Terminal__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_Terminal.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Terminal.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Terminal_Id.htm" />
+  <HelpKINode Title="Terminal.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Terminal_Name.htm" />
+  <HelpKINode Title="Terminal.Terminal constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_Terminal__ctor.htm" />
+  <HelpKINode Title="TerminalsGroup class">
+    <HelpKINode Title="TerminalsGroup Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TerminalsGroup.AskCashierForMultiCashRegisterPayment property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_AskCashierForMultiCashRegisterPayment.htm" />
+  <HelpKINode Title="TerminalsGroup.DefaultTable property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_DefaultTable.htm" />
+  <HelpKINode Title="TerminalsGroup.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_Id.htm" />
+  <HelpKINode Title="TerminalsGroup.IsTabMode property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_IsTabMode.htm" />
+  <HelpKINode Title="TerminalsGroup.MainTerminal property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_MainTerminal.htm" />
+  <HelpKINode Title="TerminalsGroup.MaxCourseNumber property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_MaxCourseNumber.htm" />
+  <HelpKINode Title="TerminalsGroup.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_Name.htm" />
+  <HelpKINode Title="TerminalsGroup.PriceCategory property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_PriceCategory.htm" />
+  <HelpKINode Title="TerminalsGroup.ServicePrintOnOrderExit property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup_ServicePrintOnOrderExit.htm" />
+  <HelpKINode Title="TerminalsGroup.TerminalsGroup constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_TerminalsGroup__ctor.htm" />
+  <HelpKINode Title="Third enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderItemCourse.htm" />
+  <HelpKINode Title="TryGetCompoundItemTemplateById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetCompoundItemTemplateById.htm" />
+  <HelpKINode Title="TryGetConceptionById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetConceptionById.htm" />
+  <HelpKINode Title="TryGetKitchenOrderById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetKitchenOrderById.htm" />
+  <HelpKINode Title="TryGetOrderTypeById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetOrderTypeById.htm" />
+  <HelpKINode Title="TryGetPointOfSaleById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetPointOfSaleById.htm" />
+  <HelpKINode Title="TryGetPriceCategoryById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetPriceCategoryById.htm" />
+  <HelpKINode Title="TryGetProductById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetProductById.htm" />
+  <HelpKINode Title="TryGetProductCategoryById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetProductCategoryById.htm" />
+  <HelpKINode Title="TryGetProductGroupById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetProductGroupById.htm" />
+  <HelpKINode Title="TryGetProductGroupMenuImage method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetProductGroupMenuImage.htm" />
+  <HelpKINode Title="TryGetProductMenuImage method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetProductMenuImage.htm" />
+  <HelpKINode Title="TryGetProductScaleById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetProductScaleById.htm" />
+  <HelpKINode Title="TryGetProductSizeById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetProductSizeById.htm" />
+  <HelpKINode Title="TryGetRestaurantSectionById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetRestaurantSectionById.htm" />
+  <HelpKINode Title="TryGetRoleById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetRoleById.htm" />
+  <HelpKINode Title="TryGetTableById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetTableById.htm" />
+  <HelpKINode Title="TryGetTerminalById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetTerminalById.htm" />
+  <HelpKINode Title="TryGetTerminalsGroupById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetTerminalsGroupById.htm" />
+  <HelpKINode Title="TryGetUserById method" Url="html/M_Resto_Front_Api_WebApiServer_Services_OperationsApi_TryGetUserById.htm" />
+  <HelpKINode Title="Type property">
+    <HelpKINode Title="Product.Type Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Product_Type.htm" />
+    <HelpKINode Title="User.Type Property " Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_Type.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Updated enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_EntityEventType.htm" />
+  <HelpKINode Title="UsePersonalRoles property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_Restaurant_UsePersonalRoles.htm" />
+  <HelpKINode Title="User class">
+    <HelpKINode Title="User Class" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_User.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_User__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_WebApiServer_Contracts_Data_User.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.Card property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_Card.htm" />
+  <HelpKINode Title="User.CellPhone property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_CellPhone.htm" />
+  <HelpKINode Title="User.Code property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_Code.htm" />
+  <HelpKINode Title="User.Id property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_Id.htm" />
+  <HelpKINode Title="User.InsuranceNumber property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_InsuranceNumber.htm" />
+  <HelpKINode Title="User.IsSessionOpen property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_IsSessionOpen.htm" />
+  <HelpKINode Title="User.Name property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_Name.htm" />
+  <HelpKINode Title="User.TaxpayerId property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_TaxpayerId.htm" />
+  <HelpKINode Title="User.Type property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_User_Type.htm" />
+  <HelpKINode Title="User.User constructor" Url="html/M_Resto_Front_Api_WebApiServer_Contracts_Data_User__ctor.htm" />
+  <HelpKINode Title="UserType enumeration" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_UserType.htm" />
+  <HelpKINode Title="Vip enumeration member" Url="html/T_Resto_Front_Api_WebApiServer_Contracts_Data_OrderItemCourse.htm" />
+  <HelpKINode Title="Waiter property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_KitchenOrder_Waiter.htm" />
+  <HelpKINode Title="ZipCode property" Url="html/P_Resto_Front_Api_WebApiServer_Contracts_Data_LegalAddress_ZipCode.htm" />
+</HelpKI>
