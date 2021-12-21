@@ -19,7 +19,6 @@ Note that debugging and running plugins requires a license, so you'll need to re
 
 Links:
 
-- [Code reference API V4](https://iiko.github.io/front.api.sdk/v4/) (not supported from 7.0).
 - [Code reference API V5](https://iiko.github.io/front.api.sdk/v5/) (obsolete).
 - [Code reference API V6](https://iiko.github.io/front.api.sdk/v6/) (current).
 - [Code reference API V7](https://iiko.github.io/front.api.sdk/v7/) (preview).
