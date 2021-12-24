@@ -2087,12 +2087,12 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2593,7 +2593,6 @@
   <HelpKINode Title="GetKitchenOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetKitchenOrders.htm" />
   <HelpKINode Title="GetMarketingSourceById method" Url="html/M_Resto_Front_Api_IOperationService_GetMarketingSourceById.htm" />
   <HelpKINode Title="GetMarketingSources method" Url="html/M_Resto_Front_Api_IOperationService_GetMarketingSources.htm" />
-  <HelpKINode Title="GetModifierAmountString method" Url="html/M_Resto_Front_Api_IOperationService_GetModifierAmountString.htm" />
   <HelpKINode Title="GetObjectData method">
     <HelpKINode Title="AddressDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_AddressDto_GetObjectData.htm" />
     <HelpKINode Title="BillCheque.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Cheques_BillCheque_GetObjectData.htm" />
@@ -2627,7 +2626,7 @@
   <HelpKINode Title="GetOrganizationFingerprint method" Url="html/M_Resto_Front_Api_IOperationService_GetOrganizationFingerprint.htm" />
   <HelpKINode Title="GetPastOrder method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrder.htm" />
   <HelpKINode Title="GetPaymentProcessorSettingsKey method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetPaymentProcessorSettingsKey.htm" />
-  <HelpKINode Title="GetPaymentSystemName method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentSystemName.htm" />
+  <HelpKINode Title="GetPaymentSystemKey method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentSystemKey.htm" />
   <HelpKINode Title="GetPaymentTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentTypeById.htm" />
   <HelpKINode Title="GetPaymentTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentTypes.htm" />
   <HelpKINode Title="GetPaymentTypesToPayOutOnUser method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentTypesToPayOutOnUser.htm" />
@@ -3882,7 +3881,6 @@
   <HelpKINode Title="IOperationService.GetKitchenOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetKitchenOrders.htm" />
   <HelpKINode Title="IOperationService.GetMarketingSourceById method" Url="html/M_Resto_Front_Api_IOperationService_GetMarketingSourceById.htm" />
   <HelpKINode Title="IOperationService.GetMarketingSources method" Url="html/M_Resto_Front_Api_IOperationService_GetMarketingSources.htm" />
-  <HelpKINode Title="IOperationService.GetModifierAmountString method" Url="html/M_Resto_Front_Api_IOperationService_GetModifierAmountString.htm" />
   <HelpKINode Title="IOperationService.GetOrderById method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderById.htm" />
   <HelpKINode Title="IOperationService.GetOrderItemProductGroups method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderItemProductGroups.htm" />
   <HelpKINode Title="IOperationService.GetOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetOrders.htm" />
@@ -3890,7 +3888,7 @@
   <HelpKINode Title="IOperationService.GetOrderTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypes.htm" />
   <HelpKINode Title="IOperationService.GetOrganizationFingerprint method" Url="html/M_Resto_Front_Api_IOperationService_GetOrganizationFingerprint.htm" />
   <HelpKINode Title="IOperationService.GetPastOrder method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrder.htm" />
-  <HelpKINode Title="IOperationService.GetPaymentSystemName method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentSystemName.htm" />
+  <HelpKINode Title="IOperationService.GetPaymentSystemKey method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentSystemKey.htm" />
   <HelpKINode Title="IOperationService.GetPaymentTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentTypeById.htm" />
   <HelpKINode Title="IOperationService.GetPaymentTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentTypes.htm" />
   <HelpKINode Title="IOperationService.GetPaymentTypesToPayOutOnUser method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentTypesToPayOutOnUser.htm" />
