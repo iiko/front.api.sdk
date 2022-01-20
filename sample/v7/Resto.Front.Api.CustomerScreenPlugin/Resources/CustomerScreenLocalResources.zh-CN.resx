@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>总计： </value>
+  </data>
+  <data name="DiscountText">
+    <value>折扣： </value>
+  </data>
+  <data name="IncreaseText">
+    <value>附加费: </value>
+  </data>
+  <data name="OrderContent">
+    <value>订单内容：</value>
+  </data>
+  <data name="WindowTitle">
+    <value>顾客操作系统</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>更改： </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>欢迎！</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>所选路径找不到支持的视频文件。确保文件可用并重新启动iikoFront。</value>
+  </data>
+  <data name="ProductName">
+    <value>名称</value>
+  </data>
+  <data name="Amount">
+    <value>数量</value>
+  </data>
+  <data name="Price">
+    <value>价钱</value>
+  </data>
+  <data name="OrderSum">
+    <value>订单金额：</value>
+  </data>
+  <data name="PluginName">
+    <value>客户界面</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>操作</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>恢­复炒作系统</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>重­视 ­频</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>系统中无第二台监视器。</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>信息</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>客户界面重新初始化，检查结果。</value>
+  </data>
+</root>

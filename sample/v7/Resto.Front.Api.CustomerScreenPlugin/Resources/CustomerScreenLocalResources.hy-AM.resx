@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Итого: </value>
+  </data>
+  <data name="DiscountText">
+    <value>Скидка: </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Надбавка: </value>
+  </data>
+  <data name="OrderContent">
+    <value>Содержание заказа:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Окно покупателя</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Сдача: </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Добро пожаловать!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>По указанному пути не найдено ни одного подходящего для воспроизведения видеофайла. Удостоверьтесь, что файлы есть и перезапустите iikoFront.</value>
+  </data>
+  <data name="ProductName">
+    <value>Անվանում</value>
+  </data>
+  <data name="Amount">
+    <value>кол-во</value>
+  </data>
+  <data name="Price">
+    <value>стоимость</value>
+  </data>
+  <data name="OrderSum">
+    <value>Сумма заказа:</value>
+  </data>
+  <data name="PluginName">
+    <value>Экран покупателя</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Операции</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Восстано­вить окно</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Пере­запус­тить видео</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>В системе отсутствует второй монитор.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Информация</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Экран покупателя был повторно проинициализирован, проверьте результат.</value>
+  </data>
+</root>

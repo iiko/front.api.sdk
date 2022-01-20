@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Разом: </value>
+  </data>
+  <data name="DiscountText">
+    <value>Знижка: </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Надбавка: </value>
+  </data>
+  <data name="OrderContent">
+    <value>Зміст замовлення:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Вікно покупця</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Решта: </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Ласкаво просимо!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>За вказаним шляхом не знайдено жодного придатного для відтворення відеофайлу. Переконайтеся в тому, що файли є, і перезавантажте iikoFront.</value>
+  </data>
+  <data name="ProductName">
+    <value>Найменування</value>
+  </data>
+  <data name="Amount">
+    <value>кількість</value>
+  </data>
+  <data name="Price">
+    <value>вартість</value>
+  </data>
+  <data name="OrderSum">
+    <value>Сума замовлення:</value>
+  </data>
+  <data name="PluginName">
+    <value>Екран покупця</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Операції</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Відно­вити вікно</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Пере­запус­тити відео</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>У системі відсутній другий монітор.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Інформація</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Екран покупця був повторно ініціалізований, перевірте результат.</value>
+  </data>
+</root>

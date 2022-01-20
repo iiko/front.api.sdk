@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Total: </value>
+  </data>
+  <data name="DiscountText">
+    <value>Reducere: </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Adaos: </value>
+  </data>
+  <data name="OrderContent">
+    <value>Conţinutul comenzii:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Fișierul cumpărătorului</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Rest: </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Bine aţi venit!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>Conform direcţiei indicate nu a fost găsit nici un fişier pentru a vizualiza video. Asiguraţi-vă că fişierul există şi restartaţi iikoFront.</value>
+  </data>
+  <data name="ProductName">
+    <value>Denumire</value>
+  </data>
+  <data name="Amount">
+    <value>Cant.</value>
+  </data>
+  <data name="Price">
+    <value>cost</value>
+  </data>
+  <data name="OrderSum">
+    <value>Suma comenzii:</value>
+  </data>
+  <data name="PluginName">
+    <value>Display client</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Tranzacții</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Resta­bilirea fișierului</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Re­starta­re video</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>În sistem nu este al doilea monitor</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Informații</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Fișierul cumpărătorului a fost repetat re-inițializat, verificaţi rezultatul.</value>
+  </data>
+</root>

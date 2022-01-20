@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Tổng: </value>
+  </data>
+  <data name="DiscountText">
+    <value>Giảm giá: </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Tăng giá: </value>
+  </data>
+  <data name="OrderContent">
+    <value>Nội dung order:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Màn hình hiển thị khách hàng</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Thay đổi: </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Welcome!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>Theo đường dẫn này</value>
+  </data>
+  <data name="ProductName">
+    <value>Tên</value>
+  </data>
+  <data name="Amount">
+    <value>Số lượng</value>
+  </data>
+  <data name="Price">
+    <value>giá</value>
+  </data>
+  <data name="OrderSum">
+    <value>Tổng order:</value>
+  </data>
+  <data name="PluginName">
+    <value>Màn hình người mua</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Các hoạt động</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Re­store window</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Re­start vi­deo</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>Trong hệ thống không có màn hình thứ 2</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Thông tin</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Màn hình của người mua đã thiết lập lại</value>
+  </data>
+</root>

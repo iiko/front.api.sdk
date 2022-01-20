@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Toplam: </value>
+  </data>
+  <data name="DiscountText">
+    <value>İndirim: </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Ek Ücret: </value>
+  </data>
+  <data name="OrderContent">
+    <value>Sipariş içeriği:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Müşteri Penceresi</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Para üstü: </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Hoş geldiniz!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>Seçilen yol tarafından desteklenen video dosyası bulunamadı. Dosyaların orada olduğundan emin olun ve iikoFront'u yeniden başlatın.</value>
+  </data>
+  <data name="ProductName">
+    <value>İsim</value>
+  </data>
+  <data name="Amount">
+    <value>miktar</value>
+  </data>
+  <data name="Price">
+    <value>fiyat</value>
+  </data>
+  <data name="OrderSum">
+    <value>Sipariş tutarı:</value>
+  </data>
+  <data name="PluginName">
+    <value>Müşteri ekranı</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>İşlemler</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Pencereyi geri ­getir</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Videoyu ­yeniden­başlat</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>Sistemde ikinci monitör yok.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Bilgi</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Müşteri ekranı yeniden başlatıldı, sonuçları kontrol et.</value>
+  </data>
+</root>

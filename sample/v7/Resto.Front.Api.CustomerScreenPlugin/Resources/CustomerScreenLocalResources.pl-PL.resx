@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Razem: </value>
+  </data>
+  <data name="DiscountText">
+    <value>Zniżka: </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Dopłata: </value>
+  </data>
+  <data name="OrderContent">
+    <value>Zawartość zamówienia:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Okno klienta</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Reszta: </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Witaj!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>Nie odnaleziono wspieranych plików wideo w wybranej ścieżce. Proszę upewnić się, że pliki są dostępne i zrestartować iikoFront.</value>
+  </data>
+  <data name="ProductName">
+    <value>Nazwa</value>
+  </data>
+  <data name="Amount">
+    <value>ilość</value>
+  </data>
+  <data name="Price">
+    <value>cena</value>
+  </data>
+  <data name="OrderSum">
+    <value>Wartość zamówienia:</value>
+  </data>
+  <data name="PluginName">
+    <value>Ekran klienta</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Operacje</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Prz­ywróć okno</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Zre­startuj wi­deo</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>W systemie nie jest dostępny drugi monitor.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Informacja</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Ekran klienta uruchomiony ponownie, sprawdź wynik.</value>
+  </data>
+</root>

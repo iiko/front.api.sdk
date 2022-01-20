@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Total: </value>
+  </data>
+  <data name="DiscountText">
+    <value>Discount: </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Surcharge: </value>
+  </data>
+  <data name="OrderContent">
+    <value>Order contents:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Customer's window</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Change: </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Welcome!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>No supported video file found by selected path.  Make sure files are available and restart iikoFront.</value>
+  </data>
+  <data name="ProductName">
+    <value>Name</value>
+  </data>
+  <data name="Amount">
+    <value>qty</value>
+  </data>
+  <data name="Price">
+    <value>price</value>
+  </data>
+  <data name="OrderSum">
+    <value>Order amount:</value>
+  </data>
+  <data name="PluginName">
+    <value>Customer screen</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Operations</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Re­store window</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Re­start vi­deo</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>No second monitor available in system.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Information</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Customer screen reinitialised, check results.</value>
+  </data>
+</root>

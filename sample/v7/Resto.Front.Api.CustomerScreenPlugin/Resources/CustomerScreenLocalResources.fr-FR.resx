@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Total : </value>
+  </data>
+  <data name="DiscountText">
+    <value>Remise : </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Supplément : </value>
+  </data>
+  <data name="OrderContent">
+    <value>Le contenu de commande :</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Écran client</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Rendu : </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Bienvenue !</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>Aucun fichier vidéo pris en charge n'a été trouvé par le chemin d'accès sélectionné.  Assurez-vous que les fichiers sont disponibles et redémarrez iikoFront.</value>
+  </data>
+  <data name="ProductName">
+    <value>Nom</value>
+  </data>
+  <data name="Amount">
+    <value>qté</value>
+  </data>
+  <data name="Price">
+    <value>prix</value>
+  </data>
+  <data name="OrderSum">
+    <value>Montant de la commande :</value>
+  </data>
+  <data name="PluginName">
+    <value>Écran client</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Opérations</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Fen­être de restauration</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Re­démarrer la vi­déo</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>Pas de deuxième moniteur disponible dans le système.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Information</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Écran client réinitialisé, vérification des résultats.</value>
+  </data>
+</root>

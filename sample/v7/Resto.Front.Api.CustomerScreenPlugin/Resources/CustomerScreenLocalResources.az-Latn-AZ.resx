@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Cəmi: </value>
+  </data>
+  <data name="DiscountText">
+    <value>Endirim: </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Artırma: </value>
+  </data>
+  <data name="OrderContent">
+    <value>Sifarişin tərkibi:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Alıcı pəncərəsi</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Qalıq: </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Xoş gəlmişsiniz</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>Göstərilən ünvanda canlandırmaq üçün heç bir uyğun videofayl tapılmayıb. Faylların mövcudluğuna əmin olun və iikoFront- u yenidən qoşun.</value>
+  </data>
+  <data name="ProductName">
+    <value>Adı</value>
+  </data>
+  <data name="Amount">
+    <value>miqdar</value>
+  </data>
+  <data name="Price">
+    <value>dəyəri</value>
+  </data>
+  <data name="OrderSum">
+    <value>Sifariş məbləği:</value>
+  </data>
+  <data name="PluginName">
+    <value>Alıcı ekranı</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Əməliyyatlar</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Pəncərəni bərpa­et</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Videonu yenidən­işə­sal</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>Sistemdə ikinci monitor yoxdur.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Məlumat</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Alıcı ekranı təkrar inisializasiya olundu, nəticəni yoxlayın.</value>
+  </data>
+</root>

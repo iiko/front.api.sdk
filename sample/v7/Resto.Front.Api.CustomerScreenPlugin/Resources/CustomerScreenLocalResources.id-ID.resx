@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Total: </value>
+  </data>
+  <data name="DiscountText">
+    <value>Diskon: </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Biaya tambahan: </value>
+  </data>
+  <data name="OrderContent">
+    <value>Isi pesanan:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Jendela pelanggan</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Kembalian: </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Selamat datang!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>Tidak ada file video dukungan yang ditemukan berdasarkan jalur yang dipilih. Pastikan file tersedia dan mulai ulang iikoFront.</value>
+  </data>
+  <data name="ProductName">
+    <value>Nama</value>
+  </data>
+  <data name="Amount">
+    <value>jml</value>
+  </data>
+  <data name="Price">
+    <value>harga</value>
+  </data>
+  <data name="OrderSum">
+    <value>Jumlah pesanan:</value>
+  </data>
+  <data name="PluginName">
+    <value>Layar pelanggan</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Operasi</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Re­store window</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Re­start vi­deo</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>Tidak tersedia monitor kedua dalam sistem.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Informasi</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Inisialisasi ulang layar pelanggan, periksa hasil.</value>
+  </data>
+</root>

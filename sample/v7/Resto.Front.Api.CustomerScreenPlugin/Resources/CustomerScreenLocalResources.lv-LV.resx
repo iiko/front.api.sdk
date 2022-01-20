@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Kopā:  </value>
+  </data>
+  <data name="DiscountText">
+    <value>Atlaide:  </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Uzcenojums:  </value>
+  </data>
+  <data name="OrderContent">
+    <value>Pasūtījuma saturs:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Pircēja ekrāns</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Atlikums:  </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Laipni lūdzam!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>Norādītajā vietā nav atrasts neviens video, kas būtu piemērots atskaņošanai. Lūdzam pārliecināties, ka ceļš ir korekts un pārstartējiet iikoFront.</value>
+  </data>
+  <data name="ProductName">
+    <value>Nosaukums</value>
+  </data>
+  <data name="Amount">
+    <value>skaits</value>
+  </data>
+  <data name="Price">
+    <value>cena</value>
+  </data>
+  <data name="OrderSum">
+    <value>Pasūtījuma summa:</value>
+  </data>
+  <data name="PluginName">
+    <value>Pircēja displejs</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Operācijas</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Atjau­not logu</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Pār­star­tēt video</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>Sistēmā nav atrasts otrs monitors.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Informācija</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Pircēja displējs bija inicializēts atkārtoti, lūdzam pārbaudīt rezultātu.</value>
+  </data>
+</root>

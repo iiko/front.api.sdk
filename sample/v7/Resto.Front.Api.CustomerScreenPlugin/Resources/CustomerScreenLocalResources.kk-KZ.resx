@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Жиыны: </value>
+  </data>
+  <data name="DiscountText">
+    <value>Түсі: </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Надбавка: </value>
+  </data>
+  <data name="OrderContent">
+    <value>Мазмұны тапсырыс:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Терезе сатып алушының</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Қайтарым:  </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Қош келдіңіздер!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>Көрсетілген пути табылмады бірде-бір ыңғайлы ойнату үшін видеофайла. Көз жеткізіңіз, файлдар бар ді өшіріп, қайта қосыңыз iikoFront.</value>
+  </data>
+  <data name="ProductName">
+    <value>Атауы</value>
+  </data>
+  <data name="Amount">
+    <value> саны</value>
+  </data>
+  <data name="Price">
+    <value>Құны</value>
+  </data>
+  <data name="OrderSum">
+    <value>Тапсырыс сомасы:</value>
+  </data>
+  <data name="PluginName">
+    <value>Сатып алушы экраны</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Операциялар</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Қалпына келтіру­дау терезесі</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Қайта­жаңа көлік құрастыру­тить видео</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>Жүйесінде жоқ екінші монитор.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Ақпарат</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Экран сатып алушының болды қайтадан проинициализирован тексеріңіз нәтижесі.</value>
+  </data>
+</root>

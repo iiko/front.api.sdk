@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Общо: </value>
+  </data>
+  <data name="DiscountText">
+    <value>Отстъпка: </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Доплащане: </value>
+  </data>
+  <data name="OrderContent">
+    <value>Съдържание за поръчка:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Прозорец на клиента</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Ресто: </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Добре дошли!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>Не е намерен поддържан видео файл по избран път. Уверете се, че файловете са налични и рестартирайте iikoFront.</value>
+  </data>
+  <data name="ProductName">
+    <value>Име</value>
+  </data>
+  <data name="Amount">
+    <value>Количество</value>
+  </data>
+  <data name="Price">
+    <value>Цена, лв.</value>
+  </data>
+  <data name="OrderSum">
+    <value>СОЙНОСТ НА ПОРЪЧКАТА:</value>
+  </data>
+  <data name="PluginName">
+    <value>Екран на клиента</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Операции</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Про­зорец за възстановяване</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Ре­стартирайте ви­део</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>Няма наличен втори монитор в системата.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Информация</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Клиентският екран се реинициализира, проверете резултатите.</value>
+  </data>
+</root>

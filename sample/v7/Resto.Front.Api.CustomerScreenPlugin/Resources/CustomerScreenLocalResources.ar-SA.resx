@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>إجمالي: </value>
+  </data>
+  <data name="DiscountText">
+    <value>خصم: </value>
+  </data>
+  <data name="IncreaseText">
+    <value>الرسم الإضافي: </value>
+  </data>
+  <data name="OrderContent">
+    <value>مضمون الطلب:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>نافذة المشتري</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>الباقي: </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>اهلا وسهلا بكم!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>حسب المسار المحدد لم يوجد أي الملف المناسب لتشغيل فيديو . يرجى التأكد بوجود الملفات وإعادة التشغيل iikoFront.</value>
+  </data>
+  <data name="ProductName">
+    <value>الاسم</value>
+  </data>
+  <data name="Amount">
+    <value>عدد</value>
+  </data>
+  <data name="Price">
+    <value>القيمة</value>
+  </data>
+  <data name="OrderSum">
+    <value>مبلغ الطلب:</value>
+  </data>
+  <data name="PluginName">
+    <value>شاشة المشتري</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>عمليات</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>إعا­دة النافذة</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>إعادة­تش­غيل فيديو</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>لا توجد الشاشة الثاني في المنظومة.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>المعلومات</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>تم تهيئة شاشة المشتري مرة أخرى, إفحص النتيجة.</value>
+  </data>
+</root>

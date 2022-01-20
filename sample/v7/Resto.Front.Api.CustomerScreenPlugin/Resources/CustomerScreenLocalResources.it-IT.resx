@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Totale:  </value>
+  </data>
+  <data name="DiscountText">
+    <value>Sconto: </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Supplemento:  </value>
+  </data>
+  <data name="OrderContent">
+    <value>L'ordine contiene:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Finestra del cliente</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Resto:  </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Benvenuto!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>Nessun file video supportato trovato nel percorso selezionato. Assicurarsi che i file siano disponibili e riavviare iikoFront.</value>
+  </data>
+  <data name="ProductName">
+    <value>Nome</value>
+  </data>
+  <data name="Amount">
+    <value>q.tà</value>
+  </data>
+  <data name="Price">
+    <value>prezzo</value>
+  </data>
+  <data name="OrderSum">
+    <value>Importo dell'ordine:</value>
+  </data>
+  <data name="PluginName">
+    <value>Display cliente</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Operazioni</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Finestra ­di ripristino</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Riavvi­are vi­deo</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>Nessun monitor secondario disponibile nel sistema.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Informazioni</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Schermo del cliente reinizializzato, controllare i risultati.</value>
+  </data>
+</root>

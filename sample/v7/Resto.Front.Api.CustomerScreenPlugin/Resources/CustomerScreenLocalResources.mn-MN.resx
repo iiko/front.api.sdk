@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Нийт:  </value>
+  </data>
+  <data name="DiscountText">
+    <value>Хөнгөлөлт:  </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Нэмэлт төлбөр:  </value>
+  </data>
+  <data name="OrderContent">
+    <value>Захиалгын агуулга:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Үйлчлүүлэгч цонх</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Засварлах:  </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Тавтай морил!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>Сонгосон замд дэмжигдсэн видео файл олдсонгүй. Файл бэлэн байгаа эсэхийг шалгаад iikoFront-ийг дахин эхлүүлнэ үү.</value>
+  </data>
+  <data name="ProductName">
+    <value>Нэр</value>
+  </data>
+  <data name="Amount">
+    <value>тоо ширхэг</value>
+  </data>
+  <data name="Price">
+    <value>үнэ</value>
+  </data>
+  <data name="OrderSum">
+    <value>Захиалгын нийт дүн:</value>
+  </data>
+  <data name="PluginName">
+    <value>Үйлчлүүлэгчийн дэлгэц</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Үйл ажиллагаа</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Re ­ харуулах</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Re ­ эхлэх vi ­ de</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>Систем дэх хоёр дахь хяналт байхгүй байна.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Мэдээлэл</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Үйлчлүүлэгчийн дэлгэцийг дахин шалгаж, үр дүнг шалгана.</value>
+  </data>
+</root>

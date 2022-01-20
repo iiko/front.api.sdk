@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Viso:  </value>
+  </data>
+  <data name="DiscountText">
+    <value>Nuolaida:  </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Antkainis:  </value>
+  </data>
+  <data name="OrderContent">
+    <value>Užsakymo turinys:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Pirkėjo langas</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Grąža:  </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Sveiki atvykę!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>Nurodytu ardesu nėra jokių tinkamo vaizdo failo. Įsitikinkite, kad failai yra ten ir perkraukite iikoFront.</value>
+  </data>
+  <data name="ProductName">
+    <value>Pavadinimas</value>
+  </data>
+  <data name="Amount">
+    <value>kiekis</value>
+  </data>
+  <data name="Price">
+    <value>kaina</value>
+  </data>
+  <data name="OrderSum">
+    <value>Užsakymo suma:</value>
+  </data>
+  <data name="PluginName">
+    <value>Pirkėjo ekranas</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Operacijos</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Atstatyti­ langą</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Vaizdo­filmo­kartojimas</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>Sistemoje nėra antro monitoriaus.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Informacija</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Pirkėjo ekranas buvo iš naujo iniciuotas, patikrinkite rezultatą.</value>
+  </data>
+</root>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xml:space="preserve">
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="TotalSumText">
+    <value>Totaal: </value>
+  </data>
+  <data name="DiscountText">
+    <value>Korting: </value>
+  </data>
+  <data name="IncreaseText">
+    <value>Toeslag: </value>
+  </data>
+  <data name="OrderContent">
+    <value>Inhoud van de bestelling:</value>
+  </data>
+  <data name="WindowTitle">
+    <value>Kopersvenster</value>
+  </data>
+  <data name="ChangeSumText">
+    <value>Wisselgeld:  </value>
+  </data>
+  <data name="WelcomeTextDefault">
+    <value>Welkom!</value>
+  </data>
+  <data name="FilesNotFoundErrorText">
+    <value>Er is geen videobestand gevonden dat geschikt is om af te spelen langs dit pad. Zorg ervoor dat de bestanden er zijn en start iikoFront opnieuw op.</value>
+  </data>
+  <data name="ProductName">
+    <value>Naam</value>
+  </data>
+  <data name="Amount">
+    <value>aantal</value>
+  </data>
+  <data name="Price">
+    <value>prijs</value>
+  </data>
+  <data name="OrderSum">
+    <value>Bestellingsbedrag:</value>
+  </data>
+  <data name="PluginName">
+    <value>Klanten scherm</value>
+  </data>
+  <data name="ConfigOperations">
+    <value>Operaties</value>
+  </data>
+  <data name="ConfigValidareWindow">
+    <value>Venster­herstellen</value>
+  </data>
+  <data name="ConfigRestartPlayer">
+    <value>Video her­start­en</value>
+  </data>
+  <data name="CantFindSecondScreenError">
+    <value>Kan geen tweede monitor vinden in het systeem.</value>
+  </data>
+  <data name="InfoMessageTitle">
+    <value>Informatie</value>
+  </data>
+  <data name="CusromerScreenShowSuccess">
+    <value>Het scherm van de koper is opnieuw geïnitialiseerd. Controleer het resultaat.</value>
+  </data>
+</root>
