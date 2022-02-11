@@ -1129,6 +1129,10 @@
     <HelpKINode Title="IEditSession.ChangeDeliverySplitBetweenPersons Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliverySplitBetweenPersons.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeDeliverySplitBetweenPersons Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliverySplitBetweenPersons.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChangeDeliveryZone method">
+    <HelpKINode Title="IEditSession.ChangeDeliveryZone Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryZone.htm" />
+    <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryZone Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryZone.htm" />
+  </HelpKINode>
   <HelpKINode Title="ChangedEntities(Of T) class">
     <HelpKINode Title="ChangedEntities(T) Class" Url="html/T_Resto_Front_Api_Data_Common_ChangedEntities_1.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Common_ChangedEntities_1__ctor.htm" />
@@ -2088,12 +2092,12 @@
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="DoCorrection method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCorrection.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -3111,6 +3115,7 @@
   <HelpKINode Title="IDeliveryOrder.SendTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_SendTime.htm" />
   <HelpKINode Title="IDeliveryOrder.SourceId property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_SourceId.htm" />
   <HelpKINode Title="IDeliveryOrder.SplitBetweenPersons property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_SplitBetweenPersons.htm" />
+  <HelpKINode Title="IDeliveryOrder.Zone property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_Zone.htm" />
   <HelpKINode Title="IDeliveryOrderEditScreen interface">
     <HelpKINode Title="IDeliveryOrderEditScreen Interface" Url="html/T_Resto_Front_Api_Data_Screens_IDeliveryOrderEditScreen.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Screens_IDeliveryOrderEditScreen.htm" />
@@ -3273,6 +3278,7 @@
   <HelpKINode Title="IEditSession.ChangeDeliveryProblemComment method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryProblemComment.htm" />
   <HelpKINode Title="IEditSession.ChangeDeliveryProblemStatus method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryProblemStatus.htm" />
   <HelpKINode Title="IEditSession.ChangeDeliverySplitBetweenPersons method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliverySplitBetweenPersons.htm" />
+  <HelpKINode Title="IEditSession.ChangeDeliveryZone method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryZone.htm" />
   <HelpKINode Title="IEditSession.ChangeEstimatedOrderGuestsCount method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeEstimatedOrderGuestsCount.htm" />
   <HelpKINode Title="IEditSession.ChangeExternalPaymentItemCustomData method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeExternalPaymentItemCustomData.htm" />
   <HelpKINode Title="IEditSession.ChangeOrderAppliedIikoCard5ManualConditions method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderAppliedIikoCard5ManualConditions.htm" />
@@ -5751,6 +5757,7 @@
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryProblemComment method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryProblemComment.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryProblemStatus method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryProblemStatus.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliverySplitBetweenPersons method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliverySplitBetweenPersons.htm" />
+  <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryZone method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryZone.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeEstimatedOrderGuestsCount method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeEstimatedOrderGuestsCount.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeExternalPaymentItemCustomData method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeExternalPaymentItemCustomData.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderAppliedIikoCard5ManualConditions method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderAppliedIikoCard5ManualConditions.htm" />
@@ -8033,4 +8040,5 @@
   <HelpKINode Title="Z property" Url="html/P_Resto_Front_Api_Data_View_RestaurantSectionObject_Z.htm" />
   <HelpKINode Title="ZeroCashOnClose property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_ZeroCashOnClose.htm" />
   <HelpKINode Title="ZipCode property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_LegalAddress_ZipCode.htm" />
+  <HelpKINode Title="Zone property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_Zone.htm" />
 </HelpKI>
