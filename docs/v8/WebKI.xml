@@ -2098,15 +2098,15 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -3024,6 +3024,8 @@
   <HelpKINode Title="ICounteragent.FullAddressRegion property" Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_FullAddressRegion.htm" />
   <HelpKINode Title="ICounteragent.FullAddressStreet property" Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_FullAddressStreet.htm" />
   <HelpKINode Title="ICounteragent.Name property" Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_Name.htm" />
+  <HelpKINode Title="ICounteragent.PublicOrganizationProjectCode property" Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_PublicOrganizationProjectCode.htm" />
+  <HelpKINode Title="ICounteragent.PublicOrganizationTenderCode property" Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_PublicOrganizationTenderCode.htm" />
   <HelpKINode Title="ICounteragent.RecipientCode property" Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_RecipientCode.htm" />
   <HelpKINode Title="ICourierWorkload interface">
     <HelpKINode Title="ICourierWorkload Interface" Url="html/T_Resto_Front_Api_Data_Orders_ICourierWorkload.htm" />
@@ -6401,6 +6403,8 @@
   </HelpKINode>
   <HelpKINode Title="PublicAPIAttribute.Comment property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_PublicAPIAttribute_Comment.htm" />
   <HelpKINode Title="PublicAPIAttribute.PublicAPIAttribute constructor" Url="html/Overload_Resto_Front_Api_Attributes_JetBrains_PublicAPIAttribute__ctor.htm" />
+  <HelpKINode Title="PublicOrganizationProjectCode property" Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_PublicOrganizationProjectCode.htm" />
+  <HelpKINode Title="PublicOrganizationTenderCode property" Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_PublicOrganizationTenderCode.htm" />
   <HelpKINode Title="PureAttribute class">
     <HelpKINode Title="PureAttribute Class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_PureAttribute.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_PureAttribute__ctor.htm" />
