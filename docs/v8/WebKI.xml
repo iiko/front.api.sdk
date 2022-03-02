@@ -1391,6 +1391,7 @@
   <HelpKINode Title="ChequeSale.GuestName property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_GuestName.htm" />
   <HelpKINode Title="ChequeSale.Increase property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Increase.htm" />
   <HelpKINode Title="ChequeSale.IncreaseSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_IncreaseSum.htm" />
+  <HelpKINode Title="ChequeSale.IsCalculated property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_IsCalculated.htm" />
   <HelpKINode Title="ChequeSale.IsTaxable property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_IsTaxable.htm" />
   <HelpKINode Title="ChequeSale.ItemCategory property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_ItemCategory.htm" />
   <HelpKINode Title="ChequeSale.Name property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Name.htm" />
@@ -2096,8 +2097,8 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -4686,7 +4687,11 @@
   <HelpKINode Title="IsAutomatic property" Url="html/P_Resto_Front_Api_Data_Orders_IDiscountType_IsAutomatic.htm" />
   <HelpKINode Title="IsBanquetOrder property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_IsBanquetOrder.htm" />
   <HelpKINode Title="IsBillTaskSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsBillTaskSupported.htm" />
-  <HelpKINode Title="IsCalculated property" Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalRegisterTaxItem_IsCalculated.htm" />
+  <HelpKINode Title="IsCalculated property">
+    <HelpKINode Title="ChequeSale.IsCalculated Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_IsCalculated.htm" />
+    <HelpKINode Title="FiscalRegisterTaxItem.IsCalculated Property " Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalRegisterTaxItem_IsCalculated.htm" />
+    <HelpKINode Title="ITaxCategory.IsCalculated Property " Url="html/P_Resto_Front_Api_Data_Taxes_ITaxCategory_IsCalculated.htm" />
+  </HelpKINode>
   <HelpKINode Title="IScale interface">
     <HelpKINode Title="IScale Interface" Url="html/T_Resto_Front_Api_Devices_IScale.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Devices_IScale.htm" />
@@ -4890,6 +4895,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Taxes_ITaxCategory.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Taxes_ITaxCategory.htm" />
   </HelpKINode>
+  <HelpKINode Title="ITaxCategory.IsCalculated property" Url="html/P_Resto_Front_Api_Data_Taxes_ITaxCategory_IsCalculated.htm" />
   <HelpKINode Title="ITaxCategory.Name property" Url="html/P_Resto_Front_Api_Data_Taxes_ITaxCategory_Name.htm" />
   <HelpKINode Title="ITaxCategory.VatPercent property" Url="html/P_Resto_Front_Api_Data_Taxes_ITaxCategory_VatPercent.htm" />
   <HelpKINode Title="ItemCanBeNullAttribute class">
