@@ -548,6 +548,7 @@
   <HelpKINode Title="BeforeDoCheckActionResult.BeforeCheque property" Url="html/P_Resto_Front_Api_Data_Device_BeforeDoCheckActionResult_BeforeCheque.htm" />
   <HelpKINode Title="BeforeDoCheckActionResult.BeforeDoCheckActionResult constructor" Url="html/M_Resto_Front_Api_Data_Device_BeforeDoCheckActionResult__ctor.htm" />
   <HelpKINode Title="BeforeDoCheckActionResult.CashierName property" Url="html/P_Resto_Front_Api_Data_Device_BeforeDoCheckActionResult_CashierName.htm" />
+  <HelpKINode Title="BeforeDoCheckActionResult.CustomerTin property" Url="html/P_Resto_Front_Api_Data_Device_BeforeDoCheckActionResult_CustomerTin.htm" />
   <HelpKINode Title="BeforeDoCheckActionResult.Sales property" Url="html/P_Resto_Front_Api_Data_Device_BeforeDoCheckActionResult_Sales.htm" />
   <HelpKINode Title="BeforeDoCheque property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDoCheque.htm" />
   <HelpKINode Title="BeforeDocument property" Url="html/P_Resto_Front_Api_Data_Cheques_TextDocumentExtensions_BeforeDocument.htm" />
@@ -1756,7 +1757,10 @@
   <HelpKINode Title="CustomerId property" Url="html/P_Resto_Front_Api_Data_Payments_OrganizationDetailsInfo_CustomerId.htm" />
   <HelpKINode Title="CustomerIds property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_CustomerIds.htm" />
   <HelpKINode Title="CustomerName property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CustomerName.htm" />
-  <HelpKINode Title="CustomerTin property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CustomerTin.htm" />
+  <HelpKINode Title="CustomerTin property">
+    <HelpKINode Title="BeforeDoCheckActionResult.CustomerTin Property " Url="html/P_Resto_Front_Api_Data_Device_BeforeDoCheckActionResult_CustomerTin.htm" />
+    <HelpKINode Title="ChequeTask.CustomerTin Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CustomerTin.htm" />
+  </HelpKINode>
   <HelpKINode Title="CutText field">
     <HelpKINode Title="AttributeValues.CutText Field" Url="html/F_Resto_Front_Api_Data_Cheques_AttributeValues_CutText.htm" />
     <HelpKINode Title="Tags.CutText Field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_CutText.htm" />
@@ -2091,12 +2095,12 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2433,7 +2437,6 @@
     <HelpKINode Title="IPastOrder.FiscalChequeNumber Property " Url="html/P_Resto_Front_Api_Data_Orders_IPastOrder_FiscalChequeNumber.htm" />
   </HelpKINode>
   <HelpKINode Title="FiscalCode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_UzChequeSaleData_FiscalCode.htm" />
-  <HelpKINode Title="FiscalName property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_UzChequeSaleData_FiscalName.htm" />
   <HelpKINode Title="FiscalRegisterPaymentType class">
     <HelpKINode Title="FiscalRegisterPaymentType Class" Url="html/T_Resto_Front_Api_Data_Device_Settings_FiscalRegisterPaymentType.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Settings_FiscalRegisterPaymentType__ctor.htm" />
@@ -8030,7 +8033,6 @@
   </HelpKINode>
   <HelpKINode Title="UzChequeSaleData property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_UzChequeSaleData.htm" />
   <HelpKINode Title="UzChequeSaleData.FiscalCode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_UzChequeSaleData_FiscalCode.htm" />
-  <HelpKINode Title="UzChequeSaleData.FiscalName property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_UzChequeSaleData_FiscalName.htm" />
   <HelpKINode Title="UzChequeSaleData.UzChequeSaleData constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_UzChequeSaleData__ctor.htm" />
   <HelpKINode Title="Value property">
     <HelpKINode Title="BaseSetting(T).Value Property " Url="html/P_Resto_Front_Api_Data_Settings_BaseSetting_1_Value.htm" />
