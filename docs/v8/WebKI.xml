@@ -2109,10 +2109,10 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2781,6 +2781,7 @@
   <HelpKINode Title="GetTaxCategoryById method" Url="html/M_Resto_Front_Api_IOperationService_GetTaxCategoryById.htm" />
   <HelpKINode Title="GetTemplatedModifiersParams method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetTemplatedModifiersParams.htm" />
   <HelpKINode Title="GetTemplatedModifiersParamsByProduct method" Url="html/M_Resto_Front_Api_IOperationService_GetTemplatedModifiersParamsByProduct.htm" />
+  <HelpKINode Title="GetTerminalAddress method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalAddress.htm" />
   <HelpKINode Title="GetTerminalById method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalById.htm" />
   <HelpKINode Title="GetTerminals method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminals.htm" />
   <HelpKINode Title="GetTerminalsGroupById method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalsGroupById.htm" />
@@ -4043,6 +4044,7 @@
   <HelpKINode Title="IOperationService.GetTaxCategories method" Url="html/M_Resto_Front_Api_IOperationService_GetTaxCategories.htm" />
   <HelpKINode Title="IOperationService.GetTaxCategoryById method" Url="html/M_Resto_Front_Api_IOperationService_GetTaxCategoryById.htm" />
   <HelpKINode Title="IOperationService.GetTemplatedModifiersParamsByProduct method" Url="html/M_Resto_Front_Api_IOperationService_GetTemplatedModifiersParamsByProduct.htm" />
+  <HelpKINode Title="IOperationService.GetTerminalAddress method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalAddress.htm" />
   <HelpKINode Title="IOperationService.GetTerminalById method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalById.htm" />
   <HelpKINode Title="IOperationService.GetTerminals method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminals.htm" />
   <HelpKINode Title="IOperationService.GetTerminalsGroupById method" Url="html/M_Resto_Front_Api_IOperationService_GetTerminalsGroupById.htm" />
