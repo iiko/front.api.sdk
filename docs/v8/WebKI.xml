@@ -2113,12 +2113,12 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2973,6 +2973,7 @@
   <HelpKINode Title="ICashRegisterInfo.PrintNds property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_PrintNds.htm" />
   <HelpKINode Title="ICashRegisterInfo.PrintOrderNumber property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_PrintOrderNumber.htm" />
   <HelpKINode Title="ICashRegisterInfo.SerialNumber property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_SerialNumber.htm" />
+  <HelpKINode Title="ICashRegisterInfo.TaxCategoryToFiscalRegisterTaxItems property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_TaxCategoryToFiscalRegisterTaxItems.htm" />
   <HelpKINode Title="ICashRegisterInfo.VirtualChequePrinterId property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_VirtualChequePrinterId.htm" />
   <HelpKINode Title="IChequeTaskProcessor interface">
     <HelpKINode Title="IChequeTaskProcessor Interface" Url="html/T_Resto_Front_Api_Devices_IChequeTaskProcessor.htm" />
@@ -5019,6 +5020,14 @@
   <HelpKINode Title="ITaxCategory.IsCalculated property" Url="html/P_Resto_Front_Api_Data_Taxes_ITaxCategory_IsCalculated.htm" />
   <HelpKINode Title="ITaxCategory.Name property" Url="html/P_Resto_Front_Api_Data_Taxes_ITaxCategory_Name.htm" />
   <HelpKINode Title="ITaxCategory.VatPercent property" Url="html/P_Resto_Front_Api_Data_Taxes_ITaxCategory_VatPercent.htm" />
+  <HelpKINode Title="ITaxCategoryToFiscalRegisterTaxItem interface">
+    <HelpKINode Title="ITaxCategoryToFiscalRegisterTaxItem Interface" Url="html/T_Resto_Front_Api_Data_Device_ITaxCategoryToFiscalRegisterTaxItem.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_ITaxCategoryToFiscalRegisterTaxItem.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_ITaxCategoryToFiscalRegisterTaxItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITaxCategoryToFiscalRegisterTaxItem.TaxCategoryId property" Url="html/P_Resto_Front_Api_Data_Device_ITaxCategoryToFiscalRegisterTaxItem_TaxCategoryId.htm" />
+  <HelpKINode Title="ITaxCategoryToFiscalRegisterTaxItem.TaxId property" Url="html/P_Resto_Front_Api_Data_Device_ITaxCategoryToFiscalRegisterTaxItem_TaxId.htm" />
+  <HelpKINode Title="ITaxCategoryToFiscalRegisterTaxItem.TaxPercent property" Url="html/P_Resto_Front_Api_Data_Device_ITaxCategoryToFiscalRegisterTaxItem_TaxPercent.htm" />
   <HelpKINode Title="ItemCanBeNullAttribute class">
     <HelpKINode Title="ItemCanBeNullAttribute Class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ItemCanBeNullAttribute.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_ItemCanBeNullAttribute__ctor.htm" />
@@ -7071,6 +7080,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Device.ICashRegisterInfo interface" Url="html/T_Resto_Front_Api_Data_Device_ICashRegisterInfo.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.IOuterEconomicActivityNomenclatureCode interface" Url="html/T_Resto_Front_Api_Data_Device_IOuterEconomicActivityNomenclatureCode.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.IPaymentTypeToFiscalRegisterPaymentTypeId interface" Url="html/T_Resto_Front_Api_Data_Device_IPaymentTypeToFiscalRegisterPaymentTypeId.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Device.ITaxCategoryToFiscalRegisterTaxItem interface" Url="html/T_Resto_Front_Api_Data_Device_ITaxCategoryToFiscalRegisterTaxItem.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.IWaiterTeam interface" Url="html/T_Resto_Front_Api_Data_Device_IWaiterTeam.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Results namespace" Url="html/N_Resto_Front_Api_Data_Device_Results.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Results.CashRegisterResult class" Url="html/T_Resto_Front_Api_Data_Device_Results_CashRegisterResult.htm" />
@@ -7888,11 +7898,14 @@
   </HelpKINode>
   <HelpKINode Title="TaxCategory property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_TaxCategory.htm" />
   <HelpKINode Title="TaxCategoryChanged property" Url="html/P_Resto_Front_Api_INotificationService_TaxCategoryChanged.htm" />
+  <HelpKINode Title="TaxCategoryId property" Url="html/P_Resto_Front_Api_Data_Device_ITaxCategoryToFiscalRegisterTaxItem_TaxCategoryId.htm" />
+  <HelpKINode Title="TaxCategoryToFiscalRegisterTaxItems property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_TaxCategoryToFiscalRegisterTaxItems.htm" />
   <HelpKINode Title="TaxesInfo property" Url="html/P_Resto_Front_Api_Data_Device_Results_QueryInfoResult_TaxesInfo.htm" />
   <HelpKINode Title="TaxId property">
     <HelpKINode Title="ChequeSale.TaxId Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_TaxId.htm" />
     <HelpKINode Title="FiscalRegisterTaxItem.TaxId Property " Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalRegisterTaxItem_TaxId.htm" />
     <HelpKINode Title="IRestaurant.TaxId Property " Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_TaxId.htm" />
+    <HelpKINode Title="ITaxCategoryToFiscalRegisterTaxItem.TaxId Property " Url="html/P_Resto_Front_Api_Data_Device_ITaxCategoryToFiscalRegisterTaxItem_TaxId.htm" />
   </HelpKINode>
   <HelpKINode Title="TaxName property" Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalRegisterTaxItem_TaxName.htm" />
   <HelpKINode Title="TaxpayerId property">
@@ -7906,6 +7919,7 @@
     <HelpKINode Title="IOrderProductItem.TaxPercent Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderProductItem_TaxPercent.htm" />
     <HelpKINode Title="IOrderServiceItem.TaxPercent Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_TaxPercent.htm" />
     <HelpKINode Title="IProduct.TaxPercent Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_TaxPercent.htm" />
+    <HelpKINode Title="ITaxCategoryToFiscalRegisterTaxItem.TaxPercent Property " Url="html/P_Resto_Front_Api_Data_Device_ITaxCategoryToFiscalRegisterTaxItem_TaxPercent.htm" />
   </HelpKINode>
   <HelpKINode Title="Template property">
     <HelpKINode Title="IKitchenOrderCompoundItem.Template Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCompoundItem_Template.htm" />
