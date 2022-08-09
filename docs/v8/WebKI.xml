@@ -2076,6 +2076,7 @@
   <HelpKINode Title="DiscountForOrderItem.DiscountForOrderItem constructor" Url="html/M_Resto_Front_Api_Data_Orders_DiscountForOrderItem__ctor.htm" />
   <HelpKINode Title="DiscountForOrderItem.OrderItemId property" Url="html/P_Resto_Front_Api_Data_Orders_DiscountForOrderItem_OrderItemId.htm" />
   <HelpKINode Title="DiscountForOrderItem.Sum property" Url="html/P_Resto_Front_Api_Data_Orders_DiscountForOrderItem_Sum.htm" />
+  <HelpKINode Title="DiscountPaymentItem property" Url="html/P_Resto_Front_Api_Data_Orders_IDiscountItem_DiscountPaymentItem.htm" />
   <HelpKINode Title="DiscountPercent property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_DiscountPercent.htm" />
   <HelpKINode Title="Discounts property">
     <HelpKINode Title="IikoCardDiscount.Discounts Property " Url="html/P_Resto_Front_Api_Data_Orders_IikoCardDiscount_Discounts.htm" />
@@ -2113,12 +2114,12 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2126,8 +2127,8 @@
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2461,6 +2462,7 @@
     <HelpKINode Title="IPastOrder.FiscalChequeNumber Property " Url="html/P_Resto_Front_Api_Data_Orders_IPastOrder_FiscalChequeNumber.htm" />
   </HelpKINode>
   <HelpKINode Title="FiscalCode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_UzChequeSaleData_FiscalCode.htm" />
+  <HelpKINode Title="FiscalizeAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_FiscalizeAsDiscount.htm" />
   <HelpKINode Title="FiscalRegisterPaymentType class">
     <HelpKINode Title="FiscalRegisterPaymentType Class" Url="html/T_Resto_Front_Api_Data_Device_Settings_FiscalRegisterPaymentType.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Settings_FiscalRegisterPaymentType__ctor.htm" />
@@ -3257,6 +3259,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IDiscountItem.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Orders_IDiscountItem.htm" />
   </HelpKINode>
+  <HelpKINode Title="IDiscountItem.DiscountPaymentItem property" Url="html/P_Resto_Front_Api_Data_Orders_IDiscountItem_DiscountPaymentItem.htm" />
   <HelpKINode Title="IDiscountItem.DiscountType property" Url="html/P_Resto_Front_Api_Data_Orders_IDiscountItem_DiscountType.htm" />
   <HelpKINode Title="IDiscountItem.IsSelectivelyApplied property" Url="html/P_Resto_Front_Api_Data_Orders_IDiscountItem_IsSelectivelyApplied.htm" />
   <HelpKINode Title="IDiscountType interface">
@@ -4455,9 +4458,11 @@
   <HelpKINode Title="IPaymentItem.AdditionalData property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_AdditionalData.htm" />
   <HelpKINode Title="IPaymentItem.DonationType property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_DonationType.htm" />
   <HelpKINode Title="IPaymentItem.IsExternal property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsExternal.htm" />
+  <HelpKINode Title="IPaymentItem.IsFiscalizedAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedAsDiscount.htm" />
   <HelpKINode Title="IPaymentItem.IsFiscalizedExternally property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedExternally.htm" />
   <HelpKINode Title="IPaymentItem.IsPreliminary property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsPreliminary.htm" />
   <HelpKINode Title="IPaymentItem.IsPrepay property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsPrepay.htm" />
+  <HelpKINode Title="IPaymentItem.IsProcessedAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsProcessedAsDiscount.htm" />
   <HelpKINode Title="IPaymentItem.IsProcessedExternally property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsProcessedExternally.htm" />
   <HelpKINode Title="IPaymentItem.MaxSum property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_MaxSum.htm" />
   <HelpKINode Title="IPaymentItem.MinSum property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_MinSum.htm" />
@@ -4494,14 +4499,15 @@
   <HelpKINode Title="IPaymentType.CanBeExternalProcessed property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_CanBeExternalProcessed.htm" />
   <HelpKINode Title="IPaymentType.CanDisplayChange property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_CanDisplayChange.htm" />
   <HelpKINode Title="IPaymentType.DiscountType property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_DiscountType.htm" />
+  <HelpKINode Title="IPaymentType.FiscalizeAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_FiscalizeAsDiscount.htm" />
   <HelpKINode Title="IPaymentType.IsCombinable property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_IsCombinable.htm" />
-  <HelpKINode Title="IPaymentType.IsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_IsDiscount.htm" />
   <HelpKINode Title="IPaymentType.IsEnabled property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_IsEnabled.htm" />
   <HelpKINode Title="IPaymentType.IsHidden property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_IsHidden.htm" />
   <HelpKINode Title="IPaymentType.Kind property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_Kind.htm" />
   <HelpKINode Title="IPaymentType.Name property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_Name.htm" />
   <HelpKINode Title="IPaymentType.OpenCashDrawerOnPay property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_OpenCashDrawerOnPay.htm" />
   <HelpKINode Title="IPaymentType.PrintCheque property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_PrintCheque.htm" />
+  <HelpKINode Title="IPaymentType.ProcessAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_ProcessAsDiscount.htm" />
   <HelpKINode Title="IPaymentTypeToFiscalRegisterPaymentTypeId interface">
     <HelpKINode Title="IPaymentTypeToFiscalRegisterPaymentTypeId Interface" Url="html/T_Resto_Front_Api_Data_Device_IPaymentTypeToFiscalRegisterPaymentTypeId.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_IPaymentTypeToFiscalRegisterPaymentTypeId.htm" />
@@ -4858,7 +4864,6 @@
   </HelpKINode>
   <HelpKINode Title="IsDeliveryActive method" Url="html/M_Resto_Front_Api_IOperationService_IsDeliveryActive.htm" />
   <HelpKINode Title="IsDeliveryConfirmationActive method" Url="html/M_Resto_Front_Api_IOperationService_IsDeliveryConfirmationActive.htm" />
-  <HelpKINode Title="IsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_IsDiscount.htm" />
   <HelpKINode Title="IsDrawerOpened method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_IsDrawerOpened.htm" />
   <HelpKINode Title="ISectionSchema interface">
     <HelpKINode Title="ISectionSchema Interface" Url="html/T_Resto_Front_Api_Data_Organization_Sections_ISectionSchema.htm" />
@@ -4893,6 +4898,7 @@
   </HelpKINode>
   <HelpKINode Title="ISetting.Key property" Url="html/P_Resto_Front_Api_Data_Settings_ISetting_Key.htm" />
   <HelpKINode Title="IsExternal property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsExternal.htm" />
+  <HelpKINode Title="IsFiscalizedAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedAsDiscount.htm" />
   <HelpKINode Title="IsFiscalizedExternally property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedExternally.htm" />
   <HelpKINode Title="IsFractionalAmount property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_IsFractionalAmount.htm" />
   <HelpKINode Title="IsHidden property">
@@ -4946,6 +4952,7 @@
   </HelpKINode>
   <HelpKINode Title="IsPrimary property" Url="html/P_Resto_Front_Api_Devices_IChequeTaskProcessor_IsPrimary.htm" />
   <HelpKINode Title="IsPrintedBillActual property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_IsPrintedBillActual.htm" />
+  <HelpKINode Title="IsProcessedAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsProcessedAsDiscount.htm" />
   <HelpKINode Title="IsProcessedExternally property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsProcessedExternally.htm" />
   <HelpKINode Title="IsProductSellingRestricted method" Url="html/M_Resto_Front_Api_IOperationService_IsProductSellingRestricted.htm" />
   <HelpKINode Title="IsReadonly property" Url="html/P_Resto_Front_Api_Data_Settings_BaseSetting_1_IsReadonly.htm" />
@@ -6454,6 +6461,7 @@
   </HelpKINode>
   <HelpKINode Title="PrintVat property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_PrintVat.htm" />
   <HelpKINode Title="ProblemComment property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ProblemComment.htm" />
+  <HelpKINode Title="ProcessAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_ProcessAsDiscount.htm" />
   <HelpKINode Title="Processed enumeration member">
     <HelpKINode Title="KitchenOrderItemProcessingStatus Enumeration" Url="html/T_Resto_Front_Api_Data_Kitchen_KitchenOrderItemProcessingStatus.htm" />
     <HelpKINode Title="PaymentStatus Enumeration" Url="html/T_Resto_Front_Api_Data_Orders_PaymentStatus.htm" />
