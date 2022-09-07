@@ -2119,14 +2119,14 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
@@ -4084,6 +4084,7 @@
   <HelpKINode Title="IOperationService.IsProductSellingRestricted method" Url="html/M_Resto_Front_Api_IOperationService_IsProductSellingRestricted.htm" />
   <HelpKINode Title="IOperationService.NeedToSplitOrderBeforePayment method" Url="html/M_Resto_Front_Api_IOperationService_NeedToSplitOrderBeforePayment.htm" />
   <HelpKINode Title="IOperationService.OpenCafeSession method" Url="html/M_Resto_Front_Api_IOperationService_OpenCafeSession.htm" />
+  <HelpKINode Title="IOperationService.OpenCashDrawer method" Url="html/M_Resto_Front_Api_IOperationService_OpenCashDrawer.htm" />
   <HelpKINode Title="IOperationService.OpenPersonalSession method" Url="html/M_Resto_Front_Api_IOperationService_OpenPersonalSession.htm" />
   <HelpKINode Title="IOperationService.PayOrder method" Url="html/M_Resto_Front_Api_IOperationService_PayOrder.htm" />
   <HelpKINode Title="IOperationService.PayOrderAndPayOutOnUser method" Url="html/M_Resto_Front_Api_IOperationService_PayOrderAndPayOutOnUser.htm" />
@@ -5831,6 +5832,7 @@
   <HelpKINode Title="OnPreliminaryPaymentEditing method" Url="html/M_Resto_Front_Api_IPaymentProcessor_OnPreliminaryPaymentEditing.htm" />
   <HelpKINode Title="OnWay enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
   <HelpKINode Title="OpenCafeSession method" Url="html/M_Resto_Front_Api_IOperationService_OpenCafeSession.htm" />
+  <HelpKINode Title="OpenCashDrawer method" Url="html/M_Resto_Front_Api_IOperationService_OpenCashDrawer.htm" />
   <HelpKINode Title="OpenCashDrawerOnPay property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_OpenCashDrawerOnPay.htm" />
   <HelpKINode Title="OpenDrawer method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_OpenDrawer.htm" />
   <HelpKINode Title="OpenPersonalSession method" Url="html/M_Resto_Front_Api_IOperationService_OpenPersonalSession.htm" />
