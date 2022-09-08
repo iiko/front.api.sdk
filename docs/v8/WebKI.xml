@@ -2119,14 +2119,14 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
@@ -2818,7 +2818,10 @@
   <HelpKINode Title="Guest enumeration member" Url="html/T_Resto_Front_Api_Data_Security_UserType.htm" />
   <HelpKINode Title="Guest property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderRootItem_Guest.htm" />
   <HelpKINode Title="GuestHrsIdentifier property" Url="html/P_Resto_Front_Api_Data_Orders_IPastOrderHrsTransaction_GuestHrsIdentifier.htm" />
-  <HelpKINode Title="GuestId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderCombo_GuestId.htm" />
+  <HelpKINode Title="GuestId property">
+    <HelpKINode Title="IOrderCombo.GuestId Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderCombo_GuestId.htm" />
+    <HelpKINode Title="IPaymentItem.GuestId Property " Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_GuestId.htm" />
+  </HelpKINode>
   <HelpKINode Title="GuestName property">
     <HelpKINode Title="ChequeSale.GuestName Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_GuestName.htm" />
     <HelpKINode Title="IKitchenOrderCookingItemDto.GuestName Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCookingItemDto_GuestName.htm" />
@@ -4465,6 +4468,7 @@
   </HelpKINode>
   <HelpKINode Title="IPaymentItem.AdditionalData property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_AdditionalData.htm" />
   <HelpKINode Title="IPaymentItem.DonationType property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_DonationType.htm" />
+  <HelpKINode Title="IPaymentItem.GuestId property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_GuestId.htm" />
   <HelpKINode Title="IPaymentItem.IsExternal property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsExternal.htm" />
   <HelpKINode Title="IPaymentItem.IsFiscalizedAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedAsDiscount.htm" />
   <HelpKINode Title="IPaymentItem.IsFiscalizedExternally property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedExternally.htm" />
@@ -4886,7 +4890,6 @@
   <HelpKINode Title="ISectionSchema.TableElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_TableElements.htm" />
   <HelpKINode Title="ISectionSchema.Version property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_Version.htm" />
   <HelpKINode Title="ISectionSchema.Width property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_Width.htm" />
-  <HelpKINode Title="IsEInvoice property" Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_IsEInvoice.htm" />
   <HelpKINode Title="ISelectiveDiscountItemSettings interface">
     <HelpKINode Title="ISelectiveDiscountItemSettings Interface" Url="html/T_Resto_Front_Api_Data_Orders_ISelectiveDiscountItemSettings.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Orders_ISelectiveDiscountItemSettings.htm" />
@@ -6174,15 +6177,18 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext.htm" />
   </HelpKINode>
-  <HelpKINode Title="PaymentScreenUpdatedContext.IsEInvoice property" Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_IsEInvoice.htm" />
   <HelpKINode Title="PaymentScreenUpdatedContext.OrderId property" Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_OrderId.htm" />
   <HelpKINode Title="PaymentScreenUpdatedContext.Payments property" Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_Payments.htm" />
+  <HelpKINode Title="PaymentScreenUpdatedContext.PaymentSplitGuestInfos property" Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_PaymentSplitGuestInfos.htm" />
   <HelpKINode Title="PaymentScreenUpdatedContext.PaymentSplitMode property" Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_PaymentSplitMode.htm" />
+  <HelpKINode Title="PaymentScreenUpdatedContext.PaymentSplitSelectedGuestId property" Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_PaymentSplitSelectedGuestId.htm" />
+  <HelpKINode Title="PaymentSplitGuestInfos property" Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_PaymentSplitGuestInfos.htm" />
   <HelpKINode Title="PaymentSplitMode enumeration" Url="html/T_Resto_Front_Api_Data_Payments_PaymentSplitMode.htm" />
   <HelpKINode Title="PaymentSplitMode property">
     <HelpKINode Title="IOrderPayScreen.PaymentSplitMode Property " Url="html/P_Resto_Front_Api_Data_Screens_IOrderPayScreen_PaymentSplitMode.htm" />
     <HelpKINode Title="PaymentScreenUpdatedContext.PaymentSplitMode Property " Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_PaymentSplitMode.htm" />
   </HelpKINode>
+  <HelpKINode Title="PaymentSplitSelectedGuestId property" Url="html/P_Resto_Front_Api_OperationContexts_PaymentScreenUpdatedContext_PaymentSplitSelectedGuestId.htm" />
   <HelpKINode Title="PaymentStatus enumeration" Url="html/T_Resto_Front_Api_Data_Orders_PaymentStatus.htm" />
   <HelpKINode Title="PaymentSystemKey property" Url="html/P_Resto_Front_Api_IPaymentProcessor_PaymentSystemKey.htm" />
   <HelpKINode Title="PaymentSystemName property" Url="html/P_Resto_Front_Api_IPaymentProcessor_PaymentSystemName.htm" />
