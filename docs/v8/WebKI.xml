@@ -2121,17 +2121,20 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
-  <HelpKINode Title="Document property" Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
+  <HelpKINode Title="Document property">
+    <HelpKINode Title="DirectIoResult.Document Property " Url="html/P_Resto_Front_Api_Data_Device_Results_DirectIoResult_Document.htm" />
+    <HelpKINode Title="PrintTextTask.Document Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_PrintTextTask_Document.htm" />
+  </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
@@ -6475,8 +6478,8 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Tasks_PrintTextTask.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Tasks_PrintTextTask.htm" />
   </HelpKINode>
+  <HelpKINode Title="PrintTextTask.Document property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_PrintTextTask_Document.htm" />
   <HelpKINode Title="PrintTextTask.PrintTextTask constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_PrintTextTask__ctor.htm" />
-  <HelpKINode Title="PrintTextTask.Text property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_PrintTextTask_Text.htm" />
   <HelpKINode Title="PrintTime property">
     <HelpKINode Title="IDeliveryOrder.PrintTime Property " Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_PrintTime.htm" />
     <HelpKINode Title="IKitchenOrderCookingItem.PrintTime Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCookingItem_PrintTime.htm" />
@@ -7973,10 +7976,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Attributes_JetBrains_TerminatesProgramAttribute.htm" />
   </HelpKINode>
   <HelpKINode Title="TerminatesProgramAttribute.TerminatesProgramAttribute constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_TerminatesProgramAttribute__ctor.htm" />
-  <HelpKINode Title="Text property">
-    <HelpKINode Title="PrintTextTask.Text Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_PrintTextTask_Text.htm" />
-    <HelpKINode Title="RestaurantSectionMark.Text Property " Url="html/P_Resto_Front_Api_Data_View_RestaurantSectionMark_Text.htm" />
-  </HelpKINode>
+  <HelpKINode Title="Text property" Url="html/P_Resto_Front_Api_Data_View_RestaurantSectionMark_Text.htm" />
   <HelpKINode Title="TextAfterCheque property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_TextAfterCheque.htm" />
   <HelpKINode Title="TextBeforeCheque property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_TextBeforeCheque.htm" />
   <HelpKINode Title="TextBox class">
