@@ -168,6 +168,7 @@
     <HelpKINode Title="KitchenOrderProductItemDto.Amount Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderProductItemDto_Amount.htm" />
     <HelpKINode Title="PreliminaryOrderItemModifier.Amount Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemModifier_Amount.htm" />
     <HelpKINode Title="PreliminaryOrderItemProduct.Amount Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemProduct_Amount.htm" />
+    <HelpKINode Title="VatInvoiceOrderItem.Amount Property " Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_Amount.htm" />
   </HelpKINode>
   <HelpKINode Title="AmountDenominator property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_AmountDenominator.htm" />
   <HelpKINode Title="AmountIndependentOfParentAmount property">
@@ -1753,6 +1754,12 @@
   <HelpKINode Title="CrmId property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_CrmId.htm" />
   <HelpKINode Title="Culture property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_Culture.htm" />
   <HelpKINode Title="Currency property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_Currency.htm" />
+  <HelpKINode Title="CurrencyHelper class">
+    <HelpKINode Title="CurrencyHelper Class" Url="html/T_Resto_Front_Api_Data_Payments_CurrencyHelper.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Payments_CurrencyHelper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CurrencyHelper.CurrencySpecificFractionalDistributeUniformly method" Url="html/M_Resto_Front_Api_Data_Payments_CurrencyHelper_CurrencySpecificFractionalDistributeUniformly.htm" />
+  <HelpKINode Title="CurrencySpecificFractionalDistributeUniformly method" Url="html/M_Resto_Front_Api_Data_Payments_CurrencyHelper_CurrencySpecificFractionalDistributeUniformly.htm" />
   <HelpKINode Title="CurrentCultureChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentCultureChanged.htm" />
   <HelpKINode Title="CurrentUserChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentUserChanged.htm" />
   <HelpKINode Title="CustomApiData property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_CustomApiData.htm" />
@@ -2094,6 +2101,7 @@
     <HelpKINode Title="ChequeSale.DiscountSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_DiscountSum.htm" />
     <HelpKINode Title="IAppliedDiscountItem.DiscountSum Property " Url="html/P_Resto_Front_Api_Data_Orders_IAppliedDiscountItem_DiscountSum.htm" />
     <HelpKINode Title="PlaziusPaymentItemAdditionalData.DiscountSum Property " Url="html/P_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_DiscountSum.htm" />
+    <HelpKINode Title="VatInvoiceOrderItem.DiscountSum Property " Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_DiscountSum.htm" />
   </HelpKINode>
   <HelpKINode Title="DiscountSumByOrderItemId property" Url="html/P_Resto_Front_Api_Data_Orders_IAppliedDiscountItem_DiscountSumByOrderItemId.htm" />
   <HelpKINode Title="DiscountSums property" Url="html/P_Resto_Front_Api_Data_Payments_PlaziusPaymentItemAdditionalData_DiscountSums.htm" />
@@ -2121,12 +2129,12 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2137,8 +2145,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2555,6 +2563,7 @@
   <HelpKINode Title="Formatter field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_Formatter.htm" />
   <HelpKINode Title="ForPurchase enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
   <HelpKINode Title="Fourth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
+  <HelpKINode Title="FractionalPartLength property" Url="html/P_Resto_Front_Api_Data_Organization_ICurrencySettings_FractionalPartLength.htm" />
   <HelpKINode Title="FreeOfChargeAmount property">
     <HelpKINode Title="IChildModifierBase.FreeOfChargeAmount Property " Url="html/P_Resto_Front_Api_Data_Assortment_IChildModifierBase_FreeOfChargeAmount.htm" />
     <HelpKINode Title="IGroupModifier.FreeOfChargeAmount Property " Url="html/P_Resto_Front_Api_Data_Assortment_IGroupModifier_FreeOfChargeAmount.htm" />
@@ -2714,6 +2723,7 @@
     <HelpKINode Title="Ride.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_Ride_GetObjectData.htm" />
     <HelpKINode Title="SmsSendingResultDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_SmsSendingResultDto_GetObjectData.htm" />
     <HelpKINode Title="TextDocumentExtensions.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Cheques_TextDocumentExtensions_GetObjectData.htm" />
+    <HelpKINode Title="VatInvoiceOrderItem.GetObjectData Method " Url="html/M_Resto_Front_Api_UI_VatInvoiceOrderItem_GetObjectData.htm" />
   </HelpKINode>
   <HelpKINode Title="GetOrderById method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderById.htm" />
   <HelpKINode Title="GetOrderItemProductGroups method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderItemProductGroups.htm" />
@@ -2826,6 +2836,7 @@
   <HelpKINode Title="GuestId property">
     <HelpKINode Title="IOrderCombo.GuestId Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderCombo_GuestId.htm" />
     <HelpKINode Title="IPaymentItem.GuestId Property " Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_GuestId.htm" />
+    <HelpKINode Title="VatInvoiceOrderItem.GuestId Property " Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_GuestId.htm" />
   </HelpKINode>
   <HelpKINode Title="GuestName property">
     <HelpKINode Title="ChequeSale.GuestName Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_GuestName.htm" />
@@ -3140,6 +3151,7 @@
   <HelpKINode Title="ICurrencySettings.CentName property" Url="html/P_Resto_Front_Api_Data_Organization_ICurrencySettings_CentName.htm" />
   <HelpKINode Title="ICurrencySettings.Code property" Url="html/P_Resto_Front_Api_Data_Organization_ICurrencySettings_Code.htm" />
   <HelpKINode Title="ICurrencySettings.FormatInfo property" Url="html/P_Resto_Front_Api_Data_Organization_ICurrencySettings_FormatInfo.htm" />
+  <HelpKINode Title="ICurrencySettings.FractionalPartLength property" Url="html/P_Resto_Front_Api_Data_Organization_ICurrencySettings_FractionalPartLength.htm" />
   <HelpKINode Title="ICurrencySettings.IsoName property" Url="html/P_Resto_Front_Api_Data_Organization_ICurrencySettings_IsoName.htm" />
   <HelpKINode Title="ICurrencySettings.MinimumDenomination property" Url="html/P_Resto_Front_Api_Data_Organization_ICurrencySettings_MinimumDenomination.htm" />
   <HelpKINode Title="ICurrencySettings.ShortName property" Url="html/P_Resto_Front_Api_Data_Organization_ICurrencySettings_ShortName.htm" />
@@ -3744,6 +3756,7 @@
   <HelpKINode Title="IncreaseSum property">
     <HelpKINode Title="BillTask.IncreaseSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IncreaseSum.htm" />
     <HelpKINode Title="ChequeSale.IncreaseSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_IncreaseSum.htm" />
+    <HelpKINode Title="VatInvoiceOrderItem.IncreaseSum Property " Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_IncreaseSum.htm" />
   </HelpKINode>
   <HelpKINode Title="Index property">
     <HelpKINode Title="AddressDto.Index Property " Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Index.htm" />
@@ -4111,6 +4124,7 @@
   <HelpKINode Title="IOperationService.PrintTableReservedCheque method" Url="html/M_Resto_Front_Api_IOperationService_PrintTableReservedCheque.htm" />
   <HelpKINode Title="IOperationService.ProcessPrepay method" Url="html/M_Resto_Front_Api_IOperationService_ProcessPrepay.htm" />
   <HelpKINode Title="IOperationService.RegisterBeforePrintDocumentHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterBeforePrintDocumentHandler.htm" />
+  <HelpKINode Title="IOperationService.RegisterBuildEInvoiceOrderItemsHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterBuildEInvoiceOrderItemsHandler.htm" />
   <HelpKINode Title="IOperationService.RegisterCashRegisterFactory method" Url="html/M_Resto_Front_Api_IOperationService_RegisterCashRegisterFactory.htm" />
   <HelpKINode Title="IOperationService.RegisterChequeTaskProcessor method" Url="html/M_Resto_Front_Api_IOperationService_RegisterChequeTaskProcessor.htm" />
   <HelpKINode Title="IOperationService.RegisterCustomRoundingHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterCustomRoundingHandler.htm" />
@@ -5465,7 +5479,10 @@
   <HelpKINode Title="MeansImplicitUseAttribute.TargetFlags property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_MeansImplicitUseAttribute_TargetFlags.htm" />
   <HelpKINode Title="MeansImplicitUseAttribute.UseKindFlags property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_MeansImplicitUseAttribute_UseKindFlags.htm" />
   <HelpKINode Title="MeasureWeight method" Url="html/M_Resto_Front_Api_Devices_IScale_MeasureWeight.htm" />
-  <HelpKINode Title="MeasuringUnitName property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_MeasuringUnitName.htm" />
+  <HelpKINode Title="MeasuringUnitName property">
+    <HelpKINode Title="IProduct.MeasuringUnitName Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_MeasuringUnitName.htm" />
+    <HelpKINode Title="VatInvoiceOrderItem.MeasuringUnitName Property " Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_MeasuringUnitName.htm" />
+  </HelpKINode>
   <HelpKINode Title="MediumFont field">
     <HelpKINode Title="AttributeValues.MediumFont Field" Url="html/F_Resto_Front_Api_Data_Cheques_AttributeValues_MediumFont.htm" />
     <HelpKINode Title="Tags.MediumFont Field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_MediumFont.htm" />
@@ -5587,6 +5604,7 @@
     <HelpKINode Title="RequiredParameter.Name Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_RequiredParameter_Name.htm" />
     <HelpKINode Title="SupportedCommand.Name Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_SupportedCommand_Name.htm" />
     <HelpKINode Title="ValueProviderAttribute.Name Property " Url="html/P_Resto_Front_Api_Attributes_JetBrains_ValueProviderAttribute_Name.htm" />
+    <HelpKINode Title="VatInvoiceOrderItem.Name Property " Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_Name.htm" />
   </HelpKINode>
   <HelpKINode Title="Narrow enumeration member" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
   <HelpKINode Title="Narrower enumeration member" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
@@ -5786,6 +5804,7 @@
     <HelpKINode Title="ITable.Number Property " Url="html/P_Resto_Front_Api_Data_Organization_Sections_ITable_Number.htm" />
     <HelpKINode Title="KitchenOrderDto.Number Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderDto_Number.htm" />
     <HelpKINode Title="NumberInputDialogResult.Number Property " Url="html/P_Resto_Front_Api_Data_View_NumberInputDialogResult_Number.htm" />
+    <HelpKINode Title="VatInvoiceOrderItem.Number Property " Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_Number.htm" />
   </HelpKINode>
   <HelpKINode Title="NumberInputDialogResult class">
     <HelpKINode Title="NumberInputDialogResult Class" Url="html/T_Resto_Front_Api_Data_View_NumberInputDialogResult.htm" />
@@ -6444,6 +6463,8 @@
     <HelpKINode Title="ITerminalsGroup.PriceCategory Property " Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_PriceCategory.htm" />
   </HelpKINode>
   <HelpKINode Title="PriceCategoryChanged property" Url="html/P_Resto_Front_Api_INotificationService_PriceCategoryChanged.htm" />
+  <HelpKINode Title="PriceWithoutVat property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_PriceWithoutVat.htm" />
+  <HelpKINode Title="PriceWithVat property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_PriceWithVat.htm" />
   <HelpKINode Title="PricingTime property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_PricingTime.htm" />
   <HelpKINode Title="PrimaryComponent property">
     <HelpKINode Title="IKitchenOrderCompoundItem.PrimaryComponent Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCompoundItem_PrimaryComponent.htm" />
@@ -6809,6 +6830,7 @@
   <HelpKINode Title="RegionChanged property" Url="html/P_Resto_Front_Api_INotificationService_RegionChanged.htm" />
   <HelpKINode Title="RegionId property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_RegionId.htm" />
   <HelpKINode Title="RegisterBeforePrintDocumentHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterBeforePrintDocumentHandler.htm" />
+  <HelpKINode Title="RegisterBuildEInvoiceOrderItemsHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterBuildEInvoiceOrderItemsHandler.htm" />
   <HelpKINode Title="RegisterCashRegisterFactory method" Url="html/M_Resto_Front_Api_IOperationService_RegisterCashRegisterFactory.htm" />
   <HelpKINode Title="RegisterChequeTaskProcessor method" Url="html/M_Resto_Front_Api_IOperationService_RegisterChequeTaskProcessor.htm" />
   <HelpKINode Title="RegisterCustomRoundingHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterCustomRoundingHandler.htm" />
@@ -7275,6 +7297,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Payments.CardPaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.ChequeAdditionalInfo class" Url="html/T_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.CreditPaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_CreditPaymentItemAdditionalData.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.CurrencyHelper class" Url="html/T_Resto_Front_Api_Data_Payments_CurrencyHelper.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.ExternalPaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.IDonationType interface" Url="html/T_Resto_Front_Api_Data_Payments_IDonationType.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.IikoCard51PaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_IikoCard51PaymentItemAdditionalData.htm" />
@@ -7482,6 +7505,7 @@
   <HelpKINode Title="Resto.Front.Api.UI.ButtonWidth enumeration" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
   <HelpKINode Title="Resto.Front.Api.UI.ExtendedInputDialogSettings class" Url="html/T_Resto_Front_Api_UI_ExtendedInputDialogSettings.htm" />
   <HelpKINode Title="Resto.Front.Api.UI.IViewManager interface" Url="html/T_Resto_Front_Api_UI_IViewManager.htm" />
+  <HelpKINode Title="Resto.Front.Api.UI.VatInvoiceOrderItem class" Url="html/T_Resto_Front_Api_UI_VatInvoiceOrderItem.htm" />
   <HelpKINode Title="Resto.Front.Api.VoidValue structure" Url="html/T_Resto_Front_Api_VoidValue.htm" />
   <HelpKINode Title="Restricted enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_ProductsSellingPossibility.htm" />
   <HelpKINode Title="Result property" Url="html/P_Resto_Front_Api_Data_View_StringInputDialogResult_Result.htm" />
@@ -7854,6 +7878,8 @@
   <HelpKINode Title="SumChange property" Url="html/P_Resto_Front_Api_Data_Brd_DeliverySmsNotificationTemplates_SumChange.htm" />
   <HelpKINode Title="SumWithDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_IPastOrderItem_SumWithDiscounts.htm" />
   <HelpKINode Title="SumWithoutDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_IPastOrderItem_SumWithoutDiscounts.htm" />
+  <HelpKINode Title="SumWithoutVat property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_SumWithoutVat.htm" />
+  <HelpKINode Title="SumWithVat property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_SumWithVat.htm" />
   <HelpKINode Title="Supernarrow enumeration member" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
   <HelpKINode Title="Supplier enumeration member" Url="html/T_Resto_Front_Api_Data_Security_UserType.htm" />
   <HelpKINode Title="SupportedCommand class">
@@ -7937,7 +7963,10 @@
   </HelpKINode>
   <HelpKINode Title="TaxCategory property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_TaxCategory.htm" />
   <HelpKINode Title="TaxCategoryChanged property" Url="html/P_Resto_Front_Api_INotificationService_TaxCategoryChanged.htm" />
-  <HelpKINode Title="TaxCategoryId property" Url="html/P_Resto_Front_Api_Data_Device_ITaxCategoryToFiscalRegisterTaxItem_TaxCategoryId.htm" />
+  <HelpKINode Title="TaxCategoryId property">
+    <HelpKINode Title="ITaxCategoryToFiscalRegisterTaxItem.TaxCategoryId Property " Url="html/P_Resto_Front_Api_Data_Device_ITaxCategoryToFiscalRegisterTaxItem_TaxCategoryId.htm" />
+    <HelpKINode Title="VatInvoiceOrderItem.TaxCategoryId Property " Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_TaxCategoryId.htm" />
+  </HelpKINode>
   <HelpKINode Title="TaxCategoryToFiscalRegisterTaxItems property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_TaxCategoryToFiscalRegisterTaxItems.htm" />
   <HelpKINode Title="TaxesInfo property" Url="html/P_Resto_Front_Api_Data_Device_Results_QueryInfoResult_TaxesInfo.htm" />
   <HelpKINode Title="TaxId property">
@@ -8224,6 +8253,26 @@
   <HelpKINode Title="ValueProviderAttribute.ValueProviderAttribute constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_ValueProviderAttribute__ctor.htm" />
   <HelpKINode Title="Values property" Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceCustomEnumSetting_Values.htm" />
   <HelpKINode Title="Vat property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Vat.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem class">
+    <HelpKINode Title="VatInvoiceOrderItem Class" Url="html/T_Resto_Front_Api_UI_VatInvoiceOrderItem.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_UI_VatInvoiceOrderItem__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_UI_VatInvoiceOrderItem.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_UI_VatInvoiceOrderItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VatInvoiceOrderItem.Amount property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_Amount.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem.DiscountSum property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_DiscountSum.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem.GetObjectData method" Url="html/M_Resto_Front_Api_UI_VatInvoiceOrderItem_GetObjectData.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem.GuestId property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_GuestId.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem.IncreaseSum property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_IncreaseSum.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem.MeasuringUnitName property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_MeasuringUnitName.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem.Name property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_Name.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem.Number property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_Number.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem.PriceWithoutVat property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_PriceWithoutVat.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem.PriceWithVat property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_PriceWithVat.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem.SumWithoutVat property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_SumWithoutVat.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem.SumWithVat property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_SumWithVat.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem.TaxCategoryId property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_TaxCategoryId.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem.VatInvoiceOrderItem constructor" Url="html/Overload_Resto_Front_Api_UI_VatInvoiceOrderItem__ctor.htm" />
   <HelpKINode Title="VatPercent property" Url="html/P_Resto_Front_Api_Data_Taxes_ITaxCategory_VatPercent.htm" />
   <HelpKINode Title="VatSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_VatSum.htm" />
   <HelpKINode Title="Version property">
