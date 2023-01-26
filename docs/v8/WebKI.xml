@@ -2131,14 +2131,14 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2597,6 +2597,7 @@
   <HelpKINode Title="FullPayment enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeTransferType.htm" />
   <HelpKINode Title="FullPrepayment enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeTransferType.htm" />
   <HelpKINode Title="FullSum property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_FullSum.htm" />
+  <HelpKINode Title="FullSumWithVat property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_FullSumWithVat.htm" />
   <HelpKINode Title="Gender enumeration" Url="html/T_Resto_Front_Api_Data_Brd_Gender.htm" />
   <HelpKINode Title="Gender property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Gender.htm" />
   <HelpKINode Title="Get method" Url="html/Overload_Resto_Front_Api_Editors_ISubmittedEntities_Get.htm" />
@@ -8283,6 +8284,7 @@
   </HelpKINode>
   <HelpKINode Title="VatInvoiceOrderItem.Amount property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_Amount.htm" />
   <HelpKINode Title="VatInvoiceOrderItem.DiscountSum property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_DiscountSum.htm" />
+  <HelpKINode Title="VatInvoiceOrderItem.FullSumWithVat property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_FullSumWithVat.htm" />
   <HelpKINode Title="VatInvoiceOrderItem.GetObjectData method" Url="html/M_Resto_Front_Api_UI_VatInvoiceOrderItem_GetObjectData.htm" />
   <HelpKINode Title="VatInvoiceOrderItem.GuestId property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_GuestId.htm" />
   <HelpKINode Title="VatInvoiceOrderItem.IncreaseSum property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_IncreaseSum.htm" />
