@@ -2131,14 +2131,14 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -3738,6 +3738,7 @@
   <HelpKINode Title="ILog.InfoFormat method" Url="html/Overload_Resto_Front_Api_ILog_InfoFormat.htm" />
   <HelpKINode Title="ILog.Warn method" Url="html/M_Resto_Front_Api_ILog_Warn.htm" />
   <HelpKINode Title="ILog.WarnFormat method" Url="html/Overload_Resto_Front_Api_ILog_WarnFormat.htm" />
+  <HelpKINode Title="Image field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Image.htm" />
   <HelpKINode Title="Image property" Url="html/P_Resto_Front_Api_Data_View_RestaurantSectionImage_Image.htm" />
   <HelpKINode Title="ImageElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_ImageElements.htm" />
   <HelpKINode Title="IMarketingSource interface">
@@ -7954,6 +7955,7 @@
   <HelpKINode Title="Tags.CutText field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_CutText.htm" />
   <HelpKINode Title="Tags.Doc field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Doc.htm" />
   <HelpKINode Title="Tags.Fill field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Fill.htm" />
+  <HelpKINode Title="Tags.Image field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Image.htm" />
   <HelpKINode Title="Tags.Justify field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Justify.htm" />
   <HelpKINode Title="Tags.LargeFont field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_LargeFont.htm" />
   <HelpKINode Title="Tags.Left field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Left.htm" />
