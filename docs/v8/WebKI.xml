@@ -2141,8 +2141,8 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -4173,6 +4173,7 @@
   <HelpKINode Title="IOperationService.TryGetDisabledSizesByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDisabledSizesByProduct.htm" />
   <HelpKINode Title="IOperationService.TryGetDiscountCardById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDiscountCardById.htm" />
   <HelpKINode Title="IOperationService.TryGetDiscountTypeById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDiscountTypeById.htm" />
+  <HelpKINode Title="IOperationService.TryGetDishPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDishPrinter.htm" />
   <HelpKINode Title="IOperationService.TryGetDocumentPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDocumentPrinter.htm" />
   <HelpKINode Title="IOperationService.TryGetIncludedInMenuSectionsByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetIncludedInMenuSectionsByProduct.htm" />
   <HelpKINode Title="IOperationService.TryGetKitchenOrderById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderById.htm" />
@@ -8091,6 +8092,7 @@
   <HelpKINode Title="TryGetDisabledSizesByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDisabledSizesByProduct.htm" />
   <HelpKINode Title="TryGetDiscountCardById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDiscountCardById.htm" />
   <HelpKINode Title="TryGetDiscountTypeById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDiscountTypeById.htm" />
+  <HelpKINode Title="TryGetDishPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDishPrinter.htm" />
   <HelpKINode Title="TryGetDocumentPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDocumentPrinter.htm" />
   <HelpKINode Title="TryGetIncludedInMenuSections method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetIncludedInMenuSections.htm" />
   <HelpKINode Title="TryGetIncludedInMenuSectionsByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetIncludedInMenuSectionsByProduct.htm" />
