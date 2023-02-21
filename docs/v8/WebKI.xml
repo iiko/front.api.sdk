@@ -861,6 +861,8 @@
   <HelpKINode Title="CashRegisterResult.ChequeVatTotalizers property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_ChequeVatTotalizers.htm" />
   <HelpKINode Title="CashRegisterResult.DailyVatTotalizers property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_DailyVatTotalizers.htm" />
   <HelpKINode Title="CashRegisterResult.DocumentNumber property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_DocumentNumber.htm" />
+  <HelpKINode Title="CashRegisterResult.DocumentSign property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_DocumentSign.htm" />
+  <HelpKINode Title="CashRegisterResult.FnSerialNumber property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_FnSerialNumber.htm" />
   <HelpKINode Title="CashRegisterResult.RtcDateTime property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_RtcDateTime.htm" />
   <HelpKINode Title="CashRegisterResult.SaleNumber property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_SaleNumber.htm" />
   <HelpKINode Title="CashRegisterResult.SerialNumber property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_SerialNumber.htm" />
@@ -2139,10 +2141,10 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2165,6 +2167,7 @@
     <HelpKINode Title="Ffd10CorrectionTask.DocumentNumber Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_DocumentNumber.htm" />
     <HelpKINode Title="Ffd11CorrectionTask.DocumentNumber Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd11CorrectionTask_DocumentNumber.htm" />
   </HelpKINode>
+  <HelpKINode Title="DocumentSign property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_DocumentSign.htm" />
   <HelpKINode Title="DocumentType property">
     <HelpKINode Title="Ffd10CorrectionTask.DocumentType Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_DocumentType.htm" />
     <HelpKINode Title="Ffd11CorrectionTask.DocumentType Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd11CorrectionTask_DocumentType.htm" />
@@ -2524,6 +2527,7 @@
   </HelpKINode>
   <HelpKINode Title="FnResponseCode enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="FnResponseCode property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FnResponseCode.htm" />
+  <HelpKINode Title="FnSerialNumber property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_FnSerialNumber.htm" />
   <HelpKINode Title="Font field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_Font.htm" />
   <HelpKINode Title="Font property" Url="html/P_Resto_Front_Api_Data_View_RestaurantSectionMark_Font.htm" />
   <HelpKINode Title="Font structure">
