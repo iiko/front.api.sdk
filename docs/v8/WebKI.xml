@@ -449,6 +449,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_AuthenticationException.htm" />
   </HelpKINode>
   <HelpKINode Title="AuthenticationException.AuthenticationException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_AuthenticationException__ctor.htm" />
+  <HelpKINode Title="AuthorizationUser property" Url="html/P_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData_AuthorizationUser.htm" />
   <HelpKINode Title="Auto enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_WriteoffOptions_Type.htm" />
   <HelpKINode Title="Auto method" Url="html/M_Resto_Front_Api_Data_Orders_WriteoffOptions_Auto.htm" />
   <HelpKINode Title="AutoAndPayIn enumeration member" Url="html/T_Resto_Front_Api_Data_Device_CashRegisterCloseEncashmentSetup.htm" />
@@ -2137,14 +2138,14 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2429,7 +2430,10 @@
   <HelpKINode Title="ExternalPaymentItemAdditionalData.ExternalPaymentItemAdditionalData constructor" Url="html/M_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData__ctor.htm" />
   <HelpKINode Title="ExternalPaymentItemAdditionalData.GetHashCode method" Url="html/M_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData_GetHashCode.htm" />
   <HelpKINode Title="Failed enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
-  <HelpKINode Title="FastCode property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_FastCode.htm" />
+  <HelpKINode Title="FastCode property">
+    <HelpKINode Title="IProduct.FastCode Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_FastCode.htm" />
+    <HelpKINode Title="IProductGroup.FastCode Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_FastCode.htm" />
+  </HelpKINode>
   <HelpKINode Title="Female enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_Gender.htm" />
   <HelpKINode Title="Ffd10CorrectionTask class">
     <HelpKINode Title="Ffd10CorrectionTask Class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask.htm" />
@@ -4709,6 +4713,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Assortment_IProductGroup.htm" />
   </HelpKINode>
   <HelpKINode Title="IProductGroup.BackgroundColor property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_BackgroundColor.htm" />
+  <HelpKINode Title="IProductGroup.FastCode property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_FastCode.htm" />
   <HelpKINode Title="IProductGroup.FontColor property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_FontColor.htm" />
   <HelpKINode Title="IProductGroup.HasMenuImage property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_HasMenuImage.htm" />
   <HelpKINode Title="IProductGroup.MenuIndex property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_MenuIndex.htm" />
@@ -8411,6 +8416,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData.htm" />
   </HelpKINode>
+  <HelpKINode Title="WriteoffPaymentItemAdditionalData.AuthorizationUser property" Url="html/P_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData_AuthorizationUser.htm" />
   <HelpKINode Title="WriteoffPaymentItemAdditionalData.Equals method" Url="html/Overload_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData_Equals.htm" />
   <HelpKINode Title="WriteoffPaymentItemAdditionalData.GetHashCode method" Url="html/M_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData_GetHashCode.htm" />
   <HelpKINode Title="WriteoffPaymentItemAdditionalData.Ratio property" Url="html/P_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData_Ratio.htm" />
