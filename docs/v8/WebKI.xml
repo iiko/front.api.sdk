@@ -144,6 +144,7 @@
   </HelpKINode>
   <HelpKINode Title="Allowed enumeration member">
     <HelpKINode Title="CheckSplitRequiredResult Enumeration" Url="html/T_Resto_Front_Api_Data_Orders_CheckSplitRequiredResult.htm" />
+    <HelpKINode Title="FractionalProductAmountMode Enumeration" Url="html/T_Resto_Front_Api_Data_Assortment_FractionalProductAmountMode.htm" />
     <HelpKINode Title="ProductsSellingPossibility Enumeration" Url="html/T_Resto_Front_Api_Data_Orders_ProductsSellingPossibility.htm" />
   </HelpKINode>
   <HelpKINode Title="AllowedForced enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_ProductsSellingPossibility.htm" />
@@ -1946,6 +1947,7 @@
   <HelpKINode Title="DeliverySmsSendingEventType enumeration" Url="html/T_Resto_Front_Api_Data_Brd_DeliverySmsSendingEventType.htm" />
   <HelpKINode Title="DeliveryStatus enumeration" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
   <HelpKINode Title="DeliveryStatus property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_DeliveryStatus.htm" />
+  <HelpKINode Title="Denied enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_FractionalProductAmountMode.htm" />
   <HelpKINode Title="DepartmentCode property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_DepartmentCode.htm" />
   <HelpKINode Title="DepartmentId property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_DepartmentId.htm" />
   <HelpKINode Title="Description property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Description.htm" />
@@ -2140,12 +2142,12 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2578,6 +2580,8 @@
   <HelpKINode Title="ForPurchase enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
   <HelpKINode Title="Fourth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="FractionalPartLength property" Url="html/P_Resto_Front_Api_Data_Organization_ICurrencySettings_FractionalPartLength.htm" />
+  <HelpKINode Title="FractionalProductAmountMode enumeration" Url="html/T_Resto_Front_Api_Data_Assortment_FractionalProductAmountMode.htm" />
+  <HelpKINode Title="FractionalProductAmountMode property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_FractionalProductAmountMode.htm" />
   <HelpKINode Title="FreeOfChargeAmount property">
     <HelpKINode Title="IChildModifierBase.FreeOfChargeAmount Property " Url="html/P_Resto_Front_Api_Data_Assortment_IChildModifierBase_FreeOfChargeAmount.htm" />
     <HelpKINode Title="IGroupModifier.FreeOfChargeAmount Property " Url="html/P_Resto_Front_Api_Data_Assortment_IGroupModifier_FreeOfChargeAmount.htm" />
@@ -2747,6 +2751,8 @@
   <HelpKINode Title="GetOrderTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypes.htm" />
   <HelpKINode Title="GetOrganizationFingerprint method" Url="html/M_Resto_Front_Api_IOperationService_GetOrganizationFingerprint.htm" />
   <HelpKINode Title="GetPastOrder method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrder.htm" />
+  <HelpKINode Title="GetPastOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrders.htm" />
+  <HelpKINode Title="GetPastOrdersBySum method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrdersBySum.htm" />
   <HelpKINode Title="GetPaymentProcessorSettingsKey method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetPaymentProcessorSettingsKey.htm" />
   <HelpKINode Title="GetPaymentSystemKey method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentSystemKey.htm" />
   <HelpKINode Title="GetPaymentTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentTypeById.htm" />
@@ -4057,6 +4063,8 @@
   <HelpKINode Title="IOperationService.GetOrderTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypes.htm" />
   <HelpKINode Title="IOperationService.GetOrganizationFingerprint method" Url="html/M_Resto_Front_Api_IOperationService_GetOrganizationFingerprint.htm" />
   <HelpKINode Title="IOperationService.GetPastOrder method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrder.htm" />
+  <HelpKINode Title="IOperationService.GetPastOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrders.htm" />
+  <HelpKINode Title="IOperationService.GetPastOrdersBySum method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrdersBySum.htm" />
   <HelpKINode Title="IOperationService.GetPaymentSystemKey method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentSystemKey.htm" />
   <HelpKINode Title="IOperationService.GetPaymentTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentTypeById.htm" />
   <HelpKINode Title="IOperationService.GetPaymentTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentTypes.htm" />
@@ -4694,6 +4702,7 @@
   <HelpKINode Title="IProduct.TaxPercent property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_TaxPercent.htm" />
   <HelpKINode Title="IProduct.Template property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Template.htm" />
   <HelpKINode Title="IProduct.Type property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Type.htm" />
+  <HelpKINode Title="IProduct.UseBalanceForSell property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_UseBalanceForSell.htm" />
   <HelpKINode Title="IProductBatch interface">
     <HelpKINode Title="IProductBatch Interface" Url="html/T_Resto_Front_Api_Data_ProductStocks_IProductBatch.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_ProductStocks_IProductBatch.htm" />
@@ -4830,6 +4839,7 @@
   <HelpKINode Title="IRestaurant.DepartmentCode property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_DepartmentCode.htm" />
   <HelpKINode Title="IRestaurant.DepartmentId property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_DepartmentId.htm" />
   <HelpKINode Title="IRestaurant.DisplayRelativeNumberOfModifiers property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_DisplayRelativeNumberOfModifiers.htm" />
+  <HelpKINode Title="IRestaurant.FractionalProductAmountMode property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_FractionalProductAmountMode.htm" />
   <HelpKINode Title="IRestaurant.IikoUid property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_IikoUid.htm" />
   <HelpKINode Title="IRestaurant.IsRoundingDownOrderSum property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_IsRoundingDownOrderSum.htm" />
   <HelpKINode Title="IRestaurant.IsRoundingPricePerUnit property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_IsRoundingPricePerUnit.htm" />
@@ -7099,6 +7109,7 @@
   <HelpKINode Title="Resto.Front.Api.Attributes.JetBrains.XamlItemsControlAttribute class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_XamlItemsControlAttribute.htm" />
   <HelpKINode Title="Resto.Front.Api.Attributes.PluginLicenseModuleIdAttribute class" Url="html/T_Resto_Front_Api_Attributes_PluginLicenseModuleIdAttribute.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment namespace" Url="html/N_Resto_Front_Api_Data_Assortment.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Assortment.FractionalProductAmountMode enumeration" Url="html/T_Resto_Front_Api_Data_Assortment_FractionalProductAmountMode.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IBarcodeContainer interface" Url="html/T_Resto_Front_Api_Data_Assortment_IBarcodeContainer.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IChildModifier interface" Url="html/T_Resto_Front_Api_Data_Assortment_IChildModifier.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IChildModifierBase interface" Url="html/T_Resto_Front_Api_Data_Assortment_IChildModifierBase.htm" />
@@ -8242,6 +8253,7 @@
   </HelpKINode>
   <HelpKINode Title="UpdatePaymentScreenButtonState method" Url="html/M_Resto_Front_Api_IOperationService_UpdatePaymentScreenButtonState.htm" />
   <HelpKINode Title="UpdatePluginSettings method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_UpdatePluginSettings.htm" />
+  <HelpKINode Title="UseBalanceForSell property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_UseBalanceForSell.htm" />
   <HelpKINode Title="UsedImplicitlyAttribute class">
     <HelpKINode Title="UsedImplicitlyAttribute Class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_UsedImplicitlyAttribute.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Attributes_JetBrains_UsedImplicitlyAttribute__ctor.htm" />
@@ -8380,6 +8392,7 @@
   <HelpKINode Title="Warrant enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CorrectionReason.htm" />
   <HelpKINode Title="WasPrepaid property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_WasPrepaid.htm" />
   <HelpKINode Title="Weight property" Url="html/P_Resto_Front_Api_Data_Device_Results_ScaleWeightResult_Weight.htm" />
+  <HelpKINode Title="WeightOnly enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_FractionalProductAmountMode.htm" />
   <HelpKINode Title="WholeOrder enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_PaymentSplitMode.htm" />
   <HelpKINode Title="Wide enumeration member" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
   <HelpKINode Title="Wider enumeration member" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
