@@ -11,6 +11,7 @@
   <HelpKINode Title="AcquireSlot method" Url="html/M_Resto_Front_Api_ILicensingService_AcquireSlot.htm" />
   <HelpKINode Title="ActionNumber property" Url="html/P_Resto_Front_Api_Editors_Stubs_NewEntityStub_ActionNumber.htm" />
   <HelpKINode Title="ActivateReserve method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ActivateReserve.htm" />
+  <HelpKINode Title="ActivityType property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_ActivityType.htm" />
   <HelpKINode Title="ActualDeliverTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ActualDeliverTime.htm" />
   <HelpKINode Title="ActualGuestsCount property" Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderDto_ActualGuestsCount.htm" />
   <HelpKINode Title="AddButtonToClosedOrderScreen method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToClosedOrderScreen.htm" />
@@ -1299,7 +1300,7 @@
     <HelpKINode Title="IEditSession.ChangeReserveTables Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeReserveTables.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeReserveTables Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeReserveTables.htm" />
   </HelpKINode>
-  <HelpKINode Title="ChangeRideExternalCouier method" Url="html/M_Resto_Front_Api_IOperationService_ChangeRideExternalCouier.htm" />
+  <HelpKINode Title="ChangeRideExternalCourier method" Url="html/M_Resto_Front_Api_IOperationService_ChangeRideExternalCourier.htm" />
   <HelpKINode Title="ChangeRideExternalId method" Url="html/M_Resto_Front_Api_IOperationService_ChangeRideExternalId.htm" />
   <HelpKINode Title="ChangeRideStatus method" Url="html/M_Resto_Front_Api_IOperationService_ChangeRideStatus.htm" />
   <HelpKINode Title="ChangeSelectiveDiscount method">
@@ -2140,10 +2141,10 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
@@ -2156,8 +2157,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -3989,7 +3990,7 @@
   <HelpKINode Title="IOperationService.ChangeDeliveryOpinion method" Url="html/M_Resto_Front_Api_IOperationService_ChangeDeliveryOpinion.htm" />
   <HelpKINode Title="IOperationService.ChangeKitchenOrderItemsProcessingStatus method" Url="html/M_Resto_Front_Api_IOperationService_ChangeKitchenOrderItemsProcessingStatus.htm" />
   <HelpKINode Title="IOperationService.ChangePreliminaryOrder method" Url="html/M_Resto_Front_Api_IOperationService_ChangePreliminaryOrder.htm" />
-  <HelpKINode Title="IOperationService.ChangeRideExternalCouier method" Url="html/M_Resto_Front_Api_IOperationService_ChangeRideExternalCouier.htm" />
+  <HelpKINode Title="IOperationService.ChangeRideExternalCourier method" Url="html/M_Resto_Front_Api_IOperationService_ChangeRideExternalCourier.htm" />
   <HelpKINode Title="IOperationService.ChangeRideExternalId method" Url="html/M_Resto_Front_Api_IOperationService_ChangeRideExternalId.htm" />
   <HelpKINode Title="IOperationService.ChangeRideStatus method" Url="html/M_Resto_Front_Api_IOperationService_ChangeRideStatus.htm" />
   <HelpKINode Title="IOperationService.CheckCanEditOrder method" Url="html/M_Resto_Front_Api_IOperationService_CheckCanEditOrder.htm" />
@@ -4768,6 +4769,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Brd_IReserve.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Brd_IReserve.htm" />
   </HelpKINode>
+  <HelpKINode Title="IReserve.ActivityType property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_ActivityType.htm" />
   <HelpKINode Title="IReserve.CancelReason property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_CancelReason.htm" />
   <HelpKINode Title="IReserve.Client property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_Client.htm" />
   <HelpKINode Title="IReserve.Comment property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_Comment.htm" />
