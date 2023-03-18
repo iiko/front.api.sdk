@@ -2141,8 +2141,8 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2785,6 +2785,10 @@
   <HelpKINode Title="GetProductsRemainingAmounts method" Url="html/M_Resto_Front_Api_IOperationService_GetProductsRemainingAmounts.htm" />
   <HelpKINode Title="GetProductStocksListById method" Url="html/M_Resto_Front_Api_IOperationService_GetProductStocksListById.htm" />
   <HelpKINode Title="GetProductStocksLists method" Url="html/M_Resto_Front_Api_IOperationService_GetProductStocksLists.htm" />
+  <HelpKINode Title="GetProductTagById method" Url="html/M_Resto_Front_Api_IOperationService_GetProductTagById.htm" />
+  <HelpKINode Title="GetProductTagGroupById method" Url="html/M_Resto_Front_Api_IOperationService_GetProductTagGroupById.htm" />
+  <HelpKINode Title="GetProductTagGroups method" Url="html/M_Resto_Front_Api_IOperationService_GetProductTagGroups.htm" />
+  <HelpKINode Title="GetProductTags method" Url="html/M_Resto_Front_Api_IOperationService_GetProductTags.htm" />
   <HelpKINode Title="GetQueryInfo method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_GetQueryInfo.htm" />
   <HelpKINode Title="GetQuickMenu method" Url="html/M_Resto_Front_Api_IOperationService_GetQuickMenu.htm" />
   <HelpKINode Title="GetReceiptMarkup method" Url="html/M_Resto_Front_Api_IOperationService_GetReceiptMarkup.htm" />
@@ -2854,6 +2858,7 @@
   <HelpKINode Title="GetWaiterTeamById method" Url="html/M_Resto_Front_Api_IOperationService_GetWaiterTeamById.htm" />
   <HelpKINode Title="GetWaiterTeams method" Url="html/M_Resto_Front_Api_IOperationService_GetWaiterTeams.htm" />
   <HelpKINode Title="Goods enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
+  <HelpKINode Title="Group property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductTag_Group.htm" />
   <HelpKINode Title="GroupOrderCookingItems method">
     <HelpKINode Title="IEditSession.GroupOrderCookingItems Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_GroupOrderCookingItems.htm" />
     <HelpKINode Title="OperationServiceExtensions.GroupOrderCookingItems Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_GroupOrderCookingItems.htm" />
@@ -3893,6 +3898,8 @@
   <HelpKINode Title="INotificationService.ProductSizeChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductSizeChanged.htm" />
   <HelpKINode Title="INotificationService.ProductsRemainingAmountsChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductsRemainingAmountsChanged.htm" />
   <HelpKINode Title="INotificationService.ProductStocksListChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductStocksListChanged.htm" />
+  <HelpKINode Title="INotificationService.ProductTagChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductTagChanged.htm" />
+  <HelpKINode Title="INotificationService.ProductTagGroupChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductTagGroupChanged.htm" />
   <HelpKINode Title="INotificationService.QuickMenuUpdated property" Url="html/P_Resto_Front_Api_INotificationService_QuickMenuUpdated.htm" />
   <HelpKINode Title="INotificationService.RegionChanged property" Url="html/P_Resto_Front_Api_INotificationService_RegionChanged.htm" />
   <HelpKINode Title="INotificationService.RemovalTypeChanged property" Url="html/P_Resto_Front_Api_INotificationService_RemovalTypeChanged.htm" />
@@ -4098,6 +4105,10 @@
   <HelpKINode Title="IOperationService.GetProductsRemainingAmounts method" Url="html/M_Resto_Front_Api_IOperationService_GetProductsRemainingAmounts.htm" />
   <HelpKINode Title="IOperationService.GetProductStocksListById method" Url="html/M_Resto_Front_Api_IOperationService_GetProductStocksListById.htm" />
   <HelpKINode Title="IOperationService.GetProductStocksLists method" Url="html/M_Resto_Front_Api_IOperationService_GetProductStocksLists.htm" />
+  <HelpKINode Title="IOperationService.GetProductTagById method" Url="html/M_Resto_Front_Api_IOperationService_GetProductTagById.htm" />
+  <HelpKINode Title="IOperationService.GetProductTagGroupById method" Url="html/M_Resto_Front_Api_IOperationService_GetProductTagGroupById.htm" />
+  <HelpKINode Title="IOperationService.GetProductTagGroups method" Url="html/M_Resto_Front_Api_IOperationService_GetProductTagGroups.htm" />
+  <HelpKINode Title="IOperationService.GetProductTags method" Url="html/M_Resto_Front_Api_IOperationService_GetProductTags.htm" />
   <HelpKINode Title="IOperationService.GetQuickMenu method" Url="html/M_Resto_Front_Api_IOperationService_GetQuickMenu.htm" />
   <HelpKINode Title="IOperationService.GetReceiptMarkup method" Url="html/M_Resto_Front_Api_IOperationService_GetReceiptMarkup.htm" />
   <HelpKINode Title="IOperationService.GetRegionById method" Url="html/M_Resto_Front_Api_IOperationService_GetRegionById.htm" />
@@ -4226,6 +4237,8 @@
   <HelpKINode Title="IOperationService.TryGetProductScaleById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductScaleById.htm" />
   <HelpKINode Title="IOperationService.TryGetProductSizeById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductSizeById.htm" />
   <HelpKINode Title="IOperationService.TryGetProductStocksListById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductStocksListById.htm" />
+  <HelpKINode Title="IOperationService.TryGetProductTagById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductTagById.htm" />
+  <HelpKINode Title="IOperationService.TryGetProductTagGroupById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductTagGroupById.htm" />
   <HelpKINode Title="IOperationService.TryGetReceiptChequePrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetReceiptChequePrinter.htm" />
   <HelpKINode Title="IOperationService.TryGetRegionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetRegionById.htm" />
   <HelpKINode Title="IOperationService.TryGetRemovalTypeById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetRemovalTypeById.htm" />
@@ -4661,6 +4674,7 @@
   <HelpKINode Title="IProduct.Number property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Number.htm" />
   <HelpKINode Title="IProduct.OuterEconomicActivityNomenclatureCode property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_OuterEconomicActivityNomenclatureCode.htm" />
   <HelpKINode Title="IProduct.Price property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Price.htm" />
+  <HelpKINode Title="IProduct.ProductTags property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_ProductTags.htm" />
   <HelpKINode Title="IProduct.RateSchedule property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_RateSchedule.htm" />
   <HelpKINode Title="IProduct.Scale property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Scale.htm" />
   <HelpKINode Title="IProduct.TaxCategory property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_TaxCategory.htm" />
@@ -4722,6 +4736,19 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_ProductStocks_IProductStocksList.htm" />
   </HelpKINode>
   <HelpKINode Title="IProductStocksList.Stocks property" Url="html/P_Resto_Front_Api_Data_ProductStocks_IProductStocksList_Stocks.htm" />
+  <HelpKINode Title="IProductTag interface">
+    <HelpKINode Title="IProductTag Interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductTag.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Assortment_IProductTag.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Assortment_IProductTag.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IProductTag.Group property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductTag_Group.htm" />
+  <HelpKINode Title="IProductTag.Value property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductTag_Value.htm" />
+  <HelpKINode Title="IProductTagGroup interface">
+    <HelpKINode Title="IProductTagGroup Interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductTagGroup.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Assortment_IProductTagGroup.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Assortment_IProductTagGroup.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IProductTagGroup.Name property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductTagGroup_Name.htm" />
   <HelpKINode Title="IQuickMenuItem interface">
     <HelpKINode Title="IQuickMenuItem Interface" Url="html/T_Resto_Front_Api_Data_Assortment_IQuickMenuItem.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Assortment_IQuickMenuItem.htm" />
@@ -5595,6 +5622,7 @@
     <HelpKINode Title="IProductGroup.Name Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_Name.htm" />
     <HelpKINode Title="IProductScale.Name Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductScale_Name.htm" />
     <HelpKINode Title="IProductSize.Name Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductSize_Name.htm" />
+    <HelpKINode Title="IProductTagGroup.Name Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductTagGroup_Name.htm" />
     <HelpKINode Title="IQuickMenuPage.Name Property " Url="html/P_Resto_Front_Api_Data_Assortment_IQuickMenuPage_Name.htm" />
     <HelpKINode Title="IRegion.Name Property " Url="html/P_Resto_Front_Api_Data_Brd_IRegion_Name.htm" />
     <HelpKINode Title="IRemovalType.Name Property " Url="html/P_Resto_Front_Api_Data_Orders_IRemovalType_Name.htm" />
@@ -6726,6 +6754,9 @@
   <HelpKINode Title="ProductsSellingRestrictions.ProductsExceedRemainingAmounts property" Url="html/P_Resto_Front_Api_Data_Orders_ProductsSellingRestrictions_ProductsExceedRemainingAmounts.htm" />
   <HelpKINode Title="ProductsSellingRestrictions.ProductsSellingRestrictions constructor" Url="html/M_Resto_Front_Api_Data_Orders_ProductsSellingRestrictions__ctor.htm" />
   <HelpKINode Title="ProductStocksListChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductStocksListChanged.htm" />
+  <HelpKINode Title="ProductTagChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductTagChanged.htm" />
+  <HelpKINode Title="ProductTagGroupChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductTagGroupChanged.htm" />
+  <HelpKINode Title="ProductTags property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_ProductTags.htm" />
   <HelpKINode Title="ProductType enumeration" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
   <HelpKINode Title="ProgramId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderCombo_ProgramId.htm" />
   <HelpKINode Title="ProvidesContextAttribute class">
@@ -7149,6 +7180,8 @@
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IProductGroup interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductGroup.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IProductScale interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductScale.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IProductSize interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductSize.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Assortment.IProductTag interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductTag.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Assortment.IProductTagGroup interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductTagGroup.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IQuickMenuItem interface" Url="html/T_Resto_Front_Api_Data_Assortment_IQuickMenuItem.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IQuickMenuPage interface" Url="html/T_Resto_Front_Api_Data_Assortment_IQuickMenuPage.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IQuickMenuProductGroupItem interface" Url="html/T_Resto_Front_Api_Data_Assortment_IQuickMenuProductGroupItem.htm" />
@@ -8190,6 +8223,8 @@
   <HelpKINode Title="TryGetProductScaleById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductScaleById.htm" />
   <HelpKINode Title="TryGetProductSizeById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductSizeById.htm" />
   <HelpKINode Title="TryGetProductStocksListById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductStocksListById.htm" />
+  <HelpKINode Title="TryGetProductTagById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductTagById.htm" />
+  <HelpKINode Title="TryGetProductTagGroupById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductTagGroupById.htm" />
   <HelpKINode Title="TryGetReceiptChequePrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetReceiptChequePrinter.htm" />
   <HelpKINode Title="TryGetRegionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetRegionById.htm" />
   <HelpKINode Title="TryGetRemovalTypeById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetRemovalTypeById.htm" />
@@ -8335,6 +8370,7 @@
     <HelpKINode Title="DeviceStringSetting.Value Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceStringSetting_Value.htm" />
     <HelpKINode Title="IEmail.Value Property " Url="html/P_Resto_Front_Api_Data_Brd_IEmail_Value.htm" />
     <HelpKINode Title="IPhone.Value Property " Url="html/P_Resto_Front_Api_Data_Brd_IPhone_Value.htm" />
+    <HelpKINode Title="IProductTag.Value Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductTag_Value.htm" />
     <HelpKINode Title="ParameterExecute.Value Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ParameterExecute_Value.htm" />
   </HelpKINode>
   <HelpKINode Title="ValueProviderAttribute class">
