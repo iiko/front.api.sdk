@@ -2141,8 +2141,8 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -3653,6 +3653,7 @@
   <HelpKINode Title="IKitchenOrder.Number property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_Number.htm" />
   <HelpKINode Title="IKitchenOrder.OrderType property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_OrderType.htm" />
   <HelpKINode Title="IKitchenOrder.Table property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_Table.htm" />
+  <HelpKINode Title="IKitchenOrder.TabName property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_TabName.htm" />
   <HelpKINode Title="IKitchenOrder.Waiter property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_Waiter.htm" />
   <HelpKINode Title="IKitchenOrderCompoundItem interface">
     <HelpKINode Title="IKitchenOrderCompoundItem Interface" Url="html/T_Resto_Front_Api_Data_Kitchen_IKitchenOrderCompoundItem.htm" />
@@ -8038,7 +8039,10 @@
     <HelpKINode Title="IReserve.Tables Property " Url="html/P_Resto_Front_Api_Data_Brd_IReserve_Tables.htm" />
     <HelpKINode Title="IRestaurantSection.Tables Property " Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_Tables.htm" />
   </HelpKINode>
-  <HelpKINode Title="TabName property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_TabName.htm" />
+  <HelpKINode Title="TabName property">
+    <HelpKINode Title="IKitchenOrder.TabName Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_TabName.htm" />
+    <HelpKINode Title="IOrder.TabName Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_TabName.htm" />
+  </HelpKINode>
   <HelpKINode Title="TabTitleBarcode property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_TabTitleBarcode.htm" />
   <HelpKINode Title="TabTitleNumericString property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_TabTitleNumericString.htm" />
   <HelpKINode Title="TabTitlePhone property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_TabTitlePhone.htm" />
