@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema ../Binaries/Manifest.xsd">
-  <FileName>Resto.Front.Api.SamplePaymentPlugin.dll</FileName>
-  <TypeName>Resto.Front.Api.SamplePaymentPlugin.SamplePaymentPlugin</TypeName>
-  <ApiVersion>V7Preview7</ApiVersion>
-  <LicenseModuleId>0021005918</LicenseModuleId>
-</Manifest>

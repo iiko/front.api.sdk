@@ -1,1 +1,0 @@
-﻿См. https://iiko.github.io/front.api.doc/
