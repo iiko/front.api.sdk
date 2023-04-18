@@ -633,6 +633,7 @@
   </HelpKINode>
   <HelpKINode Title="Building property">
     <HelpKINode Title="AddressDto.Building Property " Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Building.htm" />
+    <HelpKINode Title="ExternalCompanyInfo.Building Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_Building.htm" />
     <HelpKINode Title="IAddress.Building Property " Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Building.htm" />
     <HelpKINode Title="LegalAddress.Building Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_LegalAddress_Building.htm" />
   </HelpKINode>
@@ -1473,6 +1474,7 @@
   <HelpKINode Title="ChequeTransferType enumeration" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeTransferType.htm" />
   <HelpKINode Title="ChequeVatTotalizers property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_ChequeVatTotalizers.htm" />
   <HelpKINode Title="City property">
+    <HelpKINode Title="ExternalCompanyInfo.City Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_City.htm" />
     <HelpKINode Title="IStreet.City Property " Url="html/P_Resto_Front_Api_Data_Brd_IStreet_City.htm" />
     <HelpKINode Title="LegalAddress.City Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_LegalAddress_City.htm" />
   </HelpKINode>
@@ -1583,7 +1585,10 @@
     <HelpKINode Title="IOrderCompoundItem.CommonModifiers Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderCompoundItem_CommonModifiers.htm" />
     <HelpKINode Title="KitchenOrderCompoundItemDto.CommonModifiers Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderCompoundItemDto_CommonModifiers.htm" />
   </HelpKINode>
-  <HelpKINode Title="CompanyName property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_CompanyName.htm" />
+  <HelpKINode Title="CompanyName property">
+    <HelpKINode Title="ExternalCompanyInfo.CompanyName Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_CompanyName.htm" />
+    <HelpKINode Title="IRestaurant.CompanyName Property " Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_CompanyName.htm" />
+  </HelpKINode>
   <HelpKINode Title="CompoundItemComponents property" Url="html/P_Resto_Front_Api_Data_Orders_ISelectiveDiscountItemSettings_CompoundItemComponents.htm" />
   <HelpKINode Title="CompoundItemTemplateChanged property" Url="html/P_Resto_Front_Api_INotificationService_CompoundItemTemplateChanged.htm" />
   <HelpKINode Title="Conception property" Url="html/P_Resto_Front_Api_Data_Organization_IPointOfSale_Conception.htm" />
@@ -1683,7 +1688,10 @@
   <HelpKINode Title="Count property" Url="html/P_Resto_Front_Api_Data_Payments_VoucherPaymentItemAdditionalData_Count.htm" />
   <HelpKINode Title="Counteragent property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Counteragent.htm" />
   <HelpKINode Title="CounteragentUserId property" Url="html/P_Resto_Front_Api_Data_Payments_CreditPaymentItemAdditionalData_CounteragentUserId.htm" />
-  <HelpKINode Title="Country property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_LegalAddress_Country.htm" />
+  <HelpKINode Title="Country property">
+    <HelpKINode Title="ExternalCompanyInfo.Country Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_Country.htm" />
+    <HelpKINode Title="LegalAddress.Country Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_LegalAddress_Country.htm" />
+  </HelpKINode>
   <HelpKINode Title="Coupon property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_Coupon.htm" />
   <HelpKINode Title="Courier enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_SurveyType.htm" />
   <HelpKINode Title="Courier property">
@@ -2143,14 +2151,14 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2159,8 +2167,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2212,6 +2220,7 @@
   <HelpKINode Title="EllipseElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_EllipseElements.htm" />
   <HelpKINode Title="Email property">
     <HelpKINode Title="ChequeAdditionalInfo.Email Property " Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_Email.htm" />
+    <HelpKINode Title="ExternalCompanyInfo.Email Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_Email.htm" />
     <HelpKINode Title="IDeliveryOrder.Email Property " Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_Email.htm" />
   </HelpKINode>
   <HelpKINode Title="EmailDto class">
@@ -2372,6 +2381,25 @@
     <HelpKINode Title="AddressDto.ExternalCartographyId Property " Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_ExternalCartographyId.htm" />
     <HelpKINode Title="IAddress.ExternalCartographyId Property " Url="html/P_Resto_Front_Api_Data_Brd_IAddress_ExternalCartographyId.htm" />
   </HelpKINode>
+  <HelpKINode Title="ExternalCompanyInfo class">
+    <HelpKINode Title="ExternalCompanyInfo Class" Url="html/T_Resto_Front_Api_Data_Brd_ExternalCompanyInfo.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Brd_ExternalCompanyInfo__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Brd_ExternalCompanyInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Brd_ExternalCompanyInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExternalCompanyInfo.Building property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_Building.htm" />
+  <HelpKINode Title="ExternalCompanyInfo.City property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_City.htm" />
+  <HelpKINode Title="ExternalCompanyInfo.CompanyName property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_CompanyName.htm" />
+  <HelpKINode Title="ExternalCompanyInfo.Country property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_Country.htm" />
+  <HelpKINode Title="ExternalCompanyInfo.Email property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_Email.htm" />
+  <HelpKINode Title="ExternalCompanyInfo.ExternalCompanyInfo constructor" Url="html/Overload_Resto_Front_Api_Data_Brd_ExternalCompanyInfo__ctor.htm" />
+  <HelpKINode Title="ExternalCompanyInfo.FiscalCode property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_FiscalCode.htm" />
+  <HelpKINode Title="ExternalCompanyInfo.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_GetObjectData.htm" />
+  <HelpKINode Title="ExternalCompanyInfo.Postcode property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_Postcode.htm" />
+  <HelpKINode Title="ExternalCompanyInfo.RecipientCode property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_RecipientCode.htm" />
+  <HelpKINode Title="ExternalCompanyInfo.Region property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_Region.htm" />
+  <HelpKINode Title="ExternalCompanyInfo.Street property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_Street.htm" />
+  <HelpKINode Title="ExternalCompanyInfo.TaxId property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_TaxId.htm" />
   <HelpKINode Title="ExternalCourierServiceData property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ExternalCourierServiceData.htm" />
   <HelpKINode Title="ExternalCourierServiceDataDto class">
     <HelpKINode Title="ExternalCourierServiceDataDto Class" Url="html/T_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto.htm" />
@@ -2497,7 +2525,10 @@
     <HelpKINode Title="IOrder.FiscalChequeNumber Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_FiscalChequeNumber.htm" />
     <HelpKINode Title="PastOrder.FiscalChequeNumber Property " Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_FiscalChequeNumber.htm" />
   </HelpKINode>
-  <HelpKINode Title="FiscalCode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_UzChequeSaleData_FiscalCode.htm" />
+  <HelpKINode Title="FiscalCode property">
+    <HelpKINode Title="ExternalCompanyInfo.FiscalCode Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_FiscalCode.htm" />
+    <HelpKINode Title="UzChequeSaleData.FiscalCode Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_UzChequeSaleData_FiscalCode.htm" />
+  </HelpKINode>
   <HelpKINode Title="FiscalizeAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_FiscalizeAsDiscount.htm" />
   <HelpKINode Title="FiscalRegisterPaymentType class">
     <HelpKINode Title="FiscalRegisterPaymentType Class" Url="html/T_Resto_Front_Api_Data_Device_Settings_FiscalRegisterPaymentType.htm" />
@@ -2712,6 +2743,7 @@
   <HelpKINode Title="GetHostRestaurant method" Url="html/M_Resto_Front_Api_IOperationService_GetHostRestaurant.htm" />
   <HelpKINode Title="GetHostTerminal method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminal.htm" />
   <HelpKINode Title="GetHostTerminalPointsOfSale method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalPointsOfSale.htm" />
+  <HelpKINode Title="GetHostTerminalRestaurantSections method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalRestaurantSections.htm" />
   <HelpKINode Title="GetHostTerminalSettings method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalSettings.htm" />
   <HelpKINode Title="GetHostTerminalsGroup method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalsGroup.htm" />
   <HelpKINode Title="GetIncludedInMenuSections method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_GetIncludedInMenuSections.htm" />
@@ -2732,6 +2764,7 @@
     <HelpKINode Title="EmailDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_EmailDto_GetObjectData.htm" />
     <HelpKINode Title="EntityUsingException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_EntityUsingException_GetObjectData.htm" />
     <HelpKINode Title="ExtendedInputDialogSettings.GetObjectData Method " Url="html/M_Resto_Front_Api_UI_ExtendedInputDialogSettings_GetObjectData.htm" />
+    <HelpKINode Title="ExternalCompanyInfo.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_GetObjectData.htm" />
     <HelpKINode Title="ExternalCourierServiceDataDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto_GetObjectData.htm" />
     <HelpKINode Title="ExternalOperationCallingException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_ExternalOperationCallingException_GetObjectData.htm" />
     <HelpKINode Title="HierarchicalMenu.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_HierarchicalMenu_GetObjectData.htm" />
@@ -2986,6 +3019,7 @@
   <HelpKINode Title="ICafeSession.CashRegister property" Url="html/P_Resto_Front_Api_Data_Device_ICafeSession_CashRegister.htm" />
   <HelpKINode Title="ICafeSession.Number property" Url="html/P_Resto_Front_Api_Data_Device_ICafeSession_Number.htm" />
   <HelpKINode Title="ICafeSession.OpenTime property" Url="html/P_Resto_Front_Api_Data_Device_ICafeSession_OpenTime.htm" />
+  <HelpKINode Title="ICafeSession.ResponsibleManager property" Url="html/P_Resto_Front_Api_Data_Device_ICafeSession_ResponsibleManager.htm" />
   <HelpKINode Title="ICashRegister interface">
     <HelpKINode Title="ICashRegister Interface" Url="html/T_Resto_Front_Api_Devices_ICashRegister.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Devices_ICashRegister.htm" />
@@ -3654,6 +3688,7 @@
   <HelpKINode Title="IKitchenOrder.Items property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_Items.htm" />
   <HelpKINode Title="IKitchenOrder.Number property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_Number.htm" />
   <HelpKINode Title="IKitchenOrder.OrderType property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_OrderType.htm" />
+  <HelpKINode Title="IKitchenOrder.OriginName property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_OriginName.htm" />
   <HelpKINode Title="IKitchenOrder.Table property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_Table.htm" />
   <HelpKINode Title="IKitchenOrder.TabName property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_TabName.htm" />
   <HelpKINode Title="IKitchenOrder.Waiter property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_Waiter.htm" />
@@ -4069,6 +4104,7 @@
   <HelpKINode Title="IOperationService.GetHostRestaurant method" Url="html/M_Resto_Front_Api_IOperationService_GetHostRestaurant.htm" />
   <HelpKINode Title="IOperationService.GetHostTerminal method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminal.htm" />
   <HelpKINode Title="IOperationService.GetHostTerminalPointsOfSale method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalPointsOfSale.htm" />
+  <HelpKINode Title="IOperationService.GetHostTerminalRestaurantSections method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalRestaurantSections.htm" />
   <HelpKINode Title="IOperationService.GetHostTerminalSettings method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalSettings.htm" />
   <HelpKINode Title="IOperationService.GetHostTerminalsGroup method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalsGroup.htm" />
   <HelpKINode Title="IOperationService.GetIncludedInMenuSectionsByProduct method" Url="html/M_Resto_Front_Api_IOperationService_GetIncludedInMenuSectionsByProduct.htm" />
@@ -4184,6 +4220,7 @@
   <HelpKINode Title="IOperationService.RegisterCashRegisterFactory method" Url="html/M_Resto_Front_Api_IOperationService_RegisterCashRegisterFactory.htm" />
   <HelpKINode Title="IOperationService.RegisterChequeTaskProcessor method" Url="html/M_Resto_Front_Api_IOperationService_RegisterChequeTaskProcessor.htm" />
   <HelpKINode Title="IOperationService.RegisterCustomRoundingHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterCustomRoundingHandler.htm" />
+  <HelpKINode Title="IOperationService.RegisterExternalCompanyInfoSearchProvider method" Url="html/M_Resto_Front_Api_IOperationService_RegisterExternalCompanyInfoSearchProvider.htm" />
   <HelpKINode Title="IOperationService.RegisterExternalCourierServicesProvider method" Url="html/M_Resto_Front_Api_IOperationService_RegisterExternalCourierServicesProvider.htm" />
   <HelpKINode Title="IOperationService.RegisterExternalOperation method" Url="html/Overload_Resto_Front_Api_IOperationService_RegisterExternalOperation.htm" />
   <HelpKINode Title="IOperationService.RegisterPaymentSystem method" Url="html/M_Resto_Front_Api_IOperationService_RegisterPaymentSystem.htm" />
@@ -6160,6 +6197,7 @@
   <HelpKINode Title="OrganizationDetailsInfo.Name property" Url="html/P_Resto_Front_Api_Data_Payments_OrganizationDetailsInfo_Name.htm" />
   <HelpKINode Title="OrganizationDetailsInfo.OrganizationDetailsInfo constructor" Url="html/M_Resto_Front_Api_Data_Payments_OrganizationDetailsInfo__ctor.htm" />
   <HelpKINode Title="OriginName property">
+    <HelpKINode Title="IKitchenOrder.OriginName Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_OriginName.htm" />
     <HelpKINode Title="IOrder.OriginName Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_OriginName.htm" />
     <HelpKINode Title="IPreliminaryOrder.OriginName Property " Url="html/P_Resto_Front_Api_Data_PreliminaryOrders_IPreliminaryOrder_OriginName.htm" />
   </HelpKINode>
@@ -6515,6 +6553,7 @@
     <HelpKINode Title="CheckSplitResultDto.PointOfSale Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_CheckSplitResultDto_PointOfSale.htm" />
     <HelpKINode Title="IPaymentItem.PointOfSale Property " Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_PointOfSale.htm" />
   </HelpKINode>
+  <HelpKINode Title="Postcode property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_Postcode.htm" />
   <HelpKINode Title="PostResult class">
     <HelpKINode Title="PostResult Class" Url="html/T_Resto_Front_Api_Data_Device_Results_PostResult.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Results_PostResult__ctor.htm" />
@@ -6937,7 +6976,10 @@
   <HelpKINode Title="ReceivesLoyaltySystemNotifications property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ReceivesLoyaltySystemNotifications.htm" />
   <HelpKINode Title="ReceivesOrderStatusNotifications property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ReceivesOrderStatusNotifications.htm" />
   <HelpKINode Title="ReceivesPromotionalNotifications property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ReceivesPromotionalNotifications.htm" />
-  <HelpKINode Title="RecipientCode property" Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_RecipientCode.htm" />
+  <HelpKINode Title="RecipientCode property">
+    <HelpKINode Title="ExternalCompanyInfo.RecipientCode Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_RecipientCode.htm" />
+    <HelpKINode Title="ICounteragent.RecipientCode Property " Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_RecipientCode.htm" />
+  </HelpKINode>
   <HelpKINode Title="RecoverCorruptedReserve method" Url="html/M_Resto_Front_Api_Editors_IEditSession_RecoverCorruptedReserve.htm" />
   <HelpKINode Title="RectangleElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_RectangleElements.htm" />
   <HelpKINode Title="ReferringFiscalNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd11CorrectionTask_ReferringFiscalNumber.htm" />
@@ -6948,7 +6990,10 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Attributes_JetBrains_RegexPatternAttribute.htm" />
   </HelpKINode>
   <HelpKINode Title="RegexPatternAttribute.RegexPatternAttribute constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_RegexPatternAttribute__ctor.htm" />
-  <HelpKINode Title="Region property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Region.htm" />
+  <HelpKINode Title="Region property">
+    <HelpKINode Title="ExternalCompanyInfo.Region Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_Region.htm" />
+    <HelpKINode Title="IAddress.Region Property " Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Region.htm" />
+  </HelpKINode>
   <HelpKINode Title="RegionChanged property" Url="html/P_Resto_Front_Api_INotificationService_RegionChanged.htm" />
   <HelpKINode Title="RegionId property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_RegionId.htm" />
   <HelpKINode Title="RegisterBeforePrintDocumentHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterBeforePrintDocumentHandler.htm" />
@@ -6959,6 +7004,7 @@
   <HelpKINode Title="RegisterDateTime enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="RegisterDateTime property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_RegisterDateTime.htm" />
   <HelpKINode Title="Registered property" Url="html/P_Resto_Front_Api_Data_Common_ExternalOperationChangedEventArgs_Registered.htm" />
+  <HelpKINode Title="RegisterExternalCompanyInfoSearchProvider method" Url="html/M_Resto_Front_Api_IOperationService_RegisterExternalCompanyInfoSearchProvider.htm" />
   <HelpKINode Title="RegisterExternalCourierServicesProvider method" Url="html/M_Resto_Front_Api_IOperationService_RegisterExternalCourierServicesProvider.htm" />
   <HelpKINode Title="RegisterExternalOperation method" Url="html/Overload_Resto_Front_Api_IOperationService_RegisterExternalOperation.htm" />
   <HelpKINode Title="RegisterPaymentSystem method" Url="html/M_Resto_Front_Api_IOperationService_RegisterPaymentSystem.htm" />
@@ -7027,6 +7073,7 @@
     <HelpKINode Title="SupportedCommand.ResourceName Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_SupportedCommand_ResourceName.htm" />
   </HelpKINode>
   <HelpKINode Title="ResourceTip property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_RequiredParameter_ResourceTip.htm" />
+  <HelpKINode Title="ResponsibleManager property" Url="html/P_Resto_Front_Api_Data_Device_ICafeSession_ResponsibleManager.htm" />
   <HelpKINode Title="RestaurantChanged property" Url="html/P_Resto_Front_Api_INotificationService_RestaurantChanged.htm" />
   <HelpKINode Title="RestaurantMode enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="RestaurantMode property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_RestaurantMode.htm" />
@@ -7206,6 +7253,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Brd.DeliverySmsSendingEventType enumeration" Url="html/T_Resto_Front_Api_Data_Brd_DeliverySmsSendingEventType.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Brd.DeliveryStatus enumeration" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Brd.EmailDto class" Url="html/T_Resto_Front_Api_Data_Brd_EmailDto.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Brd.ExternalCompanyInfo class" Url="html/T_Resto_Front_Api_Data_Brd_ExternalCompanyInfo.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Brd.ExternalCourierServiceDataDto class" Url="html/T_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Brd.Gender enumeration" Url="html/T_Resto_Front_Api_Data_Brd_Gender.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Brd.IAddress interface" Url="html/T_Resto_Front_Api_Data_Brd_IAddress.htm" />
@@ -7965,6 +8013,7 @@
   <HelpKINode Title="StornoPastOrder method" Url="html/M_Resto_Front_Api_IOperationService_StornoPastOrder.htm" />
   <HelpKINode Title="StornoPastOrderItems method" Url="html/M_Resto_Front_Api_IOperationService_StornoPastOrderItems.htm" />
   <HelpKINode Title="Street property">
+    <HelpKINode Title="ExternalCompanyInfo.Street Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_Street.htm" />
     <HelpKINode Title="IAddress.Street Property " Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Street.htm" />
     <HelpKINode Title="LegalAddress.Street Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_LegalAddress_Street.htm" />
   </HelpKINode>
@@ -8104,6 +8153,7 @@
   <HelpKINode Title="TaxesInfo property" Url="html/P_Resto_Front_Api_Data_Device_Results_QueryInfoResult_TaxesInfo.htm" />
   <HelpKINode Title="TaxId property">
     <HelpKINode Title="ChequeSale.TaxId Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_TaxId.htm" />
+    <HelpKINode Title="ExternalCompanyInfo.TaxId Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_TaxId.htm" />
     <HelpKINode Title="FiscalRegisterTaxItem.TaxId Property " Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalRegisterTaxItem_TaxId.htm" />
     <HelpKINode Title="IRestaurant.TaxId Property " Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_TaxId.htm" />
     <HelpKINode Title="ITaxCategoryToFiscalRegisterTaxItem.TaxId Property " Url="html/P_Resto_Front_Api_Data_Device_ITaxCategoryToFiscalRegisterTaxItem_TaxId.htm" />
