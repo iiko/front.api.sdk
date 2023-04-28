@@ -52,6 +52,7 @@
     <HelpKINode Title="OperationServiceExtensions.AddIikoCardDiscounts Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddIikoCardDiscounts.htm" />
   </HelpKINode>
   <HelpKINode Title="AddIikoCardReferrerToOrder method" Url="html/M_Resto_Front_Api_IOperationService_AddIikoCardReferrerToOrder.htm" />
+  <HelpKINode Title="AdditionalChequeAttribute property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_AdditionalChequeAttribute.htm" />
   <HelpKINode Title="AdditionalData property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_AdditionalData.htm" />
   <HelpKINode Title="AdditionalInfo property">
     <HelpKINode Title="AddressDto.AdditionalInfo Property " Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_AdditionalInfo.htm" />
@@ -1440,6 +1441,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Tasks_ChequeTask.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Tasks_ChequeTask.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChequeTask.AdditionalChequeAttribute property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_AdditionalChequeAttribute.htm" />
   <HelpKINode Title="ChequeTask.BillNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_BillNumber.htm" />
   <HelpKINode Title="ChequeTask.CardPayments property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CardPayments.htm" />
   <HelpKINode Title="ChequeTask.CashPayment property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CashPayment.htm" />
@@ -1815,7 +1817,19 @@
   <HelpKINode Title="DateCreated property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_DateCreated.htm" />
   <HelpKINode Title="Day property" Url="html/P_Resto_Front_Api_Data_Orders_RateScheduleInterval_Day.htm" />
   <HelpKINode Title="DayTime enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_ServiceTimingMode.htm" />
-  <HelpKINode Title="Decimal enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Settings_DeviceNumberSettingKind.htm" />
+  <HelpKINode Title="Decimal enumeration member">
+    <HelpKINode Title="DeviceNumberSettingKind Enumeration" Url="html/T_Resto_Front_Api_Data_Device_Settings_DeviceNumberSettingKind.htm" />
+    <HelpKINode Title="NumericInputMode Enumeration" Url="html/T_Resto_Front_Api_UI_NumericInputMode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Decimal property" Url="html/P_Resto_Front_Api_Data_View_DecimalInputDialogResult_Decimal.htm" />
+  <HelpKINode Title="DecimalInputDialogResult class">
+    <HelpKINode Title="DecimalInputDialogResult Class" Url="html/T_Resto_Front_Api_Data_View_DecimalInputDialogResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_View_DecimalInputDialogResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_View_DecimalInputDialogResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_View_DecimalInputDialogResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DecimalInputDialogResult.Decimal property" Url="html/P_Resto_Front_Api_Data_View_DecimalInputDialogResult_Decimal.htm" />
+  <HelpKINode Title="DecimalInputDialogResult.DecimalInputDialogResult constructor" Url="html/M_Resto_Front_Api_Data_View_DecimalInputDialogResult__ctor.htm" />
   <HelpKINode Title="Default enumeration member">
     <HelpKINode Title="ButtonWidth Enumeration" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
     <HelpKINode Title="ImplicitUseKindFlags Enumeration" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ImplicitUseKindFlags.htm" />
@@ -1830,6 +1844,7 @@
     <HelpKINode Title="ITemplatedModifierParams.DefaultAmount Property " Url="html/P_Resto_Front_Api_Data_Assortment_ITemplatedModifierParams_DefaultAmount.htm" />
   </HelpKINode>
   <HelpKINode Title="DefaultCourse property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_DefaultCourse.htm" />
+  <HelpKINode Title="DefaultDecimalValue property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_DefaultDecimalValue.htm" />
   <HelpKINode Title="DefaultDeliveryDuration property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_DefaultDeliveryDuration.htm" />
   <HelpKINode Title="DefaultDeviceSettings property" Url="html/P_Resto_Front_Api_Devices_IDeviceFactory_DefaultDeviceSettings.htm" />
   <HelpKINode Title="DefaultOrderType property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_DefaultOrderType.htm" />
@@ -2095,7 +2110,10 @@
   <HelpKINode Title="DirectIoTask.Command property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_DirectIoTask_Command.htm" />
   <HelpKINode Title="DirectIoTask.DirectIoTask constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_DirectIoTask__ctor.htm" />
   <HelpKINode Title="Directive property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_RazorDirectiveAttribute_Directive.htm" />
-  <HelpKINode Title="Disabled enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_CheckSplitRequiredResult.htm" />
+  <HelpKINode Title="Disabled enumeration member">
+    <HelpKINode Title="CheckSplitRequiredResult Enumeration" Url="html/T_Resto_Front_Api_Data_Orders_CheckSplitRequiredResult.htm" />
+    <HelpKINode Title="NumericInputMode Enumeration" Url="html/T_Resto_Front_Api_UI_NumericInputMode.htm" />
+  </HelpKINode>
   <HelpKINode Title="Discount property">
     <HelpKINode Title="ChequeSale.Discount Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Discount.htm" />
     <HelpKINode Title="IAppliedDiscountItem.Discount Property " Url="html/P_Resto_Front_Api_Data_Orders_IAppliedDiscountItem_Discount.htm" />
@@ -2157,8 +2175,8 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2167,8 +2185,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2245,7 +2263,6 @@
   <HelpKINode Title="EmulateFiscalReports property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_EmulateFiscalReports.htm" />
   <HelpKINode Title="EnableBarcode property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_EnableBarcode.htm" />
   <HelpKINode Title="EnableCardSlider property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_EnableCardSlider.htm" />
-  <HelpKINode Title="EnableNumericString property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_EnableNumericString.htm" />
   <HelpKINode Title="EnablePhone property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_EnablePhone.htm" />
   <HelpKINode Title="EnablePreliminaryOrdersScreen method" Url="html/M_Resto_Front_Api_IOperationService_EnablePreliminaryOrdersScreen.htm" />
   <HelpKINode Title="End property" Url="html/P_Resto_Front_Api_Data_Orders_RateScheduleInterval_End.htm" />
@@ -2365,12 +2382,15 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_UI_ExtendedInputDialogSettings.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_UI_ExtendedInputDialogSettings.htm" />
   </HelpKINode>
+  <HelpKINode Title="ExtendedInputDialogSettings.DefaultDecimalValue property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_DefaultDecimalValue.htm" />
   <HelpKINode Title="ExtendedInputDialogSettings.EnableBarcode property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_EnableBarcode.htm" />
   <HelpKINode Title="ExtendedInputDialogSettings.EnableCardSlider property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_EnableCardSlider.htm" />
-  <HelpKINode Title="ExtendedInputDialogSettings.EnableNumericString property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_EnableNumericString.htm" />
   <HelpKINode Title="ExtendedInputDialogSettings.EnablePhone property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_EnablePhone.htm" />
   <HelpKINode Title="ExtendedInputDialogSettings.ExtendedInputDialogSettings constructor" Url="html/Overload_Resto_Front_Api_UI_ExtendedInputDialogSettings__ctor.htm" />
   <HelpKINode Title="ExtendedInputDialogSettings.GetObjectData method" Url="html/M_Resto_Front_Api_UI_ExtendedInputDialogSettings_GetObjectData.htm" />
+  <HelpKINode Title="ExtendedInputDialogSettings.MaxDecimalValue property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_MaxDecimalValue.htm" />
+  <HelpKINode Title="ExtendedInputDialogSettings.MinDecimalValue property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_MinDecimalValue.htm" />
+  <HelpKINode Title="ExtendedInputDialogSettings.NumericInputMode property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_NumericInputMode.htm" />
   <HelpKINode Title="ExtendedInputDialogSettings.TabTitleBarcode property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_TabTitleBarcode.htm" />
   <HelpKINode Title="ExtendedInputDialogSettings.TabTitleNumericString property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_TabTitleNumericString.htm" />
   <HelpKINode Title="ExtendedInputDialogSettings.TabTitlePhone property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_TabTitlePhone.htm" />
@@ -2414,6 +2434,7 @@
   <HelpKINode Title="ExternalCourierServiceDataDto.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto_GetObjectData.htm" />
   <HelpKINode Title="ExternalCourierServiceDataDto.ServiceId property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto_ServiceId.htm" />
   <HelpKINode Title="ExternalCourierServiceDataDto.ServiceName property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto_ServiceName.htm" />
+  <HelpKINode Title="ExternalData property" Url="html/P_Resto_Front_Api_Data_Security_IUser_ExternalData.htm" />
   <HelpKINode Title="ExternalGoods enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
   <HelpKINode Title="ExternalId enumeration member" Url="html/T_Resto_Front_Api_Data_Search_StreetFields.htm" />
   <HelpKINode Title="ExternalId property">
@@ -2498,7 +2519,6 @@
   <HelpKINode Title="Ffd11CorrectionTask.DocumentNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd11CorrectionTask_DocumentNumber.htm" />
   <HelpKINode Title="Ffd11CorrectionTask.DocumentType property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd11CorrectionTask_DocumentType.htm" />
   <HelpKINode Title="Ffd11CorrectionTask.Ffd11CorrectionTask constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_Ffd11CorrectionTask__ctor.htm" />
-  <HelpKINode Title="Ffd11CorrectionTask.ReferringFiscalNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd11CorrectionTask_ReferringFiscalNumber.htm" />
   <HelpKINode Title="Ffd12 property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Ffd12.htm" />
   <HelpKINode Title="Ffd12ChequeSaleData class">
     <HelpKINode Title="Ffd12ChequeSaleData Class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData.htm" />
@@ -2742,6 +2762,7 @@
   <HelpKINode Title="GetHostDeliverySettings method" Url="html/M_Resto_Front_Api_IOperationService_GetHostDeliverySettings.htm" />
   <HelpKINode Title="GetHostRestaurant method" Url="html/M_Resto_Front_Api_IOperationService_GetHostRestaurant.htm" />
   <HelpKINode Title="GetHostTerminal method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminal.htm" />
+  <HelpKINode Title="GetHostTerminalCafeSessionCashSum method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalCafeSessionCashSum.htm" />
   <HelpKINode Title="GetHostTerminalPointsOfSale method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalPointsOfSale.htm" />
   <HelpKINode Title="GetHostTerminalRestaurantSections method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalRestaurantSections.htm" />
   <HelpKINode Title="GetHostTerminalSettings method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalSettings.htm" />
@@ -4103,6 +4124,7 @@
   <HelpKINode Title="IOperationService.GetHostDeliverySettings method" Url="html/M_Resto_Front_Api_IOperationService_GetHostDeliverySettings.htm" />
   <HelpKINode Title="IOperationService.GetHostRestaurant method" Url="html/M_Resto_Front_Api_IOperationService_GetHostRestaurant.htm" />
   <HelpKINode Title="IOperationService.GetHostTerminal method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminal.htm" />
+  <HelpKINode Title="IOperationService.GetHostTerminalCafeSessionCashSum method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalCafeSessionCashSum.htm" />
   <HelpKINode Title="IOperationService.GetHostTerminalPointsOfSale method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalPointsOfSale.htm" />
   <HelpKINode Title="IOperationService.GetHostTerminalRestaurantSections method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalRestaurantSections.htm" />
   <HelpKINode Title="IOperationService.GetHostTerminalSettings method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminalSettings.htm" />
@@ -4304,6 +4326,7 @@
   <HelpKINode Title="IOperationService.TryGetUserById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetUserById.htm" />
   <HelpKINode Title="IOperationService.TryGetWaiterTeamById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetWaiterTeamById.htm" />
   <HelpKINode Title="IOperationService.TryGetWaiterTeamForUser method" Url="html/M_Resto_Front_Api_IOperationService_TryGetWaiterTeamForUser.htm" />
+  <HelpKINode Title="IOperationService.UnprocessPayment method" Url="html/M_Resto_Front_Api_IOperationService_UnprocessPayment.htm" />
   <HelpKINode Title="IOperationService.UpdateDiscountCard method" Url="html/M_Resto_Front_Api_IOperationService_UpdateDiscountCard.htm" />
   <HelpKINode Title="IOperationService.UpdatePaymentScreenButtonState method" Url="html/M_Resto_Front_Api_IOperationService_UpdatePaymentScreenButtonState.htm" />
   <HelpKINode Title="IOrder interface">
@@ -4580,6 +4603,7 @@
   <HelpKINode Title="IPaymentProcessor.PaymentSystemName property" Url="html/P_Resto_Front_Api_IPaymentProcessor_PaymentSystemName.htm" />
   <HelpKINode Title="IPaymentProcessor.PaySilently method" Url="html/M_Resto_Front_Api_IPaymentProcessor_PaySilently.htm" />
   <HelpKINode Title="IPaymentProcessor.ReturnPayment method" Url="html/M_Resto_Front_Api_IPaymentProcessor_ReturnPayment.htm" />
+  <HelpKINode Title="IPaymentProcessor.ReturnPaymentSilently method" Url="html/M_Resto_Front_Api_IPaymentProcessor_ReturnPaymentSilently.htm" />
   <HelpKINode Title="IPaymentProcessor.ReturnPaymentWithoutOrder method" Url="html/M_Resto_Front_Api_IPaymentProcessor_ReturnPaymentWithoutOrder.htm" />
   <HelpKINode Title="IPaymentType interface">
     <HelpKINode Title="IPaymentType Interface" Url="html/T_Resto_Front_Api_Data_Payments_IPaymentType.htm" />
@@ -5239,6 +5263,7 @@
   <HelpKINode Title="IUser.Card property" Url="html/P_Resto_Front_Api_Data_Security_IUser_Card.htm" />
   <HelpKINode Title="IUser.CellPhone property" Url="html/P_Resto_Front_Api_Data_Security_IUser_CellPhone.htm" />
   <HelpKINode Title="IUser.Code property" Url="html/P_Resto_Front_Api_Data_Security_IUser_Code.htm" />
+  <HelpKINode Title="IUser.ExternalData property" Url="html/P_Resto_Front_Api_Data_Security_IUser_ExternalData.htm" />
   <HelpKINode Title="IUser.InsuranceNumber property" Url="html/P_Resto_Front_Api_Data_Security_IUser_InsuranceNumber.htm" />
   <HelpKINode Title="IUser.IsSessionOpen property" Url="html/P_Resto_Front_Api_Data_Security_IUser_IsSessionOpen.htm" />
   <HelpKINode Title="IUser.Name property" Url="html/P_Resto_Front_Api_Data_Security_IUser_Name.htm" />
@@ -5532,6 +5557,7 @@
   </HelpKINode>
   <HelpKINode Title="Markup property" Url="html/P_Resto_Front_Api_Data_Print_Document_Markup.htm" />
   <HelpKINode Title="MaxCourseNumber property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_MaxCourseNumber.htm" />
+  <HelpKINode Title="MaxDecimalValue property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_MaxDecimalValue.htm" />
   <HelpKINode Title="MaxExternalPaymentItemDataLength field" Url="html/F_Resto_Front_Api_Extensions_PaymentDataContextExtensions_MaxExternalPaymentItemDataLength.htm" />
   <HelpKINode Title="MaximumAmount property">
     <HelpKINode Title="IChildModifierBase.MaximumAmount Property " Url="html/P_Resto_Front_Api_Data_Assortment_IChildModifierBase_MaximumAmount.htm" />
@@ -5580,6 +5606,7 @@
     <HelpKINode Title="PostResult.Message Property " Url="html/P_Resto_Front_Api_Data_Device_Results_PostResult_Message.htm" />
   </HelpKINode>
   <HelpKINode Title="Middle enumeration member" Url="html/T_Resto_Front_Api_Data_JournalEvents_Severity.htm" />
+  <HelpKINode Title="MinDecimalValue property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_MinDecimalValue.htm" />
   <HelpKINode Title="MinimumAmount property">
     <HelpKINode Title="IChildModifierBase.MinimumAmount Property " Url="html/P_Resto_Front_Api_Data_Assortment_IChildModifierBase_MinimumAmount.htm" />
     <HelpKINode Title="IFixedGroupModifier.MinimumAmount Property " Url="html/P_Resto_Front_Api_Data_Orders_IFixedGroupModifier_MinimumAmount.htm" />
@@ -5896,6 +5923,8 @@
   </HelpKINode>
   <HelpKINode Title="NumberInputDialogResult.Number property" Url="html/P_Resto_Front_Api_Data_View_NumberInputDialogResult_Number.htm" />
   <HelpKINode Title="NumberInputDialogResult.NumberInputDialogResult constructor" Url="html/M_Resto_Front_Api_Data_View_NumberInputDialogResult__ctor.htm" />
+  <HelpKINode Title="NumericInputMode enumeration" Url="html/T_Resto_Front_Api_UI_NumericInputMode.htm" />
+  <HelpKINode Title="NumericInputMode property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_NumericInputMode.htm" />
   <HelpKINode Title="OfdBufferedDocuments enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="OfdBufferedDocuments property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdBufferedDocuments.htm" />
   <HelpKINode Title="OfdChequeDateTime enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
@@ -6982,7 +7011,6 @@
   </HelpKINode>
   <HelpKINode Title="RecoverCorruptedReserve method" Url="html/M_Resto_Front_Api_Editors_IEditSession_RecoverCorruptedReserve.htm" />
   <HelpKINode Title="RectangleElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_RectangleElements.htm" />
-  <HelpKINode Title="ReferringFiscalNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd11CorrectionTask_ReferringFiscalNumber.htm" />
   <HelpKINode Title="RegexPatternAttribute class">
     <HelpKINode Title="RegexPatternAttribute Class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_RegexPatternAttribute.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_RegexPatternAttribute__ctor.htm" />
@@ -7535,6 +7563,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.View namespace" Url="html/N_Resto_Front_Api_Data_View.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.BarcodeInputDialogResult class" Url="html/T_Resto_Front_Api_Data_View_BarcodeInputDialogResult.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.CardInputDialogResult class" Url="html/T_Resto_Front_Api_Data_View_CardInputDialogResult.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.View.DecimalInputDialogResult class" Url="html/T_Resto_Front_Api_Data_View_DecimalInputDialogResult.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.Font structure" Url="html/T_Resto_Front_Api_Data_View_Font.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.FontStyle enumeration" Url="html/T_Resto_Front_Api_Data_View_FontStyle.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.IInputDialogResult interface" Url="html/T_Resto_Front_Api_Data_View_IInputDialogResult.htm" />
@@ -7679,6 +7708,7 @@
   <HelpKINode Title="Resto.Front.Api.UI.ButtonWidth enumeration" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
   <HelpKINode Title="Resto.Front.Api.UI.ExtendedInputDialogSettings class" Url="html/T_Resto_Front_Api_UI_ExtendedInputDialogSettings.htm" />
   <HelpKINode Title="Resto.Front.Api.UI.IViewManager interface" Url="html/T_Resto_Front_Api_UI_IViewManager.htm" />
+  <HelpKINode Title="Resto.Front.Api.UI.NumericInputMode enumeration" Url="html/T_Resto_Front_Api_UI_NumericInputMode.htm" />
   <HelpKINode Title="Resto.Front.Api.UI.VatInvoiceOrderItem class" Url="html/T_Resto_Front_Api_UI_VatInvoiceOrderItem.htm" />
   <HelpKINode Title="Resto.Front.Api.VoidValue structure" Url="html/T_Resto_Front_Api_VoidValue.htm" />
   <HelpKINode Title="Restricted enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_ProductsSellingPossibility.htm" />
@@ -7697,6 +7727,7 @@
   <HelpKINode Title="ReturnedFinish enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
   <HelpKINode Title="Returning enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
   <HelpKINode Title="ReturnPayment method" Url="html/M_Resto_Front_Api_IPaymentProcessor_ReturnPayment.htm" />
+  <HelpKINode Title="ReturnPaymentSilently method" Url="html/M_Resto_Front_Api_IPaymentProcessor_ReturnPaymentSilently.htm" />
   <HelpKINode Title="ReturnPaymentWithoutOrder method" Url="html/M_Resto_Front_Api_IPaymentProcessor_ReturnPaymentWithoutOrder.htm" />
   <HelpKINode Title="Revision property">
     <HelpKINode Title="IVersionedEntity.Revision Property " Url="html/P_Resto_Front_Api_Data_Common_IVersionedEntity_Revision.htm" />
@@ -8021,6 +8052,7 @@
   <HelpKINode Title="StreetFields enumeration" Url="html/T_Resto_Front_Api_Data_Search_StreetFields.htm" />
   <HelpKINode Title="StreetId property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_StreetId.htm" />
   <HelpKINode Title="Strikeout enumeration member" Url="html/T_Resto_Front_Api_Data_View_FontStyle.htm" />
+  <HelpKINode Title="String enumeration member" Url="html/T_Resto_Front_Api_UI_NumericInputMode.htm" />
   <HelpKINode Title="StringFormatMethodAttribute class">
     <HelpKINode Title="StringFormatMethodAttribute Class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_StringFormatMethodAttribute.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_StringFormatMethodAttribute__ctor.htm" />
@@ -8365,6 +8397,7 @@
     <HelpKINode Title="PaymentTypeKind Enumeration" Url="html/T_Resto_Front_Api_Data_Payments_PaymentTypeKind.htm" />
     <HelpKINode Title="State Enumeration" Url="html/T_Resto_Front_Api_Data_Device_State.htm" />
   </HelpKINode>
+  <HelpKINode Title="UnprocessPayment method" Url="html/M_Resto_Front_Api_IOperationService_UnprocessPayment.htm" />
   <HelpKINode Title="UnserveOrderCookingItem method">
     <HelpKINode Title="IEditSession.UnserveOrderCookingItem Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_UnserveOrderCookingItem.htm" />
     <HelpKINode Title="OperationServiceExtensions.UnserveOrderCookingItem Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_UnserveOrderCookingItem.htm" />
