@@ -1195,6 +1195,7 @@
     <HelpKINode Title="IEditSession.ChangeExternalPaymentItemCustomData Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeExternalPaymentItemCustomData.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeExternalPaymentItemCustomData Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeExternalPaymentItemCustomData.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChangeGroupMainTerminal method" Url="html/M_Resto_Front_Api_IOperationService_ChangeGroupMainTerminal.htm" />
   <HelpKINode Title="ChangeKitchenOrderItemsProcessingStatus method" Url="html/M_Resto_Front_Api_IOperationService_ChangeKitchenOrderItemsProcessingStatus.htm" />
   <HelpKINode Title="ChangeOrderAppliedIikoCard5ManualConditions method">
     <HelpKINode Title="IEditSession.ChangeOrderAppliedIikoCard5ManualConditions Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderAppliedIikoCard5ManualConditions.htm" />
@@ -1307,8 +1308,8 @@
   <HelpKINode Title="ChangeRideExternalId method" Url="html/M_Resto_Front_Api_IOperationService_ChangeRideExternalId.htm" />
   <HelpKINode Title="ChangeRideStatus method" Url="html/M_Resto_Front_Api_IOperationService_ChangeRideStatus.htm" />
   <HelpKINode Title="ChangeSelectiveDiscount method">
-    <HelpKINode Title="IEditSession.ChangeSelectiveDiscount Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeSelectiveDiscount.htm" />
-    <HelpKINode Title="OperationServiceExtensions.ChangeSelectiveDiscount Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeSelectiveDiscount.htm" />
+    <HelpKINode Title="IEditSession.ChangeSelectiveDiscount Method " Url="html/Overload_Resto_Front_Api_Editors_IEditSession_ChangeSelectiveDiscount.htm" />
+    <HelpKINode Title="OperationServiceExtensions.ChangeSelectiveDiscount Method " Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeSelectiveDiscount.htm" />
   </HelpKINode>
   <HelpKINode Title="ChangeStreetName method">
     <HelpKINode Title="IEditSession.ChangeStreetName Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeStreetName.htm" />
@@ -2173,10 +2174,10 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -3513,7 +3514,7 @@
   <HelpKINode Title="IEditSession.ChangeReserveGuestsCount method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeReserveGuestsCount.htm" />
   <HelpKINode Title="IEditSession.ChangeReserveReminder method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeReserveReminder.htm" />
   <HelpKINode Title="IEditSession.ChangeReserveTables method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeReserveTables.htm" />
-  <HelpKINode Title="IEditSession.ChangeSelectiveDiscount method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeSelectiveDiscount.htm" />
+  <HelpKINode Title="IEditSession.ChangeSelectiveDiscount method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_ChangeSelectiveDiscount.htm" />
   <HelpKINode Title="IEditSession.ChangeStreetName method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeStreetName.htm" />
   <HelpKINode Title="IEditSession.ConvertToTableServiceOrder method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ConvertToTableServiceOrder.htm" />
   <HelpKINode Title="IEditSession.CreateBanquet method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_CreateBanquet.htm" />
@@ -4055,6 +4056,7 @@
   <HelpKINode Title="IOperationService.CancelReserve method" Url="html/M_Resto_Front_Api_IOperationService_CancelReserve.htm" />
   <HelpKINode Title="IOperationService.CanProductBePaidWithPaymentType method" Url="html/M_Resto_Front_Api_IOperationService_CanProductBePaidWithPaymentType.htm" />
   <HelpKINode Title="IOperationService.ChangeDeliveryOpinion method" Url="html/M_Resto_Front_Api_IOperationService_ChangeDeliveryOpinion.htm" />
+  <HelpKINode Title="IOperationService.ChangeGroupMainTerminal method" Url="html/M_Resto_Front_Api_IOperationService_ChangeGroupMainTerminal.htm" />
   <HelpKINode Title="IOperationService.ChangeKitchenOrderItemsProcessingStatus method" Url="html/M_Resto_Front_Api_IOperationService_ChangeKitchenOrderItemsProcessingStatus.htm" />
   <HelpKINode Title="IOperationService.ChangePreliminaryOrder method" Url="html/M_Resto_Front_Api_IOperationService_ChangePreliminaryOrder.htm" />
   <HelpKINode Title="IOperationService.ChangeRideExternalCourier method" Url="html/M_Resto_Front_Api_IOperationService_ChangeRideExternalCourier.htm" />
@@ -6110,7 +6112,7 @@
   <HelpKINode Title="OperationServiceExtensions.ChangeReserveGuestsCount method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeReserveGuestsCount.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeReserveReminder method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeReserveReminder.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeReserveTables method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeReserveTables.htm" />
-  <HelpKINode Title="OperationServiceExtensions.ChangeSelectiveDiscount method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeSelectiveDiscount.htm" />
+  <HelpKINode Title="OperationServiceExtensions.ChangeSelectiveDiscount method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeSelectiveDiscount.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeStreetName method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeStreetName.htm" />
   <HelpKINode Title="OperationServiceExtensions.ConvertToTableServiceOrder method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ConvertToTableServiceOrder.htm" />
   <HelpKINode Title="OperationServiceExtensions.CreateBanquet method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_CreateBanquet.htm" />
