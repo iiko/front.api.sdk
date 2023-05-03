@@ -1390,7 +1390,10 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo.htm" />
   </HelpKINode>
-  <HelpKINode Title="ChequeAdditionalInfo property" Url="html/P_Resto_Front_Api_OperationContexts_INavigatingToPaymentScreenOperationContext_ChequeAdditionalInfo.htm" />
+  <HelpKINode Title="ChequeAdditionalInfo property">
+    <HelpKINode Title="INavigatingToPaymentScreenOperationContext.ChequeAdditionalInfo Property " Url="html/P_Resto_Front_Api_OperationContexts_INavigatingToPaymentScreenOperationContext_ChequeAdditionalInfo.htm" />
+    <HelpKINode Title="IOrder.ChequeAdditionalInfo Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_ChequeAdditionalInfo.htm" />
+  </HelpKINode>
   <HelpKINode Title="ChequeAdditionalInfo.ChequeAdditionalInfo constructor" Url="html/M_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo__ctor.htm" />
   <HelpKINode Title="ChequeAdditionalInfo.Email property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_Email.htm" />
   <HelpKINode Title="ChequeAdditionalInfo.NeedReceipt property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_NeedReceipt.htm" />
@@ -2181,8 +2184,8 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -3574,6 +3577,7 @@
   <HelpKINode Title="IEditSession.ResetOderLastChangeTimeByWaiter method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ResetOderLastChangeTimeByWaiter.htm" />
   <HelpKINode Title="IEditSession.ResetPriceCategory method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ResetPriceCategory.htm" />
   <HelpKINode Title="IEditSession.ServeOrderCookingItem method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ServeOrderCookingItem.htm" />
+  <HelpKINode Title="IEditSession.SetChequeAdditionalInfo method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetChequeAdditionalInfo.htm" />
   <HelpKINode Title="IEditSession.SetCompoundItemComponentCustomName method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetCompoundItemComponentCustomName.htm" />
   <HelpKINode Title="IEditSession.SetDeliveryCloseTime method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetDeliveryCloseTime.htm" />
   <HelpKINode Title="IEditSession.SetDeliveryCustomerAuthorizedInIikoBiz method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetDeliveryCustomerAuthorizedInIikoBiz.htm" />
@@ -4373,6 +4377,7 @@
   <HelpKINode Title="IOrder.AppliedDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_AppliedDiscounts.htm" />
   <HelpKINode Title="IOrder.BillTime property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_BillTime.htm" />
   <HelpKINode Title="IOrder.Cashier property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Cashier.htm" />
+  <HelpKINode Title="IOrder.ChequeAdditionalInfo property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_ChequeAdditionalInfo.htm" />
   <HelpKINode Title="IOrder.CloseTime property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_CloseTime.htm" />
   <HelpKINode Title="IOrder.Combos property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Combos.htm" />
   <HelpKINode Title="IOrder.Comment property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Comment.htm" />
@@ -6188,6 +6193,7 @@
   <HelpKINode Title="OperationServiceExtensions.ResetOderLastChangeTimeByWaiter method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ResetOderLastChangeTimeByWaiter.htm" />
   <HelpKINode Title="OperationServiceExtensions.ResetPriceCategory method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ResetPriceCategory.htm" />
   <HelpKINode Title="OperationServiceExtensions.ServeOrderCookingItem method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ServeOrderCookingItem.htm" />
+  <HelpKINode Title="OperationServiceExtensions.SetChequeAdditionalInfo method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetChequeAdditionalInfo.htm" />
   <HelpKINode Title="OperationServiceExtensions.SetCompoundItemComponentCustomName method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetCompoundItemComponentCustomName.htm" />
   <HelpKINode Title="OperationServiceExtensions.SetDeliveryCloseTime method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetDeliveryCloseTime.htm" />
   <HelpKINode Title="OperationServiceExtensions.SetDeliveryCustomerAuthorizedInIikoBiz method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetDeliveryCustomerAuthorizedInIikoBiz.htm" />
@@ -7928,6 +7934,10 @@
   <HelpKINode Title="SessionNumber property" Url="html/P_Resto_Front_Api_Editors_Stubs_NewEntityStub_SessionNumber.htm" />
   <HelpKINode Title="SessionStatus enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="SessionStatus property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_SessionStatus.htm" />
+  <HelpKINode Title="SetChequeAdditionalInfo method">
+    <HelpKINode Title="IEditSession.SetChequeAdditionalInfo Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_SetChequeAdditionalInfo.htm" />
+    <HelpKINode Title="OperationServiceExtensions.SetChequeAdditionalInfo Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetChequeAdditionalInfo.htm" />
+  </HelpKINode>
   <HelpKINode Title="SetCompoundItemComponentCustomName method">
     <HelpKINode Title="IEditSession.SetCompoundItemComponentCustomName Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_SetCompoundItemComponentCustomName.htm" />
     <HelpKINode Title="OperationServiceExtensions.SetCompoundItemComponentCustomName Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetCompoundItemComponentCustomName.htm" />
