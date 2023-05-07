@@ -192,6 +192,7 @@
     <HelpKINode Title="AspMvcControllerAttribute.AnonymousProperty Property " Url="html/P_Resto_Front_Api_Attributes_JetBrains_AspMvcControllerAttribute_AnonymousProperty.htm" />
   </HelpKINode>
   <HelpKINode Title="Any enumeration member" Url="html/T_Resto_Front_Api_PermissionsCheckMode.htm" />
+  <HelpKINode Title="Applied property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51CouponInfo_Applied.htm" />
   <HelpKINode Title="AppliedDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_AppliedDiscounts.htm" />
   <HelpKINode Title="AppliedManualConditions property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_AppliedManualConditions.htm" />
   <HelpKINode Title="AskCashierForMultiCashRegisterPayment property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_AskCashierForMultiCashRegisterPayment.htm" />
@@ -2198,8 +2199,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -3688,6 +3689,14 @@
   <HelpKINode Title="IHostTerminalSettings.Culture property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_Culture.htm" />
   <HelpKINode Title="IHostTerminalSettings.IsMainTerminal property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_IsMainTerminal.htm" />
   <HelpKINode Title="IHostTerminalSettings.UICulture property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_UICulture.htm" />
+  <HelpKINode Title="IIikoCard51CouponInfo interface">
+    <HelpKINode Title="IIikoCard51CouponInfo Interface" Url="html/T_Resto_Front_Api_Data_Orders_IIikoCard51CouponInfo.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IIikoCard51CouponInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Orders_IIikoCard51CouponInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IIikoCard51CouponInfo.Applied property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51CouponInfo_Applied.htm" />
+  <HelpKINode Title="IIikoCard51CouponInfo.Number property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51CouponInfo_Number.htm" />
+  <HelpKINode Title="IIikoCard51CouponInfo.Series property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51CouponInfo_Series.htm" />
   <HelpKINode Title="IIikoCard51OrderInfo interface">
     <HelpKINode Title="IIikoCard51OrderInfo Interface" Url="html/T_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo.htm" />
@@ -5952,6 +5961,7 @@
   <HelpKINode Title="Number property">
     <HelpKINode Title="ICafeSession.Number Property " Url="html/P_Resto_Front_Api_Data_Device_ICafeSession_Number.htm" />
     <HelpKINode Title="ICashRegisterInfo.Number Property " Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_Number.htm" />
+    <HelpKINode Title="IIikoCard51CouponInfo.Number Property " Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51CouponInfo_Number.htm" />
     <HelpKINode Title="IKitchenOrder.Number Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_Number.htm" />
     <HelpKINode Title="IOrder.Number Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Number.htm" />
     <HelpKINode Title="IPreliminaryOrder.Number Property " Url="html/P_Resto_Front_Api_Data_PreliminaryOrders_IPreliminaryOrder_Number.htm" />
@@ -7507,6 +7517,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IFixedGroupModifier interface" Url="html/T_Resto_Front_Api_Data_Orders_IFixedGroupModifier.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IFixedSimpleModifier interface" Url="html/T_Resto_Front_Api_Data_Orders_IFixedSimpleModifier.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IFrontDeliverySettings interface" Url="html/T_Resto_Front_Api_Data_Orders_IFrontDeliverySettings.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Orders.IIikoCard51CouponInfo interface" Url="html/T_Resto_Front_Api_Data_Orders_IIikoCard51CouponInfo.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IIikoCard51OrderInfo interface" Url="html/T_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IikoCardDiscount class" Url="html/T_Resto_Front_Api_Data_Orders_IikoCardDiscount.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IKitchenWorkload interface" Url="html/T_Resto_Front_Api_Data_Orders_IKitchenWorkload.htm" />
@@ -7874,6 +7885,7 @@
     <HelpKINode Title="CashRegisterResult.SerialNumber Property " Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_SerialNumber.htm" />
     <HelpKINode Title="ICashRegisterInfo.SerialNumber Property " Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_SerialNumber.htm" />
   </HelpKINode>
+  <HelpKINode Title="Series property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51CouponInfo_Series.htm" />
   <HelpKINode Title="Served enumeration member">
     <HelpKINode Title="KitchenOrderItemProcessingStatus Enumeration" Url="html/T_Resto_Front_Api_Data_Kitchen_KitchenOrderItemProcessingStatus.htm" />
     <HelpKINode Title="OrderItemStatus Enumeration" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemStatus.htm" />
