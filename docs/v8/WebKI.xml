@@ -2188,10 +2188,10 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -5301,6 +5301,7 @@
   <HelpKINode Title="ITerminalsGroup.Name property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_Name.htm" />
   <HelpKINode Title="ITerminalsGroup.PriceCategory property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_PriceCategory.htm" />
   <HelpKINode Title="ITerminalsGroup.ServicePrintOnOrderExit property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_ServicePrintOnOrderExit.htm" />
+  <HelpKINode Title="ITerminalsGroup.StandbyTerminals property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_StandbyTerminals.htm" />
   <HelpKINode Title="ITransportSettings interface">
     <HelpKINode Title="ITransportSettings Interface" Url="html/T_Resto_Front_Api_Data_Organization_ITransportSettings.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Organization_ITransportSettings.htm" />
@@ -8098,6 +8099,7 @@
     <HelpKINode Title="AttributeValues.SplitText Field" Url="html/F_Resto_Front_Api_Data_Cheques_AttributeValues_SplitText.htm" />
     <HelpKINode Title="Tags.SplitText Field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_SplitText.htm" />
   </HelpKINode>
+  <HelpKINode Title="StandbyTerminals property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_StandbyTerminals.htm" />
   <HelpKINode Title="Start method" Url="html/M_Resto_Front_Api_Devices_IDevice_Start.htm" />
   <HelpKINode Title="Start property" Url="html/P_Resto_Front_Api_Data_Orders_RateScheduleInterval_Start.htm" />
   <HelpKINode Title="StartBanquet method">
