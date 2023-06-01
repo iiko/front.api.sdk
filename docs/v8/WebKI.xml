@@ -135,6 +135,7 @@
   <HelpKINode Title="AfterDocument property" Url="html/P_Resto_Front_Api_Data_Cheques_TextDocumentExtensions_AfterDocument.htm" />
   <HelpKINode Title="AfterFooter property" Url="html/P_Resto_Front_Api_Data_Cheques_BillCheque_AfterFooter.htm" />
   <HelpKINode Title="AfterHeader property" Url="html/P_Resto_Front_Api_Data_Cheques_BillCheque_AfterHeader.htm" />
+  <HelpKINode Title="AfterOpenSession method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterOpenSession.htm" />
   <HelpKINode Title="AfterPayIn method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterPayIn.htm" />
   <HelpKINode Title="AfterPayOut method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterPayOut.htm" />
   <HelpKINode Title="AfterXReport method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterXReport.htm" />
@@ -567,6 +568,7 @@
   <HelpKINode Title="BeforeDocument property" Url="html/P_Resto_Front_Api_Data_Cheques_TextDocumentExtensions_BeforeDocument.htm" />
   <HelpKINode Title="BeforeFooter property" Url="html/P_Resto_Front_Api_Data_Cheques_BillCheque_BeforeFooter.htm" />
   <HelpKINode Title="BeforeHeader property" Url="html/P_Resto_Front_Api_Data_Cheques_BillCheque_BeforeHeader.htm" />
+  <HelpKINode Title="BeforeOpenSession method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforeOpenSession.htm" />
   <HelpKINode Title="BeforeOrderBill property" Url="html/P_Resto_Front_Api_INotificationService_BeforeOrderBill.htm" />
   <HelpKINode Title="BeforeOrganizationDetailsEdited property" Url="html/P_Resto_Front_Api_INotificationService_BeforeOrganizationDetailsEdited.htm" />
   <HelpKINode Title="BeforePayIn method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforePayIn.htm" />
@@ -2217,8 +2219,8 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
@@ -3162,11 +3164,13 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Devices_IChequeTaskProcessor.htm" />
   </HelpKINode>
   <HelpKINode Title="IChequeTaskProcessor.AfterDoCheckAction method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterDoCheckAction.htm" />
+  <HelpKINode Title="IChequeTaskProcessor.AfterOpenSession method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterOpenSession.htm" />
   <HelpKINode Title="IChequeTaskProcessor.AfterPayIn method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterPayIn.htm" />
   <HelpKINode Title="IChequeTaskProcessor.AfterPayOut method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterPayOut.htm" />
   <HelpKINode Title="IChequeTaskProcessor.AfterXReport method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterXReport.htm" />
   <HelpKINode Title="IChequeTaskProcessor.AfterZReport method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterZReport.htm" />
   <HelpKINode Title="IChequeTaskProcessor.BeforeDoCheckAction method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforeDoCheckAction.htm" />
+  <HelpKINode Title="IChequeTaskProcessor.BeforeOpenSession method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforeOpenSession.htm" />
   <HelpKINode Title="IChequeTaskProcessor.BeforePayIn method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforePayIn.htm" />
   <HelpKINode Title="IChequeTaskProcessor.BeforePayOut method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforePayOut.htm" />
   <HelpKINode Title="IChequeTaskProcessor.BeforeXReport method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforeXReport.htm" />
@@ -4848,7 +4852,6 @@
   <HelpKINode Title="IProduct.RateSchedule property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_RateSchedule.htm" />
   <HelpKINode Title="IProduct.Scale property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Scale.htm" />
   <HelpKINode Title="IProduct.TaxCategory property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_TaxCategory.htm" />
-  <HelpKINode Title="IProduct.TaxPercent property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_TaxPercent.htm" />
   <HelpKINode Title="IProduct.Template property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Template.htm" />
   <HelpKINode Title="IProduct.Type property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Type.htm" />
   <HelpKINode Title="IProduct.UseBalanceForSell property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_UseBalanceForSell.htm" />
@@ -8383,7 +8386,6 @@
     <HelpKINode Title="IOrderModifierItem.TaxPercent Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderModifierItem_TaxPercent.htm" />
     <HelpKINode Title="IOrderProductItem.TaxPercent Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderProductItem_TaxPercent.htm" />
     <HelpKINode Title="IOrderServiceItem.TaxPercent Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_TaxPercent.htm" />
-    <HelpKINode Title="IProduct.TaxPercent Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_TaxPercent.htm" />
     <HelpKINode Title="IRemovedOrderItem.TaxPercent Property " Url="html/P_Resto_Front_Api_Data_Orders_IRemovedOrderItem_TaxPercent.htm" />
     <HelpKINode Title="ITaxCategoryToFiscalRegisterTaxItem.TaxPercent Property " Url="html/P_Resto_Front_Api_Data_Device_ITaxCategoryToFiscalRegisterTaxItem_TaxPercent.htm" />
   </HelpKINode>
