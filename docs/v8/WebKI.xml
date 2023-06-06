@@ -2221,10 +2221,10 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2233,8 +2233,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2486,7 +2486,6 @@
   <HelpKINode Title="ExternalCourierServiceDataDto.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto_GetObjectData.htm" />
   <HelpKINode Title="ExternalCourierServiceDataDto.ServiceId property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto_ServiceId.htm" />
   <HelpKINode Title="ExternalCourierServiceDataDto.ServiceName property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto_ServiceName.htm" />
-  <HelpKINode Title="ExternalData property" Url="html/P_Resto_Front_Api_Data_Security_IUser_ExternalData.htm" />
   <HelpKINode Title="ExternalGoods enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
   <HelpKINode Title="ExternalId enumeration member" Url="html/T_Resto_Front_Api_Data_Search_StreetFields.htm" />
   <HelpKINode Title="ExternalId property">
@@ -5389,10 +5388,10 @@
   <HelpKINode Title="IUser.Card property" Url="html/P_Resto_Front_Api_Data_Security_IUser_Card.htm" />
   <HelpKINode Title="IUser.CellPhone property" Url="html/P_Resto_Front_Api_Data_Security_IUser_CellPhone.htm" />
   <HelpKINode Title="IUser.Code property" Url="html/P_Resto_Front_Api_Data_Security_IUser_Code.htm" />
-  <HelpKINode Title="IUser.ExternalData property" Url="html/P_Resto_Front_Api_Data_Security_IUser_ExternalData.htm" />
   <HelpKINode Title="IUser.InsuranceNumber property" Url="html/P_Resto_Front_Api_Data_Security_IUser_InsuranceNumber.htm" />
   <HelpKINode Title="IUser.IsSessionOpen property" Url="html/P_Resto_Front_Api_Data_Security_IUser_IsSessionOpen.htm" />
   <HelpKINode Title="IUser.Name property" Url="html/P_Resto_Front_Api_Data_Security_IUser_Name.htm" />
+  <HelpKINode Title="IUser.PublicExternalData property" Url="html/P_Resto_Front_Api_Data_Security_IUser_PublicExternalData.htm" />
   <HelpKINode Title="IUser.TaxpayerId property" Url="html/P_Resto_Front_Api_Data_Security_IUser_TaxpayerId.htm" />
   <HelpKINode Title="IUser.Type property" Url="html/P_Resto_Front_Api_Data_Security_IUser_Type.htm" />
   <HelpKINode Title="IVersionedEntity interface">
@@ -7002,6 +7001,7 @@
   </HelpKINode>
   <HelpKINode Title="PublicAPIAttribute.Comment property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_PublicAPIAttribute_Comment.htm" />
   <HelpKINode Title="PublicAPIAttribute.PublicAPIAttribute constructor" Url="html/Overload_Resto_Front_Api_Attributes_JetBrains_PublicAPIAttribute__ctor.htm" />
+  <HelpKINode Title="PublicExternalData property" Url="html/P_Resto_Front_Api_Data_Security_IUser_PublicExternalData.htm" />
   <HelpKINode Title="PublicOrganizationProjectCode property" Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_PublicOrganizationProjectCode.htm" />
   <HelpKINode Title="PublicOrganizationTenderCode property" Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_PublicOrganizationTenderCode.htm" />
   <HelpKINode Title="PureAttribute class">
