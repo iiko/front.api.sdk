@@ -1079,6 +1079,10 @@
     <HelpKINode Title="IEditSession.ChangeComboPrice Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeComboPrice.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeComboPrice Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeComboPrice.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChangeComboSize method">
+    <HelpKINode Title="IEditSession.ChangeComboSize Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeComboSize.htm" />
+    <HelpKINode Title="OperationServiceExtensions.ChangeComboSize Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeComboSize.htm" />
+  </HelpKINode>
   <HelpKINode Title="ChangeCookingPriority method">
     <HelpKINode Title="IEditSession.ChangeCookingPriority Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeCookingPriority.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeCookingPriority Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeCookingPriority.htm" />
@@ -2217,14 +2221,14 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -3526,6 +3530,7 @@
   <HelpKINode Title="IEditSession.ChangeClientSurname method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeClientSurname.htm" />
   <HelpKINode Title="IEditSession.ChangeComboAmount method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeComboAmount.htm" />
   <HelpKINode Title="IEditSession.ChangeComboPrice method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeComboPrice.htm" />
+  <HelpKINode Title="IEditSession.ChangeComboSize method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeComboSize.htm" />
   <HelpKINode Title="IEditSession.ChangeCookingPriority method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeCookingPriority.htm" />
   <HelpKINode Title="IEditSession.ChangeDeliveryActualDeliverTime method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryActualDeliverTime.htm" />
   <HelpKINode Title="IEditSession.ChangeDeliveryAddress method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryAddress.htm" />
@@ -4491,6 +4496,7 @@
   <HelpKINode Title="IOrderCombo.OrderRootItemsByGroups property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderCombo_OrderRootItemsByGroups.htm" />
   <HelpKINode Title="IOrderCombo.Price property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderCombo_Price.htm" />
   <HelpKINode Title="IOrderCombo.ProgramId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderCombo_ProgramId.htm" />
+  <HelpKINode Title="IOrderCombo.Size property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderCombo_Size.htm" />
   <HelpKINode Title="IOrderCombo.SourceActionId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderCombo_SourceActionId.htm" />
   <HelpKINode Title="IOrderComboStub interface" Url="html/T_Resto_Front_Api_Editors_Stubs_IOrderComboStub.htm" />
   <HelpKINode Title="IOrderCompoundItem interface">
@@ -6190,6 +6196,7 @@
   <HelpKINode Title="OperationServiceExtensions.ChangeClientSurname method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeClientSurname.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeComboAmount method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeComboAmount.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeComboPrice method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeComboPrice.htm" />
+  <HelpKINode Title="OperationServiceExtensions.ChangeComboSize method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeComboSize.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeCookingPriority method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeCookingPriority.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryActualDeliverTime method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryActualDeliverTime.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryAddress method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryAddress.htm" />
@@ -8151,6 +8158,7 @@
   <HelpKINode Title="Size property">
     <HelpKINode Title="Font.Size Property " Url="html/P_Resto_Front_Api_Data_View_Font_Size.htm" />
     <HelpKINode Title="IKitchenOrderCookingItem.Size Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCookingItem_Size.htm" />
+    <HelpKINode Title="IOrderCombo.Size Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderCombo_Size.htm" />
     <HelpKINode Title="IOrderCookingItem.Size Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderCookingItem_Size.htm" />
     <HelpKINode Title="IRemovedOrderItem.Size Property " Url="html/P_Resto_Front_Api_Data_Orders_IRemovedOrderItem_Size.htm" />
   </HelpKINode>
