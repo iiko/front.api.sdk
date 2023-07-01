@@ -1575,6 +1575,7 @@
     <HelpKINode Title="ICounteragent.Code Property " Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_Code.htm" />
     <HelpKINode Title="ICurrencySettings.Code Property " Url="html/P_Resto_Front_Api_Data_Organization_ICurrencySettings_Code.htm" />
     <HelpKINode Title="IPriceCategory.Code Property " Url="html/P_Resto_Front_Api_Data_Orders_IPriceCategory_Code.htm" />
+    <HelpKINode Title="IProductItemCategory.Code Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductItemCategory_Code.htm" />
     <HelpKINode Title="IUser.Code Property " Url="html/P_Resto_Front_Api_Data_Security_IUser_Code.htm" />
     <HelpKINode Title="OrganizationDetailsInfo.Code Property " Url="html/P_Resto_Front_Api_Data_Payments_OrganizationDetailsInfo_Code.htm" />
   </HelpKINode>
@@ -2247,10 +2248,10 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2261,8 +2262,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2921,6 +2922,8 @@
   <HelpKINode Title="GetProductCategoryById method" Url="html/M_Resto_Front_Api_IOperationService_GetProductCategoryById.htm" />
   <HelpKINode Title="GetProductGroupById method" Url="html/M_Resto_Front_Api_IOperationService_GetProductGroupById.htm" />
   <HelpKINode Title="GetProductGroups method" Url="html/M_Resto_Front_Api_IOperationService_GetProductGroups.htm" />
+  <HelpKINode Title="GetProductItemCategories method" Url="html/M_Resto_Front_Api_IOperationService_GetProductItemCategories.htm" />
+  <HelpKINode Title="GetProductItemCategoryById method" Url="html/M_Resto_Front_Api_IOperationService_GetProductItemCategoryById.htm" />
   <HelpKINode Title="GetProductScaleById method" Url="html/M_Resto_Front_Api_IOperationService_GetProductScaleById.htm" />
   <HelpKINode Title="GetProductScales method" Url="html/M_Resto_Front_Api_IOperationService_GetProductScales.htm" />
   <HelpKINode Title="GetProductScaleSizes method" Url="html/M_Resto_Front_Api_IOperationService_GetProductScaleSizes.htm" />
@@ -4290,6 +4293,8 @@
   <HelpKINode Title="IOperationService.GetProductCategoryById method" Url="html/M_Resto_Front_Api_IOperationService_GetProductCategoryById.htm" />
   <HelpKINode Title="IOperationService.GetProductGroupById method" Url="html/M_Resto_Front_Api_IOperationService_GetProductGroupById.htm" />
   <HelpKINode Title="IOperationService.GetProductGroups method" Url="html/M_Resto_Front_Api_IOperationService_GetProductGroups.htm" />
+  <HelpKINode Title="IOperationService.GetProductItemCategories method" Url="html/M_Resto_Front_Api_IOperationService_GetProductItemCategories.htm" />
+  <HelpKINode Title="IOperationService.GetProductItemCategoryById method" Url="html/M_Resto_Front_Api_IOperationService_GetProductItemCategoryById.htm" />
   <HelpKINode Title="IOperationService.GetProductScaleById method" Url="html/M_Resto_Front_Api_IOperationService_GetProductScaleById.htm" />
   <HelpKINode Title="IOperationService.GetProductScales method" Url="html/M_Resto_Front_Api_IOperationService_GetProductScales.htm" />
   <HelpKINode Title="IOperationService.GetProductScaleSizes method" Url="html/M_Resto_Front_Api_IOperationService_GetProductScaleSizes.htm" />
@@ -4432,6 +4437,7 @@
   <HelpKINode Title="IOperationService.TryGetProductCategoryById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductCategoryById.htm" />
   <HelpKINode Title="IOperationService.TryGetProductGroupById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductGroupById.htm" />
   <HelpKINode Title="IOperationService.TryGetProductGroupMenuImage method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductGroupMenuImage.htm" />
+  <HelpKINode Title="IOperationService.TryGetProductItemCategoryById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductItemCategoryById.htm" />
   <HelpKINode Title="IOperationService.TryGetProductMenuImage method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductMenuImage.htm" />
   <HelpKINode Title="IOperationService.TryGetProductScaleById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductScaleById.htm" />
   <HelpKINode Title="IOperationService.TryGetProductSizeById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductSizeById.htm" />
@@ -4871,6 +4877,7 @@
   <HelpKINode Title="IProduct.HasMenuImage property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_HasMenuImage.htm" />
   <HelpKINode Title="IProduct.ImmediateCookingStart property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_ImmediateCookingStart.htm" />
   <HelpKINode Title="IProduct.IsActive property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_IsActive.htm" />
+  <HelpKINode Title="IProduct.ItemCategory property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_ItemCategory.htm" />
   <HelpKINode Title="IProduct.KitchenName property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_KitchenName.htm" />
   <HelpKINode Title="IProduct.MeasuringUnitName property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_MeasuringUnitName.htm" />
   <HelpKINode Title="IProduct.MenuIndex property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_MenuIndex.htm" />
@@ -4910,6 +4917,12 @@
   <HelpKINode Title="IProductGroup.MenuIndex property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_MenuIndex.htm" />
   <HelpKINode Title="IProductGroup.Name property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_Name.htm" />
   <HelpKINode Title="IProductGroup.Number property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_Number.htm" />
+  <HelpKINode Title="IProductItemCategory interface">
+    <HelpKINode Title="IProductItemCategory Interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductItemCategory.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Assortment_IProductItemCategory.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Assortment_IProductItemCategory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IProductItemCategory.Code property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductItemCategory_Code.htm" />
   <HelpKINode Title="IProductScale interface">
     <HelpKINode Title="IProductScale Interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductScale.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Assortment_IProductScale.htm" />
@@ -5333,7 +5346,10 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Attributes_JetBrains_ItemCanBeNullAttribute.htm" />
   </HelpKINode>
   <HelpKINode Title="ItemCanBeNullAttribute.ItemCanBeNullAttribute constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_ItemCanBeNullAttribute__ctor.htm" />
-  <HelpKINode Title="ItemCategory property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_ItemCategory.htm" />
+  <HelpKINode Title="ItemCategory property">
+    <HelpKINode Title="ChequeSale.ItemCategory Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_ItemCategory.htm" />
+    <HelpKINode Title="IProduct.ItemCategory Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_ItemCategory.htm" />
+  </HelpKINode>
   <HelpKINode Title="ItemCookingEventId property">
     <HelpKINode Title="KitchenOrderCompoundItemComponentDto.ItemCookingEventId Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderCompoundItemComponentDto_ItemCookingEventId.htm" />
     <HelpKINode Title="KitchenOrderModifierItemDto.ItemCookingEventId Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderModifierItemDto_ItemCookingEventId.htm" />
@@ -7476,6 +7492,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IProduct interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProduct.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IProductCategory interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductCategory.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IProductGroup interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductGroup.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Assortment.IProductItemCategory interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductItemCategory.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IProductScale interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductScale.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IProductSize interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductSize.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Assortment.IProductTag interface" Url="html/T_Resto_Front_Api_Data_Assortment_IProductTag.htm" />
@@ -8553,6 +8570,7 @@
     <HelpKINode Title="IOperationService.TryGetProductGroupMenuImage Method " Url="html/M_Resto_Front_Api_IOperationService_TryGetProductGroupMenuImage.htm" />
     <HelpKINode Title="OperationArgumentExtensions.TryGetProductGroupMenuImage Method " Url="html/M_Resto_Front_Api_OperationArgumentExtensions_TryGetProductGroupMenuImage.htm" />
   </HelpKINode>
+  <HelpKINode Title="TryGetProductItemCategoryById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductItemCategoryById.htm" />
   <HelpKINode Title="TryGetProductMenuBitmap method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetProductMenuBitmap.htm" />
   <HelpKINode Title="TryGetProductMenuImage method">
     <HelpKINode Title="IOperationService.TryGetProductMenuImage Method " Url="html/M_Resto_Front_Api_IOperationService_TryGetProductMenuImage.htm" />
