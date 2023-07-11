@@ -762,6 +762,7 @@
   <HelpKINode Title="CanUseFontSizes property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_CanUseFontSizes.htm" />
   <HelpKINode Title="CapQueryElectronicJournalByLastSession property" Url="html/P_Resto_Front_Api_Data_Device_Results_QueryInfoResult_CapQueryElectronicJournalByLastSession.htm" />
   <HelpKINode Title="Card enumeration member">
+    <HelpKINode Title="FiscalPaymentTypeGroup Enumeration" Url="html/T_Resto_Front_Api_Data_Payments_FiscalPaymentTypeGroup.htm" />
     <HelpKINode Title="InputDialogTypes Enumeration" Url="html/T_Resto_Front_Api_Data_View_InputDialogTypes.htm" />
     <HelpKINode Title="PaymentTypeKind Enumeration" Url="html/T_Resto_Front_Api_Data_Payments_PaymentTypeKind.htm" />
   </HelpKINode>
@@ -1903,6 +1904,7 @@
   <HelpKINode Title="DecimalInputDialogResult.DecimalInputDialogResult constructor" Url="html/M_Resto_Front_Api_Data_View_DecimalInputDialogResult__ctor.htm" />
   <HelpKINode Title="Default enumeration member">
     <HelpKINode Title="ButtonWidth Enumeration" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
+    <HelpKINode Title="FiscalPaymentTypeGroup Enumeration" Url="html/T_Resto_Front_Api_Data_Payments_FiscalPaymentTypeGroup.htm" />
     <HelpKINode Title="ImplicitUseKindFlags Enumeration" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ImplicitUseKindFlags.htm" />
     <HelpKINode Title="ImplicitUseTargetFlags Enumeration" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ImplicitUseTargetFlags.htm" />
     <HelpKINode Title="OrderItemCourse Enumeration" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
@@ -2250,10 +2252,10 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2633,6 +2635,7 @@
     <HelpKINode Title="UzChequeSaleData.FiscalCode Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_UzChequeSaleData_FiscalCode.htm" />
   </HelpKINode>
   <HelpKINode Title="FiscalizeAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_FiscalizeAsDiscount.htm" />
+  <HelpKINode Title="FiscalPaymentTypeGroup enumeration" Url="html/T_Resto_Front_Api_Data_Payments_FiscalPaymentTypeGroup.htm" />
   <HelpKINode Title="FiscalRegisterPaymentType class">
     <HelpKINode Title="FiscalRegisterPaymentType Class" Url="html/T_Resto_Front_Api_Data_Device_Settings_FiscalRegisterPaymentType.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Settings_FiscalRegisterPaymentType__ctor.htm" />
@@ -6042,6 +6045,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Attributes_JetBrains_NoEnumerationAttribute.htm" />
   </HelpKINode>
   <HelpKINode Title="NoEnumerationAttribute.NoEnumerationAttribute constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_NoEnumerationAttribute__ctor.htm" />
+  <HelpKINode Title="NonCash enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_FiscalPaymentTypeGroup.htm" />
   <HelpKINode Title="NonCashPaymentsSum enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="NonCashPaymentsSum property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_NonCashPaymentsSum.htm" />
   <HelpKINode Title="NonCashSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_NonCashSum.htm" />
@@ -7738,6 +7742,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Payments.CreditPaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_CreditPaymentItemAdditionalData.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.CurrencyHelper class" Url="html/T_Resto_Front_Api_Data_Payments_CurrencyHelper.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.ExternalPaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.FiscalPaymentTypeGroup enumeration" Url="html/T_Resto_Front_Api_Data_Payments_FiscalPaymentTypeGroup.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.IDonationType interface" Url="html/T_Resto_Front_Api_Data_Payments_IDonationType.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.IikoCard51PaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_IikoCard51PaymentItemAdditionalData.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.IikoCard51SearchScope enumeration" Url="html/T_Resto_Front_Api_Data_Payments_IikoCard51SearchScope.htm" />
