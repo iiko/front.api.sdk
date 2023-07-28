@@ -412,6 +412,7 @@
   <HelpKINode Title="AssertionMethodAttribute.AssertionMethodAttribute constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_AssertionMethodAttribute__ctor.htm" />
   <HelpKINode Title="Assign enumeration member" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ImplicitUseKindFlags.htm" />
   <HelpKINode Title="AssignedModifiers property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderProductItem_AssignedModifiers.htm" />
+  <HelpKINode Title="AssignedToCurrentDepartment property" Url="html/P_Resto_Front_Api_Data_Security_IUser_AssignedToCurrentDepartment.htm" />
   <HelpKINode Title="AttachToJournalEvent method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AttachToJournalEvent.htm" />
   <HelpKINode Title="Attribute property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_AspRequiredAttributeAttribute_Attribute.htm" />
   <HelpKINode Title="Attributes class">
@@ -2250,12 +2251,12 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2266,8 +2267,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -4088,6 +4089,7 @@
   <HelpKINode Title="INotificationService.ProductCategoryChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductCategoryChanged.htm" />
   <HelpKINode Title="INotificationService.ProductChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductChanged.htm" />
   <HelpKINode Title="INotificationService.ProductGroupChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductGroupChanged.htm" />
+  <HelpKINode Title="INotificationService.ProductItemCategoryChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductItemCategoryChanged.htm" />
   <HelpKINode Title="INotificationService.ProductScaleChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductScaleChanged.htm" />
   <HelpKINode Title="INotificationService.ProductSizeChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductSizeChanged.htm" />
   <HelpKINode Title="INotificationService.ProductStocksListChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductStocksListChanged.htm" />
@@ -5445,6 +5447,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Security_IUser.htm" />
   </HelpKINode>
   <HelpKINode Title="IUser.AccountingReasonCode property" Url="html/P_Resto_Front_Api_Data_Security_IUser_AccountingReasonCode.htm" />
+  <HelpKINode Title="IUser.AssignedToCurrentDepartment property" Url="html/P_Resto_Front_Api_Data_Security_IUser_AssignedToCurrentDepartment.htm" />
   <HelpKINode Title="IUser.Card property" Url="html/P_Resto_Front_Api_Data_Security_IUser_Card.htm" />
   <HelpKINode Title="IUser.CellPhone property" Url="html/P_Resto_Front_Api_Data_Security_IUser_CellPhone.htm" />
   <HelpKINode Title="IUser.Code property" Url="html/P_Resto_Front_Api_Data_Security_IUser_Code.htm" />
@@ -7052,6 +7055,7 @@
     <HelpKINode Title="KitchenOrderModifierItemDto.ProductId Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderModifierItemDto_ProductId.htm" />
     <HelpKINode Title="KitchenOrderProductItemDto.ProductId Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderProductItemDto_ProductId.htm" />
   </HelpKINode>
+  <HelpKINode Title="ProductItemCategoryChanged property" Url="html/P_Resto_Front_Api_INotificationService_ProductItemCategoryChanged.htm" />
   <HelpKINode Title="Products property">
     <HelpKINode Title="HierarchicalMenu.Products Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_HierarchicalMenu_Products.htm" />
     <HelpKINode Title="IPreliminaryOrder.Products Property " Url="html/P_Resto_Front_Api_Data_PreliminaryOrders_IPreliminaryOrder_Products.htm" />
