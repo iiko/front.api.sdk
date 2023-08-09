@@ -84,6 +84,7 @@
     <HelpKINode Title="IEditSession.AddOrderServiceItem Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_AddOrderServiceItem.htm" />
     <HelpKINode Title="OperationServiceExtensions.AddOrderServiceItem Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddOrderServiceItem.htm" />
   </HelpKINode>
+  <HelpKINode Title="AddOrUpdateCustomData method" Url="html/M_Resto_Front_Api_IOperationService_AddOrUpdateCustomData.htm" />
   <HelpKINode Title="AddOrUpdateKitchenOrderExternalData method" Url="html/M_Resto_Front_Api_IOperationService_AddOrUpdateKitchenOrderExternalData.htm" />
   <HelpKINode Title="AddPaymentItem method">
     <HelpKINode Title="IEditSession.AddPaymentItem Method " Url="html/Overload_Resto_Front_Api_Editors_IEditSession_AddPaymentItem.htm" />
@@ -1548,6 +1549,7 @@
   <HelpKINode Title="ClaimCreated enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
   <HelpKINode Title="ClaimDraft enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
   <HelpKINode Title="ClaimWaiting enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
+  <HelpKINode Title="ClearCustomData method" Url="html/M_Resto_Front_Api_IOperationService_ClearCustomData.htm" />
   <HelpKINode Title="ClearStopList method" Url="html/M_Resto_Front_Api_IOperationService_ClearStopList.htm" />
   <HelpKINode Title="Client property">
     <HelpKINode Title="IDeliveryOrder.Client Property " Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_Client.htm" />
@@ -2257,8 +2259,8 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2768,6 +2770,7 @@
   <HelpKINode Title="GetActiveProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveProducts.htm" />
   <HelpKINode Title="GetActiveRemovalTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveRemovalTypes.htm" />
   <HelpKINode Title="GetActiveStreets method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveStreets.htm" />
+  <HelpKINode Title="GetAllCustomData method" Url="html/M_Resto_Front_Api_IOperationService_GetAllCustomData.htm" />
   <HelpKINode Title="GetAllergenGroupsByOrderRootItem method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByOrderRootItem.htm" />
   <HelpKINode Title="GetAllergenGroupsByProductIds method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByProductIds.htm" />
   <HelpKINode Title="GetAllProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetAllProducts.htm" />
@@ -4179,6 +4182,7 @@
   <HelpKINode Title="IOperationService.AddErrorMessage method" Url="html/M_Resto_Front_Api_IOperationService_AddErrorMessage.htm" />
   <HelpKINode Title="IOperationService.AddIikoCardReferrerToOrder method" Url="html/M_Resto_Front_Api_IOperationService_AddIikoCardReferrerToOrder.htm" />
   <HelpKINode Title="IOperationService.AddNotificationMessage method" Url="html/M_Resto_Front_Api_IOperationService_AddNotificationMessage.htm" />
+  <HelpKINode Title="IOperationService.AddOrUpdateCustomData method" Url="html/M_Resto_Front_Api_IOperationService_AddOrUpdateCustomData.htm" />
   <HelpKINode Title="IOperationService.AddOrUpdateKitchenOrderExternalData method" Url="html/M_Resto_Front_Api_IOperationService_AddOrUpdateKitchenOrderExternalData.htm" />
   <HelpKINode Title="IOperationService.AddProductToStopList method" Url="html/M_Resto_Front_Api_IOperationService_AddProductToStopList.htm" />
   <HelpKINode Title="IOperationService.AddStatusBarInfo method" Url="html/M_Resto_Front_Api_IOperationService_AddStatusBarInfo.htm" />
@@ -4208,6 +4212,7 @@
   <HelpKINode Title="IOperationService.CheckPermission method" Url="html/M_Resto_Front_Api_IOperationService_CheckPermission.htm" />
   <HelpKINode Title="IOperationService.CheckPermissions method" Url="html/M_Resto_Front_Api_IOperationService_CheckPermissions.htm" />
   <HelpKINode Title="IOperationService.CheckStopListProductsSellingRestrictions method" Url="html/M_Resto_Front_Api_IOperationService_CheckStopListProductsSellingRestrictions.htm" />
+  <HelpKINode Title="IOperationService.ClearCustomData method" Url="html/M_Resto_Front_Api_IOperationService_ClearCustomData.htm" />
   <HelpKINode Title="IOperationService.ClearStopList method" Url="html/M_Resto_Front_Api_IOperationService_ClearStopList.htm" />
   <HelpKINode Title="IOperationService.CloseCafeSession method" Url="html/M_Resto_Front_Api_IOperationService_CloseCafeSession.htm" />
   <HelpKINode Title="IOperationService.ClosePersonalSession method" Url="html/M_Resto_Front_Api_IOperationService_ClosePersonalSession.htm" />
@@ -4227,6 +4232,7 @@
   <HelpKINode Title="IOperationService.GetActiveProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveProducts.htm" />
   <HelpKINode Title="IOperationService.GetActiveRemovalTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveRemovalTypes.htm" />
   <HelpKINode Title="IOperationService.GetActiveStreets method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveStreets.htm" />
+  <HelpKINode Title="IOperationService.GetAllCustomData method" Url="html/M_Resto_Front_Api_IOperationService_GetAllCustomData.htm" />
   <HelpKINode Title="IOperationService.GetAllergenGroupsByOrderRootItem method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByOrderRootItem.htm" />
   <HelpKINode Title="IOperationService.GetAllergenGroupsByProductIds method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByProductIds.htm" />
   <HelpKINode Title="IOperationService.GetAllProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetAllProducts.htm" />
@@ -4427,6 +4433,7 @@
   <HelpKINode Title="IOperationService.TryGetClientByPhone method" Url="html/M_Resto_Front_Api_IOperationService_TryGetClientByPhone.htm" />
   <HelpKINode Title="IOperationService.TryGetCompoundItemTemplateById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCompoundItemTemplateById.htm" />
   <HelpKINode Title="IOperationService.TryGetConceptionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetConceptionById.htm" />
+  <HelpKINode Title="IOperationService.TryGetCustomData method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCustomData.htm" />
   <HelpKINode Title="IOperationService.TryGetDeliveryCancelCauseById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDeliveryCancelCauseById.htm" />
   <HelpKINode Title="IOperationService.TryGetDeliveryOrderById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDeliveryOrderById.htm" />
   <HelpKINode Title="IOperationService.TryGetDisabledSizesByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDisabledSizesByProduct.htm" />
@@ -4480,6 +4487,7 @@
   <HelpKINode Title="IOperationService.TryGetUserById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetUserById.htm" />
   <HelpKINode Title="IOperationService.TryGetWaiterTeamById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetWaiterTeamById.htm" />
   <HelpKINode Title="IOperationService.TryGetWaiterTeamForUser method" Url="html/M_Resto_Front_Api_IOperationService_TryGetWaiterTeamForUser.htm" />
+  <HelpKINode Title="IOperationService.TryRemoveCustomData method" Url="html/M_Resto_Front_Api_IOperationService_TryRemoveCustomData.htm" />
   <HelpKINode Title="IOperationService.UnprocessPayment method" Url="html/M_Resto_Front_Api_IOperationService_UnprocessPayment.htm" />
   <HelpKINode Title="IOperationService.UpdateDiscountCard method" Url="html/M_Resto_Front_Api_IOperationService_UpdateDiscountCard.htm" />
   <HelpKINode Title="IOperationService.UpdatePaymentScreenButtonState method" Url="html/M_Resto_Front_Api_IOperationService_UpdatePaymentScreenButtonState.htm" />
@@ -8576,6 +8584,7 @@
   <HelpKINode Title="TryGetClientByPhone method" Url="html/M_Resto_Front_Api_IOperationService_TryGetClientByPhone.htm" />
   <HelpKINode Title="TryGetCompoundItemTemplateById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCompoundItemTemplateById.htm" />
   <HelpKINode Title="TryGetConceptionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetConceptionById.htm" />
+  <HelpKINode Title="TryGetCustomData method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCustomData.htm" />
   <HelpKINode Title="TryGetDeliveryCancelCauseById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDeliveryCancelCauseById.htm" />
   <HelpKINode Title="TryGetDeliveryOrderById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDeliveryOrderById.htm" />
   <HelpKINode Title="TryGetDisabledSizes method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetDisabledSizes.htm" />
@@ -8663,6 +8672,7 @@
   </HelpKINode>
   <HelpKINode Title="TryGetWaiterTeamById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetWaiterTeamById.htm" />
   <HelpKINode Title="TryGetWaiterTeamForUser method" Url="html/M_Resto_Front_Api_IOperationService_TryGetWaiterTeamForUser.htm" />
+  <HelpKINode Title="TryRemoveCustomData method" Url="html/M_Resto_Front_Api_IOperationService_TryRemoveCustomData.htm" />
   <HelpKINode Title="Twelfth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Twentieth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Type property">
