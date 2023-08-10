@@ -552,6 +552,7 @@
     <HelpKINode Title="CashRegisterChequeExtensions.BeforeCheque Property " Url="html/P_Resto_Front_Api_Data_Device_CashRegisterChequeExtensions_BeforeCheque.htm" />
   </HelpKINode>
   <HelpKINode Title="BeforeClosing enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryPaymentTimeOption.htm" />
+  <HelpKINode Title="BeforeCustomDataClear property" Url="html/P_Resto_Front_Api_INotificationService_BeforeCustomDataClear.htm" />
   <HelpKINode Title="BeforeDeleteNonPrintedItems property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDeleteNonPrintedItems.htm" />
   <HelpKINode Title="BeforeDeleteOrder property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDeleteOrder.htm" />
   <HelpKINode Title="BeforeDeletePrintedItems property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDeletePrintedItems.htm" />
@@ -2253,12 +2254,12 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -4046,6 +4047,7 @@
     <HelpKINode Title="INotificationService Interface" Url="html/T_Resto_Front_Api_INotificationService.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_INotificationService.htm" />
   </HelpKINode>
+  <HelpKINode Title="INotificationService.BeforeCustomDataClear property" Url="html/P_Resto_Front_Api_INotificationService_BeforeCustomDataClear.htm" />
   <HelpKINode Title="INotificationService.BeforeDeleteNonPrintedItems property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDeleteNonPrintedItems.htm" />
   <HelpKINode Title="INotificationService.BeforeDeleteOrder property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDeleteOrder.htm" />
   <HelpKINode Title="INotificationService.BeforeDeletePrintedItems property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDeletePrintedItems.htm" />
