@@ -238,7 +238,9 @@
             Returns price for the product according to the given client price category.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetPriceCategories.htm">GetPriceCategories</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetPriceCategoryById.htm">GetPriceCategoryById</a></td><td><div class="summary">
             Returns priceCategory by id.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetProductByBarcode.htm">GetProductByBarcode</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetPrintingDeviceInfoById.htm">GetPrintingDeviceInfoById</a></td><td><div class="summary">
+            Returns printingDeviceInfo by id.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetPrintingDeviceInfos.htm">GetPrintingDeviceInfos</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetProductByBarcode.htm">GetProductByBarcode</a></td><td><div class="summary">
             Returns product by barcode or <span class="code">null</span> if it is not found.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetProductById.htm">GetProductById</a></td><td><div class="summary">
             Returns product by id.
@@ -360,7 +362,9 @@
             Pay order and pay out on user.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_PrepareDeliveryForSending.htm">PrepareDeliveryForSending</a></td><td><div class="summary">
             Prepares delivery for sending by courier, switches <a href="P_Resto_Front_Api_Data_Orders_IDeliveryOrder_DeliveryStatus.htm">DeliveryStatus</a> from <a href="T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm">New</a> to <a href="T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm">Waiting</a>.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_Print.htm">Print</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_Print.htm">Print(IPrintingDeviceInfo, Document)</a></td><td><div class="summary">
+            Print document on printing device. It can be printer of cash register
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_Print_1.htm">Print(IPrinterQueueRef, Document, Boolean)</a></td><td><div class="summary">
             Print document on specified printer.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_PrintBanquet.htm">PrintBanquet</a></td><td><div class="summary">
             Prints preliminary document with estimated event date and time, planned menu, guests count, client contacts, prepay info, etc.
@@ -498,6 +502,8 @@
             Returns preliminaryOrder by id.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_TryGetPriceCategoryById.htm">TryGetPriceCategoryById</a></td><td><div class="summary">
             Returns priceCategory by id or <span class="code">null</span> if priceCategory with specified id doesn't exist.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_TryGetPrintingDeviceInfoById.htm">TryGetPrintingDeviceInfoById</a></td><td><div class="summary">
+            Returns printingDeviceInfo by id or <span class="code">null</span> if printingDeviceInfo with specified id doesn't exist.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_TryGetProductById.htm">TryGetProductById</a></td><td><div class="summary">
             Returns product by id or <span class="code">null</span> if product with specified id doesn't exist.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_TryGetProductCategoryById.htm">TryGetProductCategoryById</a></td><td><div class="summary">
