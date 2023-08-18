@@ -453,6 +453,7 @@
   <HelpKINode Title="AttributeValues.Top field" Url="html/F_Resto_Front_Api_Data_Cheques_AttributeValues_Top.htm" />
   <HelpKINode Title="AttributeValues.WrapText field" Url="html/F_Resto_Front_Api_Data_Cheques_AttributeValues_WrapText.htm" />
   <HelpKINode Title="AuthenticateByPin method" Url="html/M_Resto_Front_Api_IOperationService_AuthenticateByPin.htm" />
+  <HelpKINode Title="AuthenticateByUser method" Url="html/M_Resto_Front_Api_IOperationService_AuthenticateByUser.htm" />
   <HelpKINode Title="AuthenticationException class">
     <HelpKINode Title="AuthenticationException Class" Url="html/T_Resto_Front_Api_Exceptions_AuthenticationException.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Exceptions_AuthenticationException__ctor.htm" />
@@ -2265,8 +2266,8 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -3694,6 +3695,7 @@
   <HelpKINode Title="IEditSession.SetDeliveryUndelivered method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetDeliveryUndelivered.htm" />
   <HelpKINode Title="IEditSession.SetJournalEventAttribute method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetJournalEventAttribute.htm" />
   <HelpKINode Title="IEditSession.SetOpenPrice method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetOpenPrice.htm" />
+  <HelpKINode Title="IEditSession.SetOrderHasFixedIikoCardDiscounts method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetOrderHasFixedIikoCardDiscounts.htm" />
   <HelpKINode Title="IEditSession.SetOrderModifierItemCustomName method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_SetOrderModifierItemCustomName.htm" />
   <HelpKINode Title="IEditSession.SetOrderType method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetOrderType.htm" />
   <HelpKINode Title="IEditSession.SetProductItemCustomName method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetProductItemCustomName.htm" />
@@ -4207,6 +4209,7 @@
   <HelpKINode Title="IOperationService.AddStatusBarInfo method" Url="html/M_Resto_Front_Api_IOperationService_AddStatusBarInfo.htm" />
   <HelpKINode Title="IOperationService.AddWarningMessage method" Url="html/M_Resto_Front_Api_IOperationService_AddWarningMessage.htm" />
   <HelpKINode Title="IOperationService.AuthenticateByPin method" Url="html/M_Resto_Front_Api_IOperationService_AuthenticateByPin.htm" />
+  <HelpKINode Title="IOperationService.AuthenticateByUser method" Url="html/M_Resto_Front_Api_IOperationService_AuthenticateByUser.htm" />
   <HelpKINode Title="IOperationService.BillOrder method" Url="html/M_Resto_Front_Api_IOperationService_BillOrder.htm" />
   <HelpKINode Title="IOperationService.CalculateDeliveryTerminalWorkload method" Url="html/M_Resto_Front_Api_IOperationService_CalculateDeliveryTerminalWorkload.htm" />
   <HelpKINode Title="IOperationService.CallExternalOperation method" Url="html/Overload_Resto_Front_Api_IOperationService_CallExternalOperation.htm" />
@@ -6396,6 +6399,7 @@
   <HelpKINode Title="OperationServiceExtensions.SetDeliveryDelivered method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetDeliveryDelivered.htm" />
   <HelpKINode Title="OperationServiceExtensions.SetDeliveryUndelivered method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetDeliveryUndelivered.htm" />
   <HelpKINode Title="OperationServiceExtensions.SetOpenPrice method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetOpenPrice.htm" />
+  <HelpKINode Title="OperationServiceExtensions.SetOrderHasFixedIikoCardDiscounts method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetOrderHasFixedIikoCardDiscounts.htm" />
   <HelpKINode Title="OperationServiceExtensions.SetOrderModifierItemCustomName method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_SetOrderModifierItemCustomName.htm" />
   <HelpKINode Title="OperationServiceExtensions.SetOrderType method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetOrderType.htm" />
   <HelpKINode Title="OperationServiceExtensions.SetProductItemCustomName method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetProductItemCustomName.htm" />
@@ -8231,6 +8235,10 @@
   <HelpKINode Title="SetOpenPrice method">
     <HelpKINode Title="IEditSession.SetOpenPrice Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_SetOpenPrice.htm" />
     <HelpKINode Title="OperationServiceExtensions.SetOpenPrice Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetOpenPrice.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetOrderHasFixedIikoCardDiscounts method">
+    <HelpKINode Title="IEditSession.SetOrderHasFixedIikoCardDiscounts Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_SetOrderHasFixedIikoCardDiscounts.htm" />
+    <HelpKINode Title="OperationServiceExtensions.SetOrderHasFixedIikoCardDiscounts Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetOrderHasFixedIikoCardDiscounts.htm" />
   </HelpKINode>
   <HelpKINode Title="SetOrderModifierItemCustomName method">
     <HelpKINode Title="IEditSession.SetOrderModifierItemCustomName Method " Url="html/Overload_Resto_Front_Api_Editors_IEditSession_SetOrderModifierItemCustomName.htm" />
