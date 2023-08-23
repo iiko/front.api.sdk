@@ -100,12 +100,16 @@
             Creates a new discount card.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_CreateEditSession.htm">CreateEditSession</a></td><td><div class="summary">
             Creates an edit session. All changes made with this session will be accumulated without affecting entities. Use <a href="M_Resto_Front_Api_IOperationService_SubmitChanges.htm">SubmitChanges(IEditSession, ICredentials)</a> method to apply all changes or do nothing to discard them.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_CreateKitchenOrder.htm">CreateKitchenOrder</a></td><td><div class="summary">
+            Creates new external kitchen order by temporary kitchen order data transfer object.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_CreatePreliminaryOrder.htm">CreatePreliminaryOrder</a></td><td><div class="summary">
             Create new preliminary order.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_DeleteDonation.htm">DeleteDonation</a></td><td><div class="summary">
             Deletes existing donation from the order.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_DeleteKitchenOrderExternalData.htm">DeleteKitchenOrderExternalData</a></td><td><div class="summary">
             Deletes external data from the kitchen order.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_DeleteKitchenOrderItems.htm">DeleteKitchenOrderItems</a></td><td><div class="summary">
+            Deletes all items in external kitchen order associated with external order identifier.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_DeleteOrder.htm">DeleteOrder</a></td><td><div class="summary">
             Deletes order. Order must have no printed items. User must have rights to edit orders.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_DeleteOrderAndHideItemsFromOlap.htm">DeleteOrderAndHideItemsFromOlap</a></td><td><div class="summary">
@@ -164,7 +168,9 @@
             Returns compoundItemTemplate by id.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetCompoundItemTemplates.htm">GetCompoundItemTemplates</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetConceptionById.htm">GetConceptionById</a></td><td><div class="summary">
             Returns conception by id.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetCurrentUser.htm">GetCurrentUser</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetCookingPlaceTypeById.htm">GetCookingPlaceTypeById</a></td><td><div class="summary">
+            Returns cookingPlaceType by id.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetCookingPlaceTypes.htm">GetCookingPlaceTypes</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetCurrentUser.htm">GetCurrentUser</a></td><td><div class="summary">
             Get the logged user.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetDeletedOrderTypes.htm">GetDeletedOrderTypes</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetDeliveryCancelCauseById.htm">GetDeliveryCancelCauseById</a></td><td><div class="summary">
             Returns deliveryCancelCause by id.
@@ -462,6 +468,8 @@
             Returns compoundItemTemplate by id or <span class="code">null</span> if compoundItemTemplate with specified id doesn't exist.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_TryGetConceptionById.htm">TryGetConceptionById</a></td><td><div class="summary">
             Returns conception by id or <span class="code">null</span> if conception with specified id doesn't exist.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_TryGetCookingPlaceTypeById.htm">TryGetCookingPlaceTypeById</a></td><td><div class="summary">
+            Returns cookingPlaceType by id or <span class="code">null</span> if cookingPlaceType with specified id doesn't exist.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_TryGetCustomData.htm">TryGetCustomData</a></td><td><div class="summary">
             Tries to get custom data by key.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_TryGetDeliveryCancelCauseById.htm">TryGetDeliveryCancelCauseById</a></td><td><div class="summary">
