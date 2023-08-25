@@ -86,6 +86,10 @@
   </HelpKINode>
   <HelpKINode Title="AddOrUpdateCustomData method" Url="html/M_Resto_Front_Api_IOperationService_AddOrUpdateCustomData.htm" />
   <HelpKINode Title="AddOrUpdateKitchenOrderExternalData method" Url="html/M_Resto_Front_Api_IOperationService_AddOrUpdateKitchenOrderExternalData.htm" />
+  <HelpKINode Title="AddOrUpdateModifierForPrintedItem method">
+    <HelpKINode Title="IEditSession.AddOrUpdateModifierForPrintedItem Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_AddOrUpdateModifierForPrintedItem.htm" />
+    <HelpKINode Title="OperationServiceExtensions.AddOrUpdateModifierForPrintedItem Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddOrUpdateModifierForPrintedItem.htm" />
+  </HelpKINode>
   <HelpKINode Title="AddPaymentItem method">
     <HelpKINode Title="IEditSession.AddPaymentItem Method " Url="html/Overload_Resto_Front_Api_Editors_IEditSession_AddPaymentItem.htm" />
     <HelpKINode Title="OperationServiceExtensions.AddPaymentItem Method " Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_AddPaymentItem.htm" />
@@ -2270,8 +2274,8 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2280,8 +2284,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -3563,6 +3567,7 @@
   <HelpKINode Title="IEditSession.AddOrderModifierItem method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_AddOrderModifierItem.htm" />
   <HelpKINode Title="IEditSession.AddOrderProductItem method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_AddOrderProductItem.htm" />
   <HelpKINode Title="IEditSession.AddOrderServiceItem method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddOrderServiceItem.htm" />
+  <HelpKINode Title="IEditSession.AddOrUpdateModifierForPrintedItem method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddOrUpdateModifierForPrintedItem.htm" />
   <HelpKINode Title="IEditSession.AddPaymentItem method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_AddPaymentItem.htm" />
   <HelpKINode Title="IEditSession.AddPreliminaryPaymentItem method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_AddPreliminaryPaymentItem.htm" />
   <HelpKINode Title="IEditSession.AddPrimaryComponent method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_AddPrimaryComponent.htm" />
@@ -6285,6 +6290,7 @@
   <HelpKINode Title="OperationServiceExtensions.AddOrderModifierItem method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_AddOrderModifierItem.htm" />
   <HelpKINode Title="OperationServiceExtensions.AddOrderProductItem method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_AddOrderProductItem.htm" />
   <HelpKINode Title="OperationServiceExtensions.AddOrderServiceItem method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddOrderServiceItem.htm" />
+  <HelpKINode Title="OperationServiceExtensions.AddOrUpdateModifierForPrintedItem method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddOrUpdateModifierForPrintedItem.htm" />
   <HelpKINode Title="OperationServiceExtensions.AddPaymentItem method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_AddPaymentItem.htm" />
   <HelpKINode Title="OperationServiceExtensions.AddPreliminaryPaymentItem method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_AddPreliminaryPaymentItem.htm" />
   <HelpKINode Title="OperationServiceExtensions.BindReserveToOrder method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_BindReserveToOrder.htm" />
