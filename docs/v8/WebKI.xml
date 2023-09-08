@@ -124,6 +124,8 @@
   <HelpKINode Title="AddressDto.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Brd_AddressDto_GetObjectData.htm" />
   <HelpKINode Title="AddressDto.House property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_House.htm" />
   <HelpKINode Title="AddressDto.Index property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Index.htm" />
+  <HelpKINode Title="AddressDto.Line1 property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Line1.htm" />
+  <HelpKINode Title="AddressDto.Line2 property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Line2.htm" />
   <HelpKINode Title="AddressDto.RegionId property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_RegionId.htm" />
   <HelpKINode Title="AddressDto.StreetId property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_StreetId.htm" />
   <HelpKINode Title="Addresses property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Addresses.htm" />
@@ -2271,12 +2273,12 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -3162,6 +3164,8 @@
   <HelpKINode Title="IAddress.Floor property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Floor.htm" />
   <HelpKINode Title="IAddress.House property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_House.htm" />
   <HelpKINode Title="IAddress.Index property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Index.htm" />
+  <HelpKINode Title="IAddress.Line1 property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Line1.htm" />
+  <HelpKINode Title="IAddress.Line2 property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Line2.htm" />
   <HelpKINode Title="IAddress.Region property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Region.htm" />
   <HelpKINode Title="IAddress.Street property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Street.htm" />
   <HelpKINode Title="IAllergenGroup interface">
@@ -4462,6 +4466,7 @@
   <HelpKINode Title="IOperationService.RegisterCashRegisterFactory method" Url="html/M_Resto_Front_Api_IOperationService_RegisterCashRegisterFactory.htm" />
   <HelpKINode Title="IOperationService.RegisterChequeTaskProcessor method" Url="html/M_Resto_Front_Api_IOperationService_RegisterChequeTaskProcessor.htm" />
   <HelpKINode Title="IOperationService.RegisterCustomRoundingHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterCustomRoundingHandler.htm" />
+  <HelpKINode Title="IOperationService.RegisterExternalAddressSearchProvider method" Url="html/M_Resto_Front_Api_IOperationService_RegisterExternalAddressSearchProvider.htm" />
   <HelpKINode Title="IOperationService.RegisterExternalCompanyInfoSearchProvider method" Url="html/M_Resto_Front_Api_IOperationService_RegisterExternalCompanyInfoSearchProvider.htm" />
   <HelpKINode Title="IOperationService.RegisterExternalCourierServicesProvider method" Url="html/M_Resto_Front_Api_IOperationService_RegisterExternalCourierServicesProvider.htm" />
   <HelpKINode Title="IOperationService.RegisterExternalOperation method" Url="html/Overload_Resto_Front_Api_IOperationService_RegisterExternalOperation.htm" />
@@ -5783,6 +5788,14 @@
   <HelpKINode Title="LicenseRestrictionException.LicenseRestrictionException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_LicenseRestrictionException__ctor.htm" />
   <HelpKINode Title="Licensing property" Url="html/P_Resto_Front_Api_PluginContext_Licensing.htm" />
   <HelpKINode Title="Line field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Line.htm" />
+  <HelpKINode Title="Line1 property">
+    <HelpKINode Title="AddressDto.Line1 Property " Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Line1.htm" />
+    <HelpKINode Title="IAddress.Line1 Property " Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Line1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Line2 property">
+    <HelpKINode Title="AddressDto.Line2 Property " Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Line2.htm" />
+    <HelpKINode Title="IAddress.Line2 Property " Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Line2.htm" />
+  </HelpKINode>
   <HelpKINode Title="LineCell field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_LineCell.htm" />
   <HelpKINode Title="Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
   <HelpKINode Title="LinkedCounteragent property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_LinkedCounteragent.htm" />
@@ -7398,6 +7411,7 @@
   <HelpKINode Title="RegisterDateTime enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="RegisterDateTime property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_RegisterDateTime.htm" />
   <HelpKINode Title="Registered property" Url="html/P_Resto_Front_Api_Data_Common_ExternalOperationChangedEventArgs_Registered.htm" />
+  <HelpKINode Title="RegisterExternalAddressSearchProvider method" Url="html/M_Resto_Front_Api_IOperationService_RegisterExternalAddressSearchProvider.htm" />
   <HelpKINode Title="RegisterExternalCompanyInfoSearchProvider method" Url="html/M_Resto_Front_Api_IOperationService_RegisterExternalCompanyInfoSearchProvider.htm" />
   <HelpKINode Title="RegisterExternalCourierServicesProvider method" Url="html/M_Resto_Front_Api_IOperationService_RegisterExternalCourierServicesProvider.htm" />
   <HelpKINode Title="RegisterExternalOperation method" Url="html/Overload_Resto_Front_Api_IOperationService_RegisterExternalOperation.htm" />
