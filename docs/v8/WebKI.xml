@@ -2271,14 +2271,14 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -4602,6 +4602,7 @@
   <HelpKINode Title="IOrder.ProcessedPaymentsSum property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_ProcessedPaymentsSum.htm" />
   <HelpKINode Title="IOrder.RemovedItems property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_RemovedItems.htm" />
   <HelpKINode Title="IOrder.RepeatBillNumber property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_RepeatBillNumber.htm" />
+  <HelpKINode Title="IOrder.Reserve property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Reserve.htm" />
   <HelpKINode Title="IOrder.ResultSum property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_ResultSum.htm" />
   <HelpKINode Title="IOrder.Status property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Status.htm" />
   <HelpKINode Title="IOrder.StornedOrderId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_StornedOrderId.htm" />
@@ -5155,6 +5156,7 @@
   <HelpKINode Title="IReserve.ExternalId property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_ExternalId.htm" />
   <HelpKINode Title="IReserve.GuestsComingTime property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_GuestsComingTime.htm" />
   <HelpKINode Title="IReserve.GuestsCount property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_GuestsCount.htm" />
+  <HelpKINode Title="IReserve.IsBanquet property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_IsBanquet.htm" />
   <HelpKINode Title="IReserve.LastChangedTerminalId property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_LastChangedTerminalId.htm" />
   <HelpKINode Title="IReserve.Order property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_Order.htm" />
   <HelpKINode Title="IReserve.ShouldRemind property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_ShouldRemind.htm" />
@@ -5225,6 +5227,7 @@
   <HelpKINode Title="IsAllCafeSessionsClosed method" Url="html/M_Resto_Front_Api_IOperationService_IsAllCafeSessionsClosed.htm" />
   <HelpKINode Title="IsAllCafeSessionsOpen method" Url="html/M_Resto_Front_Api_IOperationService_IsAllCafeSessionsOpen.htm" />
   <HelpKINode Title="IsAutomatic property" Url="html/P_Resto_Front_Api_Data_Orders_IDiscountType_IsAutomatic.htm" />
+  <HelpKINode Title="IsBanquet property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_IsBanquet.htm" />
   <HelpKINode Title="IsBanquetOrder property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_IsBanquetOrder.htm" />
   <HelpKINode Title="IsBillTaskSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsBillTaskSupported.htm" />
   <HelpKINode Title="IsCalculated property">
@@ -7461,7 +7464,10 @@
   <HelpKINode Title="RequiredParameter.ResourceName property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_RequiredParameter_ResourceName.htm" />
   <HelpKINode Title="RequiredParameter.ResourceTip property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_RequiredParameter_ResourceTip.htm" />
   <HelpKINode Title="RequiredParameter.Type property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_RequiredParameter_Type.htm" />
-  <HelpKINode Title="Reserve property" Url="html/P_Resto_Front_Api_Data_Screens_IReserveEditScreen_Reserve.htm" />
+  <HelpKINode Title="Reserve property">
+    <HelpKINode Title="IOrder.Reserve Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Reserve.htm" />
+    <HelpKINode Title="IReserveEditScreen.Reserve Property " Url="html/P_Resto_Front_Api_Data_Screens_IReserveEditScreen_Reserve.htm" />
+  </HelpKINode>
   <HelpKINode Title="ReserveCancelReason enumeration" Url="html/T_Resto_Front_Api_Data_Brd_ReserveCancelReason.htm" />
   <HelpKINode Title="ReserveChanged property" Url="html/P_Resto_Front_Api_INotificationService_ReserveChanged.htm" />
   <HelpKINode Title="Reserved enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_IikoCard51SearchScope.htm" />
