@@ -629,6 +629,7 @@
   <HelpKINode Title="BillTask.IsRefund property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IsRefund.htm" />
   <HelpKINode Title="BillTask.OrderId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_OrderId.htm" />
   <HelpKINode Title="BillTask.OrderNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_OrderNumber.htm" />
+  <HelpKINode Title="BillTask.PrepaymentSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_PrepaymentSum.htm" />
   <HelpKINode Title="BillTask.PrintArticle property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_PrintArticle.htm" />
   <HelpKINode Title="BillTask.PrintVat property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_PrintVat.htm" />
   <HelpKINode Title="BillTask.ResultSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_ResultSum.htm" />
@@ -1169,13 +1170,9 @@
     <HelpKINode Title="IEditSession.ChangeDeliveryMarketingSource Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryMarketingSource.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryMarketingSource Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryMarketingSource.htm" />
   </HelpKINode>
-  <HelpKINode Title="ChangeDeliveryMovedFromId method">
-    <HelpKINode Title="IEditSession.ChangeDeliveryMovedFromId Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryMovedFromId.htm" />
-    <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryMovedFromId Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryMovedFromId.htm" />
-  </HelpKINode>
-  <HelpKINode Title="ChangeDeliveryMovedToId method">
-    <HelpKINode Title="IEditSession.ChangeDeliveryMovedToId Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryMovedToId.htm" />
-    <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryMovedToId Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryMovedToId.htm" />
+  <HelpKINode Title="ChangeDeliveryMoveIds method">
+    <HelpKINode Title="IEditSession.ChangeDeliveryMoveIds Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryMoveIds.htm" />
+    <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryMoveIds Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryMoveIds.htm" />
   </HelpKINode>
   <HelpKINode Title="ChangeDeliveryOperator method">
     <HelpKINode Title="IEditSession.ChangeDeliveryOperator Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryOperator.htm" />
@@ -1534,7 +1531,6 @@
   <HelpKINode Title="ChequeTask.OpenTime property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OpenTime.htm" />
   <HelpKINode Title="ChequeTask.OperationTime property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OperationTime.htm" />
   <HelpKINode Title="ChequeTask.PrepaymentIds property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentIds.htm" />
-  <HelpKINode Title="ChequeTask.PrepaymentSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentSum.htm" />
   <HelpKINode Title="ChequeTask.RoundSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_RoundSum.htm" />
   <HelpKINode Title="ChequeTask.SettlementAddress property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_SettlementAddress.htm" />
   <HelpKINode Title="ChequeTask.SettlementPlace property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_SettlementPlace.htm" />
@@ -2271,14 +2267,14 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -3479,7 +3475,9 @@
   <HelpKINode Title="IDeliveryOrder.Longitude property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_Longitude.htm" />
   <HelpKINode Title="IDeliveryOrder.MarketingSource property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_MarketingSource.htm" />
   <HelpKINode Title="IDeliveryOrder.MovedFromDeliveryId property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_MovedFromDeliveryId.htm" />
+  <HelpKINode Title="IDeliveryOrder.MovedFromTerminalGroupId property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_MovedFromTerminalGroupId.htm" />
   <HelpKINode Title="IDeliveryOrder.MovedToDeliveryId property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_MovedToDeliveryId.htm" />
+  <HelpKINode Title="IDeliveryOrder.MovedToTerminalGroupId property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_MovedToTerminalGroupId.htm" />
   <HelpKINode Title="IDeliveryOrder.Phone property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_Phone.htm" />
   <HelpKINode Title="IDeliveryOrder.PredictedCookingCompleteTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_PredictedCookingCompleteTime.htm" />
   <HelpKINode Title="IDeliveryOrder.PredictedDeliveryTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_PredictedDeliveryTime.htm" />
@@ -3646,8 +3644,7 @@
   <HelpKINode Title="IEditSession.ChangeDeliveryLastVerifiedRestrictionsHash method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryLastVerifiedRestrictionsHash.htm" />
   <HelpKINode Title="IEditSession.ChangeDeliveryLocation method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryLocation.htm" />
   <HelpKINode Title="IEditSession.ChangeDeliveryMarketingSource method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryMarketingSource.htm" />
-  <HelpKINode Title="IEditSession.ChangeDeliveryMovedFromId method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryMovedFromId.htm" />
-  <HelpKINode Title="IEditSession.ChangeDeliveryMovedToId method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryMovedToId.htm" />
+  <HelpKINode Title="IEditSession.ChangeDeliveryMoveIds method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryMoveIds.htm" />
   <HelpKINode Title="IEditSession.ChangeDeliveryOperator method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryOperator.htm" />
   <HelpKINode Title="IEditSession.ChangeDeliveryOrderPredictedCookingCompleteTime method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryOrderPredictedCookingCompleteTime.htm" />
   <HelpKINode Title="IEditSession.ChangeDeliveryPhone method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryPhone.htm" />
@@ -5941,7 +5938,9 @@
   <HelpKINode Title="ModuleId property" Url="html/P_Resto_Front_Api_Attributes_PluginLicenseModuleIdAttribute_ModuleId.htm" />
   <HelpKINode Title="MoreThanOnePaymentsWithChange enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="MovedFromDeliveryId property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_MovedFromDeliveryId.htm" />
+  <HelpKINode Title="MovedFromTerminalGroupId property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_MovedFromTerminalGroupId.htm" />
   <HelpKINode Title="MovedToDeliveryId property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_MovedToDeliveryId.htm" />
+  <HelpKINode Title="MovedToTerminalGroupId property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_MovedToTerminalGroupId.htm" />
   <HelpKINode Title="MoveOrderItemToAnotherGuest method">
     <HelpKINode Title="IEditSession.MoveOrderItemToAnotherGuest Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_MoveOrderItemToAnotherGuest.htm" />
     <HelpKINode Title="OperationServiceExtensions.MoveOrderItemToAnotherGuest Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MoveOrderItemToAnotherGuest.htm" />
@@ -6400,8 +6399,7 @@
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryLastVerifiedRestrictionsHash method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryLastVerifiedRestrictionsHash.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryLocation method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryLocation.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryMarketingSource method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryMarketingSource.htm" />
-  <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryMovedFromId method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryMovedFromId.htm" />
-  <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryMovedToId method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryMovedToId.htm" />
+  <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryMoveIds method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryMoveIds.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryOperator method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryOperator.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryOrderPredictedCookingCompleteTime method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryOrderPredictedCookingCompleteTime.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryPhone method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryPhone.htm" />
@@ -6988,7 +6986,7 @@
   <HelpKINode Title="PrepareDeliveryForSending method" Url="html/M_Resto_Front_Api_IOperationService_PrepareDeliveryForSending.htm" />
   <HelpKINode Title="PrepaymentIds property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentIds.htm" />
   <HelpKINode Title="PrepaymentSum property">
-    <HelpKINode Title="ChequeTask.PrepaymentSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_PrepaymentSum.htm" />
+    <HelpKINode Title="BillTask.PrepaymentSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_PrepaymentSum.htm" />
     <HelpKINode Title="Ffd10CorrectionTask.PrepaymentSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_PrepaymentSum.htm" />
   </HelpKINode>
   <HelpKINode Title="Price property">
