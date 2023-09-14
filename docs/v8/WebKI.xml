@@ -865,6 +865,7 @@
   <HelpKINode Title="CashRegisterChequeExtensions.PastOrderNumber property" Url="html/P_Resto_Front_Api_Data_Device_CashRegisterChequeExtensions_PastOrderNumber.htm" />
   <HelpKINode Title="CashRegisterCloseEncashmentSetup enumeration" Url="html/T_Resto_Front_Api_Data_Device_CashRegisterCloseEncashmentSetup.htm" />
   <HelpKINode Title="CashRegisterDirectIO method" Url="html/M_Resto_Front_Api_IOperationService_CashRegisterDirectIO.htm" />
+  <HelpKINode Title="CashRegisterDrawerIsOpened method" Url="html/M_Resto_Front_Api_IOperationService_CashRegisterDrawerIsOpened.htm" />
   <HelpKINode Title="CashRegisterDriverParameters class">
     <HelpKINode Title="CashRegisterDriverParameters Class" Url="html/T_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters__ctor.htm" />
@@ -2267,12 +2268,12 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2283,8 +2284,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -4255,6 +4256,7 @@
   <HelpKINode Title="IOperationService.CancelReserve method" Url="html/M_Resto_Front_Api_IOperationService_CancelReserve.htm" />
   <HelpKINode Title="IOperationService.CanProductBePaidWithPaymentType method" Url="html/M_Resto_Front_Api_IOperationService_CanProductBePaidWithPaymentType.htm" />
   <HelpKINode Title="IOperationService.CashRegisterDirectIO method" Url="html/M_Resto_Front_Api_IOperationService_CashRegisterDirectIO.htm" />
+  <HelpKINode Title="IOperationService.CashRegisterDrawerIsOpened method" Url="html/M_Resto_Front_Api_IOperationService_CashRegisterDrawerIsOpened.htm" />
   <HelpKINode Title="IOperationService.CashRegisterOpenDrawer method" Url="html/M_Resto_Front_Api_IOperationService_CashRegisterOpenDrawer.htm" />
   <HelpKINode Title="IOperationService.CashRegisterStart method" Url="html/M_Resto_Front_Api_IOperationService_CashRegisterStart.htm" />
   <HelpKINode Title="IOperationService.CashRegisterStop method" Url="html/M_Resto_Front_Api_IOperationService_CashRegisterStop.htm" />
