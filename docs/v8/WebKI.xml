@@ -1735,6 +1735,7 @@
   <HelpKINode Title="CookingPlacesWithEmptyStores enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="CookingPlaceType property">
     <HelpKINode Title="IKitchenWorkload.CookingPlaceType Property " Url="html/P_Resto_Front_Api_Data_Orders_IKitchenWorkload_CookingPlaceType.htm" />
+    <HelpKINode Title="IProduct.CookingPlaceType Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_CookingPlaceType.htm" />
     <HelpKINode Title="IRemovedOrderItem.CookingPlaceType Property " Url="html/P_Resto_Front_Api_Data_Orders_IRemovedOrderItem_CookingPlaceType.htm" />
   </HelpKINode>
   <HelpKINode Title="CookingPlaceTypeId property">
@@ -2274,8 +2275,8 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2689,6 +2690,7 @@
   <HelpKINode Title="FiscalRegisterTaxItem.TaxName property" Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalRegisterTaxItem_TaxName.htm" />
   <HelpKINode Title="FiscalRegisterTaxItem.TaxPercent property" Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalRegisterTaxItem_TaxPercent.htm" />
   <HelpKINode Title="FiscalRegisterTaxItems property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterSettings_FiscalRegisterTaxItems.htm" />
+  <HelpKINode Title="FiscalSectionMap property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_FiscalSectionMap.htm" />
   <HelpKINode Title="FiscalStorage enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="FiscalStorage property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FiscalStorage.htm" />
   <HelpKINode Title="Fit field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_Fit.htm" />
@@ -4752,6 +4754,7 @@
   </HelpKINode>
   <HelpKINode Title="IOrderServiceItem.Cost property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_Cost.htm" />
   <HelpKINode Title="IOrderServiceItem.IsStarted property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_IsStarted.htm" />
+  <HelpKINode Title="IOrderServiceItem.Kitchen property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_Kitchen.htm" />
   <HelpKINode Title="IOrderServiceItem.Periods property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_Periods.htm" />
   <HelpKINode Title="IOrderServiceItem.Price property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_Price.htm" />
   <HelpKINode Title="IOrderServiceItem.RateSchedule property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_RateSchedule.htm" />
@@ -4980,6 +4983,7 @@
   <HelpKINode Title="IProduct.BarcodeContainers property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_BarcodeContainers.htm" />
   <HelpKINode Title="IProduct.CanSetOpenPrice property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_CanSetOpenPrice.htm" />
   <HelpKINode Title="IProduct.Category property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Category.htm" />
+  <HelpKINode Title="IProduct.CookingPlaceType property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_CookingPlaceType.htm" />
   <HelpKINode Title="IProduct.DefaultCourse property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_DefaultCourse.htm" />
   <HelpKINode Title="IProduct.Description property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Description.htm" />
   <HelpKINode Title="IProduct.DescriptionForeign property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_DescriptionForeign.htm" />
@@ -5527,6 +5531,7 @@
   </HelpKINode>
   <HelpKINode Title="ITerminalsGroup.AskCashierForMultiCashRegisterPayment property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_AskCashierForMultiCashRegisterPayment.htm" />
   <HelpKINode Title="ITerminalsGroup.DefaultTable property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_DefaultTable.htm" />
+  <HelpKINode Title="ITerminalsGroup.FiscalSectionMap property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_FiscalSectionMap.htm" />
   <HelpKINode Title="ITerminalsGroup.IsTabMode property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_IsTabMode.htm" />
   <HelpKINode Title="ITerminalsGroup.MainTerminal property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_MainTerminal.htm" />
   <HelpKINode Title="ITerminalsGroup.MaxCourseNumber property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_MaxCourseNumber.htm" />
@@ -5618,6 +5623,7 @@
     <HelpKINode Title="IKitchenOrderModifierItem.Kitchen Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderModifierItem_Kitchen.htm" />
     <HelpKINode Title="IOrderCookingItem.Kitchen Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderCookingItem_Kitchen.htm" />
     <HelpKINode Title="IOrderModifierItem.Kitchen Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderModifierItem_Kitchen.htm" />
+    <HelpKINode Title="IOrderServiceItem.Kitchen Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_Kitchen.htm" />
   </HelpKINode>
   <HelpKINode Title="KitchenCoursesEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_KitchenCoursesEnabled.htm" />
   <HelpKINode Title="KitchenName property">
