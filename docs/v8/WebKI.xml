@@ -2272,12 +2272,12 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -6671,6 +6671,7 @@
   <HelpKINode Title="PastOrder.OrderType property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_OrderType.htm" />
   <HelpKINode Title="PastOrder.PastOrder constructor" Url="html/Overload_Resto_Front_Api_Data_Orders_PastOrder__ctor.htm" />
   <HelpKINode Title="PastOrder.Payments property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_Payments.htm" />
+  <HelpKINode Title="PastOrder.PublicExternalData property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_PublicExternalData.htm" />
   <HelpKINode Title="PastOrder.RestaurantSection property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_RestaurantSection.htm" />
   <HelpKINode Title="PastOrder.SourceOrderInfo property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_SourceOrderInfo.htm" />
   <HelpKINode Title="PastOrder.Storned property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_Storned.htm" />
@@ -7255,7 +7256,10 @@
   </HelpKINode>
   <HelpKINode Title="PublicAPIAttribute.Comment property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_PublicAPIAttribute_Comment.htm" />
   <HelpKINode Title="PublicAPIAttribute.PublicAPIAttribute constructor" Url="html/Overload_Resto_Front_Api_Attributes_JetBrains_PublicAPIAttribute__ctor.htm" />
-  <HelpKINode Title="PublicExternalData property" Url="html/P_Resto_Front_Api_Data_Security_IUser_PublicExternalData.htm" />
+  <HelpKINode Title="PublicExternalData property">
+    <HelpKINode Title="IUser.PublicExternalData Property " Url="html/P_Resto_Front_Api_Data_Security_IUser_PublicExternalData.htm" />
+    <HelpKINode Title="PastOrder.PublicExternalData Property " Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_PublicExternalData.htm" />
+  </HelpKINode>
   <HelpKINode Title="PublicOrganizationProjectCode property" Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_PublicOrganizationProjectCode.htm" />
   <HelpKINode Title="PublicOrganizationTenderCode property" Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_PublicOrganizationTenderCode.htm" />
   <HelpKINode Title="PureAttribute class">
