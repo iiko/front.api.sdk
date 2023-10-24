@@ -1552,8 +1552,7 @@
   <HelpKINode Title="ChequeTaskProcessorFailed enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="ChequeTransferType enumeration" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeTransferType.htm" />
   <HelpKINode Title="ChequeVatTotalizers property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_ChequeVatTotalizers.htm" />
-  <HelpKINode Title="ChildOrders property" Url="html/P_Resto_Front_Api_OperationContexts_IChildOrdersCreatedContext_ChildOrders.htm" />
-  <HelpKINode Title="ChildOrdersCreated property" Url="html/P_Resto_Front_Api_INotificationService_ChildOrdersCreated.htm" />
+  <HelpKINode Title="ChildOrderCreated property" Url="html/P_Resto_Front_Api_INotificationService_ChildOrderCreated.htm" />
   <HelpKINode Title="City property">
     <HelpKINode Title="ExternalCompanyInfo.City Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_City.htm" />
     <HelpKINode Title="IStreet.City Property " Url="html/P_Resto_Front_Api_Data_Brd_IStreet_City.htm" />
@@ -3300,12 +3299,6 @@
   <HelpKINode Title="IChildModifierBase.MaximumAmount property" Url="html/P_Resto_Front_Api_Data_Assortment_IChildModifierBase_MaximumAmount.htm" />
   <HelpKINode Title="IChildModifierBase.MinimumAmount property" Url="html/P_Resto_Front_Api_Data_Assortment_IChildModifierBase_MinimumAmount.htm" />
   <HelpKINode Title="IChildModifierBase.Product property" Url="html/P_Resto_Front_Api_Data_Assortment_IChildModifierBase_Product.htm" />
-  <HelpKINode Title="IChildOrdersCreatedContext interface">
-    <HelpKINode Title="IChildOrdersCreatedContext Interface" Url="html/T_Resto_Front_Api_OperationContexts_IChildOrdersCreatedContext.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_OperationContexts_IChildOrdersCreatedContext.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IChildOrdersCreatedContext.ChildOrders property" Url="html/P_Resto_Front_Api_OperationContexts_IChildOrdersCreatedContext_ChildOrders.htm" />
-  <HelpKINode Title="IChildOrdersCreatedContext.ParentOrder property" Url="html/P_Resto_Front_Api_OperationContexts_IChildOrdersCreatedContext_ParentOrder.htm" />
   <HelpKINode Title="ICity interface">
     <HelpKINode Title="ICity Interface" Url="html/T_Resto_Front_Api_Data_Brd_ICity.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Brd_ICity.htm" />
@@ -4133,7 +4126,7 @@
   <HelpKINode Title="INotificationService.CafeSessionOpening property" Url="html/P_Resto_Front_Api_INotificationService_CafeSessionOpening.htm" />
   <HelpKINode Title="INotificationService.CashChequePrinting property" Url="html/P_Resto_Front_Api_INotificationService_CashChequePrinting.htm" />
   <HelpKINode Title="INotificationService.ChangeSumChanged property" Url="html/P_Resto_Front_Api_INotificationService_ChangeSumChanged.htm" />
-  <HelpKINode Title="INotificationService.ChildOrdersCreated property" Url="html/P_Resto_Front_Api_INotificationService_ChildOrdersCreated.htm" />
+  <HelpKINode Title="INotificationService.ChildOrderCreated property" Url="html/P_Resto_Front_Api_INotificationService_ChildOrderCreated.htm" />
   <HelpKINode Title="INotificationService.CityChanged property" Url="html/P_Resto_Front_Api_INotificationService_CityChanged.htm" />
   <HelpKINode Title="INotificationService.ClientChanged property" Url="html/P_Resto_Front_Api_INotificationService_ClientChanged.htm" />
   <HelpKINode Title="INotificationService.CompoundItemTemplateChanged property" Url="html/P_Resto_Front_Api_INotificationService_CompoundItemTemplateChanged.htm" />
@@ -6642,7 +6635,6 @@
     <HelpKINode Title="SupportedCommand.Parameters Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_SupportedCommand_Parameters.htm" />
   </HelpKINode>
   <HelpKINode Title="ParentId property" Url="html/P_Resto_Front_Api_Data_Orders_IRemovedOrderItem_ParentId.htm" />
-  <HelpKINode Title="ParentOrder property" Url="html/P_Resto_Front_Api_OperationContexts_IChildOrdersCreatedContext_ParentOrder.htm" />
   <HelpKINode Title="ParentOrderId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_ParentOrderId.htm" />
   <HelpKINode Title="Partial enumeration member" Url="html/T_Resto_Front_Api_Data_Device_CashRegisterCloseEncashmentSetup.htm" />
   <HelpKINode Title="PartialCredit enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeTransferType.htm" />
@@ -8132,7 +8124,6 @@
   <HelpKINode Title="Resto.Front.Api.IReceiptPrinter interface" Url="html/T_Resto_Front_Api_IReceiptPrinter.htm" />
   <HelpKINode Title="Resto.Front.Api.OperationArgumentExtensions class" Url="html/T_Resto_Front_Api_OperationArgumentExtensions.htm" />
   <HelpKINode Title="Resto.Front.Api.OperationContexts namespace" Url="html/N_Resto_Front_Api_OperationContexts.htm" />
-  <HelpKINode Title="Resto.Front.Api.OperationContexts.IChildOrdersCreatedContext interface" Url="html/T_Resto_Front_Api_OperationContexts_IChildOrdersCreatedContext.htm" />
   <HelpKINode Title="Resto.Front.Api.OperationContexts.INavigatingToPaymentScreenOperationContext interface" Url="html/T_Resto_Front_Api_OperationContexts_INavigatingToPaymentScreenOperationContext.htm" />
   <HelpKINode Title="Resto.Front.Api.OperationContexts.IPaymentScreenGuestInfo interface" Url="html/T_Resto_Front_Api_OperationContexts_IPaymentScreenGuestInfo.htm" />
   <HelpKINode Title="Resto.Front.Api.OperationContexts.IPaymentScreenUpdatedContext interface" Url="html/T_Resto_Front_Api_OperationContexts_IPaymentScreenUpdatedContext.htm" />
