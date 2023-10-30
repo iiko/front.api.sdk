@@ -2273,14 +2273,14 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -4509,6 +4509,7 @@
   <HelpKINode Title="IOperationService.SubmitChanges method" Url="html/M_Resto_Front_Api_IOperationService_SubmitChanges.htm" />
   <HelpKINode Title="IOperationService.TryEditCurrentOrder method" Url="html/M_Resto_Front_Api_IOperationService_TryEditCurrentOrder.htm" />
   <HelpKINode Title="IOperationService.TryEditCurrentPaymentScreen method" Url="html/M_Resto_Front_Api_IOperationService_TryEditCurrentPaymentScreen.htm" />
+  <HelpKINode Title="IOperationService.TryExecuteUiOperation method" Url="html/M_Resto_Front_Api_IOperationService_TryExecuteUiOperation.htm" />
   <HelpKINode Title="IOperationService.TryGetBillPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetBillPrinter.htm" />
   <HelpKINode Title="IOperationService.TryGetCafeSessionByCashRegister method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCafeSessionByCashRegister.htm" />
   <HelpKINode Title="IOperationService.TryGetCafeSessionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCafeSessionById.htm" />
@@ -8747,6 +8748,7 @@
   <HelpKINode Title="Trpos enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_PaymentTypeKind.htm" />
   <HelpKINode Title="TryEditCurrentOrder method" Url="html/M_Resto_Front_Api_IOperationService_TryEditCurrentOrder.htm" />
   <HelpKINode Title="TryEditCurrentPaymentScreen method" Url="html/M_Resto_Front_Api_IOperationService_TryEditCurrentPaymentScreen.htm" />
+  <HelpKINode Title="TryExecuteUiOperation method" Url="html/M_Resto_Front_Api_IOperationService_TryExecuteUiOperation.htm" />
   <HelpKINode Title="TryGetBillPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetBillPrinter.htm" />
   <HelpKINode Title="TryGetCafeSessionByCashRegister method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCafeSessionByCashRegister.htm" />
   <HelpKINode Title="TryGetCafeSessionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCafeSessionById.htm" />
