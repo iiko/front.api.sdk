@@ -2275,10 +2275,10 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2289,8 +2289,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -3353,6 +3353,10 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Screens_IClosedOrderScreen.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Screens_IClosedOrderScreen.htm" />
   </HelpKINode>
+  <HelpKINode Title="IClosedOrdersScreen interface">
+    <HelpKINode Title="IClosedOrdersScreen Interface" Url="html/T_Resto_Front_Api_Data_Screens_IClosedOrdersScreen.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Screens_IClosedOrdersScreen.htm" />
+  </HelpKINode>
   <HelpKINode Title="ICompoundItemTemplate interface">
     <HelpKINode Title="ICompoundItemTemplate Interface" Url="html/T_Resto_Front_Api_Data_Assortment_ICompoundItemTemplate.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Assortment_ICompoundItemTemplate.htm" />
@@ -3443,6 +3447,10 @@
   <HelpKINode Title="IDeletionMethod.Comment property" Url="html/P_Resto_Front_Api_Data_Orders_IDeletionMethod_Comment.htm" />
   <HelpKINode Title="IDeletionMethod.Id property" Url="html/P_Resto_Front_Api_Data_Orders_IDeletionMethod_Id.htm" />
   <HelpKINode Title="IDeletionMethod.RemovalType property" Url="html/P_Resto_Front_Api_Data_Orders_IDeletionMethod_RemovalType.htm" />
+  <HelpKINode Title="IDeliveriesScreen interface">
+    <HelpKINode Title="IDeliveriesScreen Interface" Url="html/T_Resto_Front_Api_Data_Screens_IDeliveriesScreen.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Screens_IDeliveriesScreen.htm" />
+  </HelpKINode>
   <HelpKINode Title="IDeliveryCancelCause interface">
     <HelpKINode Title="IDeliveryCancelCause Interface" Url="html/T_Resto_Front_Api_Data_Brd_IDeliveryCancelCause.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Brd_IDeliveryCancelCause.htm" />
@@ -3579,6 +3587,10 @@
   <HelpKINode Title="IDiscountType.Name property" Url="html/P_Resto_Front_Api_Data_Orders_IDiscountType_Name.htm" />
   <HelpKINode Title="Idle enumeration member" Url="html/T_Resto_Front_Api_Data_Kitchen_KitchenOrderItemProcessingStatus.htm" />
   <HelpKINode Title="IdleText property" Url="html/P_Resto_Front_Api_Data_Device_Settings_InternalCustomerDisplaySettings_IdleText.htm" />
+  <HelpKINode Title="IDocumentsScreen interface">
+    <HelpKINode Title="IDocumentsScreen Interface" Url="html/T_Resto_Front_Api_Data_Screens_IDocumentsScreen.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Screens_IDocumentsScreen.htm" />
+  </HelpKINode>
   <HelpKINode Title="IDonationType interface">
     <HelpKINode Title="IDonationType Interface" Url="html/T_Resto_Front_Api_Data_Payments_IDonationType.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Payments_IDonationType.htm" />
@@ -4232,6 +4244,10 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Screens_IOpenCafeSessionScreen.htm" />
   </HelpKINode>
   <HelpKINode Title="IOpenCafeSessionScreen.CashRegister property" Url="html/P_Resto_Front_Api_Data_Screens_IOpenCafeSessionScreen_CashRegister.htm" />
+  <HelpKINode Title="IOpenOrdersScreen interface">
+    <HelpKINode Title="IOpenOrdersScreen Interface" Url="html/T_Resto_Front_Api_Data_Screens_IOpenOrdersScreen.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Screens_IOpenOrdersScreen.htm" />
+  </HelpKINode>
   <HelpKINode Title="IOperationDataContext interface">
     <HelpKINode Title="IOperationDataContext Interface" Url="html/T_Resto_Front_Api_Devices_IOperationDataContext.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Devices_IOperationDataContext.htm" />
@@ -4764,6 +4780,14 @@
   <HelpKINode Title="IOrderRootItem.Status property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderRootItem_Status.htm" />
   <HelpKINode Title="IOrderRootItem.Waiter property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderRootItem_Waiter.htm" />
   <HelpKINode Title="IOrderRootItemStub interface" Url="html/T_Resto_Front_Api_Editors_Stubs_IOrderRootItemStub.htm" />
+  <HelpKINode Title="IOrdersByTablesScreen interface">
+    <HelpKINode Title="IOrdersByTablesScreen Interface" Url="html/T_Resto_Front_Api_Data_Screens_IOrdersByTablesScreen.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Screens_IOrdersByTablesScreen.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IOrdersByWaiterScreen interface">
+    <HelpKINode Title="IOrdersByWaiterScreen Interface" Url="html/T_Resto_Front_Api_Data_Screens_IOrdersByWaiterScreen.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Screens_IOrdersByWaiterScreen.htm" />
+  </HelpKINode>
   <HelpKINode Title="IOrderServiceItem interface">
     <HelpKINode Title="IOrderServiceItem Interface" Url="html/T_Resto_Front_Api_Data_Orders_IOrderServiceItem.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IOrderServiceItem.htm" />
@@ -4970,6 +4994,10 @@
   <HelpKINode Title="IPreliminaryOrderProductItem.Dish property" Url="html/P_Resto_Front_Api_Data_PreliminaryOrders_IPreliminaryOrderProductItem_Dish.htm" />
   <HelpKINode Title="IPreliminaryOrderProductItem.Modifiers property" Url="html/P_Resto_Front_Api_Data_PreliminaryOrders_IPreliminaryOrderProductItem_Modifiers.htm" />
   <HelpKINode Title="IPreliminaryOrderProductItem.ProductSize property" Url="html/P_Resto_Front_Api_Data_PreliminaryOrders_IPreliminaryOrderProductItem_ProductSize.htm" />
+  <HelpKINode Title="IPreliminaryOrdersScreen interface">
+    <HelpKINode Title="IPreliminaryOrdersScreen Interface" Url="html/T_Resto_Front_Api_Data_Screens_IPreliminaryOrdersScreen.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Screens_IPreliminaryOrdersScreen.htm" />
+  </HelpKINode>
   <HelpKINode Title="IPriceCategory interface">
     <HelpKINode Title="IPriceCategory Interface" Url="html/T_Resto_Front_Api_Data_Orders_IPriceCategory.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IPriceCategory.htm" />
@@ -5190,6 +5218,10 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Screens_IReserveEditScreen.htm" />
   </HelpKINode>
   <HelpKINode Title="IReserveEditScreen.Reserve property" Url="html/P_Resto_Front_Api_Data_Screens_IReserveEditScreen_Reserve.htm" />
+  <HelpKINode Title="IReservesScreen interface">
+    <HelpKINode Title="IReservesScreen Interface" Url="html/T_Resto_Front_Api_Data_Screens_IReservesScreen.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Screens_IReservesScreen.htm" />
+  </HelpKINode>
   <HelpKINode Title="IReserveStub interface" Url="html/T_Resto_Front_Api_Editors_Stubs_IReserveStub.htm" />
   <HelpKINode Title="IRestaurant interface">
     <HelpKINode Title="IRestaurant Interface" Url="html/T_Resto_Front_Api_Data_Organization_IRestaurant.htm" />
@@ -5319,6 +5351,10 @@
   <HelpKINode Title="ISectionSchema.TableElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_TableElements.htm" />
   <HelpKINode Title="ISectionSchema.Version property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_Version.htm" />
   <HelpKINode Title="ISectionSchema.Width property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_Width.htm" />
+  <HelpKINode Title="ISectionSchemaScreen interface">
+    <HelpKINode Title="ISectionSchemaScreen Interface" Url="html/T_Resto_Front_Api_Data_Screens_ISectionSchemaScreen.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Screens_ISectionSchemaScreen.htm" />
+  </HelpKINode>
   <HelpKINode Title="IsEInvoice property" Url="html/P_Resto_Front_Api_OperationContexts_IPaymentScreenGuestInfo_IsEInvoice.htm" />
   <HelpKINode Title="ISelectiveDiscountItemSettings interface">
     <HelpKINode Title="ISelectiveDiscountItemSettings Interface" Url="html/T_Resto_Front_Api_Data_Orders_ISelectiveDiscountItemSettings.htm" />
@@ -5469,6 +5505,10 @@
   <HelpKINode Title="ITable.Number property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ITable_Number.htm" />
   <HelpKINode Title="ITable.RestaurantSection property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ITable_RestaurantSection.htm" />
   <HelpKINode Title="ITable.SeatingCapacity property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ITable_SeatingCapacity.htm" />
+  <HelpKINode Title="ITabsByWaiterScreen interface">
+    <HelpKINode Title="ITabsByWaiterScreen Interface" Url="html/T_Resto_Front_Api_Data_Screens_ITabsByWaiterScreen.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Screens_ITabsByWaiterScreen.htm" />
+  </HelpKINode>
   <HelpKINode Title="Italic enumeration member" Url="html/T_Resto_Front_Api_Data_View_FontStyle.htm" />
   <HelpKINode Title="ITaxCategory interface">
     <HelpKINode Title="ITaxCategory Interface" Url="html/T_Resto_Front_Api_Data_Taxes_ITaxCategory.htm" />
@@ -7966,15 +8006,25 @@
   <HelpKINode Title="Resto.Front.Api.Data.Screens.IAdditionalOperationsScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IAdditionalOperationsScreen.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Screens.ICloseCafeSessionScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_ICloseCafeSessionScreen.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Screens.IClosedOrderScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IClosedOrderScreen.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Screens.IClosedOrdersScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IClosedOrdersScreen.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Screens.IDeliveriesScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IDeliveriesScreen.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Screens.IDeliveryOrderEditScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IDeliveryOrderEditScreen.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Screens.IDocumentsScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IDocumentsScreen.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Screens.ILockScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_ILockScreen.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Screens.IOpenCafeSessionScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IOpenCafeSessionScreen.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Screens.IOpenOrdersScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IOpenOrdersScreen.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Screens.IOrderEditScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IOrderEditScreen.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Screens.IOrderPayScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IOrderPayScreen.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Screens.IOrdersByTablesScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IOrdersByTablesScreen.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Screens.IOrdersByWaiterScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IOrdersByWaiterScreen.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Screens.IPreliminaryOrdersScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IPreliminaryOrdersScreen.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Screens.IReserveEditScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IReserveEditScreen.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Screens.IReservesScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IReservesScreen.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Screens.IScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IScreen.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Screens.IScreenWithDelivery interface" Url="html/T_Resto_Front_Api_Data_Screens_IScreenWithDelivery.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Screens.IScreenWithOrder interface" Url="html/T_Resto_Front_Api_Data_Screens_IScreenWithOrder.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Screens.ISectionSchemaScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_ISectionSchemaScreen.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Screens.ITabsByWaiterScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_ITabsByWaiterScreen.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Screens.IUnknownScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IUnknownScreen.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Screens.IUnmodifiableDeliveryOrderScreen interface" Url="html/T_Resto_Front_Api_Data_Screens_IUnmodifiableDeliveryOrderScreen.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Search namespace" Url="html/N_Resto_Front_Api_Data_Search.htm" />
