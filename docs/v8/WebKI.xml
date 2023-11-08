@@ -1877,6 +1877,17 @@
   <HelpKINode Title="CurrentUserChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentUserChanged.htm" />
   <HelpKINode Title="CustomApiData property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_CustomApiData.htm" />
   <HelpKINode Title="CustomData property" Url="html/P_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData_CustomData.htm" />
+  <HelpKINode Title="CustomDataChanged property" Url="html/P_Resto_Front_Api_INotificationService_CustomDataChanged.htm" />
+  <HelpKINode Title="CustomDataChangedEventArgs class">
+    <HelpKINode Title="CustomDataChangedEventArgs Class" Url="html/T_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CustomDataChangedEventArgs.CustomDataChangedEventArgs constructor" Url="html/M_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs__ctor.htm" />
+  <HelpKINode Title="CustomDataChangedEventArgs.EventType property" Url="html/P_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs_EventType.htm" />
+  <HelpKINode Title="CustomDataChangedEventArgs.Key property" Url="html/P_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs_Key.htm" />
+  <HelpKINode Title="CustomDataChangedEventArgs.Value property" Url="html/P_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs_Value.htm" />
   <HelpKINode Title="CustomerDetailsInfo property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CustomerDetailsInfo.htm" />
   <HelpKINode Title="CustomerDisplay enumeration member" Url="html/T_Resto_Front_Api_Data_Device_DeviceType.htm" />
   <HelpKINode Title="CustomerDisplayIdle method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_CustomerDisplayIdle.htm" />
@@ -2273,10 +2284,10 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
@@ -2482,7 +2493,10 @@
   <HelpKINode Title="EstimatedStartTime property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_EstimatedStartTime.htm" />
   <HelpKINode Title="Estimating enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
   <HelpKINode Title="EstimatingFailed enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
-  <HelpKINode Title="EventType property" Url="html/P_Resto_Front_Api_Data_Common_EntityChangedEventArgs_1_EventType.htm" />
+  <HelpKINode Title="EventType property">
+    <HelpKINode Title="CustomDataChangedEventArgs.EventType Property " Url="html/P_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs_EventType.htm" />
+    <HelpKINode Title="EntityChangedEventArgs(T).EventType Property " Url="html/P_Resto_Front_Api_Data_Common_EntityChangedEventArgs_1_EventType.htm" />
+  </HelpKINode>
   <HelpKINode Title="ExecuteContinuousOperation method" Url="html/Overload_Resto_Front_Api_IOperationService_ExecuteContinuousOperation.htm" />
   <HelpKINode Title="ExpectedDeliverTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ExpectedDeliverTime.htm" />
   <HelpKINode Title="ExpectedDuration property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ExpectedDuration.htm" />
@@ -4148,6 +4162,7 @@
   <HelpKINode Title="INotificationService.ConnectionToMainTerminalChanged property" Url="html/P_Resto_Front_Api_INotificationService_ConnectionToMainTerminalChanged.htm" />
   <HelpKINode Title="INotificationService.CurrentCultureChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentCultureChanged.htm" />
   <HelpKINode Title="INotificationService.CurrentUserChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentUserChanged.htm" />
+  <HelpKINode Title="INotificationService.CustomDataChanged property" Url="html/P_Resto_Front_Api_INotificationService_CustomDataChanged.htm" />
   <HelpKINode Title="INotificationService.DeliveryCancelCauseChanged property" Url="html/P_Resto_Front_Api_INotificationService_DeliveryCancelCauseChanged.htm" />
   <HelpKINode Title="INotificationService.DeliveryOrderChanged property" Url="html/P_Resto_Front_Api_INotificationService_DeliveryOrderChanged.htm" />
   <HelpKINode Title="INotificationService.DeliveryRideChanged property" Url="html/P_Resto_Front_Api_INotificationService_DeliveryRideChanged.htm" />
@@ -5675,6 +5690,7 @@
   </HelpKINode>
   <HelpKINode Title="Key property">
     <HelpKINode Title="BaseSetting(T).Key Property " Url="html/P_Resto_Front_Api_Data_Settings_BaseSetting_1_Key.htm" />
+    <HelpKINode Title="CustomDataChangedEventArgs.Key Property " Url="html/P_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs_Key.htm" />
     <HelpKINode Title="ISetting.Key Property " Url="html/P_Resto_Front_Api_Data_Settings_ISetting_Key.htm" />
   </HelpKINode>
   <HelpKINode Title="Kind property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_Kind.htm" />
@@ -7788,6 +7804,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Common.ChangedEntities&lt;T&gt; class" Url="html/T_Resto_Front_Api_Data_Common_ChangedEntities_1.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.ChangedEntity(Of T) structure" Url="html/T_Resto_Front_Api_Data_Common_ChangedEntity_1.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.ChangedEntity&lt;T&gt; structure" Url="html/T_Resto_Front_Api_Data_Common_ChangedEntity_1.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Common.CustomDataChangedEventArgs class" Url="html/T_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.EntityChangedEventArgs(Of T) structure" Url="html/T_Resto_Front_Api_Data_Common_EntityChangedEventArgs_1.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.EntityChangedEventArgs&lt;T&gt; structure" Url="html/T_Resto_Front_Api_Data_Common_EntityChangedEventArgs_1.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.EntityEventType enumeration" Url="html/T_Resto_Front_Api_Data_Common_EntityEventType.htm" />
@@ -9015,6 +9032,7 @@
   <HelpKINode Title="UzChequeSaleData.UzChequeSaleData constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_UzChequeSaleData__ctor.htm" />
   <HelpKINode Title="Value property">
     <HelpKINode Title="BaseSetting(T).Value Property " Url="html/P_Resto_Front_Api_Data_Settings_BaseSetting_1_Value.htm" />
+    <HelpKINode Title="CustomDataChangedEventArgs.Value Property " Url="html/P_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs_Value.htm" />
     <HelpKINode Title="DeviceBooleanSetting.Value Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceBooleanSetting_Value.htm" />
     <HelpKINode Title="DeviceNumberSetting.Value Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceNumberSetting_Value.htm" />
     <HelpKINode Title="DeviceStringSetting.Value Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceStringSetting_Value.htm" />
