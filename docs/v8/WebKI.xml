@@ -2293,8 +2293,8 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2891,6 +2891,7 @@
   <HelpKINode Title="GetCustomData(Of T) method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_GetCustomData__1.htm" />
   <HelpKINode Title="GetCustomData&lt;T&gt; method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_GetCustomData__1.htm" />
   <HelpKINode Title="GetDataStorageDirectoryPath method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetDataStorageDirectoryPath.htm" />
+  <HelpKINode Title="GetDefaultCredentials method" Url="html/M_Resto_Front_Api_IOperationService_GetDefaultCredentials.htm" />
   <HelpKINode Title="GetDeletedOrderTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetDeletedOrderTypes.htm" />
   <HelpKINode Title="GetDeliveryCancelCauseById method" Url="html/M_Resto_Front_Api_IOperationService_GetDeliveryCancelCauseById.htm" />
   <HelpKINode Title="GetDeliveryCancelCauses method" Url="html/M_Resto_Front_Api_IOperationService_GetDeliveryCancelCauses.htm" />
@@ -4372,6 +4373,7 @@
   <HelpKINode Title="IOperationService.GetCookingPlaceTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetCookingPlaceTypeById.htm" />
   <HelpKINode Title="IOperationService.GetCookingPlaceTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetCookingPlaceTypes.htm" />
   <HelpKINode Title="IOperationService.GetCurrentUser method" Url="html/M_Resto_Front_Api_IOperationService_GetCurrentUser.htm" />
+  <HelpKINode Title="IOperationService.GetDefaultCredentials method" Url="html/M_Resto_Front_Api_IOperationService_GetDefaultCredentials.htm" />
   <HelpKINode Title="IOperationService.GetDeletedOrderTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetDeletedOrderTypes.htm" />
   <HelpKINode Title="IOperationService.GetDeliveryCancelCauseById method" Url="html/M_Resto_Front_Api_IOperationService_GetDeliveryCancelCauseById.htm" />
   <HelpKINode Title="IOperationService.GetDeliveryCancelCauses method" Url="html/M_Resto_Front_Api_IOperationService_GetDeliveryCancelCauses.htm" />
