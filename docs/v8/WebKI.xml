@@ -2293,8 +2293,8 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2678,6 +2678,7 @@
   <HelpKINode Title="FillOnServicePrint enumeration member" Url="html/T_Resto_Front_Api_Data_Organization_OrderTypeFillRequirements.htm" />
   <HelpKINode Title="FindFaceId enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_IikoCard51SearchScope.htm" />
   <HelpKINode Title="First enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
+  <HelpKINode Title="FirstName property" Url="html/P_Resto_Front_Api_Data_Users_UserFullName_FirstName.htm" />
   <HelpKINode Title="FiscalChequeNumbers property">
     <HelpKINode Title="IOrder.FiscalChequeNumbers Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_FiscalChequeNumbers.htm" />
     <HelpKINode Title="PastOrder.FiscalChequeNumbers Property " Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_FiscalChequeNumbers.htm" />
@@ -3093,6 +3094,7 @@
   <HelpKINode Title="GetTransportSettings method" Url="html/M_Resto_Front_Api_IOperationService_GetTransportSettings.htm" />
   <HelpKINode Title="GetUser method" Url="html/M_Resto_Front_Api_IOperationService_GetUser.htm" />
   <HelpKINode Title="GetUserById method" Url="html/M_Resto_Front_Api_IOperationService_GetUserById.htm" />
+  <HelpKINode Title="GetUserFullNameById method" Url="html/M_Resto_Front_Api_IOperationService_GetUserFullNameById.htm" />
   <HelpKINode Title="GetUserRoles method">
     <HelpKINode Title="IOperationService.GetUserRoles Method " Url="html/M_Resto_Front_Api_IOperationService_GetUserRoles.htm" />
     <HelpKINode Title="OperationArgumentExtensions.GetUserRoles Method " Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetUserRoles.htm" />
@@ -4488,6 +4490,7 @@
   <HelpKINode Title="IOperationService.GetTransportSettings method" Url="html/M_Resto_Front_Api_IOperationService_GetTransportSettings.htm" />
   <HelpKINode Title="IOperationService.GetUser method" Url="html/M_Resto_Front_Api_IOperationService_GetUser.htm" />
   <HelpKINode Title="IOperationService.GetUserById method" Url="html/M_Resto_Front_Api_IOperationService_GetUserById.htm" />
+  <HelpKINode Title="IOperationService.GetUserFullNameById method" Url="html/M_Resto_Front_Api_IOperationService_GetUserFullNameById.htm" />
   <HelpKINode Title="IOperationService.GetUserRoles method" Url="html/M_Resto_Front_Api_IOperationService_GetUserRoles.htm" />
   <HelpKINode Title="IOperationService.GetUsers method" Url="html/M_Resto_Front_Api_IOperationService_GetUsers.htm" />
   <HelpKINode Title="IOperationService.GetWaiterTeamById method" Url="html/M_Resto_Front_Api_IOperationService_GetWaiterTeamById.htm" />
@@ -5848,6 +5851,7 @@
     <HelpKINode Title="IOrder.LastChangedTerminalId Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_LastChangedTerminalId.htm" />
     <HelpKINode Title="IReserve.LastChangedTerminalId Property " Url="html/P_Resto_Front_Api_Data_Brd_IReserve_LastChangedTerminalId.htm" />
   </HelpKINode>
+  <HelpKINode Title="LastName property" Url="html/P_Resto_Front_Api_Data_Users_UserFullName_LastName.htm" />
   <HelpKINode Title="LastOrderDate property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_LastOrderDate.htm" />
   <HelpKINode Title="LastVerifiedDeliveryRestrictionsHash property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_LastVerifiedDeliveryRestrictionsHash.htm" />
   <HelpKINode Title="Latitude property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_Latitude.htm" />
@@ -6002,6 +6006,7 @@
     <HelpKINode Title="PostResult.Message Property " Url="html/P_Resto_Front_Api_Data_Device_Results_PostResult_Message.htm" />
   </HelpKINode>
   <HelpKINode Title="Middle enumeration member" Url="html/T_Resto_Front_Api_Data_JournalEvents_Severity.htm" />
+  <HelpKINode Title="MiddleName property" Url="html/P_Resto_Front_Api_Data_Users_UserFullName_MiddleName.htm" />
   <HelpKINode Title="MinDecimalValue property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_MinDecimalValue.htm" />
   <HelpKINode Title="MinimumAmount property">
     <HelpKINode Title="IChildModifierBase.MinimumAmount Property " Url="html/P_Resto_Front_Api_Data_Assortment_IChildModifierBase_MinimumAmount.htm" />
@@ -8070,6 +8075,8 @@
   <HelpKINode Title="Resto.Front.Api.Data.Settings.TextBox class" Url="html/T_Resto_Front_Api_Data_Settings_TextBox.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Taxes namespace" Url="html/N_Resto_Front_Api_Data_Taxes.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Taxes.ITaxCategory interface" Url="html/T_Resto_Front_Api_Data_Taxes_ITaxCategory.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Users namespace" Url="html/N_Resto_Front_Api_Data_Users.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Users.UserFullName structure" Url="html/T_Resto_Front_Api_Data_Users_UserFullName.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View namespace" Url="html/N_Resto_Front_Api_Data_View.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.BarcodeInputDialogResult class" Url="html/T_Resto_Front_Api_Data_View_BarcodeInputDialogResult.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.CardInputDialogResult class" Url="html/T_Resto_Front_Api_Data_View_CardInputDialogResult.htm" />
@@ -9009,6 +9016,16 @@
   <HelpKINode Title="User property" Url="html/P_Resto_Front_Api_Data_Orders_WriteoffOptions_User.htm" />
   <HelpKINode Title="UserCashDrawerNotFound enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="UserChanged property" Url="html/P_Resto_Front_Api_INotificationService_UserChanged.htm" />
+  <HelpKINode Title="UserFullName structure">
+    <HelpKINode Title="UserFullName Structure" Url="html/T_Resto_Front_Api_Data_Users_UserFullName.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Users_UserFullName__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Users_UserFullName.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Users_UserFullName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserFullName.FirstName property" Url="html/P_Resto_Front_Api_Data_Users_UserFullName_FirstName.htm" />
+  <HelpKINode Title="UserFullName.LastName property" Url="html/P_Resto_Front_Api_Data_Users_UserFullName_LastName.htm" />
+  <HelpKINode Title="UserFullName.MiddleName property" Url="html/P_Resto_Front_Api_Data_Users_UserFullName_MiddleName.htm" />
+  <HelpKINode Title="UserFullName.UserFullName constructor" Url="html/M_Resto_Front_Api_Data_Users_UserFullName__ctor.htm" />
   <HelpKINode Title="UserNotFound enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="UserPersonalSessionNotOpened enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="UserPersonalSessionNotOpenedException class">
