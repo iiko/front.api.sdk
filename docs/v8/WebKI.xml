@@ -2287,14 +2287,14 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2968,6 +2968,7 @@
     <HelpKINode Title="PastOrderHrsTransaction.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Orders_PastOrderHrsTransaction_GetObjectData.htm" />
     <HelpKINode Title="PastOrderItem.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Orders_PastOrderItem_GetObjectData.htm" />
     <HelpKINode Title="PastOrderPayment.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Orders_PastOrderPayment_GetObjectData.htm" />
+    <HelpKINode Title="PaymentActionCancelledException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_PaymentActionCancelledException_GetObjectData.htm" />
     <HelpKINode Title="PaymentActionFailedException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_PaymentActionFailedException_GetObjectData.htm" />
     <HelpKINode Title="PaymentTypeConfigurationException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_PaymentTypeConfigurationException_GetObjectData.htm" />
     <HelpKINode Title="PermissionDeniedException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_PermissionDeniedException_GetObjectData.htm" />
@@ -6817,6 +6818,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Exceptions_PaymentActionCancelledException.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_PaymentActionCancelledException.htm" />
   </HelpKINode>
+  <HelpKINode Title="PaymentActionCancelledException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_PaymentActionCancelledException_GetObjectData.htm" />
   <HelpKINode Title="PaymentActionCancelledException.PaymentActionCancelledException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_PaymentActionCancelledException__ctor.htm" />
   <HelpKINode Title="PaymentActionFailedException class">
     <HelpKINode Title="PaymentActionFailedException Class" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedException.htm" />
