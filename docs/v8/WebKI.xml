@@ -2308,8 +2308,8 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2318,8 +2318,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -4551,6 +4551,7 @@
   <HelpKINode Title="IOperationService.RegisterScaleFactory method" Url="html/M_Resto_Front_Api_IOperationService_RegisterScaleFactory.htm" />
   <HelpKINode Title="IOperationService.RemoveOrderClient method" Url="html/M_Resto_Front_Api_IOperationService_RemoveOrderClient.htm" />
   <HelpKINode Title="IOperationService.RemoveProductFromStopList method" Url="html/M_Resto_Front_Api_IOperationService_RemoveProductFromStopList.htm" />
+  <HelpKINode Title="IOperationService.ResetOrderCounter method" Url="html/M_Resto_Front_Api_IOperationService_ResetOrderCounter.htm" />
   <HelpKINode Title="IOperationService.SearchClients method" Url="html/M_Resto_Front_Api_IOperationService_SearchClients.htm" />
   <HelpKINode Title="IOperationService.SearchDiscountCardByNumber method" Url="html/M_Resto_Front_Api_IOperationService_SearchDiscountCardByNumber.htm" />
   <HelpKINode Title="IOperationService.SearchStreets method" Url="html/M_Resto_Front_Api_IOperationService_SearchStreets.htm" />
@@ -7606,6 +7607,7 @@
     <HelpKINode Title="IEditSession.ResetOderLastChangeTimeByWaiter Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ResetOderLastChangeTimeByWaiter.htm" />
     <HelpKINode Title="OperationServiceExtensions.ResetOderLastChangeTimeByWaiter Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ResetOderLastChangeTimeByWaiter.htm" />
   </HelpKINode>
+  <HelpKINode Title="ResetOrderCounter method" Url="html/M_Resto_Front_Api_IOperationService_ResetOrderCounter.htm" />
   <HelpKINode Title="ResetPriceCategory method">
     <HelpKINode Title="IEditSession.ResetPriceCategory Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ResetPriceCategory.htm" />
     <HelpKINode Title="OperationServiceExtensions.ResetPriceCategory Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ResetPriceCategory.htm" />
