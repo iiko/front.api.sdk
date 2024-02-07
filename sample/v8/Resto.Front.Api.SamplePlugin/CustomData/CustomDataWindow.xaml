@@ -1,0 +1,60 @@
+﻿<Window x:Class="Resto.Front.Api.SamplePlugin.CustomData.CustomDataWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Resto.Front.Api.SamplePlugin.CustomData"
+        xmlns:wpfHelpers="clr-namespace:Resto.Front.Api.SamplePlugin.WpfHelpers"
+        mc:Ignorable="d"
+        Title="Custom data"
+        Height="600"
+        Width="800"
+        Closed="CustomDataWindow_OnClosed"
+        d:DataContext="{d:DesignInstance Type=local:CustomDataWindowViewModel, IsDesignTimeCreatable=False}">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*"/>
+      <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+    <Grid VerticalAlignment="Center">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+      <DockPanel>
+        <TextBlock Text="Key" DockPanel.Dock="Left"/>
+        <TextBox Text="{Binding Key, UpdateSourceTrigger=PropertyChanged}"/>
+      </DockPanel>
+      <DockPanel Grid.Row="1">
+        <TextBlock Text="Value" DockPanel.Dock="Left"/>
+        <TextBox Text="{Binding ValueToAddOrUpdate, UpdateSourceTrigger=PropertyChanged}" 
+                 AcceptsReturn="True" HorizontalScrollBarVisibility="Visible"/>
+      </DockPanel>
+      <Button Grid.Row="2" Content="Add or update" Command="{Binding AddOrUpdateCustomDataCommand}"/>
+      <Button Grid.Row="3" Content="Try remove" Command="{Binding TryRemoveCustomDataCommand}"/>
+      <Button Grid.Row="4" Content="Try get" Command="{Binding TryGetCustomDataCommand}"/>
+      <TextBox Grid.Row="5" IsReadOnly="True" Text="{Binding ValueToGetOrRemoved, UpdateSourceTrigger=PropertyChanged}"
+               HorizontalScrollBarVisibility="Visible"/>
+    </Grid>
+    <Grid Grid.Column="1" VerticalAlignment="Center">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+      <Button Content="Clear" Command="{Binding ClearCustomDataCommand}"/>
+      <Button Grid.Row="1" Content="Get all" Command="{Binding GetAllCustomDataCommand}"/>
+      <TextBox Grid.Row="2" IsReadOnly="True" Text="{Binding GetAllCustomDataResult, UpdateSourceTrigger=PropertyChanged}"
+               HorizontalScrollBarVisibility="Visible"/>
+      <Button Grid.Row="3"  Content="{Binding SubscribedText}" Command="{Binding SubscribeCommand}"/>
+      <TextBox Grid.Row="4" IsReadOnly="True" Text="{Binding SubscriptionFlowText}"
+               HorizontalScrollBarVisibility="Visible"/>
+    </Grid>
+  </Grid>
+</Window>

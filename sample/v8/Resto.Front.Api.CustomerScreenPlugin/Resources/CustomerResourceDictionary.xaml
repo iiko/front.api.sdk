@@ -1,0 +1,39 @@
+﻿<ResourceDictionary
+  	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2006"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:system="clr-namespace:System;assembly=mscorlib"
+    xmlns:converters="clr-namespace:Resto.Front.Api.CustomerScreen.Converters"
+    xmlns:collections="clr-namespace:System.Collections;assembly=mscorlib" mc:Ignorable="d">
+    <!-- Resource dictionary entries should be defined here. -->
+
+    <!-- Default Text Styles -->
+    <system:Double x:Key="customerFontSize">36</system:Double>
+    <system:Double x:Key="customerOrderFontSize">16</system:Double>
+
+    <system:Double x:Key="customerOrderHeaderFontSize">12</system:Double>
+    <FontFamily x:Key="customerFontFamily">Segoe UI</FontFamily>
+    <FontWeight x:Key="customerFontWeight">UltraBold</FontWeight>
+
+
+    <!-- Default General Colors -->
+    <SolidColorBrush x:Key="customerFontColor" Color="DarkRed"/>
+    <SolidColorBrush x:Key="customerFontColorMenu" Color="IndianRed"/>
+    <SolidColorBrush x:Key="customerZoneLeftTopBackColor" Color="MistyRose"/>
+    <SolidColorBrush x:Key="customerZoneRightTopBackColor" Color="MistyRose"/>
+    <SolidColorBrush x:Key="customerZoneBottomBackColor" Color="MistyRose"/>
+
+
+    <Style TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource customerFontColor}"/>
+        <Setter Property="FontSize" Value="{StaticResource customerFontSize}"/>
+        <Setter Property="FontFamily" Value="{StaticResource customerFontFamily}"/>
+        <Setter Property="FontWeight" Value="{StaticResource customerFontWeight}"/>
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+
+    <converters:NotDecimalZeroToVisibilityConverter x:Key="NotDecimalZeroToVisibilityConverter" />
+    <converters:DecimalToMoneyConverter x:Key="DecimalToMoneyConverter" />
+    <converters:DecimalHundredToPercentConverter x:Key="DecimalHundredToPercentConverter" />
+</ResourceDictionary>
