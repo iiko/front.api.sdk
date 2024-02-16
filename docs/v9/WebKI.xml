@@ -2336,8 +2336,8 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2346,8 +2346,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2605,6 +2605,16 @@
   <HelpKINode Title="ExternalCourierServiceDataDto.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto_GetObjectData.htm" />
   <HelpKINode Title="ExternalCourierServiceDataDto.ServiceId property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto_ServiceId.htm" />
   <HelpKINode Title="ExternalCourierServiceDataDto.ServiceName property" Url="html/P_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto_ServiceName.htm" />
+  <HelpKINode Title="ExternalData property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_ExternalData.htm" />
+  <HelpKINode Title="ExternalDataItem class">
+    <HelpKINode Title="ExternalDataItem Class" Url="html/T_Resto_Front_Api_Data_Common_ExternalDataItem.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Common_ExternalDataItem__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Common_ExternalDataItem.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Common_ExternalDataItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExternalDataItem.ExternalDataItem constructor" Url="html/M_Resto_Front_Api_Data_Common_ExternalDataItem__ctor.htm" />
+  <HelpKINode Title="ExternalDataItem.IsPublic property" Url="html/P_Resto_Front_Api_Data_Common_ExternalDataItem_IsPublic.htm" />
+  <HelpKINode Title="ExternalDataItem.Value property" Url="html/P_Resto_Front_Api_Data_Common_ExternalDataItem_Value.htm" />
   <HelpKINode Title="ExternalGoods enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
   <HelpKINode Title="ExternalId enumeration member" Url="html/T_Resto_Front_Api_Data_Search_StreetFields.htm" />
   <HelpKINode Title="ExternalId property">
@@ -3981,6 +3991,7 @@
   </HelpKINode>
   <HelpKINode Title="IKitchenOrder.BaseOrderId property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_BaseOrderId.htm" />
   <HelpKINode Title="IKitchenOrder.CookingPriority property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_CookingPriority.htm" />
+  <HelpKINode Title="IKitchenOrder.ExternalData property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_ExternalData.htm" />
   <HelpKINode Title="IKitchenOrder.ExternalNumber property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_ExternalNumber.htm" />
   <HelpKINode Title="IKitchenOrder.GroupKitchenOrderId property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_GroupKitchenOrderId.htm" />
   <HelpKINode Title="IKitchenOrder.IsExternal property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_IsExternal.htm" />
@@ -5530,6 +5541,7 @@
   <HelpKINode Title="IsProcessedAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsProcessedAsDiscount.htm" />
   <HelpKINode Title="IsProcessedExternally property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsProcessedExternally.htm" />
   <HelpKINode Title="IsProductRefund property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_IsProductRefund.htm" />
+  <HelpKINode Title="IsPublic property" Url="html/P_Resto_Front_Api_Data_Common_ExternalDataItem_IsPublic.htm" />
   <HelpKINode Title="IsReadonly property" Url="html/P_Resto_Front_Api_Data_Settings_BaseSetting_1_IsReadonly.htm" />
   <HelpKINode Title="IsRefund property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IsRefund.htm" />
   <HelpKINode Title="IsRegisterStatusSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsRegisterStatusSupported.htm" />
@@ -7900,6 +7912,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Common.EntityChangedEventArgs(Of T) structure" Url="html/T_Resto_Front_Api_Data_Common_EntityChangedEventArgs_1.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.EntityChangedEventArgs&lt;T&gt; structure" Url="html/T_Resto_Front_Api_Data_Common_EntityChangedEventArgs_1.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.EntityEventType enumeration" Url="html/T_Resto_Front_Api_Data_Common_EntityEventType.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Common.ExternalDataItem class" Url="html/T_Resto_Front_Api_Data_Common_ExternalDataItem.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.ExternalOperationChangedEventArgs class" Url="html/T_Resto_Front_Api_Data_Common_ExternalOperationChangedEventArgs.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.IEntity interface" Url="html/T_Resto_Front_Api_Data_Common_IEntity.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.IVersionedEntity interface" Url="html/T_Resto_Front_Api_Data_Common_IVersionedEntity.htm" />
@@ -9159,6 +9172,7 @@
     <HelpKINode Title="DeviceBooleanSetting.Value Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceBooleanSetting_Value.htm" />
     <HelpKINode Title="DeviceNumberSetting.Value Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceNumberSetting_Value.htm" />
     <HelpKINode Title="DeviceStringSetting.Value Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceStringSetting_Value.htm" />
+    <HelpKINode Title="ExternalDataItem.Value Property " Url="html/P_Resto_Front_Api_Data_Common_ExternalDataItem_Value.htm" />
     <HelpKINode Title="IEmail.Value Property " Url="html/P_Resto_Front_Api_Data_Brd_IEmail_Value.htm" />
     <HelpKINode Title="IPhone.Value Property " Url="html/P_Resto_Front_Api_Data_Brd_IPhone_Value.htm" />
     <HelpKINode Title="IProductTag.Value Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductTag_Value.htm" />
