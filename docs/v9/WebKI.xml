@@ -163,6 +163,17 @@
   <HelpKINode Title="AfterPayOut method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterPayOut.htm" />
   <HelpKINode Title="AfterXReport method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterXReport.htm" />
   <HelpKINode Title="AfterZReport method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterZReport.htm" />
+  <HelpKINode Title="AgentOperationFailedException class">
+    <HelpKINode Title="AgentOperationFailedException Class" Url="html/T_Resto_Front_Api_Exceptions_AgentOperationFailedException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Exceptions_AgentOperationFailedException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Resto_Front_Api_Exceptions_AgentOperationFailedException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Exceptions_AgentOperationFailedException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_AgentOperationFailedException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AgentOperationFailedException.AgentOperationFailedException constructor" Url="html/M_Resto_Front_Api_Exceptions_AgentOperationFailedException__ctor.htm" />
+  <HelpKINode Title="AgentOperationFailedException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_AgentOperationFailedException_GetObjectData.htm" />
+  <HelpKINode Title="AgentOperationFailedException.HrCode property" Url="html/P_Resto_Front_Api_Exceptions_AgentOperationFailedException_HrCode.htm" />
+  <HelpKINode Title="AgentOperationFailedException.NCode property" Url="html/P_Resto_Front_Api_Exceptions_AgentOperationFailedException_NCode.htm" />
   <HelpKINode Title="Align field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_Align.htm" />
   <HelpKINode Title="All enumeration member">
     <HelpKINode Title="CanDeleteOrdersOutOfCafeSession Enumeration" Url="html/T_Resto_Front_Api_Data_Organization_CanDeleteOrdersOutOfCafeSession.htm" />
@@ -2332,8 +2343,8 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2346,8 +2357,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -3006,6 +3017,7 @@
   <HelpKINode Title="GetObjectData method">
     <HelpKINode Title="AddressDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_AddressDto_GetObjectData.htm" />
     <HelpKINode Title="AddressShowTypeSettings.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Settings_AddressShowTypeSettings_GetObjectData.htm" />
+    <HelpKINode Title="AgentOperationFailedException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_AgentOperationFailedException_GetObjectData.htm" />
     <HelpKINode Title="BillCheque.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Cheques_BillCheque_GetObjectData.htm" />
     <HelpKINode Title="CannotAddInactiveProductException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_CannotAddInactiveProductException_GetObjectData.htm" />
     <HelpKINode Title="CashCheque.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Cheques_CashCheque_GetObjectData.htm" />
@@ -3224,6 +3236,7 @@
     <HelpKINode Title="IAddress.House Property " Url="html/P_Resto_Front_Api_Data_Brd_IAddress_House.htm" />
     <HelpKINode Title="LegalAddress.House Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_LegalAddress_House.htm" />
   </HelpKINode>
+  <HelpKINode Title="HrCode property" Url="html/P_Resto_Front_Api_Exceptions_AgentOperationFailedException_HrCode.htm" />
   <HelpKINode Title="HtmlAttributeValueAttribute class">
     <HelpKINode Title="HtmlAttributeValueAttribute Class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_HtmlAttributeValueAttribute.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_HtmlAttributeValueAttribute__ctor.htm" />
@@ -4641,6 +4654,7 @@
   <HelpKINode Title="IOperationService.TryGetDishPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDishPrinter.htm" />
   <HelpKINode Title="IOperationService.TryGetDocumentPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDocumentPrinter.htm" />
   <HelpKINode Title="IOperationService.TryGetIncludedInMenuSectionsByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetIncludedInMenuSectionsByProduct.htm" />
+  <HelpKINode Title="IOperationService.TryGetKitchenOrderByBaseOrder method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderByBaseOrder.htm" />
   <HelpKINode Title="IOperationService.TryGetKitchenOrderById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderById.htm" />
   <HelpKINode Title="IOperationService.TryGetKitchenOrderExternalDataByKey method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderExternalDataByKey.htm" />
   <HelpKINode Title="IOperationService.TryGetKitchenOrderItemExternalDataByKey method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderItemExternalDataByKey.htm" />
@@ -6206,6 +6220,7 @@
   <HelpKINode Title="Narrower enumeration member" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
   <HelpKINode Title="NavigateToOrderAfterOperation method" Url="html/M_Resto_Front_Api_UI_IViewManager_NavigateToOrderAfterOperation.htm" />
   <HelpKINode Title="NavigatingToPaymentScreen property" Url="html/P_Resto_Front_Api_INotificationService_NavigatingToPaymentScreen.htm" />
+  <HelpKINode Title="NCode property" Url="html/P_Resto_Front_Api_Exceptions_AgentOperationFailedException_NCode.htm" />
   <HelpKINode Title="NearPaperEnd property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_NearPaperEnd.htm" />
   <HelpKINode Title="NeedReceipt property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_NeedReceipt.htm" />
   <HelpKINode Title="NeedToCheckBillNumber property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_NeedToCheckBillNumber.htm" />
@@ -8261,6 +8276,7 @@
   <HelpKINode Title="Resto.Front.Api.Editors.Stubs.NewReserveStub class" Url="html/T_Resto_Front_Api_Editors_Stubs_NewReserveStub.htm" />
   <HelpKINode Title="Resto.Front.Api.Editors.Stubs.NewStreetStub class" Url="html/T_Resto_Front_Api_Editors_Stubs_NewStreetStub.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions namespace" Url="html/N_Resto_Front_Api_Exceptions.htm" />
+  <HelpKINode Title="Resto.Front.Api.Exceptions.AgentOperationFailedException class" Url="html/T_Resto_Front_Api_Exceptions_AgentOperationFailedException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.AuthenticationException class" Url="html/T_Resto_Front_Api_Exceptions_AuthenticationException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.CafeSessionException class" Url="html/T_Resto_Front_Api_Exceptions_CafeSessionException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.CannotAddInactiveProductException class" Url="html/T_Resto_Front_Api_Exceptions_CannotAddInactiveProductException.htm" />
@@ -8967,6 +8983,7 @@
   <HelpKINode Title="TryGetDocumentPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetDocumentPrinter.htm" />
   <HelpKINode Title="TryGetIncludedInMenuSections method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetIncludedInMenuSections.htm" />
   <HelpKINode Title="TryGetIncludedInMenuSectionsByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetIncludedInMenuSectionsByProduct.htm" />
+  <HelpKINode Title="TryGetKitchenOrderByBaseOrder method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderByBaseOrder.htm" />
   <HelpKINode Title="TryGetKitchenOrderById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderById.htm" />
   <HelpKINode Title="TryGetKitchenOrderExternalDataByKey method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderExternalDataByKey.htm" />
   <HelpKINode Title="TryGetKitchenOrderItemExternalDataByKey method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderItemExternalDataByKey.htm" />
