@@ -1716,6 +1716,8 @@
     <HelpKINode Title="ExternalCompanyInfo.CompanyName Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_CompanyName.htm" />
     <HelpKINode Title="IRestaurant.CompanyName Property " Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_CompanyName.htm" />
   </HelpKINode>
+  <HelpKINode Title="ComplexAddOrUpdateKitchenOrderAndItemsExternalData method" Url="html/M_Resto_Front_Api_IOperationService_ComplexAddOrUpdateKitchenOrderAndItemsExternalData.htm" />
+  <HelpKINode Title="ComplexDeleteKitchenOrderAndItemsExternalData method" Url="html/M_Resto_Front_Api_IOperationService_ComplexDeleteKitchenOrderAndItemsExternalData.htm" />
   <HelpKINode Title="CompoundItemComponents property" Url="html/P_Resto_Front_Api_Data_Orders_ISelectiveDiscountItemSettings_CompoundItemComponents.htm" />
   <HelpKINode Title="CompoundItemTemplate property" Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderCompoundItemDto_CompoundItemTemplate.htm" />
   <HelpKINode Title="CompoundItemTemplateChanged property" Url="html/P_Resto_Front_Api_INotificationService_CompoundItemTemplateChanged.htm" />
@@ -2348,8 +2350,8 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2358,8 +2360,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -4419,6 +4421,8 @@
   <HelpKINode Title="IOperationService.ClearStopList method" Url="html/M_Resto_Front_Api_IOperationService_ClearStopList.htm" />
   <HelpKINode Title="IOperationService.CloseCafeSession method" Url="html/M_Resto_Front_Api_IOperationService_CloseCafeSession.htm" />
   <HelpKINode Title="IOperationService.ClosePersonalSession method" Url="html/M_Resto_Front_Api_IOperationService_ClosePersonalSession.htm" />
+  <HelpKINode Title="IOperationService.ComplexAddOrUpdateKitchenOrderAndItemsExternalData method" Url="html/M_Resto_Front_Api_IOperationService_ComplexAddOrUpdateKitchenOrderAndItemsExternalData.htm" />
+  <HelpKINode Title="IOperationService.ComplexDeleteKitchenOrderAndItemsExternalData method" Url="html/M_Resto_Front_Api_IOperationService_ComplexDeleteKitchenOrderAndItemsExternalData.htm" />
   <HelpKINode Title="IOperationService.CreateDiscountCard method" Url="html/M_Resto_Front_Api_IOperationService_CreateDiscountCard.htm" />
   <HelpKINode Title="IOperationService.CreateEditSession method" Url="html/M_Resto_Front_Api_IOperationService_CreateEditSession.htm" />
   <HelpKINode Title="IOperationService.CreateKitchenOrder method" Url="html/M_Resto_Front_Api_IOperationService_CreateKitchenOrder.htm" />
