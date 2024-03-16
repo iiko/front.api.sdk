@@ -849,6 +849,7 @@
   </HelpKINode>
   <HelpKINode Title="CardPaymentItemAdditionalData.CardNumber property" Url="html/P_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData_CardNumber.htm" />
   <HelpKINode Title="CardPaymentItemAdditionalData.CardPaymentItemAdditionalData constructor" Url="html/M_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData__ctor.htm" />
+  <HelpKINode Title="CardPaymentItemAdditionalData.CustomData property" Url="html/P_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData_CustomData.htm" />
   <HelpKINode Title="CardPaymentItemAdditionalData.Equals method" Url="html/Overload_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData_Equals.htm" />
   <HelpKINode Title="CardPaymentItemAdditionalData.GetHashCode method" Url="html/M_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData_GetHashCode.htm" />
   <HelpKINode Title="CardPayments property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CardPayments.htm" />
@@ -1932,7 +1933,10 @@
   <HelpKINode Title="CurrentCultureChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentCultureChanged.htm" />
   <HelpKINode Title="CurrentUserChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentUserChanged.htm" />
   <HelpKINode Title="CustomApiData property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_CustomApiData.htm" />
-  <HelpKINode Title="CustomData property" Url="html/P_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData_CustomData.htm" />
+  <HelpKINode Title="CustomData property">
+    <HelpKINode Title="CardPaymentItemAdditionalData.CustomData Property " Url="html/P_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData_CustomData.htm" />
+    <HelpKINode Title="ExternalPaymentItemAdditionalData.CustomData Property " Url="html/P_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData_CustomData.htm" />
+  </HelpKINode>
   <HelpKINode Title="CustomDataChanged property" Url="html/P_Resto_Front_Api_INotificationService_CustomDataChanged.htm" />
   <HelpKINode Title="CustomDataChangedEventArgs class">
     <HelpKINode Title="CustomDataChangedEventArgs Class" Url="html/T_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs.htm" />
@@ -2344,8 +2348,8 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
