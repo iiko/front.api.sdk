@@ -26,6 +26,6 @@ Links:
 - [Code reference API V8](https://iiko.github.io/front.api.sdk/v8/) (current).
 - [Code reference API V9](https://iiko.github.io/front.api.sdk/v9/) (preview).
 - [Help topics](https://iiko.github.io/front.api.doc/) (available only in russian at the moment).
-- [Official site of iiko APIs](http://help.iiko.ru/articles/api-documentations/getting-started).
+- [Official site of iiko APIs](https://ru.iiko.help/articles/#!api-documentations/getting-started).
 - [Sample](https://github.com/iiko/front.api.sdk/tree/master/sample).
 
