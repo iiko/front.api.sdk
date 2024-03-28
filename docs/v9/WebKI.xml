@@ -781,13 +781,14 @@
   </HelpKINode>
   <HelpKINode Title="CannotUseInactiveEntityException.CannotUseInactiveEntityException constructor" Url="html/M_Resto_Front_Api_Exceptions_CannotUseInactiveEntityException__ctor.htm" />
   <HelpKINode Title="CanPaySilently method" Url="html/M_Resto_Front_Api_IPaymentProcessor_CanPaySilently.htm" />
-  <HelpKINode Title="CanPrintBarcode property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_CanPrintBarcode.htm" />
-  <HelpKINode Title="CanPrintLogo property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_CanPrintLogo.htm" />
-  <HelpKINode Title="CanPrintQRCode property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_CanPrintQRCode.htm" />
+  <HelpKINode Title="CanPrintBarcode property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_CanPrintBarcode.htm" />
+  <HelpKINode Title="CanPrintImage property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_CanPrintImage.htm" />
+  <HelpKINode Title="CanPrintLogo property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_CanPrintLogo.htm" />
+  <HelpKINode Title="CanPrintQRCode property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_CanPrintQRCode.htm" />
   <HelpKINode Title="CanPrintText property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_CanPrintText.htm" />
   <HelpKINode Title="CanProductBePaidWithPaymentType method" Url="html/M_Resto_Front_Api_IOperationService_CanProductBePaidWithPaymentType.htm" />
   <HelpKINode Title="CanSetOpenPrice property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_CanSetOpenPrice.htm" />
-  <HelpKINode Title="CanUseFontSizes property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_CanUseFontSizes.htm" />
+  <HelpKINode Title="CanUseFontSizes property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_CanUseFontSizes.htm" />
   <HelpKINode Title="CapQueryElectronicJournalByLastSession property" Url="html/P_Resto_Front_Api_Data_Device_Results_QueryInfoResult_CapQueryElectronicJournalByLastSession.htm" />
   <HelpKINode Title="Card enumeration member">
     <HelpKINode Title="FiscalPaymentTypeGroup Enumeration" Url="html/T_Resto_Front_Api_Data_Payments_FiscalPaymentTypeGroup.htm" />
@@ -892,21 +893,14 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters.htm" />
   </HelpKINode>
-  <HelpKINode Title="CashRegisterDriverParameters.CanPrintBarcode property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_CanPrintBarcode.htm" />
-  <HelpKINode Title="CashRegisterDriverParameters.CanPrintLogo property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_CanPrintLogo.htm" />
-  <HelpKINode Title="CashRegisterDriverParameters.CanPrintQRCode property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_CanPrintQRCode.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.CanPrintText property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_CanPrintText.htm" />
-  <HelpKINode Title="CashRegisterDriverParameters.CanUseFontSizes property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_CanUseFontSizes.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.CashRegisterDriverParameters constructor" Url="html/M_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters__ctor.htm" />
-  <HelpKINode Title="CashRegisterDriverParameters.Font0Width property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_Font0Width.htm" />
-  <HelpKINode Title="CashRegisterDriverParameters.Font1Width property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_Font1Width.htm" />
-  <HelpKINode Title="CashRegisterDriverParameters.Font2Width property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_Font2Width.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.IsBillTaskSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsBillTaskSupported.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.IsCancellationSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsCancellationSupported.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.IsCustomDuplicateCheckSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsCustomDuplicateCheckSupported.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.IsRegisterStatusSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsRegisterStatusSupported.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.NeedToCheckBillNumber property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_NeedToCheckBillNumber.htm" />
-  <HelpKINode Title="CashRegisterDriverParameters.PrintDatailedChequeWithPrepay property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_PrintDatailedChequeWithPrepay.htm" />
+  <HelpKINode Title="CashRegisterDriverParameters.PrintDetailedChequeWithPrepay property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_PrintDetailedChequeWithPrepay.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.PrintNonFiscalPrepayCheque property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_PrintNonFiscalPrepayCheque.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.SupportsPayInAfterSessionClose property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_SupportsPayInAfterSessionClose.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.ZeroCashOnClose property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_ZeroCashOnClose.htm" />
@@ -2344,8 +2338,8 @@
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2391,6 +2385,7 @@
     <HelpKINode Title="ICashRegister.DoZReport Method " Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoZReport.htm" />
     <HelpKINode Title="IOperationService.DoZReport Method " Url="html/M_Resto_Front_Api_IOperationService_DoZReport.htm" />
   </HelpKINode>
+  <HelpKINode Title="Dpi property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_Dpi.htm" />
   <HelpKINode Title="Duration property">
     <HelpKINode Title="IDeliveryOrder.Duration Property " Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_Duration.htm" />
     <HelpKINode Title="IReserve.Duration Property " Url="html/P_Resto_Front_Api_Data_Brd_IReserve_Duration.htm" />
@@ -2804,11 +2799,11 @@
   <HelpKINode Title="Font.FontStyle property" Url="html/P_Resto_Front_Api_Data_View_Font_FontStyle.htm" />
   <HelpKINode Title="Font.Size property" Url="html/P_Resto_Front_Api_Data_View_Font_Size.htm" />
   <HelpKINode Title="Font0Width property">
-    <HelpKINode Title="CashRegisterDriverParameters.Font0Width Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_Font0Width.htm" />
     <HelpKINode Title="CashRegisterSettings.Font0Width Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterSettings_Font0Width.htm" />
+    <HelpKINode Title="PrinterDriverParameters.Font0Width Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_Font0Width.htm" />
   </HelpKINode>
-  <HelpKINode Title="Font1Width property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_Font1Width.htm" />
-  <HelpKINode Title="Font2Width property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_Font2Width.htm" />
+  <HelpKINode Title="Font1Width property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_Font1Width.htm" />
+  <HelpKINode Title="Font2Width property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_Font2Width.htm" />
   <HelpKINode Title="FontColor property">
     <HelpKINode Title="IProduct.FontColor Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_FontColor.htm" />
     <HelpKINode Title="IProductGroup.FontColor Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_FontColor.htm" />
@@ -3080,6 +3075,7 @@
   <HelpKINode Title="GetPrice method" Url="html/M_Resto_Front_Api_IOperationService_GetPrice.htm" />
   <HelpKINode Title="GetPriceCategories method" Url="html/M_Resto_Front_Api_IOperationService_GetPriceCategories.htm" />
   <HelpKINode Title="GetPriceCategoryById method" Url="html/M_Resto_Front_Api_IOperationService_GetPriceCategoryById.htm" />
+  <HelpKINode Title="GetPrinterDriverParameters method" Url="html/M_Resto_Front_Api_IOperationService_GetPrinterDriverParameters.htm" />
   <HelpKINode Title="GetPrintingDeviceInfoById method" Url="html/M_Resto_Front_Api_IOperationService_GetPrintingDeviceInfoById.htm" />
   <HelpKINode Title="GetPrintingDeviceInfos method" Url="html/M_Resto_Front_Api_IOperationService_GetPrintingDeviceInfos.htm" />
   <HelpKINode Title="GetProductByBarcode method" Url="html/M_Resto_Front_Api_IOperationService_GetProductByBarcode.htm" />
@@ -3220,6 +3216,7 @@
     <HelpKINode Title="ISectionSchema.Height Property " Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_Height.htm" />
     <HelpKINode Title="RestaurantSectionObject.Height Property " Url="html/P_Resto_Front_Api_Data_View_RestaurantSectionObject_Height.htm" />
   </HelpKINode>
+  <HelpKINode Title="HeightInDots property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_HeightInDots.htm" />
   <HelpKINode Title="HideIfDefaultAmount property" Url="html/P_Resto_Front_Api_Data_Assortment_IChildModifierBase_HideIfDefaultAmount.htm" />
   <HelpKINode Title="HierarchicalMenu class">
     <HelpKINode Title="HierarchicalMenu Class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_HierarchicalMenu.htm" />
@@ -4526,6 +4523,7 @@
   <HelpKINode Title="IOperationService.GetPrice method" Url="html/M_Resto_Front_Api_IOperationService_GetPrice.htm" />
   <HelpKINode Title="IOperationService.GetPriceCategories method" Url="html/M_Resto_Front_Api_IOperationService_GetPriceCategories.htm" />
   <HelpKINode Title="IOperationService.GetPriceCategoryById method" Url="html/M_Resto_Front_Api_IOperationService_GetPriceCategoryById.htm" />
+  <HelpKINode Title="IOperationService.GetPrinterDriverParameters method" Url="html/M_Resto_Front_Api_IOperationService_GetPrinterDriverParameters.htm" />
   <HelpKINode Title="IOperationService.GetPrintingDeviceInfoById method" Url="html/M_Resto_Front_Api_IOperationService_GetPrintingDeviceInfoById.htm" />
   <HelpKINode Title="IOperationService.GetPrintingDeviceInfos method" Url="html/M_Resto_Front_Api_IOperationService_GetPrintingDeviceInfos.htm" />
   <HelpKINode Title="IOperationService.GetProductByBarcode method" Url="html/M_Resto_Front_Api_IOperationService_GetProductByBarcode.htm" />
@@ -7260,10 +7258,28 @@
   <HelpKINode Title="PrintCashRegisterTape property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ZReportTask_PrintCashRegisterTape.htm" />
   <HelpKINode Title="PrintChange property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_PrintChange.htm" />
   <HelpKINode Title="PrintCheque property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_PrintCheque.htm" />
-  <HelpKINode Title="PrintDatailedChequeWithPrepay property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_PrintDatailedChequeWithPrepay.htm" />
   <HelpKINode Title="PrintDeliveryBill method" Url="html/M_Resto_Front_Api_IOperationService_PrintDeliveryBill.htm" />
+  <HelpKINode Title="PrintDetailedChequeWithPrepay property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_PrintDetailedChequeWithPrepay.htm" />
   <HelpKINode Title="PrintedNotCooking enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemStatus.htm" />
   <HelpKINode Title="PrinterDevice enumeration member" Url="html/T_Resto_Front_Api_Data_Device_DeviceType.htm" />
+  <HelpKINode Title="PrinterDriverParameters class">
+    <HelpKINode Title="PrinterDriverParameters Class" Url="html/T_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PrinterDriverParameters.CanPrintBarcode property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_CanPrintBarcode.htm" />
+  <HelpKINode Title="PrinterDriverParameters.CanPrintImage property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_CanPrintImage.htm" />
+  <HelpKINode Title="PrinterDriverParameters.CanPrintLogo property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_CanPrintLogo.htm" />
+  <HelpKINode Title="PrinterDriverParameters.CanPrintQRCode property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_CanPrintQRCode.htm" />
+  <HelpKINode Title="PrinterDriverParameters.CanUseFontSizes property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_CanUseFontSizes.htm" />
+  <HelpKINode Title="PrinterDriverParameters.Dpi property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_Dpi.htm" />
+  <HelpKINode Title="PrinterDriverParameters.Font0Width property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_Font0Width.htm" />
+  <HelpKINode Title="PrinterDriverParameters.Font1Width property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_Font1Width.htm" />
+  <HelpKINode Title="PrinterDriverParameters.Font2Width property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_Font2Width.htm" />
+  <HelpKINode Title="PrinterDriverParameters.HeightInDots property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_HeightInDots.htm" />
+  <HelpKINode Title="PrinterDriverParameters.PrinterDriverParameters constructor" Url="html/M_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters__ctor.htm" />
+  <HelpKINode Title="PrinterDriverParameters.WidthInDots property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_WidthInDots.htm" />
   <HelpKINode Title="PrinterSelectionMode enumeration" Url="html/T_Resto_Front_Api_Data_Print_PrinterSelectionMode.htm" />
   <HelpKINode Title="PrintNds property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_PrintNds.htm" />
   <HelpKINode Title="PrintNonFiscalPrepayCheque property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_PrintNonFiscalPrepayCheque.htm" />
@@ -7998,6 +8014,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Device.Settings.DeviceStringSetting class" Url="html/T_Resto_Front_Api_Data_Device_Settings_DeviceStringSetting.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Settings.FiscalRegisterPaymentType class" Url="html/T_Resto_Front_Api_Data_Device_Settings_FiscalRegisterPaymentType.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Settings.InternalCustomerDisplaySettings class" Url="html/T_Resto_Front_Api_Data_Device_Settings_InternalCustomerDisplaySettings.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Device.Settings.PrinterDriverParameters class" Url="html/T_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.State enumeration" Url="html/T_Resto_Front_Api_Data_Device_State.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks namespace" Url="html/N_Resto_Front_Api_Data_Device_Tasks.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.BillTask class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_BillTask.htm" />
@@ -9335,6 +9352,7 @@
     <HelpKINode Title="ISectionSchema.Width Property " Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_Width.htm" />
     <HelpKINode Title="RestaurantSectionObject.Width Property " Url="html/P_Resto_Front_Api_Data_View_RestaurantSectionObject_Width.htm" />
   </HelpKINode>
+  <HelpKINode Title="WidthInDots property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_WidthInDots.htm" />
   <HelpKINode Title="WithMembers enumeration member" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ImplicitUseTargetFlags.htm" />
   <HelpKINode Title="WithoutWriteoff enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_WriteoffOptions_Type.htm" />
   <HelpKINode Title="WithoutWriteoff method" Url="html/M_Resto_Front_Api_Data_Orders_WriteoffOptions_WithoutWriteoff.htm" />
