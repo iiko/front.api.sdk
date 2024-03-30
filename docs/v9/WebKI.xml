@@ -2336,8 +2336,8 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2895,6 +2895,7 @@
   <HelpKINode Title="GetAllCustomData method" Url="html/M_Resto_Front_Api_IOperationService_GetAllCustomData.htm" />
   <HelpKINode Title="GetAllergenGroupsByOrderRootItem method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByOrderRootItem.htm" />
   <HelpKINode Title="GetAllergenGroupsByProductIds method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByProductIds.htm" />
+  <HelpKINode Title="GetAllExternalNotificationsNames method" Url="html/M_Resto_Front_Api_IOperationService_GetAllExternalNotificationsNames.htm" />
   <HelpKINode Title="GetAllProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetAllProducts.htm" />
   <HelpKINode Title="GetAllStreets method" Url="html/M_Resto_Front_Api_IOperationService_GetAllStreets.htm" />
   <HelpKINode Title="GetApplicationVersion method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetApplicationVersion.htm" />
@@ -2971,6 +2972,7 @@
   <HelpKINode Title="GetDocumentById method" Url="html/M_Resto_Front_Api_IOperationService_GetDocumentById.htm" />
   <HelpKINode Title="GetDocuments method" Url="html/M_Resto_Front_Api_IOperationService_GetDocuments.htm" />
   <HelpKINode Title="GetDonationTypesCompatibleWith method" Url="html/M_Resto_Front_Api_IOperationService_GetDonationTypesCompatibleWith.htm" />
+  <HelpKINode Title="GetExternalNotificationSubscription method" Url="html/M_Resto_Front_Api_IOperationService_GetExternalNotificationSubscription.htm" />
   <HelpKINode Title="GetExternalOperations method" Url="html/M_Resto_Front_Api_IOperationService_GetExternalOperations.htm" />
   <HelpKINode Title="GetFrontDeliverySettings method" Url="html/M_Resto_Front_Api_IOperationService_GetFrontDeliverySettings.htm" />
   <HelpKINode Title="GetGroupModifiers method">
@@ -4339,6 +4341,7 @@
   <HelpKINode Title="InternalTransfer enumeration member" Url="html/T_Resto_Front_Api_Data_Documents_DocumentType.htm" />
   <HelpKINode Title="International enumeration member" Url="html/T_Resto_Front_Api_Data_Settings_AddressShowType.htm" />
   <HelpKINode Title="Intervals property" Url="html/P_Resto_Front_Api_Data_Orders_RateScheduleItem_Intervals.htm" />
+  <HelpKINode Title="InvokeExternalNotification method" Url="html/M_Resto_Front_Api_IOperationService_InvokeExternalNotification.htm" />
   <HelpKINode Title="InvokerParameterNameAttribute class">
     <HelpKINode Title="InvokerParameterNameAttribute Class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_InvokerParameterNameAttribute.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_InvokerParameterNameAttribute__ctor.htm" />
@@ -4438,6 +4441,7 @@
   <HelpKINode Title="IOperationService.GetAllCustomData method" Url="html/M_Resto_Front_Api_IOperationService_GetAllCustomData.htm" />
   <HelpKINode Title="IOperationService.GetAllergenGroupsByOrderRootItem method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByOrderRootItem.htm" />
   <HelpKINode Title="IOperationService.GetAllergenGroupsByProductIds method" Url="html/M_Resto_Front_Api_IOperationService_GetAllergenGroupsByProductIds.htm" />
+  <HelpKINode Title="IOperationService.GetAllExternalNotificationsNames method" Url="html/M_Resto_Front_Api_IOperationService_GetAllExternalNotificationsNames.htm" />
   <HelpKINode Title="IOperationService.GetAllProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetAllProducts.htm" />
   <HelpKINode Title="IOperationService.GetAllStreets method" Url="html/M_Resto_Front_Api_IOperationService_GetAllStreets.htm" />
   <HelpKINode Title="IOperationService.GetAvailableKitchenStatuses method" Url="html/M_Resto_Front_Api_IOperationService_GetAvailableKitchenStatuses.htm" />
@@ -4482,6 +4486,7 @@
   <HelpKINode Title="IOperationService.GetDocumentById method" Url="html/M_Resto_Front_Api_IOperationService_GetDocumentById.htm" />
   <HelpKINode Title="IOperationService.GetDocuments method" Url="html/M_Resto_Front_Api_IOperationService_GetDocuments.htm" />
   <HelpKINode Title="IOperationService.GetDonationTypesCompatibleWith method" Url="html/M_Resto_Front_Api_IOperationService_GetDonationTypesCompatibleWith.htm" />
+  <HelpKINode Title="IOperationService.GetExternalNotificationSubscription method" Url="html/M_Resto_Front_Api_IOperationService_GetExternalNotificationSubscription.htm" />
   <HelpKINode Title="IOperationService.GetExternalOperations method" Url="html/M_Resto_Front_Api_IOperationService_GetExternalOperations.htm" />
   <HelpKINode Title="IOperationService.GetFrontDeliverySettings method" Url="html/M_Resto_Front_Api_IOperationService_GetFrontDeliverySettings.htm" />
   <HelpKINode Title="IOperationService.GetGroupModifiers method" Url="html/M_Resto_Front_Api_IOperationService_GetGroupModifiers.htm" />
@@ -4590,6 +4595,7 @@
   <HelpKINode Title="IOperationService.GetUsers method" Url="html/M_Resto_Front_Api_IOperationService_GetUsers.htm" />
   <HelpKINode Title="IOperationService.GetWaiterTeamById method" Url="html/M_Resto_Front_Api_IOperationService_GetWaiterTeamById.htm" />
   <HelpKINode Title="IOperationService.GetWaiterTeams method" Url="html/M_Resto_Front_Api_IOperationService_GetWaiterTeams.htm" />
+  <HelpKINode Title="IOperationService.InvokeExternalNotification method" Url="html/M_Resto_Front_Api_IOperationService_InvokeExternalNotification.htm" />
   <HelpKINode Title="IOperationService.IsActiveForDeliveries method" Url="html/M_Resto_Front_Api_IOperationService_IsActiveForDeliveries.htm" />
   <HelpKINode Title="IOperationService.IsAllCafeSessionsClosed method" Url="html/M_Resto_Front_Api_IOperationService_IsAllCafeSessionsClosed.htm" />
   <HelpKINode Title="IOperationService.IsAllCafeSessionsOpen method" Url="html/M_Resto_Front_Api_IOperationService_IsAllCafeSessionsOpen.htm" />
