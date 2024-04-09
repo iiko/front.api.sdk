@@ -366,13 +366,32 @@ namespace Resto.Front.Api.SamplePlugin
             var credentials = os.GetDefaultCredentials();
             var product = GetProduct();
             var guest = order.Guests.Last();
-            var addedItem = os.AddOrderProductItem(42m, product, order, guest, null, credentials);
+            var size = product.Scale?.DefaultSize;
+            var editSession = os.CreateEditSession();
+            var amount = 1;
+            var stub = editSession.AddOrderProductItem(amount, product, order, guest, size);
+            var simpleModifiers = product.GetSimpleModifiers(null).Where(x => x.DefaultAmount != 0);
+            foreach (var item in simpleModifiers)
+            {
+                editSession.AddOrderModifierItem(item.DefaultAmount, item.Product, null, order, stub);
+            }
+            var groupModifiers = product.GetGroupModifiers(null);
+            foreach (var item in groupModifiers)
+            {
+                var subItemsToAdd = item.Items.Where(x => x.DefaultAmount != 0);
+                foreach (var subItem in subItemsToAdd)
+                {
+                    editSession.AddOrderModifierItem(subItem.DefaultAmount, subItem.Product, item.ProductGroup, order, stub);
+                }
+            }
+            var createdEntities = os.SubmitChanges(editSession, credentials);
+            var addedItem = createdEntities.Get(stub);
 
             if (product.ImmediateCookingStart)
                 os.PrintOrderItems(os.GetOrderById(order.Id), new[] { addedItem }, credentials);
         }
 
-        private IProduct GetProduct(bool isCompound = false)
+        private IProduct GetProduct(bool isCompound = false, string number = "")
         {
             var activeProducts = PluginContext.Operations.GetActiveProducts()
                 .Where(product =>
@@ -383,7 +402,7 @@ namespace Resto.Front.Api.SamplePlugin
                 .ToList();
 
             var index = rnd.Next(activeProducts.Count);
-            return activeProducts[index];
+            return number != "" ? activeProducts.FirstOrDefault(p => p.Number == number) : activeProducts[index];
         }
 
         /// <summary>
@@ -395,15 +414,13 @@ namespace Resto.Front.Api.SamplePlugin
             var product = GetProduct(true);
             var template = product.Template;
             // ReSharper disable once PossibleNullReferenceException
-            var size = template.Scale != null ? os.GetProductScaleSizes(template.Scale).First() : null;
+            var size = template.Scale?.DefaultSize;
             var editSession = os.CreateEditSession();
             var compoundItem = editSession.AddOrderCompoundItem(product, order, guest, size);
             var primaryComponent = editSession.AddPrimaryComponent(product, order, compoundItem);
-            editSession.ChangeOrderCookingItemAmount(42m, compoundItem, order);
             var modifierDefaultAmounts = os.GetTemplatedModifiersParamsByProduct(product);
             AddDefaultCompoundItemModifiers(compoundItem, template, modifierDefaultAmounts, order, editSession);
             AddDefaultCompoundItemComponentModifiers(primaryComponent, template, modifierDefaultAmounts, order, editSession);
-
             os.SubmitChanges(editSession);
         }
 
