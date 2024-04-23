@@ -156,7 +156,6 @@
     <HelpKINode Title="ShortenedChequeExtensions.AfterCheque Property " Url="html/P_Resto_Front_Api_Data_Cheques_ShortenedChequeExtensions_AfterCheque.htm" />
   </HelpKINode>
   <HelpKINode Title="AfterDoCheckAction method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterDoCheckAction.htm" />
-  <HelpKINode Title="AfterDocument property" Url="html/P_Resto_Front_Api_Data_Cheques_TextDocumentExtensions_AfterDocument.htm" />
   <HelpKINode Title="AfterFooter property" Url="html/P_Resto_Front_Api_Data_Cheques_ChequeExtensions_AfterFooter.htm" />
   <HelpKINode Title="AfterHeader property" Url="html/P_Resto_Front_Api_Data_Cheques_ChequeExtensions_AfterHeader.htm" />
   <HelpKINode Title="AfterOpenSession method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterOpenSession.htm" />
@@ -606,7 +605,6 @@
   <HelpKINode Title="BeforeDoCheckActionResult.Sales property" Url="html/P_Resto_Front_Api_Data_Device_BeforeDoCheckActionResult_Sales.htm" />
   <HelpKINode Title="BeforeDoCheque property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDoCheque.htm" />
   <HelpKINode Title="BeforeDoChequeOperationFailed enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
-  <HelpKINode Title="BeforeDocument property" Url="html/P_Resto_Front_Api_Data_Cheques_TextDocumentExtensions_BeforeDocument.htm" />
   <HelpKINode Title="BeforeFooter property" Url="html/P_Resto_Front_Api_Data_Cheques_ChequeExtensions_BeforeFooter.htm" />
   <HelpKINode Title="BeforeHeader property" Url="html/P_Resto_Front_Api_Data_Cheques_ChequeExtensions_BeforeHeader.htm" />
   <HelpKINode Title="BeforeOpenSession method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforeOpenSession.htm" />
@@ -2334,10 +2332,10 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -3048,7 +3046,6 @@
     <HelpKINode Title="ShortenedChequeExtensions.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Cheques_ShortenedChequeExtensions_GetObjectData.htm" />
     <HelpKINode Title="SmsSendingResultDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_SmsSendingResultDto_GetObjectData.htm" />
     <HelpKINode Title="StornedPastOrderInfo.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Orders_StornedPastOrderInfo_GetObjectData.htm" />
-    <HelpKINode Title="TextDocumentExtensions.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Cheques_TextDocumentExtensions_GetObjectData.htm" />
     <HelpKINode Title="VatInvoiceOrderItem.GetObjectData Method " Url="html/M_Resto_Front_Api_UI_VatInvoiceOrderItem_GetObjectData.htm" />
   </HelpKINode>
   <HelpKINode Title="GetOrderAllExternalData method">
@@ -4622,7 +4619,8 @@
   <HelpKINode Title="IOperationService.PrintReceiptCheque method" Url="html/M_Resto_Front_Api_IOperationService_PrintReceiptCheque.htm" />
   <HelpKINode Title="IOperationService.PrintTableReservedCheque method" Url="html/M_Resto_Front_Api_IOperationService_PrintTableReservedCheque.htm" />
   <HelpKINode Title="IOperationService.ProcessPrepay method" Url="html/M_Resto_Front_Api_IOperationService_ProcessPrepay.htm" />
-  <HelpKINode Title="IOperationService.RegisterBeforePrintDocumentHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterBeforePrintDocumentHandler.htm" />
+  <HelpKINode Title="IOperationService.RegisterAfterFormatDocumentHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterAfterFormatDocumentHandler.htm" />
+  <HelpKINode Title="IOperationService.RegisterBeforeFormatDocumentHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterBeforeFormatDocumentHandler.htm" />
   <HelpKINode Title="IOperationService.RegisterBuildEInvoiceOrderItemsHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterBuildEInvoiceOrderItemsHandler.htm" />
   <HelpKINode Title="IOperationService.RegisterCashRegisterFactory method" Url="html/M_Resto_Front_Api_IOperationService_RegisterCashRegisterFactory.htm" />
   <HelpKINode Title="IOperationService.RegisterChequeTaskProcessor method" Url="html/M_Resto_Front_Api_IOperationService_RegisterChequeTaskProcessor.htm" />
@@ -7662,7 +7660,8 @@
   </HelpKINode>
   <HelpKINode Title="RegionChanged property" Url="html/P_Resto_Front_Api_INotificationService_RegionChanged.htm" />
   <HelpKINode Title="RegionId property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_RegionId.htm" />
-  <HelpKINode Title="RegisterBeforePrintDocumentHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterBeforePrintDocumentHandler.htm" />
+  <HelpKINode Title="RegisterAfterFormatDocumentHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterAfterFormatDocumentHandler.htm" />
+  <HelpKINode Title="RegisterBeforeFormatDocumentHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterBeforeFormatDocumentHandler.htm" />
   <HelpKINode Title="RegisterBuildEInvoiceOrderItemsHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterBuildEInvoiceOrderItemsHandler.htm" />
   <HelpKINode Title="RegisterCashRegisterFactory method" Url="html/M_Resto_Front_Api_IOperationService_RegisterCashRegisterFactory.htm" />
   <HelpKINode Title="RegisterChequeTaskProcessor method" Url="html/M_Resto_Front_Api_IOperationService_RegisterChequeTaskProcessor.htm" />
@@ -7960,7 +7959,6 @@
   <HelpKINode Title="Resto.Front.Api.Data.Cheques.ReceiptSlip class" Url="html/T_Resto_Front_Api_Data_Cheques_ReceiptSlip.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Cheques.ShortenedChequeExtensions class" Url="html/T_Resto_Front_Api_Data_Cheques_ShortenedChequeExtensions.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Cheques.Tags class" Url="html/T_Resto_Front_Api_Data_Cheques_Tags.htm" />
-  <HelpKINode Title="Resto.Front.Api.Data.Cheques.TextDocumentExtensions class" Url="html/T_Resto_Front_Api_Data_Cheques_TextDocumentExtensions.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common namespace" Url="html/N_Resto_Front_Api_Data_Common.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.ChangedEntities(Of T) class" Url="html/T_Resto_Front_Api_Data_Common_ChangedEntities_1.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.ChangedEntities&lt;T&gt; class" Url="html/T_Resto_Front_Api_Data_Common_ChangedEntities_1.htm" />
@@ -8990,16 +8988,6 @@
   <HelpKINode Title="TextBox.MaxLength property" Url="html/P_Resto_Front_Api_Data_Settings_TextBox_MaxLength.htm" />
   <HelpKINode Title="TextBox.TextBox constructor" Url="html/M_Resto_Front_Api_Data_Settings_TextBox__ctor.htm" />
   <HelpKINode Title="TextCell field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_TextCell.htm" />
-  <HelpKINode Title="TextDocumentExtensions class">
-    <HelpKINode Title="TextDocumentExtensions Class" Url="html/T_Resto_Front_Api_Data_Cheques_TextDocumentExtensions.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Cheques_TextDocumentExtensions__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Cheques_TextDocumentExtensions.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Cheques_TextDocumentExtensions.htm" />
-  </HelpKINode>
-  <HelpKINode Title="TextDocumentExtensions.AfterDocument property" Url="html/P_Resto_Front_Api_Data_Cheques_TextDocumentExtensions_AfterDocument.htm" />
-  <HelpKINode Title="TextDocumentExtensions.BeforeDocument property" Url="html/P_Resto_Front_Api_Data_Cheques_TextDocumentExtensions_BeforeDocument.htm" />
-  <HelpKINode Title="TextDocumentExtensions.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Cheques_TextDocumentExtensions_GetObjectData.htm" />
-  <HelpKINode Title="TextDocumentExtensions.TextDocumentExtensions constructor" Url="html/Overload_Resto_Front_Api_Data_Cheques_TextDocumentExtensions__ctor.htm" />
   <HelpKINode Title="Third enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Thirteenth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="TimeLimit property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_TimeLimit.htm" />
