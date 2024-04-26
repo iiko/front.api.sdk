@@ -35,6 +35,7 @@ namespace Resto.Front.Api.SamplePlugin
                 Operations.AddButtonToPluginsMenu("SamplePlugin: Show keyboard view", x => ShowKeyboardPopup(x.vm)),
                 Operations.AddButtonToPluginsMenu("SamplePlugin: Show extended keyboard view", x => ShowExtendedKeyboardPopup(x.vm)),
                 Operations.AddButtonToPluginsMenu("SamplePlugin: Show input dialog", x => ShowInputDialog(x.vm)),
+                Operations.AddButtonToPluginsMenu("SamplePlugin: Show decimal input dialog", x => ShowDecimalInputDialog(x.vm)),
                 Operations.AddButtonToPluginsMenu("SamplePlugin: Show ok popup", x => ShowOkPopup(x.vm)),
                 Operations.AddButtonToPluginsMenu("SamplePlugin: Show error popup", x => ShowErrorPopup(x.vm)),
                 Operations.AddButtonToPluginsMenu("SamplePlugin: Show date numpad popup", x => ShowDateNumpadPopup(x.vm)),
@@ -241,6 +242,25 @@ namespace Resto.Front.Api.SamplePlugin
                 default:
                     throw new NotSupportedException(nameof(dialogResult.GetType));
             }
+        }
+
+        private static void ShowDecimalInputDialog(IViewManager viewManager)
+        {
+            var settings = new ExtendedInputDialogSettings
+            {
+                NumericInputMode = NumericInputMode.Decimal,
+                TabTitleNumericString = "Decimal number",
+                MaxDecimalValue = 500,
+                DefaultDecimalValue = 50
+            };
+
+            var dialogResult = viewManager.ShowExtendedInputDialog(
+                "Заголовок окна",
+                "Подзаголовок, поясняющий что именно нужно ввести пользователю.",
+                settings);
+            
+            if (dialogResult is DecimalInputDialogResult decimalInputDialog)
+                ShowNotification($"Entered: {decimalInputDialog.Decimal}");
         }
 
         private static void ShowNotification(string message, TimeSpan? timeout = null)
