@@ -11,6 +11,7 @@ using Resto.Front.Api.Data.View;
 using Resto.Front.Api.UI;
 using Resto.Front.Api.Extensions;
 using Resto.Front.Api.SamplePlugin.Config;
+using Resto.Front.Api.Data.Payments;
 
 namespace Resto.Front.Api.SamplePlugin
 {
@@ -35,6 +36,7 @@ namespace Resto.Front.Api.SamplePlugin
                 Operations.AddButtonToPluginsMenu("SamplePlugin: Show keyboard view", x => ShowKeyboardPopup(x.vm)),
                 Operations.AddButtonToPluginsMenu("SamplePlugin: Show extended keyboard view", x => ShowExtendedKeyboardPopup(x.vm)),
                 Operations.AddButtonToPluginsMenu("SamplePlugin: Show input dialog", x => ShowInputDialog(x.vm)),
+                Operations.AddButtonToPluginsMenu("SamplePlugin: Show decimal input dialog", x => ShowDecimalInputDialog(x.vm)),
                 Operations.AddButtonToPluginsMenu("SamplePlugin: Show ok popup", x => ShowOkPopup(x.vm)),
                 Operations.AddButtonToPluginsMenu("SamplePlugin: Show error popup", x => ShowErrorPopup(x.vm)),
                 Operations.AddButtonToPluginsMenu("SamplePlugin: Show date numpad popup", x => ShowDateNumpadPopup(x.vm)),
@@ -62,6 +64,16 @@ namespace Resto.Front.Api.SamplePlugin
                     x.vm.ShowOkPopup("Sample plugin", "Payment screen click on sample button");
                     var isChecked = !x.state.isChecked;
                     var caption = isChecked ? "Sample Checked" : "Sample Plugin";
+                    x.os.UpdatePaymentScreenButtonState(x.state.buttonId, caption, isChecked);
+                }, IikoIcon).buttonRegistration,
+                Operations.AddButtonToPaymentScreen("Add Cheque", false, true, x =>
+                {
+                    var isChecked = !x.state.isChecked;
+                    var caption = isChecked ? "Added Cheque" : "Add Cheque";
+
+                    var chequeAdditionalInfo = new ChequeAdditionalInfo(false, "+79998887766", "mail@mail.com", "");
+
+                    x.os.SetChequeAdditionalInfo(chequeAdditionalInfo, x.order, x.os.GetDefaultCredentials());
                     x.os.UpdatePaymentScreenButtonState(x.state.buttonId, caption, isChecked);
                 }, IikoIcon).buttonRegistration,
 
@@ -241,6 +253,25 @@ namespace Resto.Front.Api.SamplePlugin
                 default:
                     throw new NotSupportedException(nameof(dialogResult.GetType));
             }
+        }
+
+        private static void ShowDecimalInputDialog(IViewManager viewManager)
+        {
+            var settings = new ExtendedInputDialogSettings
+            {
+                NumericInputMode = NumericInputMode.Decimal,
+                TabTitleNumericString = "Decimal number",
+                MaxDecimalValue = 500,
+                DefaultDecimalValue = 50
+            };
+
+            var dialogResult = viewManager.ShowExtendedInputDialog(
+                "Заголовок окна",
+                "Подзаголовок, поясняющий что именно нужно ввести пользователю.",
+                settings);
+            
+            if (dialogResult is DecimalInputDialogResult decimalInputDialog)
+                ShowNotification($"Entered: {decimalInputDialog.Decimal}");
         }
 
         private static void ShowNotification(string message, TimeSpan? timeout = null)
