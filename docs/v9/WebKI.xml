@@ -10,7 +10,7 @@
   </HelpKINode>
   <HelpKINode Title="AcquireSlot method" Url="html/M_Resto_Front_Api_ILicensingService_AcquireSlot.htm" />
   <HelpKINode Title="ActionNumber property" Url="html/P_Resto_Front_Api_Editors_Stubs_NewEntityStub_ActionNumber.htm" />
-  <HelpKINode Title="ActivateReserve method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ActivateReserve.htm" />
+  <HelpKINode Title="ActivateReserveAndBindToOrder method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ActivateReserveAndBindToOrder.htm" />
   <HelpKINode Title="ActivityType property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_ActivityType.htm" />
   <HelpKINode Title="ActualDeliverTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ActualDeliverTime.htm" />
   <HelpKINode Title="ActualGuestsCount property" Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderDto_ActualGuestsCount.htm" />
@@ -2406,10 +2406,10 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -3815,7 +3815,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Editors_IEditSession.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Editors_IEditSession.htm" />
   </HelpKINode>
-  <HelpKINode Title="IEditSession.ActivateReserve method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ActivateReserve.htm" />
+  <HelpKINode Title="IEditSession.ActivateReserveAndBindToOrder method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ActivateReserveAndBindToOrder.htm" />
   <HelpKINode Title="IEditSession.AddCardLoyaltyDiscounts method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddCardLoyaltyDiscounts.htm" />
   <HelpKINode Title="IEditSession.AddDiscount method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddDiscount.htm" />
   <HelpKINode Title="IEditSession.AddDiscountByCardNumber method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AddDiscountByCardNumber.htm" />
