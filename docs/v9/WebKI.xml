@@ -2428,8 +2428,8 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -4872,6 +4872,7 @@
   <HelpKINode Title="IOperationService.TryGetBillPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetBillPrinter.htm" />
   <HelpKINode Title="IOperationService.TryGetCafeSessionByCashRegister method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCafeSessionByCashRegister.htm" />
   <HelpKINode Title="IOperationService.TryGetCafeSessionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCafeSessionById.htm" />
+  <HelpKINode Title="IOperationService.TryGetCashRegisterInfoByCookingPlaceType method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCashRegisterInfoByCookingPlaceType.htm" />
   <HelpKINode Title="IOperationService.TryGetCashRegisterInfoById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCashRegisterInfoById.htm" />
   <HelpKINode Title="IOperationService.TryGetChildGroupsByProductGroup method" Url="html/M_Resto_Front_Api_IOperationService_TryGetChildGroupsByProductGroup.htm" />
   <HelpKINode Title="IOperationService.TryGetChildProductsByProductGroup method" Url="html/M_Resto_Front_Api_IOperationService_TryGetChildProductsByProductGroup.htm" />
@@ -9295,6 +9296,7 @@
   <HelpKINode Title="TryGetBillPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetBillPrinter.htm" />
   <HelpKINode Title="TryGetCafeSessionByCashRegister method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCafeSessionByCashRegister.htm" />
   <HelpKINode Title="TryGetCafeSessionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCafeSessionById.htm" />
+  <HelpKINode Title="TryGetCashRegisterInfoByCookingPlaceType method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCashRegisterInfoByCookingPlaceType.htm" />
   <HelpKINode Title="TryGetCashRegisterInfoById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCashRegisterInfoById.htm" />
   <HelpKINode Title="TryGetChildGroups method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductGroupExtensions_TryGetChildGroups.htm" />
   <HelpKINode Title="TryGetChildGroupsByProductGroup method" Url="html/M_Resto_Front_Api_IOperationService_TryGetChildGroupsByProductGroup.htm" />
