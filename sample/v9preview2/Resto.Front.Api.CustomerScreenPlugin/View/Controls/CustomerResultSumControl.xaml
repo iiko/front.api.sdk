@@ -1,0 +1,77 @@
+﻿<UserControl x:Class="Resto.Front.Api.CustomerScreen.View.Controls.CustomerResultSumControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:resources="clr-namespace:Resto.Front.Api.CustomerScreen.Resources"
+             xmlns:converters="clr-namespace:Resto.Front.Api.CustomerScreen.Converters">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\..\Resources\CustomerResourceDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid  Grid.Column="0" Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Grid HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="0" 
+                  Visibility="{Binding Path=DiscountPercent, Converter={StaticResource NotDecimalZeroToVisibilityConverter}}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{x:Static resources:CustomerScreenLocalResources.DiscountText}"  VerticalAlignment="Center"  HorizontalAlignment="Left"
+                           Grid.Column="0" />
+                <TextBlock Text="{Binding Path=DiscountPercent, Converter={StaticResource DecimalHundredToPercentConverter}}" VerticalAlignment="Center"  HorizontalAlignment="Left"
+                           Grid.Column="1"/>
+            </Grid>
+
+            <Grid HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="0"    
+                  Visibility="{Binding Path=IncreasePercent, Converter={StaticResource NotDecimalZeroToVisibilityConverter}}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{x:Static resources:CustomerScreenLocalResources.IncreaseText}"  VerticalAlignment="Center"  HorizontalAlignment="Left" 
+                           Grid.Column="0"/>
+                <TextBlock Text="{Binding Path=IncreasePercent, Converter={StaticResource DecimalHundredToPercentConverter}}" VerticalAlignment="Center"  HorizontalAlignment="Left"
+                           Grid.Column="1"/>
+            </Grid>
+
+            <Grid HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="1"
+                  Visibility="{Binding Path=SumAfterCorrections, Converter={StaticResource NotDecimalZeroToVisibilityConverter}}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{x:Static resources:CustomerScreenLocalResources.TotalSumText}" VerticalAlignment="Center"  HorizontalAlignment="Left" Grid.Column="0"/>
+                <TextBlock Text="{Binding Path=SumAfterCorrections, Converter={StaticResource DecimalToMoneyConverter}, ConverterParameter={x:Static converters:MoneyDisplayFormat.NumberAndCurrency}}" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Column="1" />
+            </Grid>
+
+            <Grid HorizontalAlignment="Stretch" x:Name="ChangeSumBlock" Visibility="Collapsed" Grid.Column="1" Grid.Row="2" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{x:Static resources:CustomerScreenLocalResources.ChangeSumText}" VerticalAlignment="Center" HorizontalAlignment="Left" 
+                           Grid.Column="0"/>
+                <TextBlock VerticalAlignment="Center"  HorizontalAlignment="Left" Grid.Column="1"
+                           Text="{Binding Path=ChangeSum, Converter={StaticResource DecimalToMoneyConverter}, ConverterParameter={x:Static converters:MoneyDisplayFormat.NumberAndCurrency}}"/>
+            </Grid>
+
+            <Viewbox  StretchDirection="Both" Grid.Column="0" Grid.RowSpan="3">
+                <Image x:Name="imgLogo" />
+            </Viewbox>
+        </Grid>
+    </Grid>
+
+</UserControl>

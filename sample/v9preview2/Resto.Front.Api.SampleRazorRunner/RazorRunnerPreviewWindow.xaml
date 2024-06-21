@@ -1,0 +1,39 @@
+﻿<Window x:Class="Resto.Front.Api.SampleRazorRunner.RazorRunnerPreviewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="PreviewWindow" Height="800" Width="1280">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <RichTextBox x:Name="RazorTemplateRichTextBox" AcceptsTab="True" VerticalScrollBarVisibility="Auto" 
+                     HorizontalScrollBarVisibility="Auto">
+            <RichTextBox.Resources>
+                <Style TargetType="{x:Type Paragraph}">
+                    <Setter Property="Margin" Value="0"/>
+                </Style>
+            </RichTextBox.Resources>
+        </RichTextBox>
+        <RichTextBox x:Name="CompiledAndExecutedRazorTemplateRichTextBox" Grid.Row="0" Grid.Column="2" AcceptsTab="True"
+                     VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" IsReadOnly="True">
+            <RichTextBox.Resources>
+                <Style TargetType="{x:Type Paragraph}">
+                    <Setter Property="FontFamily" Value="Consolas"/>
+                    <Setter Property="Margin" Value="0"/>
+                </Style>
+            </RichTextBox.Resources>
+        </RichTextBox>
+        <Button x:Name="CompileAndExecuteRazorTemplate" Content="Compile and execute" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"
+                Height="30" Width="200"  FontSize="20" Click="btnCompileAndExecuteRazorTemplate_Click"/>
+    </Grid>
+</Window>

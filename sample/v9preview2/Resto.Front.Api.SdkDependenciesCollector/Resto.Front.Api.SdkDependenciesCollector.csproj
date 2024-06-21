@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13E422E0-2AC9-403F-BD1A-498A2A7C19A2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Resto.Front.Api.SdkDependenciesCollector</RootNamespace>
+    <AssemblyName>Resto.Front.Api.SdkDependenciesCollector</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Readme.txt" />
+    <None Include="..\..\Api\Resto.Front.Api\Common\Manifest.xsd">
+      <Link>Manifest.xsd</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Resto.Front.Api.V6">
+      <Version>7.0.6022</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Framework\dev\Net\Resto.Framework\Resto.Framework.csproj">
+      <Project>{a1977e2b-b1e6-4dc7-8b1a-e5b09631b260}</Project>
+      <Name>Resto.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Api\Resto.Front.Api.V7\Resto.Front.Api.V7.csproj">
+      <Project>{E5D945FC-17BF-4DB2-9A5A-4266F8675602}</Project>
+      <Name>Resto.Front.Api.V7</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Api\Resto.Front.Api.V8\Resto.Front.Api.V8.csproj">
+      <Project>{0FFA2700-28FF-4D7F-B409-1C2A74443625}</Project>
+      <Name>Resto.Front.Api.V8</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Api\Resto.Front.Api.V9\Resto.Front.Api.V9.csproj">
+      <Project>{F3E4DE8D-9680-439C-9296-0CF0C39F0150}</Project>
+      <Name>Resto.Front.Api.V9</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Api\Resto.Front.Api.V9Preview1\Resto.Front.Api.V9Preview1.csproj">
+      <Project>{9752B877-4039-451A-AEFA-2D0DD992456F}</Project>
+      <Name>Resto.Front.Api.V9Preview1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Api\Resto.Front.Api.V9Preview2\Resto.Front.Api.V9Preview2.csproj">
+      <Project>{5A3FCB1E-A29A-4020-AFCB-90F4AD0AD441}</Project>
+      <Name>Resto.Front.Api.V9Preview2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>mkdir "$(SolutionDir)Sdk\Binaries"
+for %25%25i in (V6, V7, V8, V9, V9Preview1, V9Preview2) do (
+	mkdir "$(SolutionDir)Sdk\Binaries\%25%25i"
+	copy "$(TargetDir)Resto.Front.Api.%25%25i.*" "$(SolutionDir)Sdk\Binaries\%25%25i"
+)
+copy "$(TargetDir)Manifest.xsd" "$(SolutionDir)Sdk\Binaries\"
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
