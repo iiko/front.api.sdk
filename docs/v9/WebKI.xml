@@ -1800,6 +1800,7 @@
     <HelpKINode Title="IAutosearchDevice.ConfigureSettings Method " Url="html/M_Resto_Front_Api_Devices_IAutosearchDevice_ConfigureSettings.htm" />
     <HelpKINode Title="IOperationService.ConfigureSettings Method " Url="html/M_Resto_Front_Api_IOperationService_ConfigureSettings.htm" />
   </HelpKINode>
+  <HelpKINode Title="Confirmed enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
   <HelpKINode Title="ConfirmTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ConfirmTime.htm" />
   <HelpKINode Title="ConnectionToMainTerminalChanged property" Url="html/P_Resto_Front_Api_INotificationService_ConnectionToMainTerminalChanged.htm" />
   <HelpKINode Title="ConsentDateFrom property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ConsentDateFrom.htm" />
@@ -1846,7 +1847,10 @@
   </HelpKINode>
   <HelpKINode Title="CookCount property" Url="html/P_Resto_Front_Api_Data_Orders_IKitchenWorkload_CookCount.htm" />
   <HelpKINode Title="CookDebt property" Url="html/P_Resto_Front_Api_Data_ProductStocks_IProductStock_CookDebt.htm" />
-  <HelpKINode Title="CookingCompleted enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemStatus.htm" />
+  <HelpKINode Title="CookingCompleted enumeration member">
+    <HelpKINode Title="DeliveryStatus Enumeration" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
+    <HelpKINode Title="OrderItemStatus Enumeration" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemStatus.htm" />
+  </HelpKINode>
   <HelpKINode Title="CookingFinishTime property">
     <HelpKINode Title="IDeliveryOrder.CookingFinishTime Property " Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_CookingFinishTime.htm" />
     <HelpKINode Title="IOrderCookingItem.CookingFinishTime Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderCookingItem_CookingFinishTime.htm" />
@@ -1873,7 +1877,10 @@
     <HelpKINode Title="IOrder.CookingPriority Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_CookingPriority.htm" />
     <HelpKINode Title="KitchenOrderDto.CookingPriority Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderDto_CookingPriority.htm" />
   </HelpKINode>
-  <HelpKINode Title="CookingStarted enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemStatus.htm" />
+  <HelpKINode Title="CookingStarted enumeration member">
+    <HelpKINode Title="DeliveryStatus Enumeration" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
+    <HelpKINode Title="OrderItemStatus Enumeration" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemStatus.htm" />
+  </HelpKINode>
   <HelpKINode Title="CookingStartTime property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderCookingItem_CookingStartTime.htm" />
   <HelpKINode Title="CookingTime property">
     <HelpKINode Title="IKitchenOrderCookingItem.CookingTime Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCookingItem_CookingTime.htm" />
@@ -2432,8 +2439,8 @@
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2444,8 +2451,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -5601,6 +5608,7 @@
   <HelpKINode Title="IRestaurant.LegalName property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_LegalName.htm" />
   <HelpKINode Title="IRestaurant.Name property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_Name.htm" />
   <HelpKINode Title="IRestaurant.OrderTypeFillRequirements property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_OrderTypeFillRequirements.htm" />
+  <HelpKINode Title="IRestaurant.PackedStatusOnCookingEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_PackedStatusOnCookingEnabled.htm" />
   <HelpKINode Title="IRestaurant.RegistrationNumber property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_RegistrationNumber.htm" />
   <HelpKINode Title="IRestaurant.TaxId property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_TaxId.htm" />
   <HelpKINode Title="IRestaurant.UsePersonalRoles property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_UsePersonalRoles.htm" />
@@ -7069,6 +7077,8 @@
   </HelpKINode>
   <HelpKINode Title="OwnerName property" Url="html/P_Resto_Front_Api_Data_Orders_IDiscountCard_OwnerName.htm" />
   <HelpKINode Title="OwnInitiative enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CorrectionReason.htm" />
+  <HelpKINode Title="Packed enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
+  <HelpKINode Title="PackedStatusOnCookingEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_PackedStatusOnCookingEnabled.htm" />
   <HelpKINode Title="Pagecut field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Pagecut.htm" />
   <HelpKINode Title="PageName property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_RazorPageBaseTypeAttribute_PageName.htm" />
   <HelpKINode Title="Pair field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Pair.htm" />
@@ -9431,7 +9441,6 @@
   <HelpKINode Title="Ultra field" Url="html/F_Resto_Front_Api_Data_Cheques_AttributeValues_Ultra.htm" />
   <HelpKINode Title="UncombinablePaymentTypes enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="UncombinablePaymentTypesFiscalNonFiscal enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
-  <HelpKINode Title="Unconfirmed enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
   <HelpKINode Title="Underline enumeration member" Url="html/T_Resto_Front_Api_Data_View_FontStyle.htm" />
   <HelpKINode Title="Underline field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_Underline.htm" />
   <HelpKINode Title="UnexpectedInternalException class">
