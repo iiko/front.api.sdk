@@ -1315,6 +1315,7 @@
   <HelpKINode Title="ChangedEntity(Of T).ChangedEntity constructor" Url="html/M_Resto_Front_Api_Data_Common_ChangedEntity_1__ctor.htm" />
   <HelpKINode Title="ChangedEntity(Of T).Entity property" Url="html/P_Resto_Front_Api_Data_Common_ChangedEntity_1_Entity.htm" />
   <HelpKINode Title="ChangedEntity(Of T).Id property" Url="html/P_Resto_Front_Api_Data_Common_ChangedEntity_1_Id.htm" />
+  <HelpKINode Title="ChangedEntity(Of T).Revision property" Url="html/P_Resto_Front_Api_Data_Common_ChangedEntity_1_Revision.htm" />
   <HelpKINode Title="ChangedEntity&lt;T&gt; structure">
     <HelpKINode Title="ChangedEntity(T) Structure" Url="html/T_Resto_Front_Api_Data_Common_ChangedEntity_1.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Common_ChangedEntity_1__ctor.htm" />
@@ -1324,6 +1325,7 @@
   <HelpKINode Title="ChangedEntity&lt;T&gt;.ChangedEntity constructor" Url="html/M_Resto_Front_Api_Data_Common_ChangedEntity_1__ctor.htm" />
   <HelpKINode Title="ChangedEntity&lt;T&gt;.Entity property" Url="html/P_Resto_Front_Api_Data_Common_ChangedEntity_1_Entity.htm" />
   <HelpKINode Title="ChangedEntity&lt;T&gt;.Id property" Url="html/P_Resto_Front_Api_Data_Common_ChangedEntity_1_Id.htm" />
+  <HelpKINode Title="ChangedEntity&lt;T&gt;.Revision property" Url="html/P_Resto_Front_Api_Data_Common_ChangedEntity_1_Revision.htm" />
   <HelpKINode Title="ChangeEstimatedOrderGuestsCount method">
     <HelpKINode Title="IEditSession.ChangeEstimatedOrderGuestsCount Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeEstimatedOrderGuestsCount.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeEstimatedOrderGuestsCount Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeEstimatedOrderGuestsCount.htm" />
@@ -3171,6 +3173,7 @@
   </HelpKINode>
   <HelpKINode Title="GetHierarchicalMenu method" Url="html/M_Resto_Front_Api_IOperationService_GetHierarchicalMenu.htm" />
   <HelpKINode Title="GetHostAgentId method" Url="html/M_Resto_Front_Api_IOperationService_GetHostAgentId.htm" />
+  <HelpKINode Title="GetHostDatabaseId method" Url="html/M_Resto_Front_Api_IOperationService_GetHostDatabaseId.htm" />
   <HelpKINode Title="GetHostDeliverySettings method" Url="html/M_Resto_Front_Api_IOperationService_GetHostDeliverySettings.htm" />
   <HelpKINode Title="GetHostRestaurant method" Url="html/M_Resto_Front_Api_IOperationService_GetHostRestaurant.htm" />
   <HelpKINode Title="GetHostTerminal method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminal.htm" />
@@ -4713,6 +4716,7 @@
   <HelpKINode Title="IOperationService.GetGroupModifiers method" Url="html/M_Resto_Front_Api_IOperationService_GetGroupModifiers.htm" />
   <HelpKINode Title="IOperationService.GetHierarchicalMenu method" Url="html/M_Resto_Front_Api_IOperationService_GetHierarchicalMenu.htm" />
   <HelpKINode Title="IOperationService.GetHostAgentId method" Url="html/M_Resto_Front_Api_IOperationService_GetHostAgentId.htm" />
+  <HelpKINode Title="IOperationService.GetHostDatabaseId method" Url="html/M_Resto_Front_Api_IOperationService_GetHostDatabaseId.htm" />
   <HelpKINode Title="IOperationService.GetHostDeliverySettings method" Url="html/M_Resto_Front_Api_IOperationService_GetHostDeliverySettings.htm" />
   <HelpKINode Title="IOperationService.GetHostRestaurant method" Url="html/M_Resto_Front_Api_IOperationService_GetHostRestaurant.htm" />
   <HelpKINode Title="IOperationService.GetHostTerminal method" Url="html/M_Resto_Front_Api_IOperationService_GetHostTerminal.htm" />
@@ -8691,6 +8695,7 @@
   <HelpKINode Title="ReturnPaymentWithoutOrder method" Url="html/M_Resto_Front_Api_IPaymentProcessor_ReturnPaymentWithoutOrder.htm" />
   <HelpKINode Title="Reverse field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_Reverse.htm" />
   <HelpKINode Title="Revision property">
+    <HelpKINode Title="ChangedEntity(T).Revision Property " Url="html/P_Resto_Front_Api_Data_Common_ChangedEntity_1_Revision.htm" />
     <HelpKINode Title="IVersionedEntity.Revision Property " Url="html/P_Resto_Front_Api_Data_Common_IVersionedEntity_Revision.htm" />
     <HelpKINode Title="Ride.Revision Property " Url="html/P_Resto_Front_Api_Data_Brd_Ride_Revision.htm" />
   </HelpKINode>
