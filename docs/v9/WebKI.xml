@@ -20,6 +20,7 @@
   <HelpKINode Title="AddButtonToPaymentScreen method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToPaymentScreen.htm" />
   <HelpKINode Title="AddButtonToPluginsMenu method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToPluginsMenu.htm" />
   <HelpKINode Title="AddButtonToProductsReturnScreen method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToProductsReturnScreen.htm" />
+  <HelpKINode Title="AddButtonToWindowsServiceMenu method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToWindowsServiceMenu.htm" />
   <HelpKINode Title="AddCardLoyaltyDiscounts method">
     <HelpKINode Title="IEditSession.AddCardLoyaltyDiscounts Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_AddCardLoyaltyDiscounts.htm" />
     <HelpKINode Title="OperationServiceExtensions.AddCardLoyaltyDiscounts Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddCardLoyaltyDiscounts.htm" />
@@ -2437,12 +2438,12 @@
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
   <HelpKINode Title="DoCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm" />
   <HelpKINode Title="Document class">
-    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -4593,6 +4594,7 @@
   <HelpKINode Title="IOperationService.AddButtonToPaymentScreen method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToPaymentScreen.htm" />
   <HelpKINode Title="IOperationService.AddButtonToPluginsMenu method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToPluginsMenu.htm" />
   <HelpKINode Title="IOperationService.AddButtonToProductsReturnScreen method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToProductsReturnScreen.htm" />
+  <HelpKINode Title="IOperationService.AddButtonToWindowsServiceMenu method" Url="html/M_Resto_Front_Api_IOperationService_AddButtonToWindowsServiceMenu.htm" />
   <HelpKINode Title="IOperationService.AddClientToOrder method" Url="html/M_Resto_Front_Api_IOperationService_AddClientToOrder.htm" />
   <HelpKINode Title="IOperationService.AddDonation method" Url="html/M_Resto_Front_Api_IOperationService_AddDonation.htm" />
   <HelpKINode Title="IOperationService.AddEgaisMarkEventForCocktailsVolume method" Url="html/M_Resto_Front_Api_IOperationService_AddEgaisMarkEventForCocktailsVolume.htm" />
