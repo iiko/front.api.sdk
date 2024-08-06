@@ -1018,6 +1018,7 @@
   <HelpKINode Title="CashRegisterStatus.FnResponseCode property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FnResponseCode.htm" />
   <HelpKINode Title="CashRegisterStatus.HaveRegisterDateTime property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_HaveRegisterDateTime.htm" />
   <HelpKINode Title="CashRegisterStatus.IsOfdConnected property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_IsOfdConnected.htm" />
+  <HelpKINode Title="CashRegisterStatus.NearPaperEnd property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_NearPaperEnd.htm" />
   <HelpKINode Title="CashRegisterStatus.NonCashPaymentsSum property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_NonCashPaymentsSum.htm" />
   <HelpKINode Title="CashRegisterStatus.OfdBufferedDocuments property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdBufferedDocuments.htm" />
   <HelpKINode Title="CashRegisterStatus.OfdChequeDateTime property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdChequeDateTime.htm" />
@@ -2440,12 +2441,12 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2454,8 +2455,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -3073,7 +3074,10 @@
   <HelpKINode Title="GetCafeSessions method" Url="html/M_Resto_Front_Api_IOperationService_GetCafeSessions.htm" />
   <HelpKINode Title="GetCardLoyaltyDiscounts method" Url="html/M_Resto_Front_Api_IOperationService_GetCardLoyaltyDiscounts.htm" />
   <HelpKINode Title="GetCashMemoMarkup method" Url="html/M_Resto_Front_Api_IOperationService_GetCashMemoMarkup.htm" />
-  <HelpKINode Title="GetCashRegisterData method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_GetCashRegisterData.htm" />
+  <HelpKINode Title="GetCashRegisterData method">
+    <HelpKINode Title="ICashRegister.GetCashRegisterData Method " Url="html/M_Resto_Front_Api_Devices_ICashRegister_GetCashRegisterData.htm" />
+    <HelpKINode Title="IOperationService.GetCashRegisterData Method " Url="html/M_Resto_Front_Api_IOperationService_GetCashRegisterData.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetCashRegisterDriverParameters method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_GetCashRegisterDriverParameters.htm" />
   <HelpKINode Title="GetCashRegisterInfoById method" Url="html/M_Resto_Front_Api_IOperationService_GetCashRegisterInfoById.htm" />
   <HelpKINode Title="GetCashRegisterInfos method" Url="html/M_Resto_Front_Api_IOperationService_GetCashRegisterInfos.htm" />
@@ -4675,6 +4679,7 @@
   <HelpKINode Title="IOperationService.GetCafeSessions method" Url="html/M_Resto_Front_Api_IOperationService_GetCafeSessions.htm" />
   <HelpKINode Title="IOperationService.GetCardLoyaltyDiscounts method" Url="html/M_Resto_Front_Api_IOperationService_GetCardLoyaltyDiscounts.htm" />
   <HelpKINode Title="IOperationService.GetCashMemoMarkup method" Url="html/M_Resto_Front_Api_IOperationService_GetCashMemoMarkup.htm" />
+  <HelpKINode Title="IOperationService.GetCashRegisterData method" Url="html/M_Resto_Front_Api_IOperationService_GetCashRegisterData.htm" />
   <HelpKINode Title="IOperationService.GetCashRegisterInfoById method" Url="html/M_Resto_Front_Api_IOperationService_GetCashRegisterInfoById.htm" />
   <HelpKINode Title="IOperationService.GetCashRegisterInfos method" Url="html/M_Resto_Front_Api_IOperationService_GetCashRegisterInfos.htm" />
   <HelpKINode Title="IOperationService.GetCashRegisterStatus method" Url="html/M_Resto_Front_Api_IOperationService_GetCashRegisterStatus.htm" />
@@ -6503,7 +6508,11 @@
   <HelpKINode Title="NavigateToOrderAfterOperation method" Url="html/M_Resto_Front_Api_UI_IViewManager_NavigateToOrderAfterOperation.htm" />
   <HelpKINode Title="NavigatingToPaymentScreen property" Url="html/P_Resto_Front_Api_INotificationService_NavigatingToPaymentScreen.htm" />
   <HelpKINode Title="NCode property" Url="html/P_Resto_Front_Api_Exceptions_AgentOperationFailedException_NCode.htm" />
-  <HelpKINode Title="NearPaperEnd property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_NearPaperEnd.htm" />
+  <HelpKINode Title="NearPaperEnd enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
+  <HelpKINode Title="NearPaperEnd property">
+    <HelpKINode Title="CashRegisterResult.NearPaperEnd Property " Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_NearPaperEnd.htm" />
+    <HelpKINode Title="CashRegisterStatus.NearPaperEnd Property " Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_NearPaperEnd.htm" />
+  </HelpKINode>
   <HelpKINode Title="NeedReceipt property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_NeedReceipt.htm" />
   <HelpKINode Title="NeedToCheckBillNumber property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_NeedToCheckBillNumber.htm" />
   <HelpKINode Title="NeedToSplitOrderBeforePayment method" Url="html/M_Resto_Front_Api_IOperationService_NeedToSplitOrderBeforePayment.htm" />
