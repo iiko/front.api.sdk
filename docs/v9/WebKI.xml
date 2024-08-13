@@ -167,6 +167,7 @@
   <HelpKINode Title="AfterPayOut method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterPayOut.htm" />
   <HelpKINode Title="AfterXReport method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterXReport.htm" />
   <HelpKINode Title="AfterZReport method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterZReport.htm" />
+  <HelpKINode Title="Agent enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FfdAgentType.htm" />
   <HelpKINode Title="AgentOperationFailedException class">
     <HelpKINode Title="AgentOperationFailedException Class" Url="html/T_Resto_Front_Api_Exceptions_AgentOperationFailedException.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Exceptions_AgentOperationFailedException__ctor.htm" />
@@ -178,6 +179,7 @@
   <HelpKINode Title="AgentOperationFailedException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_AgentOperationFailedException_GetObjectData.htm" />
   <HelpKINode Title="AgentOperationFailedException.HrCode property" Url="html/P_Resto_Front_Api_Exceptions_AgentOperationFailedException_HrCode.htm" />
   <HelpKINode Title="AgentOperationFailedException.NCode property" Url="html/P_Resto_Front_Api_Exceptions_AgentOperationFailedException_NCode.htm" />
+  <HelpKINode Title="AgentType property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Contractor_AgentType.htm" />
   <HelpKINode Title="AlcoholMarkingProduct class">
     <HelpKINode Title="AlcoholMarkingProduct Class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_AlcoholMarkingProduct.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_DataTransferObjects_AlcoholMarkingProduct__ctor.htm" />
@@ -469,6 +471,7 @@
   <HelpKINode Title="AssignedModifiers property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderProductItem_AssignedModifiers.htm" />
   <HelpKINode Title="AssignedToCurrentDepartment property" Url="html/P_Resto_Front_Api_Data_Security_IUser_AssignedToCurrentDepartment.htm" />
   <HelpKINode Title="AttachToJournalEvent method" Url="html/M_Resto_Front_Api_Editors_IEditSession_AttachToJournalEvent.htm" />
+  <HelpKINode Title="Attorney enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FfdAgentType.htm" />
   <HelpKINode Title="Attribute property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_AspRequiredAttributeAttribute_Attribute.htm" />
   <HelpKINode Title="Attributes class">
     <HelpKINode Title="Attributes Class" Url="html/T_Resto_Front_Api_Data_Cheques_Attributes.htm" />
@@ -574,6 +577,8 @@
     <HelpKINode Title="IProduct.BackgroundColor Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_BackgroundColor.htm" />
     <HelpKINode Title="IProductGroup.BackgroundColor Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_BackgroundColor.htm" />
   </HelpKINode>
+  <HelpKINode Title="BankPaymentAgent enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FfdAgentType.htm" />
+  <HelpKINode Title="BankPaymentSubagent enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FfdAgentType.htm" />
   <HelpKINode Title="BanquetOrderNotSupported enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="Barcode enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_IikoNetCardExternalIdType.htm" />
   <HelpKINode Title="Barcode field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Barcode.htm" />
@@ -1758,6 +1763,7 @@
     <HelpKINode Title="PublicAPIAttribute.Comment Property " Url="html/P_Resto_Front_Api_Attributes_JetBrains_PublicAPIAttribute_Comment.htm" />
   </HelpKINode>
   <HelpKINode Title="CommentRequired property" Url="html/P_Resto_Front_Api_Data_Orders_IRemovalType_CommentRequired.htm" />
+  <HelpKINode Title="Commissioner enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FfdAgentType.htm" />
   <HelpKINode Title="CommodityCode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_CommodityCode.htm" />
   <HelpKINode Title="CommodityMark property">
     <HelpKINode Title="ChequeSale.CommodityMark Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_CommodityMark.htm" />
@@ -1840,6 +1846,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Tasks_Contractor.htm" />
   </HelpKINode>
   <HelpKINode Title="Contractor property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Contractor.htm" />
+  <HelpKINode Title="Contractor.AgentType property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Contractor_AgentType.htm" />
   <HelpKINode Title="Contractor.Contractor constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_Contractor__ctor.htm" />
   <HelpKINode Title="Contractor.Name property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Contractor_Name.htm" />
   <HelpKINode Title="Contractor.PhoneNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Contractor_PhoneNumber.htm" />
@@ -2849,6 +2856,7 @@
   <HelpKINode Title="Ffd12ChequeSaleData.MarkingCode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_MarkingCode.htm" />
   <HelpKINode Title="Ffd12ChequeSaleData.Status property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_Status.htm" />
   <HelpKINode Title="Ffd12ChequeSaleData.Unit property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_Unit.htm" />
+  <HelpKINode Title="FfdAgentType enumeration" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FfdAgentType.htm" />
   <HelpKINode Title="FieldName property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_RazorInjectionAttribute_FieldName.htm" />
   <HelpKINode Title="Fifteenth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Fifth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
@@ -7237,6 +7245,7 @@
   <HelpKINode Title="PaymentActionFailedException.PaymentActionFailedException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_PaymentActionFailedException__ctor.htm" />
   <HelpKINode Title="PaymentActionFailedException.Reason property" Url="html/P_Resto_Front_Api_Exceptions_PaymentActionFailedException_Reason.htm" />
   <HelpKINode Title="PaymentActionFailedExceptionReason enumeration" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
+  <HelpKINode Title="PaymentAgent enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FfdAgentType.htm" />
   <HelpKINode Title="PaymentDataContextExtensions class">
     <HelpKINode Title="PaymentDataContextExtensions Class" Url="html/T_Resto_Front_Api_Extensions_PaymentDataContextExtensions.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_Resto_Front_Api_Extensions_PaymentDataContextExtensions.htm" />
@@ -7269,6 +7278,7 @@
   <HelpKINode Title="PaymentsProcessingCanceled enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="PaymentsProcessingFailed enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="PaymentStatus enumeration" Url="html/T_Resto_Front_Api_Data_Orders_PaymentStatus.htm" />
+  <HelpKINode Title="PaymentSubagent enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FfdAgentType.htm" />
   <HelpKINode Title="PaymentSumNotEnough enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="PaymentSumNotIntegral enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="PaymentSumTooLarge enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
@@ -8332,6 +8342,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.Ffd10CorrectionTask class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.Ffd11CorrectionTask class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_Ffd11CorrectionTask.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.Ffd12ChequeSaleData class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.FfdAgentType enumeration" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FfdAgentType.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.FiscalTag class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FiscalTag.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.GetCashRegisterStatusTask class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_GetCashRegisterStatusTask.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Tasks.GetFiscalTagsTask class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_GetFiscalTagsTask.htm" />
