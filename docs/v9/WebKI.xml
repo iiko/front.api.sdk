@@ -1733,6 +1733,17 @@
   <HelpKINode Title="Column field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Column.htm" />
   <HelpKINode Title="Columns field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Columns.htm" />
   <HelpKINode Title="ColumnSpan field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_ColumnSpan.htm" />
+  <HelpKINode Title="ComboGroupIdAndName class">
+    <HelpKINode Title="ComboGroupIdAndName Class" Url="html/T_Resto_Front_Api_Data_Orders_ComboGroupIdAndName.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Orders_ComboGroupIdAndName__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_ComboGroupIdAndName.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Orders_ComboGroupIdAndName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComboGroupIdAndName.ComboGroupIdAndName constructor" Url="html/M_Resto_Front_Api_Data_Orders_ComboGroupIdAndName__ctor.htm" />
+  <HelpKINode Title="ComboGroupIdAndName.Equals method" Url="html/Overload_Resto_Front_Api_Data_Orders_ComboGroupIdAndName_Equals.htm" />
+  <HelpKINode Title="ComboGroupIdAndName.GetHashCode method" Url="html/M_Resto_Front_Api_Data_Orders_ComboGroupIdAndName_GetHashCode.htm" />
+  <HelpKINode Title="ComboGroupIdAndName.GroupId property" Url="html/P_Resto_Front_Api_Data_Orders_ComboGroupIdAndName_GroupId.htm" />
+  <HelpKINode Title="ComboGroupIdAndName.GroupName property" Url="html/P_Resto_Front_Api_Data_Orders_ComboGroupIdAndName_GroupName.htm" />
   <HelpKINode Title="Combos property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Combos.htm" />
   <HelpKINode Title="Command property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_DirectIoTask_Command.htm" />
   <HelpKINode Title="CommandExecute class">
@@ -2455,12 +2466,12 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2643,6 +2654,7 @@
   <HelpKINode Title="Equals enumeration member" Url="html/T_Resto_Front_Api_Data_Search_SearchType.htm" />
   <HelpKINode Title="Equals method">
     <HelpKINode Title="CardPaymentItemAdditionalData.Equals Method " Url="html/Overload_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData_Equals.htm" />
+    <HelpKINode Title="ComboGroupIdAndName.Equals Method " Url="html/Overload_Resto_Front_Api_Data_Orders_ComboGroupIdAndName_Equals.htm" />
     <HelpKINode Title="CreditPaymentItemAdditionalData.Equals Method " Url="html/Overload_Resto_Front_Api_Data_Payments_CreditPaymentItemAdditionalData_Equals.htm" />
     <HelpKINode Title="ExternalPaymentItemAdditionalData.Equals Method " Url="html/Overload_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData_Equals.htm" />
     <HelpKINode Title="IikoCard51PaymentItemAdditionalData.Equals Method " Url="html/Overload_Resto_Front_Api_Data_Payments_IikoCard51PaymentItemAdditionalData_Equals.htm" />
@@ -3181,6 +3193,7 @@
   </HelpKINode>
   <HelpKINode Title="GetHashCode method">
     <HelpKINode Title="CardPaymentItemAdditionalData.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData_GetHashCode.htm" />
+    <HelpKINode Title="ComboGroupIdAndName.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Orders_ComboGroupIdAndName_GetHashCode.htm" />
     <HelpKINode Title="CreditPaymentItemAdditionalData.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Payments_CreditPaymentItemAdditionalData_GetHashCode.htm" />
     <HelpKINode Title="ExternalPaymentItemAdditionalData.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData_GetHashCode.htm" />
     <HelpKINode Title="IikoCard51PaymentItemAdditionalData.GetHashCode Method " Url="html/M_Resto_Front_Api_Data_Payments_IikoCard51PaymentItemAdditionalData_GetHashCode.htm" />
@@ -3382,7 +3395,9 @@
   <HelpKINode Title="GetWaiterTeams method" Url="html/M_Resto_Front_Api_IOperationService_GetWaiterTeams.htm" />
   <HelpKINode Title="Goods enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
   <HelpKINode Title="Group property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductTag_Group.htm" />
+  <HelpKINode Title="GroupId property" Url="html/P_Resto_Front_Api_Data_Orders_ComboGroupIdAndName_GroupId.htm" />
   <HelpKINode Title="GroupKitchenOrderId property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_GroupKitchenOrderId.htm" />
+  <HelpKINode Title="GroupName property" Url="html/P_Resto_Front_Api_Data_Orders_ComboGroupIdAndName_GroupName.htm" />
   <HelpKINode Title="GroupOrderCookingItems method">
     <HelpKINode Title="IEditSession.GroupOrderCookingItems Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_GroupOrderCookingItems.htm" />
     <HelpKINode Title="OperationServiceExtensions.GroupOrderCookingItems Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_GroupOrderCookingItems.htm" />
@@ -8395,6 +8410,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Orders namespace" Url="html/N_Resto_Front_Api_Data_Orders.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.CardLoyaltyDiscount class" Url="html/T_Resto_Front_Api_Data_Orders_CardLoyaltyDiscount.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.CheckSplitRequiredResult enumeration" Url="html/T_Resto_Front_Api_Data_Orders_CheckSplitRequiredResult.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Orders.ComboGroupIdAndName class" Url="html/T_Resto_Front_Api_Data_Orders_ComboGroupIdAndName.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.DiscountForOrderItem class" Url="html/T_Resto_Front_Api_Data_Orders_DiscountForOrderItem.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IAllergenGroup interface" Url="html/T_Resto_Front_Api_Data_Orders_IAllergenGroup.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IAppliedDiscountItem interface" Url="html/T_Resto_Front_Api_Data_Orders_IAppliedDiscountItem.htm" />
