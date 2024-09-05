@@ -2466,12 +2466,12 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -2480,8 +2480,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -3441,7 +3441,6 @@
     <HelpKINode Title="ISectionSchema.Height Property " Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_Height.htm" />
     <HelpKINode Title="RestaurantSectionObject.Height Property " Url="html/P_Resto_Front_Api_Data_View_RestaurantSectionObject_Height.htm" />
   </HelpKINode>
-  <HelpKINode Title="HeightInDots property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_HeightInDots.htm" />
   <HelpKINode Title="HeightRatio field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_HeightRatio.htm" />
   <HelpKINode Title="HideIfDefaultAmount property" Url="html/P_Resto_Front_Api_Data_Assortment_IChildModifierBase_HideIfDefaultAmount.htm" />
   <HelpKINode Title="HierarchicalMenu class">
@@ -6334,6 +6333,10 @@
   <HelpKINode Title="MainTerminal property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_MainTerminal.htm" />
   <HelpKINode Title="Male enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_Gender.htm" />
   <HelpKINode Title="Manually enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryBillPrintTimeOption.htm" />
+  <HelpKINode Title="MarginBottom property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_MarginBottom.htm" />
+  <HelpKINode Title="MarginLeft property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_MarginLeft.htm" />
+  <HelpKINode Title="MarginRight property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_MarginRight.htm" />
+  <HelpKINode Title="MarginTop property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_MarginTop.htm" />
   <HelpKINode Title="MarkElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_MarkElements.htm" />
   <HelpKINode Title="MarketingCampaignId property" Url="html/P_Resto_Front_Api_Data_Orders_CardLoyaltyDiscount_MarketingCampaignId.htm" />
   <HelpKINode Title="MarketingCampaignName property" Url="html/P_Resto_Front_Api_Data_Orders_CardLoyaltyDiscount_MarketingCampaignName.htm" />
@@ -7128,7 +7131,9 @@
   <HelpKINode Title="Packed enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
   <HelpKINode Title="PackedStatusOnCookingEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_PackedStatusOnCookingEnabled.htm" />
   <HelpKINode Title="Pagecut field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Pagecut.htm" />
+  <HelpKINode Title="PageHeight property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_PageHeight.htm" />
   <HelpKINode Title="PageName property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_RazorPageBaseTypeAttribute_PageName.htm" />
+  <HelpKINode Title="PageWidth property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_PageWidth.htm" />
   <HelpKINode Title="Pair field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Pair.htm" />
   <HelpKINode Title="ParameterExecute class">
     <HelpKINode Title="ParameterExecute Class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ParameterExecute.htm" />
@@ -7593,9 +7598,13 @@
   <HelpKINode Title="PrinterDriverParameters.Font0Width property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_Font0Width.htm" />
   <HelpKINode Title="PrinterDriverParameters.Font1Width property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_Font1Width.htm" />
   <HelpKINode Title="PrinterDriverParameters.Font2Width property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_Font2Width.htm" />
-  <HelpKINode Title="PrinterDriverParameters.HeightInDots property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_HeightInDots.htm" />
+  <HelpKINode Title="PrinterDriverParameters.MarginBottom property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_MarginBottom.htm" />
+  <HelpKINode Title="PrinterDriverParameters.MarginLeft property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_MarginLeft.htm" />
+  <HelpKINode Title="PrinterDriverParameters.MarginRight property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_MarginRight.htm" />
+  <HelpKINode Title="PrinterDriverParameters.MarginTop property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_MarginTop.htm" />
+  <HelpKINode Title="PrinterDriverParameters.PageHeight property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_PageHeight.htm" />
+  <HelpKINode Title="PrinterDriverParameters.PageWidth property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_PageWidth.htm" />
   <HelpKINode Title="PrinterDriverParameters.PrinterDriverParameters constructor" Url="html/M_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters__ctor.htm" />
-  <HelpKINode Title="PrinterDriverParameters.WidthInDots property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_WidthInDots.htm" />
   <HelpKINode Title="PrinterSelectionMode enumeration" Url="html/T_Resto_Front_Api_Data_Print_PrinterSelectionMode.htm" />
   <HelpKINode Title="PrintNds property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_PrintNds.htm" />
   <HelpKINode Title="PrintNonFiscalPrepayCheque property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_PrintNonFiscalPrepayCheque.htm" />
@@ -9706,7 +9715,6 @@
     <HelpKINode Title="ISectionSchema.Width Property " Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_Width.htm" />
     <HelpKINode Title="RestaurantSectionObject.Width Property " Url="html/P_Resto_Front_Api_Data_View_RestaurantSectionObject_Width.htm" />
   </HelpKINode>
-  <HelpKINode Title="WidthInDots property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_WidthInDots.htm" />
   <HelpKINode Title="WithMembers enumeration member" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ImplicitUseTargetFlags.htm" />
   <HelpKINode Title="WithoutWriteoff enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_WriteoffOptions_Type.htm" />
   <HelpKINode Title="WithoutWriteoff method" Url="html/M_Resto_Front_Api_Data_Orders_WriteoffOptions_WithoutWriteoff.htm" />
