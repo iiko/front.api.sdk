@@ -2467,12 +2467,12 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
   </HelpKINode>
   <HelpKINode Title="Document property">
@@ -5381,6 +5381,7 @@
   </HelpKINode>
   <HelpKINode Title="IPointOfSale.CashRegister property" Url="html/P_Resto_Front_Api_Data_Organization_IPointOfSale_CashRegister.htm" />
   <HelpKINode Title="IPointOfSale.Conception property" Url="html/P_Resto_Front_Api_Data_Organization_IPointOfSale_Conception.htm" />
+  <HelpKINode Title="IPointOfSale.IsDefault property" Url="html/P_Resto_Front_Api_Data_Organization_IPointOfSale_IsDefault.htm" />
   <HelpKINode Title="IPointOfSale.Name property" Url="html/P_Resto_Front_Api_Data_Organization_IPointOfSale_Name.htm" />
   <HelpKINode Title="IPreliminaryOrder interface">
     <HelpKINode Title="IPreliminaryOrder Interface" Url="html/T_Resto_Front_Api_Data_PreliminaryOrders_IPreliminaryOrder.htm" />
@@ -5746,7 +5747,10 @@
   <HelpKINode Title="IScreenWithOrder.Order property" Url="html/P_Resto_Front_Api_Data_Screens_IScreenWithOrder_Order.htm" />
   <HelpKINode Title="IsCustomDuplicateCheckSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsCustomDuplicateCheckSupported.htm" />
   <HelpKINode Title="IsCustomerAuthorizedInIikoBiz property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_IsCustomerAuthorizedInIikoBiz.htm" />
-  <HelpKINode Title="IsDefault property" Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceCustomEnumSettingValue_IsDefault.htm" />
+  <HelpKINode Title="IsDefault property">
+    <HelpKINode Title="DeviceCustomEnumSettingValue.IsDefault Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceCustomEnumSettingValue_IsDefault.htm" />
+    <HelpKINode Title="IPointOfSale.IsDefault Property " Url="html/P_Resto_Front_Api_Data_Organization_IPointOfSale_IsDefault.htm" />
+  </HelpKINode>
   <HelpKINode Title="IsDefaultForServiceType property" Url="html/P_Resto_Front_Api_Data_Organization_IOrderType_IsDefaultForServiceType.htm" />
   <HelpKINode Title="IsDefaultNonCash property">
     <HelpKINode Title="ChequePayment.IsDefaultNonCash Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_IsDefaultNonCash.htm" />
