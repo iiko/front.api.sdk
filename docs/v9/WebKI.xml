@@ -2481,8 +2481,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -2849,6 +2849,8 @@
   <HelpKINode Title="Ffd10CorrectionTask.Ffd10CorrectionTask constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask__ctor.htm" />
   <HelpKINode Title="Ffd10CorrectionTask.NonCashSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_NonCashSum.htm" />
   <HelpKINode Title="Ffd10CorrectionTask.PrepaymentSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_PrepaymentSum.htm" />
+  <HelpKINode Title="Ffd10CorrectionTask.SettlementAddress property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_SettlementAddress.htm" />
+  <HelpKINode Title="Ffd10CorrectionTask.SettlementPlace property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_SettlementPlace.htm" />
   <HelpKINode Title="Ffd10CorrectionTask.TaxationSystem property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_TaxationSystem.htm" />
   <HelpKINode Title="Ffd10CorrectionTask.VatSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_VatSum.htm" />
   <HelpKINode Title="Ffd11CorrectionTask class">
@@ -9019,10 +9021,14 @@
     <HelpKINode Title="DeviceInfo.Settings Property " Url="html/P_Resto_Front_Api_Data_Device_Results_DeviceInfo_Settings.htm" />
     <HelpKINode Title="DeviceSettings.Settings Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceSettings_Settings.htm" />
   </HelpKINode>
-  <HelpKINode Title="SettlementAddress property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_SettlementAddress.htm" />
+  <HelpKINode Title="SettlementAddress property">
+    <HelpKINode Title="ChequeTask.SettlementAddress Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_SettlementAddress.htm" />
+    <HelpKINode Title="Ffd10CorrectionTask.SettlementAddress Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_SettlementAddress.htm" />
+  </HelpKINode>
   <HelpKINode Title="SettlementPlace property">
     <HelpKINode Title="ChequeAdditionalInfo.SettlementPlace Property " Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_SettlementPlace.htm" />
     <HelpKINode Title="ChequeTask.SettlementPlace Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_SettlementPlace.htm" />
+    <HelpKINode Title="Ffd10CorrectionTask.SettlementPlace Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_SettlementPlace.htm" />
   </HelpKINode>
   <HelpKINode Title="Setup method" Url="html/M_Resto_Front_Api_Devices_IDevice_Setup.htm" />
   <HelpKINode Title="Seventeenth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
