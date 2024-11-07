@@ -1809,6 +1809,7 @@
     <HelpKINode Title="ExternalCompanyInfo.CompanyName Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_CompanyName.htm" />
     <HelpKINode Title="IRestaurant.CompanyName Property " Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_CompanyName.htm" />
   </HelpKINode>
+  <HelpKINode Title="CompatibleCategories property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_CompatibleCategories.htm" />
   <HelpKINode Title="ComplexAddOrUpdateKitchenOrderAndItemsExternalData method" Url="html/M_Resto_Front_Api_IOperationService_ComplexAddOrUpdateKitchenOrderAndItemsExternalData.htm" />
   <HelpKINode Title="ComplexDeleteKitchenOrderAndItemsExternalData method" Url="html/M_Resto_Front_Api_IOperationService_ComplexDeleteKitchenOrderAndItemsExternalData.htm" />
   <HelpKINode Title="CompoundItemComponents property" Url="html/P_Resto_Front_Api_Data_Orders_ISelectiveDiscountItemSettings_CompoundItemComponents.htm" />
@@ -2475,10 +2476,10 @@
   <HelpKINode Title="Document class">
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="Document Class" Url="html/T_Resto_Front_Api_Data_Device_Results_Document.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Print_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Print_Document.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_Document.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Resto_Front_Api_Data_Print_Document.htm" />
@@ -2489,8 +2490,8 @@
   </HelpKINode>
   <HelpKINode Title="Document to XElement conversion" Url="html/M_Resto_Front_Api_Data_Print_Document_op_Implicit.htm" />
   <HelpKINode Title="Document.Document constructor">
-    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
     <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Device_Results_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/Overload_Resto_Front_Api_Data_Print_Document__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Document.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
   <HelpKINode Title="Document.Lines property" Url="html/P_Resto_Front_Api_Data_Device_Results_Document_Lines.htm" />
@@ -5343,6 +5344,7 @@
   </HelpKINode>
   <HelpKINode Title="IPaymentType.CanBeExternalProcessed property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_CanBeExternalProcessed.htm" />
   <HelpKINode Title="IPaymentType.CanDisplayChange property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_CanDisplayChange.htm" />
+  <HelpKINode Title="IPaymentType.CompatibleCategories property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_CompatibleCategories.htm" />
   <HelpKINode Title="IPaymentType.DiscountType property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_DiscountType.htm" />
   <HelpKINode Title="IPaymentType.FiscalizeAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_FiscalizeAsDiscount.htm" />
   <HelpKINode Title="IPaymentType.IsCombinable property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_IsCombinable.htm" />
