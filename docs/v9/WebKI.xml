@@ -652,6 +652,7 @@
   <HelpKINode Title="BaseTypeRequiredAttribute.BaseTypeRequiredAttribute constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_BaseTypeRequiredAttribute__ctor.htm" />
   <HelpKINode Title="Batches property" Url="html/P_Resto_Front_Api_Data_ProductStocks_IProductStock_Batches.htm" />
   <HelpKINode Title="BeepOnDeliveriesUpdate property" Url="html/P_Resto_Front_Api_Data_Organization_IDeliverySettings_BeepOnDeliveriesUpdate.htm" />
+  <HelpKINode Title="BeforeAddOrderItems property" Url="html/P_Resto_Front_Api_INotificationService_BeforeAddOrderItems.htm" />
   <HelpKINode Title="BeforeCheque property">
     <HelpKINode Title="BeforeDoChequeActionResult.BeforeCheque Property " Url="html/P_Resto_Front_Api_Data_Device_BeforeDoChequeActionResult_BeforeCheque.htm" />
     <HelpKINode Title="CashRegisterChequeExtensions.BeforeCheque Property " Url="html/P_Resto_Front_Api_Data_Device_CashRegisterChequeExtensions_BeforeCheque.htm" />
@@ -4491,6 +4492,7 @@
     <HelpKINode Title="INotificationService Interface" Url="html/T_Resto_Front_Api_INotificationService.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_INotificationService.htm" />
   </HelpKINode>
+  <HelpKINode Title="INotificationService.BeforeAddOrderItems property" Url="html/P_Resto_Front_Api_INotificationService_BeforeAddOrderItems.htm" />
   <HelpKINode Title="INotificationService.BeforeCustomDataClear property" Url="html/P_Resto_Front_Api_INotificationService_BeforeCustomDataClear.htm" />
   <HelpKINode Title="INotificationService.BeforeDeleteNonPrintedItems property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDeleteNonPrintedItems.htm" />
   <HelpKINode Title="INotificationService.BeforeDeleteOrder property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDeleteOrder.htm" />
