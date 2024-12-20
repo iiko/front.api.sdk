@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
+  <HelpKINode Title="A property" Url="html/P_Resto_Front_Api_Data_View_Color_A.htm" />
   <HelpKINode Title="Accepted enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
   <HelpKINode Title="Access enumeration member" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ImplicitUseKindFlags.htm" />
   <HelpKINode Title="AccountingReasonCode property">
@@ -581,6 +582,7 @@
   <HelpKINode Title="AvailableComponentSimpleModifiers property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderCompoundItem_AvailableComponentSimpleModifiers.htm" />
   <HelpKINode Title="AvailableGroupModifiers property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderProductItem_AvailableGroupModifiers.htm" />
   <HelpKINode Title="AvailableSimpleModifiers property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderProductItem_AvailableSimpleModifiers.htm" />
+  <HelpKINode Title="B property" Url="html/P_Resto_Front_Api_Data_View_Color_B.htm" />
   <HelpKINode Title="BackgroundColor property">
     <HelpKINode Title="IProduct.BackgroundColor Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_BackgroundColor.htm" />
     <HelpKINode Title="IProductGroup.BackgroundColor Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_BackgroundColor.htm" />
@@ -1737,6 +1739,17 @@
     <HelpKINode Title="RestaurantSectionMark.Color Property " Url="html/P_Resto_Front_Api_Data_View_RestaurantSectionMark_Color.htm" />
     <HelpKINode Title="RestaurantSectionRectangle.Color Property " Url="html/P_Resto_Front_Api_Data_View_RestaurantSectionRectangle_Color.htm" />
   </HelpKINode>
+  <HelpKINode Title="Color structure">
+    <HelpKINode Title="Color Structure" Url="html/T_Resto_Front_Api_Data_View_Color.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_View_Color__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_View_Color.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_View_Color.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Color.A property" Url="html/P_Resto_Front_Api_Data_View_Color_A.htm" />
+  <HelpKINode Title="Color.B property" Url="html/P_Resto_Front_Api_Data_View_Color_B.htm" />
+  <HelpKINode Title="Color.Color constructor" Url="html/Overload_Resto_Front_Api_Data_View_Color__ctor.htm" />
+  <HelpKINode Title="Color.G property" Url="html/P_Resto_Front_Api_Data_View_Color_G.htm" />
+  <HelpKINode Title="Color.R property" Url="html/P_Resto_Front_Api_Data_View_Color_R.htm" />
   <HelpKINode Title="Column field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Column.htm" />
   <HelpKINode Title="Columns field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Columns.htm" />
   <HelpKINode Title="ColumnSpan field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_ColumnSpan.htm" />
@@ -3076,6 +3089,7 @@
   <HelpKINode Title="FullPrepayment enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeTransferType.htm" />
   <HelpKINode Title="FullSum property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_FullSum.htm" />
   <HelpKINode Title="FullSumWithVat property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_FullSumWithVat.htm" />
+  <HelpKINode Title="G property" Url="html/P_Resto_Front_Api_Data_View_Color_G.htm" />
   <HelpKINode Title="Gender enumeration" Url="html/T_Resto_Front_Api_Data_Brd_Gender.htm" />
   <HelpKINode Title="Gender property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Gender.htm" />
   <HelpKINode Title="Get method" Url="html/Overload_Resto_Front_Api_Editors_ISubmittedEntities_Get.htm" />
@@ -7727,8 +7741,6 @@
   <HelpKINode Title="ProductExtensions.TryGetDisabledSizes method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetDisabledSizes.htm" />
   <HelpKINode Title="ProductExtensions.TryGetIncludedInMenuSections method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetIncludedInMenuSections.htm" />
   <HelpKINode Title="ProductExtensions.TryGetParent method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetParent.htm" />
-  <HelpKINode Title="ProductExtensions.TryGetProductGroupMenuBitmap method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetProductGroupMenuBitmap.htm" />
-  <HelpKINode Title="ProductExtensions.TryGetProductMenuBitmap method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetProductMenuBitmap.htm" />
   <HelpKINode Title="ProductExtensions.TryGetTemplatedModifiersParams method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetTemplatedModifiersParams.htm" />
   <HelpKINode Title="ProductGroup property">
     <HelpKINode Title="IFixedGroupModifier.ProductGroup Property " Url="html/P_Resto_Front_Api_Data_Orders_IFixedGroupModifier_ProductGroup.htm" />
@@ -7832,6 +7844,7 @@
   <HelpKINode Title="QueryInfoResult.TaxesInfo property" Url="html/P_Resto_Front_Api_Data_Device_Results_QueryInfoResult_TaxesInfo.htm" />
   <HelpKINode Title="Question property" Url="html/P_Resto_Front_Api_Data_Brd_ISurveyItem_Question.htm" />
   <HelpKINode Title="QuickMenuUpdated property" Url="html/P_Resto_Front_Api_INotificationService_QuickMenuUpdated.htm" />
+  <HelpKINode Title="R property" Url="html/P_Resto_Front_Api_Data_View_Color_R.htm" />
   <HelpKINode Title="Rank property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderGuestItem_Rank.htm" />
   <HelpKINode Title="Rate enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
   <HelpKINode Title="Rate property" Url="html/P_Resto_Front_Api_Data_Payments_CurrencyInfo_Rate.htm" />
@@ -8567,6 +8580,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.View namespace" Url="html/N_Resto_Front_Api_Data_View.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.BarcodeInputDialogResult class" Url="html/T_Resto_Front_Api_Data_View_BarcodeInputDialogResult.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.CardInputDialogResult class" Url="html/T_Resto_Front_Api_Data_View_CardInputDialogResult.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.View.Color structure" Url="html/T_Resto_Front_Api_Data_View_Color.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.DecimalInputDialogResult class" Url="html/T_Resto_Front_Api_Data_View_DecimalInputDialogResult.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.Font structure" Url="html/T_Resto_Front_Api_Data_View_Font.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.View.FontStyle enumeration" Url="html/T_Resto_Front_Api_Data_View_FontStyle.htm" />
@@ -9423,13 +9437,11 @@
   <HelpKINode Title="TryGetProductById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductById.htm" />
   <HelpKINode Title="TryGetProductCategoryById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductCategoryById.htm" />
   <HelpKINode Title="TryGetProductGroupById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductGroupById.htm" />
-  <HelpKINode Title="TryGetProductGroupMenuBitmap method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetProductGroupMenuBitmap.htm" />
   <HelpKINode Title="TryGetProductGroupMenuImage method">
     <HelpKINode Title="IOperationService.TryGetProductGroupMenuImage Method " Url="html/M_Resto_Front_Api_IOperationService_TryGetProductGroupMenuImage.htm" />
     <HelpKINode Title="OperationArgumentExtensions.TryGetProductGroupMenuImage Method " Url="html/M_Resto_Front_Api_OperationArgumentExtensions_TryGetProductGroupMenuImage.htm" />
   </HelpKINode>
   <HelpKINode Title="TryGetProductItemCategoryById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetProductItemCategoryById.htm" />
-  <HelpKINode Title="TryGetProductMenuBitmap method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductExtensions_TryGetProductMenuBitmap.htm" />
   <HelpKINode Title="TryGetProductMenuImage method">
     <HelpKINode Title="IOperationService.TryGetProductMenuImage Method " Url="html/M_Resto_Front_Api_IOperationService_TryGetProductMenuImage.htm" />
     <HelpKINode Title="OperationArgumentExtensions.TryGetProductMenuImage Method " Url="html/M_Resto_Front_Api_OperationArgumentExtensions_TryGetProductMenuImage.htm" />
