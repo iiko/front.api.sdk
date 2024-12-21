@@ -6023,6 +6023,8 @@
     <HelpKINode Title="KitchenOrderModifierItemDto.ItemSaleEventId Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderModifierItemDto_ItemSaleEventId.htm" />
     <HelpKINode Title="KitchenOrderProductItemDto.ItemSaleEventId Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderProductItemDto_ItemSaleEventId.htm" />
   </HelpKINode>
+  <HelpKINode Title="ItemsDeletedWithoutWriteoff property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_ItemsDeletedWithoutWriteoff.htm" />
+  <HelpKINode Title="ItemsDeletedWithWriteoff property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_ItemsDeletedWithWriteoff.htm" />
   <HelpKINode Title="ItemStatusCode property" Url="html/P_Resto_Front_Api_Data_Device_Results_CheckFfd12MarkingResult_ItemStatusCode.htm" />
   <HelpKINode Title="ITerminal interface">
     <HelpKINode Title="ITerminal Interface" Url="html/T_Resto_Front_Api_Data_Organization_ITerminal.htm" />
@@ -7189,6 +7191,8 @@
   <HelpKINode Title="PastOrder.GroupOrderInfo property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_GroupOrderInfo.htm" />
   <HelpKINode Title="PastOrder.GroupPastOrders property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_GroupPastOrders.htm" />
   <HelpKINode Title="PastOrder.Items property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_Items.htm" />
+  <HelpKINode Title="PastOrder.ItemsDeletedWithoutWriteoff property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_ItemsDeletedWithoutWriteoff.htm" />
+  <HelpKINode Title="PastOrder.ItemsDeletedWithWriteoff property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_ItemsDeletedWithWriteoff.htm" />
   <HelpKINode Title="PastOrder.Number property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_Number.htm" />
   <HelpKINode Title="PastOrder.OpenTime property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_OpenTime.htm" />
   <HelpKINode Title="PastOrder.OrderId property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_OrderId.htm" />
