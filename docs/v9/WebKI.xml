@@ -168,6 +168,7 @@
     <HelpKINode Title="ShortenedChequeExtensions.AfterCheque Property " Url="html/P_Resto_Front_Api_Data_Cheques_ShortenedChequeExtensions_AfterCheque.htm" />
   </HelpKINode>
   <HelpKINode Title="AfterDoChequeAction method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterDoChequeAction.htm" />
+  <HelpKINode Title="AfterDoFfd11CorrectionOnPaymentOrderAction method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterDoFfd11CorrectionOnPaymentOrderAction.htm" />
   <HelpKINode Title="AfterFooter property" Url="html/P_Resto_Front_Api_Data_Cheques_ChequeExtensions_AfterFooter.htm" />
   <HelpKINode Title="AfterHeader property" Url="html/P_Resto_Front_Api_Data_Cheques_ChequeExtensions_AfterHeader.htm" />
   <HelpKINode Title="AfterOpenSession method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterOpenSession.htm" />
@@ -680,6 +681,7 @@
   <HelpKINode Title="BeforeDoChequeActionResult.CustomerTin property" Url="html/P_Resto_Front_Api_Data_Device_BeforeDoChequeActionResult_CustomerTin.htm" />
   <HelpKINode Title="BeforeDoChequeActionResult.Sales property" Url="html/P_Resto_Front_Api_Data_Device_BeforeDoChequeActionResult_Sales.htm" />
   <HelpKINode Title="BeforeDoChequeOperationFailed enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
+  <HelpKINode Title="BeforeDoFfd11CorrectionOnPaymentOrderAction method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforeDoFfd11CorrectionOnPaymentOrderAction.htm" />
   <HelpKINode Title="BeforeFooter property" Url="html/P_Resto_Front_Api_Data_Cheques_ChequeExtensions_BeforeFooter.htm" />
   <HelpKINode Title="BeforeHeader property" Url="html/P_Resto_Front_Api_Data_Cheques_ChequeExtensions_BeforeHeader.htm" />
   <HelpKINode Title="BeforeOpenSession method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforeOpenSession.htm" />
@@ -2894,6 +2896,7 @@
   <HelpKINode Title="FindFaceId enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_IikoCard51SearchScope.htm" />
   <HelpKINode Title="First enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="FirstName property" Url="html/P_Resto_Front_Api_Data_Users_UserFullName_FirstName.htm" />
+  <HelpKINode Title="FiscalChequeBeforePaymentEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_FiscalChequeBeforePaymentEnabled.htm" />
   <HelpKINode Title="FiscalChequeNumbers property">
     <HelpKINode Title="IOrder.FiscalChequeNumbers Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_FiscalChequeNumbers.htm" />
     <HelpKINode Title="PastOrder.FiscalChequeNumbers Property " Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_FiscalChequeNumbers.htm" />
@@ -3622,12 +3625,14 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Devices_IChequeTaskProcessor.htm" />
   </HelpKINode>
   <HelpKINode Title="IChequeTaskProcessor.AfterDoChequeAction method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterDoChequeAction.htm" />
+  <HelpKINode Title="IChequeTaskProcessor.AfterDoFfd11CorrectionOnPaymentOrderAction method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterDoFfd11CorrectionOnPaymentOrderAction.htm" />
   <HelpKINode Title="IChequeTaskProcessor.AfterOpenSession method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterOpenSession.htm" />
   <HelpKINode Title="IChequeTaskProcessor.AfterPayIn method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterPayIn.htm" />
   <HelpKINode Title="IChequeTaskProcessor.AfterPayOut method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterPayOut.htm" />
   <HelpKINode Title="IChequeTaskProcessor.AfterXReport method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterXReport.htm" />
   <HelpKINode Title="IChequeTaskProcessor.AfterZReport method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_AfterZReport.htm" />
   <HelpKINode Title="IChequeTaskProcessor.BeforeDoChequeAction method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforeDoChequeAction.htm" />
+  <HelpKINode Title="IChequeTaskProcessor.BeforeDoFfd11CorrectionOnPaymentOrderAction method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforeDoFfd11CorrectionOnPaymentOrderAction.htm" />
   <HelpKINode Title="IChequeTaskProcessor.BeforeOpenSession method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforeOpenSession.htm" />
   <HelpKINode Title="IChequeTaskProcessor.BeforePayIn method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforePayIn.htm" />
   <HelpKINode Title="IChequeTaskProcessor.BeforePayOut method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforePayOut.htm" />
@@ -4903,6 +4908,7 @@
   <HelpKINode Title="IOperationService.PrintBillCheque method" Url="html/M_Resto_Front_Api_IOperationService_PrintBillCheque.htm" />
   <HelpKINode Title="IOperationService.PrintCashMemoCheque method" Url="html/M_Resto_Front_Api_IOperationService_PrintCashMemoCheque.htm" />
   <HelpKINode Title="IOperationService.PrintDeliveryBill method" Url="html/M_Resto_Front_Api_IOperationService_PrintDeliveryBill.htm" />
+  <HelpKINode Title="IOperationService.PrintFiscalChequeBeforePaymentOrder method" Url="html/M_Resto_Front_Api_IOperationService_PrintFiscalChequeBeforePaymentOrder.htm" />
   <HelpKINode Title="IOperationService.PrintOrderItems method" Url="html/M_Resto_Front_Api_IOperationService_PrintOrderItems.htm" />
   <HelpKINode Title="IOperationService.PrintReceiptCheque method" Url="html/M_Resto_Front_Api_IOperationService_PrintReceiptCheque.htm" />
   <HelpKINode Title="IOperationService.PrintTableReservedCheque method" Url="html/M_Resto_Front_Api_IOperationService_PrintTableReservedCheque.htm" />
@@ -5047,6 +5053,7 @@
   <HelpKINode Title="IOrder.IikoCard51Info property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_IikoCard51Info.htm" />
   <HelpKINode Title="IOrder.IsBanquetOrder property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_IsBanquetOrder.htm" />
   <HelpKINode Title="IOrder.IsFastFoodOrder property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_IsFastFoodOrder.htm" />
+  <HelpKINode Title="IOrder.IsFiscalizedBeforePayment property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_IsFiscalizedBeforePayment.htm" />
   <HelpKINode Title="IOrder.IsTopCookingPriority property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_IsTopCookingPriority.htm" />
   <HelpKINode Title="IOrder.Items property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Items.htm" />
   <HelpKINode Title="IOrder.LastChangedTerminalId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_LastChangedTerminalId.htm" />
@@ -5284,6 +5291,7 @@
   <HelpKINode Title="IPaymentItem.IsExternal property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsExternal.htm" />
   <HelpKINode Title="IPaymentItem.IsFiscalizedAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedAsDiscount.htm" />
   <HelpKINode Title="IPaymentItem.IsFiscalizedExternally property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedExternally.htm" />
+  <HelpKINode Title="IPaymentItem.IsFiscalizedLocally property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedLocally.htm" />
   <HelpKINode Title="IPaymentItem.IsPreliminary property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsPreliminary.htm" />
   <HelpKINode Title="IPaymentItem.IsPrepay property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsPrepay.htm" />
   <HelpKINode Title="IPaymentItem.IsProcessedAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsProcessedAsDiscount.htm" />
@@ -5690,6 +5698,7 @@
   </HelpKINode>
   <HelpKINode Title="IRestaurantSection.DefaultOrderType property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_DefaultOrderType.htm" />
   <HelpKINode Title="IRestaurantSection.DefaultPriceCategory property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_DefaultPriceCategory.htm" />
+  <HelpKINode Title="IRestaurantSection.FiscalChequeBeforePaymentEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_FiscalChequeBeforePaymentEnabled.htm" />
   <HelpKINode Title="IRestaurantSection.KitchenCoursesEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_KitchenCoursesEnabled.htm" />
   <HelpKINode Title="IRestaurantSection.Name property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_Name.htm" />
   <HelpKINode Title="IRestaurantSection.OrderItemCommentsEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_OrderItemCommentsEnabled.htm" />
@@ -5819,7 +5828,9 @@
   </HelpKINode>
   <HelpKINode Title="IsFastFoodOrder property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_IsFastFoodOrder.htm" />
   <HelpKINode Title="IsFiscalizedAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedAsDiscount.htm" />
+  <HelpKINode Title="IsFiscalizedBeforePayment property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_IsFiscalizedBeforePayment.htm" />
   <HelpKINode Title="IsFiscalizedExternally property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedExternally.htm" />
+  <HelpKINode Title="IsFiscalizedLocally property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_IsFiscalizedLocally.htm" />
   <HelpKINode Title="IsFractionalAmount property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_IsFractionalAmount.htm" />
   <HelpKINode Title="IsHidden property">
     <HelpKINode Title="IKitchenOrderModifierItem.IsHidden Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderModifierItem_IsHidden.htm" />
@@ -7617,6 +7628,8 @@
   <HelpKINode Title="PrinterDriverParameters.PageWidth property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_PageWidth.htm" />
   <HelpKINode Title="PrinterDriverParameters.PrinterDriverParameters constructor" Url="html/M_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters__ctor.htm" />
   <HelpKINode Title="PrinterSelectionMode enumeration" Url="html/T_Resto_Front_Api_Data_Print_PrinterSelectionMode.htm" />
+  <HelpKINode Title="PrintFiscalChequeBeforePaymentOrder method" Url="html/M_Resto_Front_Api_IOperationService_PrintFiscalChequeBeforePaymentOrder.htm" />
+  <HelpKINode Title="PrintFiscalChequeBeforePaymentOrderFailed enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="PrintNds property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_PrintNds.htm" />
   <HelpKINode Title="PrintNonFiscalPrepayCheque property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_PrintNonFiscalPrepayCheque.htm" />
   <HelpKINode Title="PrintOrderItems method" Url="html/M_Resto_Front_Api_IOperationService_PrintOrderItems.htm" />
