@@ -679,6 +679,7 @@
   <HelpKINode Title="BeforeDoChequeActionResult.BeforeDoChequeActionResult constructor" Url="html/M_Resto_Front_Api_Data_Device_BeforeDoChequeActionResult__ctor.htm" />
   <HelpKINode Title="BeforeDoChequeActionResult.CashierName property" Url="html/P_Resto_Front_Api_Data_Device_BeforeDoChequeActionResult_CashierName.htm" />
   <HelpKINode Title="BeforeDoChequeActionResult.CustomerTin property" Url="html/P_Resto_Front_Api_Data_Device_BeforeDoChequeActionResult_CustomerTin.htm" />
+  <HelpKINode Title="BeforeDoChequeActionResult.FiscalTags property" Url="html/P_Resto_Front_Api_Data_Device_BeforeDoChequeActionResult_FiscalTags.htm" />
   <HelpKINode Title="BeforeDoChequeActionResult.Sales property" Url="html/P_Resto_Front_Api_Data_Device_BeforeDoChequeActionResult_Sales.htm" />
   <HelpKINode Title="BeforeDoChequeOperationFailed enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="BeforeDoFfd11CorrectionOnPaymentOrderAction method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforeDoFfd11CorrectionOnPaymentOrderAction.htm" />
@@ -722,6 +723,7 @@
   <HelpKINode Title="BillTask.CancellingSaleNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_CancellingSaleNumber.htm" />
   <HelpKINode Title="BillTask.DiscountPercent property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_DiscountPercent.htm" />
   <HelpKINode Title="BillTask.DiscountSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_DiscountSum.htm" />
+  <HelpKINode Title="BillTask.FiscalTags property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_FiscalTags.htm" />
   <HelpKINode Title="BillTask.IncreasePercent property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IncreasePercent.htm" />
   <HelpKINode Title="BillTask.IncreaseSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IncreaseSum.htm" />
   <HelpKINode Title="BillTask.IsCancellation property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IsCancellation.htm" />
@@ -2944,7 +2946,11 @@
   <HelpKINode Title="FiscalTag.Code property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_FiscalTag_Code.htm" />
   <HelpKINode Title="FiscalTag.FiscalTag constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_FiscalTag__ctor.htm" />
   <HelpKINode Title="FiscalTag.Value property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_FiscalTag_Value.htm" />
-  <HelpKINode Title="FiscalTags property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_FiscalTags.htm" />
+  <HelpKINode Title="FiscalTags property">
+    <HelpKINode Title="BeforeDoChequeActionResult.FiscalTags Property " Url="html/P_Resto_Front_Api_Data_Device_BeforeDoChequeActionResult_FiscalTags.htm" />
+    <HelpKINode Title="BillTask.FiscalTags Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_FiscalTags.htm" />
+    <HelpKINode Title="ChequeSale.FiscalTags Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_FiscalTags.htm" />
+  </HelpKINode>
   <HelpKINode Title="FiscalTagsResult class">
     <HelpKINode Title="FiscalTagsResult Class" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalTagsResult.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Device_Results_FiscalTagsResult__ctor.htm" />
