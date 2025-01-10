@@ -2550,7 +2550,8 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_EgaisDataException.htm" />
   </HelpKINode>
   <HelpKINode Title="EgaisDataException.EgaisDataException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_EgaisDataException__ctor.htm" />
-  <HelpKINode Title="EgaisDataException.ExciseStamp property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStamp.htm" />
+  <HelpKINode Title="EgaisDataException.ExciseStamps property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStamps.htm" />
+  <HelpKINode Title="EgaisDataException.ExciseStampsAlcCodes property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStampsAlcCodes.htm" />
   <HelpKINode Title="EgaisDataException.FsRarId property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_FsRarId.htm" />
   <HelpKINode Title="EgaisDataException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_EgaisDataException_GetObjectData.htm" />
   <HelpKINode Title="Eighteenth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
@@ -2700,7 +2701,8 @@
     <HelpKINode Title="CustomDataChangedEventArgs.EventType Property " Url="html/P_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs_EventType.htm" />
     <HelpKINode Title="EntityChangedEventArgs(T).EventType Property " Url="html/P_Resto_Front_Api_Data_Common_EntityChangedEventArgs_1_EventType.htm" />
   </HelpKINode>
-  <HelpKINode Title="ExciseStamp property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStamp.htm" />
+  <HelpKINode Title="ExciseStamps property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStamps.htm" />
+  <HelpKINode Title="ExciseStampsAlcCodes property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStampsAlcCodes.htm" />
   <HelpKINode Title="ExecuteContinuousOperation method" Url="html/Overload_Resto_Front_Api_IOperationService_ExecuteContinuousOperation.htm" />
   <HelpKINode Title="ExpectedDeliverTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ExpectedDeliverTime.htm" />
   <HelpKINode Title="ExpectedDuration property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ExpectedDuration.htm" />
