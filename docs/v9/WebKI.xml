@@ -2528,6 +2528,13 @@
     <HelpKINode Title="IOperationService.DoZReport Method " Url="html/M_Resto_Front_Api_IOperationService_DoZReport.htm" />
   </HelpKINode>
   <HelpKINode Title="Dpi property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_Dpi.htm" />
+  <HelpKINode Title="DuplicatedIdException class">
+    <HelpKINode Title="DuplicatedIdException Class" Url="html/T_Resto_Front_Api_Exceptions_DuplicatedIdException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Exceptions_DuplicatedIdException__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Exceptions_DuplicatedIdException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_DuplicatedIdException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DuplicatedIdException.DuplicatedIdException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_DuplicatedIdException__ctor.htm" />
   <HelpKINode Title="Duration property">
     <HelpKINode Title="IDeliveryOrder.Duration Property " Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_Duration.htm" />
     <HelpKINode Title="IReserve.Duration Property " Url="html/P_Resto_Front_Api_Data_Brd_IReserve_Duration.htm" />
@@ -2704,6 +2711,7 @@
   <HelpKINode Title="ExciseStamps property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStamps.htm" />
   <HelpKINode Title="ExciseStampsAlcCodes property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStampsAlcCodes.htm" />
   <HelpKINode Title="ExecuteContinuousOperation method" Url="html/Overload_Resto_Front_Api_IOperationService_ExecuteContinuousOperation.htm" />
+  <HelpKINode Title="ExistsEgaisMarkInfo method" Url="html/M_Resto_Front_Api_IOperationService_ExistsEgaisMarkInfo.htm" />
   <HelpKINode Title="ExpectedDeliverTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ExpectedDeliverTime.htm" />
   <HelpKINode Title="ExpectedDuration property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ExpectedDuration.htm" />
   <HelpKINode Title="ExpirationDate property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_AlcoholMarkingProduct_ExpirationDate.htm" />
@@ -4725,6 +4733,7 @@
   <HelpKINode Title="IOperationService.DoZReport method" Url="html/M_Resto_Front_Api_IOperationService_DoZReport.htm" />
   <HelpKINode Title="IOperationService.EnablePreliminaryOrdersScreen method" Url="html/M_Resto_Front_Api_IOperationService_EnablePreliminaryOrdersScreen.htm" />
   <HelpKINode Title="IOperationService.ExecuteContinuousOperation method" Url="html/Overload_Resto_Front_Api_IOperationService_ExecuteContinuousOperation.htm" />
+  <HelpKINode Title="IOperationService.ExistsEgaisMarkInfo method" Url="html/M_Resto_Front_Api_IOperationService_ExistsEgaisMarkInfo.htm" />
   <HelpKINode Title="IOperationService.FormatDocumentOnPrintingDevice method" Url="html/M_Resto_Front_Api_IOperationService_FormatDocumentOnPrintingDevice.htm" />
   <HelpKINode Title="IOperationService.GetActivePaymentTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetActivePaymentTypes.htm" />
   <HelpKINode Title="IOperationService.GetActiveProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveProducts.htm" />
@@ -8701,6 +8710,7 @@
   <HelpKINode Title="Resto.Front.Api.Exceptions.DeviceException class" Url="html/T_Resto_Front_Api_Exceptions_DeviceException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.DeviceNotStartedException class" Url="html/T_Resto_Front_Api_Exceptions_DeviceNotStartedException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.DeviceRegistrationException class" Url="html/T_Resto_Front_Api_Exceptions_DeviceRegistrationException.htm" />
+  <HelpKINode Title="Resto.Front.Api.Exceptions.DuplicatedIdException class" Url="html/T_Resto_Front_Api_Exceptions_DuplicatedIdException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.EgaisDataException class" Url="html/T_Resto_Front_Api_Exceptions_EgaisDataException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.EntityAlreadyInUseException class" Url="html/T_Resto_Front_Api_Exceptions_EntityAlreadyInUseException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.EntityModifiedException class" Url="html/T_Resto_Front_Api_Exceptions_EntityModifiedException.htm" />
