@@ -2118,6 +2118,10 @@
   </HelpKINode>
   <HelpKINode Title="DecimalInputDialogResult.Decimal property" Url="html/P_Resto_Front_Api_Data_View_DecimalInputDialogResult_Decimal.htm" />
   <HelpKINode Title="DecimalInputDialogResult.DecimalInputDialogResult constructor" Url="html/M_Resto_Front_Api_Data_View_DecimalInputDialogResult__ctor.htm" />
+  <HelpKINode Title="DecreasePrintedComboAmount method">
+    <HelpKINode Title="IEditSession.DecreasePrintedComboAmount Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_DecreasePrintedComboAmount.htm" />
+    <HelpKINode Title="OperationServiceExtensions.DecreasePrintedComboAmount Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DecreasePrintedComboAmount.htm" />
+  </HelpKINode>
   <HelpKINode Title="Default enumeration member">
     <HelpKINode Title="ButtonWidth Enumeration" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
     <HelpKINode Title="FiscalPaymentTypeGroup Enumeration" Url="html/T_Resto_Front_Api_Data_Payments_FiscalPaymentTypeGroup.htm" />
@@ -4104,6 +4108,7 @@
   <HelpKINode Title="IEditSession.CreateOrder method" Url="html/M_Resto_Front_Api_Editors_IEditSession_CreateOrder.htm" />
   <HelpKINode Title="IEditSession.CreateReserve method" Url="html/M_Resto_Front_Api_Editors_IEditSession_CreateReserve.htm" />
   <HelpKINode Title="IEditSession.CreateStreet method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_CreateStreet.htm" />
+  <HelpKINode Title="IEditSession.DecreasePrintedComboAmount method" Url="html/M_Resto_Front_Api_Editors_IEditSession_DecreasePrintedComboAmount.htm" />
   <HelpKINode Title="IEditSession.DeleteDiscount method" Url="html/M_Resto_Front_Api_Editors_IEditSession_DeleteDiscount.htm" />
   <HelpKINode Title="IEditSession.DeleteExternalFiscalizedPaymentItem method" Url="html/M_Resto_Front_Api_Editors_IEditSession_DeleteExternalFiscalizedPaymentItem.htm" />
   <HelpKINode Title="IEditSession.DeleteExternalPaymentItem method" Url="html/M_Resto_Front_Api_Editors_IEditSession_DeleteExternalPaymentItem.htm" />
@@ -7033,6 +7038,7 @@
   <HelpKINode Title="OperationServiceExtensions.CreateClientWithOrganizationDetails method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_CreateClientWithOrganizationDetails.htm" />
   <HelpKINode Title="OperationServiceExtensions.CreateReserve method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_CreateReserve.htm" />
   <HelpKINode Title="OperationServiceExtensions.CreateStreet method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_CreateStreet.htm" />
+  <HelpKINode Title="OperationServiceExtensions.DecreasePrintedComboAmount method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DecreasePrintedComboAmount.htm" />
   <HelpKINode Title="OperationServiceExtensions.DeleteDiscount method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DeleteDiscount.htm" />
   <HelpKINode Title="OperationServiceExtensions.DeleteExternalFiscalizedPaymentItem method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DeleteExternalFiscalizedPaymentItem.htm" />
   <HelpKINode Title="OperationServiceExtensions.DeleteExternalPaymentItem method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DeleteExternalPaymentItem.htm" />
