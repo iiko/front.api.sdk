@@ -3877,6 +3877,7 @@
   <HelpKINode Title="IDeliveryOrder.MovedToTerminalGroupId property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_MovedToTerminalGroupId.htm" />
   <HelpKINode Title="IDeliveryOrder.PackedTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_PackedTime.htm" />
   <HelpKINode Title="IDeliveryOrder.Phone property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_Phone.htm" />
+  <HelpKINode Title="IDeliveryOrder.PhoneExtension property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_PhoneExtension.htm" />
   <HelpKINode Title="IDeliveryOrder.PredictedCookingCompleteTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_PredictedCookingCompleteTime.htm" />
   <HelpKINode Title="IDeliveryOrder.PredictedDeliveryTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_PredictedDeliveryTime.htm" />
   <HelpKINode Title="IDeliveryOrder.PrintTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_PrintTime.htm" />
@@ -7455,6 +7456,7 @@
   <HelpKINode Title="PhoneDto.IsMain property" Url="html/P_Resto_Front_Api_Data_Brd_PhoneDto_IsMain.htm" />
   <HelpKINode Title="PhoneDto.PhoneDto constructor" Url="html/Overload_Resto_Front_Api_Data_Brd_PhoneDto__ctor.htm" />
   <HelpKINode Title="PhoneDto.PhoneValue property" Url="html/P_Resto_Front_Api_Data_Brd_PhoneDto_PhoneValue.htm" />
+  <HelpKINode Title="PhoneExtension property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_PhoneExtension.htm" />
   <HelpKINode Title="PhoneInputDialogResult class">
     <HelpKINode Title="PhoneInputDialogResult Class" Url="html/T_Resto_Front_Api_Data_View_PhoneInputDialogResult.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_View_PhoneInputDialogResult__ctor.htm" />
