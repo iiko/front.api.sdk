@@ -1802,6 +1802,7 @@
     <HelpKINode Title="ChequeSale.CommodityMark Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_CommodityMark.htm" />
     <HelpKINode Title="IOrderProductItem.CommodityMark Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderProductItem_CommodityMark.htm" />
   </HelpKINode>
+  <HelpKINode Title="CommodityMarkUsing enumeration member" Url="html/T_Resto_Front_Api_Exceptions_ConstraintViolationExceptionReason.htm" />
   <HelpKINode Title="Common enumeration member">
     <HelpKINode Title="OrderServiceTypes Enumeration" Url="html/T_Resto_Front_Api_Data_Organization_OrderServiceTypes.htm" />
     <HelpKINode Title="SurveyType Enumeration" Url="html/T_Resto_Front_Api_Data_Brd_SurveyType.htm" />
@@ -1861,6 +1862,9 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Exceptions_ConstraintViolationException.htm" />
   </HelpKINode>
   <HelpKINode Title="ConstraintViolationException.ConstraintViolationException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_ConstraintViolationException__ctor.htm" />
+  <HelpKINode Title="ConstraintViolationException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_ConstraintViolationException_GetObjectData.htm" />
+  <HelpKINode Title="ConstraintViolationException.Reason property" Url="html/P_Resto_Front_Api_Exceptions_ConstraintViolationException_Reason.htm" />
+  <HelpKINode Title="ConstraintViolationExceptionReason enumeration" Url="html/T_Resto_Front_Api_Exceptions_ConstraintViolationExceptionReason.htm" />
   <HelpKINode Title="Container property" Url="html/P_Resto_Front_Api_Data_Assortment_IBarcodeContainer_Container.htm" />
   <HelpKINode Title="ContainerBarcode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_UkraineChequeSaleData_ContainerBarcode.htm" />
   <HelpKINode Title="Contract property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_ContractAnnotationAttribute_Contract.htm" />
@@ -3271,6 +3275,7 @@
     <HelpKINode Title="CannotAddInactiveProductException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_CannotAddInactiveProductException_GetObjectData.htm" />
     <HelpKINode Title="CheckSplitResultDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_CheckSplitResultDto_GetObjectData.htm" />
     <HelpKINode Title="ChequeExtensions.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Cheques_ChequeExtensions_GetObjectData.htm" />
+    <HelpKINode Title="ConstraintViolationException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_ConstraintViolationException_GetObjectData.htm" />
     <HelpKINode Title="DeliverySmsNotificationTemplates.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_DeliverySmsNotificationTemplates_GetObjectData.htm" />
     <HelpKINode Title="DeviceException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_DeviceException_GetObjectData.htm" />
     <HelpKINode Title="Document.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Print_Document_GetObjectData.htm" />
@@ -6512,6 +6517,7 @@
     <HelpKINode Title="KitchenOrderProductItemDto.Modifiers Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderProductItemDto_Modifiers.htm" />
     <HelpKINode Title="PreliminaryOrderItemProduct.Modifiers Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemProduct_Modifiers.htm" />
   </HelpKINode>
+  <HelpKINode Title="ModifierUsing enumeration member" Url="html/T_Resto_Front_Api_Exceptions_ConstraintViolationExceptionReason.htm" />
   <HelpKINode Title="ModifyExistingContent enumeration member" Url="html/T_Resto_Front_Api_Attributes_JetBrains_CollectionAccessType.htm" />
   <HelpKINode Title="ModuleId property" Url="html/P_Resto_Front_Api_Attributes_PluginLicenseModuleIdAttribute_ModuleId.htm" />
   <HelpKINode Title="MoreThanOnePaymentsWithChange enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
@@ -7403,6 +7409,7 @@
   <HelpKINode Title="PaymentTypes property" Url="html/P_Resto_Front_Api_Data_Payments_IDonationType_PaymentTypes.htm" />
   <HelpKINode Title="PaymentTypesInfo property" Url="html/P_Resto_Front_Api_Data_Device_Results_QueryInfoResult_PaymentTypesInfo.htm" />
   <HelpKINode Title="PaymentTypeToFiscalRegisterPaymentTypeIds property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_PaymentTypeToFiscalRegisterPaymentTypeIds.htm" />
+  <HelpKINode Title="PaymentTypeUsing enumeration member" Url="html/T_Resto_Front_Api_Exceptions_ConstraintViolationExceptionReason.htm" />
   <HelpKINode Title="PayOrder method" Url="html/M_Resto_Front_Api_IOperationService_PayOrder.htm" />
   <HelpKINode Title="PayOrderAndPayOutOnUser method" Url="html/M_Resto_Front_Api_IOperationService_PayOrderAndPayOutOnUser.htm" />
   <HelpKINode Title="PayOrderFailed enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
@@ -7773,6 +7780,7 @@
     <HelpKINode Title="IOrderProductItem.ProductCustomName Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderProductItem_ProductCustomName.htm" />
     <HelpKINode Title="IRemovedOrderItem.ProductCustomName Property " Url="html/P_Resto_Front_Api_Data_Orders_IRemovedOrderItem_ProductCustomName.htm" />
   </HelpKINode>
+  <HelpKINode Title="ProductExludedFromMenu enumeration member" Url="html/T_Resto_Front_Api_Exceptions_ConstraintViolationExceptionReason.htm" />
   <HelpKINode Title="ProductExtensions class">
     <HelpKINode Title="ProductExtensions Class" Url="html/T_Resto_Front_Api_Data_Assortment_ProductExtensions.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Assortment_ProductExtensions.htm" />
@@ -8009,6 +8017,7 @@
   <HelpKINode Title="ReadyForPickupConfirmation enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
   <HelpKINode Title="ReadyForReturnConfirmation enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
   <HelpKINode Title="Reason property">
+    <HelpKINode Title="ConstraintViolationException.Reason Property " Url="html/P_Resto_Front_Api_Exceptions_ConstraintViolationException_Reason.htm" />
     <HelpKINode Title="ExternalOperationCallingException.Reason Property " Url="html/P_Resto_Front_Api_Exceptions_ExternalOperationCallingException_Reason.htm" />
     <HelpKINode Title="PaymentActionFailedException.Reason Property " Url="html/P_Resto_Front_Api_Exceptions_PaymentActionFailedException_Reason.htm" />
     <HelpKINode Title="WriteoffPaymentItemAdditionalData.Reason Property " Url="html/P_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData_Reason.htm" />
@@ -8715,6 +8724,7 @@
   <HelpKINode Title="Resto.Front.Api.Exceptions.CannotCreateEntityException class" Url="html/T_Resto_Front_Api_Exceptions_CannotCreateEntityException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.CannotUseInactiveEntityException class" Url="html/T_Resto_Front_Api_Exceptions_CannotUseInactiveEntityException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.ConstraintViolationException class" Url="html/T_Resto_Front_Api_Exceptions_ConstraintViolationException.htm" />
+  <HelpKINode Title="Resto.Front.Api.Exceptions.ConstraintViolationExceptionReason enumeration" Url="html/T_Resto_Front_Api_Exceptions_ConstraintViolationExceptionReason.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.DeviceException class" Url="html/T_Resto_Front_Api_Exceptions_DeviceException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.DeviceNotStartedException class" Url="html/T_Resto_Front_Api_Exceptions_DeviceNotStartedException.htm" />
   <HelpKINode Title="Resto.Front.Api.Exceptions.DeviceRegistrationException class" Url="html/T_Resto_Front_Api_Exceptions_DeviceRegistrationException.htm" />
@@ -9031,6 +9041,7 @@
     <HelpKINode Title="DeviceInfo.Settings Property " Url="html/P_Resto_Front_Api_Data_Device_Results_DeviceInfo_Settings.htm" />
     <HelpKINode Title="DeviceSettings.Settings Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceSettings_Settings.htm" />
   </HelpKINode>
+  <HelpKINode Title="SettingsIssue enumeration member" Url="html/T_Resto_Front_Api_Exceptions_ConstraintViolationExceptionReason.htm" />
   <HelpKINode Title="SettlementAddress property">
     <HelpKINode Title="ChequeTask.SettlementAddress Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_SettlementAddress.htm" />
     <HelpKINode Title="Ffd10CorrectionTask.SettlementAddress Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_SettlementAddress.htm" />
