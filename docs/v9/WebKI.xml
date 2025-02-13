@@ -821,6 +821,7 @@
   <HelpKINode Title="CancelNewDeliveryAndHideItemsFromOlap method" Url="html/M_Resto_Front_Api_IOperationService_CancelNewDeliveryAndHideItemsFromOlap.htm" />
   <HelpKINode Title="CancelReason property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_CancelReason.htm" />
   <HelpKINode Title="CancelReserve method" Url="html/M_Resto_Front_Api_IOperationService_CancelReserve.htm" />
+  <HelpKINode Title="CancelSend method" Url="html/M_Resto_Front_Api_IOperationService_CancelSend.htm" />
   <HelpKINode Title="CancelSum enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="CancelSum property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_CancelSum.htm" />
   <HelpKINode Title="CancelTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_CancelTime.htm" />
@@ -982,6 +983,7 @@
   <HelpKINode Title="CashRegisterDriverParameters.CanPrintText property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_CanPrintText.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.CashRegisterDriverParameters constructor" Url="html/M_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters__ctor.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.IsBillTaskSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsBillTaskSupported.htm" />
+  <HelpKINode Title="CashRegisterDriverParameters.IsBuyChequeSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsBuyChequeSupported.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.IsCancellationSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsCancellationSupported.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.IsCustomDuplicateCheckSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsCustomDuplicateCheckSupported.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.IsRegisterStatusSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsRegisterStatusSupported.htm" />
@@ -4705,6 +4707,7 @@
   <HelpKINode Title="IOperationService.CancelNewDelivery method" Url="html/M_Resto_Front_Api_IOperationService_CancelNewDelivery.htm" />
   <HelpKINode Title="IOperationService.CancelNewDeliveryAndHideItemsFromOlap method" Url="html/M_Resto_Front_Api_IOperationService_CancelNewDeliveryAndHideItemsFromOlap.htm" />
   <HelpKINode Title="IOperationService.CancelReserve method" Url="html/M_Resto_Front_Api_IOperationService_CancelReserve.htm" />
+  <HelpKINode Title="IOperationService.CancelSend method" Url="html/M_Resto_Front_Api_IOperationService_CancelSend.htm" />
   <HelpKINode Title="IOperationService.CanProductBePaidWithPaymentType method" Url="html/M_Resto_Front_Api_IOperationService_CanProductBePaidWithPaymentType.htm" />
   <HelpKINode Title="IOperationService.CashRegisterDirectIO method" Url="html/M_Resto_Front_Api_IOperationService_CashRegisterDirectIO.htm" />
   <HelpKINode Title="IOperationService.CashRegisterDrawerIsOpened method" Url="html/M_Resto_Front_Api_IOperationService_CashRegisterDrawerIsOpened.htm" />
@@ -4920,6 +4923,8 @@
   <HelpKINode Title="IOperationService.IsConnectedToMainTerminal method" Url="html/M_Resto_Front_Api_IOperationService_IsConnectedToMainTerminal.htm" />
   <HelpKINode Title="IOperationService.IsDeliveryActive method" Url="html/M_Resto_Front_Api_IOperationService_IsDeliveryActive.htm" />
   <HelpKINode Title="IOperationService.IsDeliveryConfirmationActive method" Url="html/M_Resto_Front_Api_IOperationService_IsDeliveryConfirmationActive.htm" />
+  <HelpKINode Title="IOperationService.IsMainCashConnected method" Url="html/M_Resto_Front_Api_IOperationService_IsMainCashConnected.htm" />
+  <HelpKINode Title="IOperationService.IsMainCashPresent method" Url="html/M_Resto_Front_Api_IOperationService_IsMainCashPresent.htm" />
   <HelpKINode Title="IOperationService.IsMultiCashRegisterConfiguration method" Url="html/M_Resto_Front_Api_IOperationService_IsMultiCashRegisterConfiguration.htm" />
   <HelpKINode Title="IOperationService.IsOrderHasVatInvoice method" Url="html/M_Resto_Front_Api_IOperationService_IsOrderHasVatInvoice.htm" />
   <HelpKINode Title="IOperationService.IsStopListProductSellingRestricted method" Url="html/M_Resto_Front_Api_IOperationService_IsStopListProductSellingRestricted.htm" />
@@ -5755,6 +5760,7 @@
   <HelpKINode Title="IsBanquet property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_IsBanquet.htm" />
   <HelpKINode Title="IsBanquetOrder property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_IsBanquetOrder.htm" />
   <HelpKINode Title="IsBillTaskSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsBillTaskSupported.htm" />
+  <HelpKINode Title="IsBuyChequeSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsBuyChequeSupported.htm" />
   <HelpKINode Title="IsCalculated property">
     <HelpKINode Title="ChequeSale.IsCalculated Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_IsCalculated.htm" />
     <HelpKINode Title="FiscalRegisterTaxItem.IsCalculated Property " Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalRegisterTaxItem_IsCalculated.htm" />
@@ -5889,6 +5895,8 @@
     <HelpKINode Title="IPhone.IsMain Property " Url="html/P_Resto_Front_Api_Data_Brd_IPhone_IsMain.htm" />
     <HelpKINode Title="PhoneDto.IsMain Property " Url="html/P_Resto_Front_Api_Data_Brd_PhoneDto_IsMain.htm" />
   </HelpKINode>
+  <HelpKINode Title="IsMainCashConnected method" Url="html/M_Resto_Front_Api_IOperationService_IsMainCashConnected.htm" />
+  <HelpKINode Title="IsMainCashPresent method" Url="html/M_Resto_Front_Api_IOperationService_IsMainCashPresent.htm" />
   <HelpKINode Title="IsMainDish property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrderItem_IsMainDish.htm" />
   <HelpKINode Title="IsMainTerminal property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_IsMainTerminal.htm" />
   <HelpKINode Title="IsMarked property" Url="html/P_Resto_Front_Api_Data_Device_IOuterEconomicActivityNomenclatureCode_IsMarked.htm" />
