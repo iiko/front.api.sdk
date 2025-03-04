@@ -226,6 +226,7 @@
   <HelpKINode Title="Amount property">
     <HelpKINode Title="ChequeSale.Amount Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Amount.htm" />
     <HelpKINode Title="DiscountForOrderItem.Amount Property " Url="html/P_Resto_Front_Api_Data_Orders_DiscountForOrderItem_Amount.htm" />
+    <HelpKINode Title="FoodValueComponent.Amount Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent_Amount.htm" />
     <HelpKINode Title="IContainer.Amount Property " Url="html/P_Resto_Front_Api_Data_Assortment_IContainer_Amount.htm" />
     <HelpKINode Title="IKitchenOrderCompoundItemComponent.Amount Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCompoundItemComponent_Amount.htm" />
     <HelpKINode Title="IKitchenOrderModifierItem.Amount Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderModifierItem_Amount.htm" />
@@ -1822,6 +1823,7 @@
   <HelpKINode Title="CompatibleCategories property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_CompatibleCategories.htm" />
   <HelpKINode Title="ComplexAddOrUpdateKitchenOrderAndItemsExternalData method" Url="html/M_Resto_Front_Api_IOperationService_ComplexAddOrUpdateKitchenOrderAndItemsExternalData.htm" />
   <HelpKINode Title="ComplexDeleteKitchenOrderAndItemsExternalData method" Url="html/M_Resto_Front_Api_IOperationService_ComplexDeleteKitchenOrderAndItemsExternalData.htm" />
+  <HelpKINode Title="Components property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_FoodValue_Components.htm" />
   <HelpKINode Title="CompoundItemComponents property" Url="html/P_Resto_Front_Api_Data_Orders_ISelectiveDiscountItemSettings_CompoundItemComponents.htm" />
   <HelpKINode Title="CompoundItemTemplate property" Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderCompoundItemDto_CompoundItemTemplate.htm" />
   <HelpKINode Title="CompoundItemTemplateChanged property" Url="html/P_Resto_Front_Api_INotificationService_CompoundItemTemplateChanged.htm" />
@@ -3039,10 +3041,22 @@
   </HelpKINode>
   <HelpKINode Title="FoodValue.Caloricity property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_FoodValue_Caloricity.htm" />
   <HelpKINode Title="FoodValue.Carbohydrate property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_FoodValue_Carbohydrate.htm" />
+  <HelpKINode Title="FoodValue.Components property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_FoodValue_Components.htm" />
   <HelpKINode Title="FoodValue.Fat property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_FoodValue_Fat.htm" />
   <HelpKINode Title="FoodValue.FoodValue constructor" Url="html/Overload_Resto_Front_Api_Data_DataTransferObjects_FoodValue__ctor.htm" />
   <HelpKINode Title="FoodValue.GetObjectData method" Url="html/M_Resto_Front_Api_Data_DataTransferObjects_FoodValue_GetObjectData.htm" />
   <HelpKINode Title="FoodValue.Protein property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_FoodValue_Protein.htm" />
+  <HelpKINode Title="FoodValueComponent class">
+    <HelpKINode Title="FoodValueComponent Class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FoodValueComponent.Amount property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent_Amount.htm" />
+  <HelpKINode Title="FoodValueComponent.FoodValueComponent constructor" Url="html/Overload_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent__ctor.htm" />
+  <HelpKINode Title="FoodValueComponent.GetObjectData method" Url="html/M_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent_GetObjectData.htm" />
+  <HelpKINode Title="FoodValueComponent.NutritionComponentId property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent_NutritionComponentId.htm" />
+  <HelpKINode Title="FoodValueComponent.Priority property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent_Priority.htm" />
   <HelpKINode Title="ForceFullStates property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_ContractAnnotationAttribute_ForceFullStates.htm" />
   <HelpKINode Title="ForeignName property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_ForeignName.htm" />
   <HelpKINode Title="Format property">
@@ -3289,6 +3303,7 @@
     <HelpKINode Title="ExternalCourierServiceDataDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto_GetObjectData.htm" />
     <HelpKINode Title="ExternalOperationCallingException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_ExternalOperationCallingException_GetObjectData.htm" />
     <HelpKINode Title="FoodValue.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_FoodValue_GetObjectData.htm" />
+    <HelpKINode Title="FoodValueComponent.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent_GetObjectData.htm" />
     <HelpKINode Title="HierarchicalMenu.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_HierarchicalMenu_GetObjectData.htm" />
     <HelpKINode Title="LegalAddress.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_LegalAddress_GetObjectData.htm" />
     <HelpKINode Title="OrderIdAndNum.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Orders_OrderIdAndNum_GetObjectData.htm" />
@@ -6844,6 +6859,7 @@
   <HelpKINode Title="NumberInputDialogResult.NumberInputDialogResult constructor" Url="html/M_Resto_Front_Api_Data_View_NumberInputDialogResult__ctor.htm" />
   <HelpKINode Title="NumericInputMode enumeration" Url="html/T_Resto_Front_Api_UI_NumericInputMode.htm" />
   <HelpKINode Title="NumericInputMode property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_NumericInputMode.htm" />
+  <HelpKINode Title="NutritionComponentId property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent_NutritionComponentId.htm" />
   <HelpKINode Title="OfdBufferedDocuments enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="OfdBufferedDocuments property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdBufferedDocuments.htm" />
   <HelpKINode Title="OfdChequeDateTime enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
@@ -7694,6 +7710,7 @@
     <HelpKINode Title="KitchenOrderProductItemDto.PrintTime Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderProductItemDto_PrintTime.htm" />
   </HelpKINode>
   <HelpKINode Title="PrintVat property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_PrintVat.htm" />
+  <HelpKINode Title="Priority property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent_Priority.htm" />
   <HelpKINode Title="ProblemComment property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ProblemComment.htm" />
   <HelpKINode Title="ProcessAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_ProcessAsDiscount.htm" />
   <HelpKINode Title="Processed enumeration member">
@@ -8367,6 +8384,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.DataTransferObjects.AlcoholMarkingProduct class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_AlcoholMarkingProduct.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.DataTransferObjects.CheckSplitResultDto class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_CheckSplitResultDto.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.DataTransferObjects.FoodValue class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_FoodValue.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.DataTransferObjects.FoodValueComponent class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.DataTransferObjects.HierarchicalMenu class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_HierarchicalMenu.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.DataTransferObjects.LegalAddress class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_LegalAddress.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.DataTransferObjects.PreliminaryOrderItemModifier class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemModifier.htm" />
