@@ -987,6 +987,7 @@
   <HelpKINode Title="CashRegisterDriverParameters.IsBuyChequeSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsBuyChequeSupported.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.IsCancellationSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsCancellationSupported.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.IsCustomDuplicateCheckSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsCustomDuplicateCheckSupported.htm" />
+  <HelpKINode Title="CashRegisterDriverParameters.IsMultipleMarkingCodesPerUnitSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsMultipleMarkingCodesPerUnitSupported.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.IsRegisterStatusSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsRegisterStatusSupported.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.NeedToCheckBillNumber property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_NeedToCheckBillNumber.htm" />
   <HelpKINode Title="CashRegisterDriverParameters.PrintDetailedChequeWithPrepay property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_PrintDetailedChequeWithPrepay.htm" />
@@ -2808,6 +2809,7 @@
     <HelpKINode Title="IKitchenOrder.ExternalNumber Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_ExternalNumber.htm" />
     <HelpKINode Title="IOrder.ExternalNumber Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_ExternalNumber.htm" />
     <HelpKINode Title="KitchenOrderDto.ExternalNumber Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderDto_ExternalNumber.htm" />
+    <HelpKINode Title="PastOrder.ExternalNumber Property " Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_ExternalNumber.htm" />
   </HelpKINode>
   <HelpKINode Title="ExternalOperationCallingException class">
     <HelpKINode Title="ExternalOperationCallingException Class" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationCallingException.htm" />
@@ -3338,6 +3340,7 @@
   <HelpKINode Title="GetOrganizationFingerprint method" Url="html/M_Resto_Front_Api_IOperationService_GetOrganizationFingerprint.htm" />
   <HelpKINode Title="GetPastOrder method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrder.htm" />
   <HelpKINode Title="GetPastOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrders.htm" />
+  <HelpKINode Title="GetPastOrdersByExternalNumber method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrdersByExternalNumber.htm" />
   <HelpKINode Title="GetPastOrdersBySum method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrdersBySum.htm" />
   <HelpKINode Title="GetPaymentProcessorSettingsKey method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetPaymentProcessorSettingsKey.htm" />
   <HelpKINode Title="GetPaymentSystemKey method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentSystemKey.htm" />
@@ -4852,6 +4855,7 @@
   <HelpKINode Title="IOperationService.GetOrganizationFingerprint method" Url="html/M_Resto_Front_Api_IOperationService_GetOrganizationFingerprint.htm" />
   <HelpKINode Title="IOperationService.GetPastOrder method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrder.htm" />
   <HelpKINode Title="IOperationService.GetPastOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrders.htm" />
+  <HelpKINode Title="IOperationService.GetPastOrdersByExternalNumber method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrdersByExternalNumber.htm" />
   <HelpKINode Title="IOperationService.GetPastOrdersBySum method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrdersBySum.htm" />
   <HelpKINode Title="IOperationService.GetPaymentSystemKey method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentSystemKey.htm" />
   <HelpKINode Title="IOperationService.GetPaymentTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetPaymentTypeById.htm" />
@@ -5916,6 +5920,7 @@
   <HelpKINode Title="IsMainTerminal property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_IsMainTerminal.htm" />
   <HelpKINode Title="IsMarked property" Url="html/P_Resto_Front_Api_Data_Device_IOuterEconomicActivityNomenclatureCode_IsMarked.htm" />
   <HelpKINode Title="IsMultiCashRegisterConfiguration method" Url="html/M_Resto_Front_Api_IOperationService_IsMultiCashRegisterConfiguration.htm" />
+  <HelpKINode Title="IsMultipleMarkingCodesPerUnitSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsMultipleMarkingCodesPerUnitSupported.htm" />
   <HelpKINode Title="IsOfdConnected enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="IsOfdConnected property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_IsOfdConnected.htm" />
   <HelpKINode Title="IsOfdElectronicChequeOnly property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_IsOfdElectronicChequeOnly.htm" />
@@ -7251,6 +7256,7 @@
   <HelpKINode Title="PastOrder.CashRegister property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_CashRegister.htm" />
   <HelpKINode Title="PastOrder.CloseTime property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_CloseTime.htm" />
   <HelpKINode Title="PastOrder.Deleted property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_Deleted.htm" />
+  <HelpKINode Title="PastOrder.ExternalNumber property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_ExternalNumber.htm" />
   <HelpKINode Title="PastOrder.FiscalChequeNumbers property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_FiscalChequeNumbers.htm" />
   <HelpKINode Title="PastOrder.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Orders_PastOrder_GetObjectData.htm" />
   <HelpKINode Title="PastOrder.GroupOrderInfo property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_GroupOrderInfo.htm" />
