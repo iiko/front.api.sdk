@@ -131,6 +131,7 @@
   <HelpKINode Title="AddressDto.AdditionalInfo property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_AdditionalInfo.htm" />
   <HelpKINode Title="AddressDto.AddressDto constructor" Url="html/Overload_Resto_Front_Api_Data_Brd_AddressDto__ctor.htm" />
   <HelpKINode Title="AddressDto.Building property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Building.htm" />
+  <HelpKINode Title="AddressDto.Distance property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Distance.htm" />
   <HelpKINode Title="AddressDto.Doorphone property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Doorphone.htm" />
   <HelpKINode Title="AddressDto.Entrance property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Entrance.htm" />
   <HelpKINode Title="AddressDto.ExternalCartographyId property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_ExternalCartographyId.htm" />
@@ -143,6 +144,8 @@
   <HelpKINode Title="AddressDto.Line2 property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Line2.htm" />
   <HelpKINode Title="AddressDto.RegionId property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_RegionId.htm" />
   <HelpKINode Title="AddressDto.StreetId property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_StreetId.htm" />
+  <HelpKINode Title="AddressDto.Subtitle property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Subtitle.htm" />
+  <HelpKINode Title="AddressDto.Title property" Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Title.htm" />
   <HelpKINode Title="Addresses property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Addresses.htm" />
   <HelpKINode Title="AddressShowType enumeration" Url="html/T_Resto_Front_Api_Data_Settings_AddressShowType.htm" />
   <HelpKINode Title="AddressShowType property" Url="html/P_Resto_Front_Api_Data_Settings_AddressShowTypeSettings_AddressShowType.htm" />
@@ -1623,6 +1626,7 @@
   <HelpKINode Title="ChequeSale.KzChequeSaleData property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_KzChequeSaleData.htm" />
   <HelpKINode Title="ChequeSale.MeasuringUnit property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_MeasuringUnit.htm" />
   <HelpKINode Title="ChequeSale.Name property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Name.htm" />
+  <HelpKINode Title="ChequeSale.OrderItemIds property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_OrderItemIds.htm" />
   <HelpKINode Title="ChequeSale.Price property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Price.htm" />
   <HelpKINode Title="ChequeSale.ProductId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_ProductId.htm" />
   <HelpKINode Title="ChequeSale.Section property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Section.htm" />
@@ -2505,6 +2509,10 @@
   </HelpKINode>
   <HelpKINode Title="DisplayRelativeNumberOfModifiers property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_DisplayRelativeNumberOfModifiers.htm" />
   <HelpKINode Title="DisplayText property" Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenStatusInfo_DisplayText.htm" />
+  <HelpKINode Title="Distance property">
+    <HelpKINode Title="AddressDto.Distance Property " Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Distance.htm" />
+    <HelpKINode Title="IAddress.Distance Property " Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Distance.htm" />
+  </HelpKINode>
   <HelpKINode Title="DoBillCheque method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DoBillCheque.htm" />
   <HelpKINode Title="Doc field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Doc.htm" />
   <HelpKINode Title="Doc property" Url="html/P_Resto_Front_Api_Data_Cheques_ReceiptSlip_Doc.htm" />
@@ -3575,6 +3583,7 @@
   </HelpKINode>
   <HelpKINode Title="IAddress.AdditionalInfo property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_AdditionalInfo.htm" />
   <HelpKINode Title="IAddress.Building property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Building.htm" />
+  <HelpKINode Title="IAddress.Distance property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Distance.htm" />
   <HelpKINode Title="IAddress.Doorphone property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Doorphone.htm" />
   <HelpKINode Title="IAddress.Entrance property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Entrance.htm" />
   <HelpKINode Title="IAddress.ExternalCartographyId property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_ExternalCartographyId.htm" />
@@ -3586,6 +3595,8 @@
   <HelpKINode Title="IAddress.Line2 property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Line2.htm" />
   <HelpKINode Title="IAddress.Region property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Region.htm" />
   <HelpKINode Title="IAddress.Street property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Street.htm" />
+  <HelpKINode Title="IAddress.Subtitle property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Subtitle.htm" />
+  <HelpKINode Title="IAddress.Title property" Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Title.htm" />
   <HelpKINode Title="IAllergenGroup interface">
     <HelpKINode Title="IAllergenGroup Interface" Url="html/T_Resto_Front_Api_Data_Orders_IAllergenGroup.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IAllergenGroup.htm" />
@@ -7209,6 +7220,7 @@
   <HelpKINode Title="OrderItemIdentifierCode.Id property" Url="html/P_Resto_Front_Api_Data_Orders_OrderItemIdentifierCode_Id.htm" />
   <HelpKINode Title="OrderItemIdentifierCode.OrderItemIdentifierCode constructor" Url="html/M_Resto_Front_Api_Data_Orders_OrderItemIdentifierCode__ctor.htm" />
   <HelpKINode Title="OrderItemIdentifierCode.VerificationResult property" Url="html/P_Resto_Front_Api_Data_Orders_OrderItemIdentifierCode_VerificationResult.htm" />
+  <HelpKINode Title="OrderItemIds property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_OrderItemIds.htm" />
   <HelpKINode Title="OrderItemsGroupingEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_OrderItemsGroupingEnabled.htm" />
   <HelpKINode Title="OrderItemStatus enumeration" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemStatus.htm" />
   <HelpKINode Title="OrderNotFound enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
@@ -9348,6 +9360,10 @@
     <HelpKINode Title="INotification(T).Subscribe Method " Url="html/M_Resto_Front_Api_INotification_1_Subscribe.htm" />
     <HelpKINode Title="INotification(T, TResult).Subscribe Method " Url="html/M_Resto_Front_Api_INotification_2_Subscribe.htm" />
   </HelpKINode>
+  <HelpKINode Title="Subtitle property">
+    <HelpKINode Title="AddressDto.Subtitle Property " Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Subtitle.htm" />
+    <HelpKINode Title="IAddress.Subtitle Property " Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Subtitle.htm" />
+  </HelpKINode>
   <HelpKINode Title="Success property">
     <HelpKINode Title="MarkingVerificationResult.Success Property " Url="html/P_Resto_Front_Api_Data_Orders_MarkingVerificationResult_Success.htm" />
     <HelpKINode Title="PostResult.Success Property " Url="html/P_Resto_Front_Api_Data_Device_Results_PostResult_Success.htm" />
@@ -9526,6 +9542,10 @@
   <HelpKINode Title="TimingMode property" Url="html/P_Resto_Front_Api_Data_Orders_RateSchedule_TimingMode.htm" />
   <HelpKINode Title="TimingStep property" Url="html/P_Resto_Front_Api_Data_Orders_RateSchedule_TimingStep.htm" />
   <HelpKINode Title="Tiny field" Url="html/F_Resto_Front_Api_Data_Cheques_AttributeValues_Tiny.htm" />
+  <HelpKINode Title="Title property">
+    <HelpKINode Title="AddressDto.Title Property " Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Title.htm" />
+    <HelpKINode Title="IAddress.Title Property " Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Title.htm" />
+  </HelpKINode>
   <HelpKINode Title="Top field" Url="html/F_Resto_Front_Api_Data_Cheques_AttributeValues_Top.htm" />
   <HelpKINode Title="TopLeft property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_CustomerDisplayTextTask_TopLeft.htm" />
   <HelpKINode Title="TopRight property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_CustomerDisplayTextTask_TopRight.htm" />
