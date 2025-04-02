@@ -2318,7 +2318,7 @@
     <HelpKINode Title="IProduct.Description Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Description.htm" />
   </HelpKINode>
   <HelpKINode Title="DescriptionForeign property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_DescriptionForeign.htm" />
-  <HelpKINode Title="DetailedVatInvoiceParamaters property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_DetailedVatInvoiceParamaters.htm" />
+  <HelpKINode Title="DetailedVatInvoiceParameters property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_DetailedVatInvoiceParameters.htm" />
   <HelpKINode Title="Details property">
     <HelpKINode Title="ErrorResult.Details Property " Url="html/P_Resto_Front_Api_Data_Device_Results_ErrorResult_Details.htm" />
     <HelpKINode Title="PaymentActionFailedException.Details Property " Url="html/P_Resto_Front_Api_Exceptions_PaymentActionFailedException_Details.htm" />
@@ -5135,7 +5135,7 @@
   <HelpKINode Title="IOrder.Comment property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Comment.htm" />
   <HelpKINode Title="IOrder.CookingPriority property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_CookingPriority.htm" />
   <HelpKINode Title="IOrder.CustomerIds property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_CustomerIds.htm" />
-  <HelpKINode Title="IOrder.DetailedVatInvoiceParamaters property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_DetailedVatInvoiceParamaters.htm" />
+  <HelpKINode Title="IOrder.DetailedVatInvoiceParameters property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_DetailedVatInvoiceParameters.htm" />
   <HelpKINode Title="IOrder.Discounts property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Discounts.htm" />
   <HelpKINode Title="IOrder.Donations property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Donations.htm" />
   <HelpKINode Title="IOrder.EstimatedGuestsCount property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_EstimatedGuestsCount.htm" />
@@ -5169,7 +5169,7 @@
   <HelpKINode Title="IOrder.StornedOrderId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_StornedOrderId.htm" />
   <HelpKINode Title="IOrder.Tables property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Tables.htm" />
   <HelpKINode Title="IOrder.TabName property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_TabName.htm" />
-  <HelpKINode Title="IOrder.VatInvoiceParamaters property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_VatInvoiceParamaters.htm" />
+  <HelpKINode Title="IOrder.VatInvoiceParameters property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_VatInvoiceParameters.htm" />
   <HelpKINode Title="IOrder.Waiter property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Waiter.htm" />
   <HelpKINode Title="IOrder.WasPrepaid property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_WasPrepaid.htm" />
   <HelpKINode Title="IOrderCombo interface">
@@ -6908,7 +6908,7 @@
     <HelpKINode Title="NumberInputDialogResult.Number Property " Url="html/P_Resto_Front_Api_Data_View_NumberInputDialogResult_Number.htm" />
     <HelpKINode Title="PastOrder.Number Property " Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_Number.htm" />
     <HelpKINode Title="VatInvoiceOrderItem.Number Property " Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_Number.htm" />
-    <HelpKINode Title="VatInvoiceParamaters.Number Property " Url="html/P_Resto_Front_Api_Data_Orders_VatInvoiceParamaters_Number.htm" />
+    <HelpKINode Title="VatInvoiceParameters.Number Property " Url="html/P_Resto_Front_Api_Data_Orders_VatInvoiceParameters_Number.htm" />
   </HelpKINode>
   <HelpKINode Title="NumberInputDialogResult class">
     <HelpKINode Title="NumberInputDialogResult Class" Url="html/T_Resto_Front_Api_Data_View_NumberInputDialogResult.htm" />
@@ -8631,7 +8631,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Orders.RateScheduleItem class" Url="html/T_Resto_Front_Api_Data_Orders_RateScheduleItem.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.ServiceTimingMode enumeration" Url="html/T_Resto_Front_Api_Data_Orders_ServiceTimingMode.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.StornedPastOrderInfo class" Url="html/T_Resto_Front_Api_Data_Orders_StornedPastOrderInfo.htm" />
-  <HelpKINode Title="Resto.Front.Api.Data.Orders.VatInvoiceParamaters class" Url="html/T_Resto_Front_Api_Data_Orders_VatInvoiceParamaters.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Orders.VatInvoiceParameters class" Url="html/T_Resto_Front_Api_Data_Orders_VatInvoiceParameters.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.WriteoffOptions class" Url="html/T_Resto_Front_Api_Data_Orders_WriteoffOptions.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.WriteoffOptions.Type enumeration" Url="html/T_Resto_Front_Api_Data_Orders_WriteoffOptions_Type.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.WriteoffType enumeration" Url="html/T_Resto_Front_Api_Data_Orders_WriteoffType.htm" />
@@ -9834,15 +9834,15 @@
   <HelpKINode Title="VatInvoiceOrderItem.SumWithVat property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_SumWithVat.htm" />
   <HelpKINode Title="VatInvoiceOrderItem.TaxCategoryId property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_TaxCategoryId.htm" />
   <HelpKINode Title="VatInvoiceOrderItem.VatInvoiceOrderItem constructor" Url="html/Overload_Resto_Front_Api_UI_VatInvoiceOrderItem__ctor.htm" />
-  <HelpKINode Title="VatInvoiceParamaters class">
-    <HelpKINode Title="VatInvoiceParamaters Class" Url="html/T_Resto_Front_Api_Data_Orders_VatInvoiceParamaters.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Orders_VatInvoiceParamaters__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_VatInvoiceParamaters.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Orders_VatInvoiceParamaters.htm" />
+  <HelpKINode Title="VatInvoiceParameters class">
+    <HelpKINode Title="VatInvoiceParameters Class" Url="html/T_Resto_Front_Api_Data_Orders_VatInvoiceParameters.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Orders_VatInvoiceParameters__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_VatInvoiceParameters.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Orders_VatInvoiceParameters.htm" />
   </HelpKINode>
-  <HelpKINode Title="VatInvoiceParamaters property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_VatInvoiceParamaters.htm" />
-  <HelpKINode Title="VatInvoiceParamaters.Number property" Url="html/P_Resto_Front_Api_Data_Orders_VatInvoiceParamaters_Number.htm" />
-  <HelpKINode Title="VatInvoiceParamaters.VatInvoiceParamaters constructor" Url="html/M_Resto_Front_Api_Data_Orders_VatInvoiceParamaters__ctor.htm" />
+  <HelpKINode Title="VatInvoiceParameters property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_VatInvoiceParameters.htm" />
+  <HelpKINode Title="VatInvoiceParameters.Number property" Url="html/P_Resto_Front_Api_Data_Orders_VatInvoiceParameters_Number.htm" />
+  <HelpKINode Title="VatInvoiceParameters.VatInvoiceParameters constructor" Url="html/M_Resto_Front_Api_Data_Orders_VatInvoiceParameters__ctor.htm" />
   <HelpKINode Title="VatPercent property" Url="html/P_Resto_Front_Api_Data_Taxes_ITaxCategory_VatPercent.htm" />
   <HelpKINode Title="VatRate property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrderItem_VatRate.htm" />
   <HelpKINode Title="VatSum property">
