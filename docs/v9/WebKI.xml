@@ -1748,6 +1748,7 @@
   </HelpKINode>
   <HelpKINode Title="Codes property">
     <HelpKINode Title="ChequeSale.Codes Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Codes.htm" />
+    <HelpKINode Title="IOrderModifierItem.Codes Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderModifierItem_Codes.htm" />
     <HelpKINode Title="IOrderProductItem.Codes Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderProductItem_Codes.htm" />
     <HelpKINode Title="PermissionDeniedException.Codes Property " Url="html/P_Resto_Front_Api_Exceptions_PermissionDeniedException_Codes.htm" />
   </HelpKINode>
@@ -1824,6 +1825,7 @@
   <HelpKINode Title="CommodityCode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_CommodityCode.htm" />
   <HelpKINode Title="CommodityMark property">
     <HelpKINode Title="ChequeSale.CommodityMark Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_CommodityMark.htm" />
+    <HelpKINode Title="IOrderModifierItem.CommodityMark Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderModifierItem_CommodityMark.htm" />
     <HelpKINode Title="IOrderProductItem.CommodityMark Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderProductItem_CommodityMark.htm" />
   </HelpKINode>
   <HelpKINode Title="CommodityMarkUsing enumeration member" Url="html/T_Resto_Front_Api_Exceptions_ConstraintViolationExceptionReason.htm" />
@@ -5257,6 +5259,8 @@
   </HelpKINode>
   <HelpKINode Title="IOrderModifierItem.Amount property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderModifierItem_Amount.htm" />
   <HelpKINode Title="IOrderModifierItem.AmountIndependentOfParentAmount property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderModifierItem_AmountIndependentOfParentAmount.htm" />
+  <HelpKINode Title="IOrderModifierItem.Codes property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderModifierItem_Codes.htm" />
+  <HelpKINode Title="IOrderModifierItem.CommodityMark property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderModifierItem_CommodityMark.htm" />
   <HelpKINode Title="IOrderModifierItem.Cost property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderModifierItem_Cost.htm" />
   <HelpKINode Title="IOrderModifierItem.Deleted property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderModifierItem_Deleted.htm" />
   <HelpKINode Title="IOrderModifierItem.DeletionMethod property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderModifierItem_DeletionMethod.htm" />
@@ -6892,6 +6896,7 @@
   <HelpKINode Title="NoUserPermissionsToApprovePointsAccural enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="NoUserPermissionsToPayAsWaiter enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="NoUserPermissionsToPayOthersOrder enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
+  <HelpKINode Title="NoUserPermissionsToPrintFiscalChequeBeforePayment enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="Number enumeration member" Url="html/T_Resto_Front_Api_Data_View_InputDialogTypes.htm" />
   <HelpKINode Title="Number property">
     <HelpKINode Title="ICafeSession.Number Property " Url="html/P_Resto_Front_Api_Data_Device_ICafeSession_Number.htm" />
