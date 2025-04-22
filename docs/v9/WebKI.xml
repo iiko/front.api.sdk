@@ -5118,6 +5118,7 @@
   <HelpKINode Title="IOperationService.TryGetWaiterTeamById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetWaiterTeamById.htm" />
   <HelpKINode Title="IOperationService.TryGetWaiterTeamForUser method" Url="html/M_Resto_Front_Api_IOperationService_TryGetWaiterTeamForUser.htm" />
   <HelpKINode Title="IOperationService.TryRemoveCustomData method" Url="html/M_Resto_Front_Api_IOperationService_TryRemoveCustomData.htm" />
+  <HelpKINode Title="IOperationService.TryStartDeliveryEdititng method" Url="html/M_Resto_Front_Api_IOperationService_TryStartDeliveryEdititng.htm" />
   <HelpKINode Title="IOperationService.UnprocessPayment method" Url="html/M_Resto_Front_Api_IOperationService_UnprocessPayment.htm" />
   <HelpKINode Title="IOperationService.UpdateDeliveriesScreenButtonState method" Url="html/M_Resto_Front_Api_IOperationService_UpdateDeliveriesScreenButtonState.htm" />
   <HelpKINode Title="IOperationService.UpdateDeliveryOrderEditScreenButtonState method" Url="html/M_Resto_Front_Api_IOperationService_UpdateDeliveryOrderEditScreenButtonState.htm" />
@@ -9671,6 +9672,7 @@
   <HelpKINode Title="TryGetWaiterTeamById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetWaiterTeamById.htm" />
   <HelpKINode Title="TryGetWaiterTeamForUser method" Url="html/M_Resto_Front_Api_IOperationService_TryGetWaiterTeamForUser.htm" />
   <HelpKINode Title="TryRemoveCustomData method" Url="html/M_Resto_Front_Api_IOperationService_TryRemoveCustomData.htm" />
+  <HelpKINode Title="TryStartDeliveryEdititng method" Url="html/M_Resto_Front_Api_IOperationService_TryStartDeliveryEdititng.htm" />
   <HelpKINode Title="Twelfth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Twentieth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Type property">
