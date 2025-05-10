@@ -2604,6 +2604,7 @@
   <HelpKINode Title="Eighteenth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Eighth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="EInvoiceNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_EInvoiceNumber.htm" />
+  <HelpKINode Title="EInvoiceOrganizationId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_EInvoiceOrganizationId.htm" />
   <HelpKINode Title="EInvoiceType enumeration" Url="html/T_Resto_Front_Api_Data_Device_Tasks_EInvoiceType.htm" />
   <HelpKINode Title="EInvoiceType property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_EInvoiceType.htm" />
   <HelpKINode Title="ElapsedTime property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItemPeriod_ElapsedTime.htm" />
@@ -3366,6 +3367,7 @@
   <HelpKINode Title="GetOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetOrders.htm" />
   <HelpKINode Title="GetOrderTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypeById.htm" />
   <HelpKINode Title="GetOrderTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypes.htm" />
+  <HelpKINode Title="GetOrganizationDetailsById method" Url="html/M_Resto_Front_Api_IOperationService_GetOrganizationDetailsById.htm" />
   <HelpKINode Title="GetOrganizationFingerprint method" Url="html/M_Resto_Front_Api_IOperationService_GetOrganizationFingerprint.htm" />
   <HelpKINode Title="GetPastOrder method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrder.htm" />
   <HelpKINode Title="GetPastOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrders.htm" />
@@ -4896,6 +4898,7 @@
   <HelpKINode Title="IOperationService.GetOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetOrders.htm" />
   <HelpKINode Title="IOperationService.GetOrderTypeById method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypeById.htm" />
   <HelpKINode Title="IOperationService.GetOrderTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetOrderTypes.htm" />
+  <HelpKINode Title="IOperationService.GetOrganizationDetailsById method" Url="html/M_Resto_Front_Api_IOperationService_GetOrganizationDetailsById.htm" />
   <HelpKINode Title="IOperationService.GetOrganizationFingerprint method" Url="html/M_Resto_Front_Api_IOperationService_GetOrganizationFingerprint.htm" />
   <HelpKINode Title="IOperationService.GetPastOrder method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrder.htm" />
   <HelpKINode Title="IOperationService.GetPastOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetPastOrders.htm" />
@@ -5141,6 +5144,7 @@
   <HelpKINode Title="IOrder.DetailedVatInvoiceParameters property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_DetailedVatInvoiceParameters.htm" />
   <HelpKINode Title="IOrder.Discounts property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Discounts.htm" />
   <HelpKINode Title="IOrder.Donations property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Donations.htm" />
+  <HelpKINode Title="IOrder.EInvoiceOrganizationId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_EInvoiceOrganizationId.htm" />
   <HelpKINode Title="IOrder.EstimatedGuestsCount property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_EstimatedGuestsCount.htm" />
   <HelpKINode Title="IOrder.ExternalNumber property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_ExternalNumber.htm" />
   <HelpKINode Title="IOrder.FiscalChequeNumbers property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_FiscalChequeNumbers.htm" />
