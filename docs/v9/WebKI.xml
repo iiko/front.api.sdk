@@ -4660,6 +4660,7 @@
   <HelpKINode Title="INotificationService.RegionChanged property" Url="html/P_Resto_Front_Api_INotificationService_RegionChanged.htm" />
   <HelpKINode Title="INotificationService.RemovalTypeChanged property" Url="html/P_Resto_Front_Api_INotificationService_RemovalTypeChanged.htm" />
   <HelpKINode Title="INotificationService.ReserveChanged property" Url="html/P_Resto_Front_Api_INotificationService_ReserveChanged.htm" />
+  <HelpKINode Title="INotificationService.ReserveRestored property" Url="html/P_Resto_Front_Api_INotificationService_ReserveRestored.htm" />
   <HelpKINode Title="INotificationService.RestaurantChanged property" Url="html/P_Resto_Front_Api_INotificationService_RestaurantChanged.htm" />
   <HelpKINode Title="INotificationService.RestaurantSectionChanged property" Url="html/P_Resto_Front_Api_INotificationService_RestaurantSectionChanged.htm" />
   <HelpKINode Title="INotificationService.RoleChanged property" Url="html/P_Resto_Front_Api_INotificationService_RoleChanged.htm" />
@@ -8225,6 +8226,7 @@
   <HelpKINode Title="ReserveChanged property" Url="html/P_Resto_Front_Api_INotificationService_ReserveChanged.htm" />
   <HelpKINode Title="Reserved enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_IikoCard51SearchScope.htm" />
   <HelpKINode Title="ReserveId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_ReserveId.htm" />
+  <HelpKINode Title="ReserveRestored property" Url="html/P_Resto_Front_Api_INotificationService_ReserveRestored.htm" />
   <HelpKINode Title="ReserveStatus enumeration" Url="html/T_Resto_Front_Api_Data_Brd_ReserveStatus.htm" />
   <HelpKINode Title="ResetIsPrintedDeliveryBillActual method">
     <HelpKINode Title="IEditSession.ResetIsPrintedDeliveryBillActual Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ResetIsPrintedDeliveryBillActual.htm" />
