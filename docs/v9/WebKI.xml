@@ -5056,6 +5056,7 @@
   <HelpKINode Title="IOperationService.TryGetChildGroupsByProductGroup method" Url="html/M_Resto_Front_Api_IOperationService_TryGetChildGroupsByProductGroup.htm" />
   <HelpKINode Title="IOperationService.TryGetChildProductsByProductGroup method" Url="html/M_Resto_Front_Api_IOperationService_TryGetChildProductsByProductGroup.htm" />
   <HelpKINode Title="IOperationService.TryGetCityById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCityById.htm" />
+  <HelpKINode Title="IOperationService.TryGetClientByCardNumber method" Url="html/M_Resto_Front_Api_IOperationService_TryGetClientByCardNumber.htm" />
   <HelpKINode Title="IOperationService.TryGetClientById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetClientById.htm" />
   <HelpKINode Title="IOperationService.TryGetClientByPhone method" Url="html/M_Resto_Front_Api_IOperationService_TryGetClientByPhone.htm" />
   <HelpKINode Title="IOperationService.TryGetCompoundItemTemplateById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCompoundItemTemplateById.htm" />
@@ -9580,6 +9581,7 @@
   <HelpKINode Title="TryGetChildProducts method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductGroupExtensions_TryGetChildProducts.htm" />
   <HelpKINode Title="TryGetChildProductsByProductGroup method" Url="html/M_Resto_Front_Api_IOperationService_TryGetChildProductsByProductGroup.htm" />
   <HelpKINode Title="TryGetCityById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCityById.htm" />
+  <HelpKINode Title="TryGetClientByCardNumber method" Url="html/M_Resto_Front_Api_IOperationService_TryGetClientByCardNumber.htm" />
   <HelpKINode Title="TryGetClientById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetClientById.htm" />
   <HelpKINode Title="TryGetClientByPhone method" Url="html/M_Resto_Front_Api_IOperationService_TryGetClientByPhone.htm" />
   <HelpKINode Title="TryGetCompoundItemTemplateById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCompoundItemTemplateById.htm" />
