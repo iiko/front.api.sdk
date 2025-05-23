@@ -98,7 +98,7 @@
     <HelpKINode Title="OperationServiceExtensions.AddOrderServiceItem Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_AddOrderServiceItem.htm" />
   </HelpKINode>
   <HelpKINode Title="AddOrUpdateCustomData method" Url="html/M_Resto_Front_Api_IOperationService_AddOrUpdateCustomData.htm" />
-  <HelpKINode Title="AddOrUpdateKitchenOrderExternalData method" Url="html/M_Resto_Front_Api_IOperationService_AddOrUpdateKitchenOrderExternalData.htm" />
+  <HelpKINode Title="AddOrUpdateKitchenOrderExternalData method" Url="html/Overload_Resto_Front_Api_IOperationService_AddOrUpdateKitchenOrderExternalData.htm" />
   <HelpKINode Title="AddOrUpdateKitchenOrderItemExternalData method" Url="html/M_Resto_Front_Api_IOperationService_AddOrUpdateKitchenOrderItemExternalData.htm" />
   <HelpKINode Title="AddOrUpdateModifierForPrintedItem method">
     <HelpKINode Title="IEditSession.AddOrUpdateModifierForPrintedItem Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_AddOrUpdateModifierForPrintedItem.htm" />
@@ -1367,7 +1367,7 @@
     <HelpKINode Title="OperationServiceExtensions.ChangeExternalPaymentItemCustomData Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeExternalPaymentItemCustomData.htm" />
   </HelpKINode>
   <HelpKINode Title="ChangeGroupMainTerminal method" Url="html/M_Resto_Front_Api_IOperationService_ChangeGroupMainTerminal.htm" />
-  <HelpKINode Title="ChangeKitchenOrderItemsProcessingStatus method" Url="html/M_Resto_Front_Api_IOperationService_ChangeKitchenOrderItemsProcessingStatus.htm" />
+  <HelpKINode Title="ChangeKitchenOrderItemsProcessingStatus method" Url="html/Overload_Resto_Front_Api_IOperationService_ChangeKitchenOrderItemsProcessingStatus.htm" />
   <HelpKINode Title="ChangeOrderAppliedIikoCard5ManualConditions method">
     <HelpKINode Title="IEditSession.ChangeOrderAppliedIikoCard5ManualConditions Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderAppliedIikoCard5ManualConditions.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeOrderAppliedIikoCard5ManualConditions Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderAppliedIikoCard5ManualConditions.htm" />
@@ -4756,7 +4756,7 @@
   <HelpKINode Title="IOperationService.AddIikoCardReferrerToOrder method" Url="html/M_Resto_Front_Api_IOperationService_AddIikoCardReferrerToOrder.htm" />
   <HelpKINode Title="IOperationService.AddNotificationMessage method" Url="html/M_Resto_Front_Api_IOperationService_AddNotificationMessage.htm" />
   <HelpKINode Title="IOperationService.AddOrUpdateCustomData method" Url="html/M_Resto_Front_Api_IOperationService_AddOrUpdateCustomData.htm" />
-  <HelpKINode Title="IOperationService.AddOrUpdateKitchenOrderExternalData method" Url="html/M_Resto_Front_Api_IOperationService_AddOrUpdateKitchenOrderExternalData.htm" />
+  <HelpKINode Title="IOperationService.AddOrUpdateKitchenOrderExternalData method" Url="html/Overload_Resto_Front_Api_IOperationService_AddOrUpdateKitchenOrderExternalData.htm" />
   <HelpKINode Title="IOperationService.AddOrUpdateKitchenOrderItemExternalData method" Url="html/M_Resto_Front_Api_IOperationService_AddOrUpdateKitchenOrderItemExternalData.htm" />
   <HelpKINode Title="IOperationService.AddProductsToStopList method" Url="html/M_Resto_Front_Api_IOperationService_AddProductsToStopList.htm" />
   <HelpKINode Title="IOperationService.AddProductToStopList method" Url="html/M_Resto_Front_Api_IOperationService_AddProductToStopList.htm" />
@@ -4781,7 +4781,7 @@
   <HelpKINode Title="IOperationService.CashRegisterStop method" Url="html/M_Resto_Front_Api_IOperationService_CashRegisterStop.htm" />
   <HelpKINode Title="IOperationService.ChangeDeliveryOpinion method" Url="html/M_Resto_Front_Api_IOperationService_ChangeDeliveryOpinion.htm" />
   <HelpKINode Title="IOperationService.ChangeGroupMainTerminal method" Url="html/M_Resto_Front_Api_IOperationService_ChangeGroupMainTerminal.htm" />
-  <HelpKINode Title="IOperationService.ChangeKitchenOrderItemsProcessingStatus method" Url="html/M_Resto_Front_Api_IOperationService_ChangeKitchenOrderItemsProcessingStatus.htm" />
+  <HelpKINode Title="IOperationService.ChangeKitchenOrderItemsProcessingStatus method" Url="html/Overload_Resto_Front_Api_IOperationService_ChangeKitchenOrderItemsProcessingStatus.htm" />
   <HelpKINode Title="IOperationService.ChangePreliminaryOrder method" Url="html/M_Resto_Front_Api_IOperationService_ChangePreliminaryOrder.htm" />
   <HelpKINode Title="IOperationService.ChangeRideExternalCourier method" Url="html/M_Resto_Front_Api_IOperationService_ChangeRideExternalCourier.htm" />
   <HelpKINode Title="IOperationService.ChangeRideExternalId method" Url="html/M_Resto_Front_Api_IOperationService_ChangeRideExternalId.htm" />
@@ -5034,7 +5034,7 @@
   <HelpKINode Title="IOperationService.SearchStreets method" Url="html/M_Resto_Front_Api_IOperationService_SearchStreets.htm" />
   <HelpKINode Title="IOperationService.SendDelivery method" Url="html/M_Resto_Front_Api_IOperationService_SendDelivery.htm" />
   <HelpKINode Title="IOperationService.SendHrsCardTransactionToServer method" Url="html/M_Resto_Front_Api_IOperationService_SendHrsCardTransactionToServer.htm" />
-  <HelpKINode Title="IOperationService.SetKitchenOrderProcessingStatus method" Url="html/M_Resto_Front_Api_IOperationService_SetKitchenOrderProcessingStatus.htm" />
+  <HelpKINode Title="IOperationService.SetKitchenOrderProcessingStatus method" Url="html/Overload_Resto_Front_Api_IOperationService_SetKitchenOrderProcessingStatus.htm" />
   <HelpKINode Title="IOperationService.SetStopListProductRemainingAmount method" Url="html/M_Resto_Front_Api_IOperationService_SetStopListProductRemainingAmount.htm" />
   <HelpKINode Title="IOperationService.SetStopListProductsRemainingAmounts method" Url="html/M_Resto_Front_Api_IOperationService_SetStopListProductsRemainingAmounts.htm" />
   <HelpKINode Title="IOperationService.SplitOrderBetweenCashRegisters method" Url="html/M_Resto_Front_Api_IOperationService_SplitOrderBetweenCashRegisters.htm" />
@@ -5074,7 +5074,7 @@
   <HelpKINode Title="IOperationService.TryGetIncludedInMenuSectionsByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetIncludedInMenuSectionsByProduct.htm" />
   <HelpKINode Title="IOperationService.TryGetKitchenOrderById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderById.htm" />
   <HelpKINode Title="IOperationService.TryGetKitchenOrderByOrder method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderByOrder.htm" />
-  <HelpKINode Title="IOperationService.TryGetKitchenOrderExternalDataByKey method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderExternalDataByKey.htm" />
+  <HelpKINode Title="IOperationService.TryGetKitchenOrderExternalDataByKey method" Url="html/Overload_Resto_Front_Api_IOperationService_TryGetKitchenOrderExternalDataByKey.htm" />
   <HelpKINode Title="IOperationService.TryGetKitchenOrderItemExternalDataByKey method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderItemExternalDataByKey.htm" />
   <HelpKINode Title="IOperationService.TryGetMarketingSourceById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetMarketingSourceById.htm" />
   <HelpKINode Title="IOperationService.TryGetMeasuringUnitById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetMeasuringUnitById.htm" />
@@ -9123,7 +9123,7 @@
   </HelpKINode>
   <HelpKINode Title="SetInfoForReports method" Url="html/M_Resto_Front_Api_IPaymentDataContext_SetInfoForReports.htm" />
   <HelpKINode Title="SetJournalEventAttribute method" Url="html/M_Resto_Front_Api_Editors_IEditSession_SetJournalEventAttribute.htm" />
-  <HelpKINode Title="SetKitchenOrderProcessingStatus method" Url="html/M_Resto_Front_Api_IOperationService_SetKitchenOrderProcessingStatus.htm" />
+  <HelpKINode Title="SetKitchenOrderProcessingStatus method" Url="html/Overload_Resto_Front_Api_IOperationService_SetKitchenOrderProcessingStatus.htm" />
   <HelpKINode Title="SetOpenPrice method">
     <HelpKINode Title="IEditSession.SetOpenPrice Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_SetOpenPrice.htm" />
     <HelpKINode Title="OperationServiceExtensions.SetOpenPrice Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetOpenPrice.htm" />
@@ -9601,7 +9601,7 @@
   <HelpKINode Title="TryGetIncludedInMenuSectionsByProduct method" Url="html/M_Resto_Front_Api_IOperationService_TryGetIncludedInMenuSectionsByProduct.htm" />
   <HelpKINode Title="TryGetKitchenOrderById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderById.htm" />
   <HelpKINode Title="TryGetKitchenOrderByOrder method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderByOrder.htm" />
-  <HelpKINode Title="TryGetKitchenOrderExternalDataByKey method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderExternalDataByKey.htm" />
+  <HelpKINode Title="TryGetKitchenOrderExternalDataByKey method" Url="html/Overload_Resto_Front_Api_IOperationService_TryGetKitchenOrderExternalDataByKey.htm" />
   <HelpKINode Title="TryGetKitchenOrderItemExternalDataByKey method" Url="html/M_Resto_Front_Api_IOperationService_TryGetKitchenOrderItemExternalDataByKey.htm" />
   <HelpKINode Title="TryGetMarketingSourceById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetMarketingSourceById.htm" />
   <HelpKINode Title="TryGetMeasuringUnitById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetMeasuringUnitById.htm" />
