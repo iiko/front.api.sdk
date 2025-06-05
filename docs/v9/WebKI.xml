@@ -5123,7 +5123,6 @@
   <HelpKINode Title="IOperationService.TryGetWaiterTeamById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetWaiterTeamById.htm" />
   <HelpKINode Title="IOperationService.TryGetWaiterTeamForUser method" Url="html/M_Resto_Front_Api_IOperationService_TryGetWaiterTeamForUser.htm" />
   <HelpKINode Title="IOperationService.TryRemoveCustomData method" Url="html/M_Resto_Front_Api_IOperationService_TryRemoveCustomData.htm" />
-  <HelpKINode Title="IOperationService.TryStartDeliveryEdititng method" Url="html/M_Resto_Front_Api_IOperationService_TryStartDeliveryEdititng.htm" />
   <HelpKINode Title="IOperationService.UnprocessPayment method" Url="html/M_Resto_Front_Api_IOperationService_UnprocessPayment.htm" />
   <HelpKINode Title="IOperationService.UpdateDeliveriesScreenButtonState method" Url="html/M_Resto_Front_Api_IOperationService_UpdateDeliveriesScreenButtonState.htm" />
   <HelpKINode Title="IOperationService.UpdateDeliveryOrderEditScreenButtonState method" Url="html/M_Resto_Front_Api_IOperationService_UpdateDeliveryOrderEditScreenButtonState.htm" />
@@ -5595,6 +5594,7 @@
   <HelpKINode Title="IProduct.Name property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Name.htm" />
   <HelpKINode Title="IProduct.Number property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Number.htm" />
   <HelpKINode Title="IProduct.OuterEconomicActivityNomenclatureCode property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_OuterEconomicActivityNomenclatureCode.htm" />
+  <HelpKINode Title="IProduct.PackageContainers property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_PackageContainers.htm" />
   <HelpKINode Title="IProduct.Price property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Price.htm" />
   <HelpKINode Title="IProduct.ProductTags property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_ProductTags.htm" />
   <HelpKINode Title="IProduct.RateSchedule property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_RateSchedule.htm" />
@@ -7308,6 +7308,7 @@
   </HelpKINode>
   <HelpKINode Title="OwnerName property" Url="html/P_Resto_Front_Api_Data_Orders_IDiscountCard_OwnerName.htm" />
   <HelpKINode Title="OwnInitiative enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CorrectionReason.htm" />
+  <HelpKINode Title="PackageContainers property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_PackageContainers.htm" />
   <HelpKINode Title="Packed enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
   <HelpKINode Title="PackedStatusOnCookingEnabled property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_PackedStatusOnCookingEnabled.htm" />
   <HelpKINode Title="PackedTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_PackedTime.htm" />
@@ -9680,7 +9681,6 @@
   <HelpKINode Title="TryGetWaiterTeamById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetWaiterTeamById.htm" />
   <HelpKINode Title="TryGetWaiterTeamForUser method" Url="html/M_Resto_Front_Api_IOperationService_TryGetWaiterTeamForUser.htm" />
   <HelpKINode Title="TryRemoveCustomData method" Url="html/M_Resto_Front_Api_IOperationService_TryRemoveCustomData.htm" />
-  <HelpKINode Title="TryStartDeliveryEdititng method" Url="html/M_Resto_Front_Api_IOperationService_TryStartDeliveryEdititng.htm" />
   <HelpKINode Title="Twelfth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Twentieth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Type property">
