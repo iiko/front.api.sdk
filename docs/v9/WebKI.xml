@@ -929,6 +929,7 @@
   </HelpKINode>
   <HelpKINode Title="CardPaymentItemAdditionalData.CardNumber property" Url="html/P_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData_CardNumber.htm" />
   <HelpKINode Title="CardPaymentItemAdditionalData.CardPaymentItemAdditionalData constructor" Url="html/M_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData__ctor.htm" />
+  <HelpKINode Title="CardPaymentItemAdditionalData.CardType property" Url="html/P_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData_CardType.htm" />
   <HelpKINode Title="CardPaymentItemAdditionalData.CustomData property" Url="html/P_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData_CustomData.htm" />
   <HelpKINode Title="CardPaymentItemAdditionalData.Equals method" Url="html/Overload_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData_Equals.htm" />
   <HelpKINode Title="CardPaymentItemAdditionalData.GetHashCode method" Url="html/M_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData_GetHashCode.htm" />
@@ -936,6 +937,7 @@
   <HelpKINode Title="CardProcessing enumeration member" Url="html/T_Resto_Front_Api_Data_Device_DeviceType.htm" />
   <HelpKINode Title="CardTrack enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_IikoCard51SearchScope.htm" />
   <HelpKINode Title="CardTransactions property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrder_CardTransactions.htm" />
+  <HelpKINode Title="CardType property" Url="html/P_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData_CardType.htm" />
   <HelpKINode Title="Cash enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_PaymentTypeKind.htm" />
   <HelpKINode Title="CashChequePrinting property" Url="html/P_Resto_Front_Api_INotificationService_CashChequePrinting.htm" />
   <HelpKINode Title="CashDrawerDevice enumeration member" Url="html/T_Resto_Front_Api_Data_Device_DeviceType.htm" />
@@ -1254,6 +1256,10 @@
   <HelpKINode Title="ChangeDeliveryEmail method">
     <HelpKINode Title="IEditSession.ChangeDeliveryEmail Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryEmail.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryEmail Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryEmail.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChangeDeliveryEstimatedTimeOfArrival method">
+    <HelpKINode Title="IEditSession.ChangeDeliveryEstimatedTimeOfArrival Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryEstimatedTimeOfArrival.htm" />
+    <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryEstimatedTimeOfArrival Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryEstimatedTimeOfArrival.htm" />
   </HelpKINode>
   <HelpKINode Title="ChangeDeliveryExpectedDeliverTime method">
     <HelpKINode Title="IEditSession.ChangeDeliveryExpectedDeliverTime Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryExpectedDeliverTime.htm" />
@@ -2744,6 +2750,7 @@
   </HelpKINode>
   <HelpKINode Title="EstimatedGuestsCount property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_EstimatedGuestsCount.htm" />
   <HelpKINode Title="EstimatedStartTime property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_EstimatedStartTime.htm" />
+  <HelpKINode Title="EstimatedTimeOfArrival property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_EstimatedTimeOfArrival.htm" />
   <HelpKINode Title="Estimating enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
   <HelpKINode Title="EstimatingFailed enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
   <HelpKINode Title="EventType property">
@@ -3918,6 +3925,7 @@
   <HelpKINode Title="IDeliveryOrder.DeliveryStatus property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_DeliveryStatus.htm" />
   <HelpKINode Title="IDeliveryOrder.Duration property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_Duration.htm" />
   <HelpKINode Title="IDeliveryOrder.Email property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_Email.htm" />
+  <HelpKINode Title="IDeliveryOrder.EstimatedTimeOfArrival property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_EstimatedTimeOfArrival.htm" />
   <HelpKINode Title="IDeliveryOrder.ExpectedDeliverTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ExpectedDeliverTime.htm" />
   <HelpKINode Title="IDeliveryOrder.ExpectedDuration property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ExpectedDuration.htm" />
   <HelpKINode Title="IDeliveryOrder.ExternalCourierServiceData property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ExternalCourierServiceData.htm" />
@@ -4123,6 +4131,7 @@
   <HelpKINode Title="IEditSession.ChangeDeliveryCustomApiData method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryCustomApiData.htm" />
   <HelpKINode Title="IEditSession.ChangeDeliveryDuration method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryDuration.htm" />
   <HelpKINode Title="IEditSession.ChangeDeliveryEmail method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryEmail.htm" />
+  <HelpKINode Title="IEditSession.ChangeDeliveryEstimatedTimeOfArrival method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryEstimatedTimeOfArrival.htm" />
   <HelpKINode Title="IEditSession.ChangeDeliveryExpectedDeliverTime method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryExpectedDeliverTime.htm" />
   <HelpKINode Title="IEditSession.ChangeDeliveryExpectedDuration method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryExpectedDuration.htm" />
   <HelpKINode Title="IEditSession.ChangeDeliveryExternalCourierService method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeDeliveryExternalCourierService.htm" />
@@ -7089,6 +7098,7 @@
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryCustomApiData method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryCustomApiData.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryDuration method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryDuration.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryEmail method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryEmail.htm" />
+  <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryEstimatedTimeOfArrival method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryEstimatedTimeOfArrival.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryExpectedDeliverTime method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryExpectedDeliverTime.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryExpectedDuration method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryExpectedDuration.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeDeliveryExternalCourierService method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeDeliveryExternalCourierService.htm" />
