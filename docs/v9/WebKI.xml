@@ -1883,6 +1883,7 @@
     <HelpKINode Title="IOperationService.ConfigureSettings Method " Url="html/M_Resto_Front_Api_IOperationService_ConfigureSettings.htm" />
   </HelpKINode>
   <HelpKINode Title="Confirmed enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
+  <HelpKINode Title="ConfirmEInvoiceNumberProcessed property" Url="html/P_Resto_Front_Api_INotificationService_ConfirmEInvoiceNumberProcessed.htm" />
   <HelpKINode Title="ConfirmTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_ConfirmTime.htm" />
   <HelpKINode Title="ConnectionToMainTerminalChanged property" Url="html/P_Resto_Front_Api_INotificationService_ConnectionToMainTerminalChanged.htm" />
   <HelpKINode Title="ConsentDateFrom property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ConsentDateFrom.htm" />
@@ -2297,6 +2298,7 @@
   <HelpKINode Title="DeliveryOfferId property">
     <HelpKINode Title="ExternalCourierServiceDataDto.DeliveryOfferId Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCourierServiceDataDto_DeliveryOfferId.htm" />
     <HelpKINode Title="IExternalCourierService.DeliveryOfferId Property " Url="html/P_Resto_Front_Api_Data_Brd_IExternalCourierService_DeliveryOfferId.htm" />
+    <HelpKINode Title="Ride.DeliveryOfferId Property " Url="html/P_Resto_Front_Api_Data_Brd_Ride_DeliveryOfferId.htm" />
   </HelpKINode>
   <HelpKINode Title="DeliveryOperator enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_SurveyType.htm" />
   <HelpKINode Title="DeliveryOperator property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_DeliveryOperator.htm" />
@@ -2643,7 +2645,10 @@
   <HelpKINode Title="EgaisDataException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_EgaisDataException_GetObjectData.htm" />
   <HelpKINode Title="Eighteenth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Eighth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
-  <HelpKINode Title="EInvoiceNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_EInvoiceNumber.htm" />
+  <HelpKINode Title="EInvoiceNumber property">
+    <HelpKINode Title="ChequeTask.EInvoiceNumber Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_EInvoiceNumber.htm" />
+    <HelpKINode Title="GetEInvoiceNumberResult.EInvoiceNumber Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult_EInvoiceNumber.htm" />
+  </HelpKINode>
   <HelpKINode Title="EInvoiceOrganizationId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_EInvoiceOrganizationId.htm" />
   <HelpKINode Title="EInvoiceType enumeration" Url="html/T_Resto_Front_Api_Data_Device_Tasks_EInvoiceType.htm" />
   <HelpKINode Title="EInvoiceType property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_EInvoiceType.htm" />
@@ -3304,6 +3309,18 @@
   </HelpKINode>
   <HelpKINode Title="GetDocuments method" Url="html/M_Resto_Front_Api_IOperationService_GetDocuments.htm" />
   <HelpKINode Title="GetDonationTypesCompatibleWith method" Url="html/M_Resto_Front_Api_IOperationService_GetDonationTypesCompatibleWith.htm" />
+  <HelpKINode Title="GetEInvoiceNumber property" Url="html/P_Resto_Front_Api_INotificationService_GetEInvoiceNumber.htm" />
+  <HelpKINode Title="GetEInvoiceNumberResult class">
+    <HelpKINode Title="GetEInvoiceNumberResult Class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetEInvoiceNumberResult.EInvoiceNumber property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult_EInvoiceNumber.htm" />
+  <HelpKINode Title="GetEInvoiceNumberResult.GetEInvoiceNumberResult constructor" Url="html/Overload_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult__ctor.htm" />
+  <HelpKINode Title="GetEInvoiceNumberResult.GetObjectData method" Url="html/M_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult_GetObjectData.htm" />
+  <HelpKINode Title="GetEInvoiceNumberResult.Message property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult_Message.htm" />
+  <HelpKINode Title="GetEInvoiceNumberResult.Succeeded property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult_Succeeded.htm" />
   <HelpKINode Title="GetExternalNotificationSubscription method" Url="html/M_Resto_Front_Api_IOperationService_GetExternalNotificationSubscription.htm" />
   <HelpKINode Title="GetExternalOperations method" Url="html/M_Resto_Front_Api_IOperationService_GetExternalOperations.htm" />
   <HelpKINode Title="GetFiscalTagsTask class">
@@ -3382,6 +3399,7 @@
     <HelpKINode Title="ExternalOperationCallingException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_ExternalOperationCallingException_GetObjectData.htm" />
     <HelpKINode Title="FoodValue.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_FoodValue_GetObjectData.htm" />
     <HelpKINode Title="FoodValueComponent.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent_GetObjectData.htm" />
+    <HelpKINode Title="GetEInvoiceNumberResult.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult_GetObjectData.htm" />
     <HelpKINode Title="HierarchicalMenu.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_HierarchicalMenu_GetObjectData.htm" />
     <HelpKINode Title="LegalAddress.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_LegalAddress_GetObjectData.htm" />
     <HelpKINode Title="OrderIdAndNum.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Orders_OrderIdAndNum_GetObjectData.htm" />
@@ -4674,6 +4692,7 @@
   <HelpKINode Title="INotificationService.CityChanged property" Url="html/P_Resto_Front_Api_INotificationService_CityChanged.htm" />
   <HelpKINode Title="INotificationService.ClientChanged property" Url="html/P_Resto_Front_Api_INotificationService_ClientChanged.htm" />
   <HelpKINode Title="INotificationService.CompoundItemTemplateChanged property" Url="html/P_Resto_Front_Api_INotificationService_CompoundItemTemplateChanged.htm" />
+  <HelpKINode Title="INotificationService.ConfirmEInvoiceNumberProcessed property" Url="html/P_Resto_Front_Api_INotificationService_ConfirmEInvoiceNumberProcessed.htm" />
   <HelpKINode Title="INotificationService.ConnectionToMainTerminalChanged property" Url="html/P_Resto_Front_Api_INotificationService_ConnectionToMainTerminalChanged.htm" />
   <HelpKINode Title="INotificationService.CurrentCultureChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentCultureChanged.htm" />
   <HelpKINode Title="INotificationService.CurrentUserChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentUserChanged.htm" />
@@ -4687,6 +4706,7 @@
   <HelpKINode Title="INotificationService.DocumentInvoicePrinting property" Url="html/P_Resto_Front_Api_INotificationService_DocumentInvoicePrinting.htm" />
   <HelpKINode Title="INotificationService.DonationTypeChanged property" Url="html/P_Resto_Front_Api_INotificationService_DonationTypeChanged.htm" />
   <HelpKINode Title="INotificationService.ExternalOperationChanged property" Url="html/P_Resto_Front_Api_INotificationService_ExternalOperationChanged.htm" />
+  <HelpKINode Title="INotificationService.GetEInvoiceNumber property" Url="html/P_Resto_Front_Api_INotificationService_GetEInvoiceNumber.htm" />
   <HelpKINode Title="INotificationService.KitchenOrderChanged property" Url="html/P_Resto_Front_Api_INotificationService_KitchenOrderChanged.htm" />
   <HelpKINode Title="INotificationService.MarketingSourceChanged property" Url="html/P_Resto_Front_Api_INotificationService_MarketingSourceChanged.htm" />
   <HelpKINode Title="INotificationService.MeasuringUnitChanged property" Url="html/P_Resto_Front_Api_INotificationService_MeasuringUnitChanged.htm" />
@@ -6647,7 +6667,10 @@
     <HelpKINode Title="IProductSize.MenuIndex Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductSize_MenuIndex.htm" />
     <HelpKINode Title="ISimpleModifierBase.MenuIndex Property " Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_MenuIndex.htm" />
   </HelpKINode>
-  <HelpKINode Title="Message property" Url="html/P_Resto_Front_Api_Data_Device_Results_PostResult_Message.htm" />
+  <HelpKINode Title="Message property">
+    <HelpKINode Title="GetEInvoiceNumberResult.Message Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult_Message.htm" />
+    <HelpKINode Title="PostResult.Message Property " Url="html/P_Resto_Front_Api_Data_Device_Results_PostResult_Message.htm" />
+  </HelpKINode>
   <HelpKINode Title="Middle enumeration member" Url="html/T_Resto_Front_Api_Data_JournalEvents_Severity.htm" />
   <HelpKINode Title="MiddleName property" Url="html/P_Resto_Front_Api_Data_Users_UserFullName_MiddleName.htm" />
   <HelpKINode Title="MinDecimalValue property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_MinDecimalValue.htm" />
@@ -8548,6 +8571,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.DataTransferObjects.CheckSplitResultDto class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_CheckSplitResultDto.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.DataTransferObjects.FoodValue class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_FoodValue.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.DataTransferObjects.FoodValueComponent class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.DataTransferObjects.GetEInvoiceNumberResult class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.DataTransferObjects.HierarchicalMenu class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_HierarchicalMenu.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.DataTransferObjects.LegalAddress class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_LegalAddress.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.DataTransferObjects.PreliminaryOrderItemModifier class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_PreliminaryOrderItemModifier.htm" />
@@ -9014,6 +9038,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Brd_Ride.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Brd_Ride.htm" />
   </HelpKINode>
+  <HelpKINode Title="Ride.DeliveryOfferId property" Url="html/P_Resto_Front_Api_Data_Brd_Ride_DeliveryOfferId.htm" />
   <HelpKINode Title="Ride.EcsId property" Url="html/P_Resto_Front_Api_Data_Brd_Ride_EcsId.htm" />
   <HelpKINode Title="Ride.ExternalId property" Url="html/P_Resto_Front_Api_Data_Brd_Ride_ExternalId.htm" />
   <HelpKINode Title="Ride.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Brd_Ride_GetObjectData.htm" />
@@ -9449,6 +9474,7 @@
     <HelpKINode Title="AddressDto.Subtitle Property " Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_Subtitle.htm" />
     <HelpKINode Title="IAddress.Subtitle Property " Url="html/P_Resto_Front_Api_Data_Brd_IAddress_Subtitle.htm" />
   </HelpKINode>
+  <HelpKINode Title="Succeeded property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult_Succeeded.htm" />
   <HelpKINode Title="Success property">
     <HelpKINode Title="MarkingVerificationResult.Success Property " Url="html/P_Resto_Front_Api_Data_Orders_MarkingVerificationResult_Success.htm" />
     <HelpKINode Title="PostResult.Success Property " Url="html/P_Resto_Front_Api_Data_Device_Results_PostResult_Success.htm" />
