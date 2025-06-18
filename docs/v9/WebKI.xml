@@ -1425,6 +1425,10 @@
     <HelpKINode Title="IEditSession.ChangeOrderModifierItemAmount Method " Url="html/Overload_Resto_Front_Api_Editors_IEditSession_ChangeOrderModifierItemAmount.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeOrderModifierItemAmount Method " Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderModifierItemAmount.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChangeOrderModifierItemMarkingCode method">
+    <HelpKINode Title="IEditSession.ChangeOrderModifierItemMarkingCode Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderModifierItemMarkingCode.htm" />
+    <HelpKINode Title="OperationServiceExtensions.ChangeOrderModifierItemMarkingCode Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderModifierItemMarkingCode.htm" />
+  </HelpKINode>
   <HelpKINode Title="ChangeOrderOriginName method">
     <HelpKINode Title="IEditSession.ChangeOrderOriginName Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderOriginName.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeOrderOriginName Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderOriginName.htm" />
@@ -4219,6 +4223,7 @@
   <HelpKINode Title="IEditSession.ChangeOrderItemsCookingPlace method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderItemsCookingPlace.htm" />
   <HelpKINode Title="IEditSession.ChangeOrderItemWaiter method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderItemWaiter.htm" />
   <HelpKINode Title="IEditSession.ChangeOrderModifierItemAmount method" Url="html/Overload_Resto_Front_Api_Editors_IEditSession_ChangeOrderModifierItemAmount.htm" />
+  <HelpKINode Title="IEditSession.ChangeOrderModifierItemMarkingCode method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderModifierItemMarkingCode.htm" />
   <HelpKINode Title="IEditSession.ChangeOrderOriginName method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderOriginName.htm" />
   <HelpKINode Title="IEditSession.ChangeOrderPricingTime method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderPricingTime.htm" />
   <HelpKINode Title="IEditSession.ChangeOrderTables method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderTables.htm" />
@@ -7209,6 +7214,7 @@
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderItemsCookingPlace method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderItemsCookingPlace.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderItemWaiter method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderItemWaiter.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderModifierItemAmount method" Url="html/Overload_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderModifierItemAmount.htm" />
+  <HelpKINode Title="OperationServiceExtensions.ChangeOrderModifierItemMarkingCode method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderModifierItemMarkingCode.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderOriginName method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderOriginName.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderPricingTime method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderPricingTime.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderTables method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderTables.htm" />
