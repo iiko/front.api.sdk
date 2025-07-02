@@ -779,6 +779,7 @@
   <HelpKINode Title="ButtonWidth enumeration" Url="html/T_Resto_Front_Api_UI_ButtonWidth.htm" />
   <HelpKINode Title="Buy enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CorrectionDocumentType.htm" />
   <HelpKINode Title="BuyRefund enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CorrectionDocumentType.htm" />
+  <HelpKINode Title="ByInstanceAccounting property" Url="html/P_Resto_Front_Api_Data_Device_IOuterEconomicActivityNomenclatureCode_ByInstanceAccounting.htm" />
   <HelpKINode Title="BySection enumeration member" Url="html/T_Resto_Front_Api_Data_Print_PrinterSelectionMode.htm" />
   <HelpKINode Title="ByTerminal enumeration member" Url="html/T_Resto_Front_Api_Data_Print_PrinterSelectionMode.htm" />
   <HelpKINode Title="Cafe enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_WriteoffType.htm" />
@@ -5521,8 +5522,10 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_IOuterEconomicActivityNomenclatureCode.htm" />
   </HelpKINode>
   <HelpKINode Title="IOuterEconomicActivityNomenclatureCode.AllowSkipMarkScan property" Url="html/P_Resto_Front_Api_Data_Device_IOuterEconomicActivityNomenclatureCode_AllowSkipMarkScan.htm" />
+  <HelpKINode Title="IOuterEconomicActivityNomenclatureCode.ByInstanceAccounting property" Url="html/P_Resto_Front_Api_Data_Device_IOuterEconomicActivityNomenclatureCode_ByInstanceAccounting.htm" />
   <HelpKINode Title="IOuterEconomicActivityNomenclatureCode.IsMarked property" Url="html/P_Resto_Front_Api_Data_Device_IOuterEconomicActivityNomenclatureCode_IsMarked.htm" />
   <HelpKINode Title="IOuterEconomicActivityNomenclatureCode.OuterEanCode property" Url="html/P_Resto_Front_Api_Data_Device_IOuterEconomicActivityNomenclatureCode_OuterEanCode.htm" />
+  <HelpKINode Title="IOuterEconomicActivityNomenclatureCode.PermissiveMode property" Url="html/P_Resto_Front_Api_Data_Device_IOuterEconomicActivityNomenclatureCode_PermissiveMode.htm" />
   <HelpKINode Title="IPaymentDataContext interface">
     <HelpKINode Title="IPaymentDataContext Interface" Url="html/T_Resto_Front_Api_IPaymentDataContext.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_IPaymentDataContext.htm" />
@@ -7720,6 +7723,7 @@
   <HelpKINode Title="PermissionDeniedException.LocalNames property" Url="html/P_Resto_Front_Api_Exceptions_PermissionDeniedException_LocalNames.htm" />
   <HelpKINode Title="PermissionDeniedException.PermissionDeniedException constructor" Url="html/Overload_Resto_Front_Api_Exceptions_PermissionDeniedException__ctor.htm" />
   <HelpKINode Title="PermissionsCheckMode enumeration" Url="html/T_Resto_Front_Api_PermissionsCheckMode.htm" />
+  <HelpKINode Title="PermissiveMode property" Url="html/P_Resto_Front_Api_Data_Device_IOuterEconomicActivityNomenclatureCode_PermissiveMode.htm" />
   <HelpKINode Title="PersonalDataConsent property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_PersonalDataConsent.htm" />
   <HelpKINode Title="Petrol enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
   <HelpKINode Title="Phone enumeration member">
