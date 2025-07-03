@@ -740,6 +740,7 @@
   <HelpKINode Title="BillTask.FiscalTags property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_FiscalTags.htm" />
   <HelpKINode Title="BillTask.IncreasePercent property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IncreasePercent.htm" />
   <HelpKINode Title="BillTask.IncreaseSum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IncreaseSum.htm" />
+  <HelpKINode Title="BillTask.IsBuy property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IsBuy.htm" />
   <HelpKINode Title="BillTask.IsCancellation property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IsCancellation.htm" />
   <HelpKINode Title="BillTask.IsRefund property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IsRefund.htm" />
   <HelpKINode Title="BillTask.OrderId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_OrderId.htm" />
@@ -5986,6 +5987,7 @@
   <HelpKINode Title="IsBanquet property" Url="html/P_Resto_Front_Api_Data_Brd_IReserve_IsBanquet.htm" />
   <HelpKINode Title="IsBanquetOrder property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_IsBanquetOrder.htm" />
   <HelpKINode Title="IsBillTaskSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsBillTaskSupported.htm" />
+  <HelpKINode Title="IsBuy property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_IsBuy.htm" />
   <HelpKINode Title="IsBuyChequeSupported property" Url="html/P_Resto_Front_Api_Data_Device_Settings_CashRegisterDriverParameters_IsBuyChequeSupported.htm" />
   <HelpKINode Title="IsCalculated property">
     <HelpKINode Title="ChequeSale.IsCalculated Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_IsCalculated.htm" />
