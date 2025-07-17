@@ -1601,6 +1601,7 @@
   <HelpKINode Title="ChequeAdditionalInfo.Email property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_Email.htm" />
   <HelpKINode Title="ChequeAdditionalInfo.NeedReceipt property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_NeedReceipt.htm" />
   <HelpKINode Title="ChequeAdditionalInfo.Phone property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_Phone.htm" />
+  <HelpKINode Title="ChequeAdditionalInfo.RetailAddress property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_RetailAddress.htm" />
   <HelpKINode Title="ChequeAdditionalInfo.SettlementPlace property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_SettlementPlace.htm" />
   <HelpKINode Title="ChequeEmailSendingNotSupported enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="ChequeExtensions class">
@@ -9105,6 +9106,7 @@
     <HelpKINode Title="IOrderServiceItem.ResultSum Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_ResultSum.htm" />
     <HelpKINode Title="IPaymentScreenGuestInfo.ResultSum Property " Url="html/P_Resto_Front_Api_OperationContexts_IPaymentScreenGuestInfo_ResultSum.htm" />
   </HelpKINode>
+  <HelpKINode Title="RetailAddress property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_RetailAddress.htm" />
   <HelpKINode Title="ReturnArrived enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
   <HelpKINode Title="Returned enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
   <HelpKINode Title="ReturnedFinish enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
