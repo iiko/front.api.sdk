@@ -1415,9 +1415,9 @@
     <HelpKINode Title="IEditSession.ChangeOrderExternalNumber Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderExternalNumber.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeOrderExternalNumber Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderExternalNumber.htm" />
   </HelpKINode>
-  <HelpKINode Title="ChangeOrderIikoCard5Coupon method">
-    <HelpKINode Title="IEditSession.ChangeOrderIikoCard5Coupon Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderIikoCard5Coupon.htm" />
-    <HelpKINode Title="OperationServiceExtensions.ChangeOrderIikoCard5Coupon Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderIikoCard5Coupon.htm" />
+  <HelpKINode Title="ChangeOrderIikoCard5Coupons method">
+    <HelpKINode Title="IEditSession.ChangeOrderIikoCard5Coupons Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderIikoCard5Coupons.htm" />
+    <HelpKINode Title="OperationServiceExtensions.ChangeOrderIikoCard5Coupons Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderIikoCard5Coupons.htm" />
   </HelpKINode>
   <HelpKINode Title="ChangeOrderItemComment method">
     <HelpKINode Title="IEditSession.ChangeOrderItemComment Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderItemComment.htm" />
@@ -2040,7 +2040,7 @@
     <HelpKINode Title="ExternalCompanyInfo.Country Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_Country.htm" />
     <HelpKINode Title="LegalAddress.Country Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_LegalAddress_Country.htm" />
   </HelpKINode>
-  <HelpKINode Title="Coupon property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_Coupon.htm" />
+  <HelpKINode Title="Coupons property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_Coupons.htm" />
   <HelpKINode Title="Courier enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_SurveyType.htm" />
   <HelpKINode Title="Courier property">
     <HelpKINode Title="ICourierWorkload.Courier Property " Url="html/P_Resto_Front_Api_Data_Orders_ICourierWorkload_Courier.htm" />
@@ -4275,7 +4275,7 @@
   <HelpKINode Title="IEditSession.ChangeOrderCookingItemCourse method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderCookingItemCourse.htm" />
   <HelpKINode Title="IEditSession.ChangeOrderCookingItemSize method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderCookingItemSize.htm" />
   <HelpKINode Title="IEditSession.ChangeOrderExternalNumber method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderExternalNumber.htm" />
-  <HelpKINode Title="IEditSession.ChangeOrderIikoCard5Coupon method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderIikoCard5Coupon.htm" />
+  <HelpKINode Title="IEditSession.ChangeOrderIikoCard5Coupons method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderIikoCard5Coupons.htm" />
   <HelpKINode Title="IEditSession.ChangeOrderItemComment method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderItemComment.htm" />
   <HelpKINode Title="IEditSession.ChangeOrderItemMarkingCode method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderItemMarkingCode.htm" />
   <HelpKINode Title="IEditSession.ChangeOrderItemsCookingPlace method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeOrderItemsCookingPlace.htm" />
@@ -4483,7 +4483,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo.htm" />
   </HelpKINode>
   <HelpKINode Title="IIikoCard51OrderInfo.AppliedManualConditions property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_AppliedManualConditions.htm" />
-  <HelpKINode Title="IIikoCard51OrderInfo.Coupon property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_Coupon.htm" />
+  <HelpKINode Title="IIikoCard51OrderInfo.Coupons property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_Coupons.htm" />
   <HelpKINode Title="IIikoCard51OrderInfo.DynamicDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_DynamicDiscounts.htm" />
   <HelpKINode Title="IIikoCard51OrderInfo.HasFixedDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_HasFixedDiscounts.htm" />
   <HelpKINode Title="IikoBizId property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_IikoBizId.htm" />
@@ -7278,7 +7278,7 @@
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderCookingItemCourse method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderCookingItemCourse.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderCookingItemSize method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderCookingItemSize.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderExternalNumber method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderExternalNumber.htm" />
-  <HelpKINode Title="OperationServiceExtensions.ChangeOrderIikoCard5Coupon method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderIikoCard5Coupon.htm" />
+  <HelpKINode Title="OperationServiceExtensions.ChangeOrderIikoCard5Coupons method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderIikoCard5Coupons.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderItemComment method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderItemComment.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderItemMarkingCode method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderItemMarkingCode.htm" />
   <HelpKINode Title="OperationServiceExtensions.ChangeOrderItemsCookingPlace method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderItemsCookingPlace.htm" />
