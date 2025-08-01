@@ -3425,6 +3425,7 @@
     <HelpKINode Title="OperationArgumentExtensions.GetKitchenOrderAllExternalData Method " Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetKitchenOrderAllExternalData.htm" />
   </HelpKINode>
   <HelpKINode Title="GetKitchenOrderById method" Url="html/M_Resto_Front_Api_IOperationService_GetKitchenOrderById.htm" />
+  <HelpKINode Title="GetKitchenOrderChanged method" Url="html/M_Resto_Front_Api_INotificationService_GetKitchenOrderChanged.htm" />
   <HelpKINode Title="GetKitchenOrderItemAllExternalData method">
     <HelpKINode Title="IOperationService.GetKitchenOrderItemAllExternalData Method " Url="html/M_Resto_Front_Api_IOperationService_GetKitchenOrderItemAllExternalData.htm" />
     <HelpKINode Title="OperationArgumentExtensions.GetKitchenOrderItemAllExternalData Method " Url="html/M_Resto_Front_Api_OperationArgumentExtensions_GetKitchenOrderItemAllExternalData.htm" />
@@ -4742,6 +4743,7 @@
   <HelpKINode Title="INotification&lt;T&gt;.Subscribe method" Url="html/M_Resto_Front_Api_INotification_1_Subscribe.htm" />
   <HelpKINode Title="INotificationService interface">
     <HelpKINode Title="INotificationService Interface" Url="html/T_Resto_Front_Api_INotificationService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_INotificationService.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_INotificationService.htm" />
   </HelpKINode>
   <HelpKINode Title="INotificationService.BeforeAddOrderItems property" Url="html/P_Resto_Front_Api_INotificationService_BeforeAddOrderItems.htm" />
@@ -4781,7 +4783,7 @@
   <HelpKINode Title="INotificationService.DonationTypeChanged property" Url="html/P_Resto_Front_Api_INotificationService_DonationTypeChanged.htm" />
   <HelpKINode Title="INotificationService.ExternalOperationChanged property" Url="html/P_Resto_Front_Api_INotificationService_ExternalOperationChanged.htm" />
   <HelpKINode Title="INotificationService.GetEInvoiceNumber property" Url="html/P_Resto_Front_Api_INotificationService_GetEInvoiceNumber.htm" />
-  <HelpKINode Title="INotificationService.KitchenOrderChanged property" Url="html/P_Resto_Front_Api_INotificationService_KitchenOrderChanged.htm" />
+  <HelpKINode Title="INotificationService.GetKitchenOrderChanged method" Url="html/M_Resto_Front_Api_INotificationService_GetKitchenOrderChanged.htm" />
   <HelpKINode Title="INotificationService.MarketingSourceChanged property" Url="html/P_Resto_Front_Api_INotificationService_MarketingSourceChanged.htm" />
   <HelpKINode Title="INotificationService.MeasuringUnitChanged property" Url="html/P_Resto_Front_Api_INotificationService_MeasuringUnitChanged.htm" />
   <HelpKINode Title="INotificationService.NavigatingToPaymentScreen property" Url="html/P_Resto_Front_Api_INotificationService_NavigatingToPaymentScreen.htm" />
@@ -6418,7 +6420,6 @@
     <HelpKINode Title="IProduct.KitchenName Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_KitchenName.htm" />
     <HelpKINode Title="IProductSize.KitchenName Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductSize_KitchenName.htm" />
   </HelpKINode>
-  <HelpKINode Title="KitchenOrderChanged property" Url="html/P_Resto_Front_Api_INotificationService_KitchenOrderChanged.htm" />
   <HelpKINode Title="KitchenOrderCompoundItemComponentDto class">
     <HelpKINode Title="KitchenOrderCompoundItemComponentDto Class" Url="html/T_Resto_Front_Api_Data_Kitchen_KitchenOrderCompoundItemComponentDto.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Kitchen_KitchenOrderCompoundItemComponentDto__ctor.htm" />
