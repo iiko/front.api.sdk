@@ -237,6 +237,7 @@
   <HelpKINode Title="AllowSkipMarkScan property" Url="html/P_Resto_Front_Api_Data_Device_IOuterEconomicActivityNomenclatureCode_AllowSkipMarkScan.htm" />
   <HelpKINode Title="Amount enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Settings_DeviceNumberSettingKind.htm" />
   <HelpKINode Title="Amount property">
+    <HelpKINode Title="ChangedStopListItem.Amount Property " Url="html/P_Resto_Front_Api_Data_Common_ChangedStopListItem_Amount.htm" />
     <HelpKINode Title="ChequeSale.Amount Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Amount.htm" />
     <HelpKINode Title="DiscountForOrderItem.Amount Property " Url="html/P_Resto_Front_Api_Data_Orders_DiscountForOrderItem_Amount.htm" />
     <HelpKINode Title="FoodValueComponent.Amount Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_FoodValueComponent_Amount.htm" />
@@ -1377,6 +1378,28 @@
   <HelpKINode Title="ChangedEntity&lt;T&gt;.Entity property" Url="html/P_Resto_Front_Api_Data_Common_ChangedEntity_1_Entity.htm" />
   <HelpKINode Title="ChangedEntity&lt;T&gt;.Id property" Url="html/P_Resto_Front_Api_Data_Common_ChangedEntity_1_Id.htm" />
   <HelpKINode Title="ChangedEntity&lt;T&gt;.Revision property" Url="html/P_Resto_Front_Api_Data_Common_ChangedEntity_1_Revision.htm" />
+  <HelpKINode Title="ChangedStopListItem class">
+    <HelpKINode Title="ChangedStopListItem Class" Url="html/T_Resto_Front_Api_Data_Common_ChangedStopListItem.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Common_ChangedStopListItem__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Common_ChangedStopListItem.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Common_ChangedStopListItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChangedStopListItem.Amount property" Url="html/P_Resto_Front_Api_Data_Common_ChangedStopListItem_Amount.htm" />
+  <HelpKINode Title="ChangedStopListItem.ChangedStopListItem constructor" Url="html/M_Resto_Front_Api_Data_Common_ChangedStopListItem__ctor.htm" />
+  <HelpKINode Title="ChangedStopListItem.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Common_ChangedStopListItem_GetObjectData.htm" />
+  <HelpKINode Title="ChangedStopListItem.OperationDate property" Url="html/P_Resto_Front_Api_Data_Common_ChangedStopListItem_OperationDate.htm" />
+  <HelpKINode Title="ChangedStopListItem.Revision property" Url="html/P_Resto_Front_Api_Data_Common_ChangedStopListItem_Revision.htm" />
+  <HelpKINode Title="ChangedStopListItemsDto class">
+    <HelpKINode Title="ChangedStopListItemsDto Class" Url="html/T_Resto_Front_Api_Data_Common_ChangedStopListItemsDto.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Common_ChangedStopListItemsDto__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Common_ChangedStopListItemsDto.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Common_ChangedStopListItemsDto.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChangedStopListItemsDto.ChangedStopListItemsDto constructor" Url="html/M_Resto_Front_Api_Data_Common_ChangedStopListItemsDto__ctor.htm" />
+  <HelpKINode Title="ChangedStopListItemsDto.CurrentStopListItems property" Url="html/P_Resto_Front_Api_Data_Common_ChangedStopListItemsDto_CurrentStopListItems.htm" />
+  <HelpKINode Title="ChangedStopListItemsDto.DeletedStopListItems property" Url="html/P_Resto_Front_Api_Data_Common_ChangedStopListItemsDto_DeletedStopListItems.htm" />
+  <HelpKINode Title="ChangedStopListItemsDto.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Common_ChangedStopListItemsDto_GetObjectData.htm" />
+  <HelpKINode Title="ChangedStopListItemsDto.RevisionTo property" Url="html/P_Resto_Front_Api_Data_Common_ChangedStopListItemsDto_RevisionTo.htm" />
   <HelpKINode Title="ChangeEstimatedOrderGuestsCount method">
     <HelpKINode Title="IEditSession.ChangeEstimatedOrderGuestsCount Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_ChangeEstimatedOrderGuestsCount.htm" />
     <HelpKINode Title="OperationServiceExtensions.ChangeEstimatedOrderGuestsCount Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeEstimatedOrderGuestsCount.htm" />
@@ -2141,6 +2164,7 @@
   <HelpKINode Title="CurrencyInfo.Sum property" Url="html/P_Resto_Front_Api_Data_Payments_CurrencyInfo_Sum.htm" />
   <HelpKINode Title="CurrencySpecificFractionalDistributeUniformly method" Url="html/M_Resto_Front_Api_Data_Payments_CurrencyHelper_CurrencySpecificFractionalDistributeUniformly.htm" />
   <HelpKINode Title="CurrentCultureChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentCultureChanged.htm" />
+  <HelpKINode Title="CurrentStopListItems property" Url="html/P_Resto_Front_Api_Data_Common_ChangedStopListItemsDto_CurrentStopListItems.htm" />
   <HelpKINode Title="CurrentUserChanged property" Url="html/P_Resto_Front_Api_INotificationService_CurrentUserChanged.htm" />
   <HelpKINode Title="CustomApiData property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_CustomApiData.htm" />
   <HelpKINode Title="CustomData property">
@@ -2244,6 +2268,7 @@
     <HelpKINode Title="OperationServiceExtensions.DeleteDiscount Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DeleteDiscount.htm" />
   </HelpKINode>
   <HelpKINode Title="DeleteDonation method" Url="html/M_Resto_Front_Api_IOperationService_DeleteDonation.htm" />
+  <HelpKINode Title="DeletedStopListItems property" Url="html/P_Resto_Front_Api_Data_Common_ChangedStopListItemsDto_DeletedStopListItems.htm" />
   <HelpKINode Title="DeleteExternalFiscalizedPaymentItem method">
     <HelpKINode Title="IEditSession.DeleteExternalFiscalizedPaymentItem Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_DeleteExternalFiscalizedPaymentItem.htm" />
     <HelpKINode Title="OperationServiceExtensions.DeleteExternalFiscalizedPaymentItem Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_DeleteExternalFiscalizedPaymentItem.htm" />
@@ -3315,6 +3340,7 @@
   <HelpKINode Title="GetChangedKitchenOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetChangedKitchenOrders.htm" />
   <HelpKINode Title="GetChangedOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetChangedOrders.htm" />
   <HelpKINode Title="GetChangedReserves method" Url="html/M_Resto_Front_Api_IOperationService_GetChangedReserves.htm" />
+  <HelpKINode Title="GetChangedStopListItems method" Url="html/M_Resto_Front_Api_IOperationService_GetChangedStopListItems.htm" />
   <HelpKINode Title="GetChildGroups method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductGroupExtensions_GetChildGroups.htm" />
   <HelpKINode Title="GetChildGroupsByProductGroup method" Url="html/M_Resto_Front_Api_IOperationService_GetChildGroupsByProductGroup.htm" />
   <HelpKINode Title="GetChildProducts method" Url="html/M_Resto_Front_Api_Data_Assortment_ProductGroupExtensions_GetChildProducts.htm" />
@@ -3442,6 +3468,8 @@
     <HelpKINode Title="AgentOperationFailedException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_AgentOperationFailedException_GetObjectData.htm" />
     <HelpKINode Title="AlcoholMarkingProduct.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_AlcoholMarkingProduct_GetObjectData.htm" />
     <HelpKINode Title="CannotAddInactiveProductException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_CannotAddInactiveProductException_GetObjectData.htm" />
+    <HelpKINode Title="ChangedStopListItem.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Common_ChangedStopListItem_GetObjectData.htm" />
+    <HelpKINode Title="ChangedStopListItemsDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Common_ChangedStopListItemsDto_GetObjectData.htm" />
     <HelpKINode Title="CheckSplitResultDto.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_DataTransferObjects_CheckSplitResultDto_GetObjectData.htm" />
     <HelpKINode Title="ChequeExtensions.GetObjectData Method " Url="html/M_Resto_Front_Api_Data_Cheques_ChequeExtensions_GetObjectData.htm" />
     <HelpKINode Title="ConstraintViolationException.GetObjectData Method " Url="html/M_Resto_Front_Api_Exceptions_ConstraintViolationException_GetObjectData.htm" />
@@ -4989,6 +5017,7 @@
   <HelpKINode Title="IOperationService.GetChangedKitchenOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetChangedKitchenOrders.htm" />
   <HelpKINode Title="IOperationService.GetChangedOrders method" Url="html/M_Resto_Front_Api_IOperationService_GetChangedOrders.htm" />
   <HelpKINode Title="IOperationService.GetChangedReserves method" Url="html/M_Resto_Front_Api_IOperationService_GetChangedReserves.htm" />
+  <HelpKINode Title="IOperationService.GetChangedStopListItems method" Url="html/M_Resto_Front_Api_IOperationService_GetChangedStopListItems.htm" />
   <HelpKINode Title="IOperationService.GetChildGroupsByProductGroup method" Url="html/M_Resto_Front_Api_IOperationService_GetChildGroupsByProductGroup.htm" />
   <HelpKINode Title="IOperationService.GetChildProductsByProductGroup method" Url="html/M_Resto_Front_Api_IOperationService_GetChildProductsByProductGroup.htm" />
   <HelpKINode Title="IOperationService.GetCities method" Url="html/M_Resto_Front_Api_IOperationService_GetCities.htm" />
@@ -7189,6 +7218,7 @@
   <HelpKINode Title="OperationArgumentExtensions.TryGetProductGroupMenuImage method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_TryGetProductGroupMenuImage.htm" />
   <HelpKINode Title="OperationArgumentExtensions.TryGetProductMenuImage method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_TryGetProductMenuImage.htm" />
   <HelpKINode Title="OperationArgumentExtensions.TryGetTerminalAddress method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_TryGetTerminalAddress.htm" />
+  <HelpKINode Title="OperationDate property" Url="html/P_Resto_Front_Api_Data_Common_ChangedStopListItem_OperationDate.htm" />
   <HelpKINode Title="OperationFailed enumeration member" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationCallingExceptionReason.htm" />
   <HelpKINode Title="OperationName property" Url="html/P_Resto_Front_Api_Data_Common_ExternalOperationChangedEventArgs_OperationName.htm" />
   <HelpKINode Title="OperationNotRegistered enumeration member" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationCallingExceptionReason.htm" />
@@ -8643,6 +8673,8 @@
   <HelpKINode Title="Resto.Front.Api.Data.Common.ChangedEntities&lt;T&gt; class" Url="html/T_Resto_Front_Api_Data_Common_ChangedEntities_1.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.ChangedEntity(Of T) structure" Url="html/T_Resto_Front_Api_Data_Common_ChangedEntity_1.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.ChangedEntity&lt;T&gt; structure" Url="html/T_Resto_Front_Api_Data_Common_ChangedEntity_1.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Common.ChangedStopListItem class" Url="html/T_Resto_Front_Api_Data_Common_ChangedStopListItem.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Common.ChangedStopListItemsDto class" Url="html/T_Resto_Front_Api_Data_Common_ChangedStopListItemsDto.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.CustomDataChangedEventArgs class" Url="html/T_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.EntityChangedEventArgs(Of T) structure" Url="html/T_Resto_Front_Api_Data_Common_EntityChangedEventArgs_1.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Common.EntityChangedEventArgs&lt;T&gt; structure" Url="html/T_Resto_Front_Api_Data_Common_EntityChangedEventArgs_1.htm" />
@@ -9118,10 +9150,12 @@
   <HelpKINode Title="Reverse field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_Reverse.htm" />
   <HelpKINode Title="Revision property">
     <HelpKINode Title="ChangedEntity(T).Revision Property " Url="html/P_Resto_Front_Api_Data_Common_ChangedEntity_1_Revision.htm" />
+    <HelpKINode Title="ChangedStopListItem.Revision Property " Url="html/P_Resto_Front_Api_Data_Common_ChangedStopListItem_Revision.htm" />
     <HelpKINode Title="IVersionedEntity.Revision Property " Url="html/P_Resto_Front_Api_Data_Common_IVersionedEntity_Revision.htm" />
     <HelpKINode Title="Ride.Revision Property " Url="html/P_Resto_Front_Api_Data_Brd_Ride_Revision.htm" />
   </HelpKINode>
   <HelpKINode Title="RevisionTo field" Url="html/F_Resto_Front_Api_Data_Common_ChangedEntities_1_RevisionTo.htm" />
+  <HelpKINode Title="RevisionTo property" Url="html/P_Resto_Front_Api_Data_Common_ChangedStopListItemsDto_RevisionTo.htm" />
   <HelpKINode Title="Ride class">
     <HelpKINode Title="Ride Class" Url="html/T_Resto_Front_Api_Data_Brd_Ride.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Data_Brd_Ride__ctor.htm" />
