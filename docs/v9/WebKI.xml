@@ -1624,6 +1624,7 @@
   </HelpKINode>
   <HelpKINode Title="ChequeAdditionalInfo.ChequeAdditionalInfo constructor" Url="html/M_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo__ctor.htm" />
   <HelpKINode Title="ChequeAdditionalInfo.Email property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_Email.htm" />
+  <HelpKINode Title="ChequeAdditionalInfo.IsInternetPayment property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_IsInternetPayment.htm" />
   <HelpKINode Title="ChequeAdditionalInfo.NeedReceipt property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_NeedReceipt.htm" />
   <HelpKINode Title="ChequeAdditionalInfo.Phone property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_Phone.htm" />
   <HelpKINode Title="ChequeAdditionalInfo.RetailAddress property" Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_RetailAddress.htm" />
@@ -1724,6 +1725,7 @@
   <HelpKINode Title="ChequeTask.EInvoiceNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_EInvoiceNumber.htm" />
   <HelpKINode Title="ChequeTask.EInvoiceType property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_EInvoiceType.htm" />
   <HelpKINode Title="ChequeTask.FillAdditionalUserData property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_FillAdditionalUserData.htm" />
+  <HelpKINode Title="ChequeTask.IsInternetPayment property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_IsInternetPayment.htm" />
   <HelpKINode Title="ChequeTask.IsOfdElectronicChequeOnly property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_IsOfdElectronicChequeOnly.htm" />
   <HelpKINode Title="ChequeTask.IsPaymentTypeFastReplacement property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_IsPaymentTypeFastReplacement.htm" />
   <HelpKINode Title="ChequeTask.IsProductRefund property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_IsProductRefund.htm" />
@@ -6174,6 +6176,10 @@
   <HelpKINode Title="ISimpleModifierBase.MenuIndex property" Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_MenuIndex.htm" />
   <HelpKINode Title="ISimpleModifierBase.MinimumAmount property" Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_MinimumAmount.htm" />
   <HelpKINode Title="ISimpleModifierBase.Product property" Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_Product.htm" />
+  <HelpKINode Title="IsInternetPayment property">
+    <HelpKINode Title="ChequeAdditionalInfo.IsInternetPayment Property " Url="html/P_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo_IsInternetPayment.htm" />
+    <HelpKINode Title="ChequeTask.IsInternetPayment Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_IsInternetPayment.htm" />
+  </HelpKINode>
   <HelpKINode Title="IsList property" Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceCustomEnumSetting_IsList.htm" />
   <HelpKINode Title="IsMain property">
     <HelpKINode Title="EmailDto.IsMain Property " Url="html/P_Resto_Front_Api_Data_Brd_EmailDto_IsMain.htm" />
