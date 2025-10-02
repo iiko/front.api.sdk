@@ -4856,6 +4856,7 @@
   <HelpKINode Title="INotificationService.OrderSplittedByCashRegisters property" Url="html/P_Resto_Front_Api_INotificationService_OrderSplittedByCashRegisters.htm" />
   <HelpKINode Title="INotificationService.OrderStorned property" Url="html/P_Resto_Front_Api_INotificationService_OrderStorned.htm" />
   <HelpKINode Title="INotificationService.OrderTypeChanged property" Url="html/P_Resto_Front_Api_INotificationService_OrderTypeChanged.htm" />
+  <HelpKINode Title="INotificationService.PartialOrderItemsRemovalTypeSelected property" Url="html/P_Resto_Front_Api_INotificationService_PartialOrderItemsRemovalTypeSelected.htm" />
   <HelpKINode Title="INotificationService.PastOrderStorned property" Url="html/P_Resto_Front_Api_INotificationService_PastOrderStorned.htm" />
   <HelpKINode Title="INotificationService.PaymentScreenUpdated property" Url="html/P_Resto_Front_Api_INotificationService_PaymentScreenUpdated.htm" />
   <HelpKINode Title="INotificationService.PaymentTypeChanged property" Url="html/P_Resto_Front_Api_INotificationService_PaymentTypeChanged.htm" />
@@ -4873,6 +4874,7 @@
   <HelpKINode Title="INotificationService.QuickMenuUpdated property" Url="html/P_Resto_Front_Api_INotificationService_QuickMenuUpdated.htm" />
   <HelpKINode Title="INotificationService.RegionChanged property" Url="html/P_Resto_Front_Api_INotificationService_RegionChanged.htm" />
   <HelpKINode Title="INotificationService.RemovalTypeChanged property" Url="html/P_Resto_Front_Api_INotificationService_RemovalTypeChanged.htm" />
+  <HelpKINode Title="INotificationService.RemovalTypeSelected property" Url="html/P_Resto_Front_Api_INotificationService_RemovalTypeSelected.htm" />
   <HelpKINode Title="INotificationService.ReserveChanged property" Url="html/P_Resto_Front_Api_INotificationService_ReserveChanged.htm" />
   <HelpKINode Title="INotificationService.ReserveRestored property" Url="html/P_Resto_Front_Api_INotificationService_ReserveRestored.htm" />
   <HelpKINode Title="INotificationService.RestaurantChanged property" Url="html/P_Resto_Front_Api_INotificationService_RestaurantChanged.htm" />
@@ -7565,6 +7567,7 @@
   <HelpKINode Title="ParentOrderId property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_ParentOrderId.htm" />
   <HelpKINode Title="Partial enumeration member" Url="html/T_Resto_Front_Api_Data_Device_CashRegisterCloseEncashmentSetup.htm" />
   <HelpKINode Title="PartialCredit enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeTransferType.htm" />
+  <HelpKINode Title="PartialOrderItemsRemovalTypeSelected property" Url="html/P_Resto_Front_Api_INotificationService_PartialOrderItemsRemovalTypeSelected.htm" />
   <HelpKINode Title="PartialPrepayment enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_ChequeTransferType.htm" />
   <HelpKINode Title="PastOrder class">
     <HelpKINode Title="PastOrder Class" Url="html/T_Resto_Front_Api_Data_Orders_PastOrder.htm" />
@@ -8450,6 +8453,7 @@
     <HelpKINode Title="WriteoffOptions.RemovalType Property " Url="html/P_Resto_Front_Api_Data_Orders_WriteoffOptions_RemovalType.htm" />
   </HelpKINode>
   <HelpKINode Title="RemovalTypeChanged property" Url="html/P_Resto_Front_Api_INotificationService_RemovalTypeChanged.htm" />
+  <HelpKINode Title="RemovalTypeSelected property" Url="html/P_Resto_Front_Api_INotificationService_RemovalTypeSelected.htm" />
   <HelpKINode Title="Removed enumeration member" Url="html/T_Resto_Front_Api_Data_Common_EntityEventType.htm" />
   <HelpKINode Title="RemoveDevice method" Url="html/M_Resto_Front_Api_Devices_IDevice_RemoveDevice.htm" />
   <HelpKINode Title="RemovedItems property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_RemovedItems.htm" />
