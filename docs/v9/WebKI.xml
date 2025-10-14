@@ -1062,6 +1062,11 @@
   <HelpKINode Title="CashRegisterStatus.CashRegisterStatus constructor" Url="html/M_Resto_Front_Api_Data_Device_Results_CashRegisterStatus__ctor.htm" />
   <HelpKINode Title="CashRegisterStatus.ErrorCode property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_ErrorCode.htm" />
   <HelpKINode Title="CashRegisterStatus.ExtendedStatus property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_ExtendedStatus.htm" />
+  <HelpKINode Title="CashRegisterStatus.FiscalModuleActivationDate property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FiscalModuleActivationDate.htm" />
+  <HelpKINode Title="CashRegisterStatus.FiscalModuleErrors property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FiscalModuleErrors.htm" />
+  <HelpKINode Title="CashRegisterStatus.FiscalModuleExpirationDate property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FiscalModuleExpirationDate.htm" />
+  <HelpKINode Title="CashRegisterStatus.FiscalModuleSerialNumber property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FiscalModuleSerialNumber.htm" />
+  <HelpKINode Title="CashRegisterStatus.FiscalModuleWarnings property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FiscalModuleWarnings.htm" />
   <HelpKINode Title="CashRegisterStatus.FiscalStorage property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FiscalStorage.htm" />
   <HelpKINode Title="CashRegisterStatus.FnResponseCode property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FnResponseCode.htm" />
   <HelpKINode Title="CashRegisterStatus.HaveRegisterDateTime property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_HaveRegisterDateTime.htm" />
@@ -1073,7 +1078,6 @@
   <HelpKINode Title="CashRegisterStatus.OfdChequeSum property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdChequeSum.htm" />
   <HelpKINode Title="CashRegisterStatus.OfdDocumentNumber property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdDocumentNumber.htm" />
   <HelpKINode Title="CashRegisterStatus.OfdFirstUnsentDocumentNumber property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdFirstUnsentDocumentNumber.htm" />
-  <HelpKINode Title="CashRegisterStatus.OfdKkmRegistrationNumber property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdKkmRegistrationNumber.htm" />
   <HelpKINode Title="CashRegisterStatus.OfdOrgName property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdOrgName.htm" />
   <HelpKINode Title="CashRegisterStatus.OfdResponseCode property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdResponseCode.htm" />
   <HelpKINode Title="CashRegisterStatus.OfdSalesAddress property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdSalesAddress.htm" />
@@ -1083,6 +1087,7 @@
   <HelpKINode Title="CashRegisterStatus.RefundsCount property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_RefundsCount.htm" />
   <HelpKINode Title="CashRegisterStatus.RefundsSum property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_RefundsSum.htm" />
   <HelpKINode Title="CashRegisterStatus.RegisterDateTime property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_RegisterDateTime.htm" />
+  <HelpKINode Title="CashRegisterStatus.RegistrationNumber property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_RegistrationNumber.htm" />
   <HelpKINode Title="CashRegisterStatus.RestaurantMode property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_RestaurantMode.htm" />
   <HelpKINode Title="CashRegisterStatus.SalesCount property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_SalesCount.htm" />
   <HelpKINode Title="CashRegisterStatus.SalesSum property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_SalesSum.htm" />
@@ -1797,6 +1802,8 @@
   <HelpKINode Title="Code property">
     <HelpKINode Title="ChequeSale.Code Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Code.htm" />
     <HelpKINode Title="ChequeSaleIdentifierCode.Code Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSaleIdentifierCode_Code.htm" />
+    <HelpKINode Title="FiscalModuleErrorInfo.Code Property " Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorInfo_Code.htm" />
+    <HelpKINode Title="FiscalModuleWarningInfo.Code Property " Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningInfo_Code.htm" />
     <HelpKINode Title="FiscalTag.Code Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_FiscalTag_Code.htm" />
     <HelpKINode Title="IAllergenGroup.Code Property " Url="html/P_Resto_Front_Api_Data_Orders_IAllergenGroup_Code.htm" />
     <HelpKINode Title="IConception.Code Property " Url="html/P_Resto_Front_Api_Data_Organization_IConception_Code.htm" />
@@ -1976,7 +1983,6 @@
   <HelpKINode Title="ConstraintViolationExceptionReason enumeration" Url="html/T_Resto_Front_Api_Exceptions_ConstraintViolationExceptionReason.htm" />
   <HelpKINode Title="Container property" Url="html/P_Resto_Front_Api_Data_Assortment_IBarcodeContainer_Container.htm" />
   <HelpKINode Title="ContainerBarcode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_UkraineChequeSaleData_ContainerBarcode.htm" />
-  <HelpKINode Title="Containers property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Containers.htm" />
   <HelpKINode Title="Contract property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_ContractAnnotationAttribute_Contract.htm" />
   <HelpKINode Title="ContractAnnotationAttribute class">
     <HelpKINode Title="ContractAnnotationAttribute Class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ContractAnnotationAttribute.htm" />
@@ -2155,6 +2161,7 @@
     <HelpKINode Title="ChequeTask.CreditSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_CreditSum.htm" />
     <HelpKINode Title="Ffd10CorrectionTask.CreditSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_CreditSum.htm" />
   </HelpKINode>
+  <HelpKINode Title="CriticalError enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorCode.htm" />
   <HelpKINode Title="CrmId property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_CrmId.htm" />
   <HelpKINode Title="Culture property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_Culture.htm" />
   <HelpKINode Title="Currency property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_Currency.htm" />
@@ -2913,6 +2920,8 @@
   <HelpKINode Title="ExpectedVisitInterval.GetObjectData method" Url="html/M_Resto_Front_Api_Data_Brd_ExpectedVisitInterval_GetObjectData.htm" />
   <HelpKINode Title="ExpectedVisitInterval.To property" Url="html/P_Resto_Front_Api_Data_Brd_ExpectedVisitInterval_To.htm" />
   <HelpKINode Title="ExpectedWaitingTimeSec property" Url="html/P_Resto_Front_Api_Data_Brd_PointVisitTime_ExpectedWaitingTimeSec.htm" />
+  <HelpKINode Title="Expiration30Days enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningCode.htm" />
+  <HelpKINode Title="Expiration3Days enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningCode.htm" />
   <HelpKINode Title="ExpirationDate property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_AlcoholMarkingProduct_ExpirationDate.htm" />
   <HelpKINode Title="ExpirationTime property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_ExpirationTime.htm" />
   <HelpKINode Title="Expression property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_MacroAttribute_Expression.htm" />
@@ -3135,6 +3144,35 @@
     <HelpKINode Title="UzChequeSaleData.FiscalCode Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_UzChequeSaleData_FiscalCode.htm" />
   </HelpKINode>
   <HelpKINode Title="FiscalizeAsDiscount property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_FiscalizeAsDiscount.htm" />
+  <HelpKINode Title="FiscalModuleActivationDate enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
+  <HelpKINode Title="FiscalModuleActivationDate property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FiscalModuleActivationDate.htm" />
+  <HelpKINode Title="FiscalModuleErrorCode enumeration" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorCode.htm" />
+  <HelpKINode Title="FiscalModuleErrorInfo class">
+    <HelpKINode Title="FiscalModuleErrorInfo Class" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorInfo.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorInfo__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FiscalModuleErrorInfo.Code property" Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorInfo_Code.htm" />
+  <HelpKINode Title="FiscalModuleErrorInfo.FiscalModuleErrorInfo constructor" Url="html/M_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorInfo__ctor.htm" />
+  <HelpKINode Title="FiscalModuleErrorInfo.Message property" Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorInfo_Message.htm" />
+  <HelpKINode Title="FiscalModuleErrors property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FiscalModuleErrors.htm" />
+  <HelpKINode Title="FiscalModuleExpirationDate enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
+  <HelpKINode Title="FiscalModuleExpirationDate property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FiscalModuleExpirationDate.htm" />
+  <HelpKINode Title="FiscalModuleHealth enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
+  <HelpKINode Title="FiscalModuleSerialNumber enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
+  <HelpKINode Title="FiscalModuleSerialNumber property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FiscalModuleSerialNumber.htm" />
+  <HelpKINode Title="FiscalModuleWarningCode enumeration" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningCode.htm" />
+  <HelpKINode Title="FiscalModuleWarningInfo class">
+    <HelpKINode Title="FiscalModuleWarningInfo Class" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningInfo.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningInfo__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FiscalModuleWarningInfo.Code property" Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningInfo_Code.htm" />
+  <HelpKINode Title="FiscalModuleWarningInfo.FiscalModuleWarningInfo constructor" Url="html/M_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningInfo__ctor.htm" />
+  <HelpKINode Title="FiscalModuleWarningInfo.Message property" Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningInfo_Message.htm" />
+  <HelpKINode Title="FiscalModuleWarnings property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_FiscalModuleWarnings.htm" />
   <HelpKINode Title="FiscalPaymentTypeGroup enumeration" Url="html/T_Resto_Front_Api_Data_Payments_FiscalPaymentTypeGroup.htm" />
   <HelpKINode Title="FiscalRegisterPaymentType class">
     <HelpKINode Title="FiscalRegisterPaymentType Class" Url="html/T_Resto_Front_Api_Data_Device_Settings_FiscalRegisterPaymentType.htm" />
@@ -3347,6 +3385,10 @@
   <HelpKINode Title="G property" Url="html/P_Resto_Front_Api_Data_View_Color_G.htm" />
   <HelpKINode Title="Gender enumeration" Url="html/T_Resto_Front_Api_Data_Brd_Gender.htm" />
   <HelpKINode Title="Gender property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Gender.htm" />
+  <HelpKINode Title="General enumeration member">
+    <HelpKINode Title="FiscalModuleErrorCode Enumeration" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorCode.htm" />
+    <HelpKINode Title="FiscalModuleWarningCode Enumeration" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningCode.htm" />
+  </HelpKINode>
   <HelpKINode Title="Get method" Url="html/Overload_Resto_Front_Api_Editors_ISubmittedEntities_Get.htm" />
   <HelpKINode Title="GetActivePaymentTypes method" Url="html/M_Resto_Front_Api_IOperationService_GetActivePaymentTypes.htm" />
   <HelpKINode Title="GetActiveProducts method" Url="html/M_Resto_Front_Api_IOperationService_GetActiveProducts.htm" />
@@ -5810,7 +5852,6 @@
   <HelpKINode Title="IProduct.BarcodeContainers property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_BarcodeContainers.htm" />
   <HelpKINode Title="IProduct.CanSetOpenPrice property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_CanSetOpenPrice.htm" />
   <HelpKINode Title="IProduct.Category property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Category.htm" />
-  <HelpKINode Title="IProduct.Containers property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Containers.htm" />
   <HelpKINode Title="IProduct.CookingPlaceType property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_CookingPlaceType.htm" />
   <HelpKINode Title="IProduct.DefaultCourse property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_DefaultCourse.htm" />
   <HelpKINode Title="IProduct.Description property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Description.htm" />
@@ -6622,7 +6663,6 @@
   <HelpKINode Title="KitchenStatusInfo.Status property" Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenStatusInfo_Status.htm" />
   <HelpKINode Title="KitchenWorkload property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryTerminalWorkload_KitchenWorkload.htm" />
   <HelpKINode Title="KitchenWorkloadInMinutes property" Url="html/P_Resto_Front_Api_Data_Orders_IKitchenWorkload_KitchenWorkloadInMinutes.htm" />
-  <HelpKINode Title="KkmRegistrationNumber enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="KzChequeSaleData class">
     <HelpKINode Title="KzChequeSaleData Class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_KzChequeSaleData.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_KzChequeSaleData__ctor.htm" />
@@ -6816,6 +6856,7 @@
     <HelpKINode Title="Tags.MediumFont Field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_MediumFont.htm" />
   </HelpKINode>
   <HelpKINode Title="Members enumeration member" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ImplicitUseTargetFlags.htm" />
+  <HelpKINode Title="Memory99Percent enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningCode.htm" />
   <HelpKINode Title="MenuIndex property">
     <HelpKINode Title="IGroupModifier.MenuIndex Property " Url="html/P_Resto_Front_Api_Data_Assortment_IGroupModifier_MenuIndex.htm" />
     <HelpKINode Title="IProduct.MenuIndex Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_MenuIndex.htm" />
@@ -6824,6 +6865,8 @@
     <HelpKINode Title="ISimpleModifierBase.MenuIndex Property " Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_MenuIndex.htm" />
   </HelpKINode>
   <HelpKINode Title="Message property">
+    <HelpKINode Title="FiscalModuleErrorInfo.Message Property " Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorInfo_Message.htm" />
+    <HelpKINode Title="FiscalModuleWarningInfo.Message Property " Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningInfo_Message.htm" />
     <HelpKINode Title="GetEInvoiceNumberResult.Message Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult_Message.htm" />
     <HelpKINode Title="PostResult.Message Property " Url="html/P_Resto_Front_Api_Data_Device_Results_PostResult_Message.htm" />
   </HelpKINode>
@@ -7190,8 +7233,6 @@
   <HelpKINode Title="OfdEmail property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OfdEmail.htm" />
   <HelpKINode Title="OfdFirstUnsentDocumentNumber enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="OfdFirstUnsentDocumentNumber property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdFirstUnsentDocumentNumber.htm" />
-  <HelpKINode Title="OfdKkmRegistrationNumber enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
-  <HelpKINode Title="OfdKkmRegistrationNumber property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdKkmRegistrationNumber.htm" />
   <HelpKINode Title="OfdOrgName enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="OfdOrgName property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_OfdOrgName.htm" />
   <HelpKINode Title="OfdPhoneNumber property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeTask_OfdPhoneNumber.htm" />
@@ -8453,7 +8494,11 @@
   <HelpKINode Title="RegisterIdentifierCodeHandler method" Url="html/M_Resto_Front_Api_IOperationService_RegisterIdentifierCodeHandler.htm" />
   <HelpKINode Title="RegisterPaymentSystem method" Url="html/M_Resto_Front_Api_IOperationService_RegisterPaymentSystem.htm" />
   <HelpKINode Title="RegisterScaleFactory method" Url="html/M_Resto_Front_Api_IOperationService_RegisterScaleFactory.htm" />
-  <HelpKINode Title="RegistrationNumber property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_RegistrationNumber.htm" />
+  <HelpKINode Title="RegistrationNumber enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
+  <HelpKINode Title="RegistrationNumber property">
+    <HelpKINode Title="CashRegisterStatus.RegistrationNumber Property " Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_RegistrationNumber.htm" />
+    <HelpKINode Title="IRestaurant.RegistrationNumber Property " Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_RegistrationNumber.htm" />
+  </HelpKINode>
   <HelpKINode Title="Regular enumeration member" Url="html/T_Resto_Front_Api_Data_View_FontStyle.htm" />
   <HelpKINode Title="RelatedTerminal property" Url="html/P_Resto_Front_Api_Data_Device_IPrintingDeviceInfo_RelatedTerminal.htm" />
   <HelpKINode Title="RemainingLimitCost property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_RemainingLimitCost.htm" />
@@ -8513,6 +8558,7 @@
     <HelpKINode Title="OperationServiceExtensions.ResetPriceCategory Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ResetPriceCategory.htm" />
   </HelpKINode>
   <HelpKINode Title="ResizeMode field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_ResizeMode.htm" />
+  <HelpKINode Title="ResourceExhausted enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorCode.htm" />
   <HelpKINode Title="ResponsibleManager property" Url="html/P_Resto_Front_Api_Data_Device_ICafeSession_ResponsibleManager.htm" />
   <HelpKINode Title="RestaurantChanged property" Url="html/P_Resto_Front_Api_INotificationService_RestaurantChanged.htm" />
   <HelpKINode Title="RestaurantMode enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
@@ -8782,6 +8828,10 @@
   <HelpKINode Title="Resto.Front.Api.Data.Device.Results.DeviceInfo class" Url="html/T_Resto_Front_Api_Data_Device_Results_DeviceInfo.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Results.DirectIoResult class" Url="html/T_Resto_Front_Api_Data_Device_Results_DirectIoResult.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Results.ErrorResult class" Url="html/T_Resto_Front_Api_Data_Device_Results_ErrorResult.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Device.Results.FiscalModuleErrorCode enumeration" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorCode.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Device.Results.FiscalModuleErrorInfo class" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorInfo.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Device.Results.FiscalModuleWarningCode enumeration" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningCode.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Device.Results.FiscalModuleWarningInfo class" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningInfo.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Results.FiscalRegisterTaxItem class" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalRegisterTaxItem.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Results.FiscalTagsResult class" Url="html/T_Resto_Front_Api_Data_Device_Results_FiscalTagsResult.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Device.Results.OkResult class" Url="html/T_Resto_Front_Api_Data_Device_Results_OkResult.htm" />
