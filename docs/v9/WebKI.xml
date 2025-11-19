@@ -1610,6 +1610,7 @@
   </HelpKINode>
   <HelpKINode Title="CheckFfd12MarkingTask.CheckFfd12MarkingTask constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_CheckFfd12MarkingTask__ctor.htm" />
   <HelpKINode Title="CheckFfd12MarkingTask.ChequeSale property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_CheckFfd12MarkingTask_ChequeSale.htm" />
+  <HelpKINode Title="CheckIdentifierCodeSupport method" Url="html/Overload_Resto_Front_Api_Data_Orders_IIdentifierCodeHandler_CheckIdentifierCodeSupport.htm" />
   <HelpKINode Title="CheckIsConfigured property" Url="html/P_Resto_Front_Api_Data_Print_IPrinterQueueRef_CheckIsConfigured.htm" />
   <HelpKINode Title="CheckPermission method" Url="html/M_Resto_Front_Api_IOperationService_CheckPermission.htm" />
   <HelpKINode Title="CheckPermissions method" Url="html/M_Resto_Front_Api_IOperationService_CheckPermissions.htm" />
@@ -1823,6 +1824,7 @@
     <HelpKINode Title="OrganizationDetailsInfo.Code Property " Url="html/P_Resto_Front_Api_Data_Payments_OrganizationDetailsInfo_Code.htm" />
     <HelpKINode Title="SupportedCommand.Code Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_SupportedCommand_Code.htm" />
   </HelpKINode>
+  <HelpKINode Title="CodeHandlerFlags property" Url="html/P_Resto_Front_Api_Data_Orders_IdentifierCodeSupportResult_CodeHandlerFlags.htm" />
   <HelpKINode Title="Codes property">
     <HelpKINode Title="ChequeSale.Codes Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Codes.htm" />
     <HelpKINode Title="IOrderModifierItem.Codes Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderModifierItem_Codes.htm" />
@@ -4251,6 +4253,16 @@
   <HelpKINode Title="IdentifierCode.Value property" Url="html/P_Resto_Front_Api_Data_Orders_IdentifierCode_Value.htm" />
   <HelpKINode Title="IdentifierCodeFlags enumeration" Url="html/T_Resto_Front_Api_Data_Orders_IdentifierCodeFlags.htm" />
   <HelpKINode Title="IdentifierCodeHandlerFlags enumeration" Url="html/T_Resto_Front_Api_Data_Orders_IdentifierCodeHandlerFlags.htm" />
+  <HelpKINode Title="IdentifierCodeSupportResult class">
+    <HelpKINode Title="IdentifierCodeSupportResult Class" Url="html/T_Resto_Front_Api_Data_Orders_IdentifierCodeSupportResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Orders_IdentifierCodeSupportResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IdentifierCodeSupportResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Orders_IdentifierCodeSupportResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IdentifierCodeSupportResult.CodeHandlerFlags property" Url="html/P_Resto_Front_Api_Data_Orders_IdentifierCodeSupportResult_CodeHandlerFlags.htm" />
+  <HelpKINode Title="IdentifierCodeSupportResult.IdentifierCodeSupportResult constructor" Url="html/M_Resto_Front_Api_Data_Orders_IdentifierCodeSupportResult__ctor.htm" />
+  <HelpKINode Title="IdentifierCodeSupportResult.IsSupported property" Url="html/P_Resto_Front_Api_Data_Orders_IdentifierCodeSupportResult_IsSupported.htm" />
+  <HelpKINode Title="IdentifierCodeSupportResult.Message property" Url="html/P_Resto_Front_Api_Data_Orders_IdentifierCodeSupportResult_Message.htm" />
   <HelpKINode Title="IDevice interface">
     <HelpKINode Title="IDevice Interface" Url="html/T_Resto_Front_Api_Devices_IDevice.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Devices_IDevice.htm" />
@@ -4606,8 +4618,8 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Orders_IIdentifierCodeHandler.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Orders_IIdentifierCodeHandler.htm" />
   </HelpKINode>
+  <HelpKINode Title="IIdentifierCodeHandler.CheckIdentifierCodeSupport method" Url="html/Overload_Resto_Front_Api_Data_Orders_IIdentifierCodeHandler_CheckIdentifierCodeSupport.htm" />
   <HelpKINode Title="IIdentifierCodeHandler.Description property" Url="html/P_Resto_Front_Api_Data_Orders_IIdentifierCodeHandler_Description.htm" />
-  <HelpKINode Title="IIdentifierCodeHandler.IsIdentifierCodeSupported method" Url="html/Overload_Resto_Front_Api_Data_Orders_IIdentifierCodeHandler_IsIdentifierCodeSupported.htm" />
   <HelpKINode Title="IIdentifierCodeHandler.SourceKey property" Url="html/P_Resto_Front_Api_Data_Orders_IIdentifierCodeHandler_SourceKey.htm" />
   <HelpKINode Title="IIdentifierCodeHandler.VerifyIdentifierCode method" Url="html/Overload_Resto_Front_Api_Data_Orders_IIdentifierCodeHandler_VerifyIdentifierCode.htm" />
   <HelpKINode Title="IIikoCard51CouponInfo interface">
@@ -6269,7 +6281,6 @@
     <HelpKINode Title="IPaymentType.IsHidden Property " Url="html/P_Resto_Front_Api_Data_Payments_IPaymentType_IsHidden.htm" />
     <HelpKINode Title="KitchenOrderModifierItemDto.IsHidden Property " Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderModifierItemDto_IsHidden.htm" />
   </HelpKINode>
-  <HelpKINode Title="IsIdentifierCodeSupported method" Url="html/Overload_Resto_Front_Api_Data_Orders_IIdentifierCodeHandler_IsIdentifierCodeSupported.htm" />
   <HelpKINode Title="ISimpleModifier interface">
     <HelpKINode Title="ISimpleModifier Interface" Url="html/T_Resto_Front_Api_Data_Assortment_ISimpleModifier.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Assortment_ISimpleModifier.htm" />
@@ -6351,6 +6362,7 @@
   <HelpKINode Title="IsSplitVat property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_IsSplitVat.htm" />
   <HelpKINode Title="IsStarted property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_IsStarted.htm" />
   <HelpKINode Title="IsStopListProductSellingRestricted method" Url="html/M_Resto_Front_Api_IOperationService_IsStopListProductSellingRestricted.htm" />
+  <HelpKINode Title="IsSupported property" Url="html/P_Resto_Front_Api_Data_Orders_IdentifierCodeSupportResult_IsSupported.htm" />
   <HelpKINode Title="IsTabMode property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_IsTabMode.htm" />
   <HelpKINode Title="IsTaxable property">
     <HelpKINode Title="ChequeSale.IsTaxable Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_IsTaxable.htm" />
@@ -6921,6 +6933,7 @@
     <HelpKINode Title="FiscalModuleErrorInfo.Message Property " Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorInfo_Message.htm" />
     <HelpKINode Title="FiscalModuleWarningInfo.Message Property " Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningInfo_Message.htm" />
     <HelpKINode Title="GetEInvoiceNumberResult.Message Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult_Message.htm" />
+    <HelpKINode Title="IdentifierCodeSupportResult.Message Property " Url="html/P_Resto_Front_Api_Data_Orders_IdentifierCodeSupportResult_Message.htm" />
     <HelpKINode Title="PostResult.Message Property " Url="html/P_Resto_Front_Api_Data_Device_Results_PostResult_Message.htm" />
   </HelpKINode>
   <HelpKINode Title="Middle enumeration member" Url="html/T_Resto_Front_Api_Data_JournalEvents_Severity.htm" />
@@ -8995,6 +9008,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IdentifierCode class" Url="html/T_Resto_Front_Api_Data_Orders_IdentifierCode.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IdentifierCodeFlags enumeration" Url="html/T_Resto_Front_Api_Data_Orders_IdentifierCodeFlags.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IdentifierCodeHandlerFlags enumeration" Url="html/T_Resto_Front_Api_Data_Orders_IdentifierCodeHandlerFlags.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Orders.IdentifierCodeSupportResult class" Url="html/T_Resto_Front_Api_Data_Orders_IdentifierCodeSupportResult.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IDiscountCard interface" Url="html/T_Resto_Front_Api_Data_Orders_IDiscountCard.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IDiscountItem interface" Url="html/T_Resto_Front_Api_Data_Orders_IDiscountItem.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Orders.IDiscountType interface" Url="html/T_Resto_Front_Api_Data_Orders_IDiscountType.htm" />
