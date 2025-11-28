@@ -2761,6 +2761,7 @@
   <HelpKINode Title="EgaisDataException.ExciseStamps property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStamps.htm" />
   <HelpKINode Title="EgaisDataException.ExciseStampsAlcCodes property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStampsAlcCodes.htm" />
   <HelpKINode Title="EgaisDataException.ExciseStampsEmptyVolumes property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStampsEmptyVolumes.htm" />
+  <HelpKINode Title="EgaisDataException.ExciseStampsUnequalFsrarIds property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStampsUnequalFsrarIds.htm" />
   <HelpKINode Title="EgaisDataException.FsRarId property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_FsRarId.htm" />
   <HelpKINode Title="EgaisDataException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_EgaisDataException_GetObjectData.htm" />
   <HelpKINode Title="Eighteenth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
@@ -2922,6 +2923,7 @@
   <HelpKINode Title="ExciseStamps property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStamps.htm" />
   <HelpKINode Title="ExciseStampsAlcCodes property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStampsAlcCodes.htm" />
   <HelpKINode Title="ExciseStampsEmptyVolumes property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStampsEmptyVolumes.htm" />
+  <HelpKINode Title="ExciseStampsUnequalFsrarIds property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStampsUnequalFsrarIds.htm" />
   <HelpKINode Title="ExecuteContinuousOperation method" Url="html/Overload_Resto_Front_Api_IOperationService_ExecuteContinuousOperation.htm" />
   <HelpKINode Title="ExistsEgaisMarkInfo method" Url="html/M_Resto_Front_Api_IOperationService_ExistsEgaisMarkInfo.htm" />
   <HelpKINode Title="Expected property" Url="html/P_Resto_Front_Api_Data_Brd_PointVisitTime_Expected.htm" />
