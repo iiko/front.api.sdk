@@ -3503,6 +3503,7 @@
   </HelpKINode>
   <HelpKINode Title="GetDocuments method" Url="html/M_Resto_Front_Api_IOperationService_GetDocuments.htm" />
   <HelpKINode Title="GetDonationTypesCompatibleWith method" Url="html/M_Resto_Front_Api_IOperationService_GetDonationTypesCompatibleWith.htm" />
+  <HelpKINode Title="GetEgaisProductPackageVolumes method" Url="html/Overload_Resto_Front_Api_IOperationService_GetEgaisProductPackageVolumes.htm" />
   <HelpKINode Title="GetEInvoiceNumber property" Url="html/P_Resto_Front_Api_INotificationService_GetEInvoiceNumber.htm" />
   <HelpKINode Title="GetEInvoiceNumberResult class">
     <HelpKINode Title="GetEInvoiceNumberResult Class" Url="html/T_Resto_Front_Api_Data_DataTransferObjects_GetEInvoiceNumberResult.htm" />
@@ -5178,6 +5179,7 @@
   <HelpKINode Title="IOperationService.GetDocumentFiscalTags method" Url="html/M_Resto_Front_Api_IOperationService_GetDocumentFiscalTags.htm" />
   <HelpKINode Title="IOperationService.GetDocuments method" Url="html/M_Resto_Front_Api_IOperationService_GetDocuments.htm" />
   <HelpKINode Title="IOperationService.GetDonationTypesCompatibleWith method" Url="html/M_Resto_Front_Api_IOperationService_GetDonationTypesCompatibleWith.htm" />
+  <HelpKINode Title="IOperationService.GetEgaisProductPackageVolumes method" Url="html/Overload_Resto_Front_Api_IOperationService_GetEgaisProductPackageVolumes.htm" />
   <HelpKINode Title="IOperationService.GetExternalNotificationSubscription method" Url="html/M_Resto_Front_Api_IOperationService_GetExternalNotificationSubscription.htm" />
   <HelpKINode Title="IOperationService.GetExternalOperations method" Url="html/M_Resto_Front_Api_IOperationService_GetExternalOperations.htm" />
   <HelpKINode Title="IOperationService.GetFrontDeliverySettings method" Url="html/M_Resto_Front_Api_IOperationService_GetFrontDeliverySettings.htm" />
