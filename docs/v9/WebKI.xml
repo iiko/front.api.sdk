@@ -573,6 +573,8 @@
   <HelpKINode Title="AuthorizationUser property" Url="html/P_Resto_Front_Api_Data_Payments_WriteoffPaymentItemAdditionalData_AuthorizationUser.htm" />
   <HelpKINode Title="Auto enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_WriteoffOptions_Type.htm" />
   <HelpKINode Title="Auto method" Url="html/M_Resto_Front_Api_Data_Orders_WriteoffOptions_Auto.htm" />
+  <HelpKINode Title="AutoAdditionProductIds property" Url="html/P_Resto_Front_Api_Data_Organization_IAutoAdditionSettings_AutoAdditionProductIds.htm" />
+  <HelpKINode Title="AutoAdditionSettingsChanged property" Url="html/P_Resto_Front_Api_INotificationService_AutoAdditionSettingsChanged.htm" />
   <HelpKINode Title="AutoAndPayIn enumeration member" Url="html/T_Resto_Front_Api_Data_Device_CashRegisterCloseEncashmentSetup.htm" />
   <HelpKINode Title="AutomaticallyOnCookingCompleted enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryBillPrintTimeOption.htm" />
   <HelpKINode Title="AutomaticallyOnCookingStarted enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryBillPrintTimeOption.htm" />
@@ -3922,6 +3924,12 @@
   <HelpKINode Title="IAppliedDiscountItem.DiscountSum property" Url="html/P_Resto_Front_Api_Data_Orders_IAppliedDiscountItem_DiscountSum.htm" />
   <HelpKINode Title="IAppliedDiscountItem.DiscountSumByOrderItemId property" Url="html/P_Resto_Front_Api_Data_Orders_IAppliedDiscountItem_DiscountSumByOrderItemId.htm" />
   <HelpKINode Title="IAppliedDiscountItem.IsRounding property" Url="html/P_Resto_Front_Api_Data_Orders_IAppliedDiscountItem_IsRounding.htm" />
+  <HelpKINode Title="IAutoAdditionSettings interface">
+    <HelpKINode Title="IAutoAdditionSettings Interface" Url="html/T_Resto_Front_Api_Data_Organization_IAutoAdditionSettings.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Organization_IAutoAdditionSettings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Organization_IAutoAdditionSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAutoAdditionSettings.AutoAdditionProductIds property" Url="html/P_Resto_Front_Api_Data_Organization_IAutoAdditionSettings_AutoAdditionProductIds.htm" />
   <HelpKINode Title="IAutosearchCashRegister interface">
     <HelpKINode Title="IAutosearchCashRegister Interface" Url="html/T_Resto_Front_Api_Devices_IAutosearchCashRegister.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Devices_IAutosearchCashRegister.htm" />
@@ -4937,6 +4945,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_INotificationService.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_INotificationService.htm" />
   </HelpKINode>
+  <HelpKINode Title="INotificationService.AutoAdditionSettingsChanged property" Url="html/P_Resto_Front_Api_INotificationService_AutoAdditionSettingsChanged.htm" />
   <HelpKINode Title="INotificationService.BeforeAddOrderItems property" Url="html/P_Resto_Front_Api_INotificationService_BeforeAddOrderItems.htm" />
   <HelpKINode Title="INotificationService.BeforeCustomDataClear property" Url="html/P_Resto_Front_Api_INotificationService_BeforeCustomDataClear.htm" />
   <HelpKINode Title="INotificationService.BeforeDeleteNonPrintedItems property" Url="html/P_Resto_Front_Api_INotificationService_BeforeDeleteNonPrintedItems.htm" />
@@ -5401,6 +5410,7 @@
   <HelpKINode Title="IOperationService.TryEditCurrentOrder method" Url="html/M_Resto_Front_Api_IOperationService_TryEditCurrentOrder.htm" />
   <HelpKINode Title="IOperationService.TryEditCurrentPaymentScreen method" Url="html/M_Resto_Front_Api_IOperationService_TryEditCurrentPaymentScreen.htm" />
   <HelpKINode Title="IOperationService.TryExecuteUiOperation method" Url="html/M_Resto_Front_Api_IOperationService_TryExecuteUiOperation.htm" />
+  <HelpKINode Title="IOperationService.TryGetAutoAdditionSettings method" Url="html/M_Resto_Front_Api_IOperationService_TryGetAutoAdditionSettings.htm" />
   <HelpKINode Title="IOperationService.TryGetBillPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetBillPrinter.htm" />
   <HelpKINode Title="IOperationService.TryGetCafeSessionByCashRegister method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCafeSessionByCashRegister.htm" />
   <HelpKINode Title="IOperationService.TryGetCafeSessionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCafeSessionById.htm" />
@@ -9108,6 +9118,7 @@
   <HelpKINode Title="Resto.Front.Api.Data.Organization namespace" Url="html/N_Resto_Front_Api_Data_Organization.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Organization.CanDeleteOrdersOutOfCafeSession enumeration" Url="html/T_Resto_Front_Api_Data_Organization_CanDeleteOrdersOutOfCafeSession.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Organization.DeliverySettingsServiceType enumeration" Url="html/T_Resto_Front_Api_Data_Organization_DeliverySettingsServiceType.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Organization.IAutoAdditionSettings interface" Url="html/T_Resto_Front_Api_Data_Organization_IAutoAdditionSettings.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Organization.IConception interface" Url="html/T_Resto_Front_Api_Data_Organization_IConception.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Organization.ICurrencySettings interface" Url="html/T_Resto_Front_Api_Data_Organization_ICurrencySettings.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Organization.IDeliverySettings interface" Url="html/T_Resto_Front_Api_Data_Organization_IDeliverySettings.htm" />
@@ -10053,6 +10064,7 @@
   <HelpKINode Title="TryEditCurrentOrder method" Url="html/M_Resto_Front_Api_IOperationService_TryEditCurrentOrder.htm" />
   <HelpKINode Title="TryEditCurrentPaymentScreen method" Url="html/M_Resto_Front_Api_IOperationService_TryEditCurrentPaymentScreen.htm" />
   <HelpKINode Title="TryExecuteUiOperation method" Url="html/M_Resto_Front_Api_IOperationService_TryExecuteUiOperation.htm" />
+  <HelpKINode Title="TryGetAutoAdditionSettings method" Url="html/M_Resto_Front_Api_IOperationService_TryGetAutoAdditionSettings.htm" />
   <HelpKINode Title="TryGetBillPrinter method" Url="html/M_Resto_Front_Api_IOperationService_TryGetBillPrinter.htm" />
   <HelpKINode Title="TryGetCafeSessionByCashRegister method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCafeSessionByCashRegister.htm" />
   <HelpKINode Title="TryGetCafeSessionById method" Url="html/M_Resto_Front_Api_IOperationService_TryGetCafeSessionById.htm" />
