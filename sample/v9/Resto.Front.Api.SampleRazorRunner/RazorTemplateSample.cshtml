@@ -1,0 +1,118 @@
+@{
+	var os = Resto.Front.Api.PluginContext.Operations;
+	var order = os.GetOrderById((Guid)@Model.OrderId);
+	var products = order.Items.OfType<Resto.Front.Api.Data.Orders.IOrderProductItem>();
+	var compounds = order.Items.OfType<Resto.Front.Api.Data.Orders.IOrderCompoundItem>();
+}
+<doc>
+	<f1>
+		<table>
+			<columns>
+				<column autowidth="" />
+				<column autowidth="" />
+				<column autowidth="" />
+				<column autowidth="" />
+			</columns>
+			<cells>
+				<c colspan="0">@string.Format("Заказ №: {0}", order.Number)</c>
+				<linecell />
+				<ct>Наименование</ct>
+				<ct>К-во</ct>
+				<ct>Цена</ct>
+				<ct>Сумма</ct>
+				<linecell />
+
+				@foreach (var product in products)
+				{
+					<ct>@(product.ProductCustomName ?? product.Product.Name)</ct>
+					<ct>@product.Amount</ct>
+					<ct>@product.Price</ct>
+					<ct>@product.Cost</ct>
+
+					foreach (var modifier in product.AssignedModifiers)
+					{
+						<ct>@string.Format("    {0}", modifier.ProductCustomName ?? modifier.Product.Name)</ct>
+						<ct>@modifier.PayableAmount</ct>
+						<ct>@modifier.Price</ct>
+						<ct>@modifier.Cost</ct>
+					}
+				}
+
+				@foreach (var compound in compounds)
+				{
+					var primaryComponent = compound.PrimaryComponent;
+					if (compound.SecondaryComponent == null)
+					{
+						<ct>@string.Format("{0} {1}", primaryComponent.ProductCustomName ?? primaryComponent.Product.Name, compound.Size == null ? string.Empty : compound.Size.Name)</ct>
+						<ct>@compound.Amount</ct>
+						<ct>@primaryComponent.Price</ct>
+						<ct>@primaryComponent.Cost</ct>
+
+						foreach (var commonModifier in compound.CommonModifiers)
+						{
+							<ct>@string.Format("    {0}", commonModifier.ProductCustomName ?? commonModifier.Product.Name)</ct>
+							<ct>@commonModifier.PayableAmount</ct>
+							<ct>@commonModifier.Price</ct>
+							<ct>@commonModifier.Cost</ct>
+						}
+
+						foreach (var modifier in primaryComponent.Modifiers)
+						{
+							<ct>@string.Format("    {0}", modifier.ProductCustomName ?? modifier.Product.Name)</ct>
+							<ct>@modifier.PayableAmount</ct>
+							<ct>@modifier.Price</ct>
+							<ct>@modifier.Cost</ct>
+						}
+					}
+					else
+					{
+						<ct>@string.Format("{0} {1}", compound.Template.Name, compound.Size == null ? string.Empty : compound.Size.Name)</ct>
+						<ct>@compound.Amount</ct>
+						<ct />
+						<ct />
+
+						foreach (var commonModifier in compound.CommonModifiers)
+						{
+							<ct>@string.Format("    {0}", commonModifier.ProductCustomName ?? commonModifier.Product.Name)</ct>
+							<ct>@commonModifier.PayableAmount</ct>
+							<ct>@commonModifier.Price</ct>
+							<ct>@commonModifier.Cost</ct>
+						}
+
+						<c colspan="2">@string.Format("  {0}", primaryComponent.ProductCustomName ?? primaryComponent.Product.Name)</c>
+						<ct>@primaryComponent.Price</ct>
+						<ct>@primaryComponent.Cost</ct>
+
+						foreach (var modifier in primaryComponent.Modifiers)
+						{
+							<ct>@string.Format("    {0}", modifier.ProductCustomName ?? modifier.Product.Name)</ct>
+							<ct>@modifier.PayableAmount</ct>
+							<ct>@modifier.Price</ct>
+							<ct>@modifier.Cost</ct>
+						}
+
+						var secondaryComponent = compound.SecondaryComponent;
+						<c colspan="2">@string.Format("  {0}", secondaryComponent.ProductCustomName ?? secondaryComponent.Product.Name)</c>
+						<ct>@secondaryComponent.Price</ct>
+						<ct>@secondaryComponent.Cost</ct>
+
+						foreach (var modifier in secondaryComponent.Modifiers)
+						{
+							<ct>@string.Format("    {0}", modifier.ProductCustomName ?? modifier.Product.Name)</ct>
+							<ct>@modifier.PayableAmount</ct>
+							<ct>@modifier.Price</ct>
+							<ct>@modifier.Cost</ct>
+						}
+					}
+				}
+				<linecell />
+				<ct>Итого</ct>
+				<ct />
+				<ct />
+				<ct>@order.ResultSum</ct>
+				<linecell />
+			</cells>
+		</table>
+	</f1>
+</doc>
+
