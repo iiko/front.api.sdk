@@ -7824,6 +7824,7 @@
   <HelpKINode Title="PastOrderItem.SourceEventId property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrderItem_SourceEventId.htm" />
   <HelpKINode Title="PastOrderItem.SumWithDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrderItem_SumWithDiscounts.htm" />
   <HelpKINode Title="PastOrderItem.SumWithoutDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrderItem_SumWithoutDiscounts.htm" />
+  <HelpKINode Title="PastOrderItem.VatInPrice property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrderItem_VatInPrice.htm" />
   <HelpKINode Title="PastOrderItem.VatRate property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrderItem_VatRate.htm" />
   <HelpKINode Title="PastOrderItem.VatSum property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrderItem_VatSum.htm" />
   <HelpKINode Title="PastOrderNumber property" Url="html/P_Resto_Front_Api_Data_Device_CashRegisterChequeExtensions_PastOrderNumber.htm" />
@@ -10321,6 +10322,7 @@
   <HelpKINode Title="ValueProviderAttribute.ValueProviderAttribute constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_ValueProviderAttribute__ctor.htm" />
   <HelpKINode Title="Values property" Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceCustomEnumSetting_Values.htm" />
   <HelpKINode Title="Vat property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Vat.htm" />
+  <HelpKINode Title="VatInPrice property" Url="html/P_Resto_Front_Api_Data_Orders_PastOrderItem_VatInPrice.htm" />
   <HelpKINode Title="VatInvoiceOrderItem class">
     <HelpKINode Title="VatInvoiceOrderItem Class" Url="html/T_Resto_Front_Api_UI_VatInvoiceOrderItem.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_UI_VatInvoiceOrderItem__ctor.htm" />
