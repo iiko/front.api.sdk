@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="Resto.Front.Api.SamplePlugin.DiagnosticMessagesTester.MessageSender"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Width="500" Height="300">
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock VerticalAlignment="Center" Text="Message: " />
+            <TextBox Grid.Column="1" x:Name="text" Text="Input your message here" />
+            
+        </Grid>
+        
+        <StackPanel Orientation="Horizontal"   Grid.Row="1" Margin="10" >
+            <TextBlock VerticalAlignment="Center" Text="Severity" Margin="5" />
+            <ListBox x:Name="Severity" Margin="5" />
+            <TextBlock VerticalAlignment="Center"  Text="Exprire time (sec) only for w/n: " Margin="5" />
+            <TextBox  x:Name="expire" Text="0" Margin="5" Height="30" Width="30"  />
+            <Button Height="30" Margin="5" VerticalAlignment="Center"  x:Name="Send" Content="Send to front" Click="Send_Click" />
+        </StackPanel>
+        
+    </Grid>
+</UserControl>
