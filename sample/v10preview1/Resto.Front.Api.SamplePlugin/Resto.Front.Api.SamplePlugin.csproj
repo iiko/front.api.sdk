@@ -5,7 +5,6 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <OutputType>Library</OutputType>
-    <LangVersion>12</LangVersion>
     <UseWPF>true</UseWPF>
     <!--чтобы не было ошибки Duplicate 'Page' items were included. The .NET SDK includes 'Page' items from your project directory
     by default.You can either remove these items from your project file, or set the 'EnableDefaultPageItems' property to 'false'
