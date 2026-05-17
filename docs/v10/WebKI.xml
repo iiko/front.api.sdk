@@ -9,6 +9,9 @@
     <HelpKINode Title="IUser.AccountingReasonCode Property " Url="html/P_Resto_Front_Api_Data_Security_IUser_AccountingReasonCode.htm" />
     <HelpKINode Title="OrganizationDetailsInfo.AccountingReasonCode Property " Url="html/P_Resto_Front_Api_Data_Payments_OrganizationDetailsInfo_AccountingReasonCode.htm" />
   </HelpKINode>
+  <HelpKINode Title="Ach field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Ach.htm" />
+  <HelpKINode Title="AcquirerBankBic field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_AcquirerBankBic.htm" />
+  <HelpKINode Title="AcquirerId property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_AcquirerId.htm" />
   <HelpKINode Title="AcquireSlot method" Url="html/M_Resto_Front_Api_ILicensingService_AcquireSlot.htm" />
   <HelpKINode Title="ActionNumber property" Url="html/P_Resto_Front_Api_Editors_Stubs_NewEntityStub_ActionNumber.htm" />
   <HelpKINode Title="ActivateReserveAndBindToOrder method" Url="html/M_Resto_Front_Api_Editors_IEditSession_ActivateReserveAndBindToOrder.htm" />
@@ -222,6 +225,7 @@
   <HelpKINode Title="AlcoholMarkingProduct.RawProductSku property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_AlcoholMarkingProduct_RawProductSku.htm" />
   <HelpKINode Title="AlcoholMarkingProduct.SaleItemId property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_AlcoholMarkingProduct_SaleItemId.htm" />
   <HelpKINode Title="AlcoholMarkingProduct.SaleItemSizeId property" Url="html/P_Resto_Front_Api_Data_DataTransferObjects_AlcoholMarkingProduct_SaleItemSizeId.htm" />
+  <HelpKINode Title="AlfaPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_AlfaPay.htm" />
   <HelpKINode Title="Align field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_Align.htm" />
   <HelpKINode Title="All enumeration member">
     <HelpKINode Title="CanDeleteOrdersOutOfCafeSession Enumeration" Url="html/T_Resto_Front_Api_Data_Organization_CanDeleteOrdersOutOfCafeSession.htm" />
@@ -242,6 +246,7 @@
   <HelpKINode Title="AllowSkipMarkScan property" Url="html/P_Resto_Front_Api_Data_Device_IOuterEconomicActivityNomenclatureCode_AllowSkipMarkScan.htm" />
   <HelpKINode Title="Amount enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Settings_DeviceNumberSettingKind.htm" />
   <HelpKINode Title="Amount property">
+    <HelpKINode Title="BankTransactionDetails.Amount Property " Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_Amount.htm" />
     <HelpKINode Title="ChangedStopListItem.Amount Property " Url="html/P_Resto_Front_Api_Data_Common_ChangedStopListItem_Amount.htm" />
     <HelpKINode Title="ChequeSale.Amount Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_Amount.htm" />
     <HelpKINode Title="DiscountForOrderItem.Amount Property " Url="html/P_Resto_Front_Api_Data_Orders_DiscountForOrderItem_Amount.htm" />
@@ -562,6 +567,7 @@
   <HelpKINode Title="AttributeValues.Top field" Url="html/F_Resto_Front_Api_Data_Cheques_AttributeValues_Top.htm" />
   <HelpKINode Title="AttributeValues.Ultra field" Url="html/F_Resto_Front_Api_Data_Cheques_AttributeValues_Ultra.htm" />
   <HelpKINode Title="AttributeValues.WrapText field" Url="html/F_Resto_Front_Api_Data_Cheques_AttributeValues_WrapText.htm" />
+  <HelpKINode Title="AuthCode property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_AuthCode.htm" />
   <HelpKINode Title="AuthenticateByPin method" Url="html/M_Resto_Front_Api_IOperationService_AuthenticateByPin.htm" />
   <HelpKINode Title="AuthenticateByUser method" Url="html/M_Resto_Front_Api_IOperationService_AuthenticateByUser.htm" />
   <HelpKINode Title="AuthenticationException class">
@@ -613,7 +619,132 @@
     <HelpKINode Title="IProductGroup.BackgroundColor Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_BackgroundColor.htm" />
   </HelpKINode>
   <HelpKINode Title="BankPaymentAgent enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FfdAgentType.htm" />
+  <HelpKINode Title="BankPaymentExtensionKeys class">
+    <HelpKINode Title="BankPaymentExtensionKeys Class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BankPaymentExtensionKeys.AcquirerBankBic field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_AcquirerBankBic.htm" />
+  <HelpKINode Title="BankPaymentExtensionKeys.CardIssuerBankBic field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_CardIssuerBankBic.htm" />
+  <HelpKINode Title="BankPaymentExtensionKeys.OriginalProviderTransactionId field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_OriginalProviderTransactionId.htm" />
+  <HelpKINode Title="BankPaymentExtensionKeys.PayerBankBic field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_PayerBankBic.htm" />
+  <HelpKINode Title="BankPaymentExtensionKeys.PaymentPurpose field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_PaymentPurpose.htm" />
+  <HelpKINode Title="BankPaymentExtensionKeys.RecipientBankBic field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_RecipientBankBic.htm" />
+  <HelpKINode Title="BankPaymentExtensionKeys.SchemeTransactionDateTime field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_SchemeTransactionDateTime.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionKeys class">
+    <HelpKINode Title="BankPaymentRuExtensionKeys Class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionKeys.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionKeys.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BankPaymentRuExtensionKeys.FfdPaymentChannelCode field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionKeys_FfdPaymentChannelCode.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionKeys.FfdPaymentMethodCode field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionKeys_FfdPaymentMethodCode.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionKeys.FfdPaymentSystemCode field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionKeys_FfdPaymentSystemCode.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionKeys.FfdPaymentToolCode field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionKeys_FfdPaymentToolCode.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentChannelCode class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentChannelCode.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentChannelCode.ECommerce field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentChannelCode_ECommerce.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentChannelCode.FaceToFace field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentChannelCode_FaceToFace.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentMethodCode class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentMethodCode.Cbdc field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode_Cbdc.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentMethodCode.EWallet field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode_EWallet.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentMethodCode.Ips field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode_Ips.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentMethodCode.MultiQr field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode_MultiQr.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentMethodCode.Nps field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode_Nps.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentMethodCode.PayQr field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode_PayQr.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentMethodCode.Sbp field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode_Sbp.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentSystemCode class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentSystemCode.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentSystemCode.Mastercard field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentSystemCode_Mastercard.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentSystemCode.Mir field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentSystemCode_Mir.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentSystemCode.UnionPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentSystemCode_UnionPay.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentSystemCode.Visa field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentSystemCode_Visa.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.AlfaPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_AlfaPay.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.Belkart field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_Belkart.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.DigitalRuble field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_DigitalRuble.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.GazpromPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_GazpromPay.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.Jcb field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_Jcb.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.Mastercard field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_Mastercard.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.Mir field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_Mir.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.MultiQr field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_MultiQr.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.QiwiWallet field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_QiwiWallet.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.SberPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_SberPay.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.SbpB2B field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_SbpB2B.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.SbpC2B field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_SbpC2B.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.TPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_TPay.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.UnionPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_UnionPay.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.Visa field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_Visa.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.VkPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_VkPay.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.VtbPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_VtbPay.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.WebMoney field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_WebMoney.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.YandexPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_YandexPay.htm" />
+  <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.YooMoney field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_YooMoney.htm" />
   <HelpKINode Title="BankPaymentSubagent enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FfdAgentType.htm" />
+  <HelpKINode Title="BankTransactionDetails class">
+    <HelpKINode Title="BankTransactionDetails Class" Url="html/T_Resto_Front_Api_Data_Payments_BankTransactionDetails.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Payments_BankTransactionDetails__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Payments_BankTransactionDetails.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Payments_BankTransactionDetails.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BankTransactionDetails property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_BankTransactionDetails.htm" />
+  <HelpKINode Title="BankTransactionDetails.AcquirerId property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_AcquirerId.htm" />
+  <HelpKINode Title="BankTransactionDetails.Amount property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_Amount.htm" />
+  <HelpKINode Title="BankTransactionDetails.AuthCode property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_AuthCode.htm" />
+  <HelpKINode Title="BankTransactionDetails.BankTransactionDetails constructor" Url="html/M_Resto_Front_Api_Data_Payments_BankTransactionDetails__ctor.htm" />
+  <HelpKINode Title="BankTransactionDetails.CurrencyCode property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_CurrencyCode.htm" />
+  <HelpKINode Title="BankTransactionDetails.Extensions property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_Extensions.htm" />
+  <HelpKINode Title="BankTransactionDetails.InitiatedAt property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_InitiatedAt.htm" />
+  <HelpKINode Title="BankTransactionDetails.MerchantId property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_MerchantId.htm" />
+  <HelpKINode Title="BankTransactionDetails.OperationKind property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_OperationKind.htm" />
+  <HelpKINode Title="BankTransactionDetails.PaymentChannel property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_PaymentChannel.htm" />
+  <HelpKINode Title="BankTransactionDetails.PaymentInitiationMethod property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_PaymentInitiationMethod.htm" />
+  <HelpKINode Title="BankTransactionDetails.PaymentMethod property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_PaymentMethod.htm" />
+  <HelpKINode Title="BankTransactionDetails.PaymentSystem property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_PaymentSystem.htm" />
+  <HelpKINode Title="BankTransactionDetails.ProviderTransactionId property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_ProviderTransactionId.htm" />
+  <HelpKINode Title="BankTransactionDetails.Rrn property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_Rrn.htm" />
+  <HelpKINode Title="BankTransactionDetails.TerminalId property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_TerminalId.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues class" Url="html/T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.OperationKind class" Url="html/T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_OperationKind.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.OperationKind.Payment field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_OperationKind_Payment.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.OperationKind.Refund field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_OperationKind_Refund.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.OperationKind.Reversal field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_OperationKind_Reversal.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.OperationKind.Unknown field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_OperationKind_Unknown.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.OperationKind.Void field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_OperationKind_Void.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentChannel class" Url="html/T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentChannel.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentChannel.ECommerce field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentChannel_ECommerce.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentChannel.FaceToFace field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentChannel_FaceToFace.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentChannel.Other field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentChannel_Other.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentChannel.Remote field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentChannel_Remote.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentChannel.Unknown field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentChannel_Unknown.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentInitiationMethod class" Url="html/T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentInitiationMethod.Chip field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Chip.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentInitiationMethod.Contactless field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Contactless.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentInitiationMethod.InApp field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_InApp.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentInitiationMethod.Magstripe field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Magstripe.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentInitiationMethod.Manual field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Manual.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentInitiationMethod.Nfc field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Nfc.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentInitiationMethod.Other field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Other.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentInitiationMethod.PaymentLink field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_PaymentLink.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentInitiationMethod.Qr field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Qr.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentInitiationMethod.Unknown field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Unknown.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentMethod class" Url="html/T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentMethod.Card field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod_Card.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentMethod.Cbdc field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod_Cbdc.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentMethod.Instant field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod_Instant.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentMethod.Other field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod_Other.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentMethod.Transfer field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod_Transfer.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentMethod.Unknown field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod_Unknown.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentMethod.Wallet field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod_Wallet.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem class" Url="html/T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Ach field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Ach.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.FasterPayments field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_FasterPayments.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Jcb field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Jcb.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Mastercard field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Mastercard.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Mir field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Mir.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Other field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Other.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Pix field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Pix.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Sbp field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Sbp.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Sepa field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Sepa.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.UnionPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_UnionPay.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Unknown field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Unknown.htm" />
+  <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Visa field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Visa.htm" />
   <HelpKINode Title="BanquetOrderNotSupported enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="Barcode field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Barcode.htm" />
   <HelpKINode Title="Barcode property">
@@ -731,6 +862,7 @@
   <HelpKINode Title="BeforeXReport method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforeXReport.htm" />
   <HelpKINode Title="BeforeZReport method" Url="html/M_Resto_Front_Api_Devices_IChequeTaskProcessor_BeforeZReport.htm" />
   <HelpKINode Title="Begin property" Url="html/P_Resto_Front_Api_Data_Kitchen_ITimePeakInterval_Begin.htm" />
+  <HelpKINode Title="Belkart field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_Belkart.htm" />
   <HelpKINode Title="Bell field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_Bell.htm" />
   <HelpKINode Title="Bill enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderStatus.htm" />
   <HelpKINode Title="BillChequePosResolving property" Url="html/P_Resto_Front_Api_INotificationService_BillChequePosResolving.htm" />
@@ -921,6 +1053,7 @@
     <HelpKINode Title="InputDialogTypes Enumeration" Url="html/T_Resto_Front_Api_Data_View_InputDialogTypes.htm" />
     <HelpKINode Title="PaymentTypeKind Enumeration" Url="html/T_Resto_Front_Api_Data_Payments_PaymentTypeKind.htm" />
   </HelpKINode>
+  <HelpKINode Title="Card field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod_Card.htm" />
   <HelpKINode Title="Card property" Url="html/P_Resto_Front_Api_Data_Security_IUser_Card.htm" />
   <HelpKINode Title="CardInputDialogResult class">
     <HelpKINode Title="CardInputDialogResult Class" Url="html/T_Resto_Front_Api_Data_View_CardInputDialogResult.htm" />
@@ -933,6 +1066,7 @@
   <HelpKINode Title="CardInputDialogResult.Track1 property" Url="html/P_Resto_Front_Api_Data_View_CardInputDialogResult_Track1.htm" />
   <HelpKINode Title="CardInputDialogResult.Track2 property" Url="html/P_Resto_Front_Api_Data_View_CardInputDialogResult_Track2.htm" />
   <HelpKINode Title="CardInputDialogResult.Track3 property" Url="html/P_Resto_Front_Api_Data_View_CardInputDialogResult_Track3.htm" />
+  <HelpKINode Title="CardIssuerBankBic field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_CardIssuerBankBic.htm" />
   <HelpKINode Title="CardLoyaltyDiscount class">
     <HelpKINode Title="CardLoyaltyDiscount Class" Url="html/T_Resto_Front_Api_Data_Orders_CardLoyaltyDiscount.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Orders_CardLoyaltyDiscount__ctor.htm" />
@@ -1154,6 +1288,10 @@
     <HelpKINode Title="Ffd10CorrectionTask.CashSum Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd10CorrectionTask_CashSum.htm" />
   </HelpKINode>
   <HelpKINode Title="Category property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Category.htm" />
+  <HelpKINode Title="Cbdc field">
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentMethodCode.Cbdc Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode_Cbdc.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentMethod.Cbdc Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod_Cbdc.htm" />
+  </HelpKINode>
   <HelpKINode Title="Cell field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Cell.htm" />
   <HelpKINode Title="CellPhone property" Url="html/P_Resto_Front_Api_Data_Security_IUser_CellPhone.htm" />
   <HelpKINode Title="Cells field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_Cells.htm" />
@@ -1811,6 +1949,7 @@
   <HelpKINode Title="ChequeVatTotalizers property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_ChequeVatTotalizers.htm" />
   <HelpKINode Title="ChildOrderCreated property" Url="html/P_Resto_Front_Api_INotificationService_ChildOrderCreated.htm" />
   <HelpKINode Title="ChildTags property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_FiscalTag_ChildTags.htm" />
+  <HelpKINode Title="Chip field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Chip.htm" />
   <HelpKINode Title="ChooserDialogResult enumeration" Url="html/T_Resto_Front_Api_Data_Brd_ChooserDialogResult.htm" />
   <HelpKINode Title="City enumeration member" Url="html/T_Resto_Front_Api_Data_Settings_AddressShowType.htm" />
   <HelpKINode Title="City property">
@@ -2038,6 +2177,7 @@
   <HelpKINode Title="ConstraintViolationException.GetObjectData method" Url="html/M_Resto_Front_Api_Exceptions_ConstraintViolationException_GetObjectData.htm" />
   <HelpKINode Title="ConstraintViolationException.Reason property" Url="html/P_Resto_Front_Api_Exceptions_ConstraintViolationException_Reason.htm" />
   <HelpKINode Title="ConstraintViolationExceptionReason enumeration" Url="html/T_Resto_Front_Api_Exceptions_ConstraintViolationExceptionReason.htm" />
+  <HelpKINode Title="Contactless field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Contactless.htm" />
   <HelpKINode Title="Container property" Url="html/P_Resto_Front_Api_Data_Assortment_IBarcodeContainer_Container.htm" />
   <HelpKINode Title="ContainerBarcode property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_UkraineChequeSaleData_ContainerBarcode.htm" />
   <HelpKINode Title="Contract property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_ContractAnnotationAttribute_Contract.htm" />
@@ -2237,6 +2377,7 @@
   <HelpKINode Title="CrmId property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_CrmId.htm" />
   <HelpKINode Title="Culture property" Url="html/P_Resto_Front_Api_Data_Organization_IHostTerminalSettings_Culture.htm" />
   <HelpKINode Title="Currency property" Url="html/P_Resto_Front_Api_Data_Organization_IRestaurant_Currency.htm" />
+  <HelpKINode Title="CurrencyCode property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_CurrencyCode.htm" />
   <HelpKINode Title="CurrencyHelper class">
     <HelpKINode Title="CurrencyHelper Class" Url="html/T_Resto_Front_Api_Data_Payments_CurrencyHelper.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Payments_CurrencyHelper.htm" />
@@ -2655,6 +2796,7 @@
   <HelpKINode Title="DeviceType enumeration" Url="html/T_Resto_Front_Api_Data_Device_DeviceType.htm" />
   <HelpKINode Title="DeviceType property" Url="html/P_Resto_Front_Api_Data_Device_CardScannedEventArgs_DeviceType.htm" />
   <HelpKINode Title="DialogResult property" Url="html/P_Resto_Front_Api_Data_Brd_DeliveryOfferChooserDialogResult_DialogResult.htm" />
+  <HelpKINode Title="DigitalRuble field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_DigitalRuble.htm" />
   <HelpKINode Title="DirectIo method" Url="html/M_Resto_Front_Api_Devices_ICashRegister_DirectIo.htm" />
   <HelpKINode Title="DirectIoResult class">
     <HelpKINode Title="DirectIoResult Class" Url="html/T_Resto_Front_Api_Data_Device_Results_DirectIoResult.htm" />
@@ -2800,6 +2942,10 @@
     <HelpKINode Title="IReserve.Duration Property " Url="html/P_Resto_Front_Api_Data_Brd_IReserve_Duration.htm" />
   </HelpKINode>
   <HelpKINode Title="DynamicDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_IIikoCard51OrderInfo_DynamicDiscounts.htm" />
+  <HelpKINode Title="ECommerce field">
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentChannelCode.ECommerce Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentChannelCode_ECommerce.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentChannel.ECommerce Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentChannel_ECommerce.htm" />
+  </HelpKINode>
   <HelpKINode Title="EcsId property" Url="html/P_Resto_Front_Api_Data_Brd_Ride_EcsId.htm" />
   <HelpKINode Title="Editable property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_MacroAttribute_Editable.htm" />
   <HelpKINode Title="EditSessionExtensions class">
@@ -2991,6 +3137,7 @@
     <HelpKINode Title="CustomDataChangedEventArgs.EventType Property " Url="html/P_Resto_Front_Api_Data_Common_CustomDataChangedEventArgs_EventType.htm" />
     <HelpKINode Title="EntityChangedEventArgs(T).EventType Property " Url="html/P_Resto_Front_Api_Data_Common_EntityChangedEventArgs_1_EventType.htm" />
   </HelpKINode>
+  <HelpKINode Title="EWallet field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode_EWallet.htm" />
   <HelpKINode Title="ExciseStamps property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStamps.htm" />
   <HelpKINode Title="ExciseStampsAlcCodes property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStampsAlcCodes.htm" />
   <HelpKINode Title="ExciseStampsEmptyVolumes property" Url="html/P_Resto_Front_Api_Exceptions_EgaisDataException_ExciseStampsEmptyVolumes.htm" />
@@ -3041,6 +3188,7 @@
   <HelpKINode Title="ExtendedInputDialogSettings.TabTitlePhone property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_TabTitlePhone.htm" />
   <HelpKINode Title="ExtendedStatus enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="ExtendedStatus property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_ExtendedStatus.htm" />
+  <HelpKINode Title="Extensions property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_Extensions.htm" />
   <HelpKINode Title="External enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_PaymentTypeKind.htm" />
   <HelpKINode Title="ExternalCartographyId property">
     <HelpKINode Title="AddressDto.ExternalCartographyId Property " Url="html/P_Resto_Front_Api_Data_Brd_AddressDto_ExternalCartographyId.htm" />
@@ -3145,6 +3293,10 @@
   <HelpKINode Title="ExternalPaymentItemAdditionalData.ExternalPaymentItemAdditionalData constructor" Url="html/M_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData__ctor.htm" />
   <HelpKINode Title="ExternalPaymentItemAdditionalData.GetHashCode method" Url="html/M_Resto_Front_Api_Data_Payments_ExternalPaymentItemAdditionalData_GetHashCode.htm" />
   <HelpKINode Title="Extralarge field" Url="html/F_Resto_Front_Api_Data_Cheques_AttributeValues_Extralarge.htm" />
+  <HelpKINode Title="FaceToFace field">
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentChannelCode.FaceToFace Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentChannelCode_FaceToFace.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentChannel.FaceToFace Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentChannel_FaceToFace.htm" />
+  </HelpKINode>
   <HelpKINode Title="FactoryCode property">
     <HelpKINode Title="DeviceSettings.FactoryCode Property " Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceSettings_FactoryCode.htm" />
     <HelpKINode Title="IDeviceFactory.FactoryCode Property " Url="html/P_Resto_Front_Api_Devices_IDeviceFactory_FactoryCode.htm" />
@@ -3154,6 +3306,7 @@
     <HelpKINode Title="IProduct.FastCode Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_FastCode.htm" />
     <HelpKINode Title="IProductGroup.FastCode Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductGroup_FastCode.htm" />
   </HelpKINode>
+  <HelpKINode Title="FasterPayments field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_FasterPayments.htm" />
   <HelpKINode Title="FastFood enumeration member" Url="html/T_Resto_Front_Api_Data_Organization_ServiceMode.htm" />
   <HelpKINode Title="Fat property">
     <HelpKINode Title="FoodValue.Fat Property " Url="html/P_Resto_Front_Api_Data_DataTransferObjects_FoodValue_Fat.htm" />
@@ -3217,6 +3370,22 @@
   <HelpKINode Title="Ffd12FiscalVerificationResult.OnlineValidationResult property" Url="html/P_Resto_Front_Api_Data_Orders_Ffd12FiscalVerificationResult_OnlineValidationResult.htm" />
   <HelpKINode Title="FfdAgentType enumeration" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FfdAgentType.htm" />
   <HelpKINode Title="FfdDocumentType enumeration" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FfdDocumentType.htm" />
+  <HelpKINode Title="FfdPaymentChannelCode class">
+    <HelpKINode Title="fields" Url="html/Fields_T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentChannelCode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FfdPaymentChannelCode field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionKeys_FfdPaymentChannelCode.htm" />
+  <HelpKINode Title="FfdPaymentMethodCode class">
+    <HelpKINode Title="fields" Url="html/Fields_T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FfdPaymentMethodCode field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionKeys_FfdPaymentMethodCode.htm" />
+  <HelpKINode Title="FfdPaymentSystemCode class">
+    <HelpKINode Title="fields" Url="html/Fields_T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentSystemCode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FfdPaymentSystemCode field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionKeys_FfdPaymentSystemCode.htm" />
+  <HelpKINode Title="FfdPaymentToolCode class">
+    <HelpKINode Title="fields" Url="html/Fields_T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FfdPaymentToolCode field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionKeys_FfdPaymentToolCode.htm" />
   <HelpKINode Title="FieldName property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_RazorInjectionAttribute_FieldName.htm" />
   <HelpKINode Title="Fifteenth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Fifth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
@@ -3485,6 +3654,7 @@
   <HelpKINode Title="FullSum property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_FullSum.htm" />
   <HelpKINode Title="FullSumWithVat property" Url="html/P_Resto_Front_Api_UI_VatInvoiceOrderItem_FullSumWithVat.htm" />
   <HelpKINode Title="G property" Url="html/P_Resto_Front_Api_Data_View_Color_G.htm" />
+  <HelpKINode Title="GazpromPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_GazpromPay.htm" />
   <HelpKINode Title="Gender enumeration" Url="html/T_Resto_Front_Api_Data_Brd_Gender.htm" />
   <HelpKINode Title="Gender property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Gender.htm" />
   <HelpKINode Title="General enumeration member">
@@ -3503,6 +3673,7 @@
   <HelpKINode Title="GetAllStreets method" Url="html/M_Resto_Front_Api_IOperationService_GetAllStreets.htm" />
   <HelpKINode Title="GetApplicationVersion method" Url="html/M_Resto_Front_Api_IPluginIntegrationService_GetApplicationVersion.htm" />
   <HelpKINode Title="GetAvailableKitchenStatuses method" Url="html/M_Resto_Front_Api_IOperationService_GetAvailableKitchenStatuses.htm" />
+  <HelpKINode Title="GetBankTransactionDetails method" Url="html/M_Resto_Front_Api_IPaymentDataContext_GetBankTransactionDetails.htm" />
   <HelpKINode Title="GetCafeSessionById method" Url="html/M_Resto_Front_Api_IOperationService_GetCafeSessionById.htm" />
   <HelpKINode Title="GetCafeSessions method" Url="html/M_Resto_Front_Api_IOperationService_GetCafeSessions.htm" />
   <HelpKINode Title="GetCardLoyaltyDiscounts method" Url="html/M_Resto_Front_Api_IOperationService_GetCardLoyaltyDiscounts.htm" />
@@ -4939,6 +5110,7 @@
   <HelpKINode Title="ImmediateCookingStart property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_ImmediateCookingStart.htm" />
   <HelpKINode Title="ImplicitUseKindFlags enumeration" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ImplicitUseKindFlags.htm" />
   <HelpKINode Title="ImplicitUseTargetFlags enumeration" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ImplicitUseTargetFlags.htm" />
+  <HelpKINode Title="InApp field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_InApp.htm" />
   <HelpKINode Title="INavigatingToPaymentScreenOperationContext interface">
     <HelpKINode Title="INavigatingToPaymentScreenOperationContext Interface" Url="html/T_Resto_Front_Api_OperationContexts_INavigatingToPaymentScreenOperationContext.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_OperationContexts_INavigatingToPaymentScreenOperationContext.htm" />
@@ -4982,6 +5154,7 @@
   <HelpKINode Title="InfoFormat method" Url="html/Overload_Resto_Front_Api_ILog_InfoFormat.htm" />
   <HelpKINode Title="InitialGuestsCount property" Url="html/P_Resto_Front_Api_Data_Kitchen_KitchenOrderDto_InitialGuestsCount.htm" />
   <HelpKINode Title="Initialize method" Url="html/M_Resto_Front_Api_PluginContext_Initialize.htm" />
+  <HelpKINode Title="InitiatedAt property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_InitiatedAt.htm" />
   <HelpKINode Title="INotification(Of T) interface">
     <HelpKINode Title="INotification(T) Interface" Url="html/T_Resto_Front_Api_INotification_1.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_INotification_1.htm" />
@@ -5098,6 +5271,7 @@
   <HelpKINode Title="INotificationService.UserSessionChanged property" Url="html/P_Resto_Front_Api_INotificationService_UserSessionChanged.htm" />
   <HelpKINode Title="INotificationService.WaiterTeamChanged property" Url="html/P_Resto_Front_Api_INotificationService_WaiterTeamChanged.htm" />
   <HelpKINode Title="InputDialogTypes enumeration" Url="html/T_Resto_Front_Api_Data_View_InputDialogTypes.htm" />
+  <HelpKINode Title="Instant field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod_Instant.htm" />
   <HelpKINode Title="InstantHandleAttribute class">
     <HelpKINode Title="InstantHandleAttribute Class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_InstantHandleAttribute.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_InstantHandleAttribute__ctor.htm" />
@@ -5820,8 +5994,10 @@
     <HelpKINode Title="IPaymentDataContext Interface" Url="html/T_Resto_Front_Api_IPaymentDataContext.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_IPaymentDataContext.htm" />
   </HelpKINode>
+  <HelpKINode Title="IPaymentDataContext.GetBankTransactionDetails method" Url="html/M_Resto_Front_Api_IPaymentDataContext_GetBankTransactionDetails.htm" />
   <HelpKINode Title="IPaymentDataContext.GetCustomData method" Url="html/M_Resto_Front_Api_IPaymentDataContext_GetCustomData.htm" />
   <HelpKINode Title="IPaymentDataContext.GetRollbackData method" Url="html/M_Resto_Front_Api_IPaymentDataContext_GetRollbackData.htm" />
+  <HelpKINode Title="IPaymentDataContext.SetBankTransactionDetails method" Url="html/M_Resto_Front_Api_IPaymentDataContext_SetBankTransactionDetails.htm" />
   <HelpKINode Title="IPaymentDataContext.SetCustomData method" Url="html/M_Resto_Front_Api_IPaymentDataContext_SetCustomData.htm" />
   <HelpKINode Title="IPaymentDataContext.SetInfoForReports method" Url="html/M_Resto_Front_Api_IPaymentDataContext_SetInfoForReports.htm" />
   <HelpKINode Title="IPaymentDataContext.SetRollbackData method" Url="html/M_Resto_Front_Api_IPaymentDataContext_SetRollbackData.htm" />
@@ -5831,6 +6007,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Payments_IPaymentItem.htm" />
   </HelpKINode>
   <HelpKINode Title="IPaymentItem.AdditionalData property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_AdditionalData.htm" />
+  <HelpKINode Title="IPaymentItem.BankTransactionDetails property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_BankTransactionDetails.htm" />
   <HelpKINode Title="IPaymentItem.CurrencyInfo property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_CurrencyInfo.htm" />
   <HelpKINode Title="IPaymentItem.DonationType property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_DonationType.htm" />
   <HelpKINode Title="IPaymentItem.GuestId property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_GuestId.htm" />
@@ -6118,6 +6295,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Assortment_IProductTagGroup.htm" />
   </HelpKINode>
   <HelpKINode Title="IProductTagGroup.Name property" Url="html/P_Resto_Front_Api_Data_Assortment_IProductTagGroup_Name.htm" />
+  <HelpKINode Title="Ips field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode_Ips.htm" />
   <HelpKINode Title="IQuickMenuItem interface">
     <HelpKINode Title="IQuickMenuItem Interface" Url="html/T_Resto_Front_Api_Data_Assortment_IQuickMenuItem.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_Data_Assortment_IQuickMenuItem.htm" />
@@ -6724,6 +6902,10 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Data_Device_IWaiterTeam.htm" />
   </HelpKINode>
   <HelpKINode Title="IWaiterTeam.Name property" Url="html/P_Resto_Front_Api_Data_Device_IWaiterTeam_Name.htm" />
+  <HelpKINode Title="Jcb field">
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.Jcb Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_Jcb.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Jcb Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Jcb.htm" />
+  </HelpKINode>
   <HelpKINode Title="Justification property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_MustUseReturnValueAttribute_Justification.htm" />
   <HelpKINode Title="Justify field">
     <HelpKINode Title="AttributeValues.Justify Field" Url="html/F_Resto_Front_Api_Data_Cheques_AttributeValues_Justify.htm" />
@@ -6985,9 +7167,11 @@
   <HelpKINode Title="MacroAttribute.Expression property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_MacroAttribute_Expression.htm" />
   <HelpKINode Title="MacroAttribute.MacroAttribute constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_MacroAttribute__ctor.htm" />
   <HelpKINode Title="MacroAttribute.Target property" Url="html/P_Resto_Front_Api_Attributes_JetBrains_MacroAttribute_Target.htm" />
+  <HelpKINode Title="Magstripe field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Magstripe.htm" />
   <HelpKINode Title="MainAddressIndex property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_MainAddressIndex.htm" />
   <HelpKINode Title="MainTerminal property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_MainTerminal.htm" />
   <HelpKINode Title="Male enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_Gender.htm" />
+  <HelpKINode Title="Manual field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Manual.htm" />
   <HelpKINode Title="Manually enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryBillPrintTimeOption.htm" />
   <HelpKINode Title="MarginBottom property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_MarginBottom.htm" />
   <HelpKINode Title="MarginLeft property" Url="html/P_Resto_Front_Api_Data_Device_Settings_PrinterDriverParameters_MarginLeft.htm" />
@@ -7016,6 +7200,11 @@
     <HelpKINode Title="OperationServiceExtensions.MarkOrderAsTab Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MarkOrderAsTab.htm" />
   </HelpKINode>
   <HelpKINode Title="Markup property" Url="html/P_Resto_Front_Api_Data_Print_Document_Markup.htm" />
+  <HelpKINode Title="Mastercard field">
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentSystemCode.Mastercard Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentSystemCode_Mastercard.htm" />
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.Mastercard Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_Mastercard.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Mastercard Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Mastercard.htm" />
+  </HelpKINode>
   <HelpKINode Title="MaxCourseNumber property" Url="html/P_Resto_Front_Api_Data_Organization_ITerminalsGroup_MaxCourseNumber.htm" />
   <HelpKINode Title="MaxDecimalValue property" Url="html/P_Resto_Front_Api_UI_ExtendedInputDialogSettings_MaxDecimalValue.htm" />
   <HelpKINode Title="MaxExternalPaymentItemDataLength field" Url="html/F_Resto_Front_Api_Extensions_PaymentDataContextExtensions_MaxExternalPaymentItemDataLength.htm" />
@@ -7075,6 +7264,7 @@
     <HelpKINode Title="IProductSize.MenuIndex Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProductSize_MenuIndex.htm" />
     <HelpKINode Title="ISimpleModifierBase.MenuIndex Property " Url="html/P_Resto_Front_Api_Data_Assortment_ISimpleModifierBase_MenuIndex.htm" />
   </HelpKINode>
+  <HelpKINode Title="MerchantId property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_MerchantId.htm" />
   <HelpKINode Title="Message property">
     <HelpKINode Title="FiscalModuleErrorInfo.Message Property " Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalModuleErrorInfo_Message.htm" />
     <HelpKINode Title="FiscalModuleWarningInfo.Message Property " Url="html/P_Resto_Front_Api_Data_Device_Results_FiscalModuleWarningInfo_Message.htm" />
@@ -7098,6 +7288,11 @@
   <HelpKINode Title="MinSum property" Url="html/P_Resto_Front_Api_Data_Payments_IPaymentItem_MinSum.htm" />
   <HelpKINode Title="MinValue property" Url="html/P_Resto_Front_Api_Data_Device_Settings_DeviceNumberSetting_MinValue.htm" />
   <HelpKINode Title="MinWidth field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_MinWidth.htm" />
+  <HelpKINode Title="Mir field">
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentSystemCode.Mir Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentSystemCode_Mir.htm" />
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.Mir Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_Mir.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Mir Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Mir.htm" />
+  </HelpKINode>
   <HelpKINode Title="Modifier enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_ProductType.htm" />
   <HelpKINode Title="Modifiers property">
     <HelpKINode Title="IKitchenOrderCompoundItemComponent.Modifiers Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCompoundItemComponent_Modifiers.htm" />
@@ -7126,6 +7321,10 @@
     <HelpKINode Title="OperationServiceExtensions.MoveOrderItemToAnotherOrder Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MoveOrderItemToAnotherOrder.htm" />
   </HelpKINode>
   <HelpKINode Title="Msr enumeration member" Url="html/T_Resto_Front_Api_Data_Device_CardScanDeviceType.htm" />
+  <HelpKINode Title="MultiQr field">
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentMethodCode.MultiQr Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode_MultiQr.htm" />
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.MultiQr Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_MultiQr.htm" />
+  </HelpKINode>
   <HelpKINode Title="MustUseReturnValueAttribute class">
     <HelpKINode Title="MustUseReturnValueAttribute Class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_MustUseReturnValueAttribute.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Resto_Front_Api_Attributes_JetBrains_MustUseReturnValueAttribute__ctor.htm" />
@@ -7349,6 +7548,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Editors_Stubs_NewStreetStub.htm" />
   </HelpKINode>
   <HelpKINode Title="NewStreetStub.NewStreetStub constructor" Url="html/M_Resto_Front_Api_Editors_Stubs_NewStreetStub__ctor.htm" />
+  <HelpKINode Title="Nfc field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Nfc.htm" />
   <HelpKINode Title="Nick property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_Nick.htm" />
   <HelpKINode Title="Nineteenth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="Ninth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
@@ -7411,6 +7611,7 @@
   <HelpKINode Title="NoUserPermissionsToPayOthersOrder enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="NoUserPermissionsToPrintFiscalChequeBeforePayment enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="NoVolume enumeration member" Url="html/T_Resto_Front_Api_Data_Egais_ExciseStatus.htm" />
+  <HelpKINode Title="Nps field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode_Nps.htm" />
   <HelpKINode Title="Number enumeration member" Url="html/T_Resto_Front_Api_Data_View_InputDialogTypes.htm" />
   <HelpKINode Title="Number property">
     <HelpKINode Title="ICafeSession.Number Property " Url="html/P_Resto_Front_Api_Data_Device_ICafeSession_Number.htm" />
@@ -7539,6 +7740,10 @@
   <HelpKINode Title="OperationArgumentExtensions.TryGetTerminalAddress method" Url="html/M_Resto_Front_Api_OperationArgumentExtensions_TryGetTerminalAddress.htm" />
   <HelpKINode Title="OperationDate property" Url="html/P_Resto_Front_Api_Data_Common_ChangedStopListItem_OperationDate.htm" />
   <HelpKINode Title="OperationFailed enumeration member" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationCallingExceptionReason.htm" />
+  <HelpKINode Title="OperationKind class">
+    <HelpKINode Title="fields" Url="html/Fields_T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_OperationKind.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OperationKind property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_OperationKind.htm" />
   <HelpKINode Title="OperationName property" Url="html/P_Resto_Front_Api_Data_Common_ExternalOperationChangedEventArgs_OperationName.htm" />
   <HelpKINode Title="OperationNotRegistered enumeration member" Url="html/T_Resto_Front_Api_Exceptions_ExternalOperationCallingExceptionReason.htm" />
   <HelpKINode Title="Operations property" Url="html/P_Resto_Front_Api_PluginContext_Operations.htm" />
@@ -7811,6 +8016,7 @@
   <HelpKINode Title="OrganizationDetailsInfo.FullAddressStreet property" Url="html/P_Resto_Front_Api_Data_Payments_OrganizationDetailsInfo_FullAddressStreet.htm" />
   <HelpKINode Title="OrganizationDetailsInfo.Name property" Url="html/P_Resto_Front_Api_Data_Payments_OrganizationDetailsInfo_Name.htm" />
   <HelpKINode Title="OrganizationDetailsInfo.OrganizationDetailsInfo constructor" Url="html/M_Resto_Front_Api_Data_Payments_OrganizationDetailsInfo__ctor.htm" />
+  <HelpKINode Title="OriginalProviderTransactionId field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_OriginalProviderTransactionId.htm" />
   <HelpKINode Title="OriginName property">
     <HelpKINode Title="IKitchenOrder.OriginName Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_OriginName.htm" />
     <HelpKINode Title="IOrder.OriginName Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_OriginName.htm" />
@@ -7820,6 +8026,12 @@
   </HelpKINode>
   <HelpKINode Title="Osu enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_IdentifierCodeFlags.htm" />
   <HelpKINode Title="Other enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_ReserveCancelReason.htm" />
+  <HelpKINode Title="Other field">
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentChannel.Other Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentChannel_Other.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentInitiationMethod.Other Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Other.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentMethod.Other Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod_Other.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Other Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Other.htm" />
+  </HelpKINode>
   <HelpKINode Title="OuterEanCode property" Url="html/P_Resto_Front_Api_Data_Device_IOuterEconomicActivityNomenclatureCode_OuterEanCode.htm" />
   <HelpKINode Title="OuterEconomicActivityNomenclatureCode property" Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_OuterEconomicActivityNomenclatureCode.htm" />
   <HelpKINode Title="OutgoingInvoice enumeration member" Url="html/T_Resto_Front_Api_Data_Documents_DocumentType.htm" />
@@ -7955,6 +8167,7 @@
     <HelpKINode Title="IOrderModifierItem.PayableAmount Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrderModifierItem_PayableAmount.htm" />
     <HelpKINode Title="PastOrderItem.PayableAmount Property " Url="html/P_Resto_Front_Api_Data_Orders_PastOrderItem_PayableAmount.htm" />
   </HelpKINode>
+  <HelpKINode Title="PayerBankBic field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_PayerBankBic.htm" />
   <HelpKINode Title="PayInTask class">
     <HelpKINode Title="PayInTask Class" Url="html/T_Resto_Front_Api_Data_Device_Tasks_PayInTask.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_PayInTask__ctor.htm" />
@@ -7964,6 +8177,7 @@
   <HelpKINode Title="PayInTask.PayInTask constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_PayInTask__ctor.htm" />
   <HelpKINode Title="PayInTask.Sum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_PayInTask_Sum.htm" />
   <HelpKINode Title="PayInTypeIsIncorrect enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
+  <HelpKINode Title="Payment field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_OperationKind_Payment.htm" />
   <HelpKINode Title="Payment property" Url="html/P_Resto_Front_Api_Data_Orders_StornedPastOrderInfo_Payment.htm" />
   <HelpKINode Title="PaymentActionCancelledException class">
     <HelpKINode Title="PaymentActionCancelledException Class" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionCancelledException.htm" />
@@ -7985,6 +8199,10 @@
   <HelpKINode Title="PaymentActionFailedException.Reason property" Url="html/P_Resto_Front_Api_Exceptions_PaymentActionFailedException_Reason.htm" />
   <HelpKINode Title="PaymentActionFailedExceptionReason enumeration" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="PaymentAgent enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_FfdAgentType.htm" />
+  <HelpKINode Title="PaymentChannel class">
+    <HelpKINode Title="fields" Url="html/Fields_T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentChannel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PaymentChannel property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_PaymentChannel.htm" />
   <HelpKINode Title="PaymentDataContextExtensions class">
     <HelpKINode Title="PaymentDataContextExtensions Class" Url="html/T_Resto_Front_Api_Extensions_PaymentDataContextExtensions.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_Resto_Front_Api_Extensions_PaymentDataContextExtensions.htm" />
@@ -8000,6 +8218,16 @@
   <HelpKINode Title="PaymentDataContextExtensions.SetRollbackData(Of T) method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_SetRollbackData__1.htm" />
   <HelpKINode Title="PaymentDataContextExtensions.SetRollbackData&lt;T&gt; method" Url="html/M_Resto_Front_Api_Extensions_PaymentDataContextExtensions_SetRollbackData__1.htm" />
   <HelpKINode Title="PaymentDiscounts property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_PaymentDiscounts.htm" />
+  <HelpKINode Title="PaymentInitiationMethod class">
+    <HelpKINode Title="fields" Url="html/Fields_T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PaymentInitiationMethod property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_PaymentInitiationMethod.htm" />
+  <HelpKINode Title="PaymentLink field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_PaymentLink.htm" />
+  <HelpKINode Title="PaymentMethod class">
+    <HelpKINode Title="fields" Url="html/Fields_T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PaymentMethod property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_PaymentMethod.htm" />
+  <HelpKINode Title="PaymentPurpose field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_PaymentPurpose.htm" />
   <HelpKINode Title="PaymentRegisterId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_PaymentRegisterId.htm" />
   <HelpKINode Title="Payments property">
     <HelpKINode Title="IOrder.Payments Property " Url="html/P_Resto_Front_Api_Data_Orders_IOrder_Payments.htm" />
@@ -8021,6 +8249,10 @@
   <HelpKINode Title="PaymentSumNotEnough enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="PaymentSumNotIntegral enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
   <HelpKINode Title="PaymentSumTooLarge enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
+  <HelpKINode Title="PaymentSystem class">
+    <HelpKINode Title="fields" Url="html/Fields_T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PaymentSystem property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_PaymentSystem.htm" />
   <HelpKINode Title="PaymentSystemKey property" Url="html/P_Resto_Front_Api_IPaymentProcessor_PaymentSystemKey.htm" />
   <HelpKINode Title="PaymentSystemName property" Url="html/P_Resto_Front_Api_IPaymentProcessor_PaymentSystemName.htm" />
   <HelpKINode Title="PaymentSystemRegistrationException class">
@@ -8067,6 +8299,7 @@
   <HelpKINode Title="PayOutTask.PayOutTask constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_PayOutTask__ctor.htm" />
   <HelpKINode Title="PayOutTask.Sum property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_PayOutTask_Sum.htm" />
   <HelpKINode Title="PayOutTypeIsIncorrect enumeration member" Url="html/T_Resto_Front_Api_Exceptions_PaymentActionFailedExceptionReason.htm" />
+  <HelpKINode Title="PayQr field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode_PayQr.htm" />
   <HelpKINode Title="PaySilently method" Url="html/M_Resto_Front_Api_IPaymentProcessor_PaySilently.htm" />
   <HelpKINode Title="PayWaiting enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
   <HelpKINode Title="Percent property">
@@ -8128,6 +8361,7 @@
   <HelpKINode Title="PhoneValue property" Url="html/P_Resto_Front_Api_Data_Brd_PhoneDto_PhoneValue.htm" />
   <HelpKINode Title="PickupArrived enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
   <HelpKINode Title="Pickuped enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_RideStatus.htm" />
+  <HelpKINode Title="Pix field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Pix.htm" />
   <HelpKINode Title="PlastekCardNumber property" Url="html/P_Resto_Front_Api_Data_Payments_PlastekPaymentItemAdditionalData_PlastekCardNumber.htm" />
   <HelpKINode Title="PlastekPaymentItemAdditionalData class">
     <HelpKINode Title="PlastekPaymentItemAdditionalData Class" Url="html/T_Resto_Front_Api_Data_Payments_PlastekPaymentItemAdditionalData.htm" />
@@ -8510,6 +8744,7 @@
     <HelpKINode Title="SendPluItemNutritionValue.Protein Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_SendPluItemNutritionValue_Protein.htm" />
   </HelpKINode>
   <HelpKINode Title="ProviderId property" Url="html/P_Resto_Front_Api_Data_Brd_IExternalCourierService_ProviderId.htm" />
+  <HelpKINode Title="ProviderTransactionId property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_ProviderTransactionId.htm" />
   <HelpKINode Title="ProvidesContextAttribute class">
     <HelpKINode Title="ProvidesContextAttribute Class" Url="html/T_Resto_Front_Api_Attributes_JetBrains_ProvidesContextAttribute.htm" />
     <HelpKINode Title="constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_ProvidesContextAttribute__ctor.htm" />
@@ -8539,6 +8774,8 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Resto_Front_Api_Attributes_JetBrains_PureAttribute.htm" />
   </HelpKINode>
   <HelpKINode Title="PureAttribute.PureAttribute constructor" Url="html/M_Resto_Front_Api_Attributes_JetBrains_PureAttribute__ctor.htm" />
+  <HelpKINode Title="QiwiWallet field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_QiwiWallet.htm" />
+  <HelpKINode Title="Qr field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Qr.htm" />
   <HelpKINode Title="QRCode field" Url="html/F_Resto_Front_Api_Data_Cheques_Tags_QRCode.htm" />
   <HelpKINode Title="QueryInfoResult class">
     <HelpKINode Title="QueryInfoResult Class" Url="html/T_Resto_Front_Api_Data_Device_Results_QueryInfoResult.htm" />
@@ -8694,12 +8931,14 @@
   <HelpKINode Title="ReceivesLoyaltySystemNotifications property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ReceivesLoyaltySystemNotifications.htm" />
   <HelpKINode Title="ReceivesOrderStatusNotifications property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ReceivesOrderStatusNotifications.htm" />
   <HelpKINode Title="ReceivesPromotionalNotifications property" Url="html/P_Resto_Front_Api_Data_Brd_IClient_ReceivesPromotionalNotifications.htm" />
+  <HelpKINode Title="RecipientBankBic field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_RecipientBankBic.htm" />
   <HelpKINode Title="RecipientCode property">
     <HelpKINode Title="ExternalCompanyInfo.RecipientCode Property " Url="html/P_Resto_Front_Api_Data_Brd_ExternalCompanyInfo_RecipientCode.htm" />
     <HelpKINode Title="ICounteragent.RecipientCode Property " Url="html/P_Resto_Front_Api_Data_Brd_ICounteragent_RecipientCode.htm" />
   </HelpKINode>
   <HelpKINode Title="RecoverCorruptedReserve method" Url="html/M_Resto_Front_Api_Editors_IEditSession_RecoverCorruptedReserve.htm" />
   <HelpKINode Title="RectangleElements property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_ISectionSchema_RectangleElements.htm" />
+  <HelpKINode Title="Refund field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_OperationKind_Refund.htm" />
   <HelpKINode Title="RefundsCount enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="RefundsCount property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_RefundsCount.htm" />
   <HelpKINode Title="RefundsSum enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
@@ -8742,6 +8981,7 @@
   <HelpKINode Title="Regular enumeration member" Url="html/T_Resto_Front_Api_Data_View_FontStyle.htm" />
   <HelpKINode Title="RelatedTerminal property" Url="html/P_Resto_Front_Api_Data_Device_IPrintingDeviceInfo_RelatedTerminal.htm" />
   <HelpKINode Title="RemainingLimitCost property" Url="html/P_Resto_Front_Api_Data_Orders_IOrderServiceItem_RemainingLimitCost.htm" />
+  <HelpKINode Title="Remote field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentChannel_Remote.htm" />
   <HelpKINode Title="RemovalType property">
     <HelpKINode Title="IDeletionMethod.RemovalType Property " Url="html/P_Resto_Front_Api_Data_Orders_IDeletionMethod_RemovalType.htm" />
     <HelpKINode Title="WriteoffOptions.RemovalType Property " Url="html/P_Resto_Front_Api_Data_Orders_WriteoffOptions_RemovalType.htm" />
@@ -9264,6 +9504,20 @@
   <HelpKINode Title="Resto.Front.Api.Data.Organization.Sections.RestaurantSectionExtensions class" Url="html/T_Resto_Front_Api_Data_Organization_Sections_RestaurantSectionExtensions.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Organization.ServiceMode enumeration" Url="html/T_Resto_Front_Api_Data_Organization_ServiceMode.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments namespace" Url="html/N_Resto_Front_Api_Data_Payments.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.BankPaymentExtensionKeys class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.BankPaymentRuExtensionKeys class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionKeys.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.BankPaymentRuExtensionValues class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.BankPaymentRuExtensionValues.FfdPaymentChannelCode class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentChannelCode.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.BankPaymentRuExtensionValues.FfdPaymentMethodCode class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.BankPaymentRuExtensionValues.FfdPaymentSystemCode class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentSystemCode.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.BankPaymentRuExtensionValues.FfdPaymentToolCode class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.BankTransactionDetails class" Url="html/T_Resto_Front_Api_Data_Payments_BankTransactionDetails.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.BankTransactionDetailsValues class" Url="html/T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.BankTransactionDetailsValues.OperationKind class" Url="html/T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_OperationKind.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.BankTransactionDetailsValues.PaymentChannel class" Url="html/T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentChannel.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.BankTransactionDetailsValues.PaymentInitiationMethod class" Url="html/T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.BankTransactionDetailsValues.PaymentMethod class" Url="html/T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod.htm" />
+  <HelpKINode Title="Resto.Front.Api.Data.Payments.BankTransactionDetailsValues.PaymentSystem class" Url="html/T_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.CardPaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_CardPaymentItemAdditionalData.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.ChequeAdditionalInfo class" Url="html/T_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo.htm" />
   <HelpKINode Title="Resto.Front.Api.Data.Payments.CreditPaymentItemAdditionalData class" Url="html/T_Resto_Front_Api_Data_Payments_CreditPaymentItemAdditionalData.htm" />
@@ -9526,6 +9780,7 @@
   <HelpKINode Title="ReturnPayment method" Url="html/M_Resto_Front_Api_IPaymentProcessor_ReturnPayment.htm" />
   <HelpKINode Title="ReturnPaymentSilently method" Url="html/M_Resto_Front_Api_IPaymentProcessor_ReturnPaymentSilently.htm" />
   <HelpKINode Title="ReturnPaymentWithoutOrder method" Url="html/M_Resto_Front_Api_IPaymentProcessor_ReturnPaymentWithoutOrder.htm" />
+  <HelpKINode Title="Reversal field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_OperationKind_Reversal.htm" />
   <HelpKINode Title="Reverse field" Url="html/F_Resto_Front_Api_Data_Cheques_Attributes_Reverse.htm" />
   <HelpKINode Title="Revision property">
     <HelpKINode Title="ChangedEntity(T).Revision Property " Url="html/P_Resto_Front_Api_Data_Common_ChangedEntity_1_Revision.htm" />
@@ -9573,6 +9828,7 @@
   <HelpKINode Title="RoutePointVisitInfo.RoutePointVisitInfo constructor" Url="html/M_Resto_Front_Api_Data_Brd_RoutePointVisitInfo__ctor.htm" />
   <HelpKINode Title="RoutePointVisitInfo.VisitedAt property" Url="html/P_Resto_Front_Api_Data_Brd_RoutePointVisitInfo_VisitedAt.htm" />
   <HelpKINode Title="Rows property" Url="html/P_Resto_Front_Api_Data_Device_Settings_InternalCustomerDisplaySettings_Rows.htm" />
+  <HelpKINode Title="Rrn property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_Rrn.htm" />
   <HelpKINode Title="RtcDateTime property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_RtcDateTime.htm" />
   <HelpKINode Title="Running enumeration member" Url="html/T_Resto_Front_Api_Data_Device_State.htm" />
   <HelpKINode Title="RuntimeSetup enumeration member" Url="html/T_Resto_Front_Api_Data_Device_State.htm" />
@@ -9595,6 +9851,13 @@
   <HelpKINode Title="SalesSumTotal enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="SalesSumTotal property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_SalesSumTotal.htm" />
   <HelpKINode Title="Sberbank enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_PaymentTypeKind.htm" />
+  <HelpKINode Title="SberPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_SberPay.htm" />
+  <HelpKINode Title="Sbp field">
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentMethodCode.Sbp Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentMethodCode_Sbp.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Sbp Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Sbp.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SbpB2B field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_SbpB2B.htm" />
+  <HelpKINode Title="SbpC2B field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_SbpC2B.htm" />
   <HelpKINode Title="Scale property">
     <HelpKINode Title="ICompoundItemTemplate.Scale Property " Url="html/P_Resto_Front_Api_Data_Assortment_ICompoundItemTemplate_Scale.htm" />
     <HelpKINode Title="IProduct.Scale Property " Url="html/P_Resto_Front_Api_Data_Assortment_IProduct_Scale.htm" />
@@ -9609,6 +9872,7 @@
   <HelpKINode Title="ScaleWeightResult.ScaleWeightResult constructor" Url="html/M_Resto_Front_Api_Data_Device_Results_ScaleWeightResult__ctor.htm" />
   <HelpKINode Title="ScaleWeightResult.Weight property" Url="html/P_Resto_Front_Api_Data_Device_Results_ScaleWeightResult_Weight.htm" />
   <HelpKINode Title="Scanner enumeration member" Url="html/T_Resto_Front_Api_Data_Device_CardScanDeviceType.htm" />
+  <HelpKINode Title="SchemeTransactionDateTime field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_SchemeTransactionDateTime.htm" />
   <HelpKINode Title="ScreenChanged property" Url="html/P_Resto_Front_Api_INotificationService_ScreenChanged.htm" />
   <HelpKINode Title="SearchClients method" Url="html/M_Resto_Front_Api_IOperationService_SearchClients.htm" />
   <HelpKINode Title="SearchDiscountCardByNumber method" Url="html/M_Resto_Front_Api_IOperationService_SearchDiscountCardByNumber.htm" />
@@ -9689,6 +9953,7 @@
   <HelpKINode Title="SendPluTask.StartUpload property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_SendPluTask_StartUpload.htm" />
   <HelpKINode Title="SendTime property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_SendTime.htm" />
   <HelpKINode Title="SendToFiscal enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_IdentifierCodeFlags.htm" />
+  <HelpKINode Title="Sepa field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Sepa.htm" />
   <HelpKINode Title="SerialNumber enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="SerialNumber property">
     <HelpKINode Title="CashRegisterResult.SerialNumber Property " Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_SerialNumber.htm" />
@@ -9764,6 +10029,7 @@
   </HelpKINode>
   <HelpKINode Title="SessionStatus enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CashRegisterStatusField.htm" />
   <HelpKINode Title="SessionStatus property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterStatus_SessionStatus.htm" />
+  <HelpKINode Title="SetBankTransactionDetails method" Url="html/M_Resto_Front_Api_IPaymentDataContext_SetBankTransactionDetails.htm" />
   <HelpKINode Title="SetChequeAdditionalInfo method">
     <HelpKINode Title="IEditSession.SetChequeAdditionalInfo Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_SetChequeAdditionalInfo.htm" />
     <HelpKINode Title="OperationServiceExtensions.SetChequeAdditionalInfo Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_SetChequeAdditionalInfo.htm" />
@@ -10209,6 +10475,7 @@
   </HelpKINode>
   <HelpKINode Title="Tenth enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="TerminalChanged property" Url="html/P_Resto_Front_Api_INotificationService_TerminalChanged.htm" />
+  <HelpKINode Title="TerminalId property" Url="html/P_Resto_Front_Api_Data_Payments_BankTransactionDetails_TerminalId.htm" />
   <HelpKINode Title="TerminalsGroup property" Url="html/P_Resto_Front_Api_Data_Organization_Sections_IRestaurantSection_TerminalsGroup.htm" />
   <HelpKINode Title="TerminalsGroupChanged property" Url="html/P_Resto_Front_Api_INotificationService_TerminalsGroupChanged.htm" />
   <HelpKINode Title="TerminatesProgramAttribute class">
@@ -10247,9 +10514,11 @@
   <HelpKINode Title="TopLeft property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_CustomerDisplayTextTask_TopLeft.htm" />
   <HelpKINode Title="TopRight property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_CustomerDisplayTextTask_TopRight.htm" />
   <HelpKINode Title="TotalIncomeSum property" Url="html/P_Resto_Front_Api_Data_Device_Results_CashRegisterResult_TotalIncomeSum.htm" />
+  <HelpKINode Title="TPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_TPay.htm" />
   <HelpKINode Title="Track1 property" Url="html/P_Resto_Front_Api_Data_View_CardInputDialogResult_Track1.htm" />
   <HelpKINode Title="Track2 property" Url="html/P_Resto_Front_Api_Data_View_CardInputDialogResult_Track2.htm" />
   <HelpKINode Title="Track3 property" Url="html/P_Resto_Front_Api_Data_View_CardInputDialogResult_Track3.htm" />
+  <HelpKINode Title="Transfer field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod_Transfer.htm" />
   <HelpKINode Title="TransferType property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_TransferType.htm" />
   <HelpKINode Title="Transformation enumeration member" Url="html/T_Resto_Front_Api_Data_Documents_DocumentType.htm" />
   <HelpKINode Title="Trpos enumeration member" Url="html/T_Resto_Front_Api_Data_Payments_PaymentTypeKind.htm" />
@@ -10403,6 +10672,11 @@
     <HelpKINode Title="OperationServiceExtensions.UngroupOrderCookingItems Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_UngroupOrderCookingItems.htm" />
   </HelpKINode>
   <HelpKINode Title="Uninitialize method" Url="html/M_Resto_Front_Api_PluginContext_Uninitialize.htm" />
+  <HelpKINode Title="UnionPay field">
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentSystemCode.UnionPay Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentSystemCode_UnionPay.htm" />
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.UnionPay Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_UnionPay.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.UnionPay Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_UnionPay.htm" />
+  </HelpKINode>
   <HelpKINode Title="Unit property">
     <HelpKINode Title="Ffd12ChequeSaleData.Unit Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_Ffd12ChequeSaleData_Unit.htm" />
     <HelpKINode Title="KzChequeSaleData.Unit Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_KzChequeSaleData_Unit.htm" />
@@ -10412,6 +10686,13 @@
     <HelpKINode Title="DocumentType Enumeration" Url="html/T_Resto_Front_Api_Data_Documents_DocumentType.htm" />
     <HelpKINode Title="PaymentTypeKind Enumeration" Url="html/T_Resto_Front_Api_Data_Payments_PaymentTypeKind.htm" />
     <HelpKINode Title="State Enumeration" Url="html/T_Resto_Front_Api_Data_Device_State.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Unknown field">
+    <HelpKINode Title="BankTransactionDetailsValues.OperationKind.Unknown Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_OperationKind_Unknown.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentChannel.Unknown Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentChannel_Unknown.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentInitiationMethod.Unknown Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentInitiationMethod_Unknown.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentMethod.Unknown Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod_Unknown.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Unknown Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Unknown.htm" />
   </HelpKINode>
   <HelpKINode Title="UnprocessPayment method" Url="html/M_Resto_Front_Api_IOperationService_UnprocessPayment.htm" />
   <HelpKINode Title="UnserveOrderCookingItem method">
@@ -10577,7 +10858,14 @@
   <HelpKINode Title="ViewManagerExtensions.ShowChooserPopup&lt;T&gt; method" Url="html/M_Resto_Front_Api_Extensions_ViewManagerExtensions_ShowChooserPopup__1.htm" />
   <HelpKINode Title="Vip enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_OrderItemCourse.htm" />
   <HelpKINode Title="VirtualChequePrinterId property" Url="html/P_Resto_Front_Api_Data_Device_ICashRegisterInfo_VirtualChequePrinterId.htm" />
+  <HelpKINode Title="Visa field">
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentSystemCode.Visa Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentSystemCode_Visa.htm" />
+    <HelpKINode Title="BankPaymentRuExtensionValues.FfdPaymentToolCode.Visa Field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_Visa.htm" />
+    <HelpKINode Title="BankTransactionDetailsValues.PaymentSystem.Visa Field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentSystem_Visa.htm" />
+  </HelpKINode>
   <HelpKINode Title="VisitedAt property" Url="html/P_Resto_Front_Api_Data_Brd_RoutePointVisitInfo_VisitedAt.htm" />
+  <HelpKINode Title="VkPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_VkPay.htm" />
+  <HelpKINode Title="Void field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_OperationKind_Void.htm" />
   <HelpKINode Title="VoidValue structure">
     <HelpKINode Title="VoidValue Structure" Url="html/T_Resto_Front_Api_VoidValue.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Resto_Front_Api_VoidValue.htm" />
@@ -10600,6 +10888,7 @@
   <HelpKINode Title="VoucherPaymentItemAdditionalData.Equals method" Url="html/Overload_Resto_Front_Api_Data_Payments_VoucherPaymentItemAdditionalData_Equals.htm" />
   <HelpKINode Title="VoucherPaymentItemAdditionalData.GetHashCode method" Url="html/M_Resto_Front_Api_Data_Payments_VoucherPaymentItemAdditionalData_GetHashCode.htm" />
   <HelpKINode Title="VoucherPaymentItemAdditionalData.VoucherPaymentItemAdditionalData constructor" Url="html/M_Resto_Front_Api_Data_Payments_VoucherPaymentItemAdditionalData__ctor.htm" />
+  <HelpKINode Title="VtbPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_VtbPay.htm" />
   <HelpKINode Title="Waiter enumeration member" Url="html/T_Resto_Front_Api_Data_Orders_WriteoffType.htm" />
   <HelpKINode Title="Waiter property">
     <HelpKINode Title="IKitchenOrder.Waiter Property " Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_Waiter.htm" />
@@ -10612,11 +10901,13 @@
   <HelpKINode Title="WaiterLock enumeration member" Url="html/T_Resto_Front_Api_Data_Device_CardScanDeviceType.htm" />
   <HelpKINode Title="WaiterTeamChanged property" Url="html/P_Resto_Front_Api_INotificationService_WaiterTeamChanged.htm" />
   <HelpKINode Title="Waiting enumeration member" Url="html/T_Resto_Front_Api_Data_Brd_DeliveryStatus.htm" />
+  <HelpKINode Title="Wallet field" Url="html/F_Resto_Front_Api_Data_Payments_BankTransactionDetailsValues_PaymentMethod_Wallet.htm" />
   <HelpKINode Title="Warn method" Url="html/M_Resto_Front_Api_ILog_Warn.htm" />
   <HelpKINode Title="WarnFormat method" Url="html/Overload_Resto_Front_Api_ILog_WarnFormat.htm" />
   <HelpKINode Title="Warnings property" Url="html/P_Resto_Front_Api_Data_Device_Results_OkResult_Warnings.htm" />
   <HelpKINode Title="Warrant enumeration member" Url="html/T_Resto_Front_Api_Data_Device_Tasks_CorrectionReason.htm" />
   <HelpKINode Title="WasPrepaid property" Url="html/P_Resto_Front_Api_Data_Orders_IOrder_WasPrepaid.htm" />
+  <HelpKINode Title="WebMoney field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_WebMoney.htm" />
   <HelpKINode Title="Weight property" Url="html/P_Resto_Front_Api_Data_Device_Results_ScaleWeightResult_Weight.htm" />
   <HelpKINode Title="WeightOnly enumeration member" Url="html/T_Resto_Front_Api_Data_Assortment_FractionalProductAmountMode.htm" />
   <HelpKINode Title="WeightTare property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_SendPluItem_WeightTare.htm" />
@@ -10701,6 +10992,8 @@
   </HelpKINode>
   <HelpKINode Title="XReportTask.XReportTask constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_XReportTask__ctor.htm" />
   <HelpKINode Title="Y property" Url="html/P_Resto_Front_Api_Data_View_RestaurantSectionObject_Y.htm" />
+  <HelpKINode Title="YandexPay field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_YandexPay.htm" />
+  <HelpKINode Title="YooMoney field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionValues_FfdPaymentToolCode_YooMoney.htm" />
   <HelpKINode Title="Z property" Url="html/P_Resto_Front_Api_Data_View_RestaurantSectionObject_Z.htm" />
   <HelpKINode Title="ZeroAmountCommonModifiersData property" Url="html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrderCompoundItem_ZeroAmountCommonModifiersData.htm" />
   <HelpKINode Title="ZeroAmountModifiersData property">
