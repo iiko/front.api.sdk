@@ -4753,6 +4753,8 @@
   <HelpKINode Title="IEditSession.HasChanges property" Url="html/P_Resto_Front_Api_Editors_IEditSession_HasChanges.htm" />
   <HelpKINode Title="IEditSession.MarkOrderAsAdditional method" Url="html/M_Resto_Front_Api_Editors_IEditSession_MarkOrderAsAdditional.htm" />
   <HelpKINode Title="IEditSession.MarkOrderAsTab method" Url="html/M_Resto_Front_Api_Editors_IEditSession_MarkOrderAsTab.htm" />
+  <HelpKINode Title="IEditSession.MoveOrderItemsToAnotherGuest method" Url="html/M_Resto_Front_Api_Editors_IEditSession_MoveOrderItemsToAnotherGuest.htm" />
+  <HelpKINode Title="IEditSession.MoveOrderItemsToAnotherOrder method" Url="html/M_Resto_Front_Api_Editors_IEditSession_MoveOrderItemsToAnotherOrder.htm" />
   <HelpKINode Title="IEditSession.MoveOrderItemToAnotherGuest method" Url="html/M_Resto_Front_Api_Editors_IEditSession_MoveOrderItemToAnotherGuest.htm" />
   <HelpKINode Title="IEditSession.MoveOrderItemToAnotherOrder method" Url="html/M_Resto_Front_Api_Editors_IEditSession_MoveOrderItemToAnotherOrder.htm" />
   <HelpKINode Title="IEditSession.OverrideVatInclusionForOrder method" Url="html/M_Resto_Front_Api_Editors_IEditSession_OverrideVatInclusionForOrder.htm" />
@@ -7312,6 +7314,14 @@
   <HelpKINode Title="MovedFromTerminalGroupId property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_MovedFromTerminalGroupId.htm" />
   <HelpKINode Title="MovedToDeliveryId property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_MovedToDeliveryId.htm" />
   <HelpKINode Title="MovedToTerminalGroupId property" Url="html/P_Resto_Front_Api_Data_Orders_IDeliveryOrder_MovedToTerminalGroupId.htm" />
+  <HelpKINode Title="MoveOrderItemsToAnotherGuest method">
+    <HelpKINode Title="IEditSession.MoveOrderItemsToAnotherGuest Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_MoveOrderItemsToAnotherGuest.htm" />
+    <HelpKINode Title="OperationServiceExtensions.MoveOrderItemsToAnotherGuest Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MoveOrderItemsToAnotherGuest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MoveOrderItemsToAnotherOrder method">
+    <HelpKINode Title="IEditSession.MoveOrderItemsToAnotherOrder Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_MoveOrderItemsToAnotherOrder.htm" />
+    <HelpKINode Title="OperationServiceExtensions.MoveOrderItemsToAnotherOrder Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MoveOrderItemsToAnotherOrder.htm" />
+  </HelpKINode>
   <HelpKINode Title="MoveOrderItemToAnotherGuest method">
     <HelpKINode Title="IEditSession.MoveOrderItemToAnotherGuest Method " Url="html/M_Resto_Front_Api_Editors_IEditSession_MoveOrderItemToAnotherGuest.htm" />
     <HelpKINode Title="OperationServiceExtensions.MoveOrderItemToAnotherGuest Method " Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MoveOrderItemToAnotherGuest.htm" />
@@ -7886,6 +7896,8 @@
   <HelpKINode Title="OperationServiceExtensions.GroupOrderCookingItems method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_GroupOrderCookingItems.htm" />
   <HelpKINode Title="OperationServiceExtensions.MarkOrderAsAdditional method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MarkOrderAsAdditional.htm" />
   <HelpKINode Title="OperationServiceExtensions.MarkOrderAsTab method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MarkOrderAsTab.htm" />
+  <HelpKINode Title="OperationServiceExtensions.MoveOrderItemsToAnotherGuest method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MoveOrderItemsToAnotherGuest.htm" />
+  <HelpKINode Title="OperationServiceExtensions.MoveOrderItemsToAnotherOrder method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MoveOrderItemsToAnotherOrder.htm" />
   <HelpKINode Title="OperationServiceExtensions.MoveOrderItemToAnotherGuest method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MoveOrderItemToAnotherGuest.htm" />
   <HelpKINode Title="OperationServiceExtensions.MoveOrderItemToAnotherOrder method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_MoveOrderItemToAnotherOrder.htm" />
   <HelpKINode Title="OperationServiceExtensions.OverrideVatInclusionForOrder method" Url="html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_OverrideVatInclusionForOrder.htm" />
