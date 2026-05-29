@@ -629,7 +629,6 @@
   <HelpKINode Title="BankPaymentExtensionKeys.PayerBankBic field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_PayerBankBic.htm" />
   <HelpKINode Title="BankPaymentExtensionKeys.PaymentPurpose field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_PaymentPurpose.htm" />
   <HelpKINode Title="BankPaymentExtensionKeys.RecipientBankBic field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_RecipientBankBic.htm" />
-  <HelpKINode Title="BankPaymentExtensionKeys.SchemeTransactionDateTime field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_SchemeTransactionDateTime.htm" />
   <HelpKINode Title="BankPaymentRuExtensionKeys class">
     <HelpKINode Title="BankPaymentRuExtensionKeys Class" Url="html/T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionKeys.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_Resto_Front_Api_Data_Payments_BankPaymentRuExtensionKeys.htm" />
@@ -1844,6 +1843,7 @@
   </HelpKINode>
   <HelpKINode Title="ChequePayment.ChequePayment constructor" Url="html/M_Resto_Front_Api_Data_Device_Tasks_ChequePayment__ctor.htm" />
   <HelpKINode Title="ChequePayment.Comment property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_Comment.htm" />
+  <HelpKINode Title="ChequePayment.FiscalTags property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_FiscalTags.htm" />
   <HelpKINode Title="ChequePayment.IsDefaultNonCash property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_IsDefaultNonCash.htm" />
   <HelpKINode Title="ChequePayment.Name property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_Name.htm" />
   <HelpKINode Title="ChequePayment.PaymentRegisterId property" Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_PaymentRegisterId.htm" />
@@ -3483,6 +3483,7 @@
   <HelpKINode Title="FiscalTags property">
     <HelpKINode Title="BeforeDoChequeActionResult.FiscalTags Property " Url="html/P_Resto_Front_Api_Data_Device_BeforeDoChequeActionResult_FiscalTags.htm" />
     <HelpKINode Title="BillTask.FiscalTags Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_BillTask_FiscalTags.htm" />
+    <HelpKINode Title="ChequePayment.FiscalTags Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequePayment_FiscalTags.htm" />
     <HelpKINode Title="ChequeSale.FiscalTags Property " Url="html/P_Resto_Front_Api_Data_Device_Tasks_ChequeSale_FiscalTags.htm" />
   </HelpKINode>
   <HelpKINode Title="FiscalTagsResult class">
@@ -9884,7 +9885,6 @@
   <HelpKINode Title="ScaleWeightResult.ScaleWeightResult constructor" Url="html/M_Resto_Front_Api_Data_Device_Results_ScaleWeightResult__ctor.htm" />
   <HelpKINode Title="ScaleWeightResult.Weight property" Url="html/P_Resto_Front_Api_Data_Device_Results_ScaleWeightResult_Weight.htm" />
   <HelpKINode Title="Scanner enumeration member" Url="html/T_Resto_Front_Api_Data_Device_CardScanDeviceType.htm" />
-  <HelpKINode Title="SchemeTransactionDateTime field" Url="html/F_Resto_Front_Api_Data_Payments_BankPaymentExtensionKeys_SchemeTransactionDateTime.htm" />
   <HelpKINode Title="ScreenChanged property" Url="html/P_Resto_Front_Api_INotificationService_ScreenChanged.htm" />
   <HelpKINode Title="SearchClients method" Url="html/M_Resto_Front_Api_IOperationService_SearchClients.htm" />
   <HelpKINode Title="SearchDiscountCardByNumber method" Url="html/M_Resto_Front_Api_IOperationService_SearchDiscountCardByNumber.htm" />
