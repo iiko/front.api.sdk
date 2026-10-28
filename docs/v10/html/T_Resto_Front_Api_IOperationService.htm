@@ -114,6 +114,8 @@
             Changes ride current status to a new one and sets status details if any.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_CheckCanEditOrder.htm">CheckCanEditOrder</a></td><td>
             If current user has permissions to view order.
+            </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_CheckEgaisMarkTareOperation.htm">CheckEgaisMarkTareOperation</a></td><td>
+            Preliminary check of an operation on EGAIS tare without sending any data: write-off (unsealing) or cancellation of the write-off (return). The same rules as in ProcessEgaisMarkTareOperation are applied; nothing is sent to EGAIS and nothing is reserved. The status is returned for every position in the order of the input collection. Available to any plugin.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_CheckFfd12Marking.htm">CheckFfd12Marking</a></td><td>
             Check item marking. This operation is specific for devices with FFD 1.2 protocol.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_CheckPermission.htm">CheckPermission</a></td><td>
@@ -265,13 +267,17 @@
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetDocuments.htm">GetDocuments</a></td><td> </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetDonationTypesCompatibleWith.htm">GetDonationTypesCompatibleWith</a></td><td>
             Gets donation types which are allowed to use with the order.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetEgaisProductPackageVolumes.htm">GetEgaisProductPackageVolumes(Guid)</a></td><td>
-            Returns Egais product package volumes which are retrieved by product id converted to alc code. Throws <a href="T_Resto_Front_Api_Exceptions_EgaisDataException.htm">EgaisDataException</a> when could not retrieve data by product id.
+            Returns Egais product volumes and packed flags which are retrieved by product id converted to alc code. Throws <a href="T_Resto_Front_Api_Exceptions_EgaisDataException.htm">EgaisDataException</a> when could not retrieve data by product id.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetEgaisProductPackageVolumes_1.htm">GetEgaisProductPackageVolumes(String, String)</a></td><td>
-            Returns Egais product ids and volumes which are retrieved by excise stamp converted to alc code. Throws <a href="T_Resto_Front_Api_Exceptions_EgaisDataException.htm">EgaisDataException</a> when could not retrieve data by excise stamp.
+            Returns Egais product ids, volumes and packed flags which are retrieved by excise stamp converted to alc code. Throws <a href="T_Resto_Front_Api_Exceptions_EgaisDataException.htm">EgaisDataException</a> when could not retrieve data by excise stamp.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetExternalNotificationSubscription.htm">GetExternalNotificationSubscription</a></td><td>
             Get or registers external notification subscription.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetExternalOperations.htm">GetExternalOperations</a></td><td>
             Returns the list of all currently registered external operations with their service names and owner plugins' licensable module identifiers.
+            </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetFiscalDocumentById.htm">GetFiscalDocumentById</a></td><td>
+            Returns fiscalDocument by id.
+            </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetFiscalDocumentsByOrder.htm">GetFiscalDocumentsByOrder</a></td><td>
+            Returns fiscal documents of the specified order.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetFrontDeliverySettings.htm">GetFrontDeliverySettings</a></td><td>
             Returns courier and self-service delivery duration time set on a delivery terminal.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_GetGroupModifiers.htm">GetGroupModifiers</a></td><td>
@@ -506,6 +512,8 @@
             Printing receipts to a printer.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_PrintTableReservedCheque.htm">PrintTableReservedCheque</a></td><td>
             Prints short “Table reserved” document with estimated event date and time, guests count and client contacts. Can be used to place onto reserved table as a hint not to occupy it.
+            </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_ProcessEgaisMarkTareOperation.htm">ProcessEgaisMarkTareOperation</a></td><td>
+            Performs an operation on EGAIS tare: write-off (unsealing) or cancellation of the write-off (return). Every position is validated independently by the rules of the tare unsealing window of iikoFront (packed marked tare is unsealed once, a marked keg many times while the mark is registered, unmarked tare by the iiko product); the positions that passed validation are sent to the server as one batch, so they share the batch result. The status is returned for every position in the order of the input collection. Available to any plugin.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_ProcessPrepay.htm">ProcessPrepay</a></td><td>
             Processes existing payment item. Payment item should be processed externally or supports silent processing.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_RegisterAfterFormatDocumentHandler.htm">RegisterAfterFormatDocumentHandler</a></td><td>
@@ -644,6 +652,8 @@
             Returns document by id or <span class="code">null</span> if document with specified id doesn't exist.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_TryGetDocumentPrinter.htm">TryGetDocumentPrinter</a></td><td>
             Try get document printer for specified restaurant section.
+            </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_TryGetFiscalDocumentById.htm">TryGetFiscalDocumentById</a></td><td>
+            Returns fiscalDocument by id or <span class="code">null</span> if fiscalDocument with specified id doesn't exist.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_TryGetIncludedInMenuSectionsByProduct.htm">TryGetIncludedInMenuSectionsByProduct</a></td><td>
             Returns includedInMenuSections of the specified product or <span class="code">null</span> if product doesn't exist.
             </td></tr><tr><td><img src="../icons/pubMethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Resto_Front_Api_IOperationService_TryGetKitchenOrderById.htm">TryGetKitchenOrderById</a></td><td>
